@@ -13,7 +13,7 @@ and growth throughout my studies. It serves as a comprehensive portfolio that hi
 and experiences gained during my academic career.
 
 I am a student in Computer Science with a focus on AI. 
-A high distinction honors graduate: AS in CS from Laramie County Community College (LCCC) – Dec. 2023  
+A high distinction honors graduate: AS in CS from Laramie County Community College (LCCC) â€“ Dec. 2023  
 A junior student at Colorado State University Global (CSU Global) pursuing a BS in CS (Expected Graduation: July 2025)
 
 
@@ -24,8 +24,6 @@ Requirements:
 - [Jupyter Notebook](https://jupyter.org/)    
 - [c++](https://isocpp.org/std/the-standard)
 - [java](https://www.java.com/en/)
-- [OpenAI API](https://openai.com/)  
-
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -39,14 +37,32 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [](#) 
+- [Basic Programming ITS320](#basic-programming-its320) 
 - [Operating Systems and Architecture](#operating-systems-and-architecture) 
 - [Computer Science 1 c++](#computer-science-1-c++) 
 - [Python Data Science](#python-data-science)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# Operating Systems and Architecture
+## Basic Programming ITS320
+Directory: Basic-Programming-ITS320
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
+at Colorado State University Global- CSU Global.  
+Winter Semester (24WD) - 2024
+
+Related links:
+https://csuglobal.edu/
+https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-computer-science
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Operating Systems and Architecture
 Directory: OS-and-Architecture  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -63,7 +79,7 @@ https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-c
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# Computer Science 1 c++
+## Computer Science 1 c++
 Directory: cpp_cos-1  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -80,7 +96,7 @@ https://lccc.wy.edu/pathways/sciTechEngMath/computerScienceProgram/index.aspx
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# Python Data Science  
+## Python Data Science  
 Directory: python_datascience  
 
 -----------------------------------------------------------------------------------------------------------------------------
