@@ -1,0 +1,4 @@
+,New York, ,London,  ,Paris,   
+0,True Positives:,541,True Positives:,203,True Positives:,38
+1,False Positive - Was London:,404,False Positive - Was New York:,824,False Positive - Was New York:,103
+2,False Positive - Was Paris:,28,False Positive - Was Paris:,34,False Positive - Was London:,340

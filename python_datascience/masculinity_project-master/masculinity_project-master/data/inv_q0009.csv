@@ -1,0 +1,7 @@
+,q0009,Which of the following categories best describes your employment status?,cluster_1,cluster_2
+0,0,"Employed, working full-time",0.4221183800623053,0.3779527559055118
+1,1,Not employed-retired,0.3691588785046729,0.4199475065616798
+2,2,"Employed, working part-time",0.09034267912772585,0.09448818897637795
+3,3,"Not employed, NOT looking for work",0.06074766355140187,0.07349081364829396
+4,4,"Not employed, looking for work",0.03894080996884735,0.023622047244094488
+5,5,"Not employed, student",0.018691588785046728,0.010498687664041995

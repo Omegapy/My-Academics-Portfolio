@@ -1,0 +1,4 @@
+,q0025,Do you have any children?,cluster_1,cluster_2
+0,0,"Yes, one or more children under 18",0.1526479750778816,0.10498687664041995
+1,1,"Yes, one or more children 18 or older",0.557632398753894,0.6351706036745407
+2,2,No children,0.3302180685358255,0.29396325459317585

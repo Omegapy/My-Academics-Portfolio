@@ -1,0 +1,10 @@
+,Features,Score,coeff_r
+0,SecondServeReturnPointsWon_BreakPointsOpportunities,0.8549587926799106,0.9314412611807242
+1,BreakPointsOpportunities_ReturnPointsWon,0.8413135732847775,0.9191154340623964
+2,BreakPointsConverted_BreakPointsOpportunities,0.8313939011763343,0.9123407654382486
+3,Aces_BreakPointsOpportunities,0.8305477582062062,0.9118068953268843
+4,SecondServePointsWon_BreakPointsOpportunities,0.8102269469599831,0.901982985736399
+5,BreakPointsOpportunities_ServiceGamesWon,0.802456295709222,0.8974848358569448
+6,FirstServePointsWon_BreakPointsOpportunities,0.801148166013946,0.8961713473022738
+7,BreakPointsOpportunities_ReturnGamesWon,0.8000786537037626,0.8944734064352425
+8,BreakPointsOpportunities_TotalPointsWon,0.7908559125610697,0.8899062362085843
