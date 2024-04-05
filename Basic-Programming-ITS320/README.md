@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------------------------------
-# Basic Programming Python – IT320
+# Basic Programming Python â€“ IT320
 -----------------------------------------------------------------------------------------------------------------------------
 
  Alejandro (Alex) Ricciardi (Omegapy)  
@@ -19,12 +19,13 @@ https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-c
 
 IT320 - Basic Programming Python Course  
 Professor: Dr. Reinaldo Fernandez  
-Winter Semester (24WD) – 2023  
+Winter Semester (24WD) â€“ 2023  
 Student: Alejandro (Alex) Ricciardi  
 
 Final grade: A+ 100%
 
 -----------------------------------------------------------------------------------------------------------------------------
+
 Requirements:  
 - [Python](https://www.python.org/)
 
@@ -47,11 +48,11 @@ My Links:
 - [ITS320 CTA3 Option2](#its320-cta3-option2)  
 - [ITS320 CTA2 Option2](#its320-cta2-option2)  
 - [ITS320 CTA1 Option1](#its320-cta1-option1)  
-- [Discussions](# Discussions) 
+- [Discussions](#discussions) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# ITS320 PFA Option2
+## ITS320 PFA Option2
 Portfolio Assignment Option 2
 File: ITS320_PFA.Option2.py  
 Date: 04/07/2024
@@ -84,40 +85,45 @@ Your program should have appropriate methods such as:
 - remove a home
 - update home attributes  
 At the end of your program, be sure that it allows the user to output all home inventory to a text file.
+
 -------------------------------------------------------------------------------------------
+
 Pseudocode:
 1. Import necessary modules (os) to manipulate file  
 2. Create banner  
-3. Define the HomeInventory  
-  - Define a dictionary to store the home data  
-    The dictionary needs to be private to meet the attributes private requirements of the assignment  
-  - Constructor (init): Initialize the HomeInventory object with the provided filename  
-  - Destructor (del): Perform cleanup when the HomeInventory object is destroyed  
-  - Getters: Methods to retrieve home data attributes  
-  - Setters: Methods to add, remove, and update homes in the inventory  
-  - Class Information Methods: Implement str and repr for string representation of the class  
+3. Define the HomeInventory
+    - Define a dictionary to store the home data  
+      The dictionary needs to be private to meet the attributes private requirements of the assignment  
+    - Constructor (init): Initialize the HomeInventory object with the provided filename  
+    - Destructor (del): Perform cleanup when the HomeInventory object is destroyed  
+    - Getters: Methods to retrieve home data attributes  
+    - Setters: Methods to add, remove, and update homes in the inventory  
+    - Class Information Methods: Implement str and repr for string representation of the class  
 4. Define display functions
-  - display_home_data_using_home_id: Display the home data for a specific home using its ID  
-  - display_homes: Display a range of homes from the inventory file  
+    - display_home_data_using_home_id: Display the home data for a specific home using its ID  
+    - display_homes: Display a range of homes from the inventory file  
 5. Define menu functions   
-  - get_valid_input: Prompt the user for input and validate it based on data type  
-  - menus: Display the menus to handle user input and to manipulate the home data  
+    - get_valid_input: Prompt the user for input and validate it based on data type  
+    - menus: Display the menus to handle user input and to manipulate the home data  
 6. Define the main function  
-  - Create a HomeInventory object  
-  - Display class HomeInventory information  
-  - Start the user interface menu  
+    - Create a HomeInventory object  
+    - Display class HomeInventory information  
+    - Start the user interface menu  
 -------------------------------------------------------------------------------------------
+
 Program Inputs:
     - User input for adding, updating, and removing homes  
     - User input for displaying home information  
     - User input for navigating the menu options  
+    
 -------------------------------------------------------------------------------------------
+
 Program Inputs: User input for home details, menu choices, and file name.  
 Program Outputs: Display of home inventory, updated inventory file, and user prompts.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# ITS320 CTA6 Option1  
+## ITS320 CTA6 Option1  
 Critical Thinking Assignment 6 Option 1  
 File: ITS320_CTA6.Option1.py   
 Date: 03/24/2024  
@@ -143,7 +149,7 @@ One line of input: The real and imaginary part of a number separated by a space.
 Output Format  
 For two complex numbers and the output should be in the following sequence on separate lines:  
 C + D  
-C – D  
+C â€“ D  
 C * D  
 C / D  
 mod(C)  
@@ -169,31 +175,37 @@ Sample Output
 0.26-0.11i  
 2.24+0.00i  
 7.81+0.00i  
+
 -------------------------------------------------------------------------------------------
+
 Pseudocode:  
 1. Display a banner for the program.  
 2. Prompt the user to enter the real and imaginary parts of two complex numbers.  
-      a. Check if the numbers are valid floats  
+   a. Check if the numbers are valid floats  
 3. Create a complex number class  
-      a. Create methods that perform arithmetic operations on complex number  
-          - addition   
-          - subtraction  
-          - multiplication  
-          - division  
-          - modulus operations  
-      b. create a method that the string representation of the complex number  
-4. Display the results of these operations.  
+   a. Create methods that perform arithmetic operations on complex number  
+     - addition   
+     - subtraction  
+     - multiplication  
+     - division  
+     - modulus operations  
+   b. create a method that the string representation of the complex number  
+4. Display the results of these operations.
+
 -------------------------------------------  
+
 Program Inputs:  
-- Two sets of real and imaginary parts of complex numbers entered by the user as a set of floats.  
+- Two sets of real and imaginary parts of complex numbers entered by the user as a set of floats.
+  
 -------------------------------------------
+
 Program Outputs:  
 - The results of the operations on the input complex numbers:  
 addition, subtraction, multiplication, division, and modulus operations.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# ITS320 CTA5 Option2  
+## ITS320 CTA5 Option2  
 Critical Thinking Assignment 5 Option 2  
 File: ITS320_CTA5.Option2.py   
 Date: 03/17/2024
@@ -217,36 +229,43 @@ In the main program, prompt the user for the three strings and pass these values
 Pseudocode:  
 1. Display a banner.  
 2. Prompt the user to enter three strings.  
-  a. For each user input, checks if a string was entered, if not prompts the user to reenter a string.  
-  b. Store the three string in a list  
+  a. For each user input, check if a string was entered, if not prompts the user to reenter a string.  
+  b. Store the three strings in a list  
 3. Call the process_strings function  
-  NOTE: this function breaks the Golden Rule of Modularization, but it is compliant with the assignment instructions.  
-         Assignment Instructions:  
-                Write a Python function that will work on three strings.  
-                The function will return a concatenation of the first two strings  
-                and will print the third string in reverse order. The function is to be called from the main program.  
-                In the main program, prompt the user for the three strings and pass these values to the function.  
-  a. Call the concatenated_strings function  
-      Concatenate the first two strings.  
-      Return concatenated string  
-  b. Call the concatenated_strings function  
-      Reverse the third string.  
-      Return reversed string  
-  c. Print the concatenated string  
-  d. Return concatenated string from the return concatenated_strings function  
+     * NOTE: This function breaks the Golden Rule of Modularization, but it is compliant with the assignment instructions.  
+       * Assignment Instructions:  
+         Write a Python function that will work on three strings.  
+         The function will return a concatenation of the first two strings  
+         and will print the third string in reverse order. The function is to be called from the main program.   
+         In the main program, prompt the user for the three strings and pass these values to the function.
+
+    a. Call the concatenated_strings function  
+      - Concatenate the first two strings.  
+      - Return concatenated string
+     b. Call the concatenated_strings function  
+      - Reverse the third string.  
+      - Return reversed string
+         
+    c. Print the concatenated string  
+    d. Return concatenated string from the return concatenated_strings function
+   
 6. Print the reversed third string.  
-7. Print the concatenated string.  
+7. Print the concatenated string.
+   
 -------------------------------------------
+
 Program Inputs:  
-- Three strings entered by the user.  
+- Three strings entered by the user.
+  
 -------------------------------------------
+
 Program Outputs:  
 - reversed_string, the reversed third string.  
 - concatenated_str, the concatenated string of the first two strings.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# ITS320 CTA4 Option2  
+## ITS320 CTA4 Option2  
 Critical Thinking Assignment 4 Option 2  
 File: ITS320_CTA4.Option2.py   
 Date: 03/10/2024
@@ -266,7 +285,8 @@ Write a program that will provide important statistics for the grades in a class
 Ask the user to enter the values, then print the following data:  
 - Average  
 - Maximum  
-- Minimum  
+- Minimum
+  
 -------------------------------------------------------------------------------------------
 
 Pseudocode:  
@@ -274,16 +294,20 @@ Pseudocode:
 2. Create - initialize a global dictionary to store average, maximum, and minimum grades statistics.  
 3. Define a function to check if a string can be converted to a float.  
 4. Define a function to prompt the user to enter five valid grades.  
-      a. validate each user inputted to ensure it is a float between 0 and 100 included  
-      b. return a list of float grades  
+   a. validate each user inputted to ensure it is a float between 0 and 100 included  
+   b. return a list of float grades  
 5. Define a function to calculate and store the average, maximum, and minimum of the grades.  
 6. Define a function to display the calculated grade statistics.  
 7. In the main function, allow input grades, calculate and display statistics,  
-   and then offer the user to exit program or enter another set of grades.  
+   and then offer the user to exit the program or enter another set of grades.
+   
 -------------------------------------------  
+
 Program Inputs:
 Five grades inputted (str) by the user  
+
 -------------------------------------------  
+
 Program Outputs:  
 - banner (str)  
 - average (float)  
@@ -292,7 +316,7 @@ Program Outputs:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# ITS320 CTA3 Option2  
+## ITS320 CTA3 Option2  
 Critical Thinking Assignment 3 Option 2  
 File: ITS320_CTA3.Option2.py   
 Date: 03/03/2024
@@ -314,21 +338,26 @@ Create a program that will calculate the weekly average tax withholding for a cu
 - Store the income brackets and rates in a dictionary.  
 - Write a statement that prompts the user for an income and then looks up the tax rate from the dictionary  
   and prints the income, tax rate, and tax.  
-- Develop Python code that implements the program requirements.  
+- Develop Python code that implements the program requirements.
+   
 -------------------------------------------------------------------------------------------
 
 Pseudocode:  
 1. Create a dictionary to store the  weekly income brackets (as keys) and related tax rates (as values).
 2. Display program banner.
 3. Prompt the user to enter weekly income.
-      a. Validate the input to ensure it is a positive whole number or a positive two decimal number (currency)
+ emsp a. Validate the input to ensure it is a positive whole number or a positive two decimal number (currency)
 5. Calculate the tax based the brackets weekly income and related tax rates dictionary values.
       a. Handle errors.
 7. Display the weekly income, tax rate, and the average tax withholding to the user.
+   
 -------------------------------------------
+
 Program Inputs:
 - weekly_income (str) entered by the user
+  
 -------------------------------------------
+
 Program Outputs:
 - banner (str)
 - weekly_income (float)
@@ -337,7 +366,7 @@ Program Outputs:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# ITS320 CTA2 Option2  
+## ITS320 CTA2 Option2  
 Critical Thinking Assignment 2 Option 2  
 File: ITS320_CTA2.Option2.py   
 Date: 02/25/2024
@@ -347,6 +376,7 @@ Date: 02/25/2024
 
 Program Objective:  
 Store user-input data in a dictionary and print out the contents of the dictionary.  
+
 -------------------------------------------------------------------------------------------
 
 Assignment Directions:  
@@ -355,6 +385,7 @@ Develop a Python application that incorporates using appropriate data types and 
 Your program should prompt a user to enter a car brand, model, year, starting odometer reading, an ending odometer reading,  
 and the estimated miles per gallon consumed by the vehicle. Store your data in a dictionary  
 and print out the contents of the dictionary.  
+
 -------------------------------------------------------------------------------------------
 
 Pseudocode:
@@ -373,7 +404,9 @@ Pseudocode:
      (starting odometer reading must not be greater than or not equal to the ending odometer reading)
 4. Store the validated inputs in a dictionary
 5. Print the car details stored in the dictionary
+   
 -------------------------------------------
+
 Program Inputs:
 - brand (string)
 - model (string)
@@ -381,7 +414,9 @@ Program Inputs:
 - starting odometer reading (non-negative integer)
 - ending odometer reading (non-negative integer, greater than or equal to starting odometer)
 - miles per gallon (non-negative integer)
+
 -------------------------------------------
+
 Program Outputs:
 - brand (string)
 - model (string)
@@ -392,7 +427,7 @@ Program Outputs:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-# ITS320 CTA1 Option1  
+## ITS320 CTA1 Option1  
 Critical Thinking Assignment 1 Option 1  
 File: ITS320_CTA1.Option1.py   
 Date: 02/15/2024
@@ -414,7 +449,8 @@ Assignment Instructions:
 Install Python3 on your computer if you have not already installed it.  
 Make sure you check the box to include the Python executable in your environment path.  
 Edit your Python program using your choice of editor such as Notepad, Notepad++,  
-or Idle. Idle is a simple Python interactive development environment that installed with your Python package.  
+or Idle. Idle is a simple Python interactive development environment that installed with your Python package. 
+
 -------------------------------------------------------------------------------------------
 
 Pseudocode:  
@@ -427,10 +463,21 @@ Pseudocode:
 4. Print each mouse representation using three different methods:  
    - Method-1, using a multi-line string  
    - Method-2, using new-line characters strings  
-   - Method-3, using a string array  
-#-------------------------------------------  
+   - Method-3, using a string array
+     
+-------------------------------------------  
+
 Program Inputs: None  
 Program Outputs:  
 1. A decorative banner.  
-2. Three ASCII art representations of the same mouse.  
+2. Three ASCII art representations of the same mouse.
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Discussions 
+This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
+Directory: Discussions
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
