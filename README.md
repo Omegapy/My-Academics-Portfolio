@@ -35,8 +35,7 @@ My Links:
 - [Instagram](https://www.instagram.com/alexomegapy/)
 
 Related links:  
-https://csuglobal.edu/  
-https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-computer-science  
+[CSU Global](https://csuglobal.edu/) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -58,10 +57,6 @@ Projects Description:
 This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
 at Colorado State University Global- CSU Global.  
 Winter Semester (24WD) - 2024
-
-Related links:
-https://csuglobal.edu/  
-https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-computer-science  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
