@@ -32,15 +32,19 @@ My Links:
 - [LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)
 - [Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
 - [Twitter](https://twitter.com/RicciardiAlex)   
-- [Instagram](https://www.instagram.com/alexomegapy/)  
+- [Instagram](https://www.instagram.com/alexomegapy/)
+
+Related links:  
+https://csuglobal.edu/  
+https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-computer-science  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Basic Programming ITS320](#basic-programming-its320) 
-- [Operating Systems and Architecture](#operating-systems-and-architecture) 
-- [Computer Science 1 c++](#computer-science-1-c++) 
-- [Python Data Science](#python-data-science)
+- [Basic Programming ITS320](#basic-programming-its320)  
+- [Operating Systems and Architecture](#operating-systems-and-architecture)  
+- [Computer Science 1 cpp](#computer-science-1-cpp)  
+- [Python Data Science](#python-data-science)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -56,9 +60,8 @@ at Colorado State University Global- CSU Global.
 Winter Semester (24WD) - 2024
 
 Related links:
-https://csuglobal.edu/
-https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-computer-science
-
+https://csuglobal.edu/  
+https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-computer-science  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -73,13 +76,9 @@ This repository is a collection of essay assignments from CSC300 - Operating Sys
 at Colorado State University Global- CSU Global
 Spring Semester (23SD) - 2023
 
-Related links:  
-https://csuglobal.edu/  
-https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-computer-science  
-
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Computer Science 1 c++
+## Computer Science 1 cpp
 Directory: cpp_cos-1  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -89,10 +88,6 @@ Projects Description:
 This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class  
 at Laramie County Community College(LCCC)  
 Fall Semester - 2022
-
-Related links:  
-https://www.lccc.wy.edu  
-https://lccc.wy.edu/pathways/sciTechEngMath/computerScienceProgram/index.aspx  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
