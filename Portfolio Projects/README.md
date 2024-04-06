@@ -22,20 +22,18 @@ Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
-- [GitHub](https://github.com/Omegapy)   
-- [LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)
-- [Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
-- [Twitter](https://twitter.com/RicciardiAlex)   
-- [Instagram](https://www.instagram.com/alexomegapy/)
+[GitHub](https://github.com/Omegapy)  
+[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)   
+[YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)
 
 Related links:  
-[CSU Global](https://csuglobal.edu/) 
+[CSU Gobal](https://csuglobal.edu/) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
 - [ITS320 Basic Programming](#its320-basic-programming)
-- [ENG102 Composition 2](#eng102composition-2)
+- [ENG102 Composition 2](#eng102-composition-2)
 - [CSC300 Operating Systems and Architecture](#csc300-operating-systems-and-architecture)  
 - [COSC1030 Computer Science 1](#cosc1030-computer-science-1)  
 
