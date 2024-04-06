@@ -283,7 +283,7 @@ Note: This project goes substantially beyond the Class Final Project Prerequisit
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Project description:
+Project description:  
 Ethers Quest is a small story-based D&D game based on the Innistrad universe. 
 Where Ether journeys to save his younger sister Clarabella. 
 Clarabella was abducted by the evil vampire lord, Salt, 
