@@ -286,8 +286,12 @@ to be offered in sacrifice to the demon Iretrat. In exchange for Clarabellas sou
 Iretrat will reanimate Pantra, Salts lost love, using Clarabellas blood. 
 The sacrifice must be performed on the first day of the Hunters moon, 
 at the Skirsdag high temple located in Stensia. 
-Ethers journey to save Clarabella will start at his home in Gavony; 
+Ethers journey to save Clarabella will start at his home in Gavony. 
+
+
 he will travel through the region of Nephalia , Kessig, and Stensia, 
 where he will encounter many dangers. Provided that he survives the journey; 
 at Skirsdag high temple, he will have to battle  
 and defeat both lord Salt and the demon Iretrat to save Clarabella and complete his quest.
+
+[Go back to the top](#project-map)
