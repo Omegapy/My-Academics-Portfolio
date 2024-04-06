@@ -31,6 +31,7 @@ Requirements:
 My Links:   
 [GitHub](https://github.com/Omegapy)  
 [LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)   
+[YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)
 
 Related links:  
 [CSU Gobal](https://csuglobal.edu/) 
