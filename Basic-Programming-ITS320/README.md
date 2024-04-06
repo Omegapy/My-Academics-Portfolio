@@ -10,10 +10,7 @@
 Projects Description: 
 This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
 at Colorado State University Global- CSU Global.  
-
-Related links:
-https://csuglobal.edu/
-https://csuglobal.edu/academic-programs/undergraduate-degrees/bachelors-degree-computer-science
+ 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -32,11 +29,11 @@ Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
-- [GitHub](https://github.com/Omegapy)   
-- [LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)
-- [Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
-- [Twitter](https://twitter.com/RicciardiAlex)   
-- [Instagram](https://www.instagram.com/alexomegapy/)  
+[GitHub](https://github.com/Omegapy)  
+[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)   
+
+Related links:  
+[CSU Gobal](https://csuglobal.edu/) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
