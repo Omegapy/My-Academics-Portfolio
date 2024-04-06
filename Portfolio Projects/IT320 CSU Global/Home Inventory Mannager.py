@@ -64,7 +64,7 @@ class HomeInventory:
 
         Attributes:
             Static attibute:
-                _home_num (int): keeps track of the number of homes created.
+                __home_num (int): keeps track of the number of homes created.
             Private attributes:
                 __inventory_filename (str): Name of the file to store the home inventory data.
                 __home (dict): Dictionary to store the current home data.
@@ -150,7 +150,7 @@ class HomeInventory:
     # --------------------------------------------------------------------------------------------------
     # -------------------- Class variable --------------------
     # --------------------------------------------------------------------------------------------------
-    _home_num = 0  # static variable keeps track of the number of home object created
+    __home_num = 0  # static variable keeps track of the number of home object created
     # --------------------------------------------------------------------------------------------------
     # -------------------- Constructor --------------------
     # --------------------------------------------------------------------------------------------------
@@ -212,7 +212,7 @@ class HomeInventory:
     # --------------------------------------------------------------------------------------------------
     def _get_number_of_homes(cls) -> int:
         """ Retrieves the total number of homes created. """
-        return HomeInventory._home_num
+        return HomeInventory.__home_num
     # --------------------------------------------------------------------------------------------------
     def get_home(self) -> dict:
         """ Retrieves the current home data stores in the home dictionary. """
@@ -387,8 +387,8 @@ class HomeInventory:
             :param inputted_home: Dictionary of the home information with no home_id (dict)
             :return: True if the home is added successfully, False otherwise (bool)
         """
-        HomeInventory._home_num += 1  # Counts how many home were created
-        home_id = HomeInventory._home_num  # Assigns the home id to the created home object
+        HomeInventory.__home_num += 1  # Counts how many home were created
+        home_id = HomeInventory.__home_num  # Assigns the home id to the created home object
         try:
             with open(self.__inventory_filename, "a") as file:  # Open file in appending mode
                 # Creates (line) string to be added to the file
