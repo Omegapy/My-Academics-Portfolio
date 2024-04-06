@@ -110,7 +110,9 @@ Program Inputs:
 -------------------------------------------------------------------------------------------
 
 Program Inputs: User input for home details, menu choices, and file name.  
-Program Outputs: Display of home inventory, updated inventory file, and user prompts.  
+Program Outputs: Display of home inventory, updated inventory file, and user prompts. 
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -175,7 +177,9 @@ and industry self-regulation to ensure AI's safe and beneficial implementation.
 5. Urgency of action due to the rapid pace of AI advancement, emphasizing the importance of research on AI Ethical Reasoning.  
 
 The essay concludes that by integrating ethical principles, fostering a culture of safety and ethics among AI developers,   
-and establishing appropriate government regulations and agencies, society can responsibly navigate the AI revolution
+and establishing appropriate government regulations and agencies, society can responsibly navigate the AI revolution.
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -249,6 +253,7 @@ and prevention systems, patch management, penetration testing, security awarenes
 The essay concludes that implementing these suggestions could significantly improve the company's efficiency, security, and competitiveness,   
 as well as create opportunities for exploring new business ventures.
 
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -294,4 +299,4 @@ where he will encounter many dangers. Provided that he survives the journey;
 at Skirsdag high temple, he will have to battle  
 and defeat both lord Salt and the demon Iretrat to save Clarabella and complete his quest.
 
-[Go back to the top](#project-map)
+[Go back to the Project Map](#project-map)
