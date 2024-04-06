@@ -7,7 +7,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description: 
+Projects Description:  
 This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
 and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
 
