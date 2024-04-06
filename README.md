@@ -51,7 +51,6 @@ Related links:
 Directory: Basic-Programming-ITS320
 
 -----------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:
 This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
@@ -64,7 +63,7 @@ Winter Semester (24WD) - 2024
 Directory: OS-and-Architecture  
 
 -----------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+-
 
 Projects Description:
 This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.
@@ -77,7 +76,6 @@ Spring Semester (23SD) - 2023
 Directory: cpp_cos-1  
 
 -----------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
 This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class  
@@ -89,7 +87,6 @@ Fall Semester - 2022
 ## Python Data Science  
 Directory: python_datascience  
 
------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
