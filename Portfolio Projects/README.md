@@ -39,8 +39,8 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## ITS320 Basic Programming 
-Directory: IT320 CSU Global  
-Portfolio Assignment Option 2
+Directory: [IT320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/IT320%20CSU%20Global)   
+Portfolio Assignment Option 2  
 File: Home Inventory Mannager.py  
 Winter Semester (24WD) – 2024  
 Date: 04/07/2024  
@@ -116,8 +116,8 @@ Program Outputs: Display of home inventory, updated inventory file, and user pro
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## ENG102 Composition 2
-Directory: Eng 1020 CSU Global
-File: Navigating the AI Revolution.pdf
+Directory: [Eng 1020 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC300%20CSU%20Global)  
+File: Navigating the AI Revolution.pdf  
 Winter Semester (24WD) – 2024   
 Date: 04/07/2024  
 
@@ -183,9 +183,9 @@ and establishing appropriate government regulations and agencies, society can re
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC300 Operating Systems and Architecture
-Directory: CSC300 CSU Global
-File: Solutions for a Business Enterprise-Wide Upgrade.pdf
-Spring Semester - 2023
+Directory: [CSC300 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC300%20CSU%20Global)  
+File: Solutions for a Business Enterprise-Wide Upgrade.pdf  
+Spring Semester - 2023  
 Date: 04/07/2024  
 
 Final grade: 350/350 A+
@@ -257,7 +257,7 @@ as well as create opportunities for exploring new business ventures.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## COSC1030 Computer Science 1
-Directory: COSC 1030 LCCC  
+Directory: [COSC 1030 LCCC](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/COSC%201030%20LCCC)   
 Portfolio Assignment  
 Fall Semester – 2022  
 Date: 04/07/2024  
