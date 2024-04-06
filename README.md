@@ -38,15 +38,28 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- [Portfolio Projects](portfolio-projects)
 - [Basic Programming ITS320](#basic-programming-its320)  
 - [Operating Systems and Architecture](#operating-systems-and-architecture)  
 - [Computer Science 1 cpp](#computer-science-1-cpp)  
-- [Python Data Science](#python-data-science)  
+- [Python Data Science](#python-data-science)
+- [My Resume](#my-resume)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Portfolio Projects
+Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:  
+This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)
+and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Basic Programming ITS320
-Directory: Basic-Programming-ITS320
+Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Basic-Programming-ITS320)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -58,7 +71,7 @@ Winter Semester (24WD) - 2024
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Operating Systems and Architecture
-Directory: OS-and-Architecture  
+Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/OS-and-Architecture)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -70,7 +83,7 @@ Spring Semester (23SD) - 2023
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Computer Science 1 cpp
-Directory: cpp_cos-1  
+Directory: [cpp_cos-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/cpp_cos-1)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -81,7 +94,7 @@ Fall Semester - 2022
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Python Data Science  
+## [Python Data Science](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/python_datascience)  
 Directory: python_datascience  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -89,6 +102,16 @@ Directory: python_datascience
 Projects Description:  
 Codecademy Data Science Course Python (2021)  
 This is a collection of assignments from Codecademy Machine Learning, Data Scientist Path  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## My Resume
+Directory: [Resume](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Resume) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Description:  
+Contains my Resume.
 
 
 
