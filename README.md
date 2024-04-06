@@ -2,12 +2,11 @@
 # My Academics Portfolio
 -----------------------------------------------------------------------------------------------------------------------------
 
- Alejandro (Alex) Ricciardi (Omegapy)  
- created date: 04/04/2024  
+ Alejandro (Alex) Ricciardi (Omegapy)    
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description: 
+Projects Description:  
 This repository is a collection of my academic work, showcasing my educational journey, achievements,  
 and growth throughout my studies. It serves as a comprehensive portfolio that highlights my skills, knowledge,   
 and experiences gained during my academic career.
