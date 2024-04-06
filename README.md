@@ -28,14 +28,12 @@ Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
-- [GitHub](https://github.com/Omegapy)   
-- [LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)
-- [Facebook](https://www.facebook.com/profile.php?id=100089638857137)  
-- [Twitter](https://twitter.com/RicciardiAlex)   
-- [Instagram](https://www.instagram.com/alexomegapy/)
+[GitHub](https://github.com/Omegapy)  
+[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)   
+[YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)
 
 Related links:  
-[CSU Global](https://csuglobal.edu/) 
+[CSU Gobal](https://csuglobal.edu/) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -63,7 +61,6 @@ Winter Semester (24WD) - 2024
 Directory: OS-and-Architecture  
 
 -----------------------------------------------------------------------------------------------------------------------------
--
 
 Projects Description:
 This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.
