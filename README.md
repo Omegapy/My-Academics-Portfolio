@@ -38,7 +38,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Portfolio Projects](portfolio-projects)
+- [Portfolio Projects](#portfolio-projects)
 - [Basic Programming ITS320](#basic-programming-its320)  
 - [Operating Systems and Architecture](#operating-systems-and-architecture)  
 - [Computer Science 1 cpp](#computer-science-1-cpp)  
