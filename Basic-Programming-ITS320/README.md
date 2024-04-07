@@ -16,7 +16,7 @@ at Colorado State University Global- CSU Global.
 
 IT320 - Basic Programming Python Course  
 Professor: Dr. Reinaldo Fernandez  
-Winter Semester (24WD) – 2023  
+Winter Semester (24WD) – 2024  
 Student: Alejandro (Alex) Ricciardi  
 
 Final grade: A+ 100%
@@ -51,7 +51,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## ITS320 PFA Option2
-Portfolio Assignment Option 2
+Portfolio Assignment Option 2  
 File: ITS320_PFA.Option2.py  
 Date: 04/07/2024
 
