@@ -57,7 +57,7 @@ and Laramie County Community College (LCCC), showcasing my educational journey, 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Basic Programming ITS320
+## Basic Programming ITS320  
 Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Basic-Programming-ITS320)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -65,7 +65,7 @@ Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Po
 Projects Description:
 This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
 at Colorado State University Global- CSU Global.  
-Winter Semester (24WD) - 2024
+Winter Semester (24WD) - 2024  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -75,7 +75,7 @@ Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfol
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:
-This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.
+This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.  
 at Colorado State University Global- CSU Global
 Spring Semester (23SD) - 2023
 
@@ -87,7 +87,7 @@ Directory: [cpp_cos-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/ma
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
-This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class  
+This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class   
 at Laramie County Community College(LCCC)  
 Fall Semester - 2022
 
