@@ -52,7 +52,7 @@ Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfoli
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
-This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)
+This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
 and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -76,7 +76,7 @@ Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfol
 
 Projects Description:
 This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.  
-at Colorado State University Global- CSU Global
+at Colorado State University Global- CSU Global  
 Spring Semester (23SD) - 2023
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -93,7 +93,7 @@ Fall Semester - 2022
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## [Python Data Science](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/python_datascience)  
+## [Python Data Science](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/python_datascience)    
 Directory: python_datascience  
 
 -----------------------------------------------------------------------------------------------------------------------------
