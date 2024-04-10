@@ -94,7 +94,7 @@ Fall Semester - 2022
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## [Python Data Science](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/python_datascience)    
-Directory: python_datascience  
+Directory: [python_datascience](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/python_datascience)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
