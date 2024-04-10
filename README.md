@@ -74,7 +74,7 @@ Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfol
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:
+Projects Description:  
 This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.  
 at Colorado State University Global- CSU Global  
 Spring Semester (23SD) - 2023
