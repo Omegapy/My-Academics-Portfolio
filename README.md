@@ -32,7 +32,7 @@ My Links:
 [YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)
 
 Related links:  
-[CSU Gobal](https://csuglobal.edu/) 
+[CSU Global](https://csuglobal.edu/) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
