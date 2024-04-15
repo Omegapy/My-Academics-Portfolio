@@ -8,8 +8,7 @@
 
 Projects Description:  
 This repository is a collection of my academic work, showcasing my educational journey, achievements,  
-and growth throughout my studies. It serves as a comprehensive portfolio that highlights my skills, knowledge,   
-and experiences gained during my academic career.
+and growth throughout my studies.
 
 I am a student in Computer Science with a focus on AI. 
 A high distinction honors graduate: AS in CS from Laramie County Community College (LCCC) – Dec. 2023  
