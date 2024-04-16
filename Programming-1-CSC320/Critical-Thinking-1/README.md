@@ -8,7 +8,7 @@ Grade:
 
 CSC320 – Programming-1 Java Course  
 Professor: Herbert Pensado 
-Spring B Semester (24SD) – 2024  
+Spring B Semester (24SB) – 2024  
 Student: Alejandro (Alex) Ricciardi  
 Date: 04/21/2024   
 
@@ -31,10 +31,10 @@ Related links:
 
 #### Project Map
 - Pseudocode.pdf – The program pseudocode  
-- Documentation.pdf 
-       - Test Explanation
-       - Results and test scenarios 
-	- Screenshots of the console outputs
+- Documentation.pdf  
+	- Test Explanation  
+	- Results and test scenarios   
+	- Screenshots of the console outputs  
 - README.md – Markdown file, program information 
 - Main.java – Main program (main class)
 - Person.java – Person class
