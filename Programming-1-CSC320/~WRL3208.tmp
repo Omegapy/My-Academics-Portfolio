@@ -7,15 +7,16 @@
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:  
+Projects Description: 
 This repository is a collection of Java programs from CSC320 – Programming-1 Java Course  
 at Colorado State University Global- CSU Global.  
+ 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 CSC320 – Programming-1 Java Course  
 Professor: Herbert Pensado 
-Spring B Semester (24SD) – 2024  
+Winter Semester (24SD) – 2024  
 Student: Alejandro (Alex) Ricciardi  
 
 Final grade: 
@@ -37,26 +38,38 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Critical Thinking 1](#critical-thinking-1)
+- 
 - [Discussions](#discussions) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Critical Thinking 1
-Directory: [Critical-Thinking-1]()
-Program Name: Name and Address Information
+## 
+File: 
+Date: 
+
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
-Program Description:  
-A simple java application that will print a fictional person's information on individual lines.  
-- First name  
-- Last name  
-- Street address  
-- City  
-- Zip code  
+Program Objective:  
 
 -------------------------------------------------------------------------------------------
+
+Assignment Directions:  
+
+-------------------------------------------------------------------------------------------
+
+Pseudocode:
+
+-------------------------------------------------------------------------------------------
+
+Program Inputs:
+    
+
+Program Inputs: 
+Program Outputs:
+
+-------------------------------------------------------------------------------------------
+
 
 [Go back to the Project Map](#project-map)
 

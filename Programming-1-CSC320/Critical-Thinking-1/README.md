@@ -1,15 +1,8 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Programming-1 Java – CSC320
------------------------------------------------------------------------------------------------------------------------------
+# Critical Thinking 1
+Program Name: Name and Address Information
 
- Alejandro (Alex) Ricciardi (Omegapy)  
- created date: 04/07/2024  
-
------------------------------------------------------------------------------------------------------------------------------
-
-Projects Description:  
-This repository is a collection of Java programs from CSC320 – Programming-1 Java Course  
-at Colorado State University Global- CSU Global.  
+Grade:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -17,13 +10,13 @@ CSC320 – Programming-1 Java Course
 Professor: Herbert Pensado 
 Spring B Semester (24SD) – 2024  
 Student: Alejandro (Alex) Ricciardi  
-
-Final grade: 
+Date: 04/21/2024   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
-- Java JDK-21
+- Java JDK-21  
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
@@ -37,27 +30,37 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Critical Thinking 1](#critical-thinking-1)
-- [Discussions](#discussions) 
+- Pseudocode.pdf – The program pseudocode  
+- Documentation.pdf 
+       - Test Explanation
+       - Results and test scenarios 
+	- Screenshots of the console outputs
+- README.md – Markdown file, program information 
+- Main.java – Main program (main class)
+- Person.java – Person class
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-## Critical Thinking 1
-Directory: [Critical-Thinking-1]()
-Program Name: Name and Address Information
------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
 A simple java application that will print a fictional person's information on individual lines.  
-- First name  
-- Last name  
-- Street address  
-- City  
-- Zip code  
+-	First name  
+-	Last name  
+-	Street address  
+-	City  
+-	Zip code  
 
 -------------------------------------------------------------------------------------------
 
-[Go back to the Project Map](#project-map)
+Assignment Directions:  
+Option #1: List Individual's Name and Address Information  
+Demonstrate understanding of basic programming concepts by:  
+1. Developing pseudocode that prints the following information for a fictional person:  
+o First name  
+o Last name  
+o Street address  
+o City  
+o Zip code  
+2. Creating a simple java application that will print the items listed above on individual lines.  
+
 
 
