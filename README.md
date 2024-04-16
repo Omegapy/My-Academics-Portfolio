@@ -58,7 +58,7 @@ and Laramie County Community College (LCCC), showcasing my educational journey, 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Programming 1 CSC320  
-Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Portfolio/blob/main/Programming-1-CSC320/README.md)
+Directory: [Programming-1-CSC320](https://github.com/Omegapy/My-Academics-Portfolio/blob/main/Programming-1-CSC320/README.md)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
