@@ -37,6 +37,7 @@ Related links:
 
 #### Project Map
 - [Portfolio Projects](#portfolio-projects)
+- [Programming 1 CSC320](#programming-1-csc320)
 - [Basic Programming ITS320](#basic-programming-its320)  
 - [Operating Systems and Architecture](#operating-systems-and-architecture)  
 - [Computer Science 1 cpp](#computer-science-1-cpp)  
@@ -53,6 +54,18 @@ Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfoli
 Projects Description:  
 This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
 and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Programming 1 CSC320  
+Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Portfolio/blob/main/Programming-1-CSC320/README.md)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of Java programs from CSC320 – Programming-1 Java Course
+at Colorado State University Global- CSU Global.
+Spring B Semester (24SB) - 2024  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
