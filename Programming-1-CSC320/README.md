@@ -15,7 +15,7 @@ at Colorado State University Global- CSU Global.
 
 CSC320 – Programming-1 Java Course  
 Professor: Herbert Pensado 
-Spring B Semester (24SD) – 2024  
+Spring B Semester (24SB) – 2024  
 Student: Alejandro (Alex) Ricciardi  
 
 Final grade: 
