@@ -1,0 +1,30 @@
+                           Conda Virtual Environment
+
+see: "https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#"
+
+Creat a Virtual Environment:
+
+conda create --name <my-env>
+
+conda create --name Basic-Programming-ITS320
+C:\Users\User\anaconda3\envs\Basic-Programming-ITS320
+
+Install packages in a Virtual Environment:
+conda install --name Basic-Programming-ITS320 <package>
+
+Install Requirements.txt in a Virtual Environment:
+conda install --name Basic-Programming-ITS320 --yes --file Requirements.txt
+
+activate Basic-Programming-ITS320
+or
+conda deactivate
+
+PyCharme:
+go to settings > Python Interpreter > Add Interpreter (right side bleu) > Add Local Interpreter 
+	> Conda Environment (on the left) > Check existing environment 
+		> Click on the use existing environment > select Basic-Programming-ITS320
+Make sure that Basic-Programming-ITS320 is the interpreter and apply
+
+faiss-cpu:
+conda install --name Basic-Programming-ITS320 -c pytorch faiss-cpu=1.7.4 mkl=2021 blas=1.0=mkl
+
