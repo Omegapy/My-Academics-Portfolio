@@ -19,25 +19,16 @@ Requirements:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-My Links:   
-[GitHub](https://github.com/Omegapy)  
-[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)   
-[YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)
-
-Related links:  
-[CSU Global](https://csuglobal.edu/) 
-
------------------------------------------------------------------------------------------------------------------------------
-
-#### Project Map
-- Pseudocode.pdf – The program pseudocode  
-- Documentation.pdf  
-	- Test Explanation  
-	- Results and test scenarios   
-	- Screenshots of the console outputs  
-- README.md – Markdown file, program information 
-- Main.java – Main program (main class)
-- Person.java – Person class
+Assignment Directions:  
+Option #1: List Individual's Name and Address Information  
+Demonstrate understanding of basic programming concepts by:  
+1. Developing pseudocode that prints the following information for a fictional person:  
+o First name  
+o Last name  
+o Street address  
+o City  
+o Zip code  
+2. Creating a simple java application that will print the items listed above on individual lines.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -49,18 +40,29 @@ A simple java application that will print a fictional person's information on in
 -	City  
 -	Zip code  
 
--------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
-Assignment Directions:  
-Option #1: List Individual's Name and Address Information  
-Demonstrate understanding of basic programming concepts by:  
-1. Developing pseudocode that prints the following information for a fictional person:  
-o First name  
-o Last name  
-o Street address  
-o City  
-o Zip code  
-2. Creating a simple java application that will print the items listed above on individual lines.  
+#### Project Map
+- Pseudocode.pdf – The program pseudocode  
+- Project Report.pdf  
+	- Test Explanation  
+	- Results and test scenarios   
+	- Screenshots of the console outputs  
+- README.md – Markdown file, program information 
+- Main.java – Main program (main class)
+- Person.java – Person class
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+My Links:   
+[GitHub](https://github.com/Omegapy)  
+[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)   
+[YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)
+
+Related links:  
+[CSU Global](https://csuglobal.edu/) 
+
+
 
 
 
