@@ -39,7 +39,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [ITS320 PFA Option2](#its320-cta2-option2)  
+- [ITS320 PFA Option2](#its320-pfa-option2)  
 - [ITS320 CTA6 Option2](#its320-cta6-option1)  
 - [ITS320 CTA5 Option2](#its320-cta5-option2)  
 - [ITS320 CTA4 Option2](#its320-cta4-option2)  
