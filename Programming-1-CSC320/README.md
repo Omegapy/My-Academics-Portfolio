@@ -62,4 +62,14 @@ A simple java application that will print a fictional person's information on in
 
 [Go back to the Project Map](#project-map)
 
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Discussions 
+This repository is a collection of discussion posts from CSC320 - Programming 1  
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
