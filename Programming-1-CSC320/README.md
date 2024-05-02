@@ -38,8 +38,28 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- [Critical Thinking 2](#critical-thinking-2)
 - [Critical Thinking 1](#critical-thinking-1)
-- [Discussions](#discussions) 
+- [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 2
+Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-2)  
+Program Name: Calculate Average Withholding
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+A simple java application that calculates the taxes and displays the results based on the user-entered income.  
+- It prompts the user for their weekly income, validates it, and calculates tax values.  
+- It uses a TaxCalculator class to determine taxes.  
+- It repeatedly prompts for user to enter an income until the user decides to exit the program.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
