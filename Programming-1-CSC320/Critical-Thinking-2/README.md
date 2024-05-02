@@ -36,8 +36,7 @@ A simple java application that calculates the taxes and displays the results bas
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-#### Project Map
-- Pseudocode.pdf – The program pseudocode  
+#### Project Map 
 - Project Report.pdf  
 	- Test Explanation  
 	- Program pseudocode  
