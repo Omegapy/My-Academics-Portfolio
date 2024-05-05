@@ -7,7 +7,7 @@ Grade:  100%
 -----------------------------------------------------------------------------------------------------------------------------
 
 CSC320 – Programming-1 Java Course  
-Professor: Herbert Pensado 
+Professor: Herbert Pensado  
 Spring B Semester (24SB) – 2024  
 Student: Alejandro (Alex) Ricciardi  
 Date: 04/21/2024   
