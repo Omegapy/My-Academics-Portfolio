@@ -68,11 +68,6 @@ Program Name: Calculate Average Withholding
 
 -------------------------------------------------------------------------------------------
 
-[Go back to the Project Map](#project-map)  
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-
 Program Description:  
 A simple java application that calculates the taxes and displays the results based on the user-entered income.  
 - It prompts the user for their weekly income, validates it, and calculates tax values.  
