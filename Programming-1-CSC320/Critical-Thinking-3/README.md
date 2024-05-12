@@ -28,7 +28,7 @@ Write a program that will provide important statistics for the grades in a class
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-A simple java application that calculates statistical grades such as the minimum, maximum, and average grades from a list of student grades. It allows input until the user decides to stop.
+A simple Java application that calculates statistical grades such as the minimum, maximum, and average grades from a list of student grades. It allows input until the user decides to stop.
   
 -----------------------------------------------------------------------------------------------------------------------------
 
