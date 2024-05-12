@@ -7,7 +7,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:  
+Projects Description:    
 This repository is a collection of Java programs from CSC320 – Programming-1 Java Course  
 at Colorado State University Global- CSU Global.  
 
@@ -52,8 +52,9 @@ Program Name: Capture Grade Statistics Using For-loop
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
-Program Description:
-A simple Java application that calculates statistical grades such as the minimum, maximum, and average grades from a list of student grades. It allows input until the user decides to stop.
+Program Description:  
+A simple Java application that calculates statistical grades such as the minimum, maximum, and average grades from a list of student grades.  
+It allows input until the user decides to stop.
 
 -------------------------------------------------------------------------------------------
 
