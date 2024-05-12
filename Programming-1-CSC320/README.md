@@ -49,6 +49,12 @@ Related links:
 Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-3)  
 Program Name: Capture Grade Statistics Using For-loop
 
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:
+A simple Java application that calculates statistical grades such as the minimum, maximum, and average grades from a list of student grades. It allows input until the user decides to stop.
+
 -------------------------------------------------------------------------------------------
 
 [Go back to the Project Map](#project-map)  
@@ -70,7 +76,7 @@ Program Description:
 A simple java application that calculates the taxes and displays the results based on the user-entered income.  
 - It prompts the user for their weekly income, validates it, and calculates tax values.  
 - It uses a TaxCalculator class to determine taxes.  
-- It repeatedly prompts for user to enter an income until the user decides to exit the program.  
+- It repeatedly prompts for user to enter an income until the user decides to exit the program.
 
 -------------------------------------------------------------------------------------------
 
