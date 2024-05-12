@@ -49,6 +49,10 @@ Related links:
 Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-3)  
 Program Name: Capture Grade Statistics Using For-loop
 
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -57,6 +61,10 @@ Program Name: Capture Grade Statistics Using For-loop
 ## Critical Thinking 2
 Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-2)  
 Program Name: Calculate Average Withholding
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
