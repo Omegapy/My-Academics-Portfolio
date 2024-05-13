@@ -33,7 +33,6 @@ A simple Java application that calculates statistical grades such as the minimum
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- Pseudocode.pdf – The program pseudocode  
 - Project Report.pdf  
 	- Test Explanation  
 	- Program pseudocode  
