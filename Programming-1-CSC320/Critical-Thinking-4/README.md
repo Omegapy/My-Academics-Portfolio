@@ -35,7 +35,6 @@ This program displays monthly average temperatures and allows the user to view i
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- Pseudocode.pdf – The program pseudocode  
 - Project Report.pdf  
 	- Test Explanation  
 	- Program pseudocode  
