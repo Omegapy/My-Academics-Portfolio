@@ -20,8 +20,7 @@ Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Directions:  
-Get Monthly Temperatures
-Develop a Java program that will store data in the form of monthly temperatures for a year. Store the month and temperature in two different arrays. 
+Get Monthly Temperatures - Develop a Java program that will store data in the form of monthly temperatures for a year. Store the month and temperature in two different arrays. 
 
 Your program should prompt the user for the month to be viewed and display both the month and average temperature.  
 If "year" is entered, the output for your program should provide the temperature for each month along with the yearly average as well as the highest and lowest monthly averages.
@@ -43,7 +42,7 @@ This program displays monthly average temperatures and allows the user to view i
 	- Results and test scenarios   
 	- Screenshots of the console outputs  
 - README.md – Markdown file, program information 
-- Main.java – Main program (main class)
+- Main.java – Main program (Main class)
 - MonthlyAvgTemps.java – MonthlyAvgTemps class
 
 -----------------------------------------------------------------------------------------------------------------------------
