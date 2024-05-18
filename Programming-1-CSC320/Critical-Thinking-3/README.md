@@ -2,7 +2,7 @@
 # Critical Thinking 3
 Program Name: Capture Grade Statistics Using For-loop
 
-Grade:  
+Grade:  110/110 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
