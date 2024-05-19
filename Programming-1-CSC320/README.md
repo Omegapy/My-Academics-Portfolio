@@ -38,6 +38,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- [Critical Thinking 4](#critical-thinking-4)
 - [Critical Thinking 3](#critical-thinking-3)
 - [Critical Thinking 2](#critical-thinking-2)
 - [Critical Thinking 1](#critical-thinking-1)
@@ -45,8 +46,24 @@ Related links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 4
+Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-4)  
+Program Name: Get Monthly Temperatures
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+This program displays monthly average temperatures and allows the user to view individual monthly temperatures or a yearly summary that includes the yearly average temperature as well as the highest and lowest monthly averages.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 3
-Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-3)  
+Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-3)  
 Program Name: Capture Grade Statistics Using For-loop
 
 -----------------------------------------------------------------------------------------------------------------------------
