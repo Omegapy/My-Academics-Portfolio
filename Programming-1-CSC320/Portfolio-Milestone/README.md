@@ -84,7 +84,7 @@ The program interacts with the user through a menu-driven interface and stores t
 
 #### Project Map  
 - Project Report.pdf  
-	- Test Explanation  
+	- Project Description 
 	- Class pseudocode  
 - README.md – Markdown file, program information 
 - Main.java – Main program (Main class)
