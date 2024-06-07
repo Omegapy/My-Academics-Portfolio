@@ -31,7 +31,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [CSCS320 Programming 1 Java](#cscs320-programming-1-java)
+- [CSC320 Programming 1 Java](#csc320-programming-1-java)
 - [ITS320 Basic Programming Java](#its320-basic-programming-java)
 - [ENG102 Composition 2](#eng102-composition-2)
 - [CSC300 Operating Systems and Architecture](#csc300-operating-systems-and-architecture)  
@@ -39,8 +39,8 @@ Related links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## CSCS320 Programming 1 Java
-Directory: [CSCS320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSCS320%20CSU%20Global)   
+## CSC320 Programming 1 Java
+Directory: [CSC320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC320%20CSU%20Global)   
 Portfolio Assignment Option 2 
 Program Name: Home Inventory Manager   
 Spring B Semester (24SB) – 2024  
