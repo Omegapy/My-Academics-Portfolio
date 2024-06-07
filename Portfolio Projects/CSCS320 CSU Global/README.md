@@ -1,5 +1,5 @@
 ﻿ -----------------------------------------------------------------------------------------------------------------------------
-# Portfolio Project CSCS320
+# Portfolio Project CSC320
 Program Name: Home Inventory Manager  
 
 Grade:  
