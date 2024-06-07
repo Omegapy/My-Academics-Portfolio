@@ -40,7 +40,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSCS320 Programming 1 Java
-Directory: [CSCS320 CSU Global]()   
+Directory: [CSCS320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSCS320%20CSU%20Global)   
 Portfolio Assignment Option 2 
 Program Name: Home Inventory Manager   
 Spring B Semester (24SB) – 2024  
