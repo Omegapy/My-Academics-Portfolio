@@ -32,7 +32,7 @@ Related links:
 
 #### Project Map
 - [CSC320 Programming 1 Java](#csc320-programming-1-java)
-- [ITS320 Basic Programming Java](#its320-basic-programming-java)
+- [ITS320 Basic Programming Python](#its320-basic-programming-python)
 - [ENG102 Composition 2](#eng102-composition-2)
 - [CSC300 Operating Systems and Architecture](#csc300-operating-systems-and-architecture)  
 - [COSC1030 Computer Science 1](#cosc1030-computer-science-1)  
@@ -118,7 +118,7 @@ Compile your Module 1-6 programs with corrections, lessons learned reflection, a
 -----------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------
-## ITS320 Basic Programming Java
+## ITS320 Basic Programming Python
 Directory: [IT320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/IT320%20CSU%20Global)   
 Portfolio Assignment Option 2  
 File: Home Inventory Mannager.py  
