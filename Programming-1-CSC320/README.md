@@ -38,11 +38,32 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- [Portolio-Milestone](#portolio-milestone)
 - [Critical Thinking 4](#critical-thinking-4)
 - [Critical Thinking 3](#critical-thinking-3)
 - [Critical Thinking 2](#critical-thinking-2)
 - [Critical Thinking 1](#critical-thinking-1)
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Portfolio Milestone
+Directory: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Portfolio-Milestone)  
+Program Name: Home Inventory Manager  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+This is an Alpha version of the Home Inventory Manager program.  
+The program manages a home inventory.  
+It provides functionality for adding, removing, updating, and displaying home data.  
+The program interacts with the user through a menu-driven interface and stores the home data in a file.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
