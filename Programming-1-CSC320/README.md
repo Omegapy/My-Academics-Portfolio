@@ -38,6 +38,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- [Portolio-Project](#portolio-project)
 - [Portolio-Milestone](#portolio-milestone)
 - [Critical Thinking 4](#critical-thinking-4)
 - [Critical Thinking 3](#critical-thinking-3)
@@ -48,8 +49,27 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
+## Portfolio Project
+Directory: [Portfolio Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Portfolio%20Project)  
+Program Name: Home Inventory Manager  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The program manages a home inventory.  
+It provides functionality for adding, removing, updating, and displaying home data.  
+The program interacts with the user through a menu-driven interface and stores the home data in a file.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
 ## Portfolio Milestone
-Directory: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Portfolio-Milestone)  
+Directory: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Portfolio-Project)  
 Program Name: Home Inventory Manager  
 
 -----------------------------------------------------------------------------------------------------------------------------
