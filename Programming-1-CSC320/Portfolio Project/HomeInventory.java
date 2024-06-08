@@ -269,7 +269,6 @@ public class HomeInventory {
      */
     public void updateHomeById(Integer id, Home updatedHome) throws Exception {
         try {
-        	id = -1;  // <--- testing exception handling
             for (int i = 0; i < homes.size(); i++) {
                 if (homes.get(i).getId() == id) {
                     homes.set(i, updatedHome);
