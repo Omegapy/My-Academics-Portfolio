@@ -52,7 +52,7 @@ Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfoli
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:  
+Projects Description:   
 This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
 and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
 
@@ -82,7 +82,7 @@ Directory: [Programming-1-CSC320](https://github.com/Omegapy/My-Academics-Portfo
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:
+Projects Description:   
 This repository is a collection of Java programs from CSC320 – Programming-1 Java Course
 at Colorado State University Global- CSU Global.
 Spring B Semester (24SB) - 2024 
@@ -98,7 +98,7 @@ Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Po
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:
+Projects Description:  
 This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
 at Colorado State University Global- CSU Global.  
 Winter Semester (24WD) - 2024  
@@ -114,7 +114,7 @@ Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfol
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:  
+Projects Description:   
 This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.  
 at Colorado State University Global- CSU Global  
 Spring Semester (23SD) – 2023
@@ -130,7 +130,7 @@ Directory: [cpp_cos-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/ma
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:  
+Projects Description:   
 This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class   
 at Laramie County Community College(LCCC)  
 Fall Semester – 2022
@@ -146,7 +146,7 @@ Directory: [python_datascience](https://github.com/Omegapy/My-Academics-Portfoli
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:  
+Projects Description:   
 Codecademy Data Science Course Python (2021)  
 This is a collection of assignments from Codecademy Machine Learning, Data Scientist Path  
 
@@ -161,7 +161,7 @@ Directory: [Resume](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Description:  
+Description:   
 Contains my Resume.
 
 -----------------------------------------------------------------------------------------------------------------------------
