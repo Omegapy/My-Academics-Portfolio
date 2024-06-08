@@ -42,13 +42,13 @@ public class Home {
      */
     public Home() {
     	this.id = null;  
-        this.squareFeet = null;
-        this.zipCode = null;
-        this.address = null;
-        this.city = null;
-        this.state = null;
-        this.modelName = null;
-        this.saleStatus = null;
+        this.squareFeet = -1;
+        this.zipCode = -1;
+        this.address = "Unknown";
+        this.city = "Unknown";
+        this.state = "Unknown";
+        this.modelName = "Unknown";
+        this.saleStatus ="Unknown";
         System.out.println("A Home object with null attributes values was created successfully!");  // success message
     };
 
