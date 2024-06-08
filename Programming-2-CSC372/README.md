@@ -14,7 +14,7 @@ at Colorado State University Global - CSU Global.
 -----------------------------------------------------------------------------------------------------------------------------
 
 CSC372 – Programming-2 Java Course   
-Professor: Dr. Vanessa Cooper
+Professor: Dr. Vanessa Cooper  
 Spring D Semester (24SD) – 2024   
 Student: Alejandro (Alex) Ricciardi   
 
