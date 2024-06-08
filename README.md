@@ -1,4 +1,4 @@
------------------------------------------------------------------------------------------------------------------------------
+﻿-----------------------------------------------------------------------------------------------------------------------------
 # My Academics Portfolio
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -37,8 +37,9 @@ Related links:
 
 #### Project Map
 - [Portfolio Projects](#portfolio-projects)
-- [Programming 1 CSC320](#programming-1-csc320)
-- [Basic Programming ITS320](#basic-programming-its320)  
+- [Programming 2 CSC372 Java](#programming-2-csc372-java)  
+- [Programming 1 CSC320 Java](#programming-1-csc320-java)
+- [Basic Programming ITS320 Python](#basic-programming-its320-python)  
 - [Operating Systems and Architecture](#operating-systems-and-architecture)  
 - [Computer Science 1 cpp](#computer-science-1-cpp)  
 - [Python Data Science](#python-data-science)
@@ -56,20 +57,43 @@ This repository is a collection of Portfolio Projects from Colorado State Univer
 and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
 -----------------------------------------------------------------------------------------------------------------------------
-## Programming 1 CSC320  
-Directory: [Programming-1-CSC320](https://github.com/Omegapy/My-Academics-Portfolio/blob/main/Programming-1-CSC320/README.md)
+-----------------------------------------------------------------------------------------------------------------------------
+## Programming 2 CSC372 Java
+Directory: [Programming-2-CSC372]( https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of Java programs from CSC372 – Programming-2 Java Course
+at Colorado State University Global- CSU Global.
+Spring B Semester (24SD) - 2024 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+## Programming 1 CSC320 Java
+Directory: [Programming-1-CSC320](https://github.com/Omegapy/My-Academics-Portfolio/blob/main/Programming-1-CSC320)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:
 This repository is a collection of Java programs from CSC320 – Programming-1 Java Course
 at Colorado State University Global- CSU Global.
-Spring B Semester (24SB) - 2024  
+Spring B Semester (24SB) - 2024 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Basic Programming ITS320  
+## Basic Programming ITS320 Python 
 Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Basic-Programming-ITS320)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -78,6 +102,10 @@ Projects Description:
 This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
 at Colorado State University Global- CSU Global.  
 Winter Semester (24WD) - 2024  
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -89,7 +117,11 @@ Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfol
 Projects Description:  
 This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.  
 at Colorado State University Global- CSU Global  
-Spring Semester (23SD) - 2023
+Spring Semester (23SD) – 2023
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -101,7 +133,11 @@ Directory: [cpp_cos-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/ma
 Projects Description:  
 This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class   
 at Laramie County Community College(LCCC)  
-Fall Semester - 2022
+Fall Semester – 2022
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -115,6 +151,10 @@ Codecademy Data Science Course Python (2021)
 This is a collection of assignments from Codecademy Machine Learning, Data Scientist Path  
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
+-----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## My Resume
 Directory: [Resume](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Resume) 
@@ -123,6 +163,11 @@ Directory: [Resume](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/
 
 Description:  
 Contains my Resume.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
 
 
 
