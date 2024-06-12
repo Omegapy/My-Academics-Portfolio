@@ -7,7 +7,7 @@ Grade:
 -----------------------------------------------------------------------------------------------------------------------------
 
 CSC372 – Programming-2 Java Course  
-Professor: Vanessa Cooper
+Professor: Vanessa Cooper  
 Spring D Semester (24SD) – 2024  
 Student: Alejandro (Alex) Ricciardi  
 Date: 06/16/2024   
