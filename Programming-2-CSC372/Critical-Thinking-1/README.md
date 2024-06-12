@@ -63,7 +63,7 @@ It includes a BankAccount class and a CheckingAccount class that extends the Ban
 	- Results and test scenarios   
 	- Screenshots of the console outputs  
 - README.md – Markdown file, program information 
-- Main.java – Main program (Main class) tests classes
+- Main.java – Main program (Main class) tests program
 - BankAccount.java – BankAccount class
 - CheckingAccount java – CheckingAccoun class
 
