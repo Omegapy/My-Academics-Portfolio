@@ -242,10 +242,10 @@ public class BankAccount {
 		try {
 			if (accountID > 99999999 || accountID < 1) {
 				throw new IllegalArgumentException(
-						"Invalid Accound ID, the Accound ID needs to be a 8 digits positive nonzero integer.");
+						"Invalid Accound ID, the Account ID needs to be a 8 digits positive nonzero integer.");
 			} else if (isAccountID) {
 				throw new IllegalArgumentException(
-						"Invalid Accound ID, this Accound ID needs is use by another account.");
+						"Invalid Accound ID, this Account ID needs is use by another account.");
 			} else {
 				this.accountID = accountID;
 				System.out.println("The Accound ID was set successfully!"); // success message
@@ -298,7 +298,7 @@ public class BankAccount {
 				balance += amount;
 				System.out.println("The Deposite was added successfully!"); // success message
 			} else {
-				throw new IllegalArgumentException("Deposit amount must be positive.");
+				throw new IllegalArgumentException("The deposit amount must be positive.");
 			}
 		} catch (IllegalArgumentException e) {
 			throw new IllegalArgumentException(e.getMessage()); // failure message
