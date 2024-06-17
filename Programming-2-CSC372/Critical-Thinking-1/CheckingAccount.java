@@ -26,7 +26,7 @@ package bankAccount; // Program Folder
  */
 public class CheckingAccount extends BankAccount {
 	private Double interestRate;
-	private static final double OVERDRAFT_FEE = 30.0;
+	private static final Double OVERDRAFT_FEE = 30.0;
 
 	/*----------------------
 	 |     Constructors    |
@@ -218,7 +218,7 @@ public class CheckingAccount extends BankAccount {
 	 * @param interestRate The interest rate to set.
 	 * @throws IllegalArgumentException if the interest rate is negative or zero.
 	 */
-	public void setInterestRate(double interestRate) throws IllegalArgumentException {
+	public void setInterestRate(Double interestRate) throws IllegalArgumentException {
 		try {
 			if (interestRate <= 0.0) {
 				throw new IllegalArgumentException(

@@ -36,8 +36,10 @@ public class BankAccount {
 
 	protected String firstName;
 	protected String lastName;
-	protected Integer accountID;
-	protected Double balance;
+	protected int accountID; // Used int primitive type instead of Integer class type as required by
+								// assignment
+	protected double balance; // Used double primitive type instead of Double class type as required by
+								// assignment
 
 	/*---------------------
 	 |     Constructors    |
