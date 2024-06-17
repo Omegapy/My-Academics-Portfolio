@@ -146,7 +146,7 @@ Program Name: Name and Address Information
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-A simple java application that will print a fictional person's information on individual lines.  
+A simple Java application that will print a fictional person's information on individual lines.  
 - First name  
 - Last name  
 - Street address  
