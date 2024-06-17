@@ -38,9 +38,25 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-
+- [Critical Thinking 1](#critical-thinking-1)
+- [Discussions](#discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 1
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-1)  
+Program Name: Bank Account
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The program is a small Java program that manages bank accounts with basic functionalities such as deposit, withdrawal, and account information management.  
+It includes a BankAccount class and a CheckingAccount class that extends the BankAccount with additional features like interest rates and overdraft fees.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
