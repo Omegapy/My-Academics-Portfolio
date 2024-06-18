@@ -1,6 +1,6 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Critical Thinking 1
-Program Name: Bank Account
+# Critical Thinking 2
+Program Name: Bank Account GUI
 
 Grade: 
 
