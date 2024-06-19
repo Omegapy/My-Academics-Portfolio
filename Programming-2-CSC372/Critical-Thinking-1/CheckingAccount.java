@@ -1,13 +1,10 @@
 /*
-    Program Name: Bank Account
+    Program Name: Bank Account GUI
     Author: Alejandro (Alex) Ricciardi
-    Date: 06/16/2024
+    Date: 06/23/2024
     
     Program Description:
-    The program manages bank accounts with basic functionalities 
-    such as deposit and withdrawal.
-    It includes a BankAccount class and a CheckingAccount class that extends the BankAccount 
-    with additional features like interest rates and overdraft fees.   
+       
 */
 
 /*-------------------
@@ -16,13 +13,10 @@
 package bankAccount; // Program Folder
 
 /**
- * The CheckingAccount class represents a checking account that is a child of
- * the BankAccount class. It includes an interest rate and allows for overdraft
- * withdrawals but it applies an overdraft fee.
  *
  * @author Alejandro Ricciardi
  * @version 1.0
- * @date 06/16/2024
+ * @date 06/23/2024
  */
 public class CheckingAccount extends BankAccount {
 	private Double interestRate;
@@ -38,6 +32,7 @@ public class CheckingAccount extends BankAccount {
 	public CheckingAccount() {
 		super();
 		this.interestRate = -1.0;
+		this.hasCheckingAccount = true;
 		// adds the newly created BankAccount-CheckingAccount object (ref) to the
 		// accountsList
 		BankAccount.accountsList.add(this);
@@ -57,9 +52,7 @@ public class CheckingAccount extends BankAccount {
 	public CheckingAccount(String firstName, String lastName) throws IllegalArgumentException {
 		super(firstName, lastName);
 		this.interestRate = -1.0; // this constructor does not set the interest rate.
-		// adds the newly created BankAccount-CheckingAccount object (ref) to the
-		// accountsList
-		BankAccount.accountsList.add(this);
+		this.hasCheckingAccount = true;
 		System.out.println("The BankAccount-CheckingAccount object was created successfully!"); // success message
 	}
 
@@ -80,9 +73,7 @@ public class CheckingAccount extends BankAccount {
 		super(firstName, lastName);
 		try {
 			this.interestRate = interestRate;
-			// adds the newly created BankAccount-CheckingAccount object (ref) to the
-			// accountsList
-			BankAccount.accountsList.add(this);
+			this.hasCheckingAccount = true;
 			System.out.println("The BankAccount-CheckingAccount object was created successfully!"); // success message
 		} catch (IllegalArgumentException e) {
 			throw new IllegalArgumentException(e.getMessage()); // failure message
@@ -107,9 +98,7 @@ public class CheckingAccount extends BankAccount {
 		super(firstName, lastName, balance);
 		try {
 			this.interestRate = interestRate;
-			// adds the newly created BankAccount-CheckingAccount object (ref) to the
-			// accountsList
-			BankAccount.accountsList.add(this);
+			this.hasCheckingAccount = true;
 			System.out.println("The BankAccount-CheckingAccount object was created successfully!"); // success message
 		} catch (IllegalArgumentException e) {
 			throw new IllegalArgumentException(e.getMessage()); // failure message
@@ -136,11 +125,9 @@ public class CheckingAccount extends BankAccount {
 					this.lastName = account.lastName;
 					this.accountID = account.accountID;
 					this.balance = account.balance;
+					this.hasCheckingAccount = true;
 					BankAccount.accountsList.remove(account); // removes the account from accounstList
-					account = null; // will me deleted from memory by the garbage collector
-					// adds the newly created BankAccount-CheckingAccount object (ref) to the
-					// accountList object (ref) to the accountList
-					BankAccount.accountsList.add(this);
+					account = null; // will me deleted from memory by the garbage collector);
 					System.out.println("The CheckingAccount object was created successfully!"); // success message
 					return; // exists method
 				}
@@ -177,11 +164,9 @@ public class CheckingAccount extends BankAccount {
 					this.lastName = account.lastName;
 					this.accountID = account.accountID;
 					this.balance = account.balance;
+					this.hasCheckingAccount = true;
 					BankAccount.accountsList.remove(account); // removes the account from accounstList
 					account = null; // will me deleted from memory by the garbage collector
-					// adds the newly created BankAccount-CheckingAccount object (ref) to the
-					// accountList object (ref) to the accountList
-					BankAccount.accountsList.add(this);
 					System.out.println("The CheckingAccount object was created successfully!"); // success message
 					return; // exists method
 				}

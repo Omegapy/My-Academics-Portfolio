@@ -1,13 +1,10 @@
 /*
-    Program Name: Bank Account
+    Program Name: Bank Account GUI
     Author: Alejandro (Alex) Ricciardi
-    Date: 06/16/2024
+    Date: 06/23/2024
     
     Program Description: 
-    The program manages bank accounts with basic functionalities 
-    such as deposit and withdrawal.
-    It includes a BankAccount class and a CheckingAccount class that extends the BankAccount 
-    with additional features like interest rates and overdraft fees. 
+    
 */
 
 /*-------------------
@@ -28,7 +25,7 @@ import java.util.ArrayList;
  * 
  * @author Alejandro Ricciardi
  * @version 1.0
- * @date 06/16/2024
+ * @date 06/23/2024
  */
 public class BankAccount {
 	private static Integer numAccounts = 0;
@@ -36,10 +33,10 @@ public class BankAccount {
 
 	protected String firstName;
 	protected String lastName;
-	protected int accountID; // Used int primitive type instead of Integer class type as required by
-								// assignment
-	protected double balance; // Used double primitive type instead of Double class type as required by
-								// assignment
+	protected Integer accountID;
+	protected Double balance;
+
+	protected Boolean hasCheckingAccount = false;
 
 	/*---------------------
 	 |     Constructors    |
@@ -166,7 +163,7 @@ public class BankAccount {
 	 * 
 	 * @return The account ID.
 	 */
-	public int getAccountID() {
+	public Integer getAccountID() {
 		return accountID;
 	}
 
@@ -175,8 +172,17 @@ public class BankAccount {
 	 * 
 	 * @return The account balance.
 	 */
-	public double getBalance() {
+	public Double getBalance() {
 		return balance;
+	}
+
+	/**
+	 * Gets has a checking account
+	 * 
+	 * @return true or false if the account has or has not a checking account.
+	 */
+	public Boolean getHasCheckingAccount() {
+		return hasCheckingAccount;
 	}
 
 	// ==============================================================================================
@@ -213,7 +219,7 @@ public class BankAccount {
 	 */
 	public void setLastName(String lastName) throws IllegalArgumentException {
 		try {
-			if (firstName.isEmpty()) {
+			if (lastName.isEmpty()) {
 				throw new IllegalArgumentException("Invalid Last Name, the value of the Last Name can not be empty.");
 			} else {
 				this.lastName = lastName;
@@ -255,6 +261,16 @@ public class BankAccount {
 		} catch (IllegalArgumentException e) {
 			throw new IllegalArgumentException(e.getMessage()); // failure message
 		}
+	}
+
+	/**
+	 * Sets has a checking account
+	 * 
+	 * @param hasCheckingAccount, true if account has a checking account false
+	 *                            otherwise.
+	 */
+	public void setHasCheckingAccount(Boolean hasCheckingAccount) {
+		this.hasCheckingAccount = hasCheckingAccount;
 	}
 
 	// ==============================================================================================
