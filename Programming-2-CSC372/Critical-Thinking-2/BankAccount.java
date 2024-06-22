@@ -4,13 +4,16 @@
     Date: 06/23/2024
     
     Program Description: 
-    
+    Bank Account GUI is a simple banking manager system that utilizes the swing library, a graphical user interface (GUI) library. 
+    The program allows users to manage basic bank accounts and checking accounts with various functionalities 
+    such as creating accounts, attaching checking accounts, 
+    depositing and withdrawing funds, and viewing account balances.
 */
 
 /*-------------------
  |     Packages     |
  --------------------*/
-package bankAccount; // Program Folder
+package bankAccountGUI; // Program Folder
 
 /*---------------------------
  |    Imported modules      |
@@ -55,6 +58,7 @@ public class BankAccount {
 	}
 
 	// ---------------------------------------------------------------------------------------------------------
+
 	/**
 	 * Constructor-1 with account ID. This constructor is utilized by the
 	 * AccountCheck class to attache a checking account to an existing bank account
@@ -313,10 +317,10 @@ public class BankAccount {
 	public void deposit(double amount) {
 		try {
 			if (amount > 0) {
-				balance += amount;
+				this.balance += amount;
 				System.out.println("The Deposite was added successfully!"); // success message
 			} else {
-				throw new IllegalArgumentException("The deposit amount must be positive.");
+				throw new IllegalArgumentException("The deposit amount must be a positive nonzero integer.");
 			}
 		} catch (IllegalArgumentException e) {
 			throw new IllegalArgumentException(e.getMessage()); // failure message

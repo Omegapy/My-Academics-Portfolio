@@ -4,15 +4,22 @@
     Date: 06/23/2024
     
     Program Description:
-       
+    Bank Account GUI is a simple banking manager system that utilizes the swing library, a graphical user interface (GUI) library. 
+    The program allows users to manage basic bank accounts and checking accounts with various functionalities 
+    such as creating accounts, attaching checking accounts, 
+    depositing and withdrawing funds, and viewing account balances.   
 */
 
 /*-------------------
  |     Packages     |
  --------------------*/
-package bankAccount; // Program Folder
+package bankAccountGUI; // Program Folder
 
 /**
+ *
+ * The CheckingAccount class represents a checking account, it is an extension
+ * of the BankAccount class. It includes an interest rate and allows for
+ * overdraft withdrawals but it applies an overdraft fee.*
  *
  * @author Alejandro Ricciardi
  * @version 1.0

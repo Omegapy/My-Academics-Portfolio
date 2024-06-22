@@ -33,7 +33,8 @@ Students must use appropriate version control for all programmatic assignments c
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-
+Bank Account GUI is a simple banking manager system that utilizes the swing library, a graphical user interface (GUI) library.  
+The program allows users to manage basic bank accounts and checking accounts with various functionalities such as creating accounts, attaching checking accounts, depositing and withdrawing funds, and viewing account balances.  
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
@@ -44,7 +45,8 @@ Program Description:
 - README.md – Markdown file, program information 
 - Main.java – Main program (Main class) tests program
 - BankAccount.java – BankAccount class
-- CheckingAccount java – CheckingAccoun class
+- CheckingAccount.java – CheckingAccoun class
+- FrameBankAccount.java – FrameBankAccount class
 
 -----------------------------------------------------------------------------------------------------------------------------
 
