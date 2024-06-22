@@ -46,7 +46,7 @@ The program allows users to manage basic bank accounts and checking accounts wit
 - README.md – Markdown file, program information 
 - Main.java – Main program (Main class) tests program
 - BankAccount.java – BankAccount class
-- CheckingAccount.java – CheckingAccoun class
+- CheckingAccount.java – CheckingAccount class
 - FrameBankAccount.java – FrameBankAccount class
 
 -----------------------------------------------------------------------------------------------------------------------------
