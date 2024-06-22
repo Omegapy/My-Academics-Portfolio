@@ -313,7 +313,7 @@ public class BankAccount {
 	public void deposit(double amount) {
 		try {
 			if (amount > 0) {
-				this.balance += amount;
+				balance += amount;
 				System.out.println("The Deposite was added successfully!"); // success message
 			} else {
 				throw new IllegalArgumentException("The deposit amount must be positive.");
@@ -334,7 +334,7 @@ public class BankAccount {
 	public void withdrawalCash(Double amount) {
 		try {
 			if (amount > 0 && amount <= balance) {
-				this.balance -= amount;
+				balance -= amount;
 				System.out.println("The Cash Withdrawal was successful!"); // success message
 			} else {
 				throw new IllegalArgumentException("Insufficient balance or invalid amount.");

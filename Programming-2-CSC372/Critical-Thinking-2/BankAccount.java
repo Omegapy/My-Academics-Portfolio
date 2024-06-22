@@ -10,7 +10,7 @@
 /*-------------------
  |     Packages     |
  --------------------*/
-package bankAccountGUI; // Program Folder
+package bankAccount; // Program Folder
 
 /*---------------------------
  |    Imported modules      |
