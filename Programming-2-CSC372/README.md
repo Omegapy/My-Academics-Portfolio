@@ -38,8 +38,49 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Critical Thinking 1](#critical-thinking-1)
+- [Critical Thinking 1](#critical-thinking-1)  
+- [Critical Thinking 1](#critical-thinking-2)  
+- [Critical Thinking 1](#critical-thinking-3)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 2
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-3)  
+Program Name: User Interface
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+Bank Account GUI is a simple banking manager system that utilizes the swing library (Java), a graphical user interface (GUI) library.  
+The program allows users to manage basic bank accounts and checking accounts with various functionalities such as creating accounts,   
+attaching checking accounts, depositing and withdrawing funds, and viewing account balances.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 2
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-2)  
+Program Name: Bank Account GUI
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The program is a small Java JavaFX application that provides a text area for user input and a menu bar with four options:  
+- Show Date and Time  
+- Saves the content of the text area to a file named "log.txt".  
+- Changes the background to a random shade of green.  
+- Exit  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
