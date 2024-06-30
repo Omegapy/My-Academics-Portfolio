@@ -43,7 +43,8 @@ The program is a small Java JavaFX application that provides a text area for use
 - Project Report.pdf  
 	- Program Explanation  
 	- Results and test scenarios   
-	- Screenshots of the console outputs  
+	- Screenshots of the console outputs
+- logo.png – Window application icon  
 - README.md – Markdown file, program information 
 - UserInterface.java – UserInterface class contains the main methods  
 
