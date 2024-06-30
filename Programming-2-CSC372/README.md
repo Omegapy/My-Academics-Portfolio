@@ -45,8 +45,8 @@ Related links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Critical Thinking 2
-Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-3)  
+## Critical Thinking 3
+Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-3)  
 Program Name: User Interface
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -65,7 +65,7 @@ attaching checking accounts, depositing and withdrawing funds, and viewing accou
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 2
-Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-2)  
+Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-2)  
 Program Name: Bank Account GUI
 
 -----------------------------------------------------------------------------------------------------------------------------
