@@ -103,7 +103,7 @@ It includes a BankAccount class and a CheckingAccount class that extends the Ban
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC320 - Programming 2  
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Discusions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
