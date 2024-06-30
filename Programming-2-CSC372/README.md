@@ -39,8 +39,8 @@ Related links:
 
 #### Project Map
 - [Critical Thinking 1](#critical-thinking-1)  
-- [Critical Thinking 1](#critical-thinking-2)  
-- [Critical Thinking 1](#critical-thinking-3)   
+- [Critical Thinking 2](#critical-thinking-2)  
+- [Critical Thinking 3](#critical-thinking-3)   
 - [Discussions](#discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
