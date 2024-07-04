@@ -18,7 +18,7 @@ Professor: Dr. Vanessa Cooper
 Spring D Semester (24SD) – 2024   
 Student: Alejandro (Alex) Ricciardi   
 
-Final grade: 100% A
+Final grade:  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -40,8 +40,26 @@ Related links:
 #### Project Map
 - [Critical Thinking 1](#critical-thinking-1)  
 - [Critical Thinking 2](#critical-thinking-2)  
-- [Critical Thinking 3](#critical-thinking-3)   
+- [Critical Thinking 3](#critical-thinking-3)
+- [Critical Thinking 4](#critical-thinking-4)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 4
+Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-4)  
+Program Name: Abstract Class Shape  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The program is a small Java program that calculates the surface area and volume of Sphere, Cone, and Cylinder shaped objects.
+It uses JavaFX to create a simple GUI that displays the surface area and volume of these shapes.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
