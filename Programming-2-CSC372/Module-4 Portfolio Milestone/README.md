@@ -20,7 +20,10 @@ Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Directions:   
-The Module 4: Portfolio Milestone asks for corrections to assignments from Weeks 1-3. If no corrections are required, then select one assignment, discuss how the code can be utilized in a larger application, and include a UML diagram of that larger, albeit simple, application. For this assignment, I do not have corrections that are required to be made to my critical thinking assignments from weeks 1-3. Thus, I selected my assignment from week 2, Critical Thinking 2 – Bank Account GUI, to discuss how the code can be utilized in a larger application, and to include a UML diagram of that larger, albeit simple, application.
+The Module 4: Portfolio Milestone asks for corrections to assignments from Weeks 1-3.  
+If no corrections are required, then select one assignment, discuss how the code can be utilized in a larger application, and include a UML diagram of that larger, albeit simple, application.  
+For this assignment, I do not have corrections that are required to be made to my critical thinking assignments from weeks 1-3.  
+Thus, I selected my assignment from week 2, Critical Thinking 2 – Bank Account GUI, to discuss how the code can be utilized in a larger application, and to include a UML diagram of that larger, albeit simple, application.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
