@@ -41,8 +41,29 @@ Related links:
 - [Critical Thinking 1](#critical-thinking-1)  
 - [Critical Thinking 2](#critical-thinking-2)  
 - [Critical Thinking 3](#critical-thinking-3)
-- [Critical Thinking 4](#critical-thinking-4)   
+- [Critical Thinking 4](#critical-thinking-4)
+- [Module 4 Portfolio Milestone](#module-4-portfolio-milestone)
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 4 Portfolio Milestone
+Directory: [Module 4 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Module-4%20Portfolio%20Milestone)  
+Program Name: Bank Application 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The Module 4: Portfolio Milestone asks for corrections to assignments from Weeks 1-3.  
+If no corrections are required, then select one assignment, discuss how the code can be utilized in a larger application, and include a UML diagram of that larger, albeit simple, application.  
+For this assignment, I do not have corrections that are required to be made to my critical thinking assignments from weeks 1-3.  
+Thus, I selected my assignment from week 2, Critical Thinking 2 – Bank Account GUI, to discuss how the code can be utilized in a larger application, and to include a UML diagram of that larger, albeit simple, application.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
