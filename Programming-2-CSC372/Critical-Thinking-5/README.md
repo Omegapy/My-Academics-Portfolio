@@ -1,5 +1,5 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Critical Thinking 4
+# Critical Thinking 5
 Program Name: Grocery Price Calculator  
 
 Grade:  
@@ -29,15 +29,14 @@ Students must use appropriate version control for all programmatic assignments c
 
 ⚠️ My notes:   
 -	I got permission from Dr. Cooper to use the JavaFX library to display the program outputs.  
--	I also got permission to use recursion until a button is clicked   instead of until five numbers are entered by the user.  
+-	I also got permission to use recursion until a button is clicked instead of until five numbers are entered by the user.  
 -	I added my own icon to the window frame – logo.png  
 -	For the source code please see GroceryCalculator.java.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-The program is a small Java program that calculates the surface area and volume of Sphere, Cone, and Cylinder shaped objects.  
-It uses JavaFX to create a simple GUI that displays the surface area and volume of these shapes.    
+Grocery Price Calculator is a small JavaFX program that calculates the total sum of user-inputted grocery prices. It calculates the total cost using recursion    
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -47,9 +46,11 @@ It uses JavaFX to create a simple GUI that displays the surface area and volume 
 	- Results and test scenarios   
 	- Screenshots
 - logo.png – Window application icon  
-- README.md – Markdown file, program information  
-- Shape.java – Abstract Shape Class  
-- ShapeArray.java – GroceryCalculator class extends the JavaFX Application class. It is GUI that accepts user grocery item price inputs, validates inputs, and calculates and displays the total sum of all entered items' prices. The class contains the main method.  
+- README.md – Markdown file, program information
+- GroceryCalculator.java - The GroceryCalculator extends the JavaFX Application class.  
+It is a GUI that accepts user grocery item price inputs, validates inputs and calculates and displays the total sum of all entered items' prices. The class contains the main method. 
+ 
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 
