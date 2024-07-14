@@ -38,12 +38,30 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Critical Thinking 1](#critical-thinking-1)  
-- [Critical Thinking 2](#critical-thinking-2)  
-- [Critical Thinking 3](#critical-thinking-3)
-- [Critical Thinking 4](#critical-thinking-4)
-- [Module 4 Portfolio Milestone](#module-4-portfolio-milestone)
+- [Critical Thinking 1](#critical-thinking-1)   
+- [Critical Thinking 2](#critical-thinking-2)   
+- [Critical Thinking 3](#critical-thinking-3)  
+- [Critical Thinking 4](#critical-thinking-4)  
+- [Module 4 Portfolio Milestone](#module-4-portfolio-milestone)  
+- [Critical Thinking 5](#critical-thinking-5)  
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 5
+Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-5)   
+Program Name: Grocery Price Calculator    
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+Grocery Price Calculator is a small JavaFX program that calculates the total sum of user-inputted grocery prices.   
+It calculates the total cost using recursion.    
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
