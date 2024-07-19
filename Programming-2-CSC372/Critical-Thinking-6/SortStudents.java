@@ -110,10 +110,16 @@ public class SortStudents extends Application {
 
         // Set up event handlers
         btnSortByName.setOnAction(e -> {
+            System.out.println("-----------------------------------------------------");
+            System.out.println("               Sorted by First Name");
+            System.out.println("-----------------------------------------------------");
             SortingUtil.selectionSort(students, new SortingUtil.NameComparator());
             updateListView();
         });
         btnSortByRollNo.setOnAction(e -> {
+            System.out.println("-----------------------------------------------------");
+            System.out.println("               Sorted by Roll No");
+            System.out.println("-----------------------------------------------------");
             SortingUtil.selectionSort(students, new SortingUtil.RollNoComparator());
             updateListView();
         });

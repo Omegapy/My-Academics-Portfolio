@@ -84,21 +84,33 @@ public class SortingUtil {
      * @param comparator The Comparator used compare students.
      */
     public static void selectionSort(ArrayList<Student> students, Comparator<Student> comparator) {
-        int n = students.size();
-        for (int i = 0; i < n - 1; i++) {
-            int minIndex = i;
+        int lenght = students.size();
+        int minIndex; // store index of minimum value
+        Student temp; // use during swapping to store the Student object from the sorted portion (at index i)
+        //---- Iterates array list
+        for (int i = 0; i < lenght - 1; i++) {
+            minIndex = i;
+            System.out.println("-----------------------------------------------------");
+            System.out.println("minIndex (i): " + minIndex);
             // Find the minimum element in the unsorted part of the list
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i + 1; j < lenght; j++) {
                 if (comparator.compare(students.get(j), students.get(minIndex)) < 0) {
                     minIndex = j;
+                    System.out.println("-----------------------------------------------------");
+                    System.out.print("i: " + i + ", j: " + j + " ");
+                    System.out.println("\nminIndex (j): " + minIndex);
                 }
-            }
-            // Swap the found minimum element with the first element of the unsorted part
+            } // END j loop
+            //---- Swapping
+            // Swap the minimum element with the first element of the unsorted part
             if (minIndex != i) {
-                Student temp = students.get(i);
+                System.out.println("-----------------------------------------------------");
+                System.out.println("Swapping Index (i): " + i + " with index (j): " + minIndex);
+                System.out.println("Swapping Object (i): " + students.get(i) + "\nwith Object (j): " + students.get(minIndex));
+                temp = students.get(i);
                 students.set(i, students.get(minIndex));
                 students.set(minIndex, temp);
-            }
+            } // END i loop
         }
     }
 
