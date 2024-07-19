@@ -43,8 +43,27 @@ Related links:
 - [Critical Thinking 3](#critical-thinking-3)  
 - [Critical Thinking 4](#critical-thinking-4)  
 - [Module 4 Portfolio Milestone](#module-4-portfolio-milestone)  
-- [Critical Thinking 5](#critical-thinking-5)  
+- [Critical Thinking 5](#critical-thinking-5)
+- [Critical Thinking 6](#critical-thinking-6) 
 - [Discussions](#discussions)
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 6
+Directory: [Critical-Thinking-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-6)   
+Program Name: Sort Students      
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The Sort Students program sorts a list of students, allowing users to view and sort students by first name or roll number.
+The program uses selection sort to sort the students.   
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -81,7 +100,6 @@ Thus, I selected my assignment from week 2, Critical Thinking 2 – Bank Account
 -------------------------------------------------------------------------------------------
 
 [Go back to the Project Map](#project-map)
-
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
