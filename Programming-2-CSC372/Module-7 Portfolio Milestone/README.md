@@ -19,7 +19,7 @@ Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Directions:   
-The Module 7: Portfolio Milestone asks for corrections to assignments from Weeks 6-7. Since all my Critical Thinking Assignments from Weeks 6-7 do not require any corrections, I resubmitted my assignments without any changes. They can be found in the folder Critical-Thinking 4-6.  
+The Module 7: Portfolio Milestone asks for corrections to assignments from Weeks 6-7. Since all my Critical Thinking Assignments from Weeks 4-6 do not require any corrections, I resubmitted my assignments without any changes. They can be found in the folder Critical-Thinking 4-6.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
