@@ -38,6 +38,8 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+
+- [Module 7 Portfolio Milestone](#module-7-portfolio-milestone)  
 - [Critical Thinking 1](#critical-thinking-1)   
 - [Critical Thinking 2](#critical-thinking-2)   
 - [Critical Thinking 3](#critical-thinking-3)  
@@ -47,6 +49,20 @@ Related links:
 - [Critical Thinking 6](#critical-thinking-6) 
 - [Discussions](#discussions)
 
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 7 Portfolio Milestone
+Directory: [Module 7 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Module-7%20Portfolio%20Milestone)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The Module 7: Portfolio Milestone asks for corrections to assignments from Weeks 4-6. Since all my Critical Thinking Assignments from Weeks 4-6 do not require any corrections, I resubmitted my assignments without any changes. They can be found in the folder Critical-Thinking 4-6.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
