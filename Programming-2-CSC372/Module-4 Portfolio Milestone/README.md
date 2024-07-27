@@ -29,12 +29,12 @@ Thus, I selected my assignment from week 2, Critical Thinking 2 – Bank Account
 
 #### Project Map
 - Module-4 Portfolio Milestone.pdf  
-	- Contains the discussion of how the code from Critical Thinking 2 – Bank Account GUI can be utilized in a larger application.     
-      - The last page of the document contains the UML diagram of the application.   
-- Bank Application UML.pdf  
+	- Contains the discussion of how the code from Critical Thinking 2 – Bank Account GUI can be utilized in a larger application.  
+	- The last page of the document contains the UML diagram of the application.   
+- Bank Application UML.pdf   
 	- contains the UML diagram of the Bank Application.   
 - Critical-Thinking 1-3 Folder  
-      - contains my Critical Thinking assignments for Module 1 to 3  
+	- contains my Critical Thinking assignments for Module 1 to 3  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
