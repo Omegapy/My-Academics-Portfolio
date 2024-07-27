@@ -34,7 +34,7 @@ Thus, I selected my assignment from week 2, Critical Thinking 2 – Bank Account
 - Bank Application UML.pdf   
 	- contains the UML diagram of the Bank Application.   
 - Critical-Thinking 1-3 Folder  
-	- contains my Critical Thinking assignments for Module 1 to 3  
+	- contains my Critical Thinking assignments from Module 1 to 3  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
