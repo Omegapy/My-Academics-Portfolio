@@ -38,16 +38,37 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-
-- [Module 7 Portfolio Milestone](#module-7-portfolio-milestone)  
-- [Critical Thinking 1](#critical-thinking-1)   
-- [Critical Thinking 2](#critical-thinking-2)   
-- [Critical Thinking 3](#critical-thinking-3)  
-- [Critical Thinking 4](#critical-thinking-4)  
-- [Module 4 Portfolio Milestone](#module-4-portfolio-milestone)  
+ 
+- [Portfolio Project](#portfolio-project)
+- [Module 7 Portfolio Milestone](#module-7-portfolio-milestone)
+- [Critical Thinking 6](#critical-thinking-6)   
 - [Critical Thinking 5](#critical-thinking-5)
-- [Critical Thinking 6](#critical-thinking-6) 
+- [Module 4 Portfolio Milestone](#module-4-portfolio-milestone)    
+- [Critical Thinking 4](#critical-thinking-4)  
+- [Critical Thinking 3](#critical-thinking-3)    
+- [Critical Thinking 2](#critical-thinking-2)
+- [Critical Thinking 1](#critical-thinking-1) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Portfolio Project  
+Directory: [Module 7 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Portfolio-Project)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The Students Manager is a small Java application that utilizes JavaFX GUI allowing the user to add, view, search, and sort students data:  
+- Student data management (name, address, GPA)  
+- File-based storage  
+- Sorting by name or GPA  
+- Search functionality  
+- Basic data validation   
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
