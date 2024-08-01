@@ -35,6 +35,7 @@ import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -73,6 +74,14 @@ public class StudentManagerApp extends Application {
 
 	// Initialize file if no students.txt file is found
 	checkAndInitializeFile();
+
+	// Icon
+	try {
+	    Image icon = new Image("logo.png");
+	    primaryStage.getIcons().add(icon);
+	} catch (Exception e) {
+	    System.out.print("Icon image not found.");
+	}
 
 	// Main layout container
 	VBox mainLayout = new VBox(10);
