@@ -2,8 +2,9 @@
 # Programming-2 Java – CSC372
 -----------------------------------------------------------------------------------------------------------------------------
 
- Alejandro (Alex) Ricciardi (Omegapy)  
- created date: 6/10/2024  
+ <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/f8f3f73f-c5e7-40cd-a9d1-f60aa32ca4a7"> Alejandro (Alex) Ricciardi (Omegapy)   
+
+created date: 6/10/2024  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
