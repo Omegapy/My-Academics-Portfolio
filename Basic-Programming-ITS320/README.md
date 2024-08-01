@@ -2,7 +2,8 @@
 # Basic Programming Python – IT320
 -----------------------------------------------------------------------------------------------------------------------------
 
- Alejandro (Alex) Ricciardi (Omegapy)  
+<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/f8f3f73f-c5e7-40cd-a9d1-f60aa32ca4a7"> Alejandro (Alex) Ricciardi (Omegapy)   
+  
  created date: 04/04/2024  
 
 -----------------------------------------------------------------------------------------------------------------------------
