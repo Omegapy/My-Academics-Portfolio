@@ -54,7 +54,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Portfolio Project  
-Directory: [Module 7 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Portfolio-Project)  
+Directory: [Portfolio Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Portfolio-Project)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
