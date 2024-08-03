@@ -33,9 +33,68 @@ Related links:
 #### Project Map
 - [CSC320 Programming 1 Java](#csc320-programming-1-java)
 - [ITS320 Basic Programming Python](#its320-basic-programming-python)
-- [ENG102 Composition 2](#eng102-composition-2)
 - [CSC300 Operating Systems and Architecture](#csc300-operating-systems-and-architecture)  
-- [COSC1030 Computer Science 1](#cosc1030-computer-science-1)  
+- [COSC1030 Computer Science 1](#cosc1030-computer-science-1)
+- [ENG102 Composition 2](#eng102-composition-2)
+- [HUM101 Critical Reasoning](#hum101-critical-reasoning)
+
+ -----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## CSC372 Computer Programming 2 Java
+Directory: [CSC320 CSU Global]()   
+Portfolio Assignment Option 1 
+Program Name: Students Manager   
+Fall D (24SB) – 2024  
+Student: Alejandro (Alex) Ricciardi  
+Date: 08/04/2024
+   
+Grade:  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The Students Manager is a small Java application that utilizes JavaFX GUI  allowing the user to add, view, search, and sort students' data:    
+        - Student data management (name, address, GPA)    
+        - File-based storage    
+        - Sorting by name or GPA    
+        - Search functionality     
+        - Basic data validation      
+       
+-------------------------------------------------------------------------------------------
+
+Assignment Directions:  
+student data. Student data are private fields in a student class including:  
+•	String name  
+•	String address  
+•	double GPA  
+Each student object is stored in a linked list.   
+After the user completes the data entry, output the contents of the linked list in ascending sorted order by name to a regular text file that can be opened and viewed using a simple plain-text editor such as notepad.
+Validate numeric data for Grade Point Average (GPA).   
+Compile your Lessons Learned Reflection, source code, screenshots of the application executing, and results into a single document.   
+Format your document in MS Word, according to APA guidelines in the CSU Global Writing Center, particularly in developing your Lessons Learned Reflection. Support your reflection with a minimum of three references, as noted above. Include both a cover page and a reference page with your Portfolio Project.   
+
+⚠️ Program Notes:    
+-	I got permission from Dr. Cooper to use the JavaFX library to display the program outputs.  
+-	Added my own icon to the window frame – logo.png.  
+-	Added search functionality (not an assignment requirement).  
+-	Added read file functionality (not an assignment requirement).  
+-	Added the option to add fake data to the file for troubleshooting purposes (not an assignment requirement).  
+-	Implemented my own selection sort and binary search algorithms.  
+-	Created a UML class diagram.  
+-	For the source code please see the following: Student.java, StudentManager.java, NameComparator.java, GpaComparator.java, SortSearchUtil.java, StudentManagerApp.java    
+
+Project Map:  
+-	Project Report.pdf: A pdf file (this file) containing an overview of the assignment and the Students Manager program.  
+-	README.md: A markdown file containing information about the project, intended to be viewed on GitHub.   
+-	Lessons Learned and Reflection.doc: A Word document containing a summary and reflections on the lessons I have learned in this programming course.   
+-	Milestone-1: Directory containing the Portfolio Milestone assignment from Module 4.  
+-	Milestone-2: Directory containing the Portfolio Milestone assignment from Module 7.  
+-	Application: A folder containing the source code, Java code files for the Students Manager program.  
+
+----------------------------------------------------------------------------------------------------------------------------- 
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -47,7 +106,7 @@ Spring B Semester (24SB) – 2024
 Student: Alejandro (Alex) Ricciardi  
 Date: 06/09/2024
    
-Final grade:  
+Grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -68,7 +127,7 @@ Your Portfolio Project for CSC320 will consist of three components:
 •	Final program: Create a final program that meets the requirements outlined below.  
 
 Final Program Requirements  
-Create a home inventory class that will be used by a national builder to maintain inventory of available houses in the country. The following attributes should be present in your home class:  
+Create a home inventory class that will be used by a national builder to maintain an inventory of available houses in the country. The following attributes should be present in your home class:  
 
 •	private int square_feet  
 •	private string address  
@@ -116,7 +175,6 @@ Compile your Module 1-6 programs with corrections, lessons learned reflection, a
 [Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
-
 -----------------------------------------------------------------------------------------------------------------------------
 ## ITS320 Basic Programming Python
 Directory: [IT320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/IT320%20CSU%20Global)   
@@ -125,7 +183,7 @@ File: Home Inventory Mannager.py
 Winter Semester (24WD) – 2024  
 Date: 04/07/2024  
 
-Final grade:  300/300 A
+Grade:  300/300 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -195,80 +253,13 @@ Program Outputs: Display of home inventory, updated inventory file, and user pro
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## ENG102 Composition 2
-Directory: [Eng 1020 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC300%20CSU%20Global)  
-File: Navigating the AI Revolution.pdf  
-Winter Semester (24WD) – 2024   
-Date: 04/07/2024  
-
-Final grade: 96% A
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-
-Assignment Directions:  
-Portfolio Project (350 Points)
-Argumentative Essay
-For your Portfolio Project (due in Module 8) you will write an argumentative essay based on a topic in your major field of study.  
-You will submit the topic for approval in Module 2, and continue to write and revise until the due date.  
-If you critically read the assigned readings and lecture content, enthusiastically participate in the module discussions,  
-submit your best work for the Critical Thinking assignments, and thoughtfully reflect on your instructor feedback,  
-you will find that the work for your final portfolio project is the natural progression of your work during the course.  
-Based on this cumulative approach, it should represent your strongest work.
-
-Requirements  
-Your essay must:
-
-Be persuasive. You need to make a clear argument, articulated in your thesis statement, and supported throughout the body of the essay.  
-Be directed at a specific audience.  
-Have a thesis statement that includes your overall argument and maps out the points you make in the body of the paper.  
-Support the thesis with research from credible sources.  
-Demonstrate your ability to synthesize and analyze information from multiple sources in order to develop your own insights into the topic.  
-Summarize and respond to counterarguments.  
-Include proper in-text citations and references citations in APA format.  
-Guidance
-Length: 3-4 pages, not including the title page or references page, which you are required to include.
-Support: 6 or more credible print sources cited in the paper and included on the references page.   
-The sources should be from roughly the last five to seven years.  
-Voice: Third-person. APA format does allow for limited use of first-person pronouns when describing your work,   
-but it is unlikely you will need to use first person in this project.  	
-
--------------------------------------------------------------------------------------------
-
-Essay Summary:  
-
-Title: Navigating the AI Revolution: Promoting Innovation and Mitigating Risks  
-The essay explores the potential risks and benefits of AI development   
-and proposes solutions to mitigate risks while promoting innovation. Key points include:  
-
-1. Risks of unchecked AI development: Misuse, loss of control, and existential threats.  
-Severe restrictions proposed by some organizations are myopic and impractical.
-2. Solutions: 
-
-a. Ethical AI: Integrate ethical principles into AI systems through Constitutional AI (CAI) and AI Ethical Reasoning (AIER). 
-b. AI Reasoning: Train AI to reason efficiently and align with human values and ethical principles. 
-C. Government Regulations: Establish a government agency to license and test AI models, implement precision regulation,   
-and gradually increase oversight while permitting innovation.  
-
-3. Importance of a balanced approach combining ethical AI development, government regulation, and proactive management of societal impacts.
-4. The need for collaboration among government agencies, international organizations,  
-and industry self-regulation to ensure AI's safe and beneficial implementation.
-5. Urgency of action due to the rapid pace of AI advancement, emphasizing the importance of research on AI Ethical Reasoning.  
-
-The essay concludes that by integrating ethical principles, fostering a culture of safety and ethics among AI developers,   
-and establishing appropriate government regulations and agencies, society can responsibly navigate the AI revolution.
-
-[Go back to the Project Map](#project-map)
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
 ## CSC300 Operating Systems and Architecture
 Directory: [CSC300 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC300%20CSU%20Global)  
 File: Solutions for a Business Enterprise-Wide Upgrade.pdf  
 Spring Semester - 2023  
 Date: 04/07/2024  
 
-Final grade: 350/350 A+
+Grade: 350/350 A+
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -377,5 +368,136 @@ he will travel through the region of Nephalia , Kessig, and Stensia,
 where he will encounter many dangers. Provided that he survives the journey; 
 at Skirsdag high temple, he will have to battle  
 and defeat both lord Salt and the demon Iretrat to save Clarabella and complete his quest.
+
+[Go back to the Project Map](#project-map)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## ENG102 Composition 2
+Folder: [Eng 1020 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC300%20CSU%20Global)  
+File: Navigating the AI Revolution.pdf  
+Winter Semester (24WD) – 2024   
+Date: 04/07/2024  
+
+Grade: 329/354 B+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Directions:  
+Portfolio Project (350 Points)
+Argumentative Essay
+For your Portfolio Project (due in Module 8) you will write an argumentative essay based on a topic in your major field of study.  
+You will submit the topic for approval in Module 2, and continue to write and revise until the due date.  
+If you critically read the assigned readings and lecture content, enthusiastically participate in the module discussions,  
+submit your best work for the Critical Thinking assignments, and thoughtfully reflect on your instructor feedback,  
+you will find that the work for your final portfolio project is the natural progression of your work during the course.  
+Based on this cumulative approach, it should represent your strongest work.
+
+Requirements  
+Your essay must:
+
+Be persuasive. You need to make a clear argument, articulated in your thesis statement, and supported throughout the body of the essay.  
+Be directed at a specific audience.  
+Have a thesis statement that includes your overall argument and maps out the points you make in the body of the paper.  
+Support the thesis with research from credible sources.  
+Demonstrate your ability to synthesize and analyze information from multiple sources in order to develop your own insights into the topic.  
+Summarize and respond to counterarguments.  
+Include proper in-text citations and references citations in APA format.  
+Guidance
+Length: 3-4 pages, not including the title page or references page, which you are required to include.
+Support: 6 or more credible print sources cited in the paper and included on the references page.   
+The sources should be from roughly the last five to seven years.  
+Voice: Third-person. APA format does allow for limited use of first-person pronouns when describing your work,   
+but it is unlikely you will need to use the first person in this project.  	
+
+-------------------------------------------------------------------------------------------
+
+Essay Summary:  
+
+Title: Navigating the AI Revolution: Promoting Innovation and Mitigating Risks  
+The essay explores the potential risks and benefits of AI development   
+and proposes solutions to mitigate risks while promoting innovation. Key points include:  
+
+1. Risks of unchecked AI development: Misuse, loss of control, and existential threats.    
+Severe restrictions proposed by some organizations are myopic and impractical. 
+ 
+2. Solutions:  
+a. Ethical AI: Integrate ethical principles into AI systems through Constitutional AI (CAI) and AI Ethical Reasoning (AIER).   
+b. AI Reasoning: Train AI to reason efficiently and align with human values and ethical principles.   
+C. Government Regulations: Establish a government agency to license and test AI models, implement precision regulation,   
+and gradually increase oversight while permitting innovation.    
+
+3. Importance of a balanced approach combining ethical AI development, government regulation, and proactive management of societal impacts.
+
+4. The need for collaboration among government agencies, international organizations,   
+and industry self-regulation to ensure AI's safe and beneficial implementation.
+
+5. Urgency of action due to the rapid pace of AI advancement, emphasizing the importance of research on AI Ethical Reasoning.  
+
+The essay concludes that by integrating ethical principles, fostering a culture of safety and ethics among AI developers,   
+and establishing appropriate government regulations and agencies, society can responsibly navigate the AI revolution.
+
+[Go back to the Project Map](#project-map)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## HUM101 Critical Reasoning
+Folder: [HUM101 CSU Global]()  
+File: Aristotle's Ethical Deliberation and Virtue: Principles for Ethical AI.pdf  
+Spring Semester (24SD) – 2024   
+Date: 08/04/2024  
+
+Grade: 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Directions:  
+Option #1: Applying Philosophy to a Modern-Day Issue  
+In this option, you will complete the following:  
+
+Select a key idea from one of our five philosophers covered in weeks 1-5.  
+Apply that key idea to a modern-day context.  
+Demonstrate how that key idea helps the reader understand your perspective on the modern-day context.  
+For example, you may choose to discuss Plato’s concept of how knowledge changes perspective, and you may apply that idea to a modern-day novel, film, news story, or even a magazine advertisement.  
+
+The choice of what you apply the tool to is your own. By that, you may choose whatever text, or artifact that communicates a message, to apply the tool.  
+
+Imagine, for example, you watched Bill and Ted’s Excellent Adventure, that film we talked about in our discussion of Plato. You might want to talk about how that film does or does not successfully apply the concepts of Plato to teach the audience about a larger idea.
+
+Note: You may debate whether the text you choose does or does not meet the standards of your chosen philosopher’s ideas.
+
+Remember, too, that you’ve likely done a lot of work on the key themes and examples in our weekly handouts. You can mine ideas and sources from there and from any feedback from your peers.
+
+You have also done a good bit of work on your thesis and/or body paragraphs with your Portfolio Milestone Assignments from weeks 2, 4, and 6. Again, you are encouraged to revisit that work and comments from your Instructor on that work to outline and revise your ideas for the final portfolio project.
+
+Hint: While you are putting together your final discussion presentation in Week 8 discussion, you will also get a chance to review your key ideas and quotes from the class, so be sure to leverage that step in locating key elements of your final paper’s body paragraphs and/or ideas to inform the final thesis, introduction, and conclusion.
+
+Your paper must be two to three pages, 12-point font, double-spaced. That means no 1.5 page papers, and no papers longer than 3 pages. The length of the paper is designed to help you boil down the key ideas into a focused thesis with 3-7 body paragraphs and a conclusion. We are focusing on quality, not quantity. For more on the academic writing process for the final portfolio, review the Week 8 Lecture. 
+
+Include at least two references - one from a philosopher and at least one from a credible outside source. The CSU Global Library is a good place to find these references. To quickly access the Library, click on the tabs in the Course Navigation Panel.  	
+
+-------------------------------------------------------------------------------------------
+
+Essay Summary:  
+
+Title: Aristotle's Ethical Deliberation and Virtue: Principles for Ethical AI   
+The paper draws connections between ancient philosophy and modern technology, suggesting that Aristotle's Ethical Deliberation and Virtue concepts could guide the development of ethically aligned AI systems.
+
+Key points include:  
+
+1. Introduction:  
+The paper discusses the potential of AI to transform society and the ethical questions this raises.  
+2. Aristotle's Ethical Deliberation:  
+It explores Aristotle's concept of ethical deliberation as a process of reaching good results through means other than deduction.  
+3. Application to AI:  
+The paper suggests incorporating Aristotle's principles into AI model training to ensure ethical outputs.  
+4. Aristotle's Concept of Virtue:  
+It discusses Aristotle's idea of ethical virtue as a mean between extremes and how this could be applied to AI development.  
+5. Challenges:  
+The paper acknowledges difficulties in implementing these concepts in AI, such as translating abstract ethical principles into machine-processable forms.  
+6. Conclusion:  
+It argues for the relevance of Aristotelian ethics in developing ethical AI systems, emphasizing the need to embed these principles into AI design.  
 
 [Go back to the Project Map](#project-map)
