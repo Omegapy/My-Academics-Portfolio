@@ -15,14 +15,14 @@ A high distinction honors graduate: AS in CS from Laramie County Community Colle
 A junior student at Colorado State University Global (CSU Global) pursuing a BS in CS with a specialization in AI  
 (Expected Graduation: December 2025)
 
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
 - [Python](https://www.python.org/)
 - [Jupyter Notebook](https://jupyter.org/)    
 - [c++](https://isocpp.org/std/the-standard)
-- [java](https://www.java.com/en/)
+- [Java](https://www.java.com/en/)
+- [WebGL (JavaScript)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -37,34 +37,51 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Portfolio Projects](#portfolio-projects)
+- [Graphics and Visualization WebGL](#graphics-and-visualization-csc400-webgl)
+- [Data Structures and Algorithms Java](#data-structures-and-algorithms-csc400-java)
 - [Programming 2 CSC372 Java](#programming-2-csc372-java)  
 - [Programming 1 CSC320 Java](#programming-1-csc320-java)
 - [Basic Programming ITS320 Python](#basic-programming-its320-python)  
 - [Operating Systems and Architecture](#operating-systems-and-architecture)  
 - [Computer Science 1 cpp](#computer-science-1-cpp)  
 - [Python Data Science](#python-data-science)
+- [Portfolio Projects](#portfolio-projects)
 - [My Resume](#my-resume)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Portfolio Projects
-Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects)
+## Graphics and Visualization WebGL 
+Directory: [Graphics-and-Visualization-CSC405](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Projects Description:   
-This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
-and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
+Projects Description:
+This repository is a collection of Graphics and Visualization programs with WebGL (JavaScript) and assignments from CSC405 – Graphics and Visualization Course at Colorado State University Global - CSU Global.  
+Fall B (24FB) – 2024  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-[Go back to the Project Map](#project-map)
+[Go back to the Project Map](#project-map) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Data Structures and Algorithms Java 
+Directory: [Data-Structures-and-Algorithms-CSC400](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of Java programs and assignments from CSC400 – Data Structures and Algorithms Course at Colorado State University Global - CSU Global.  
+Fall B (24FB) – 2024  
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Programming 2 CSC372 Java
-Directory: [Programming-2-CSC372]( https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372)
+Directory: [Programming-2-CSC372](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -77,6 +94,7 @@ Spring B Semester (24SD) - 2024
 
 [Go back to the Project Map](#project-map) 
 
+-----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Programming 1 CSC320 Java
 Directory: [Programming-1-CSC320](https://github.com/Omegapy/My-Academics-Portfolio/blob/main/Programming-1-CSC320)
@@ -150,6 +168,21 @@ Directory: [python_datascience](https://github.com/Omegapy/My-Academics-Portfoli
 Projects Description:   
 Codecademy Data Science Course Python (2021)  
 This is a collection of assignments from Codecademy Machine Learning, Data Scientist Path  
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Portfolio Projects
+Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:   
+This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
+and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
