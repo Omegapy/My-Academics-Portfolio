@@ -9,7 +9,7 @@ created date: 08/12/2024
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:    
-This repository is a collection of Graphics and Visualization programs with WebGL and assignments from CSC405 – Graphics and Visualization Course  
+This repository is a collection of Graphics and Visualization programs with WebGL (JavaScript) and assignments from CSC405 – Graphics and Visualization Course  
 at Colorado State University Global - CSU Global.  
 
 -----------------------------------------------------------------------------------------------------------------------------
