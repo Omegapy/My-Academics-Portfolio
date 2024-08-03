@@ -31,6 +31,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- [CSC372 Computer Programming 2 Java](#csc372-computer-programming=2-java)
 - [CSC320 Programming 1 Java](#csc320-programming-1-java)
 - [ITS320 Basic Programming Python](#its320-basic-programming-python)
 - [CSC300 Operating Systems and Architecture](#csc300-operating-systems-and-architecture)  
@@ -41,7 +42,7 @@ Related links:
  -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC372 Computer Programming 2 Java
-Directory: [CSC320 CSU Global]()   
+Directory: [CSC372 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC372%20CSU%20Global)   
 Portfolio Assignment Option 1 
 Program Name: Students Manager   
 Fall D (24SB) – 2024  
@@ -443,7 +444,7 @@ and establishing appropriate government regulations and agencies, society can re
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## HUM101 Critical Reasoning
-Folder: [HUM101 CSU Global]()  
+Folder: [HUM101 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/HUM101%20CSU%20Global)  
 File: Aristotle's Ethical Deliberation and Virtue: Principles for Ethical AI.pdf  
 Spring Semester (24SD) – 2024   
 Date: 08/04/2024  
