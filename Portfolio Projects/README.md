@@ -1,11 +1,10 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Portfolio Projects CSC320
+# Portfolio Projects 
 -----------------------------------------------------------------------------------------------------------------------------
 
  <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/f8f3f73f-c5e7-40cd-a9d1-f60aa32ca4a7"> Alejandro (Alex) Ricciardi (Omegapy)   
 
 -----------------------------------------------------------------------------------------------------------------------------
-
 
 Projects Description:  
 This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
