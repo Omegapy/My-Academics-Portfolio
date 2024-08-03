@@ -12,7 +12,8 @@ and growth throughout my studies.
 
 I am a student in Computer Science with a focus on AI. 
 A high distinction honors graduate: AS in CS from Laramie County Community College (LCCC) – Dec. 2023  
-A junior student at Colorado State University Global (CSU Global) pursuing a BS in CS (Expected Graduation: July 2025)
+A junior student at Colorado State University Global (CSU Global) pursuing a BS in CS with a specialization in AI  
+(Expected Graduation: December 2025)
 
 
 -----------------------------------------------------------------------------------------------------------------------------
