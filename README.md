@@ -38,7 +38,7 @@ Related links:
 
 #### Project Map
 - [Graphics and Visualization WebGL](#graphics-and-visualization-webgl)
-- [Data Structures and Algorithms Java](#data-structures-and-algorithms-csc400-java)
+- [Data Structures and Algorithms Java](#data-structures-and-algorithms-java)
 - [Programming 2 CSC372 Java](#programming-2-csc372-java)  
 - [Programming 1 CSC320 Java](#programming-1-csc320-java)
 - [Basic Programming ITS320 Python](#basic-programming-its320-python)  
