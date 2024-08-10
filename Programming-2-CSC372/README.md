@@ -19,7 +19,7 @@ Professor: Dr. Vanessa Cooper
 Spring D Semester (24SD) – 2024   
 Student: Alejandro (Alex) Ricciardi   
 
-Final grade:  
+Final grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
