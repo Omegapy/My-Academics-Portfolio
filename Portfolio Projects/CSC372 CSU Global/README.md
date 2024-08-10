@@ -4,7 +4,7 @@ Program Name: Students Manager
 
 <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/f8f3f73f-c5e7-40cd-a9d1-f60aa32ca4a7"> Alejandro (Alex) Ricciardi (Omegapy) 
 
-Grade:  
+Grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -12,7 +12,7 @@ CSC372 – Programming-2 Java Course
 Professor: Dr. Vanessa Cooper  
 Spring D Semester (24SD) – 2024  
 Student: Alejandro (Alex) Ricciardi  
-Date: o8/04/2024   
+Date: 08/04/2024   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
