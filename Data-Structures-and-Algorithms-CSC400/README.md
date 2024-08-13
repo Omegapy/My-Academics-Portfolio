@@ -19,6 +19,8 @@ Professor: Herbert Pensado
 Fall B (24FB) – 2024   
 Student: Alejandro (Alex) Ricciardi   
 
+Final grade:
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
@@ -59,7 +61,7 @@ Program Description:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC400 - Data Structures and Algorithms    
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
