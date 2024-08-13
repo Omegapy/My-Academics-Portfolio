@@ -61,7 +61,7 @@ Program Description:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC405 - Graphics and Visualization    
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
