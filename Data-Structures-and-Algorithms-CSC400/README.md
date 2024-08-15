@@ -48,6 +48,8 @@ Related links:
 Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-1)  
 Program Name: RPG Bag
 
+-------------------------------------------------------------------------------------------
+
 Program Description:   
 The program is a simple implementation of a Bag Abstract Data Structure (Bag ADT) in Java.  
 The Bag class represents the inventory of an RPG video game player. 
