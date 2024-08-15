@@ -24,7 +24,7 @@ Final grade:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
-- Java JDK-21
+- Java JDK-22
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -48,16 +48,11 @@ Related links:
 Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-1)  
 Program Name: RPG Bag
 
- Program Description:  
+Program Description:   
 The program is a simple implementation of a Bag Abstract Data Structure (Bag ADT) in Java.  
 The Bag class represents the inventory of an RPG video game player. 
 The Bag allows for the storage and management of game items such as Potions, Armor, and Weapons.  
 The Bag ADT is implemented as a generic class that can store any item object type.  
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-
-Program Description:  
 
 -------------------------------------------------------------------------------------------
 
