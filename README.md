@@ -27,12 +27,14 @@ Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
-[GitHub](https://github.com/Omegapy)  
-[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)   
-[YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)
+[GitHub](https://github.com/Omegapy)   
+[Omegapy: Code Chronicles](https://www.alexomegapy.com/)  
+[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)    
+[Medium](https://medium.com/@alex.omegapy)     
+[YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)  
 
 Related links:  
-[CSU Global](https://csuglobal.edu/) 
+[CSU Global](https://csuglobal.edu/)   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
