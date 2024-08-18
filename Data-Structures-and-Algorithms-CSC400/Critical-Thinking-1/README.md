@@ -43,6 +43,7 @@ Submit your completed assignment as a .java source code file.
 - The program implements an Item class that acts as the base class for the classes Potion, Armor, and Weapon.  
 - The class Bag implements the Iterable and uses a list structure, 
 [element | next] -> [element | next] -> [element | next] -> null, to store elements.  
+- A popular implementation of the Bag ADT is to use a HashMap. Although a HashMap does not allow duplicate entries, it can store a single entry for each element along with its current count. This would eliminate the need to iterate through the entire Bag to count specific elements. However, for this assignment, I chose to use a linked list structure to show a more traditional approach to implementing a Bag ADT. 
 - In addition to the required functionalities, the program includes an extra feature that allows changing the price of an item object.  
 - The program source code can be found in the following files:  
 o Item.java  
@@ -55,10 +56,11 @@ o Main.java
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-The program is a simple implementation of a Bag Abstract Data Structure (Bag ADT) in Java.  
-The Bag class represents the inventory of an RPG video game player. 
+The program is an implementation of a Bag Abstract Data Structure (Bag ADT) using a Linked list structure.  
+[element | next] -> [element | next] -> [element | next] -> null.   
+The Bag class represents the inventory of an RPG video game player.  
 The Bag allows for the storage and management of game items such as Potions, Armor, and Weapons.  
-The Bag ADT is implemented as a generic class that can store any item object type.  
+The Bag ADT is implemented as a generic class that can store any element object type.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -80,8 +82,10 @@ The Bag ADT is implemented as a generic class that can store any item object typ
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
-[GitHub](https://github.com/Omegapy)  
-[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)   
+[GitHub](https://github.com/Omegapy) 
+[Omegapy: Code Chronicles](https://www.alexomegapy.com/)
+[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)  
+[Medium] (https://medium.com/@alex.omegapy)    
 [YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)
 
 Related links:  

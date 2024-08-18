@@ -4,7 +4,9 @@
     Date: 08/18/2024
     
     Program Description: 
-    The program is an implementation of a Bag Abstract Data Structure (Bag ADT). 
+    The program is an implementation of a Bag Abstract Data Structure (Bag ADT) 
+    using a Linked list structure.
+    [element | next] -> [element | next] -> [element | next] -> null.
     The Bag class represents the inventory of an RPG video game player. 
     The Bag allows for the storage and management of game items such as Potions, Armor, and Weapons. 
     The Bag ADT is implemented as a generic class that can store any item object type.
@@ -21,10 +23,11 @@ package rpgBag; // Program Folder
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-/**
+// @formatter:off
+/** 
  * A Bag ADT class. This class implements a bag using a linked list structure to
- * store elements. [element | next] -> [element | next] -> [element | next] ->
- * null.
+ * store elements 
+ * [element | next] -> [element | next] -> [element | next] -> null.
  *
  * @param <T> the type of elements in this bag, must extend Item
  * 
@@ -32,9 +35,10 @@ import java.util.NoSuchElementException;
  * @version 2.0
  * @date 08/18/2024
  */
+// @formatter:on
 public class Bag<T> implements Iterable<T> {
 	private Node headNode; // The first node in the bag list
-	private int size; // Number of nodes in the bag
+	private int size;
 
 	// ==============================================================================================
 	/*------------------
@@ -77,8 +81,8 @@ public class Bag<T> implements Iterable<T> {
 		public T next() {
 			if (!hasNext())
 				throw new NoSuchElementException();
-			T item = current.item; // Get the item from the current node
-			current = current.next; // Move to the next node
+			T item = current.item;
+			current = current.next;
 			return item;
 		}
 	}
@@ -92,8 +96,8 @@ public class Bag<T> implements Iterable<T> {
 	 * Constructs an empty bag.
 	 */
 	public Bag() {
-		headNode = null; // Initialize the first (head) node in the bag to null (empty bag)
-		size = 0; // Initialize size of the bag to 0
+		headNode = null;
+		size = 0;
 	}
 
 	// ==============================================================================================
@@ -124,9 +128,9 @@ public class Bag<T> implements Iterable<T> {
 	// ----------------------------------------------------------------------------------------------
 
 	/**
-	 * Returns an iterator that iterates over the items in this bag.
+	 * Returns an iterator that iterates over the items in the bag.
 	 *
-	 * @return an iterator that iterates over the items in this bag
+	 * @return an iterator that iterates over the items in the bag
 	 */
 	public Iterator<T> iterator() {
 		return new BagIterator();
@@ -167,6 +171,18 @@ public class Bag<T> implements Iterable<T> {
 		return count;
 	}
 
+	// ----------------------------------------------------------------------------------------------
+
+	/**
+	 * Prints the contents of the bag.
+	 */
+	public void printContent() {
+		System.out.println("Bag contents:");
+		for (T item : this) {
+			System.out.println(item);
+		}
+	}
+
 	// ==============================================================================================
 	/*------------
 	 |  Setters  |
@@ -179,11 +195,11 @@ public class Bag<T> implements Iterable<T> {
 	 * @param item the item to add to the bag
 	 */
 	public void add(T item) {
-		Node nextNode = headNode; // Save the current head node becoming the next node in the added node
-		headNode = new Node(); // Create a new node and make it the head node
-		headNode.item = item; // Set the item of the new node
-		headNode.next = nextNode; // Link the new node to the old head node
-		size++; // Increment the size of the bag
+		Node nextNode = headNode;
+		headNode = new Node();
+		headNode.item = item;
+		headNode.next = nextNode;
+		size++;
 	}
 
 	// ----------------------------------------------------------------------------------------------
@@ -199,21 +215,21 @@ public class Bag<T> implements Iterable<T> {
 		Node current = headNode;
 
 		if (headNode == null)
-			return false; // If the bag is empty, return false
+			return false;
 
-		if (headNode.item.equals(item)) { // If the item is in the first node
-			headNode = headNode.next; // Make the next node the new head node
-			size--; // Decrement the size
+		if (headNode.item.equals(item)) {
+			headNode = headNode.next;
+			size--;
 			return true;
 		}
 
 		while (current.next != null) { // Iterates the linked structure
-			if (current.next.item.equals(item)) { // If the next node contains the item
-				current.next = current.next.next; // Remove the next node from the chain
-				size--; // Decrement the size
+			if (current.next.item.equals(item)) {
+				current.next = current.next.next;
+				size--;
 				return true;
 			}
-			current = current.next; // Move to the next node
+			current = current.next;
 		}
 		return false; // Item not found in the bag
 	}

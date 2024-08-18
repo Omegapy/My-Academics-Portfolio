@@ -4,7 +4,9 @@
     Date: 08/18/2024
     
     Program Description: 
-    The program is an implementation of a Bag Abstract Data Structure (Bag ADT). 
+    The program is an implementation of a Bag Abstract Data Structure (Bag ADT) 
+    using a Linked list structure.
+    [element | next] -> [element | next] -> [element | next] -> null.
     The Bag class represents the inventory of an RPG video game player. 
     The Bag allows for the storage and management of game items such as Potions, Armor, and Weapons. 
     The Bag ADT is implemented as a generic class that can store any item object type.
@@ -23,23 +25,6 @@ package rpgBag; // Program Folder
  * @date 08/18/2024
  */
 public class Main {
-
-	// ==============================================================================================
-	/*------------------
-	 |  Class Methods  |
-	 ------------------*/
-
-	/**
-	 * Prints the contents of the bag.
-	 *
-	 * @param bag the bag to print
-	 */
-	private static void printBagContents(Bag<Item> bag) {
-		System.out.println("Bag contents:");
-		for (Item item : bag) {
-			System.out.println(item);
-		}
-	}
 
 	// ==============================================================================================
 	/*----------------
@@ -83,7 +68,7 @@ public class Main {
 		System.out.println(banner);
 
 		// Print the bag content
-		printBagContents(bag);
+		bag.printContent();
 
 		// ------------------------------------------------------------
 		// Test the Bag class'contain method
@@ -125,7 +110,7 @@ public class Main {
 		}
 		// Print the bag contents again
 		System.out.println("Count of Healing Potions after removal: " + bag.count(healingPotion) + "\n");
-		printBagContents(bag);
+		bag.printContent();
 
 		// Try to remove another healing potion
 		System.out.println("\n-------------------------------------------------------\n");
@@ -141,7 +126,7 @@ public class Main {
 		}
 		// Print the bag contents again
 		System.out.println("Count of Healing Potions after removal: " + bag.count(healingPotion) + "\n");
-		printBagContents(bag);
+		bag.printContent();
 
 		// Try to remove a non-existent healing potion
 		System.out.println("\n-------------------------------------------------------\n");
@@ -157,7 +142,7 @@ public class Main {
 		}
 		System.out.println("Count of Healing Potions: " + bag.count(healingPotion) + "\n");
 		// Print the bag contents again
-		printBagContents(bag);
+		bag.printContent();
 
 		// ------------------------------------------------------------
 		// Print the items count again

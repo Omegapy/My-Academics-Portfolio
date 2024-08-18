@@ -4,7 +4,9 @@
     Date: 08/18/2024
     
     Program Description: 
-    The program is an implementation of a Bag Abstract Data Structure (Bag ADT). 
+    The program is an implementation of a Bag Abstract Data Structure (Bag ADT) 
+    using a Linked list structure.
+    [element | next] -> [element | next] -> [element | next] -> null.
     The Bag class represents the inventory of an RPG video game player. 
     The Bag allows for the storage and management of game items such as Potions, Armor, and Weapons. 
     The Bag ADT is implemented as a generic class that can store any item object type.
