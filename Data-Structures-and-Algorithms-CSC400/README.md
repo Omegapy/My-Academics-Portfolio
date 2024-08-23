@@ -35,9 +35,29 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
- 
+
+- [Critical Thinking 2](#critical-thinking-2) 
 - [Critical Thinking 1](#critical-thinking-1) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 2
+Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-2)  
+Program Name: RPG Bag
+
+-------------------------------------------------------------------------------------------
+
+Program Description: 
+The Program is version 2 of the [Critical Thinking 1](#critical-thinking-1) program with added functionalities, such as merge and duplicate removal.  
+The program is a simple implementation of a Bag Abstract Data Structure (Bag ADT) in Java.  
+The Bag class represents the inventory of an RPG video game player. 
+The Bag allows for the storage and management of game items such as Potions, Armor, and Weapons.  
+The Bag ADT is implemented as a generic class that can store any item object type.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 1
