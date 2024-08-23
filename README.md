@@ -27,14 +27,8 @@ Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 My Links:   
-[GitHub](https://github.com/Omegapy)   
-[Code Chronicles](https://www.alexomegapy.com/)  
-[LinkedIn](https://www.linkedin.com/in/alex-ricciardi/)    
-[Medium](https://medium.com/@alex.omegapy)     
-[YouTube](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)  
 
-Related links:  
-[CSU Global](https://csuglobal.edu/)   
+<span><a href="https://www.alexomegapy.com" target="_blank"><img width="25" height="25" src="https://github.com/user-attachments/assets/f8f3f73f-c5e7-40cd-a9d1-f60aa32ca4a7"></span>    [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=whit)](https://medium.com/@alex.omegapy)    [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100089638857137)    [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alex-ricciardi)    [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/AlexOmegapy)    [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)    
 
 -----------------------------------------------------------------------------------------------------------------------------
 
