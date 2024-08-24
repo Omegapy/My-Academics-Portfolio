@@ -36,18 +36,20 @@ My Links:
 
 #### Project Map
  
-- [Critical Thinking 1](#critical-thinking-1) 
+- [Module 2 Critical Thinking](#module-2-critical-thinking) 
 - [Discussions](#discussions)
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Critical Thinking 1
-Directory: [Critical-Thinking-1]()  
-Program Name:  
+## Module 2 Critical Thinking 
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405)  
+Program Name:  Sierpinski Gasket Vertex 2D
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
+
+The program is a very simple WebGL application that generates and displays a 2D representation of the Sierpinski Gasket.
 
 -------------------------------------------------------------------------------------------
 
