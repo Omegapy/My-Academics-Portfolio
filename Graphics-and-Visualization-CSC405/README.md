@@ -41,7 +41,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405)  
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-2-Critical-Thinking)  
 Program Name:  Sierpinski Gasket Vertex 2D
 
 -----------------------------------------------------------------------------------------------------------------------------
