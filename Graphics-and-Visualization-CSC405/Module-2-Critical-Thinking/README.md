@@ -39,11 +39,7 @@ Screen images of your image being rendered
 
 Program Description:  
 
-The program is an implementation of a Bag Abstract Data Structure (Bag ADT) using a Linked list structure.  
-[element | next] -> [element | next] -> [element | next] -> null.  
-The Bag class represents the inventory of an RPG video game player.   
-The Bag allows for the storage and management of game items such as Potions, Armor, and Weapons.   
-The Bag ADT is implemented as a generic class that can store any element object type.  
+The program is a very simple WebGL application that generates and displays a 2D representation of the Sierpinski Gasket.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
