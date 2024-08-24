@@ -1,0 +1,80 @@
+
+<!-- 
+ Program Name: Sierpinski Gasket Vertex 2D
+    Author: Alejandro (Alex) Ricciardi
+    Date: 08/25/2024
+    
+    Program Description: 
+    The program is a very simple WebGL application that generates and displays a 2D representation of the Sierpinski Gasket.
+-->
+<!DOCTYPE html>
+<html lan="eng">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>Sierpinski Gasket vertex 2D</title>
+        <!-- My icon -->
+        <link rel="shortcut icon" href="https://github.com/user-attachments/assets/f8f3f73f-c5e7-40cd-a9d1-f60aa32ca4a7"/>
+
+        
+        <!-- --------------------------------------------------------------------------------------------------- -->
+
+        <!-- 
+            Vertex Shader GLSL 
+            This script defines the vertex shader, which processes each vertex's position 
+        -->
+        <script id="vertex-shader" type="x-shader/x-vertex">
+            #version 300 es // GLSL version
+
+            in vec4 aPosition;  // Variable to old the position of each vertex 
+
+            void main()
+            {
+                gl_PointSize = 1.0; // Point size to be display
+                gl_Position = aPosition; // Set point position
+            }
+        </script>
+        
+        <!-- --------------------------------------------------------------------------------------------------- -->
+
+        <!-- 
+            Fragment Shader GLSL
+            This script defines the fragment shader, which determines the color of each pixel.
+        -->
+        <script id="fragment-shader" type="x-shader/x-fragment">
+            #version 300 es   // Version of GLSL (OpenGL Shading Language) being used, ES indicates it's for WebGL 
+
+            precision mediump float; // Sets the precision for floating point operations to high 
+
+            out vec4 fColor; // Variable for the fragment shader that will hold the final color of a fragment
+
+            void main()
+            {
+                fColor = vec4(0.0, 0.0, 0.0, 1.0); // Set the output color -Black-
+            }
+        </script>
+
+        <!-- --------------------------------------------------------------------------------------------------- -->
+
+        <!-- External Script Links in common folder for initializing shaders and performing matrix operations -->
+        <script src="Common/initShaders.js"></script> <!-- Script to initialize and compile the shaders -->
+        <script src="Common/MV.js"></script> <!-- Script to handle matrix and vector operations, likely related to transformations -->
+
+        <!-- --------------------------------------------------------------------------------------------------- -->
+
+        <!-- 
+            The main JavaScript 
+             Control WebGL rendering and application logic 
+        -->
+        <script src="gasket.js"></script>
+
+        <!-- --------------------------------------------------------------------------------------------------- -->
+
+    </head>
+
+    <body>
+        <!-- Canvas Element. Where WebGL content is rendered. -->
+        <canvas id="gl-canvas" width="512" height="512">
+            Oops ... your browser doesn't support the HTML5 canvas element
+        </canvas>
+    </body>
+</html>
