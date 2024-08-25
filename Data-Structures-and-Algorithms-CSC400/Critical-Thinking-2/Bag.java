@@ -46,8 +46,8 @@ public class Bag<T> implements Iterable<T> {
 	 |  Inner Classes  |
 	 ------------------*/
 	/**
-	 * Private inner class that creates a node in the linked structure. Each node
-	 * contains an item and a reference to the next node.
+	 * Creates a node in the linked structure. Each node contains an item and a
+	 * reference to the next node.
 	 */
 	private class Node {
 		T item; // The item stored in the node
@@ -57,7 +57,7 @@ public class Bag<T> implements Iterable<T> {
 	// ==========================================================================
 
 	/**
-	 * Private inner class that implements the Iterator interface.
+	 * Implements the Iterator interface.
 	 */
 	private class BagIterator implements Iterator<T> {
 		private Node current = headNode; // Start from the first (head) node

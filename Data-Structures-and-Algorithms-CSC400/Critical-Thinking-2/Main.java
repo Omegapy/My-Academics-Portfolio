@@ -62,14 +62,14 @@ public class Main {
 		// ------------------------------------------------------------
 		// -- Add items to bag 2
 		// Healing potions
-		bag1.add(new Potion(10.5, "Healing", 50)); // Distinct new id
+		bag1.add(new Potion(10.5, "Healing", 50)); // Distinct id
 		bag1.add(healingPotion); // Duplicate when merge with Bag 2
 		bag1.add(healingPotion); // Duplicate in this bag and when merge with Bag 2
 		// Strength potions
-		bag1.add(new Potion(10.5, "Strength", 50)); // Distinct new id
+		bag1.add(new Potion(10.5, "Strength", 50)); // Distinct id
 		bag1.add(strengthPotion); // Duplicate when merge with Bag 2
 		// Armor
-		bag1.add(ironArmor); // Distinct new id
+		bag1.add(ironArmor); // Distinct
 
 		// -- Add elements to the second
 		// Healing potions
@@ -77,9 +77,9 @@ public class Main {
 		// Strength potions
 		bag2.add(strengthPotion); // Duplicate when merge with Bag 1
 		// Protection potions
-		bag2.add(ptotectionPotion); // Distinct
+		bag2.add(ptotectionPotion); // Distinct id
 		// Weapon
-		bag2.add(sword); // Distinct new id
+		bag2.add(sword); // Distinct id
 
 		// ===========================================================
 		System.out.println(banner);
