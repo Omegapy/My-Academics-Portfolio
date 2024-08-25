@@ -16,7 +16,7 @@
     in gasket.js 
     - comment out "vec4 aPosition = pPosition;" and comment "vec4 aPosition = tPosition;"
 
-    To render Traingles
+    To render Triangles
     in gasket.js comment 
     - comment out "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);" and comment "gl.drawArrays(gl.POINTS, 0, currentVertex);"
     - out "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);" and comment "gl.drawArrays(gl.POINTS, 0, currentVertex);"
@@ -29,7 +29,7 @@
 /** @type {WebGLRenderingContext} */
 var gl;
 
-var positions = [];
+var positions = []; // Store Vertex positions
 
 var positionsP = []; // Store Points Positions
 // var numPositions = 5000; // Number of points to be generated 
@@ -108,7 +108,7 @@ window.onload = function init() {
     render();
 };
 
-// ================================================================================
+// ================================ Render ===========================================
 
 /**
  * Clears the canvas and renders the Sierpinski Gasket points.
@@ -140,7 +140,16 @@ function render() {
     }
 }
 
+// =============================== Points ============================================
 
+/**
+ * Initializes the points positions
+ * This function generates points based on a recursive midpoint calculation.
+ *
+ * @function
+ * @name initPoints
+ * @param {vec2[]} vertices - The vertices of the initial triangle
+ */
 function initPoints(vertices) {
     // Add the initial position to the array of points
     var u = add(vertices[0], vertices[1]);
@@ -163,7 +172,7 @@ function initPoints(vertices) {
     positions = positionsP;
 }
 
-// ================================================================================
+// ============================= Triangles =============================================
 
 /**
  * Adds a single triangle to the position buffer.
@@ -180,7 +189,7 @@ function triangle(a, b, c) {
 
 
 /**
- * Subdivides a triangle into smaller triangles 
+ * Recursively subdivides a triangle into smaller triangles to generate the Sierpinski Gasket.
  * 
  * @function
  * @name initTriangles
