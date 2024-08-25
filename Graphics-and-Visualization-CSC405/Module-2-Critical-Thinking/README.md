@@ -4,6 +4,10 @@ Program Name: Sierpinski Gasket Vertex 2D
 
 Grade:  
 
+<p align="left">
+<img  src="https://github.com/user-attachments/assets/0580aefe-6c5b-4f8d-967a-f101b18307db">
+</p>
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 CSC405 – Graphics and Visualization - WebGL Course  
@@ -13,6 +17,7 @@ Student: Alejandro (Alex) Ricciardi
 Date: 08/25/2024   
 
 -----------------------------------------------------------------------------------------------------------------------------
+
 
 Requirements:  
 - GLES 3
@@ -51,8 +56,8 @@ To render Points
 - in gasket.js    
     • comment out "gl.drawArrays(gl.POINTS, 0, currentVertex);" and comment "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);"    
     • comment out "initPoints(initVertices);" and comment below "initTriangles(initVertices[0], initVertices[1], initVertices[2], numTimesToSubdivide);"  
-- in gasket.js 
-    •comment out "vec4 aPosition = pPosition;" and comment "vec4 aPosition = tPosition;"
+- in gasket.js   
+    • comment out "vec4 aPosition = pPosition;" and comment "vec4 aPosition = tPosition;"
 
 To render Triangles  
 - in gasket.js comment  
