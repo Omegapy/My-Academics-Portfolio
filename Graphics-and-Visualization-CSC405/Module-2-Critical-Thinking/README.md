@@ -48,8 +48,9 @@ Screen images of your image being rendered
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-  
-The program is a very simple WebGL application that generates and displays a 2D animation of the Sierpinski Gasket being rendered.   pPosition uses points to generate the fractal.  
+
+The program is a very simple WebGL application that generates and displays a 2D animation of the Sierpinski Gasket being rendered.   
+pPosition uses points to generate the fractal.  
 tPosition uses triangles to generate the fractal.  
 
 To render Points  
