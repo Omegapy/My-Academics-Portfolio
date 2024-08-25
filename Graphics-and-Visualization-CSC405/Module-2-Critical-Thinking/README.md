@@ -15,7 +15,8 @@ Date: 08/25/2024
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
-- WebGL (JavaScript)
+- GLES 3
+- WebGL 2 (JavaScript)
   
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -42,15 +43,32 @@ Screen images of your image being rendered
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
+  
+The program is a very simple WebGL application that generates and displays a 2D animation of the Sierpinski Gasket being rendered.   pPosition uses points to generate the fractal.  
+tPosition uses triangles to generate the fractal.  
 
-The program is a very simple WebGL application that generates and displays a 2D representation of the Sierpinski Gasket.
+To render Points  
+- in gasket.js    
+    • comment out "gl.drawArrays(gl.POINTS, 0, currentVertex);" and comment "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);"    
+    • comment out "initPoints(initVertices);" and comment below "initTriangles(initVertices[0], initVertices[1], initVertices[2], numTimesToSubdivide);"  
+- in gasket.js 
+    •comment out "vec4 aPosition = pPosition;" and comment "vec4 aPosition = tPosition;"
+
+To render Triangles  
+- in gasket.js comment  
+    • comment out "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);" and comment "gl.drawArrays(gl.POINTS, 0, currentVertex);"  
+    • out "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);" and comment "gl.drawArrays(gl.POINTS, 0, currentVertex);"  
+- in gasket.js  
+    • comment out "vec4 aPosition = tPosition;" and comment "vec4 aPosition = pPosition;"
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- gasket.html – contains Vertex Shader GLSL and  Fragment Shader GLSL  
+- gasket.html – contains Vertex Shader GLSL and Fragment Shader GLSL  
 - gasket.js – contains JavaScript application logic  
-- common folder – contains External Script for initializing shaders and performing matrix operations  
+- common folder – contains External Script for initializing shaders and performing matrix operations 
+- Reflection Module 2 CT – provides an overview and reflection on the program's functionality, including testing scenarios and output screenshots.
+- Screenshots – contains the fractal rendering screenshots 
 - README.md – Markdown file, program information  
 
 -----------------------------------------------------------------------------------------------------------------------------

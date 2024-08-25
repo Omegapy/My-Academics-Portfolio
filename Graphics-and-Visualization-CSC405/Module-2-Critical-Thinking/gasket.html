@@ -5,32 +5,67 @@
     Date: 08/25/2024
     
     Program Description: 
-    The program is a very simple WebGL application that generates and displays a 2D representation of the Sierpinski Gasket.
+    The program is a very simple WebGL application that generates and displays a 2D animation 
+    of the Sierpinski Gasket being rendered.
+    pPosition uses points to generate the fractal.
+    tPosition uses triangles to generate the fractal.
+
+    To render Points
+    in gasket.js 
+    - comment out "gl.drawArrays(gl.POINTS, 0, currentVertex);" and comment "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);"
+    - comment out "initPoints(initVertices);" and comment below "initTriangles(initVertices[0], initVertices[1], initVertices[2], numTimesToSubdivide);"
+    in gasket.js 
+    - comment out "vec4 aPosition = pPosition;" and comment "vec4 aPosition = tPosition;"
+
+    To render Traingles
+    in gasket.js comment 
+    - comment out "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);" and comment "gl.drawArrays(gl.POINTS, 0, currentVertex);"
+    - out "gl.drawArrays(gl.TRIANGLES, 0, currentVertex);" and comment "gl.drawArrays(gl.POINTS, 0, currentVertex);"
+    in gasket.js 
+    - comment out "vec4 aPosition = tPosition;" and comment "vec4 aPosition = pPosition;"
 -->
 <!DOCTYPE html>
-<html lan="eng">
+<html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <title>Sierpinski Gasket vertex 2D</title>
+        <title>Sierpinski Gasket Vertex 2D</title>
         <!-- My icon -->
         <link rel="shortcut icon" href="https://github.com/user-attachments/assets/f8001645-cc85-4b99-beec-74482a83ac87"/>
 
-        
         <!-- --------------------------------------------------------------------------------------------------- -->
 
         <!-- 
             Vertex Shader GLSL 
-            This script defines the vertex shader, which processes each vertex's position 
+            This script defines the vertex shader, which processes each vertex's position.
         -->
         <script id="vertex-shader" type="x-shader/x-vertex">
             #version 300 es // GLSL version
 
-            in vec4 aPosition;  // Variable to old the position of each vertex 
+            vec4 aPosition; // Variable to hold the position of each vertex 
 
-            void main()
-            {
-                gl_PointSize = 1.0; // Point size to be display
-                gl_Position = aPosition; // Set point position
+            in vec4 pPosition; // Variable to hold the position of each point vertex 
+            in vec4 tPosition; // Variable to hold the position of each triangle vertex 
+            
+            void main() {
+
+                // ------- Points Vertex -----
+                aPosition = pPosition; // <------ to draw points comment out and comment below "vec4 aPosition = tPosition;"
+                gl_PointSize = 4.0; // Point size to be displayed
+                // to change the size of the points comment out lines below and comment above "gl_PointSize = 4.0;"
+                // gl_PointSize = 1.0; 
+
+                // ------- Triangles Vertex -----
+                // aPosition = tPosition; // <------ to draw triangles comment out and comment above "vec4 aPosition = pPosition;"
+                
+                // ----- Position ------
+                gl_Position = aPosition; // Set vertex position
+
+                // Flip the vertex along the x-axis
+                // to flip comment out lines below and comment above "gl_Position = aPosition"
+                // vec4 flippedPosition = aPosition; 
+                // flippedPosition.y = -flippedPosition.y;
+                // gl_Position = flippedPosition; 
+                
             }
         </script>
         
@@ -43,13 +78,14 @@
         <script id="fragment-shader" type="x-shader/x-fragment">
             #version 300 es   // Version of GLSL (OpenGL Shading Language) being used, ES indicates it's for WebGL 
 
-            precision mediump float; // Sets the precision for floating point operations to high 
+            precision mediump float; // Sets the precision for floating point operations to medium 
 
             out vec4 fColor; // Variable for the fragment shader that will hold the final color of a fragment
 
             void main()
             {
-                fColor = vec4(0.0, 0.0, 0.0, 1.0); // Set the output color -Black-
+                fColor = vec4(1.0, 0.0, 0.0, 1.0); // Set the output color -Red-
+                // fColor = vec4(1.0, 0.0, 1.0, 1.0); // Set the output color -Magenta-
             }
         </script>
 
@@ -63,7 +99,7 @@
 
         <!-- 
             The main JavaScript 
-             Control WebGL rendering and application logic 
+            Controls WebGL rendering and application logic 
         -->
         <script src="gasket.js"></script>
 
@@ -74,7 +110,7 @@
     <body>
         <!-- Canvas Element. Where WebGL content is rendered. -->
         <canvas id="gl-canvas" width="512" height="512">
-            Oops ... your browser doesn't support the HTML5 canvas element
+            Oops ... your browser doesn't support the HTML5 canvas element.
         </canvas>
     </body>
 </html>
