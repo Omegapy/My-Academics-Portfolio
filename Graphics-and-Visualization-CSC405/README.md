@@ -44,13 +44,16 @@ My Links:
 Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-2-Critical-Thinking)  
 Program Name:  Sierpinski Gasket Vertex 2D
 
+<p align="left">
+<img  src="https://github.com/user-attachments/assets/0580aefe-6c5b-4f8d-967a-f101b18307db">
+</p>
+
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
 
-The program is a very simple WebGL application that generates and displays a 2D representation of the Sierpinski Gasket.
-
+The program is a very simple WebGL application that generates and displays a 2D animation of the Sierpinski Gasket being rendered.  
 -------------------------------------------------------------------------------------------
 
 [Go back to the Project Map](#project-map)
