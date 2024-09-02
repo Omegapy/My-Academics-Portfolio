@@ -26,14 +26,14 @@ Complete the following exercises. For each exercise, show your work and all the 
 
 Exercise 1)  
 What is the Big-Oh of the following computation?
-
+<pre>
 int sum = 0;  
 for (int counter = n; counter > 0; counter = counter - 2)  
       sum = sum + counter;  
-
+</pre>
 Exercise 2)    
 Suppose your implementation of a particular algorithm appears in Java as follows:  
-
+<pre>
 for (int pass = 1; pass <= n; pass++)  
 {  
 	for(int index  = 0; index < n; index++)  
@@ -45,7 +45,7 @@ for (int pass = 1; pass <= n; pass++)
 		} //end for  
 	} // end for  
 } //end for  
-
+</pre>
 The algorithm involves an array of "n" items. The previous code shows only the repetition in the algorithm, but it does not show the computations that occur within the loops.Those computations, however, are independent of "n." What is the order of the algorithm?   
    
 Exercise 3)  
