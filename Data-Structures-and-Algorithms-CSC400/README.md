@@ -36,9 +36,25 @@ My Links:
 
 #### Project Map
 
+- [Critical Thinking 3](#critical-thinking-3) 
 - [Critical Thinking 2](#critical-thinking-2) 
 - [Critical Thinking 1](#critical-thinking-1) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 3
+Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-3)  
+Name: Asymptotic Analysis Exercises
+
+-------------------------------------------------------------------------------------------
+
+Project Description:  
+This documentation is part of the Critical Thinking 3 Assignment from CSC400: Data Structures and Algorithms at Colorado State University Global. It consists of a series of exercises designed to demonstrate the principles of asymptotic analysis. Asymptotic analysis uses the Big-Oh notation.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
