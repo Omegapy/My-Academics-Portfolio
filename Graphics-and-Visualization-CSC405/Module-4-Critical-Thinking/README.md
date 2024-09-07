@@ -8,6 +8,8 @@ Grade:
 <img  src="https://github.com/user-attachments/assets/705d0aaa-7ced-47b5-bd99-e6dcc5064dad">
 </p>
 
+The following video demonstrates the animation of the Rotating Colored Cube: [3D Rotating Cube](https://www.youtube.com/watch?v=peIjP2O0FTU)
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 CSC405 – Graphics and Visualization - WebGL Course  
