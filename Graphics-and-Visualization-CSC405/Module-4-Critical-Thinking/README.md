@@ -5,7 +5,7 @@ Program Name: Rotating 3D Cube
 Grade:  
 
 <p align="left">
-<img  src="https://github.com/user-attachments/assets/0580aefe-6c5b-4f8d-967a-f101b18307db">
+<img  src="https://github.com/user-attachments/assets/705d0aaa-7ced-47b5-bd99-e6dcc5064dad">
 </p>
 
 -----------------------------------------------------------------------------------------------------------------------------
