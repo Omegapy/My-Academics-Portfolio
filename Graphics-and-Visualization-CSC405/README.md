@@ -36,8 +36,38 @@ My Links:
 
 #### Project Map
  
+- [Module 4 Critical Thinking](#module-4-critical-thinking) 
 - [Module 2 Critical Thinking](#module-2-critical-thinking) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 4 Critical Thinking 
+Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-4-Critical-Thinking)  
+Program Name:  Rotating 3D Cube
+
+<p align="left">
+<img  src="https://github.com/user-attachments/assets/705d0aaa-7ced-47b5-bd99-e6dcc5064dad">
+</p>
+
+The following video demonstrates the animation of the Rotating Colored Cube: [3D Rotating Cube](https://www.youtube.com/watch?v=peIjP2O0FTU)
+
+This program creates a simple rotating colored 3D cube using WebGL.   
+The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.  
+The user can also pause and restart the rotation while still moving the cube.  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+
+The program is a very simple WebGL application that generates and displays a 2D animation of the Sierpinski Gasket being rendered.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
+
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
@@ -54,6 +84,7 @@ Program Name:  Sierpinski Gasket Vertex 2D
 Program Description:  
 
 The program is a very simple WebGL application that generates and displays a 2D animation of the Sierpinski Gasket being rendered.  
+
 -------------------------------------------------------------------------------------------
 
 [Go back to the Project Map](#project-map)
