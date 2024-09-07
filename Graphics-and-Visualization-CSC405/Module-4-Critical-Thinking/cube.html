@@ -1,0 +1,214 @@
+<!-- 
+ Program Name: Rotating 3D Cube 
+    Author: Alejandro (Alex) Ricciardi
+    Date: 09/08/2024
+    
+ Program Description: 
+    This program creates a simple rotating colored 3D cube using WebGL. 
+    The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.
+    The user can also pause and restart the rotation while still moving the cube.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotating 3D Cube</title>
+
+  <!-- My icon -->
+  <link rel="shortcut icon" href="https://github.com/user-attachments/assets/f8001645-cc85-4b99-beec-74482a83ac87"/>
+
+  <!-- CSS code  -->
+  <style>
+    /** 
+     * Styles for control buttons
+     * @padding Adds padding around the buttons
+     * @margin Adds margin at the top and bottom of the buttons
+     * @font-size Sets the font size of the buttons
+     * @font-weight Makes the text bold
+     */
+    button {
+      padding: 5px 10px;
+      margin: 5px 0;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  </style>
+
+  <!-- --------------------------------------------------------------------------------------------------- -->
+
+  <!-- 
+      Vertex Shader GLSL
+      This script defines the vertex shader, which processes vertex positions by applying rotation and translation.
+      It also passes the vertex color to the fragment shader.
+  -->
+  <script id="vertex-shader" type="x-shader/x-vertex">
+    #version 300 es  // GLSL version for WebGL 2.0
+
+    // Input attribute variables
+    in vec4 aPosition; // The position of each vertex (from the vertex buffer)
+    in vec4 aColor;    // The color of each vertex (from the vertex buffer)
+
+    // Output variable to pass the color to the fragment shader
+    out vec4 vColor;   // Output color passed to the fragment shader
+
+    // Uniform variables: Global values passed from the CPU-side application (JavaScript),
+    // these values are the same for all vertices in a single draw call.
+    // A draw call is a command issued by the CPU to the GPU to render (or "draw").
+    // Uniform variables are WebGL constants, they are set once per draw call from the JavaScript code (CPU-side application) 
+    // They remain the same for all vertices in that specific draw call.
+    uniform vec3 uTheta;         // Rotation angles for X, Y, Z axes
+    uniform vec2 uTranslation;   // Translation for the X and Y axes
+
+    /**
+     * Quaternion multiplication function
+     * Multiplies two quaternions together to rotate cube.
+     * @param a Quaternion for rotation
+     * @param b Quaternion for rotation
+     * @return Result of quaternion multiplication (rotation)
+     *
+     * The mathematical concept of quaternion is used in 3D computer graphics to compute smooth rotation animations. 
+     * It's a four-dimensional complex number of the form q =w + xi+ yj+ zk, where w, x, y, 
+     * and z are real numbers, and i, j, and k are quaternion units.
+     * In 3D space, the caculation helps with issue like gimbal lock in Euler angles. 
+     * It smooths continuous rotations in animations.
+     */
+    vec4 multq(vec4 a, vec4 b) {
+      return vec4(a.x * b.x // multiplies the scalar components (real parts) of the two quaternions
+                  - dot(a.yzw, b.yzw), // the dot product of the vector parts of the quaternions
+                  a.x * b.yzw + b.x * a.yzw // multiply the scalar part of one quaternion by the vector part of the other quaternion
+                  + cross(b.yzw, a.yzw)
+                ); // cross product between the vector parts of the two quaternions
+    }
+
+    /**
+     * Quaternion inverse function
+     * Returns the inverse of a quaternion, used for reversing the effect of a rotation.
+     * @param a Quaternion to invert
+     * @return Inverse of the quaternion
+     *
+     * This is use to to "undo" a rotation or to apply the reverse of a transformation.
+     * a.x is the real (scalar) part of the quaternion.
+     * a.yzw are the imaginary (vector) parts of the This creates a new quaternion.
+     */
+    vec4 invq(vec4 a) {
+       // vec4(a.x, -a.yzw) this create a new This creates a new quaternion
+      // dot(a, a) is the dot product of the vector with itself
+      // dot(a, a) = a.x^2 + a.y^2 + a.z^2 + a.w^2
+      return vec4(a.x, -a.yzw) / dot(a, a);
+    }
+
+    /**
+     * Main function for the vertex shader
+     * Rotates the vertex positions using quaternion rotation.
+     * Additionaly it applies translation transformation to a rotating cube and to a non rotating cube.
+     * It also passes the vertex color to the fragment shader.
+     */
+    void main() {
+      // Convert rotation angles (degrees) to radians
+      vec3 angles = radians(uTheta);
+
+      // Define quaternion rotations for X, Y, and Z axes
+      // rx, ry, and rz are the quaternions rotations around the X, Y, and Z axes
+      // P is the the vertex position quaternion 
+      vec4 rx, ry, rz, r, p;
+      vec3 c = cos(angles / 2.0); // Cosine of half the rotation angles
+      vec3 s = sin(angles / 2.0); // Sine of half the rotation angles
+
+      // Rotation quaternions for each axis
+      rx = vec4(c.x, -s.x, 0.0, 0.0);  // X-axis rotation quaternion
+      ry = vec4(c.y, 0.0, s.y, 0.0);   // Y-axis rotation quaternion
+      rz = vec4(c.z, 0.0, 0.0, s.z);   // Z-axis rotation quaternion
+
+      // Combine the rotations using quaternion multiplication
+      r = multq(rx, multq(ry, rz));
+
+      // Convert vertex position to a quaternion and apply rotation
+      p = vec4(0.0, aPosition.xyz);
+      p = multq(r, multq(p, invq(r)));
+
+      // Apply translation and send the final position to the graphics pipeline
+      gl_Position = vec4(p.yzw + vec3(uTranslation, 0.0), 1.0);
+
+      // Pass the vertex color to the fragment shader
+      vColor = aColor;
+    }
+  </script>
+
+  <!-- --------------------------------------------------------------------------------------------------- -->
+
+  <!-- 
+      Fragment Shader GLSL
+      This script defines the fragment shader, which assigns a color to each pixel.
+      The color is passed from the vertex shader.
+  -->
+  <script id="fragment-shader" type="x-shader/x-fragment">
+    #version 300 es  // GLSL version for WebGL 2.0
+
+    // Set medium precision for floating-point operations
+    precision mediump float;
+
+    // Input color passed from the vertex shader
+    in vec4 vColor;
+
+    // Output color assigned to the fragment (pixel)
+    out vec4 fColor;
+
+    /**
+     * Main function for the fragment shader
+     * Outputs the color received from the vertex shader to the pixel.
+     */
+    void main() {
+      // Set the fragment color based on the input from the vertex shader
+      fColor = vColor;
+    }
+  </script>
+
+  <!-- --------------------------------------------------------------------------------------------------- -->
+
+</head>
+
+<body>
+  <!-- 
+      Canvas Element
+      The 3D cube will be rendered here using WebGL.
+      The cube will be drawn to the canvas, allowing user interaction.
+  -->
+  <canvas id="gl-canvas" width="512" height="512">
+    Oops ... your browser doesn't support the HTML5 canvas element.
+  </canvas>
+
+  <!-- 
+      Buttons to control the cube's rotation and movement
+      Each button triggers a specific function in the JavaScript code to control the cube.
+  -->
+  <br />
+  <button id="resetButton">Reset</button> <!-- Resets the cube's position and rotation -->
+  <br />
+  <button id="xButton">Rotate X</button>   <!-- Rotate the cube around the X-axis -->
+  <button id="yButton">Rotate Y</button>   <!-- Rotate the cube around the Y-axis -->
+  <button id="zButton">Rotate Z</button>   <!-- Rotate the cube around the Z-axis -->
+  <br />
+  <button id="pauseButton">Pause Rotation</button>   <!-- Pauses the cube's rotation -->
+  <button id="restartButton">Restart Rotation</button> <!-- Restarts the cube's rotation -->
+  <br />
+  <button id="upButton">Move Up</button>   <!-- Moves the cube upwards -->
+  <button id="downButton">Move Down</button> <!-- Moves the cube downwards -->
+  <button id="rightButton">Move Right</button> <!-- Moves the cube to the right -->
+  <button id="leftButton">Move Left</button> <!-- Moves the cube to the left -->
+
+  <!-- --------------------------------------------------------------------------------------------------- -->
+
+  <!-- 
+      Include necessary JavaScript files to initialize shaders and handle matrix operations.
+      These scripts provide utility functions for setting up shaders and handling 3D math operations.
+  -->
+  <script type="text/javascript" src="../Common/initShaders.js"></script> <!-- Loads shader initialization functions -->
+  <script type="text/javascript" src="../Common/MVnew.js"></script> <!-- Loads matrix and vector manipulation functions -->
+  <script type="text/javascript" src="cube.js"></script> <!-- Main JavaScript file controlling the cube's rotation and movement -->
+
+</body>
+
+</html>
