@@ -2,7 +2,7 @@
 # Module-2 Critical Thinking
 Program Name: Sierpinski Gasket Vertex 2D
 
-Grade:  
+Grade:  103/105 A
 
 <p align="left">
 <img  src="https://github.com/user-attachments/assets/0580aefe-6c5b-4f8d-967a-f101b18307db">
