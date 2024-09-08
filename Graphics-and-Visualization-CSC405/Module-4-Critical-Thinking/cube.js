@@ -4,9 +4,10 @@
  Date: 09/08/2024
     
  Program Description: 
- This program creates a simple rotating colored 3D cube using WebGL. 
- The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.
- The user can also pause and restart the rotation while still moving the cube.
+    This program creates a simple rotating colored 3D cube using WebGL. 
+    The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.
+    The user can also pause and restart the rotation while moving the cube.
+    This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation. 
 */
 
 "use strict";
@@ -88,29 +89,31 @@ window.onload = function init() {
 
     // ---------------------------------- Buffers --------------------------------------
 
-    // Create and bind buffers for vertex colors
-    var cBuffer = gl.createBuffer(); // Store the colors of the vertices in buffer
-    // Attaches color buffer to the ARRAY_BUFFER, 
-    // which store and manage vertex attribute data (positions, colors, texture coordinates).
-    gl.bindBuffer(gl.ARRAY_BUFFER, cBuffer); 
-    gl.bufferData(gl.ARRAY_BUFFER, flatten(colors), gl.STATIC_DRAW); // Send data color to the GPU
-
-    // Link the color buffer to the aColor attribute in the vertex shader
-    var colorLoc = gl.getAttribLocation(program, "aColor"); // Store and retrives the location of the aColor attribute from the compiled shader.
-    gl.vertexAttribPointer(colorLoc, 4, gl.FLOAT, false, 0, 0); // Define the colors data format to be processe by WebGL
-    gl.enableVertexAttribArray(colorLoc); // Linked point location and color to be used dring rendering
-
+    // --- Position buffer
     // Create and bind buffers for vertex positions
     var vBuffer = gl.createBuffer(); // Store the vertex positions in buffer
     // Attaches position buffer to the ARRAY_BUFFER, 
     // which store and manage vertex attribute data (positions, colors, texture coordinates).
     gl.bindBuffer(gl.ARRAY_BUFFER, vBuffer);
-    gl.bufferData(gl.ARRAY_BUFFER, flatten(positions), gl.STATIC_DRAW); // Send data position to the GPU
+    gl.bufferData(gl.ARRAY_BUFFER, flatten(positions), gl.STATIC_DRAW); // data position to the GPU
 
     // Link the position buffer to the aPosition attribute in the vertex shader
     var positionLoc = gl.getAttribLocation(program, "aPosition"); // Store and retrives the index location of the aPosition attribute from the compiled shader.
     gl.vertexAttribPointer(positionLoc, 4, gl.FLOAT, false, 0, 0); // Define the position data format to be processe by WebGL
     gl.enableVertexAttribArray(positionLoc); // Linked point location and aPosition to be used dring rendering
+
+    // --- Color buffer    
+    // Create and bind buffers for vertex colors
+    var cBuffer = gl.createBuffer(); // Store the colors of the vertices in buffer
+    // Attaches color buffer to the ARRAY_BUFFER, 
+    // which store and manage vertex attribute data (positions, colors, texture coordinates).
+    gl.bindBuffer(gl.ARRAY_BUFFER, cBuffer); 
+    gl.bufferData(gl.ARRAY_BUFFER, flatten(colors), gl.STATIC_DRAW); // data color to the GPU
+
+    // Link the color buffer to the aColor attribute in the vertex shader
+    var colorLoc = gl.getAttribLocation(program, "aColor"); // Store and retrives the location of the aColor attribute from the compiled shader.
+    gl.vertexAttribPointer(colorLoc, 4, gl.FLOAT, false, 0, 0); // Define the colors data format to be processe by WebGL
+    gl.enableVertexAttribArray(colorLoc); // Linked point location and color to be used dring rendering
 
     
     // ---------------------------------- Get Transalation and Rotation  ----------------------
@@ -187,7 +190,7 @@ window.onload = function init() {
  */
 function colorCube() {
     // Define the six faces of the cube, each face is made up of -- two triangles --
-    // A quad is a quadrilateral, which is a four-sided polygon, a rectangle for example
+    // A quad represent a quadrilateral, which is a four-sided polygon, a rectangle for example
     // in this program the quat a square represent 2 triangles making a face fhe cube
     quad(1, 0, 3, 2, vec4(1.0, 0.0, 0.0, 1));  // Front face - Red
     quad(2, 3, 7, 6, vec4(0.0, 1.0, 0.0, 1.0));  // Right face - Green
@@ -256,6 +259,7 @@ function render() {
     // Draw the cube (6 faces * 2 triangles per face * 3 vertices per triangle = 36 vertices)
     gl.drawArrays(gl.TRIANGLES, 0, numPositions);
 
+    // recursion case
     // Request another frame for continuous rendering (animation)
     animationFrameId = requestAnimationFrame(render);
 }

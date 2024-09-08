@@ -6,8 +6,8 @@
  Program Description: 
     This program creates a simple rotating colored 3D cube using WebGL. 
     The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.
-    The user can also pause and restart the rotation while still moving the cube.
--->
+    The user can also pause and restart the rotation while moving the cube.
+    This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation.
 
 <!DOCTYPE html>
 <html lang="en">
@@ -71,9 +71,9 @@
      *
      * The mathematical concept of quaternion is used in 3D computer graphics to compute smooth rotation animations. 
      * It's a four-dimensional complex number of the form q =w + xi+ yj+ zk, where w, x, y, 
-     * and z are real numbers, and i, j, and k are quaternion units.
-     * In 3D space, the caculation helps with issue like gimbal lock in Euler angles. 
-     * It smooths continuous rotations in animations.
+     * and z are real numbers, and i, j, and k are quaternion, usulay vectors.
+     * Using quaternion to implement a 3D rotation helps with issues like gimbal lock in Euler angles.  
+     * It smooths object rotation animations.
      */
     vec4 multq(vec4 a, vec4 b) {
       return vec4(a.x * b.x // multiplies the scalar components (real parts) of the two quaternions
