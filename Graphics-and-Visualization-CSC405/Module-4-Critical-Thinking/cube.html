@@ -4,10 +4,10 @@
     Date: 09/08/2024
     
  Program Description: 
-    This program creates a simple rotating colored 3D cube using WebGL. 
-    The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.
-    The user can also pause and restart the rotation while moving the cube.
-    This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation.
+    This program creates a simple rotating colored 3D cube using WebGL 
+    The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right
+    The user can also pause and restart the rotation while moving the cube
+    This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,30 +41,38 @@
 
   <!-- 
       Vertex Shader GLSL
-      This script defines the vertex shader, which processes vertex positions by applying rotation and translation.
-      It also passes the vertex color to the fragment shader.
+      This script defines the vertex shader, which processes vertex positions by applying rotation and translation
+      It also passes the vertex color to the fragment shader
   -->
   <script id="vertex-shader" type="x-shader/x-vertex">
     #version 300 es  // GLSL version for WebGL 2.0
 
-    // Input attribute variables
-    in vec4 aPosition; // The position of each vertex (from the vertex buffer)
-    in vec4 aColor;    // The color of each vertex (from the vertex buffer)
+    // Attribute variables: These are per-vertex inputs that come from the vertex buffer
+    // 'aPosition' contains the position of the vertex in 3D space
+    in vec4 aPosition; // Vertex position (x, y, z, w), where 'w' is typically 1 for 3D transformations
+    
+    // 'aColor' contains the color of the vertex, passed as a vec4 (red, green, blue, alpha)
+    in vec4 aColor;    // Vertex color (r, g, b, a), defined per vertex
 
-    // Output variable to pass the color to the fragment shader
-    out vec4 vColor;   // Output color passed to the fragment shader
+    // Output variable to pass the vertex color to the fragment shader
+    // 'vColor' will be interpolated across the pixels of the primitive in the rasterization stage
+    out vec4 vColor;   // The color passed to the fragment shader
 
-    // Uniform variables: Global values passed from the CPU-side application (JavaScript),
-    // these values are the same for all vertices in a single draw call.
-    // A draw call is a command issued by the CPU to the GPU to render (or "draw").
+    //-- Uniform variables
+    // Uniform variables: Global values passed from the CPU-side application (JavaScript)
+    // these values are the same for all vertices in a single draw call
+    // A draw call is a command issued by the CPU to the GPU to render (or "draw")
     // Uniform variables are WebGL constants, they are set once per draw call from the JavaScript code (CPU-side application) 
-    // They remain the same for all vertices in that specific draw call.
-    uniform vec3 uTheta;         // Rotation angles for X, Y, Z axes
-    uniform vec2 uTranslation;   // Translation for the X and Y axes
+    // They remain the same for all vertices in that specific draw call
+    //
+    // 'uTheta' is a vec3 representing the rotation angles (in degrees) around the X, Y, and Z axes
+    uniform vec3 uTheta;  // Rotation angles for x, y, z axes, received from JavaScript
+    // 'uTranslation' is a vec2 representing translation in the x and y directions (2D translation)
+    uniform vec2 uTranslation;  // Translation for the x and y axes
 
     /**
      * Quaternion multiplication function
-     * Multiplies two quaternions together to rotate cube.
+     * Multiplies two quaternions together to rotate cube
      * @param a Quaternion for rotation
      * @param b Quaternion for rotation
      * @return Result of quaternion multiplication (rotation)
@@ -72,7 +80,7 @@
      * The mathematical concept of quaternion is used in 3D computer graphics to compute smooth rotation animations. 
      * It's a four-dimensional complex number of the form q =w + xi+ yj+ zk, where w, x, y, 
      * and z are real numbers, and i, j, and k are quaternion, usulay vectors.
-     * Using quaternion to implement a 3D rotation helps with issues like gimbal lock in Euler angles.  
+     * Using quaternion to implement a 3D rotation helps with issues like gimbal lock in Euler angles 
      * It smooths object rotation animations.
      */
     vec4 multq(vec4 a, vec4 b) {
@@ -85,13 +93,13 @@
 
     /**
      * Quaternion inverse function
-     * Returns the inverse of a quaternion, used for reversing the effect of a rotation.
+     * Returns the inverse of a quaternion, used for reversing the effect of a rotation
      * @param a Quaternion to invert
      * @return Inverse of the quaternion
      *
-     * This is use to to "undo" a rotation or to apply the reverse of a transformation.
-     * a.x is the real (scalar) part of the quaternion.
-     * a.yzw are the imaginary (vector) parts of the This creates a new quaternion.
+     * This is use to to "undo" a rotation or to apply the reverse of a transformation
+     * a.x is the real (scalar) part of the quaternion
+     * a.yzw are the imaginary (vector) parts of the This creates a new quaternion
      */
     vec4 invq(vec4 a) {
        // vec4(a.x, -a.yzw) this create a new This creates a new quaternion
@@ -102,69 +110,84 @@
 
     /**
      * Main function for the vertex shader
-     * Rotates the vertex positions using quaternion rotation.
-     * Additionaly it applies translation transformation to a rotating cube and to a non rotating cube.
-     * It also passes the vertex color to the fragment shader.
+     * Rotates the vertex positions using quaternion rotation
+     * Additionaly it applies translation transformation to a rotating cube and to a non rotating cube
+     * It also passes the vertex color to the fragment shader
      */
-    void main() {
-      // Convert rotation angles (degrees) to radians
-      vec3 angles = radians(uTheta);
+     void main() {
+        // Convert the rotation angles from degrees to radians, as trigonometric functions expect radians
+        vec3 angles = radians(uTheta); // Convert the x, y, z rotation angles from degrees to radians
 
-      // Define quaternion rotations for X, Y, and Z axes
-      // rx, ry, and rz are the quaternions rotations around the X, Y, and Z axes
-      // P is the the vertex position quaternion 
-      vec4 rx, ry, rz, r, p;
-      vec3 c = cos(angles / 2.0); // Cosine of half the rotation angles
-      vec3 s = sin(angles / 2.0); // Sine of half the rotation angles
+        // Initialize variables for quaternion-based rotations around each axis.
+        vec4 rx, ry, rz, r, p; // 'rx', 'ry', 'rz' are the quaternions for rotations around x, y, z
 
-      // Rotation quaternions for each axis
-      rx = vec4(c.x, -s.x, 0.0, 0.0);  // X-axis rotation quaternion
-      ry = vec4(c.y, 0.0, s.y, 0.0);   // Y-axis rotation quaternion
-      rz = vec4(c.z, 0.0, 0.0, s.z);   // Z-axis rotation quaternion
+        // Compute cosine and sine of half the rotation angles, needed for quaternion construction.
+        // Quaternions use half-angles for efficient rotation calculations
+        vec3 c = cos(angles / 2.0); // cosine of half of the x, y, z rotation angles
+        vec3 s = sin(angles / 2.0); // sine of half of the x, y, z rotation angles
 
-      // Combine the rotations using quaternion multiplication
-      r = multq(rx, multq(ry, rz));
+        // Create rotation quaternions for each axis (x, y, z)
+        // A quaternion is composed of a scalar (cosine) and a vector (sine) part
+        rx = vec4(c.x, -s.x, 0.0, 0.0);  // quaternion for rotation around the x-axis
+        ry = vec4(c.y, 0.0, s.y, 0.0);   // quaternion for rotation around the y-axis
+        rz = vec4(c.z, 0.0, 0.0, s.z);   // quaternion for rotation around the z-axis
 
-      // Convert vertex position to a quaternion and apply rotation
-      p = vec4(0.0, aPosition.xyz);
-      p = multq(r, multq(p, invq(r)));
+        // Combine the x, y, z rotations by multiplying the quaternions
+        // Quaternion multiplication is not commutative, so the order matters
+        r = multq(rx, multq(ry, rz)); // Combine x, y, z rotations into one quaternion r
 
-      // Apply translation and send the final position to the graphics pipeline
-      gl_Position = vec4(p.yzw + vec3(uTranslation, 0.0), 1.0);
+        // Convert the vertex position into a quaternion (p)
+        // The quaternion for a position has 0 as the scalar part and the position as the vector part
+        p = vec4(0.0, aPosition.xyz); // Convert position to quaternion form (0, x, y, z)
 
-      // Pass the vertex color to the fragment shader
-      vColor = aColor;
-    }
+        // Apply the combined quaternion rotation to the vertex position.
+        // To rotate a point p, you use the formula: r * p * r⁻¹, where r is the rotation quaternion
+        p = multq(r, multq(p, invq(r))); // Rotate the vertex position using the quaternion r
+
+        // Apply translation to the rotated position.
+        // After rotation, translate the vertex along the x and y axes by adding uTranslation
+        gl_Position = vec4(p.yzw + vec3(uTranslation, 0.0), 1.0); // Set the final position of the vertex
+
+        // Pass the vertex color to the fragment shader
+        // This color will be interpolated across the pixels of the primitive during rasterization
+        vColor = aColor; // Forward the vertex color to the fragment shader
+      }
   </script>
 
   <!-- --------------------------------------------------------------------------------------------------- -->
 
   <!-- 
       Fragment Shader GLSL
-      This script defines the fragment shader, which assigns a color to each pixel.
+      This script defines the fragment shader, which assigns a color to each pixel
       The color is passed from the vertex shader.
   -->
   <script id="fragment-shader" type="x-shader/x-fragment">
-    #version 300 es  // GLSL version for WebGL 2.0
+    #version 300 es  // Specifies GLSL (OpenGL Shading Language) version for WebGL 2.0
 
-    // Set medium precision for floating-point operations
+    // Set medium precision for floating-point operations to balance between performance and accuracy
     precision mediump float;
 
-    // Input color passed from the vertex shader
+    // Input color received from the vertex shader for each vertex.
+    // This color will be interpolated across the pixels of the primitive (e.g., triangle) in the rasterization stage
     in vec4 vColor;
 
-    // Output color assigned to the fragment (pixel)
+    // The output variable for the final color of the fragment (pixel).
+    // This color is written to the framebuffer, making it appear on the screen
     out vec4 fColor;
 
     /**
-     * Main function for the fragment shader
-     * Outputs the color received from the vertex shader to the pixel.
-     */
+    * Main function for the fragment shader.
+    * This function runs for every fragment (pixel) within the shape being rendered (the cube in this case).
+    * It assigns the final color to the fragment by using the interpolated color value passed from the vertex shader
+    */
     void main() {
-      // Set the fragment color based on the input from the vertex shader
+      // Set the color of the current fragment (pixel) to the color value passed from the vertex shader
+      // vColor is already a vec4 (with RGBA components), it is directly used
       fColor = vColor;
-    }
+      }
   </script>
+  
+  
 
   <!-- --------------------------------------------------------------------------------------------------- -->
 
@@ -182,7 +205,7 @@
 
   <!-- 
       Buttons to control the cube's rotation and movement
-      Each button triggers a specific function in the JavaScript code to control the cube.
+      Each button triggers a specific function in the JavaScript code to control the cube
   -->
   <br />
   <button id="resetButton">Reset</button> <!-- Resets the cube's position and rotation -->
@@ -205,8 +228,8 @@
       Include necessary JavaScript files to initialize shaders and handle matrix operations.
       These scripts provide utility functions for setting up shaders and handling 3D math operations.
   -->
-  <script type="text/javascript" src="../Common/initShaders.js"></script> <!-- Loads shader initialization functions -->
-  <script type="text/javascript" src="../Common/MVnew.js"></script> <!-- Loads matrix and vector manipulation functions -->
+  <script type="text/javascript" src="Common/initShaders.js"></script> <!-- Loads shader initialization functions -->
+  <script type="text/javascript" src="Common/MVnew.js"></script> <!-- Loads matrix and vector manipulation functions -->
   <script type="text/javascript" src="cube.js"></script> <!-- Main JavaScript file controlling the cube's rotation and movement -->
 
 </body>

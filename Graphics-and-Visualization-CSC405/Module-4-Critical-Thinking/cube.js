@@ -4,10 +4,10 @@
  Date: 09/08/2024
     
  Program Description: 
-    This program creates a simple rotating colored 3D cube using WebGL. 
-    The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.
-    The user can also pause and restart the rotation while moving the cube.
-    This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation. 
+    This program creates a simple rotating colored 3D cube using WebGL 
+    The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right
+    The user can also pause and restart the rotation while moving the cube
+    This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation 
 */
 
 "use strict";
@@ -47,7 +47,7 @@ var translationLoc;     // Uniform location for the translation in the vertex sh
 ---------------------*/
 
 /**
- * Initializes the WebGL context, shaders, and sets up event listeners for the cube's control.
+ * Initializes the WebGL context, shaders, and sets up event listeners for the cube's control
  */
 window.onload = function init() {
     // Get the canvas element by its ID
@@ -93,12 +93,12 @@ window.onload = function init() {
     // Create and bind buffers for vertex positions
     var vBuffer = gl.createBuffer(); // Store the vertex positions in buffer
     // Attaches position buffer to the ARRAY_BUFFER, 
-    // which store and manage vertex attribute data (positions, colors, texture coordinates).
+    // which store and manage vertex attribute data (positions, colors, texture coordinates)
     gl.bindBuffer(gl.ARRAY_BUFFER, vBuffer);
     gl.bufferData(gl.ARRAY_BUFFER, flatten(positions), gl.STATIC_DRAW); // data position to the GPU
 
     // Link the position buffer to the aPosition attribute in the vertex shader
-    var positionLoc = gl.getAttribLocation(program, "aPosition"); // Store and retrives the index location of the aPosition attribute from the compiled shader.
+    var positionLoc = gl.getAttribLocation(program, "aPosition"); // Store and retrives the index location of the aPosition attribute from the compiled shader
     gl.vertexAttribPointer(positionLoc, 4, gl.FLOAT, false, 0, 0); // Define the position data format to be processe by WebGL
     gl.enableVertexAttribArray(positionLoc); // Linked point location and aPosition to be used dring rendering
 
@@ -106,12 +106,12 @@ window.onload = function init() {
     // Create and bind buffers for vertex colors
     var cBuffer = gl.createBuffer(); // Store the colors of the vertices in buffer
     // Attaches color buffer to the ARRAY_BUFFER, 
-    // which store and manage vertex attribute data (positions, colors, texture coordinates).
+    // which store and manage vertex attribute data (positions, colors, texture coordinates)
     gl.bindBuffer(gl.ARRAY_BUFFER, cBuffer); 
     gl.bufferData(gl.ARRAY_BUFFER, flatten(colors), gl.STATIC_DRAW); // data color to the GPU
 
     // Link the color buffer to the aColor attribute in the vertex shader
-    var colorLoc = gl.getAttribLocation(program, "aColor"); // Store and retrives the location of the aColor attribute from the compiled shader.
+    var colorLoc = gl.getAttribLocation(program, "aColor"); // Store and retrives the location of the aColor attribute from the compiled shader
     gl.vertexAttribPointer(colorLoc, 4, gl.FLOAT, false, 0, 0); // Define the colors data format to be processe by WebGL
     gl.enableVertexAttribArray(colorLoc); // Linked point location and color to be used dring rendering
 
@@ -126,31 +126,31 @@ window.onload = function init() {
     // ---------------------------------- Event listeners ----------------------------------
 
     // --- Rotation buttons
-    // Event listeners for rotation buttons (X, Y, Z)
+    // Event listeners for rotation buttons (x, y, z)
     document.getElementById("xButton").onclick = function () {
-        axis = xAxis;  // Set the rotation axis to X
+        axis = xAxis;  // Set the rotation axis to x
     };
     document.getElementById("yButton").onclick = function () {
-        axis = yAxis;  // Set the rotation axis to Y
+        axis = yAxis;  // Set the rotation axis to y
     };
     document.getElementById("zButton").onclick = function () {
-        axis = zAxis;  // Set the rotation axis to Z
+        axis = zAxis;  // Set the rotation axis to z
     };
 
 
     // --- Translation buttons
     // Event listeners for translation buttons (Up, Down, Left, Right)
     document.getElementById("upButton").onclick = function () {
-        translation[1] += 0.1; // Move the cube up (increase Y translation)
+        translation[1] += 0.1; // Move the cube up (increase y translation)
     };
     document.getElementById("downButton").onclick = function () {
-        translation[1] -= 0.1; // Move the cube down (decrease Y translation)
+        translation[1] -= 0.1; // Move the cube down (decrease y translation)
     };
     document.getElementById("rightButton").onclick = function () {
-        translation[0] -= 0.1; // Move the cube right (increase X translation)
+        translation[0] -= 0.1; // Move the cube right (increase x translation)
     };
     document.getElementById("leftButton").onclick = function () {
-        translation[0] += 0.1; // Move the cube left (decrease X translation)
+        translation[0] += 0.1; // Move the cube left (decrease x translation)
     };
    
 
@@ -161,7 +161,7 @@ window.onload = function init() {
     // Reset rotation angles and translation to the original state
         theta = [0, 0, 0];    // Reset all rotation angles to 0
         translation = [0.0, 0.0]; // Reset translation to the center
-            axis = xAxis;  // Reset the rotation axis to X
+            axis = xAxis;  // Reset the rotation axis to x
     };
 
     // --- Pause and restart rotation buttons
@@ -214,16 +214,19 @@ function colorCube() {
  * @param {Array} color - The color assigned to the face of the cube
  */
 function quad(a, b, c, d, color) {
-    // Vertices for the cube (x, y, z, w)
+    // Vertices of the cube, each represented as vec4 (x, y, z, w) where:
+    // - x, y, z are the coordinates in 3D space.
+    // - w is typically 1.0 for homogeneous coordinates (for transformation purposes)
+    // These vertices define the eight corners of a cube, centered at the origin
     var vertices = [
-    vec4(-0.25, -0.25, 0.25, 1.0),
-    vec4(-0.25, 0.25, 0.25, 1.0),
-    vec4(0.25, 0.25, 0.25, 1.0),
-    vec4(0.25, -0.25, 0.25, 1.0),
-    vec4(-0.25, -0.25, -0.25, 1.0),
-    vec4(-0.25, 0.25, -0.25, 1.0),
-    vec4(0.25, 0.25, -0.25, 1.0),
-    vec4(0.25, -0.25, -0.25, 1.0),
+        vec4(-0.25, -0.25, 0.25, 1.0),  // Vertex 0: Bottom-left front
+        vec4(-0.25,  0.25, 0.25, 1.0),  // Vertex 1: Top-left front
+        vec4( 0.25,  0.25, 0.25, 1.0),  // Vertex 2: Top-right front
+        vec4( 0.25, -0.25, 0.25, 1.0),  // Vertex 3: Bottom-right front
+        vec4(-0.25, -0.25, -0.25, 1.0), // Vertex 4: Bottom-left back
+        vec4(-0.25,  0.25, -0.25, 1.0), // Vertex 5: Top-left back
+        vec4( 0.25,  0.25, -0.25, 1.0), // Vertex 6: Top-right back
+        vec4( 0.25, -0.25, -0.25, 1.0)  // Vertex 7: Bottom-right back
     ];
 
     // Indices to define the two triangles for each face
