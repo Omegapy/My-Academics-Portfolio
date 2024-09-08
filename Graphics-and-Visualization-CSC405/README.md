@@ -55,6 +55,7 @@ The following video demonstrates the animation of the Rotating Colored Cube: [3D
 This program creates a simple rotating colored 3D cube using WebGL.   
 The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.  
 The user can also pause and restart the rotation while still moving the cube.  
+This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
