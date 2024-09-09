@@ -36,10 +36,30 @@ My Links:
 
 #### Project Map
 
+- [Critical Thinking 3](#critical-thinking-4) 
 - [Critical Thinking 3](#critical-thinking-3) 
 - [Critical Thinking 2](#critical-thinking-2) 
 - [Critical Thinking 1](#critical-thinking-1) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 4
+Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-4)  
+Program Name: Infix Calculator
+
+-------------------------------------------------------------------------------------------
+
+Program Description: 
+-	The program is an implementation of an Infix calculator that evaluates arithmetic expressions in infix notation.  
+-	The program converts Infix expressions stored in a text file into Postfix expressions, then computes the Postfix expressions and displays the computation results.  
+-	The program utilizes a Stack Abstract Data Structure (Stack ADT) to manage operators and operands when converting Infix expressions to Postfix form and during the evaluation of Postfix expressions.
+-	The Stack ADT is a linked list structure or chain using generic types.   
+[element | next] -> [element | next] -> [element | next] -> null.   
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -74,6 +94,7 @@ The Bag ADT is implemented as a generic class that can store any item object typ
 -------------------------------------------------------------------------------------------
 
 [Go back to the Project Map](#project-map)
+
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 1
