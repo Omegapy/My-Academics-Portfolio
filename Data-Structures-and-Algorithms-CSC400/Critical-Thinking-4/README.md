@@ -1,6 +1,6 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Critical Thinking 4
-Program Name: Critical Thinking 4 
+Program Name: Infix Calculator
 
 Grade:  
 
