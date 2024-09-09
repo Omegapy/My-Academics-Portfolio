@@ -60,7 +60,7 @@ Example:
         System.out.println("Result 3: " + calculator.evaluateInfix(expression3));  
     }  
 }  
-</pre>pre>
+</pre>
 Sample Output:  
 Result 1: 18  
 Result 2: 26  
