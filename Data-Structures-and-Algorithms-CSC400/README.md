@@ -36,11 +36,27 @@ My Links:
 
 #### Project Map
 
-- [Critical Thinking 3](#critical-thinking-4) 
+- [Critical Thinking 5](#critical-thinking-5)
+- [Critical Thinking 4](#critical-thinking-4) 
 - [Critical Thinking 3](#critical-thinking-3) 
 - [Critical Thinking 2](#critical-thinking-2) 
 - [Critical Thinking 1](#critical-thinking-1) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 5
+Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-5)  
+Program Name: MSD RadixSort
+
+-------------------------------------------------------------------------------------------
+
+Program Description:  
+MSD RadixSort is an implementation of a Most Significant Digit (MSD) radix sort in Java, which sorts an array of lowercase strings in alphabetical order by examining each character from left to right. The program uses recursion to sort subarrays (buckets) based on character positions. 
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
