@@ -8,7 +8,7 @@ Grade:
 <img  src="https://github.com/user-attachments/assets/37a9a854-671f-41e1-a618-965fb244f034">
 </p>
 
-The following video demonstrates the animation of the Orthographic Projection 3D Rotating Cube: [Orthographic Projection 3D Rotating Cube](https://www.youtube.com/watch?v=WkLz0dhZR0w)
+The following video demonstrates the animation of the Orthographic Projection of a 3D Rotating Cube: [Orthographic Projection 3D Rotating Cube](https://www.youtube.com/watch?v=WkLz0dhZR0w)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -19,7 +19,6 @@ Student: Alejandro (Alex) Ricciardi
 Date: 09/15/2024   
 
 -----------------------------------------------------------------------------------------------------------------------------
-
 
 Requirements:  
 - GLES 3
@@ -42,9 +41,10 @@ Submit your 1-2 paragraph Word document discussing viewing functions
 
 Program Description:  
 
-This program displays a 3D rotating cube in WebGL and implements an interactive viewer with orthographic projection. 
-Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons, Additionally, the users can resize the cube using a slider.   
-Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.  
+This program displays a 3D rotating cube in WebGL and implements an interactive viewer with orthographic projection.  
+Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons.  
+Additionally, the users can resize the cube using a slider.    
+Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
