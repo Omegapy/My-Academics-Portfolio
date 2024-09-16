@@ -8,7 +8,7 @@ Grade:
 <img  src="https://github.com/user-attachments/assets/37a9a854-671f-41e1-a618-965fb244f034">
 </p>
 
-The following video demonstrates the animation of the Rotating Colored Cube: [3D Rotating Cube](https://www.youtube.com/watch?v=WkLz0dhZR0w)
+The following video demonstrates the animation of the Orthographic Projection 3D Rotating Cube: [Orthographic Projection 3D Rotating Cube](https://www.youtube.com/watch?v=WkLz0dhZR0w)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
