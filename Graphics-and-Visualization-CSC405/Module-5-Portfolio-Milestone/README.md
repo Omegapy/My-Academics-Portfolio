@@ -49,6 +49,10 @@ Furthermore, the users can control the interactive viewer depth, radius, theta a
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- othoCubeView.html – contains Vertex Shader GLSL and Fragment Shader GLSL  
+- othoCubeView.js – contains JavaScript application logic  
+- common folder – contains External Script for initializing shaders and performing matrix operations  
+- Screenshots – contains the 3d cube screenshots  
 - README.md – Markdown file, program information  
 
 -----------------------------------------------------------------------------------------------------------------------------
