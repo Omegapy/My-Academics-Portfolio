@@ -47,8 +47,8 @@ var cubeOrthoView = function() {
         theta: 0, // Camera Spherical coordinates
         phi: 0, // Camera Spherical coordinates
         // Depth
-        near: -1, // view near clipping plane
-        far: 1, // view far clipping plane
+        near: -1, // view near clipping plane (along the negative z-axis).
+        far: 1, // view far clipping plane (along the positive z-axis).
         // boundaries of the viewing volume for orthographic projection, the view cube. 
         // the view cube dictates how the cube is clipped out of the view
         left: -1.0, // view cube left side
@@ -273,8 +273,8 @@ var cubeOrthoView = function() {
             radius = initialValues.radius; // Determines the distance of the camera (eye) from the origin. 
             theta = initialValues.theta; // Camera Spherical coordinates positive z-axis
             phi = initialValues.phi; // Camera Spherical coordinates positive x-axis
-            near = initialValues.near; // view near clipping plane
-            far = initialValues.far; // view far clipping plane
+            near = initialValues.near; // view near clipping plane (along the negative z-axis).
+            far = initialValues.far; // view far clipping plane (along the positive z-axis).
 
             // Reset cube size
             cubeSize = 0.5;  // Default cube size
@@ -347,3 +347,8 @@ var cubeOrthoView = function() {
 
 }();
 
+// Create the perspective projection matrix
+projectionMatrix = mat4.perspective(fieldOfView, aspectRatio, near, far);
+
+// Send the matrices to the shader
+gl.uniformMatrix4fv(projectionMatrixLoc, false, flatten(projectionMatrix));
