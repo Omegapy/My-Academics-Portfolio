@@ -1,0 +1,116 @@
+<!-- 
+ Program Name: Rotating 3D Cube 
+    Author: Alejandro (Alex) Ricciardi
+    Date: 09/08/2024
+    
+ Program Description: 
+    This program creates a simple rotating colored 3D cube using WebGL 
+    The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right
+    The user can also pause and restart the rotation while moving the cube
+    This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotating 3D Cube with Orthogonal Projection</title>
+
+  <!-- CSS for buttons -->
+  <style>
+    button {
+      padding: 5px 10px;
+      margin: 5px 0;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  </style>
+
+  <!-- Vertex Shader -->
+  <script id="vertex-shader" type="x-shader/x-vertex">
+    #version 300 es
+    in vec4 aPosition;
+    in vec4 aColor;
+    out vec4 vColor;
+
+    uniform mat4 uModelViewMatrix;
+    uniform mat4 uProjectionMatrix;
+    uniform vec3 uTheta;
+    uniform vec2 uTranslation;
+
+    void main() {
+      vec3 angles = radians(uTheta);
+      mat4 rotationX = mat4(1.0, 0.0, 0.0, 0.0,
+                            0.0, cos(angles.x), -sin(angles.x), 0.0,
+                            0.0, sin(angles.x), cos(angles.x), 0.0,
+                            0.0, 0.0, 0.0, 1.0);
+      mat4 rotationY = mat4(cos(angles.y), 0.0, sin(angles.y), 0.0,
+                            0.0, 1.0, 0.0, 0.0,
+                            -sin(angles.y), 0.0, cos(angles.y), 0.0,
+                            0.0, 0.0, 0.0, 1.0);
+      mat4 rotationZ = mat4(cos(angles.z), -sin(angles.z), 0.0, 0.0,
+                            sin(angles.z), cos(angles.z), 0.0, 0.0,
+                            0.0, 0.0, 1.0, 0.0,
+                            0.0, 0.0, 0.0, 1.0);
+      mat4 rotation = rotationX * rotationY * rotationZ;
+
+      vec4 translatedPosition = vec4(aPosition.xy + uTranslation, aPosition.zw);
+      gl_Position = uProjectionMatrix * uModelViewMatrix * rotation * translatedPosition;
+      vColor = aColor;
+    }
+  </script>
+
+  <!-- Fragment Shader -->
+  <script id="fragment-shader" type="x-shader/x-fragment">
+    #version 300 es
+    precision mediump float;
+    in vec4 vColor;
+    out vec4 fColor;
+    void main() {
+      fColor = vColor;
+    }
+  </script>
+
+</head>
+
+<body>
+  <canvas id="gl-canvas" width="512" height="512">
+    Oops ... your browser doesn't support the HTML5 canvas element.
+  </canvas>
+
+  <!-- Buttons for control -->
+  <br />
+  <button id="resetButton">Reset</button>
+  <button id="xButton">Rotate X</button>
+  <button id="yButton">Rotate Y</button>
+  <button id="zButton">Rotate Z</button>
+  <button id="pauseButton">Pause Rotation</button>
+  <button id="restartButton">Restart Rotation</button>
+  <br />
+  <button id="upButton">Move Up</button>
+  <button id="downButton">Move Down</button>
+  <button id="rightButton">Move Right</button>
+  <button id="leftButton">Move Left</button>
+
+  <!-- Sliders for depth, radius, theta, and phi -->
+  <div>
+    Depth 0.05 <input id="depthSlider" type="range" min="0.05" max="3" step="0.1" value="1.0" /> 3
+  </div>
+  <div>
+    Radius 0.05 <input id="radiusSlider" type="range" min="0.05" max="5" step="0.1" value="2" /> 5
+  </div>
+  <div>
+    Theta -90 <input id="thetaSlider" type="range" min="-90" max="90" step="5" value="0" /> 90
+  </div>
+  <div>
+    Phi -90 <input id="phiSlider" type="range" min="-90" max="90" step="5" value="0" /> 90
+  </div>
+
+  <!-- Include necessary JavaScript files -->
+  <script type="text/javascript" src="Common/initShaders.js"></script>
+  <script type="text/javascript" src="Common/MVnew.js"></script>
+  <script type="text/javascript" src="cube.js"></script>
+
+</body>
+</html>
