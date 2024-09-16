@@ -5,10 +5,10 @@ Program Name: Orthographic Projection 3D Rotating Cube
 Grade:  
 
 <p align="left">
-<img  src="">
+<img  src="https://github.com/user-attachments/assets/37a9a854-671f-41e1-a618-965fb244f034">
 </p>
 
-The following video demonstrates the animation of the Rotating Colored Cube: [3D Rotating Cube](https://www.youtube.com/watch?v=peIjP2O0FTU)
+The following video demonstrates the animation of the Rotating Colored Cube: [3D Rotating Cube](https://www.youtube.com/watch?v=WkLz0dhZR0w)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -16,7 +16,7 @@ CSC405 – Graphics and Visualization - WebGL Course
 Professor: Dr Marquez   
 Fall B Semester (24FD) – 2024  
 Student: Alejandro (Alex) Ricciardi  
-Date: 09/08/2024   
+Date: 09/15/2024   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
