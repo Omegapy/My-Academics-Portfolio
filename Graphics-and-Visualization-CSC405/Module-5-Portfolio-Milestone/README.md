@@ -5,7 +5,7 @@ Program Name: Orthographic Projection 3D Rotating Cube
 Grade:  
 
 <p align="left">
-<img  src="https://github.com/user-attachments/assets/705d0aaa-7ced-47b5-bd99-e6dcc5064dad">
+<img  src="">
 </p>
 
 The following video demonstrates the animation of the Rotating Colored Cube: [3D Rotating Cube](https://www.youtube.com/watch?v=peIjP2O0FTU)
@@ -49,11 +49,6 @@ Furthermore, the users can control the interactive viewer depth, radius, theta a
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- cube.html – contains Vertex Shader GLSL and Fragment Shader GLSL  
-- cube.js – contains JavaScript application logic  
-- common folder – contains External Script for initializing shaders and performing matrix operations 
-- Reflection Module 3 CT – provides an overview and reflection on the program's functionality, including testing scenarios and output screenshots.
-- Screenshots – contains the fractal rendering screenshots 
 - README.md – Markdown file, program information  
 
 -----------------------------------------------------------------------------------------------------------------------------
