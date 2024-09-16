@@ -36,9 +36,34 @@ My Links:
 
 #### Project Map
  
-- [Module 4 Critical Thinking](#module-4-critical-thinking) 
+- [Module 5 Portfolio Milestone](#module-5-portfolio-milestone)
+- [Module 4 Critical Thinking](#module-4-critical-thinking)  
 - [Module 2 Critical Thinking](#module-2-critical-thinking) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 5 Portfolio Milestone 
+Directory: [Module-5-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+Program Name: Orthographic Projection of a 3D Rotating Cube  
+
+<p align="left">
+<img  src="https://github.com/user-attachments/assets/37a9a854-671f-41e1-a618-965fb244f034">
+</p>
+
+The following video demonstrates the animation of the Orthographic Projection of a 3D Rotating Cube [Orthographic Projection 3D Rotating Cube](https://www.youtube.com/watch?v=WkLz0dhZR0w) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+
+This program displays a 3D rotating cube in WebGL and implements an interactive viewer with orthographic projection.  
+Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons.  
+Additionally, the users can resize the cube using a slider.   
+Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.    
+
+-------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -52,17 +77,15 @@ Program Name:  Rotating 3D Cube
 
 The following video demonstrates the animation of the Rotating Colored Cube: [3D Rotating Cube](https://www.youtube.com/watch?v=peIjP2O0FTU)
 
-This program creates a simple rotating colored 3D cube using WebGL.   
-The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.  
-The user can also pause and restart the rotation while still moving the cube.  
-This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation.  
-
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
 
-The program is a very simple WebGL application that generates and displays a 2D animation of the Sierpinski Gasket being rendered.  
+This program creates a simple rotating colored 3D cube using WebGL.   
+The user can rotate the cube along the X, Y, and Z axes and move it up, down, left, and right.  
+The user can also pause and restart the rotation while still moving the cube.  
+This program visits the concepts of transformation in computer graphics, more specifically quaternion rotation and translation.   
 
 -------------------------------------------------------------------------------------------
 
