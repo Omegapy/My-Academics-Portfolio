@@ -62,8 +62,8 @@ This program visits the concepts of transformation in computer graphics, more sp
 - cube.html – contains Vertex Shader GLSL and Fragment Shader GLSL  
 - cube.js – contains JavaScript application logic  
 - common folder – contains External Script for initializing shaders and performing matrix operations 
-- Reflection Module 3 CT – provides an overview and reflection on the program's functionality, including testing scenarios and output screenshots.
-- Screenshots – contains the fractal rendering screenshots 
+- Reflection Module 4 CT – provides an overview and reflection on the program's functionality, including testing scenarios and output screenshots.
+- Screenshots – contains the 3d cube screenshots 
 - README.md – Markdown file, program information  
 
 -----------------------------------------------------------------------------------------------------------------------------
