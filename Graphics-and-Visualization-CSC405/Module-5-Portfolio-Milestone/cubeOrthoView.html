@@ -1,0 +1,159 @@
+<!-- 
+ Program Name: 3D Rotating Cube Orthographic Projection 
+ Author: Alejandro (Alex) Ricciardi
+ Date: 09/15/2024
+    
+ Program Description: 
+    This program displays a 3D rotating cube in WebGL,
+    and implement an interactive viewer with orthographic projection
+    Users can rotate the cube along the X, Y, and Z axes, stop the rotation, 
+    and reset all parameters using buttons, Additionally, the users can resize the cube using a slider.
+    Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating 3D Cube with Orthogonal Projection</title>
+
+    <!-- My icon -->
+    <link rel="shortcut icon" href="https://github.com/user-attachments/assets/f8001645-cc85-4b99-beec-74482a83ac87"/>
+
+
+    <!-- CSS for buttons to control the cube -->
+    <style>
+        button {
+            padding: 5px 10px;  /* Padding around the buttons */
+            margin: 5px 0;      /* Vertical margin for spacing */
+            font-size: 12px;    /* Font size for button text */
+            font-weight: bold;  /* Make button text bold */
+        }
+    </style>
+
+    <!-- --------------------------------------------------------------------------------------------------- -->
+
+    <!-- 
+        Vertex Shader GLSL
+        This shader processes the vertex positions and applies model-view and projection transformations 
+    -->
+    <script id="vertex-shader" type="x-shader/x-vertex">
+        #version 300 es  // GLSL version for WebGL 2.0
+
+        // Attribute variables: These are per-vertex inputs that come from the vertex buffer
+        // 'aPosition' contains the position of the vertex in 3D space
+        in vec4 aPosition;        // Input vertex position (4D vector: x, y, z, w)
+
+        // 'aColor' contains the color of the vertex, passed as a vec4 (red, green, blue, alpha)
+        in vec4 aColor;           // Input vertex color (4D vector: r, g, b, a)
+
+        // Output variable to pass the vertex color to the fragment shader
+        // 'vColor' will be interpolated across the pixels of the primitive in the rasterization stage
+        out vec4 vColor;          // Output variable to pass color to the fragment shader
+
+        //-- Uniform variables
+        // Uniform variables: Global values passed from the CPU-side application (JavaScript)
+        // these values are the same for all vertices in a single draw call
+        // A draw call is a command issued by the CPU to the GPU to render (or "draw")
+        // Uniform variables are WebGL constants, they are set once per draw call from the JavaScript code (CPU-side application) 
+        // They remain the same for all vertices in that specific draw call
+        //
+        // Uniform matrices for transformations
+        uniform mat4 uModelViewMatrix;    // Model-view transformation matrix (for rotating, scaling, etc.)
+        uniform mat4 uProjectionMatrix;   // Projection matrix (for applying orthographic projection)
+
+        //--- Main function of the vertex shader ----
+        void main() {
+            /* 
+                Applies the projection and model-view transformations to the vertex position
+                It transforms the 3D vertex positions into 2D screen coordinates 
+                by applying the model-view and projection matrices
+                It also passes the vertex color to the fragment shader
+            */
+            gl_Position = uProjectionMatrix * uModelViewMatrix * aPosition;
+
+            // Pass the input color to the fragment shader
+            vColor = aColor;
+        }
+    </script>
+
+    <!-- --------------------------------------------------------------------------------------------------- -->
+
+    <!-- 
+        Fragment Shader GLSL
+        This shader assigns the color that was passed from the vertex shader to the fragment being rendered
+        It computes or receives color information for each vertex
+    -->
+    <script id="fragment-shader" type="x-shader/x-fragment">
+        #version 300 es  // GLSL version for WebGL 2.0
+
+        precision mediump float;  // Medium precision for float operations
+
+        in vec4 vColor;           // Color passed from the vertex shader
+        out vec4 fColor;          // Output color to be rendered on the screen
+
+        // Main function of the fragment shader
+        void main() {
+            // Set the fragment color to the color passed from the vertex shader
+            fColor = vColor;
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Canvas element where the 3D cube will be rendered -->
+    <canvas id="gl-canvas" width="512" height="512">
+        Oops ... your browser doesn't support the HTML5 canvas element.
+    </canvas>
+
+    </br></br>
+
+    <!-- Sliders to control various cube parameters (depth, radius, rotation) -->
+    <div>
+        <!-- Slider to adjust the depth of the orthographic projection -->
+        Depth .05<input id="depthSlider" type="range" min=".05" max="3" step="0.1" value="2" /> 3
+    </div>
+    <div>
+        <!-- Slider to adjust the viewing radius for the cube (affects the distance of the camera) -->
+        Radius 0.05<input id="radiusSlider" type="range" min="0.05" max="2" step="0.1" value="1" /> 2
+    </div>
+    <div>
+        <!-- Slider to control the theta angle for cube rotation  -->
+        Theta -90<input id="thetaSlider" type="range" min="-90" max="90" step="5" value="0" /> 90
+    </div>
+    <div>
+        <!-- Slider to control the phi angle for cube rotation  -->
+        Phi -90<input id="phiSlider" type="range" min="-90" max="90" step="5" value="0" /> 90
+    </div>
+    <div>
+        <!-- Slider to control the size of the cube (scaling) -->
+        Size 0.1<input id="sizeSlider" type="range" min="0.1" max="1" step="0.1" value="0.5" /> 1
+    </div>
+
+    </br>
+
+    <!-- Buttons to control the cube's rotation and reset the view -->
+    <div>
+        <!-- Button to reset the cube's rotation and position to default -->
+        <button id="resetBtn">Reset</button>
+    </div>
+    <div>
+        <!-- Buttons to rotate the cube along the X, Y, and Z axes -->
+        <button id="rotateXBtn">Rotate X</button>
+        <button id="rotateYBtn">Rotate Y</button>
+        <button id="rotateZBtn">Rotate Z</button>
+    </div>
+    <div>
+        <!-- Button to stop the cube's rotation -->
+        <button id="stopBtn">Stop Rotation</button>
+    </div>
+
+    <!-- External JavaScript files for initializing shaders and matrix operations -->
+    <script type="text/javascript" src="Common/initShaders.js"></script>  <!-- Shader initialization utilities -->
+    <script type="text/javascript" src="Common/MVnew.js"></script>        <!-- Matrix/vector math utilities -->
+    <script type="text/javascript" src="cubeOrthoView.js"></script>          <!-- Main JavaScript controlling the cube's logic -->
+</body>
+
+</html>
