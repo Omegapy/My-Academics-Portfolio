@@ -2,7 +2,7 @@
 # Module-4 Critical Thinking
 Program Name: Rotating 3D Cube
 
-Grade:  
+Grade:  105/105 A
 
 <p align="left">
 <img  src="https://github.com/user-attachments/assets/705d0aaa-7ced-47b5-bd99-e6dcc5064dad">
