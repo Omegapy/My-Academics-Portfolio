@@ -346,9 +346,3 @@ var cubeOrthoView = function() {
     }
 
 }();
-
-// Create the perspective projection matrix
-projectionMatrix = mat4.perspective(fieldOfView, aspectRatio, near, far);
-
-// Send the matrices to the shader
-gl.uniformMatrix4fv(projectionMatrixLoc, false, flatten(projectionMatrix));
