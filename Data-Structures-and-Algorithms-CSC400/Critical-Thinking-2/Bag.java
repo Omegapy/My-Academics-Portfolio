@@ -17,10 +17,10 @@
  -------------------*/
 package rpgBag; // Program Folder
 
-import java.util.HashSet;
 /*---------------------------
 |    Imported modules      |
 ---------------------------*/
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
