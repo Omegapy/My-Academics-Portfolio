@@ -36,10 +36,40 @@ My Links:
 
 #### Project Map
  
+- [Module 6 Critical Thinking](#module-6-critical-thinking)  
 - [Module 5 Portfolio Milestone](#module-5-portfolio-milestone)
 - [Module 4 Critical Thinking](#module-4-critical-thinking)  
 - [Module 2 Critical Thinking](#module-2-critical-thinking) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 6 Critical Thinking 
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-6-Critical-Thinking)  
+Program Name: Interactive Recursively Approximated Sphere  
+
+<p align="left">
+<img  src="https://github.com/user-attachments/assets/7a9e8c33-dc66-4970-851b-10a03b197252">
+</p>
+
+The following video demonstrates the animation of the Rotating Colored Cube: [Interactive Recursively Approximated Sphere](https://youtu.be/Rp3mV8I62QE)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+
+This program displays an interactive 3D approximated sphere in WebGL.  
+The sphere is created by recursively subdividing a tetrahedron.  
+Users can control the sphere's radius, rotation (theta and phi angles), 
+and the number of subdivisions using sliders. The program also supports 
+pausing and resuming the rotation.  
+The Blinn-Phon model is implemented in the scene.  
+The model view with the light components are the one experiencing the rotation, not the sphere.     
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
