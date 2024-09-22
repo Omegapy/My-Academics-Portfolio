@@ -6,7 +6,7 @@ Program Name: Interactive Recursively Approximated Sphere
 <img  src="https://github.com/user-attachments/assets/7a9e8c33-dc66-4970-851b-10a03b197252">
 </p>
 
-The following video demonstrates the animation of the Rotating Colored Cube: [Interactive Recursively Approximated Sphere]()
+The following video demonstrates the animation of the Rotating Colored Cube: [Interactive Recursively Approximated Sphere](https://youtu.be/Rp3mV8I62QE)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
