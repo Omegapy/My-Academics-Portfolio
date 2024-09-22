@@ -1,0 +1,181 @@
+<!--
+Program Name: Interactive Recursively Approximated Sphere
+ Author: Alejandro (Alex) Ricciardi
+ Date: 09/22/2024
+
+ Program Description:
+ This program displays an interactive 3D approximated sphere in WebGL.
+ The sphere is created by recursively subdividing a tetrahedron.
+ Users can control the sphere's radius, rotation (theta and phi angles), 
+ and the number of subdivisions using sliders. The program also supports 
+ pausing and resuming the rotation.
+ The Blinn-Phon model is implemented in the scene.
+ The model view with the light components are the one experiencing the rotation, not the sphere.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Sphere</title>
+
+    <!-- My icon -->
+    <link rel="shortcut icon" href="https://github.com/user-attachments/assets/f8001645-cc85-4b99-beec-74482a83ac87"/>
+        
+        <!-- CSS for styling the sliders and their labels -->
+        <style>
+            /* Style for the container holding each control */
+            .control-container {
+                margin: 10px;
+            }
+            /* Style for the labels next to the sliders */
+            .control-container label {
+                display: inline-block;
+                width: 120px;
+            }
+            /* Style for the sliders themselves */
+            .control-container input[type="range"] {
+                width: 200px;
+            }
+        </style>
+
+        <!-- --------------------------------------------------------------------------------------------------- -->
+        <!-- 
+            Vertex Shader: This shader computes the vertex position and lighting (Phong model) 
+        -->
+        <script id="vertex-shader" type="x-shader/x-vertex">
+            #version 300 es  // Specify WebGL 2.0 (GLSL ES 3.0)
+
+            // Attribute variables: These are per-vertex inputs that come from the vertex buffer
+            // 'aPosition' contains the position of the vertex in 3D space
+            in vec4 aPosition;       // Vertex position attribute (4D vector: x, y, z, w)
+            in vec4 aNormal;         // Normal vector attribute for lighting calculations
+
+            // 'aColor' contains the color of the vertex, passed as a vec4 (red, green, blue, alpha)
+            out vec4 vColor;         // Output color passed to the fragment shader
+
+            //-- Uniform variables
+            // Uniform variables: Global values passed from the CPU-side application (JavaScript)
+            // these values are the same for all vertices in a single draw call
+            // A draw call is a command issued by the CPU to the GPU to render (or "draw")
+            // Uniform variables are WebGL constants, they are set once per draw call from the JavaScript code (CPU-side application) 
+            // They remain the same for all vertices in that specific draw call
+            //
+            // ---- Uniforms for material lighting properties ----
+            uniform vec4 uAmbientProduct, uDiffuseProduct, uSpecularProduct;  // store the lighting products (ambient, diffuse, and specular) used in the Phong lighting model.
+            uniform vec4 uLightPosition;     // Position of the light source (if w == 0, it is directional)
+            uniform float uShininess;        // Shininess coefficient for specular highlights
+            uniform mat3 uNormalMatrix;      // Transforms normals to eye space for accurate lighting
+            // ---- Uniforms for views transformations ----
+            uniform mat4 uModelViewMatrix;   // Model-View matrix (combines model and camera view transformations) rotating the object
+            uniform mat4 uProjectionMatrix;  // Projection matrix (used for perspective/orthographic projection)
+
+            //--- Main function of the vertex shader ----
+            void main() {
+                // Compute the position of the vertex in eye coordinates (after applying model-view transformation)
+                vec3 pos = (uModelViewMatrix * aPosition).xyz;
+                
+                // Light direction: 
+                // If the light is directional (w == 0), use its direction as is; 
+                // Otherwise, compute the direction vector from the vertex to the light source.
+                vec3 L = (uLightPosition.w == 0.0) ? normalize(uLightPosition.xyz) 
+                          : normalize(uLightPosition.xyz - pos);
+                
+                // Vector pointing towards the camera (eye) from the vertex position
+                vec3 E = -normalize(pos);
+                
+                // Halfway vector between light and eye directions (used for specular reflection)
+                vec3 H = normalize(L + E);
+
+                // Transform the vertex normal to eye space using the normal matrix
+                vec3 N = normalize(uNormalMatrix * aNormal.xyz);
+
+                // Compute the ambient lighting component (constant color)
+                vec4 ambient = uAmbientProduct;
+
+                // Compute the diffuse lighting component (Lambertian reflection)
+                float Kd = max(dot(L, N), 0.0);  // Dot product gives intensity based on angle between light and normal
+                vec4 diffuse = Kd * uDiffuseProduct;
+
+                // Compute the specular lighting component (Phong reflection)
+                float Ks = pow(max(dot(N, H), 0.0), uShininess); // Highlight strength depends on the shininess factor
+                vec4 specular = Ks * uSpecularProduct;
+
+                // If the light is behind the object, eliminate specular reflection
+                if (dot(L, N) < 0.0) {
+                    specular = vec4(0.0, 0.0, 0.0, 1.0);
+                }
+
+                // Compute the final position of the vertex in clip coordinates
+                gl_Position = uProjectionMatrix * uModelViewMatrix * aPosition;
+
+                // Combine ambient, diffuse, and specular components to determine final color
+                vColor = ambient + diffuse + specular;
+                vColor.a = 1.0; // Set alpha to fully opaque
+            }
+        </script>
+
+        <!-- --------------------------------------------------------------------------------------------------- -->
+        <!-- 
+            Fragment Shader: This shader computes the final color of each pixel 
+        -->
+        <script id="fragment-shader" type="x-shader/x-fragment">
+            #version 300 es  // Specify WebGL 2.0 (GLSL ES 3.0)
+
+            precision mediump float;  // Set medium precision for floating-point calculations
+
+            in vec4 vColor;           // Input color from the vertex shader (interpolated across the surface)
+            out vec4 fColor;          // Final color output to the screen (fragment color)
+
+            void main() {
+                // Set the fragment's color to the interpolated color from the vertex shader
+                fColor = vColor;
+            }
+        </script>
+    </head>
+    <body>
+        
+
+        <!-- WebGL Canvas: This is where the sphere will be rendered -->
+        <canvas id="gl-canvas" width="512" height="512">
+            Oops ... your browser doesn't support the HTML5 canvas element
+        </canvas>
+
+        <!-- 
+            Sliders for controlling the sphere's properties 
+        -->
+        <!-- Camera and light -->
+        <div class="control-container">
+            <label for="radiusSlider">Radius:</label> <!-- Camera and light distance from the sphere-->
+            <input type="range" id="radiusSlider" min="0.1" max="5.0" step="0.01" value="1.5">
+        </div>
+        <div class="control-container"> <!-- camera along the y-axis -->
+            <label for="thetaSlider">Theta (°):</label>
+            <input type="range" id="thetaSlider" min="-180" max="180" step="1" value="0">
+        </div>
+        <div class="control-container"><!-- camera along the xz-plane -->
+            <label for="phiSlider">Phi (°):</label>
+            <input type="range" id="phiSlider" min="-180" max="180" step="1" value="0">
+        </div>
+        <!-- geometry of the sphere -->
+        <div class="control-container"> <!-- number of subdivisions -->
+            <label for="subdivisionSlider">Subdivisions:</label>
+            <input type="range" id="subdivisionSlider" min="0" max="7" step="1" value="3">
+        </div>
+        <!-- Rotation -->
+        <div class="control-container"><!-- Buttons to pause and resume sphere rotation -->
+            <button id="Pause">Pause Rotation</button>
+            <button id="Resume">Resume Rotation</button>
+        </div>
+
+        <!-- JavaScript libraries for shader initialization and matrix/vector operations -->
+        <script type="text/javascript" src="Common/initShaders.js"></script>
+        <script type="text/javascript" src="Common/MVnew.js"></script>
+
+        <!-- The main JavaScript program that handles the rendering and interaction -->
+        <script type="text/javascript" src="interactiveSphere.js"></script>
+
+    </body>
+</html>
+
