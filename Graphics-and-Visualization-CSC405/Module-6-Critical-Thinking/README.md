@@ -41,12 +41,12 @@ Submit a Word document with your discussion and reflection (approximately 3 para
 Program Description:  
 
 This program displays an interactive 3D approximated sphere in WebGL.  
- The sphere is created by recursively subdividing a tetrahedron.  
- Users can control the sphere's radius, rotation (theta and phi angles), 
- and the number of subdivisions using sliders. The program also supports 
- pausing and resuming the rotation.  
- The Blinn-Phon model is implemented in the scene.  
- The model view with the light components are the one experiencing the rotation, not the sphere.  
+The sphere is created by recursively subdividing a tetrahedron.  
+Users can control the sphere's radius, rotation (theta and phi angles), 
+and the number of subdivisions using sliders. The program also supports 
+pausing and resuming the rotation.  
+The Blinn-Phon model is implemented in the scene.  
+The model view with the light components are the one experiencing the rotation, not the sphere.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
