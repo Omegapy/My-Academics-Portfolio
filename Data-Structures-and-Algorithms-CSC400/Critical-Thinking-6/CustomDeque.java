@@ -1,10 +1,12 @@
 /*
-    Program Name: Custom Deque
+    Program Name: Custom Deque ADT
     Author: Alejandro (Alex) Ricciardi
     Date: 09/22/2024
     
     Program Description: 
-    The program is a custom double-ended queue (deque) implementation using Java's LinkedList.
+    The program is a custom double-ended queue (deque) implementation using Java's LinkedList. 
+    It tests the deque insertion, deletion, and iteration functionalities 
+    from both the front and the end.
 */
 
 /*-------------------
@@ -25,7 +27,7 @@ import java.util.NoSuchElementException;
  * A custom implementation of a double-ended queue, a deque 
  * A deque that allows insertion and removal of elements from 
  * both the front and rear ends 
- * This class uses Java's LinkedList internally to store elements
+ * This class uses Java's LinkedList to store elements
  * 
  * @author Alejandro Ricciardi
  * @version 3.0
