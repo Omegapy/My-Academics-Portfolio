@@ -1,9 +1,10 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Portfolio Project
-Program Name: Interactive Recursively Approximated Sphere
+Program Name: Rotating Cube
 
 <p align="left">
-<img  src=" ">
+<img  src="https://github.com/user-attachments/assets/6519ddcd-fddc-46bd-867d-3d1acf30999b"
+">
 </p>
 
 The following video demonstrates the functionality of the program: []()
@@ -48,14 +49,13 @@ Assemble all of the requirements for this project and submit to Canvas for gradi
 Program Description:  
 
 Program Version-1:  
-[Module-5 Portfolio Milestone]( https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+[Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
 This program displays a 3D rotating cube in WebGL and implements an interactive viewer with orthographic projection.  
 Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons.  
 Additionally, the users can resize the cube using a slider.  
 Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.  
 
-Program Version-2:  
-[Portfolio-Milestone]() 
+Program Version-2: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
 This program is version 2 of the [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
 It displays a 3D rotating cube in WebGL.  
 It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
@@ -63,10 +63,10 @@ It also implements an interactive Blinn-Phong lighting that can be toggled betwe
 Users can rotate the cube along the X, Y, and Z axes, stop the rotation, 
 and reset all parameters using buttons. Additionally, users can resize the cube using a slider.  
 
-Program Final Version-3:  
+Program Final Version-3 - Rotating Cube:  
 This program is version 3 of  
 - [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
-- and [Portfolio Milestone version 2]()   
+- and [Portfolio Milestone version 2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
 
 This program displays a 3D rotating cube in WebGL.  
 It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
