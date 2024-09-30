@@ -1,9 +1,9 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Portfolio Project
+# Portfolio Milestone
 Program Name: Rotating 3D Cube with Toggleable Projection and Lighting  
 
 <p align="left">
-<img  src=" ">
+<img  src="https://github.com/user-attachments/assets/6519ddcd-fddc-46bd-867d-3d1acf30999b">
 </p>
 
 
