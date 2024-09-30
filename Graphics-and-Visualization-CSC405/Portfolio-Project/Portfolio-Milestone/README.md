@@ -1,6 +1,6 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Portfolio Project
-Program Name: Interactive Recursively Approximated Sphere
+Program Name: Rotating 3D Cube with Toggleable Projection and Lighting  
 
 <p align="left">
 <img  src=" ">
