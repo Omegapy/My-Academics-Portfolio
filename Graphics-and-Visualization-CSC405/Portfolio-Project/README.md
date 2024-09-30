@@ -3,8 +3,7 @@
 Program Name: Rotating Cube
 
 <p align="left">
-<img  src="https://github.com/user-attachments/assets/6519ddcd-fddc-46bd-867d-3d1acf30999b"
-">
+<img  src="https://github.com/user-attachments/assets/6baed473-9a62-4fd4-8cd8-703249e82ae2">
 </p>
 
 The following video demonstrates the functionality of the program: []()
