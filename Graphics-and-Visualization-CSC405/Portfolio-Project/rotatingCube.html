@@ -1,0 +1,257 @@
+<!-- 
+ Program Name: Rotating Cube - WebGL
+ Author: Alejandro (Alex) Ricciardi
+ Date: 10/06/2024
+    
+ Program Description: 
+    This program is version 3 of 
+    - the Module-5 Portfolio Milestone: https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone
+    - and Portfolio Milestone version 2: 
+
+    This program displays a 3D rotating cube in WebGL.
+    It implements an interactive viewer that can be toggled between orthographic and perspective projections.
+    It also implements an interactive Blinn-Phong lighting that can be toggled between on and off state.
+    The program implements the Painter's Algorithm for hidden surface removal.
+    Users can rotate the cube along the X, Y, and Z axes, stop the rotation, 
+    and reset all parameters using buttons. Additionally, users can resize the cube using a slider.
+
+    The program also implements the Painter's Algorithm for Hidden Surface Removal (HSR). 
+    The Painter's Algorithm manually sorts the cube’s faces to simulate depth 
+    without relying on the WebGL z-buffer to remove hidden surfaces.
+*/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rotating 3D Cube with Toggleable Projection and Lighting</title>
+    <!-- My icon -->
+    <link rel="shortcut icon" href="https://github.com/user-attachments/assets/f8001645-cc85-4b99-beec-74482a83ac87"/>
+
+
+    <!-- CSS for styling buttons and display Current Projection -->
+    <style>
+        /* Style for buttons */
+        button {
+            padding: 4px 10px; /* Padding inside the button */
+            margin: 5px 0; /* Space around the button */
+            font-size: 12px; /* Font size */
+            font-weight: bold; /* Make the text bold */
+            border: 1px solid #000000; /* Border color (black) and width */
+            border-radius: 7px; /* Rounded corners */
+            box-shadow: 0px 0px 3px #000000; /* Shadow effect around the box */
+        }
+
+        /* Style for the projection display box */
+        #projectionDisplay {
+            font-size: 16px; /* Font size for projection display */
+            font-weight: bold; /* Make the text bold */
+            color: #FFFFFF; /* Text color (white) */
+            background-color: #007BFF; /* Background color (blue) */
+            padding: 5px; /* Padding inside the box */
+            text-align: center; /* Center-align the text */
+            margin: 5px 0; /* Space above and below the box */
+            border: 3px solid #000000; /* Border color (black) and width */
+            width: 250px; /* Width of the display box */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0px 0px 10px #000000; /* Shadow effect around the box */
+        }
+    </style>
+
+    <!-- --------------------------------------------------------------------------------------------------- -->
+
+    <!-- 
+        GLSL
+        Vertex Shader - handles 3D transformation and lighting 
+    -->
+    <script id="vertex-shader" type="x-shader/x-vertex">
+        /* Attribute variables: These are per-vertex inputs that come from the vertex buffer
+        'aPosition' contains the position of the vertex in 3D space*/
+        attribute vec4 aPosition;  /* Vertex position attribute (input from the buffer) */
+        /* Vertex normal for lighting calculations 
+        A normal vector is a vector that is perpendicular to the surface of a 3D object 
+        determine how light interacts with the surface of an object */
+        attribute vec3 aNormal;    
+        /* 'aColor' contains the color of the vertex, passed as a vec4 (red, green, blue, alpha) */
+        attribute vec4 aColor;     /* Vertex color attribute (input from the buffer) */
+        
+        /*-- Uniform variables
+        Uniform variables: Global values passed from the CPU-side application (JavaScript)
+        these values are the same for all vertices in a single draw call
+        A draw call is a command issued by the CPU to the GPU to render (or "draw")
+        Uniform variables are WebGL constants, they are set once per draw call from the JavaScript code (CPU-side application) 
+        They remain the same for all vertices in that specific draw call */
+        
+        /* Uniform matrices for transformations */
+        uniform mat4 uModelViewMatrix;  /* Model-view matrix for 3D transformations */
+        uniform mat4 uProjectionMatrix; /* Projection matrix for transforming the 3D world to 2D screen */
+        uniform mat3 uNormalMatrix;     /* Matrix for transforming normals */
+        
+        /* Passing processed vertices to the fragment shader*/
+        varying vec3 vNormal;    /* Passing normal data to the fragment shader */
+        varying vec3 vPosition;  /* Passing transformed position to the fragment shader */
+        varying vec4 vColor;     /* Passing color to the fragment shader */
+        
+        /*--- Main function of the vertex shader to process vertices ---*/
+        void main() {
+            /* Calculate the final vertex position */
+            gl_Position = uProjectionMatrix * uModelViewMatrix * aPosition;
+
+            /* Compute the vertex position in the transformed space */
+            vPosition = vec3(uModelViewMatrix * aPosition);
+
+            /* Pass the transformed normal to the fragment shader */
+            vNormal = uNormalMatrix * aNormal;
+
+            /* Pass the color to the fragment shader */
+            vColor = aColor;
+        }
+    </script>
+
+    <!-- --------------------------------------------------------------------------------------------------- -->
+
+    <!-- 
+        GLSL
+        Fragment Shader - handles the final pixel color based on lighting calculations 
+        The program implements Blinn-Phong lighting
+    -->
+    <script id="fragment-shader" type="x-shader/x-fragment">
+        precision mediump float;  /* Set the precision for floating-point calculations */
+
+        varying vec3 vNormal;    /* Incoming normal from the vertex shader */
+        varying vec3 vPosition;  /* Incoming position from the vertex shader */
+        varying vec4 vColor;     /* Incoming color from the vertex shader */
+
+        uniform vec4 uLightPosition; /* Position of the light source */
+        uniform float uShininess;    /* Shininess factor for specular highlights */
+        uniform bool uUseLighting;   /* Boolean to toggle lighting on/off */
+
+        /*--- Main function of the vertex shader to process pixels ---*/
+        void main() {
+            vec4 fColor; /* Final fragment color output */
+            
+            /* If lighting is enabled, perform Blinn-Phong lighting calculations */
+            if (uUseLighting) {
+                vec3 N = normalize(vNormal); /* Normalize the normal vector */
+                vec3 L;  /* Light vector */
+
+                /* Check if the light is a directional or point light */
+                if (uLightPosition.w == 0.0) {
+                    L = normalize(uLightPosition.xyz); /* Directional light (w = 0) */
+                } else {
+                    L = normalize(uLightPosition.xyz - vPosition); /* Point light (w = 1) */
+                }
+
+                vec3 E = normalize(-vPosition); /* Vector pointing to the camera (eye) */
+                vec3 H = normalize(L + E);      /* Halfway vector for specular lighting */
+
+                /* Define material and light properties (ambient, diffuse, and specular components) 
+                based on the Blinn-Phong lighting model */
+                vec4 ambientProduct = vec4(0.2, 0.2, 0.2, 1.0) * vColor; /* Ambient reflection */
+                vec4 diffuseProduct = vec4(1.0, 1.0, 1.0, 1.0) * vColor; /* Diffuse reflection */
+                vec4 specularProduct = vec4(1.0, 1.0, 1.0, 1.0) * vec4(1.0); /* Specular reflection */
+
+                /* Calculate diffuse and specular reflection based on lighting and material properties */
+                float Kd = max(dot(L, N), 0.0); /* Diffuse coefficient */
+                vec4 diffuse = Kd * diffuseProduct; /* Diffuse component */
+                float Ks = pow(max(dot(N, H), 0.0), uShininess); /* Specular coefficient */
+                vec4 specular = Ks * specularProduct; /* Specular component */
+
+                /* If the light is behind the surface, there is no specular component */
+                if (dot(L, N) < 0.0) {
+                    specular = vec4(0.0, 0.0, 0.0, 1.0);
+                }
+
+                /* Final color is the sum of ambient, diffuse, and specular components */
+                fColor = ambientProduct + diffuse + specular;
+                fColor.a = 1.0; /* Ensure full opacity */
+            } else {
+                /* If lighting is off, use the vertex color directly */
+                fColor = vColor;
+            }
+
+            /* Set the final fragment color */
+            gl_FragColor = fColor;
+        }
+    </script>
+</head>
+
+<!-- --------------------------------------------------------------------------------------------------- -->
+
+<body>
+    <div>
+        <!-- Canvas element where WebGL will render the 3D scene -->
+        <canvas id="gl-canvas" width="512" height="512">
+            Oops ... your browser doesn't support the HTML5 canvas element.
+        </canvas>
+
+        <br><br>
+
+        <!-- Display current projection mode (Orthographic or Perspective) -->
+        <p id="projectionDisplay">Current Projection: Orthographic</p>
+        <br>
+
+        <!-- -------------------------------------------- Sliders --------------------------------------- -->
+
+        <!-- Sliders to control various parameters like depth, radius, and angles -->
+        <div>
+            <!-- Controls the depth of the projection -->
+            Depth 0.1<input id="depthSlider" type="range" min="0.1" max="20" step="0.1" value="4" />20
+        </div>
+        <div>
+            <!-- Adjusts the distance of the camera from the object -->
+            Radius 0.1<input id="radiusSlider" type="range" min="0.1" max="20" step="0.1" value="4" />20  
+        </div>
+        <div>
+            <!-- Adjusts the angle theta (y-axis) -->
+            Theta -180<input id="thetaSlider" type="range" min="-180" max="180" step="5" value="0" />180         
+        </div>
+        <div>
+            <!-- Adjusts the angle phi (xz plane) -->
+            Phi -180<input id="phiSlider" type="range" min="-180" max="180" step="5" value="0" />180   
+        </div>
+        <div>
+            <!-- Controls the size of the cube -->
+            Size 0.1<input id="sizeSlider" type="range" min="0.1" max="2" step="0.1" value="1" />2
+        </div>
+
+        <br>
+
+        <!-- -------------------------------------------- Buttons --------------------------------------- -->
+
+        <!-- Buttons for controlling cube rotation, stopping it, and resetting the view -->
+        <div>
+            <!-- Resets all parameters (angle, projection, size, etc.) to their initial values -->
+            <button id="resetBtn">Reset</button>
+        </div>
+        <div>
+            <!-- Rotation around the x-axis -->
+            <button id="rotateXBtn">Rotate X</button>
+            <!-- Rotation around the y-axis -->
+            <button id="rotateYBtn">Rotate Y</button>
+            <!-- Rotation around z-axis -->
+            <button id="rotateZBtn">Rotate Z</button>
+            <!-- Stops rotation  -->
+            <button id="stopBtn">Stop Rotation</button>     
+        </div>
+        <div>
+            <!-- Toggles between Orthographic and Perspective projection modes -->
+            <button id="toggleProjectionBtn">Toggle Projection</button>
+            <!-- Toggles Blinn-Phong lighting on or off -->
+            <button id="toggleLightingBtn">Turn Off Lighting</button>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------------------- -->
+
+    <!-- Loads the initShaders.js file that handles shader initialization -->
+    <script type="text/javascript" src="Common/initShaders.js"></script>
+    <!-- Loads the MV.js file that provides matrix and vector functions for 3D transformations -->
+    <script type="text/javascript" src="Common/MV.js"></script>
+    <!-- Loads the main JavaScript file that contains the logic for rendering the cube -->
+    <script type="text/javascript" src="rotatingCube.js"></script>
+    
+</body>
+
+</html>
