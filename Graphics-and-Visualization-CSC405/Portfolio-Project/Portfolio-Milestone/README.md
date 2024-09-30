@@ -44,8 +44,7 @@ Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and res
 Additionally, the users can resize the cube using a slider.  
 Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.  
 
-Program Version-2 - this program:  
-[Portfolio-Milestone]() 
+Program Version-2 - this program:   
 This program is version 2 of the [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
 It displays a 3D rotating cube in WebGL.  
 It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
