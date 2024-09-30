@@ -6,7 +6,7 @@ Program Name: Rotating Cube
 <img  src="https://github.com/user-attachments/assets/6baed473-9a62-4fd4-8cd8-703249e82ae2">
 </p>
 
-The following video demonstrates the functionality of the program: []()
+The following video demonstrates the functionality of the program: [Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL](https://www.youtube.com/watch?v=tczs3bjaGtQ)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
