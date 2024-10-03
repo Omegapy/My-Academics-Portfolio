@@ -36,12 +36,59 @@ My Links:
 
 #### Project Map
 
+- [Portfolio Project](#portfolio-project)
 - [Critical Thinking 5](#critical-thinking-5)
 - [Critical Thinking 4](#critical-thinking-4) 
 - [Critical Thinking 3](#critical-thinking-3) 
 - [Critical Thinking 2](#critical-thinking-2) 
 - [Critical Thinking 1](#critical-thinking-1) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Portfolio Project
+Directory: [Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Portfolio-Project)  
+Program Name: Custom Queue ADT and Quicksort  
+
+-------------------------------------------------------------------------------------------
+
+The Assignment Direction:   
+Option #1: Person Class
+
+Your Portfolio Project for CSC400 consists of the following:  
+- Milestone 1 (due in Module 5): Java source code (with corrections if necessary) for programs created in Module 2 and Module 4.  
+- Milestone 2 (due in Module 7): Java source code (with corrections if necessary) for programs created in Module 5 and Module 6.  
+- Lessons Learned Reflection  
+- Final Program  
+
+Lessons Learned Reflection:  
+Write a 2-page summary that outlines the lessons you have learned in this programming course. Reflect on how these lessons can be applied towards more effective coding.
+
+Final Program:  
+Write a program that creates a Person class that contains strings that represent the first and last name of a person and their age. You will need to create a Queue class that will store each person in the queue and can sort the queue based on last name or age.  
+
+Prompt the user of the program to add five people to the queue. Your program should provide the contents of the queue and then sort the queue using the quick sort in two ways
+
+1.	Descending order by last name  
+2.	Descending order by age  
+
+
+Program Description:  
+This program implements in Java a generic Linked-list queue and sorts the queue using a quicksort algorithm.  
+The queue stores Person objects representing a person's first name, last name, and age.   
+The Person objects in the queue can be sorted by last name or age.  
+
+Quicksort algorithm notes:  
+
+-	The quicksort algorithm implements a Hoare partition to partition the queue. Meaning that the head node of the linked-list queue is picked as the pivot.  
+  
+-	Additionally, a queue ADT sort is expected to be stable, preserving the relative (entry) order of elements with equal values.  
+
+-	To partition a linked-list, the element needs to be traversed element by element. Dividing the list into three parts (left, equal, and right) helps simplify the recursion of traversing the list element by element and preserving elements with equal values in order of entry. This also avoids moving elements around in memory, as is required in array-based implementations of quicksort.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
