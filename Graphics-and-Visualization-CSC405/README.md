@@ -35,12 +35,63 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
- 
+
+- [Portfolio Project](#portfolio-project) 
 - [Module 6 Critical Thinking](#module-6-critical-thinking)  
 - [Module 5 Portfolio Milestone](#module-5-portfolio-milestone)
 - [Module 4 Critical Thinking](#module-4-critical-thinking)  
 - [Module 2 Critical Thinking](#module-2-critical-thinking) 
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Portfolio Project
+Directory: [Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project)  
+Program Name: Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL
+
+<p align="left">
+<img  src="https://github.com/user-attachments/assets/6baed473-9a62-4fd4-8cd8-703249e82ae2">
+</p>
+
+The following video demonstrates the functionality of the program: [Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL](https://www.youtube.com/watch?v=tczs3bjaGtQ)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+
+Program Version-1:  
+[Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+This program displays a 3D rotating cube in WebGL and implements an interactive viewer with orthographic projection.  
+Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons.  
+Additionally, the users can resize the cube using a slider.  
+Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.  
+
+Program Version-2: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
+This program is version 2 of the [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+It displays a 3D rotating cube in WebGL.  
+It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
+It also implements an interactive Blinn-Phong lighting that can be toggled between on and off state.     
+Users can rotate the cube along the X, Y, and Z axes, stop the rotation, 
+and reset all parameters using buttons. Additionally, users can resize the cube using a slider.  
+
+Program Final Version-3 - Rotating Cube:  
+This program is version 3 of  
+- [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+- and [Portfolio Milestone version 2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
+
+This program displays a 3D rotating cube in WebGL.  
+It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
+It also implements an interactive Blinn-Phong lighting that can be toggled between on and off state.  
+The program implements the Painter's Algorithm for hidden surface removal.  
+Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons. Additionally, users can resize the cube using a slider.  
+
+The program also implements the Painter's Algorithm for Hidden Surface Removal (HSR).   
+The Painter's Algorithm manually sorts the cube’s faces to simulate depth without relying on the WebGL z-buffer to remove hidden surfaces.     
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
