@@ -1,6 +1,6 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Portfolio Project
-Program Name: Rotating Cube
+Program Name: Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL
 
 <p align="left">
 <img  src="https://github.com/user-attachments/assets/6baed473-9a62-4fd4-8cd8-703249e82ae2">
