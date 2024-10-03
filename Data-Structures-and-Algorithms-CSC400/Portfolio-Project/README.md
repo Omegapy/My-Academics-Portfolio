@@ -39,6 +39,7 @@ Prompt the user of the program to add five people to the queue. Your program sho
 
 1.	Descending order by last name  
 2.	Descending order by age  
+
 Assemble your Lessons Learned Reflection, your source code, and screenshots of the application executing and results into a single document. Submit your completed Portfolio Project by the posted due date.  
 
 ⚠️ My notes:   
