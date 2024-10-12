@@ -31,7 +31,8 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [CSC405 Graphics and Visualization WebGL](#csc405-graphic-and-visualization-webgl)
+- [CSC400 Data Structures and Algorithms Java](#csc400-data-structures-and-algorithms-java)
+- [CSC405 Graphics and Visualization WebGL](#csc405-graphics-and-visualization-webgl)
 - [CSC372 Computer Programming 2 Java](#csc372-computer-programming-2-java)
 - [CSC320 Programming 1 Java](#csc320-programming-1-java)
 - [ITS320 Basic Programming Python](#its320-basic-programming-python)
@@ -39,6 +40,68 @@ Related links:
 - [COSC1030 Computer Science 1](#cosc1030-computer-science-1)
 - [ENG102 Composition 2](#eng102-composition-2)
 - [HUM101 Critical Reasoning](#hum101-critical-reasoning)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## CSC400 Data Structures and Algorithms Java
+Directory: [CSC400 CSU Global]()   
+Portfolio Assignment Option 1: Person Class 
+Program Name: Custom Queue ADT and Quicksort  
+Fall B (24FB) – 2024  
+Student: Alejandro (Alex) Ricciardi  
+Date: 10/06/2024
+   
+Grade:  100% A
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+This program implements in Java a generic Linked-list queue and sorts the queue using a quicksort algorithm.  
+The queue stores Person objects representing a person's first name, last name, and age.   
+The Person objects in the queue can be sorted by last name or age.  
+
+Quicksort algorithm notes:  
+-	The quicksort algorithm implements a Hoare partition to partition the queue. Meaning that the head node of the linked-list queue is picked as the pivot.  
+-	Additionally, a queue ADT sort is expected to be stable, preserving the relative (entry) order of elements with equal values.  
+-	To partition a linked-list, the element needs to be traversed element by element. Dividing the list into three parts (left, equal, and right) helps simplify the recursion of traversing the list element by element and preserving elements with equal values in order of entry. This also avoids moving elements around in memory, as is required in array-based implementations of quicksort.  
+
+       
+-------------------------------------------------------------------------------------------
+
+Assignment Directions:  
+Option #1: Person Class
+
+Your Portfolio Project for CSC400 consists of the following:  
+- Milestone 1 (due in Module 5): Java source code (with corrections if necessary) for programs created in Module 2 and Module 4.  
+- Milestone 2 (due in Module 7): Java source code (with corrections if necessary) for programs created in Module 5 and Module 6.  
+- Lessons Learned Reflection  
+- Final Program  
+
+Lessons Learned Reflection:  
+Write a 2-page summary that outlines the lessons you have learned in this programming course. Reflect on how these lessons can be applied towards more effective coding.
+
+Final Program:  
+Write a program that creates a Person class that contains strings that represent the first and last name of a person and their age. You will need to create a Queue class that will store each person in the queue and can sort the queue based on last name or age.  
+
+Prompt the user of the program to add five people to the queue. Your program should provide the contents of the queue and then sort the queue using the quick sort in two ways
+
+1.	Descending order by last name  
+2.	Descending order by age  
+
+Assemble your Lessons Learned Reflection, your source code, and screenshots of the application executing and results into a single document. Submit your completed Portfolio Project by the posted due date.  
+
+⚠️ My notes:   
+-	No corrections were needed for the programs in Milestones 1 and 2.  
+-	The Milestones 1 programs’ files can be found in the directory Milestones-1.  
+-	The Milestones 2 programs’ files can be found in the directory Milestones-2.  
+-	The final program’s Java code source files can be found in the folder Final-Program.  
+-	Screenshots for the final program can be found in the Screenshots folder.  
+-	I used the generic data type in my implementations of the queue and Quick Sort in my final program.
+  
+----------------------------------------------------------------------------------------------------------------------------- 
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
