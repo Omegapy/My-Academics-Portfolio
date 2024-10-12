@@ -19,7 +19,7 @@ Professor: Herbert Pensado
 Fall B (24FB) – 2024   
 Student: Alejandro (Alex) Ricciardi   
 
-Final grade:
+Final grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
