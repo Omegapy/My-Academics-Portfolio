@@ -17,6 +17,7 @@ Requirements:
 - [Jupyter Notebook](https://jupyter.org/)    
 - [c++](https://isocpp.org/std/the-standard)
 - [java](https://www.java.com/en/)
+- [WebGL](https://get.webgl.org/)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -30,7 +31,8 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [CSC372 Computer Programming 2 Java](#csc372-computer-programming=2-java)
+- [CSC405 Graphics and Visualization WebGL](#csc405-graphic-and-visualization-webgl)
+- [CSC372 Computer Programming 2 Java](#csc372-computer-programming-2-java)
 - [CSC320 Programming 1 Java](#csc320-programming-1-java)
 - [ITS320 Basic Programming Python](#its320-basic-programming-python)
 - [CSC300 Operating Systems and Architecture](#csc300-operating-systems-and-architecture)  
@@ -38,13 +40,95 @@ Related links:
 - [ENG102 Composition 2](#eng102-composition-2)
 - [HUM101 Critical Reasoning](#hum101-critical-reasoning)
 
- -----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## CSC405 Graphics and Visualization WebGL
+Directory: [CSC405 CSU Global]()   
+Portfolio Assignment 
+Program Name: Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL    
+Fall B (24FB) – 2024  
+Student: Alejandro (Alex) Ricciardi  
+Date: 10/06/2024
+   
+Grade:  A
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+<p align="left">
+<img  src="https://github.com/user-attachments/assets/6baed473-9a62-4fd4-8cd8-703249e82ae2">
+</p>
+
+The following video demonstrates the functionality of the program: [Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL](https://www.youtube.com/watch?v=tczs3bjaGtQ)
+
+Program Version-1:  
+[Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+This program displays a 3D rotating cube in WebGL and implements an interactive viewer with orthographic projection.  
+Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons.  
+Additionally, the users can resize the cube using a slider.  
+Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.  
+
+Program Version-2: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
+This program is version 2 of the [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+It displays a 3D rotating cube in WebGL.  
+It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
+It also implements an interactive Blinn-Phong lighting that can be toggled between on and off state.     
+Users can rotate the cube along the X, Y, and Z axes, stop the rotation, 
+and reset all parameters using buttons. Additionally, users can resize the cube using a slider.  
+
+Program Final Version-3 - Rotating Cube:  
+This program is version 3 of  
+- [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+- and [Portfolio Milestone version 2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
+
+This program displays a 3D rotating cube in WebGL.  
+It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
+It also implements an interactive Blinn-Phong lighting that can be toggled between on and off state.  
+The program implements the Painter's Algorithm for hidden surface removal.  
+Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons. Additionally, users can resize the cube using a slider.  
+
+The program also implements the Painter's Algorithm for Hidden Surface Removal (HSR).   
+The Painter's Algorithm manually sorts the cube’s faces to simulate depth without relying on the WebGL z-buffer to remove hidden surfaces.
+       
+-------------------------------------------------------------------------------------------
+
+Assignment Directions:  Portfolio Project  
+There are three parts to the portfolio project.  
+
+Updates to Milestone from Module 5:  
+Based on instructor feedback, please provide updates to your interactive viewer activity from Module 5. Additionally, implement advanced interactivity features. For example, allow users to select and highlight parts of a complex object, switch between visualizations, or toggle between shaders. You will compile the updated source files with screenshots with your final project submission.  
+
+Lessons Learned Reflection:  
+Write a two-page summary that discusses the lessons you learned in this course. Reflect on how these lessons can be applied to a real-world problem or a specific real application. How will you use the concepts in this course going forward?  
+
+Final Program (Hidden-Surface Removal Problem):  
+Study the Hidden-Surface Removal problem and implement the Painter’s algorithm using WebGL. Provide one paragraph discussing what the Hidden-Surface Removal problem within your lessons learned reflection document.  
+
+Clearly provide the details of your program (provide a 2-paragraph overview), including the screenshots of your working program. Describe the object (primitive) that you are working with. Don’t forget to adequately comment your source code.  
+
+Assemble all of the requirements for this project and submit to Canvas for grading by the due date. As a reminder, there are no late submissions for Module 8, as everything must be submitted by the last day of the term. 
+
+Project Map:  
+- rotatingCube.html – contains Program Final Version 3 Vertex Shader GLSL and Fragment Shader GLSL  
+- rotatingCube.js – Program Final Version 3 contains JavaScript application logic  
+- common folder – contains External Script for initializing shaders and performing matrix operations 
+- Reflection Portfolio Project.doc – provides an overview and reflection on the program's functionality, as well as a discussion about the Hidden-Surface Removal problem   
+- Screenshots – contains the 3D cube screenshots 
+- Portfolio-Milestone - contains the Program Version 2 files   
+- Lessons Learned Reflection.doc – Essay about the lessons in CSC405 – Graphics and Visualization - WebGL Course    
+- README.md – Markdown file, program information  
+
+----------------------------------------------------------------------------------------------------------------------------- 
+
+[Go back to the Project Map](#project-map)
+
+-----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC372 Computer Programming 2 Java
 Directory: [CSC372 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC372%20CSU%20Global)   
 Portfolio Assignment Option 1 
 Program Name: Students Manager   
-Fall D (24SB) – 2024  
+Spring D (24SD) – 2024  
 Student: Alejandro (Alex) Ricciardi  
 Date: 08/04/2024
    
