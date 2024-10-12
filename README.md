@@ -33,6 +33,8 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- [Programming 3 cpp Java](#programming-3-cpp-java)
+- [Artificial Intelligence](#artificial-intelligence)
 - [Graphics and Visualization WebGL](#graphics-and-visualization-webgl)
 - [Data Structures and Algorithms Java](#data-structures-and-algorithms-java)
 - [Programming 2 CSC372 Java](#programming-2-csc372-java)  
@@ -43,6 +45,36 @@ My Links:
 - [Python Data Science](#python-data-science)
 - [Portfolio Projects](#portfolio-projects)
 - [My Resume](#my-resume)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Programming 3 cpp Java 
+Directory: [Programming-3-CSC450](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of c++ and Java programs from CSC450 – Programming-3 Course at Colorado State University Global - CSU Global.  
+Fall D (24FD) – 2024  
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Artificial Intelligence
+Directory: [Artificial-Intelligence-CSC410](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of Artificial Intelligence assignments from CSC410 – Artificial Intelligence Course at Colorado State University Global - CSU Global.   
+Fall D (24FD) – 2024  
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
