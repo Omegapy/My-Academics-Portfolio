@@ -61,10 +61,10 @@ It tests and implements secure coding practices to mitigate vulnerabilities such
 	- Incorrect type conversions   
 	- Null pointer dereferencing  
 
-Note: Visual Studio 2022 IDE will give a warning when using ‘strncpy’,
-and you'll need to add the line ‘#define _CRT_SECURE_NO_WARNINGS‘ to compile the program.
-Another alternative is using ‘td::string’ or ‘strncpy_s’ for a safer implementation.
-However, to showcase the vulnerability of buffer overflow when using a char array, this program uses ‘strncpy’.
+Note: Visual Studio 2022 IDE will give a warning when using ‘strncpy’,  
+and you'll need to add the line ‘#define _CRT_SECURE_NO_WARNINGS‘ to compile the program.  
+Another alternative is using ‘td::string’ or ‘strncpy_s’ for a safer implementation.  
+However, to showcase the vulnerability of buffer overflow when using a char array, this program uses ‘strncpy’.  
 
 2. Correct Syntax Corrected CSC450_CT1_mod1-1  
 This programm showcases the correct code syntaxes for the given C++ program, CSC450_CT1_mod1-1.cpp.
