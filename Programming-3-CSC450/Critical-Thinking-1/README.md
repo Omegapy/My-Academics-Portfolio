@@ -2,8 +2,8 @@
 # Critical Thinking 1  
 Programs Names:   
    Secure Person Management System – CT1-Person.cpp  
-   Syntax Corrected CSC450_CT1_mod1-1 - CSC450_CT1_mod1-1.cpp  
-   Syntax Corrected CSC450_CT1_mod1-2 - CSC450_CT1_mod1-2.cpp
+   Correct Syntax Corrected CSC450_CT1_mod1-1 - CSC450_CT1_mod1-1.cpp  
+   Correct Syntax Corrected CSC450_CT1_mod1-2 - CSC450_CT1_mod1-2.cpp
 
 Grade:  
 
@@ -60,9 +60,21 @@ To be eligible to receive full credit for your submission you must follow these 
 
 Programs Descriptions:  
 
+1. Secure Person Management System  
+This program is a small procedural C++ application that manages an array of Person objects.   
+It tests and implements secure coding practices to mitigate vulnerabilities such as:  
+	- Buffer overflows  
+	- Integer overflows  
+	- Incorrect type conversions  
+	- Null pointer dereferencing  
 
--------------------------------------------------------------------------
-----------------------------------------------------
+2. Correct Syntax Corrected CSC450_CT1_mod1-1  
+This programm showcases the correct code syntaxes for the given C++ program, CSC450_CT1_mod1-1.cpp.
+
+3. Correct Syntax Corrected CSC450_CT1_mod1-2
+This programm showcases the correct code syntaxes for the given C++ program, CSC450_CT1_mod1-2.cpp.
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
 - Document.pdf  
