@@ -65,14 +65,14 @@ This program is a small procedural C++ application that manages an array of Pers
 It tests and implements secure coding practices to mitigate vulnerabilities such as:  
 	- Buffer overflows  
 	- Integer overflows  
-	- Incorrect type conversions  
-	- Null pointer dereferencing  
+	- Incorrect type conversions   
+	- Null pointer dereferencing   
 
 2. Correct Syntax Corrected CSC450_CT1_mod1-1  
 This programm showcases the correct code syntaxes for the given C++ program, CSC450_CT1_mod1-1.cpp.
 
-3. Correct Syntax Corrected CSC450_CT1_mod1-2
-This programm showcases the correct code syntaxes for the given C++ program, CSC450_CT1_mod1-2.cpp.
+3. Correct Syntax Corrected CSC450_CT1_mod1-2  
+This programm showcases the correct code syntaxes for the given C++ program, CSC450_CT1_mod1-2.cpp.  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
