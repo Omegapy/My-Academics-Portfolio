@@ -41,7 +41,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 1  
-Directory: [Critical-Thinking-1]()  
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Critical-Thinking-1)  
 
 Programs Names:     
    Secure Person Management System – CT1-Person.cpp  
