@@ -44,7 +44,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC400 Data Structures and Algorithms Java
-Directory: [CSC400 CSU Global]()   
+Directory: [CSC400 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC400%20CSU%20Global)   
 Portfolio Assignment Option 1: Person Class 
 Program Name: Custom Queue ADT and Quicksort  
 Fall B (24FB) – 2024  
