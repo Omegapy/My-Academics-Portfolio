@@ -106,7 +106,7 @@ Assemble your Lessons Learned Reflection, your source code, and screenshots of t
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC405 Graphics and Visualization WebGL
-Directory: [CSC405 CSU Global]()   
+Directory: [CSC405 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC405%20CSU%20Global)   
 Portfolio Assignment 
 Program Name: Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL    
 Fall B (24FB) – 2024  
