@@ -33,14 +33,14 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Programming 3 cpp Java](#programming-3-cpp-java)
-- [Artificial Intelligence](#artificial-intelligence)
-- [Graphics and Visualization WebGL](#graphics-and-visualization-webgl)
-- [Data Structures and Algorithms Java](#data-structures-and-algorithms-java)
+- [Programming 3 cpp Java CSC450](#programming-3-cpp-java-csc450)
+- [Artificial Intelligence CSC410](#artificial-intelligence-csc410)
+- [Graphics and Visualization WebGL CSC405](#graphics-and-visualization-webgl-csc405)
+- [Data Structures and Algorithms Java CSC 400](#data-structures-and-algorithms-java-csc400)
 - [Programming 2 CSC372 Java](#programming-2-csc372-java)  
 - [Programming 1 CSC320 Java](#programming-1-csc320-java)
 - [Basic Programming ITS320 Python](#basic-programming-its320-python)  
-- [Operating Systems and Architecture](#operating-systems-and-architecture)  
+- [Operating Systems and Architecture CSC300](#operating-systems-and-architecture-csc300)  
 - [Computer Science 1 cpp](#computer-science-1-cpp)  
 - [Python Data Science](#python-data-science)
 - [Portfolio Projects](#portfolio-projects)
@@ -48,7 +48,7 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Programming 3 cpp Java 
+## Programming 3 cpp Java CSC450
 Directory: [Programming-3-CSC450](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -63,7 +63,7 @@ Fall D (24FD) – 2024
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Artificial Intelligence
+## Artificial Intelligence CSC410
 Directory: [Artificial-Intelligence-CSC410](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -78,7 +78,7 @@ Fall D (24FD) – 2024
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Graphics and Visualization WebGL 
+## Graphics and Visualization WebGL CSC405
 Directory: [Graphics-and-Visualization-CSC405](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -93,7 +93,7 @@ Fall B (24FB) – 2024
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Data Structures and Algorithms Java 
+## Data Structures and Algorithms Java CSC400
 Directory: [Data-Structures-and-Algorithms-CSC400](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400)
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -156,7 +156,7 @@ Winter Semester (24WD) - 2024
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Operating Systems and Architecture
+## Operating Systems and Architecture CSC300
 Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/OS-and-Architecture)  
 
 -----------------------------------------------------------------------------------------------------------------------------
