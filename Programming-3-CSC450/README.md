@@ -80,7 +80,7 @@ This programm showcases the correct code syntaxes for the given C++ program, CSC
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC450 – Programming-3   
-Directory: [Discussions]()  
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Discussions)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
