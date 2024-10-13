@@ -54,7 +54,7 @@ Assignment Description:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC410 – Artificial Intelligence       
-Directory: [Discussions]()
+Directory: [Discussions](My Academics Portfolio\Artificial-Intelligence-CSC410\Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
