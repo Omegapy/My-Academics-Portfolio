@@ -2,8 +2,8 @@
 # Critical Thinking 1  
 Programs Names:   
    Secure Person Management System – CT1-Person.cpp  
-   Correct Syntax Corrected CSC450_CT1_mod1-1 - CSC450_CT1_mod1-1.cpp  
-   Correct Syntax Corrected CSC450_CT1_mod1-2 - CSC450_CT1_mod1-2.cpp
+  Corrected CSC450_CT1_mod1-1 - CSC450_CT1_mod1-1.cpp  
+  Corrected CSC450_CT1_mod1-2 - CSC450_CT1_mod1-2.cpp
 
 Grade:  
 
