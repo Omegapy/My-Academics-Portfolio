@@ -35,8 +35,33 @@ My Links:
 
 #### Project Map  
  
+- [Critical Thinking 2](#critical-thinking-2) 
 - [Critical Thinking 1](#critical-thinking-1)   
 - [Discussions](#discussions)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 2  
+Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Critical-Thinking-2)  
+
+Programs Names: Two String Input Concatenated  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+
+The program takes two strings inputted by the user, concatenates them, 
+and prints the resulting concatenated string. 
+The input strings and their concatenation are safely handled using C++'s ‘std::string’ class, 
+which automatically manages memory, preventing buffer overflows.
+The program also uses ‘std::getline’ for string inputs, ensuring strings with spaces are fully captured. 
+The program repeats the process three times, accepting two string inputs and concatenating them 
+to test if varying string lengths are handled securely. 
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
