@@ -37,14 +37,18 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Module-2-Critical-Thinking]()  
-Title:   
+Directory: [Critical-Thinkings]()  
+Title: Module 2 - Critical Thinking Assignment: Truth Tables   
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
-Assignment Description:    
+Assignment Description:  
+  
+Creating and Analyzing Truth Tables  
+Demonstrate an understanding of truth tables by creating at least two examples using three propositions expressed with words and logic. Create a truth table for each example and explain the results. After analyzing the results look at the table to see if your logic proposition needs to be changed.  
 
+Your paper should be 2-3 pages in length (excluding the cover page and references) and conform to the CSU Global Writing Center. Include at least two scholarly references in addition to the course textbook. The CSU Global Library is a good place to find these references. The CSU Global Library and Writing Center links can be found in the course navigation panel.  
 
 -------------------------------------------------------------------------------------------
 
