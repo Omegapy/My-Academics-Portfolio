@@ -9,7 +9,7 @@ Grade:
 CSC450 – Programming III – C++/Java Course  
 Professor: Reginald Haseltine
 Fall D Semester (24FD) – 2024  
-Student: Alejandro (Alex) Ricciardi  
+Student: Alexander Ricciardi  
 Date: 10/27/2024   
 
 -----------------------------------------------------------------------------------------------------------------------------
