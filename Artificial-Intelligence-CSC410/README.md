@@ -38,7 +38,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Critical Thinking 
-Directory: [Critical-Thinkings]()  
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
 Title: Module 3 – Portfolio Outline
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -67,7 +67,7 @@ Your paper should be 4-6 pages in length (excluding the cover page and reference
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Critical-Thinkings]()  
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
 Title: Module 2 - Critical Thinking Assignment: Truth Tables   
 
 -----------------------------------------------------------------------------------------------------------------------------
