@@ -31,9 +31,32 @@ My Links:
 
 #### Project Map
 
+- [Module 4 Critical Thinking](#module-4-Critical-Thinking)
 - [Module 3 Critical Thinking](#module-3-Critical-Thinking)  
 - [Module 2 Critical Thinking](#module-2-Critical-Thinking)   
-- [Discussions](#discussions)  
+- [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 4 Critical Thinking 
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Title: Module 4 – Taxonomy
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+Taxonomic Knowledge Implementation
+Overview: Implement taxonomic knowledge and frames. This could be a simple program, a web-based application, or a visual representation using a diagramming tool. Ensure that users can navigate through the taxonomy, select instances, and view the associated frames. 
+
+Be sure to include all of the following:
+- Choose a domain or topic for your example (e.g., animals, vehicles, programming languages, etc.). Create a hierarchical taxonomic structure representing the relationships between different entities in your chosen domain. Use a tree-like structure to show how subcategories relate to parent categories.  
+- Select a specific instance or entity from your chosen domain (e.g., a specific animal, a type of vehicle, a programming language). Create a frame that contains structured information about this instance. Include attributes, properties, and relationships that are relevant to the chosen entity.  
+- Show how the hierarchical taxonomic structure interacts with frames. Illustrate how attributes and properties defined in the frame align with the broader taxonomic categories. Explain how the combination of taxonomic relationships and frames provides a comprehensive representation of knowledge.    
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
