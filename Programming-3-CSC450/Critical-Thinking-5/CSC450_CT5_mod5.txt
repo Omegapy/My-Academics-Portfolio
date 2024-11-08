@@ -1,0 +1,6 @@
+Please be sure to append your data to this text file.
+
+If these first three lines are deleted, then your program is not functioning as expected.
+
+
+STR50-CPP. Guarantee that storage for strings has sufficient space for character data and the null terminator.
