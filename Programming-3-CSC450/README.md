@@ -34,12 +34,45 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map  
- 
+
+- [Critical Thinking 5](#critical-thinking-5)
 - [Critical Thinking 3](#critical-thinking-3) 
 - [Critical Thinking 2](#critical-thinking-2) 
 - [Critical Thinking 1](#critical-thinking-1)   
 - [Discussions](#discussions)
 
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Critical Thinking 5  
+Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Critical-Thinking-5)  
+
+Programs Names: User Input to File in Reverse   
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+
+This program prompts the user to enter a string (sentence) and appends it to the "CSC450_CT5_mod5.txt" file without deleting existing data.
+The program also validates the user input, trimming leading and trailing whitespaces from inputted text.
+It then reverses each line of "CSC450_CT5_mod5.txt" by reversing the characters in each line while maintaining the order of the lines, and stores the reversed content in "CSC450-mod5-reverse.txt"
+  
+
+⚠️ My notes:  
+- The simple C++ console application is in file CTA-5-Input-to-file.cpp  
+- The program follows the following SEI CERT C/C++ Coding Standard:  
+     - STR50-CPP. Guarantee that storage for strings has sufficient space for character data and the null terminator  
+     - STR52-CPP. Use valid references, pointers, and iterators to reference elements of a basic_string  
+     - STR53-CPP. Range check element access  
+     - FIO50-CPP. Do not alternately input and output from a file stream without an intervening positioning call  
+     - FIO51-CPP. Close files when they are no longer needed  
+     - ERR50-CPP. Do not abruptly terminate the program  
+     - ERR51-CPP. Handle all exceptions  
+     - ERR56-CPP. Guarantee exception safety  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 3  
