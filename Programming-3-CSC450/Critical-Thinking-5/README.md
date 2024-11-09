@@ -40,14 +40,14 @@ It then reverses each line of "CSC450_CT5_mod5.txt" by reversing the characters 
 ⚠️ My notes:  
 - The simple C++ console application is in file CTA-5-Input-to-file.cpp  
 - The program follows the following SEI CERT C/C++ Coding Standard:  
-- STR50-CPP. Guarantee that storage for strings has sufficient space for character data and the null terminator  
-- STR52-CPP. Use valid references, pointers, and iterators to reference elements of a basic_string  
-- STR53-CPP. Range check element access  
-- FIO50-CPP. Do not alternately input and output from a file stream without an intervening positioning call  
-- FIO51-CPP. Close files when they are no longer needed  
-- ERR50-CPP. Do not abruptly terminate the program  
-- ERR51-CPP. Handle all exceptions  
-- ERR56-CPP. Guarantee exception safety  
+     - STR50-CPP. Guarantee that storage for strings has sufficient space for character data and the null terminator  
+     - STR52-CPP. Use valid references, pointers, and iterators to reference elements of a basic_string  
+     - STR53-CPP. Range check element access  
+     - FIO50-CPP. Do not alternately input and output from a file stream without an intervening positioning call  
+     - FIO51-CPP. Close files when they are no longer needed  
+     - ERR50-CPP. Do not abruptly terminate the program  
+     - ERR51-CPP. Handle all exceptions  
+     - ERR56-CPP. Guarantee exception safety  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
