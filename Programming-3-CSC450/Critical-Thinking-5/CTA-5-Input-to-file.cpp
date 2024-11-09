@@ -8,7 +8,7 @@
     Program Description:
     This program prompts the user to enter a string (sentence) and appends it to the "CSC450_CT5_mod5.txt" file without
     deleting existing data.
-    The program also validates the user input, trimming leading and trailing whitespaces from inputted text.
+    The program also validates the user input, trimming leading and trailing whitespaces from input text.
     It then reverses each line of "CSC450_CT5_mod5.txt" by reversing the characters in each line while maintaining
     the order of the lines, and stores the reversed content in "CSC450-mod5-reverse.txt".
 
