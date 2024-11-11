@@ -31,10 +31,42 @@ My Links:
 
 #### Project Map
 
+- [Module 5 Critical Thinking](#module-5-Critical-Thinking)
 - [Module 4 Critical Thinking](#module-4-Critical-Thinking)
 - [Module 3 Critical Thinking](#module-3-Critical-Thinking)  
 - [Module 2 Critical Thinking](#module-2-Critical-Thinking)   
 - [Discussions](#discussions)
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 5 Critical Thinking 
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Title: Module 5 – Portfolio Firts Draft
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Portfolio Milestone Assignment
+Review the final deliverable for the Portfolio Project. Create a first draft consisting of three pages for your final project. This draft should include these sections, at a minimum, and be at least three pages long:
+- Introduction
+- Risks
+- Potential Solutions
+  
+Keep in mind that the potential solutions may be high level for your draft but must be comprehensive by the final submission in Module 8. You may have additional sections to include in your draft, based on your outline that was submitted in Module 3.
+
+
+Create a Proposal for AI Implementation  
+For your Portfolio Project, you are a consultant for a prestigious firm. Your client is a growing insurance company looking to understand more about incorporating artificial intelligence into the business to help them provide better service and reduce overall costs.
+Compose a proposal that analyzes whether this is a worthwhile investment for the company to make. Design this proposal to submit to your client's CEO and CIO.  
+
+You may need to make some assumptions regarding cost and leadership roles, but make them realistic. Think about the problem and how you propose solving it. Keep in mind AI is very new to this organization, so explain what AI is and what they gain to benefit from using it. Also, think about any risks they may face and address them by providing solutions to build trust in your ability to deliver. You should think through what type of data you will need to collect, and what you plan to do with it. Feel free to provide examples and diagrams which connect the concepts to their problems. Provide information on what it would take to scale AI across the organization. Identify what groups within the company, or processes within the business, could benefit from it the most.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
