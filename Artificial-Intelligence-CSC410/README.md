@@ -166,7 +166,7 @@ Your paper should be 2-3 pages in length (excluding the cover page and reference
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC410 – Artificial Intelligence       
-Directory: [Discussions](My Academics Portfolio\Artificial-Intelligence-CSC410\Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
