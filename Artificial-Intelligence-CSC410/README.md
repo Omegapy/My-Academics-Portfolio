@@ -31,13 +31,36 @@ My Links:
 
 #### Project Map
 
-- [Module 5 Critical Thinking](#module-5-Critical-Thinking)
-- [Module 4 Critical Thinking](#module-4-Critical-Thinking)
-- [Module 3 Critical Thinking](#module-3-Critical-Thinking)  
-- [Module 2 Critical Thinking](#module-2-Critical-Thinking)   
+- [Module 6 Critical Thinking](#module-6-critical-thinking)
+- [Module 5 Critical Thinking](#module-5-critical-thinking)
+- [Module 4 Critical Thinking](#module-4-critical-thinking)
+- [Module 3 Critical Thinking](#module-3-critical-thinking)  
+- [Module 2 Critical Thinking](#module-2-critical-thinking)   
 - [Discussions](#discussions)
 
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 6 Critical Thinking 
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Title: Module-6 CTA Probability
 
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Applying Probability in the Casino  
+A number of casino games are all about probability. In Blackjack, there are rules which you should follow about taking a hit or standing when the dealer is showing a 10.
+
+Assuming that you are only using one deck, and there are only four cards on the table. If you have a 10 and a 7 showing, the dealer has a 10 showing, calculate the probability of the dealer's other card being an 8, 9, or a face card.
+
+Explain why it makes sense to hit on a 16 but to stand on a 17. If the house will stand on a 17 and above, how would you justify this strategy?
+
+Your paper should be 2-3 pages in length (excluding the cover page and references) and conform to the CSU Global Writing Center. Include at least two scholarly references in addition to the course textbook. 
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 5 Critical Thinking 
