@@ -1,9 +1,9 @@
 /*=========================================================================================================
     Program Name: Thread Counting Synchronization
     Author: Professor Computer Science
-    Date: 11/21/2024
+    Date: 11/24/2024
 
-    Requirement: C++11 or higher
+    Requirement: C++17 or higher
 
     Program Description:
     This program demonstrates the use of threads and how to synchronize them using mutexes and condition variables.
