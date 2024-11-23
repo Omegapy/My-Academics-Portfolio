@@ -35,11 +35,47 @@ My Links:
 
 #### Project Map  
 
+- [Protfolio Part 1](#protfolio-part-1)
 - [Critical Thinking 5](#critical-thinking-5)
 - [Critical Thinking 3](#critical-thinking-3) 
 - [Critical Thinking 2](#critical-thinking-2) 
 - [Critical Thinking 1](#critical-thinking-1)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Protfolio Part 1  
+Directory: [Portfolio-Part-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Portfolio-Part-1)  
+
+Programs Names: Thread Counting Synchronization     
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+
+This program demonstrates the use of threads and how to synchronize them using mutexes and condition variables.  
+Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 1 completes, and then counts down from the maximum count to 0.  
+  
+
+⚠️ My notes:  
+- The simple C++ console application is in file PF1-Thread Counting Synchronization.cpp  
+- The program follows the following SEI CERT C/C++ Coding Standard:
+	- CON50-CPP. Do not destroy a mutex while it is locked
+	  CON51-CPP. Ensure actively held locks are released on exceptional conditions
+	- CON52-CPP. Prevent data races when accessing bit-fields from multiple threads
+	- CON54-CPP. Wrap functions that can spuriously wake up in a loop
+	- CON55-CPP. Preserve thread safety and liveness when using condition variables
+	- ERR50-CPP. Do not abruptly terminate the program
+	- ERR51-CPP. Handle all exceptions
+	- ERR55-CPP. Honor Exception Specifications
+	- STR50-CPP. Guarantee that storage for strings has sufficient space
+	- STR51-CPP. Do not attempt to create a std::string from a null pointer
+	- STR52-CPP. Use valid references, pointers, and iterators t reference elements of a basic_string  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -73,6 +109,7 @@ It then reverses each line of "CSC450_CT5_mod5.txt" by reversing the characters 
 -------------------------------------------------------------------------------------------
 
 [Go back to the Project Map](#project-map)
+
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 3  
