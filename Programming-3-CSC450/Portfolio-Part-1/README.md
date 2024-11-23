@@ -44,8 +44,8 @@ Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 
   
 
 ⚠️ My notes:  
--	The simple C++ console application is in file PF1-Thread Counting Synchronization.cpp  
--	The program follows the following SEI CERT C/C++ Coding Standard:
+- The simple C++ console application is in file PF1-Thread Counting Synchronization.cpp  
+- The program follows the following SEI CERT C/C++ Coding Standard:
 	- CON50-CPP. Do not destroy a mutex while it is locked
 	  CON51-CPP. Ensure actively held locks are released on exceptional conditions
 	- CON52-CPP. Prevent data races when accessing bit-fields from multiple threads
