@@ -1,6 +1,6 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Portfolio Part-1  
-Program Names: User Input to File in Reverse  
+Program Names: Thread Counting Synchronization    
 
 Grade:  
 
