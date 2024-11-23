@@ -16,7 +16,7 @@ This repository is a collection of c++ and Java programs from CSC450 – Program
 CSC450 – Programming III – C++/Java Course    
 Professor: Reginald Haseltine  
 Fall D (24FD) – 2024   
-Student: Alejandro (Alex) Ricciardi   
+Student: Alexander (Alex) Ricciardi   
 
 Final grade:  
 
