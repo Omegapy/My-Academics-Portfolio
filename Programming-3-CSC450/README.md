@@ -123,24 +123,7 @@ Programs Names: Integer Pointers
 Program Description:  
 
 The program is a small procedural C++ program that prompts a user to enter three integer values,  
-validates the input values as integers and stores the values using raw pointers.  
-
-Note:  
-- The standard integer is typically 4 bytes, it is platform-dependent.  
-- The Program accepts whitespaces to be entered before and/or after the integer value.  
-- The program follows the following SEI CERT C/C++ Coding Standard:   
-    - EXP34-C. Do not dereference null pointers  
-    - EXP53-CPP. Do not read uninitialized memory  
-    - ERR50-CPP. Do not abruptly terminate the program  
-    - ERR51-CPP. Handle all exceptions  
-    - ERR56-CPP. Guarantee exception safety  
-    - ERR57-CPP. Do not leak resources when handling exceptions  
-    - MEM50-CPP. Do not access freed memory  
-    - MEM51-CPP. Properly deallocate dynamically allocated resources  
-    - MEM57-CPP. Avoid using default operator new for over-aligned types  
-    - INT50-CPP. Do not cast to an out-of-range enumeration value  
-    - STR50-CPP. Guarantee that storage for strings has sufficient space  
-      for character data and the null terminator  
+validates the input values as integers and stores the values using raw pointers.    
   
 ⚠️ My notes:    
 - The simple C++ console application is in file CTA-3-integerPointers.cpp  
