@@ -13,7 +13,6 @@
     The program adheres to the following SEI CERT C++ Coding Standards:
         - CON50-CPP. Do not destroy a mutex while it is locked
         - CON51-CPP. Ensure actively held locks are released on exceptional conditions
-        - CON52-CPP. Prevent data races when accessing bit-fields from multiple threads
         - CON54-CPP. Wrap functions that can spuriously wake up in a loop
         - CON55-CPP. Preserve thread safety and liveness when using condition variables
         - ERR50-CPP. Do not abruptly terminate the program
@@ -58,8 +57,7 @@ std::mutex mtx;
 // Condition variable for thread signaling
 std::condition_variable cv;
 
-// Flag to indicate completion of counting up
-bool isCountingUpDone = false;
+bool isCountingUpDone = false; // Flag to indicate completion of counting up
 
 /* ----------------------------------------------------------------------------------------------
       ----------------------------
@@ -73,7 +71,6 @@ bool isCountingUpDone = false;
  * Handles Rules:
  *      - CON50-CPP. Do not destroy a mutex while it is locked
  *      - CON51-CPP. Ensure actively held locks are released on exceptional conditions
- *      - CON52-CPP. Prevent data races when accessing bit-fields from multiple threads
  *      - CON54-CPP. Wrap functions that can spuriously wake up in a loop
  *      - STR51-CPP: Do Not Attempt to Create a std::string from a Null Pointer
  *      - STR52-CPP: Use Valid References, Pointers, and Iterators to Reference Elements of a basic_string
@@ -128,8 +125,8 @@ int main() {
     int counter = -1;
 
     try {
-        // Output banner
-        std::cout << banner << std::endl;
+		// Output banner
+		std::cout << banner << std::endl;
 
         // Create Thread 1 (Counting Up)
         std::thread thread1(countUp, thread1Name, std::ref(counter));
@@ -194,34 +191,22 @@ void countUp(const std::string& threadName, int& counter) {
 
         std::cout << "\n--- Thread 1 is live ---" << std::endl;
 
-        
-        for (int i = 0; i <= 20; i++) {
+        // Using std::lock_guard ensures that the mutex is automatically released when the scope ends,
+        // even if an exception is thrown (CON51-CPP)
+        // std::lock_guard is used to to lock exactly one mutex for an entire scope
+        std::lock_guard<std::mutex> lock(mtx); // RAII ensures mutex is unlocked automatically
+
+        std::cout << "\n--- Counting Up Thread 1 ---" << std::endl;
+  
+        for (int i=0; i <= 20; i++) {
             // Simulate some work with a sleep
-			// Note: The mutex is not locked, other threads can access the shared data (counter) during this time
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
-
-            // Using std::lock_guard ensures that the mutex is automatically released when the scope ends,
-            // even if an exception is thrown (CON51-CPP)
-            // std::lock_guard is used to to lock exactly one mutex for an entire scope
-            // (Using RAII to manage mutex unlocking automatically - Related to Unlocking a mutex via RAII)
-            { // Scope for lock_guard allows for automatic unlocking of the mutex when the scope ends
-				std::lock_guard<std::mutex> lock(mtx); // (CON51-CPP: Automatically unlocks mutex) (at the end of the scope)
-
-                if (i == 0) {
-                    std::cout << "\n--- Counting Up Thread 1 ---" << std::endl;
-                }
-
-                // Use valid references to elements of a basic_string (STR52-CPP)
-                std::cout << threadName << " counting up: " << ++counter << std::endl;
-            } // RAII ensures mutex is unlocked automatically when the scope ends
+            // Use valid references to elements of a basic_string (STR52-CPP)
+            std::cout << threadName << " counting up: " << ++counter << std::endl;
         }
-
-        // After counting up is done, set the flag
-        { // Lock mutex before modifying shared flag to prevent data races (CON52-CPP)
-            std::lock_guard<std::mutex> lock(mtx); // (CON51-CPP)
-            isCountingUpDone = true;
-        }
-
+   
+        isCountingUpDone = true;
+        
         // Notify one waiting thread to start counting down
         // (CON54-CPP: Wrap functions that can spuriously wake up in a loop)
         cv.notify_one();
@@ -260,32 +245,21 @@ void countDown(const std::string& threadName, int& counter) {
 
         std::cout << "\n--- Thread 2 is live ---" << std::endl;
 
-        // std::unique_lock<std::mutex> is used to lock the mutex and work with the condition variable (wait).
-        // Provides more flexibility compared to std::lock_guard, such as manual unlocking.
-        std::unique_lock<std::mutex> lock(mtx); // (CON51-CPP: Ensures mutex is unlocked on exceptions)
+        // std::unique_lock<std is used to lock the mutex and work with the condition variable (wait).
+        std::unique_lock<std::mutex> lock(mtx);
 
         // Wait until isCountingUpDone is true
         // (CON54-CPP: Wrap functions that can spuriously wake up in a loop)
-        cv.wait(lock, [] { return isCountingUpDone; }); // Mutex is unlocked during wait
+        cv.wait(lock, [] { return isCountingUpDone; });
 
         std::cout << "\n--- Counting down Thread 2 ---" << std::endl;
 
         // Start counting down
-        for (int i = counter; i >= 0; --i) {
-            lock.unlock(); // Unlock the mutex before sleeping (Explicit Unlock - Using std::unique_lock)
-
+        for (int i=counter; i >= 0; --i) {
             // Simulate some work with a sleep
-            // Note: The mutex is not locked, other threads can access the shared data (counter) during this time
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
-
-            { // Scope for lock_guard allows for automatic unlocking of the mutex when the scope ends
-                std::lock_guard<std::mutex> guard(mtx); // (CON51-CPP: Automatically unlocks mutex)
-
-                // Use valid references to elements of a basic_string (STR52-CPP)
-                std::cout << threadName << " counting down: " << counter-- << std::endl;
-            } // RAII ensures mutex is unlocked automatically when the scope ends
-
-            lock.lock(); // Re-lock the mutex after sleeping (Explicit Lock - Using std::unique_lock)
+            // Use valid references to elements of a basic_string (STR52-CPP)
+            std::cout << threadName << " counting down: " << counter-- << std::endl;
         }
 
         // Ensure that threads terminate properly, maintaining liveness and thread safety
@@ -301,4 +275,3 @@ void countDown(const std::string& threadName, int& counter) {
 }
 
 // ----------------------------------------------------------------------------------------------
-// End of Program
