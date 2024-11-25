@@ -271,7 +271,7 @@ void countDown(const std::string& threadName, int& counter) {
         std::cout << "\n--- Counting down Thread 2 ---" << std::endl;
 
         // Unlock the mutex before 'Simulate' some work with a sleep in the for-loop
-		// the mutex eas locked by the unique_lock above to create a condition variable wait
+	// the mutex eas locked by the unique_lock above to create a condition variable wait
         // (Explicit Unlock - Using std::unique_lock)
         lock.unlock(); 
 
