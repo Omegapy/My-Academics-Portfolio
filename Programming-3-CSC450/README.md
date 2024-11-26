@@ -35,6 +35,7 @@ My Links:
 
 #### Project Map  
 
+- [Protfolio Part 2](#protfolio-part-2)
 - [Protfolio Part 1](#protfolio-part-1)
 - [Critical Thinking 5](#critical-thinking-5)
 - [Critical Thinking 3](#critical-thinking-3) 
@@ -44,10 +45,44 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
+## Protfolio Part 2  
+Directory: [Portfolio-Part-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Portfolio-Part-2)  
+
+Programs Names: Thread Counting Synchronization  (Java)   
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+
+This program demonstrates the use of threads and how to synchronize them using ReentrantLocks and Conditions.  
+Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 1 completes, and then counts down from the maximum count to 0.    
+
+⚠️ My notes:  
+- The simple Java console application is in the file ThreadCountingSynchronization.java
+- The program follows the following SEI CERT Oracle Coding Standards for Java:
+       - STR00-J. Don't form strings containing partial characters from variable-width encodings
+       - STR02-J. Specify an appropriate locale when comparing locale-dependent data
+       - ERR00-J. Do not suppress or ignore checked exceptions  
+       - ERR01-J. Do not allow exceptions to expose sensitive information  
+       - ERR03-J. Restore prior object state on method failure  
+       - ERR09-J. Do not allow untrusted code to terminate the JVM  
+       - LCK00-J. Use private final lock objects to synchronize classes that may interact with untrusted code  
+       - LCK08-J. Ensure actively held locks are released on exceptional conditions  
+       - THI02-J. Notify all waiting threads rather than a single thread  
+       - THI03-J. Always invoke wait() and await() methods inside a loop  
+       - TSM00-J. Do not override thread-safe methods with methods that are not thread-safe    
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 ## Protfolio Part 1  
 Directory: [Portfolio-Part-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Portfolio-Part-1)  
 
-Programs Names: Thread Counting Synchronization     
+Programs Names: Thread Counting Synchronization  (C++)   
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
