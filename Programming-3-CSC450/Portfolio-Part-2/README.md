@@ -50,7 +50,7 @@ Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 
 - The simple Java console application is in the file ThreadCountingSynchronization.java
 - The program follows the following SEI CERT Oracle Coding Standards for Java:
        - STR00-J. Don't form strings containing partial characters from variable-width encodings
-       - STR02-J. Specify an appropriate locale when comparing locale-dependent data
+       - STR01-J. Do not assume that a Java char fully represents a Unicode code point
        - ERR00-J. Do not suppress or ignore checked exceptions  
        - ERR01-J. Do not allow exceptions to expose sensitive information  
        - ERR03-J. Restore prior object state on method failure  
