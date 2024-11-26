@@ -4,7 +4,7 @@
     Author: Alexander Ricciardi
     Date: 11/24/2024
 
-    Requirement: Java 17 or higher
+    Requirement: Java SE 21 or higher
 
     Program Description:
     This program demonstrates the use of threads and how to synchronize them using ReentrantLocks and Conditions.
@@ -13,7 +13,7 @@
 
     The program adheres to the following SEI CERT Oracle Coding Standards for Java:
         - STR00-J. Don't form strings containing partial characters from variable-width encodings
-        - STR02-J. Specify an appropriate locale when comparing locale-dependent data
+        - STR01-J. Do not assume that a Java char fully represents a Unicode code point
         - ERR00-J. Do not suppress or ignore checked exceptions
         - ERR01-J. Do not allow exceptions to expose sensitive information
         - ERR03-J. Restore prior object state on method failure
@@ -53,7 +53,7 @@ public class ThreadCountingSynchronization {
                        **************************************
     """;
     
-    // ReentrantLock to protect shared data (LCK00-J)
+    // ReentrantLock to protect shared data and does not use a string the name lock (LCK00-J, STR001-J)
     private final ReentrantLock lock = new ReentrantLock();
 
     // Condition for thread signaling (THI03-J)
@@ -258,7 +258,6 @@ public class ThreadCountingSynchronization {
             System.exit(1); // Do not abruptly terminate the program (ERR09-J)
         }
 
-        // Final output indicating completion (STR02-J)
         System.out.println("\nBoth threads have completed their counting without errors.");
     }
 
