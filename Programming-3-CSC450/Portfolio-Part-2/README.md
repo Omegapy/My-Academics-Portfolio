@@ -69,7 +69,7 @@ Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 
 	- Results and test scenarios 
 	- Program Analysis (Java concurrency) 
 - Screenshots.docx – Screenshots  
-- PF-Analysis-Part-1.doc - Program Analysis  
+- PF-Analysis-Comparison.doc - Comparaison between C++ and Java Analysis
 - README.md – Markdown file, program information     
 - ThreadCountingSynchronization.java – Thread Counting Synchronization code source     
 
