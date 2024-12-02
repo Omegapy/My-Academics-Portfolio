@@ -1,4 +1,3 @@
-
 /*=========================================================================================================
     Program Name: Thread Counting Synchronization
     Author: Alexander Ricciardi
