@@ -2,7 +2,7 @@
 # Portfolio Projects 
 -----------------------------------------------------------------------------------------------------------------------------
 
-<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alejandro (Alex) Ricciardi (Omegapy)   
+<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander (Alex) Ricciardi (Omegapy)   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -28,6 +28,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
+- [CSC410 Artificial Intelligence](#csc410-artificial-intelligence)
 - [CSC400 Data Structures and Algorithms Java](#csc400-data-structures-and-algorithms-java)
 - [CSC405 Graphics and Visualization WebGL](#csc405-graphics-and-visualization-webgl)
 - [CSC372 Computer Programming 2 Java](#csc372-computer-programming-2-java)
@@ -37,6 +38,36 @@ My Links:
 - [COSC1030 Computer Science 1](#cosc1030-computer-science-1)
 - [ENG102 Composition 2](#eng102-composition-2)
 - [HUM101 Critical Reasoning](#hum101-critical-reasoning)
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## CSC410 Artificial Intelligence
+Directory: [CSC410 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC410%20CSU%20Global)   
+Title: Portfolio - AI implementation in Insurance  
+Professor: Dr. Christopher Whitfield  
+Fall D (24FD) – 2024  
+Student: Alexander Ricciardi  
+
+Grade:  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Create a Proposal for AI Implementation
+For your Portfolio Project, you are a consultant for a prestigious firm. Your client is a growing insurance company looking to understand more about incorporating artificial intelligence into the business to help them provide better service and reduce overall costs.
+
+Compose a proposal that analyzes whether this is a worthwhile investment for the company to make. Design this proposal to submit to your client's CEO and CIO.
+
+You may need to make some assumptions regarding cost and leadership roles, but make them realistic. Think about the problem and how you propose solving it. Keep in mind AI is very new to this organization, so explain what AI is and what they gain to benefit from using it. Also, think about any risks they may face and address them by providing solutions to build trust in your ability to deliver. You should think through what type of data you will need to collect, and what you plan to do with it. Feel free to provide examples and diagrams which connect the concepts to their problems. Provide information on what it would take to scale AI across the organization. Identify what groups within the company, or processes within the business, could benefit from it the most.
+
+Your paper should be 4-6 pages in length (excluding the cover page and references) and conform to the CSU Global Writing Center. Include at least five scholarly references in addition to the course textbook. The CSU Global Library is a good place to find these references. The CSU Global Library and Writing Center links can be found in the course navigation panel. 
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
