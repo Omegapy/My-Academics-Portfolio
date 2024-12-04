@@ -18,7 +18,7 @@ Professor: Reginald Haseltine
 Fall D (24FD) – 2024   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade:  
+Final grade:  4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
