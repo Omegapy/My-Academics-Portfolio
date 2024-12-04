@@ -2,7 +2,7 @@
 # Portfolio Part-1  
 Program Names: Thread Counting Synchronization    
 
-Grade:  
+Grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
