@@ -19,7 +19,7 @@ Professor: Dr. Christopher Whitfield
 Fall D (24FD) – 2024   
 Student: Alexander Ricciardi   
 
-Final grade:  
+Final grade:  4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
