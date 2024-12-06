@@ -33,9 +33,9 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Programming 3 cpp Java CSC450](#programming-3-cpp-java-csc450)
-- [Artificial Intelligence CSC410](#artificial-intelligence-csc410)
-- [Graphics and Visualization WebGL CSC405](#graphics-and-visualization-webgl-csc405)
+- [Programming 3 cpp Java CSC450](#programming-3-cpp-java-csc450)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Software Engineering CSC470](#software-engineering-csc470)
+- [Artificial Intelligence CSC410](#artificial-intelligence-csc410)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Introduction to Networks ITS315](#introduction-to-networks-its315)
+- [Graphics and Visualization WebGL CSC405](#graphics-and-visualization-webgl-csc405)                               
 - [Data Structures and Algorithms Java CSC 400](#data-structures-and-algorithms-java-csc400)
 - [Programming 2 CSC372 Java](#programming-2-csc372-java)  
 - [Programming 1 CSC320 Java](#programming-1-csc320-java)
@@ -45,6 +45,36 @@ My Links:
 - [Python Data Science](#python-data-science)
 - [Portfolio Projects](#portfolio-projects)
 - [My Resume](#my-resume)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Software Engineering CSC470
+Directory: [Software-Engineering-CSC470](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of Software Engineering assignments from CSC470 – Software Engineering Course
+at Colorado State University Global - CSU Global. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Introduction to Networks ITS315
+Directory: [Intro-Networks-ITS315](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of Software Engineering assignments from ITS315 – Introduction to Networks
+at Colorado State University Global - CSU Global.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
