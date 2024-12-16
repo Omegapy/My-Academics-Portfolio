@@ -33,7 +33,7 @@ and interaction.
 
 For this week’s Critical Thinking Assignment, you are asked to create a business use case diagram for a restaurant. Include several business actors with needs and goals as related to the restaurant and business use cases, expressing expectations of the actors from the business. Your diagram should include both external and internal business views of the restaurant. Based on the diagram that you have created, ensure you are providing a 1-2 page critical analysis that demonstrates your interpretation and integration of the material.  
 
-For assistance in completing this activity, please review this business use case guideline document: https://sceweb.uhcl.edu/helm/RationalUnifiedProcess/process/modguide/md_buc.htmLinks to an external site.  
+For assistance in completing this activity, please review this business use case guideline document: https://sceweb.uhcl.edu/helm/RationalUnifiedProcess/process/modguide/md_buc.htm.  
 
 Please paste your diagram to a Word document; then, submit it for grading.  
 
