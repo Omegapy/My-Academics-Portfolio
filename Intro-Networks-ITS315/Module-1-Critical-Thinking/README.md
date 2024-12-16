@@ -7,7 +7,7 @@ Grade:
 -----------------------------------------------------------------------------------------------------------------------------
 
 IT315 - Introduction to Networks Course  
-Professor: Dr. Sheryl Drake
+Professor: Dr. Sheryl Drake  
 Winter B Semester (24WB) – 2024  
 Student: Alexander (Alex) Ricciardi  
 Date: 12/15/2024  
