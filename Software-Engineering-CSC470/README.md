@@ -39,20 +39,37 @@ My Links:
 
 #### Project Map
 
-- [Module 2 Critical Thinking](#module-2-critical-thinking)   
+- [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Module 2 Critical Thinking 
-Directory: [Critical-Thinkings]()  
-Title:    
+## Module 1 Critical Thinking 
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-1-Critical-Thinking)   
+Title: Critical Thinking Assignment 1: Restaurant Customer Service System      
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Description:  
-  
+
+Critical Thinking Assignment   
+Choose one of the following two assignments to complete this week. Do not do both assignments. Identify your assignment choice in the title of your submission.  
+
+Option #1: Business Use Case Model: Restaurant
+We’ve covered business use case models this week. A business use case defines what happens in the business when the use case is requested by a business actor; it describes the complete workflow or business process that produces results required or in need of a business actor. Use case behaviors may be described in a natural language text, which is current common practice, or by using UML behavior diagrams for specific behaviors such as:  
+
+activity,   
+state machine,  
+and interaction.  
+
+For this week’s Critical Thinking Assignment, you are asked to create a business use case diagram for a restaurant. Include several business actors with needs and goals as related to the restaurant and business use cases, expressing expectations of the actors from the business. Your diagram should include both external and internal business views of the restaurant. Based on the diagram that you have created, ensure you are providing a 1-2 page critical analysis that demonstrates your interpretation and integration of the material.  
+
+For assistance in completing this activity, please review this business use case guideline document: https://sceweb.uhcl.edu/helm/RationalUnifiedProcess/process/modguide/md_buc.htm.  
+
+Please paste your diagram to a Word document; then, submit it for grading.  
+
+Review the Critical Thinking grading rubric to see how you will be graded for this assignment.  
 
 -------------------------------------------------------------------------------------------
 
