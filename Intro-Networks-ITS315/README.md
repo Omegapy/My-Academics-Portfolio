@@ -9,7 +9,7 @@ created date: 12/09/2024
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:    
-This repository is a collection of Software Engineering assignments from ITS315 – Introduction to Networks  
+This repository is a collection of Introduction to Networks assignments from ITS315 – Introduction to Networks  
 at Colorado State University Global - CSU Global.  
 
 -----------------------------------------------------------------------------------------------------------------------------
