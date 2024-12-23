@@ -2,7 +2,7 @@
 # Module-1 Critical Thinking 
 Essay Name: Critical Thinking Assignment 1: Restaurant Customer Service System  
 
-Grade:  
+Grade:  !00% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
