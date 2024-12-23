@@ -39,8 +39,36 @@ My Links:
 
 #### Project Map
 
+- [Module 2 Critical Thinking](#module-2-critical-thinking)   
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 2 Critical Thinking 
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-2-Critical-Thinking)   
+Title: Critical Thinking Assignment 2: Agile Methodology in Software Development      
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Critical Thinking Assignment   
+Option #2: Considering Agile  
+The textbook has provided an overview of the agile methodology that can be used in software development. For this week’s Critical Thinking Assignment, submit a paper addressing the following:
+
+How can Agile practices be used in gathering and modeling nonfunctional requirements?  
+Discuss, with examples, how to use Agile practices in system design.  
+Additionally, give an example of an Agile role, artifact, and ceremony. Explain how these Agile elements can be used in an iteration plan.  
+Lastly, list two advantages and two challenges in modeling requirements with user stories in an Agile approach. Feel free to create diagrams for your paper.  
+Review the Critical Thinking grading rubric to see how you will be graded for this assignment.
+
+Your paper should be 4-6 pages in length and conform to APA guidelines in the CSU Global Writing Center. Include at least two scholarly references in addition to the course textbook. The CSU Global Library is a good place to find these references. The CSU Global Library and Writing Center links can be found in the course navigation panel.   
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
