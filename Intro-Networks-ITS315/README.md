@@ -39,8 +39,42 @@ My Links:
 
 #### Project Map
 
+- [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 2 Critical Thinking 
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-2-Critical-Thinking)  
+Title: Critical Thinking Assignment 2: Labs Lessons 3 and 4       
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Module #2: uCertify Lab Simulations  
+For this assignment, you will complete multiple lab simulations.   Activities include identifying cables, protocols, devices, ethernet standards, etc. You will take a screenshot upon completion of each lab and include the screenshots in the submitted assignment.  
+
+Access uCertify and login, go to Labs, and complete the tasks in the following lab simulations:
+
+3.1.14 Identifying types of cable and connector
+
+3.1.16 Identifying cable configuration types
+
+3.5.4 Identifying protocols and devices
+
+4.1.7 Identifying Fast Ethernet standards
+
+4.1.8 Connecting patch cables between the patch panel and switch ports
+
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer. Take a screenshot of each of the labs and paste the screenshot into a Word document. The document should have a title page that includes your name, date, school name, section, course name, and instructor name. Submit the assignment in Canvas.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
