@@ -22,12 +22,12 @@ CTA2-Agile Methodology in Software Development.pdf – Essay: Critical Thinking 
 The Assignment Direction:    
 
 Critical Thinking Assignment   
-Option #2: Considering Agile
+Option #2: Considering Agile  
 The textbook has provided an overview of the agile methodology that can be used in software development. For this week’s Critical Thinking Assignment, submit a paper addressing the following:
 
 How can Agile practices be used in gathering and modeling nonfunctional requirements?  
-Discuss, with examples, how to use Agile practices in system design.
-Additionally, give an example of an Agile role, artifact, and ceremony. Explain how these Agile elements can be used in an iteration plan.
+Discuss, with examples, how to use Agile practices in system design.  
+Additionally, give an example of an Agile role, artifact, and ceremony. Explain how these Agile elements can be used in an iteration plan.  
 Lastly, list two advantages and two challenges in modeling requirements with user stories in an Agile approach. Feel free to create diagrams for your paper.  
 Review the Critical Thinking grading rubric to see how you will be graded for this assignment.
 
