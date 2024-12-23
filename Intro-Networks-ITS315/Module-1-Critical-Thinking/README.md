@@ -2,7 +2,7 @@
 # Module-1 Critical Thinking 
 Assignment Name: Critical Thinking Assignment 1: Labs Lesson 1 and 2  
 
-Grade:  
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
