@@ -2,7 +2,7 @@
 # Module-2 Critical Thinking 
 Essay Name: Critical Thinking Assignment 2: Agile Methodology in Software Development
 
-Grade:  
+Grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
