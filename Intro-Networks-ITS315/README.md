@@ -39,10 +39,38 @@ My Links:
 
 #### Project Map
 
+- [Module 3 Critical Thinking](#module-3-critical-thinking)
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
 
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 3 Critical Thinking 
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-3-Critical-Thinking)  
+Title: Critical Thinking Assignment 3: Labs Lessons 5 and 6       
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Module #3: uCertify Lab Simulations  
+For this assignment, you will complete multiple lab simulations.  Activities include configuring IP addresses, identifying routing protocols and NAT IP addresses, testing, etc. You will take a screenshot upon completion of each lab and include the screenshots in the submitted assignment.
+
+Access uCertify and login, go to Labs, and complete the tasks in the following lab simulations:
+
+5.3.5 Configuring IPv4 address  
+5.5.11 Configuring and testing IPv6 addresses  
+6.4.1 Identifying routing protocols  
+6.4.2 Describing Network Address Translation  
+6.5.1 Identifying NAT IP addresses  
+
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer. Take a screenshot of each of the labs and paste the screenshot into a Word document. The document should have a title page that includes your name, date, school name, section, course name, and instructor name. Submit the assignment in Canvas.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
