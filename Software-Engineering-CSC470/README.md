@@ -39,9 +39,32 @@ My Links:
 
 #### Project Map
 
+- [Module 3 Critical Thinking](#module-3-critical-thinking)  
 - [Module 2 Critical Thinking](#module-2-critical-thinking)   
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 3 Critical Thinking 
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-3-Critical-Thinking)   
+Title: Critical Thinking Assignment 3: Online Shopping System Use Case Diagram      
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Option #1: Use Case Diagram for Online Shopping  
+This week, we’ve been discussing actors and use cases. Each use case represents a unit of useful functionality that subjects provide to actors. An association between an actor and a use case indicates that the actor and the use case somehow interact or communicate with each other.
+
+For this week’s Critical Thinking Assignment, create a use case diagram with flows and alternative flows for an online shopping scenario. Provide a 1-2 page overview of your diagram, including a detailed description and analysis of the actor(s) in your diagram.
+
+Utilize the assigned readings from the course to complete your assignment. Please cite at least one additional credible or scholarly source to support your analysis and positions. The CSU Global Library is a good place to find scholarly sources. This activity will vary in length however, the written portion should be a minimum of one page in length with document and citation formatting that conforms to APA guidelines in the CSU Global Writing Center. The CSU Global Library and Writing Center links can be found in the course navigation panel.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
