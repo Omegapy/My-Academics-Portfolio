@@ -39,10 +39,39 @@ My Links:
 
 #### Project Map
 
+- [Module 4 Critical Thinking](#module-4-critical-thinking)
 - [Module 3 Critical Thinking](#module-3-critical-thinking)
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 4 Critical Thinking 
+Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-4-Critical-Thinking)  
+Title: Critical Thinking Assignment 4: Labs Lessons 10 and 14       
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Module #4: uCertify Lab Simulations  
+For this assignment, you will complete multiple lab simulations. Activities include analyzing network paths, checking connectivity between devices, diagnosing network problems and troubleshooting issues. You will take a screenshot upon completion of each lab and include the screenshots in the submitted assignment.  
+
+Access uCertify and login, go to Labs, and complete the tasks in the following lab simulations:  
+
+10.1.3 Analyzing network paths with traceroute  
+10.1.7 Checking IP connectivity between two network devices  
+14.1.1 Troubleshooting a network  
+14.1.2 Diagnosing a network problem  
+14.5.1 Diagnosing networking issues  
+
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer. Take a screenshot of each of the labs and paste the screenshot into a Word document. The document should have a title page that includes your name, date, school name, section, course name, and instructor name. Submit the assignment in Canvas.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
