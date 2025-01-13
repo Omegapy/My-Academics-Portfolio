@@ -39,10 +39,33 @@ My Links:
 
 #### Project Map
 
+- [Module 4 Critical Thinking](#module-4-critical-thinking) 
 - [Module 3 Critical Thinking](#module-3-critical-thinking)  
 - [Module 2 Critical Thinking](#module-2-critical-thinking)   
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 4 Critical Thinking 
+Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-4-Critical-Thinking)   
+Title: Critical Thinking Assignment 4: UML Activity Diagram      
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Activity Diagram  
+This week, we’ve been discussing activity and interaction overview diagrams. Activity diagrams of the UML are meant to show any flow, or process, in the system. For this week’s Critical Thinking Assignment, create a detailed activity diagram that shows partitions, multithreads, and decision points for a scenario of your choosing. In one to two pages, provide an overview of your diagram. Additionally, discuss how multiple threads help to optimize workflows? Provide applicable examples in your discussion.  
+
+Utilize the assigned readings from the course to complete your activity. Please cite at least one additional credible or scholarly source to support your analysis and positions. The CSU Global Library is a good place to find scholarly sources. This activity will vary in length however, the written portion should be one to two pages with document and citation formatting that conforms to APA guidelines in the CSU Global Writing Center. The CSU Global Library and Writing Center links can be found in the course navigation panel.  
+
+Review the Critical Thinking grading rubric to see how you will be graded for this assignment.    
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
