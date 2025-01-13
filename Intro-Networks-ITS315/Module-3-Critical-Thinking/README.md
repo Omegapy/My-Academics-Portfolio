@@ -2,7 +2,7 @@
 # Module-3 Critical Thinking 
 Assignment Name: Critical Thinking Assignment 3: Labs Lessons 5 and 6  
 
-Grade:  
+Grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
