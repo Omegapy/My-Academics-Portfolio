@@ -39,11 +39,40 @@ My Links:
 
 #### Project Map
 
+- [Module 5 Critical Thinking](#module-5-critical-thinking)
 - [Module 4 Critical Thinking](#module-4-critical-thinking)
 - [Module 3 Critical Thinking](#module-3-critical-thinking)
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 5 Critical Thinking 
+Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-5-Critical-Thinking)  
+Title: Critical Thinking Assignment 5: Labs Lessons 8
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Module #5: uCertify Lab Simulations
+For this assignment, you will complete multiple lab simulations. Activities include configuring wireless routers and SSID, understanding network architecture, etc. You will take a screenshot upon completion of each lab and include the screenshots in the submitted assignment.
+
+Access uCertify and login, go to Labs, and complete the tasks in the following lab simulations:
+
+8.1.1 Connecting a Wireless Router to a Laptop  
+8.2.1 Identifying WLANs  
+8.2.2 Troubleshooting AP  
+8.3.1 Configuring SSID  
+8.4.1 Understanding network architecture  
+
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer. Take a screenshot of each of the labs and paste the screenshot into a Word document. The document should have a title page that includes your name, date, school name, section, course name, and instructor name. Submit the assignment in Canvas.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
