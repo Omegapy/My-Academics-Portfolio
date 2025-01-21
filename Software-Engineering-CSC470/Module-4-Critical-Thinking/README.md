@@ -2,7 +2,7 @@
 # Module-4 Critical Thinking 
 Essay Name: Critical Thinking Assignment 4: UML Activity Diagram
 
-Grade:  
+Grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
