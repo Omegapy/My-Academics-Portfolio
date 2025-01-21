@@ -39,11 +39,53 @@ My Links:
 
 #### Project Map
 
+- [Module 5 Critical Thinking](#module-5-critical-thinking) 
 - [Module 4 Critical Thinking](#module-4-critical-thinking) 
 - [Module 3 Critical Thinking](#module-3-critical-thinking)  
 - [Module 2 Critical Thinking](#module-2-critical-thinking)   
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 5 Critical Thinking 
+Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-5-Critical-Thinking)   
+Title: Critical Thinking Assignment 5: Polymorphism - Using UML Class Diagrams and Pseudocode    
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+The Assignment Direction:    
+
+Option #1: Polymorphic Class Diagram  
+This week, we’ve been discussing polymorphism. Polymorphism is one of the fundamentals of software engineering. Polymorphic behavior implies, at runtime, that the same message has different behavioral effects. For this week’s Critical Thinking Assignment, create a polymorphic class diagram of a design of your choosing. Add an aggregation relationship to this diagram. Write a sample pseudocode script to explain the polymorphic class diagram (see example below; see also Code Example 11.7 in your course textbook).
+
+Additionally, in a one-page paper, explain why polymorphism is a runtime characteristic of object-oriented designs. Describe the structural design necessity to ensure polymorphism at runtime.
+
+Simple code example for polymorphism:  
+
+//This pseudocode indicates that when the driver object issues a call to moveCar, whichever object has been instantiated (FourWheel or FamilyCar) will move.
+
+Class Driver:
+
+     Car myCar;  
+     myCar := new FourWheel;  
+
+     myCar.moveCar();  
+     myCar := new FamilyCar;  
+     myCar.moveCar();  
+
+Utilize the assigned readings from the course to complete your activity. Please cite at least one additional credible or scholarly source to support your analysis and positions. The CSU Global Library is a good place to find scholarly sources. This activity will vary in length however, the written portion should be a minimum of one page in length with document and citation formatting that conforms to APA guidelines in the CSU Global Writing Center. The CSU Global Library and Writing Center links can be found in the course navigation panel.  
+
+Please include your diagram, pseudocode, and writeup in a Word or PDF document and submit for grading.  
+
+Review the Critical Thinking grading rubric to see how you will be graded for this assignment.       
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
