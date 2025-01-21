@@ -2,7 +2,7 @@
 # Module-4 Critical Thinking 
 Assignment Name: Critical Thinking Assignment 4: Labs Lessons 10 and 14  
 
-Grade:  
+Grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
