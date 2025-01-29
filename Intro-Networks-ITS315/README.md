@@ -39,12 +39,41 @@ My Links:
 
 #### Project Map
 
+- [Module 6 Critical Thinking](#module-6-critical-thinking)
 - [Module 5 Critical Thinking](#module-5-critical-thinking)
 - [Module 4 Critical Thinking](#module-4-critical-thinking)
 - [Module 3 Critical Thinking](#module-3-critical-thinking)
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 6 Critical Thinking 
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-6-Critical-Thinking)  
+Title: Critical Thinking Assignment 6: Labs Lessons 7 and 13
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Module #6: uCertify Lab Simulations  
+For this assignment, you will complete multiple lab simulations. Activities include identifying network connection types, connecting networks to the internet, configuring routers, etc. You will take a screenshot upon completion of each lab and include the screenshots in the submitted assignment.  
+
+Access uCertify and login, go to Labs, and complete the tasks in the following lab simulations:
+
+7.1.1 Identifying WAN connection types  
+7.2.2 Identifying MPLS network elements  
+7.2.3 Connecting cable Internet access for your network  
+7.2.4 Adding static routes in RRAS  
+13.1.1 Changing passwords for the router    
+
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer. Take a screenshot of each of the labs and paste the screenshot into a Word document. The document should have a title page that includes your name, date, school name, section, course name, and instructor name. Submit the assignment in Canvas.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
