@@ -39,12 +39,42 @@ My Links:
 
 #### Project Map
 
+- [Module 6 Critical Thinking](#module-6-critical-thinking) 
 - [Module 5 Critical Thinking](#module-5-critical-thinking) 
 - [Module 4 Critical Thinking](#module-4-critical-thinking) 
 - [Module 3 Critical Thinking](#module-3-critical-thinking)  
 - [Module 2 Critical Thinking](#module-2-critical-thinking)   
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 6 Critical Thinking 
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-6-Critical-Thinking)   
+Title: Critical Thinking Assignment 6: UML Sequence Diagram    
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+The Assignment Direction:    
+
+Option #1: Sequence Diagrams: Hospital Management System 
+
+We’ve covered sequence diagrams this week. Sequence diagrams in analysis model the behavior of the system from the user’s viewpoint. Thus, sequence diagrams are a good “whiteboard” technique to capture the various usage scenarios described by users. For this week’s Critical Thinking Assignment, create a sequence diagram of a hospital management system. Include the following notations: actor, object, timeline, focus of control, message, self-message, return message, asynchronous message, object destruction, steps (in a sequence), and notes.
+
+Provide sample pseudocode with your sequence diagram activity.
+
+Utilize the assigned readings from the course to complete your activity as well as any applicable outside sources. This activity will vary in length but must conform to APA guidelines in the CSU Global Writing Center. The CSU Global Library and Writing Center links can be found in the course navigation panel.
+
+Please include your diagram and pseudocode in a Word or PDF document and submit for grading. For each diagram, ensure you are providing a 1-2 page critical analysis that demonstrates your interpretation and integration of the material.
+
+Review the Critical Thinking grading rubric to see how you will be graded for this assignment.          
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
