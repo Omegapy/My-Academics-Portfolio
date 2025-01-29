@@ -2,7 +2,7 @@
 # Module-5 Critical Thinking 
 Essay Name: Critical Thinking Assignment 5: Polymorphism - Using UML Class Diagrams and Pseudocode
 
-Grade:  
+Grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
