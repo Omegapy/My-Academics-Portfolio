@@ -15,7 +15,8 @@ Date: 01/26/2025
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:   
-CTA6 - UML Sequence Diagrams Hospital Management System – Essay: Critical Thinking Assignment 6: UML Sequence Diagram
+CTA6 - UML Sequence Diagrams Hospital Management System.pdf – Essay: Critical Thinking Assignment 6: UML Sequence Diagram
+pseudocode.pseudo – project pseudocode
 
 -----------------------------------------------------------------------------------------------------------------------------
 

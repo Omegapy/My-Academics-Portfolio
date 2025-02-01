@@ -1,0 +1,277 @@
+/*
+      HMS Doctor-Patient Examination System Pseudocode Version-2 
+
+      Alexander Ricciardi
+      January 24, 2025
+*/
+//------------------------------------------------------------------------------
+// Hospital System Superclass
+//------------------------------------------------------------------------------
+class HospitalSysManager:
+    private scheduleManager := new ScheduleManagerInterface()
+
+    // Constructor
+    HospitalSysManager():
+        // ... Constructor logic
+
+    public getSchedule():
+        // Provides access to the inherited schedule manager if needed
+        return scheduleManager
+//
+//------------------------------------------------------------------------------
+// Doctor Interface
+//------------------------------------------------------------------------------
+Interface HospitalDoctorSysInterface:
+    /* The interface that DoctorSysInterface implements. */
+
+    public examinePatient(Patient patient)
+    public addSymptom(String symptom)
+    public addDiagnosis(String diagnosis)
+    public prescribeNeededDrug(String drugName)
+    public proposeMedicalProcedure(String procedureName, Patient patient)
+    public appHasEnded(Patien patient)
+//
+//------------------------------------------------------------------------------
+// Patient Interface
+//------------------------------------------------------------------------------
+Interface HospitalPatientSysInterface:
+    /* Interface that PatienSysInterface implements. */
+
+    public confirmProcedure(String procedureName, Patient patient)
+    public chooseProcedureDate(List<Date> availableDates)
+    public appHasEnded(Patien patient)
+//
+//------------------------------------------------------------------------------
+// DoctorSysInterface Class
+//------------------------------------------------------------------------------
+class DoctorSysInterface extends HospitalSysManager implements HospitalDoctorSysInterface:
+
+    private diagnosesManager: DiagnosisManagerInterface := new DiagnosisManagerInterface()
+
+    // Constructor
+    DoctorSysInterface():
+        // ... Constructor logic
+    
+    // Destructor
+    ~DoctorSysInterface():
+        // ... Destructor logic
+
+    @override
+    public examinePatient(Patient patient):
+        private array<Boolean> isSymptomDiagnosisDrugProcedure := [false, false, false, false]
+        //  isSymptomDiagnosisDrugProcedure[0] => symptom?
+        //  isSymptomDiagnosisDrugProcedure[1] => diagnosis?
+        //  isSymptomDiagnosisDrugProcedure[2] => drug needed?
+        //  isSymptomDiagnosisDrugProcedure[3] => procedure needed?
+        // ... Logic to determine what is needed
+        return isSymptomDiagnosisDrugProcedure
+
+    @override
+    public addSymptom(String symptom):
+        diagnosesManager.addSymptom(symptom)
+        return void
+
+    @override
+    public addDiagnosis(String diagnosis):
+        diagnosesManager.addDiagnosis(diagnosis)
+        return void
+
+    @override
+    public prescribeNeededDrug(String drugName):
+        diagnosesManager.checkContraindications(drugName)
+        // ... Logic possibly finalize prescription
+        return void
+
+    @override
+    public proposeMedicalProcedure(String procedureName, Patient patient):
+        // Using inherited scheduleManager from HospitalSysManager
+        scheduleManager.proposeMedicalProcedure(procedureName, patient)
+        return void
+
+    @override
+    public appHasEnded(Patien patient)
+        HospitalPatientSysInterface patInterface := patient.getPatInterface()
+        // ... logic
+        patient.appHasEnded()
+        ~DoctorSysInterface()
+        return void
+    
+    // Optional getter for reusing the same schedule manager
+    public getSchedule():
+        return scheduleManager
+//
+//------------------------------------------------------------------------------
+// PatienSysInterface Class
+//------------------------------------------------------------------------------
+class PatienSysInterface extends HospitalSysManager implements HospitalPatientSysInterface:
+
+    // Constructor 
+    PatienSysInterface():
+        // ... Constructor logic
+    
+    // Destructor
+    ~PatientSysInterface():
+    // ... Destructor logic
+
+    @override
+    public confirmProcedure(String procedureName, Patient patient):
+        private Boolean hasConfirmProcedure := false
+        hasConfirmProcedure := patient.confirmProcedure(procedureName)
+        return hasConfirmProcedure
+
+    @override
+    public chooseProcedureDate(List<Date> availableDates):
+        Date desiredDate
+        // implement logic for picking one Date from availableDates
+        return desiredDate
+    
+    @override
+    public appHasEnded(Patien patient):
+        patient.appHasEnded()
+        ~PatientSysInterface()     
+//
+//------------------------------------------------------------------------------
+// DiagnosisManagerInterface Class
+//------------------------------------------------------------------------------
+class DiagnosisManagerInterface:
+    private List<String> symptoms
+    private List<String> diagnoses
+
+    // Constructor
+    DiagnosisManagerInterface():
+        // ... Constructor logic
+        symptoms := []
+        diagnoses := []
+
+    // Destructor
+    ~DiagnosisManagerInterface():
+    // ... Destructor logic
+
+    public addSymptom(String symptom):
+        symptoms.add(symptom)
+        // ... Possibly analyze symptom, recommend diagnoses
+        return void
+
+    public addDiagnosis(String diagnosis):
+        diagnoses.add(diagnosis)
+        // ... Store/confirm the diagnosis
+        return void
+
+    public checkContraindications(String drugName):
+        // ... Search for contraindications, return if found
+        return void
+    
+    public appHasEnded():
+        // ... Logic
+        ~DiagnosisManagerInterface()
+        return void
+//
+//------------------------------------------------------------------------------
+// ScheduleManagerInterface Class
+//------------------------------------------------------------------------------
+class ScheduleManagerInterface:
+    /* 
+       Map procedureName -> [List<Date> availableDates, List<Date> scheduledDates]
+    */
+    private Map<String, [List<Date>, List<Date>]> proceduresDates
+
+    // Constructor
+    ScheduleManagerInterface():
+        proceduresDates := Map()
+        // ... Constructor logic
+
+    public proposeProcedureDates(String procedureName, Patient patient):
+        List<Date> availableDates
+        Date desiredDate
+        HospitalPatientSysInterface patInterface := patient.getPatInterface()
+        
+        // ... Logic to find or generate a list of available dates
+        desiredDate := patInterface.chooseProcedureDate(availableDates)
+        // ... Add desiredDate to scheduledDates
+        patient.addProcedureApp({procedureName : desiredDate})
+        return void
+
+    public proposeMedicalProcedure(String procedureName, Patient patient):
+        Boolean hasConfirmed := false
+        HospitalPatientSysInterface patInterface := patient.getPatInterface()
+
+        hasConfirmed := patInterface.confirmProcedure(procedureName, patient)
+        if (hasConfirmed = true)
+            proposeProcedureDates(procedureName, patient)
+        
+        return void
+//
+//------------------------------------------------------------------------------
+// Doctor Class (external actor who calls the system methods)
+//------------------------------------------------------------------------------
+class Doctor:
+    private docInterface: DoctorSysInterface := new DoctorSysInterface()
+    private array<Boolean> isSymptomDiagnosisDrugProcedure := [true, false, false, false]
+
+    // Constructor
+    Doctor():
+        // ... Constructor logic
+
+    public endAppiontment(Patien patient):
+        // ... Logic
+        docInterface.appHasEnded(patient)
+        return void
+
+    public examine(Patient patient):
+        while (isSymptomDiagnosisDrugProcedure[0] == true):
+            isSymptomDiagnosisDrugProcedure := docInterface.examinePatient(patient)
+            if (isSymptomDiagnosisDrugProcedure[0] == true):
+                docInterface.addSymptom("Doctor inputs symptom")
+                if (isSymptomDiagnosisDrugProcedure[1] == true):
+                    docInterface.addDiagnosis("Doctor inputs diagnosis")
+
+        if (isSymptomDiagnosisDrugProcedure[2] = true):
+            docInterface.prescribeNeededDrug("drugName")
+
+        if (isSymptomDiagnosisDrugProcedure[3] = true):
+            docInterface.proposeMedicalProcedure("procedureName", patient)
+        
+        endAppiontment()
+        return void
+//
+//------------------------------------------------------------------------------
+// Patient Class (external actor who calls the system methods)
+//------------------------------------------------------------------------------
+class Patient:
+    private patInterface := new PatienSysInterface()
+    // List of procedure appointments <procedure name, date>
+    private List<Map<String, Date>> procedureApps
+
+    // Constructor
+    Patient():
+        // ... Constructor logic
+
+    public docApp(Doctor doctor):
+        // Implementation not provided
+        return void
+
+    public confirmProcedure(String procedureName):
+        private Boolean hasConfirmProcedure := false
+        // ... Implementation logic, e.g. ask the user for confirmation
+        return hasConfirmProcedure
+
+    public chooseProcedureDate(List<Date> availableDates):
+        Date chosenDate
+        // ... Implementation logic to pick from availableDates
+        return chosenDate
+
+    public addProcedureApp(Map<String, Date> procedureApp):
+        procedureApps.add(procedureApp)
+        return void
+
+    public checkOut():
+        // ... Logic 
+        return void   
+    
+    public +appHasEnded()
+        // ... Logic
+        checkOut()
+        return void
+
+    public getPatInterface():
+        return patInterface
