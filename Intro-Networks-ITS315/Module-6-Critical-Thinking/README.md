@@ -2,7 +2,7 @@
 # Module-6 Critical Thinking 
 Assignment Name: Critical Thinking Assignment 5: Labs Lessons 8
 
-Grade:  
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -10,12 +10,12 @@ IT315 - Introduction to Networks Course
 Professor: Dr. Sheryl Drake  
 Winter B Semester (24WB) – 2024  
 Student: Alexander (Alex) Ricciardi  
-Date: 01/26/2025  
+Date: 02/26/2025  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:   
-CTA5 - Labs Lessons 8.pdf – Critical Thinking Assignment 6: CTA5 - Labs Lessons 7 and 13  
+CTA6 - Labs Lessons Lessons 7 and 13.pdf – Critical Thinking Assignment 6: CTA5 - Labs Lessons 7 and 13  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
