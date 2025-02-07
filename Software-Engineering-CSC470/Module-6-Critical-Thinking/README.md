@@ -2,7 +2,7 @@
 # Module-6 Critical Thinking 
 Essay Name: Critical Thinking Assignment 6: UML Sequence Diagram
 
-Grade:  
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
