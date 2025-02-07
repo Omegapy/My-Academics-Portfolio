@@ -39,6 +39,7 @@ My Links:
 
 #### Project Map
 
+- [Module 7 Critical Thinking](#module-7-critical-thinking)
 - [Module 6 Critical Thinking](#module-6-critical-thinking)
 - [Module 5 Critical Thinking](#module-5-critical-thinking)
 - [Module 4 Critical Thinking](#module-4-critical-thinking)
@@ -46,6 +47,34 @@ My Links:
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 7 Critical Thinking 
+Directory: [Module-7-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-7-Critical-Thinking)  
+Title: Critical Thinking Assignment 7: Labs Lessons 12
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+odule #6: uCertify Lab Simulations  
+For this assignment, you will complete multiple lab simulations. Activities include identifying network connection types, connecting networks to the internet, configuring routers, etc. You will take a screenshot upon completion of each lab and include the screenshots in the submitted assignment.
+
+Access uCertify and login, go to Labs, and complete the tasks in the following lab simulations:
+
+12.2.9 Identifying network attacks  
+12.3.7 Scanning using nmap  
+12.3.8 Running the Nessus vulnerability scan  
+12.5.3 Identifying types of firewall  
+12.6.1 Creating a remote access VPN connection  
+
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer. Take a screenshot of each of the labs and paste the screenshot into a Word document. The document should have a title page that includes your name, date, school name, section, course name, and instructor name. Submit the assignment in Canvas.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
