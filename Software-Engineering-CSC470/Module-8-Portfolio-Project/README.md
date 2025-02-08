@@ -17,6 +17,7 @@ Date: 02/09/2025
 Project Map:   
 - Part-1 Object-Relational Mapping.pdf – An essay exploring database modeling
 - Part-2 VDMS Pseudocode.pseudo – The generated Pseudocode
+- PlantUMLToPseudocodeGenerator.java - Java program translating PlantUML Class Diagram code to pseudocode 
 - Part-3 Reflection Reflection Lessons Learned (CSC470).pdf – A Reflection essay about what I learned in the Software Engineering course
 - Portfolio Project Combined Documents.pdf – All the Portfolio documents combined into one
 
