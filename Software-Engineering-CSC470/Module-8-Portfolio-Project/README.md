@@ -8,7 +8,7 @@ Grade:
 
 CSC472 – Software Engineering Course  
 Professor: Dr. Vanessa Cooper
-Winter B Semester (24WB) – 2024  
+Winter B Semester (24WB) – 2025  
 Student: Alexander (Alex) Ricciardi  
 Date: 02/09/2025  
 
@@ -35,18 +35,18 @@ Note: Part 1 was completed as a draft in the Module 7 Portfolio Milestone, Optio
 
 Part 1: Database Model  
 Create a database model while following the steps listed below:  
-• Create a simple class diagram containing three classes: Vehicle, Car, and Truck. Provide two attributes for each of these three classes.  
-o Create a rough sketch of a relational table that will store the objects belonging to the aforementioned three classes.  
-o Ensure you have tried all three options—single table, two tables, and three tables—in your database design.  
-o Enter two objects per table, corresponding to the classes.  
-• Use the two-table design to recreate a Car object.  
-• Repeat the preceding step to recreate a Truck object.
-• Create a simple association relationship in a separate class diagram showing Driver and Car.  
-o Apply a multiplicity of 1 on the driver side and N on the Car side.  
-• Add/modify your table designs to handle storing of two objects belonging to Car and two belonging to Driver.
-o Modify the multiplicity on the Driver side to N. This makes it a many-to-many multiplicity.  
-• Modify your table designs to handle this multiplicity and show where and how the KEYS or IDs will have to be placed.
-• Create a class diagram corresponding to the tables you have designed. Stereotype all classes on that class diagram as <<table>>.  
+- Create a simple class diagram containing three classes: Vehicle, Car, and Truck. Provide two attributes for each of these three classes.  
+  - Create a rough sketch of a relational table that will store the objects belonging to the aforementioned three classes.  
+  - Ensure you have tried all three options—single table, two tables, and three tables—in your database design.  
+  -  Enter two objects per table, corresponding to the classes.  
+- Use the two-table design to recreate a Car object.  
+- Repeat the preceding step to recreate a Truck object.
+- Create a simple association relationship in a separate class diagram showing Driver and Car.  
+  - Apply a multiplicity of 1 on the driver side and N on the Car side.  
+- Add/modify your table designs to handle storing of two objects belonging to Car and two belonging to Driver.
+  - Modify the multiplicity on the Driver side to N. This makes it a many-to-many multiplicity.  
+- Modify your table designs to handle this multiplicity and show where and how the KEYS or IDs will have to be placed.
+- Create a class diagram corresponding to the tables you have designed. Stereotype all classes on that class diagram as <<table>>.  
 
 Part 2: Pseudocode  
 Using a programming language of your choice, write a script that will print out pseudocode of your model. Paste the pseudocode in a Word document.
