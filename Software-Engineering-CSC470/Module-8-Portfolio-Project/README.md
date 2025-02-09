@@ -1,6 +1,6 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Module-8 Portfolio Project
-Name: Final Portfolio Project CSC470
+Name: Final Portfolio Project CSC470: Database Model
 
 Grade: 
 
