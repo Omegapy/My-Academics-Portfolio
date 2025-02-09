@@ -28,7 +28,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [CSC470 Software Engineering](#csc470-software-engineering)
+- [CSC470 Software Engineering](#csc470-software-engineering)  
 - [CSC450 Programming III Cpp Java Course](#csc450-programming-iii-cpp-java-course)
 - [CSC410 Artificial Intelligence](#csc410-artificial-intelligence)
 - [CSC400 Data Structures and Algorithms Java](#csc400-data-structures-and-algorithms-java)
@@ -44,7 +44,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC470 Software Engineering  
-Directory: [CSC470-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-8-Portfolio-Project)
+Directory: [CSC470-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-8-Portfolio-Project)  
 Title: Final Portfolio Project CSC470: Database Model  
 Professor: Dr. Vanessa Cooper
 Winter B Semester (24WB) – 2025  
@@ -107,7 +107,7 @@ Project Map:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC450 Programming III Cpp Java Course
-Directory: [CSC450 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC-450%20CSU%20Global)   
+Directory: [CSC450 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC450-CSU-Global)   
 Title: Portfolio - Thread Counting Synchronization (C++/Java)
 Professor: Reginald Haseltine  
 Fall D (24FD) – 2024  
@@ -233,7 +233,7 @@ Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC410 Artificial Intelligence
-Directory: [CSC410 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC410%20CSU%20Global)   
+Directory: [CSC410 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC410-CSU-Global)   
 Title: Portfolio - AI implementation in Insurance  
 Professor: Dr. Christopher Whitfield  
 Fall D (24FD) – 2024  
@@ -263,7 +263,7 @@ Your paper should be 4-6 pages in length (excluding the cover page and reference
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC400 Data Structures and Algorithms Java
-Directory: [CSC400 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC400%20CSU%20Global)   
+Directory: [CSC400 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC400-CSU-Global)   
 Portfolio Assignment Option 1: Person Class 
 Program Name: Custom Queue ADT and Quicksort  
 Fall B (24FB) – 2024  
@@ -325,7 +325,7 @@ Assemble your Lessons Learned Reflection, your source code, and screenshots of t
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC405 Graphics and Visualization WebGL
-Directory: [CSC405 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC405%20CSU%20Global)   
+Directory: [CSC405 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC405-CSU-Global)   
 Portfolio Assignment 
 Program Name: Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL    
 Fall B (24FB) – 2024  
