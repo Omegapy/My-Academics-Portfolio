@@ -1,0 +1,244 @@
+/*
+      Vehicle Database Management System Class Pseudocode Version-5
+      Alexander Ricciardi
+      January 23, 2025
+*/
+/------------------------------------------------------------------------------
+// Driver Class
+/------------------------------------------------------------------------------
+class Driver:
+    private Integer driverId
+    private String lastName
+    private List<Car> cars
+
+/------------------------------------------------------------------------------
+// Vehicle Class
+/------------------------------------------------------------------------------
+class Vehicle:
+    private Integer vehicleId
+    private String vinNum
+    private List<Integer> driverIds
+
+    public drive():
+        // ... Logic to simulate driving
+        return void
+
+
+/------------------------------------------------------------------------------
+// Truck Class
+/------------------------------------------------------------------------------
+class Truck extends Vehicle:
+    private Integer truckId
+    private String truckType
+
+/------------------------------------------------------------------------------
+// Car Class
+/------------------------------------------------------------------------------
+class Car extends Vehicle:
+    private Integer carId
+    private String carType
+
+/------------------------------------------------------------------------------
+// DriverCarManager Class
+/------------------------------------------------------------------------------
+class DriverCarManager:
+    public createDriver(Integer driverId, driverDtls):
+        // ... Creation logic here
+        return void
+
+    public readDriver(Integer driverId) -> driverDtls:
+        // ... Retrieval logic here
+        return driverDtls
+
+    public updateDriver(Integer driverId, driverDtls):
+        // ... Update logic here
+        return void
+
+    public deleteDriver(Integer driverId):
+        // ... Deletion logic here
+        return void
+
+    public createVehicle(Integer vehiculeId, vehicleDtls):
+        // ... Creation logic here
+        return void
+
+    public readVehicle(Integer vehicleId) -> vehicleDtls:
+        // ... Retrieval logic here
+        return vehicleDtls
+
+    public updateVehicle(Integer carId):
+        // ... Update logic here
+        return void
+
+    public deleteVehicle(Integer carId):
+        // ... Deletion logic here
+        return void
+
+    public createCar(Integer carId, carDtls):
+        // ... Creation logic here
+        return void
+
+    public readCar(Integer carId) -> carDtls:
+        // ... Retrieval logic here
+        return carDtls
+
+    public updateCar(Integer carId, carDtls):
+        // ... Update logic here
+        return void
+
+    public deleteCar(Integer carId):
+        // ... Deletion logic here
+        return void
+
+    public createTruck(Integer truckId, truckDtls):
+        // ... Creation logic here
+        return void
+
+    public readTruck(Integer truckId) -> truckDtls:
+        // ... Retrieval logic here
+        return truckDtls
+
+    public updateTruck(Integer truckId, truckDtls):
+        // ... Update logic here
+        return void
+
+    public deleteTruck(Integer truckId):
+        // ... Deletion logic here
+        return void
+
+    public createDriverVehicle(Array[Integer, Integer] driverVehicleId, driverVehicleDtls):
+        // ... Creation logic here
+        return void
+
+    public readDriverVehicle(Integer driverVehicleId) -> driverVehicleDtls:
+        // ... Retrieval logic here
+        return driverVehicleDtls
+
+    public updateDriverVehicle(Integer driverVehicleId, driverVehicleDtls):
+        // ... Update logic here
+        return void
+
+    public deleteDriverVehicle(Integer driverVehicleId):
+        // ... Deletion logic here
+        return void
+
+
+/------------------------------------------------------------------------------
+// Driver_table Class
+/------------------------------------------------------------------------------
+class Driver_table:
+    private Integer driverId
+    private String driverName
+
+    public createDriver(Integer driverId, driverDtls):
+        // ... Insert driver record into the database
+        return void
+
+    public readDriver(Integer driverId) -> driverDtls:
+        // ... Retrieve driver record from the database
+        return driverDtls
+
+    public updateDriver(Integer driverId, driverDtls):
+        // ... Update driver record in the database
+        return void
+
+    public deleteDriver(Integer driverId):
+        // ... Delete driver record from the database
+        return void
+
+
+/------------------------------------------------------------------------------
+// Vehicle_table Class
+/------------------------------------------------------------------------------
+class Vehicle_table:
+    private Integer vehicleId
+    private String vinNum
+
+    public createVehicle(Integer vehicleId, vehicleDtls):
+        // ... Insert vehicle record into the database
+        return void
+
+    public readVehicle(Integer vehicleId) -> vehicleDtls:
+        // ... Retrieve vehicle record from the database
+        return vehicleDtls
+
+    public updateVehicle(Integer carId):
+        // ... Update vehicle record in the database
+        return void
+
+    public deleteVehicle(Integer carId):
+        // ... Delete vehicle record from the database
+        return void
+
+
+/------------------------------------------------------------------------------
+// Driver_Vehicle_table Class
+/------------------------------------------------------------------------------
+class Driver_Vehicle_table:
+    private [Integer, Integer] driverVehicleId
+    private Integer driverId
+    private Integer vehicleId
+
+    public createDriverVehicle(Array[Integer, Integer] driverVehicleId, driverVehicleDtls):
+        // ... Insert driver_vehicle record into the database
+        return void
+
+    public readDriverVehicle(Integer driverVehicleId) -> driverVehicleDtls:
+        // ... Retrieve driver_vehicle record from the database
+        return driverVehicleDtls
+
+    public updateDriverVehicle(Integer driverVehicleId, driverVehicleDtls):
+        // ... Update driver_vehicle record in the database
+        return void
+
+    public deleteDriverVehicle(Integer driverVehicleId):
+        // ... Delete driver_vehicle record from the database
+        return void
+
+
+/------------------------------------------------------------------------------
+// Truck_table Class
+/------------------------------------------------------------------------------
+class Truck_table:
+    private Integer truckId
+    private String truckType
+
+    public createTruck(Integer truckId, truckDtls):
+        // ... Insert truck record into the database
+        return void
+
+    public readTruck(Integer truckId) -> truckDtls:
+        // ... Retrieve truck record from the database
+        return truckDtls
+
+    public updateTruck(Integer truckId, truckDtls):
+        // ... Update truck record in the database
+        return void
+
+    public deleteTruck(Integer truckId):
+        // ... Delete truck record from the database
+        return void
+
+
+/------------------------------------------------------------------------------
+// Car_table Class
+/------------------------------------------------------------------------------
+class Car_table:
+    private Integer carId
+    private String carType
+
+    public createCar(Integer carId, carDtls):
+        // ... Insert car record into the database
+        return void
+
+    public readCar(Integer carId) -> carDtls:
+        // ... Retrieve car record from the database
+        return carDtls
+
+    public updateCar(Integer carId, carDtls):
+        // ... Update car record in the database
+        return void
+
+    public deleteCar(Integer carId):
+        // ... Delete car record from the database
+        return void

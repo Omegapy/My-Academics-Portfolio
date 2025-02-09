@@ -1,0 +1,149 @@
+'
+' Vehicle Database Management System Class Diagram
+' Version 4
+'
+' Alexander Ricciardi
+' January 22, 2025
+' 
+@startuml
+
+'
+' Entity Classes
+'
+class "Driver" <<entity>> {
+  -driverId: Integer
+  -lastName: String
+  -cars: List<Car>
+}
+
+class "Vehicle" <<entity>> {
+  -vehicleId: Integer
+  -vinNum: String
+  -driverIds: List<Integer>
+  +drive()
+}
+
+class "Truck" <<entity>> {
+  -truckId: Integer
+  -truckType: String
+}
+
+class "Car" <<entity>> {
+  -carId: Integer
+  -carType: String
+}
+
+'
+' Control Class
+'
+class "DriverCarManager" <<control>> {
++createDriver(driverId: Integer, driverDtls): Void
++readDriver(driverId: Integer): driverDtls
++updateDriver(driverId: Integer, driverDtls): Void
++deleteDriver(driverId: Integer): Void
+
++createVehicle(vehiculeId: Integer, vehicleDtls): Void
++readVehicle(vehicleId: Integer): vehicleDtls
++updateVehicle(carId: Integer): Void
++deleteVehicle(carId: Integer): Void
+
++createCar(carId: Integer, carDtls): Void
++readCar(carId: Integer): carDtls
++updateCar(carId: Integer, carDtls): Void
++deleteCar(carId: Integer): Void
+
++createTruck(truckId: Integer, truckDtls): Void
++readTruck(truckId: Integer): truckDtls
++updateTruck(truckId: Integer, truckDtls): Void
++deleteTruck(truckId: Integer): Void
+
++createDriverVehicle(driverVehicleId: Array[Integer, Integer], driverVehicleDtls): Void
++readDriverVehicle(driverVehicleId: Integer): driverVehicleDtls
++updateDriverVehicle(driverVehicleId: Integer, driverVehicleDtls): Void
++deleteDriverVehicle(driverVehicleId: Integer): Void
+}
+
+'
+' Table Classes
+'
+class "Driver_table" <<table>> {
+  -driverId: Integer
+  -driverName: String
+
+  +createDriver(driverId: Integer, driverDtls): Void
+  +readDriver(driverId: Integer): driverDtls
+  +updateDriver(driverId: Integer, driverDtls): Void
+  +deleteDriver(driverId: Integer): Void
+}
+
+class "Vehicle_table" <<table>> {
+  -vehicleId: Integer
+  -vinNum: String
+
+  +createVehicle(vehicleId: Integer, vehicleDtls): Void
+  +readVehicle(vehicleId: Integer): vehicleDtls
+  +updateVehicle(carId: Integer): Void
+  +deleteVehicle(carId: Integer): Void
+}
+
+class "Driver_Vehicle_table" <<table>> {
+  -driverVehicleId: [Integer, Integer]
+  -driverId: Integer
+  -vehicleId: Integer
+
+  +createDriverVehicle(driverVehicleId: Array[Integer, Integer], driverVehicleDtls): Void
+  +readDriverVehicle(driverVehicleId: Integer): driverVehicleDtls
+  +updateDriverVehicle(driverVehicleId: Integer, driverVehicleDtls): Void
+  +deleteDriverVehicle(driverVehicleId: Integer): Void
+}
+
+class "Truck_table" <<table>> {
+  -truckId: Integer
+  -truckType: String
+
+  +createTruck(truckId: Integer, truckDtls): Void
+  +readTruck(truckId: Integer): truckDtls
+  +updateTruck(truckId: Integer, truckDtls): Void
+  +deleteTruck(truckId: Integer): Void
+}
+
+class "Car_table" <<table>> {
+  -carId: Integer
+  -carType: String
+
+  +createCar(carId: Integer, carDtls): Void
+  +readCar(carId: Integer): carDtls
+  +updateCar(carId: Integer, carDtls): Void
+  +deleteCar(carId: Integer): Void
+}
+
+'
+' Relationships
+'
+' Inheritance (Vehicle is a superclass of Truck and Car)
+Vehicle <|-- Truck
+Vehicle <|-- Car
+
+' Driver can drive many Vehicles (1..N)
+Driver "1" --> "1..N" Vehicle : drives
+
+' Driver and Vehicle both use the DriverCarManager
+Driver "1..N" --> "1" DriverCarManager : uses
+Vehicle "1..N" --> "1" DriverCarManager : uses
+
+' DriverCarManager uses the database tables
+DriverCarManager --> Driver_table : uses
+DriverCarManager --> Vehicle_table : uses
+DriverCarManager --> Car_table : uses
+DriverCarManager --> Truck_table : uses
+DriverCarManager --> Driver_Vehicle_table : uses
+
+' Driver_Vehicle_table use the Driver_table and Vehicle_table
+Driver_Vehicle_table --> Driver_table : uses
+Driver_Vehicle_table --> Vehicle_table : uses
+
+' Car_table and Truck_table use the Vehicle_table
+Car_table --> Vehicle_table : uses
+Truck_table --> Vehicle_table : uses
+
+@enduml
