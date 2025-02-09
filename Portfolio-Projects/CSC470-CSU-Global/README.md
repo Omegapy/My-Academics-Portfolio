@@ -6,7 +6,7 @@ Grade:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-CSC472 – Software Engineering Course  
+CSC470 – Software Engineering Course  
 Professor: Dr. Vanessa Cooper
 Winter B Semester (24WB) – 2025  
 Student: Alexander (Alex) Ricciardi  
