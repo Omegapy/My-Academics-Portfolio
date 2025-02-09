@@ -325,7 +325,7 @@ Assemble your Lessons Learned Reflection, your source code, and screenshots of t
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC405 Graphics and Visualization WebGL
-Directory: [CSC405 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC405-CSU-Global)   
+Directory: [CSC405 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC405-CSU-Global)   
 Portfolio Assignment 
 Program Name: Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL    
 Fall B (24FB) – 2024  
@@ -407,7 +407,7 @@ Project Map:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC372 Computer Programming 2 Java
-Directory: [CSC372 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC372%20CSU%20Global)   
+Directory: [CSC372 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC372-CSU-Global)   
 Portfolio Assignment Option 1 
 Program Name: Students Manager   
 Spring D (24SD) – 2024  
@@ -465,7 +465,7 @@ Project Map:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC320 Programming 1 Java
-Directory: [CSC320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC320%20CSU%20Global)   
+Directory: [CSC320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC320-CSU-Global)   
 Portfolio Assignment Option 2 
 Program Name: Home Inventory Manager   
 Spring B Semester (24SB) – 2024  
@@ -543,7 +543,7 @@ Compile your Module 1-6 programs with corrections, lessons learned reflection, a
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## ITS320 Basic Programming Python
-Directory: [IT320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/IT320%20CSU%20Global)   
+Directory: [IT320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/IT320-CSU-Global)   
 Portfolio Assignment Option 2  
 File: Home Inventory Mannager.py  
 Winter Semester (24WD) – 2024  
@@ -620,7 +620,7 @@ Program Outputs: Display of home inventory, updated inventory file, and user pro
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC300 Operating Systems and Architecture
-Directory: [CSC300 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC300%20CSU%20Global)  
+Directory: [CSC300 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC300-CSU-Global)  
 File: Solutions for a Business Enterprise-Wide Upgrade.pdf  
 Spring Semester - 2023  
 Date: 04/07/2024  
@@ -694,7 +694,7 @@ as well as create opportunities for exploring new business ventures.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## COSC1030 Computer Science 1
-Directory: [COSC 1030 LCCC](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/COSC%201030%20LCCC)   
+Directory: [COSC 1030 LCCC](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/COSC-01030-LCCC)   
 Portfolio Assignment  
 Fall Semester – 2022  
 Date: 04/07/2024  
@@ -740,7 +740,7 @@ and defeat both lord Salt and the demon Iretrat to save Clarabella and complete 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## ENG102 Composition 2
-Folder: [Eng 1020 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/CSC300%20CSU%20Global)  
+Folder: [Eng 1020 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC300-CSU-Global)  
 File: Navigating the AI Revolution.pdf  
 Winter Semester (24WD) – 2024   
 Date: 04/07/2024  
@@ -809,7 +809,7 @@ and establishing appropriate government regulations and agencies, society can re
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## HUM101 Critical Reasoning
-Folder: [HUM101 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects/HUM101%20CSU%20Global)  
+Folder: [HUM101 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/HUM101-CSU-Global)  
 File: Aristotle's Ethical Deliberation and Virtue: Principles for Ethical AI.pdf  
 Spring Semester (24SD) – 2024   
 Date: 08/04/2024  
