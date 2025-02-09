@@ -43,7 +43,7 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## CSC470 Software Engineering
+## CSC470 Software Engineering  
 Directory: [CSC470-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-8-Portfolio-Project)
 Title: Final Portfolio Project CSC470: Database Model  
 Professor: Dr. Vanessa Cooper
