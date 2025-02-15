@@ -12,6 +12,9 @@ Winter D (24WD) – 2025
 Student: Alexander (Alex) Ricciardi   
 Date: 02/16/2025   
 
+<img width="427" height="200" src="https://github.com/user-attachments/assets/3354f4fd-b43a-4bb3-bdbb-ee177fb65797"></span>
+<img width="427" height="200" src="https://github.com/user-attachments/assets/2d941907-a20a-4965-90f1-6d88031e4fbc"></span>
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
