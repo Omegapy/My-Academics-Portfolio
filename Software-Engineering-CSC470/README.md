@@ -19,7 +19,7 @@ Professor: Dr. Vanessa Cooper
 Winter B (24WB) – 2024   
 Student: Alexander Ricciardi   
 
-Final grade: 
+Final grade: 4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
