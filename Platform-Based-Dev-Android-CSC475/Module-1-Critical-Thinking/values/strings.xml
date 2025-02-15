@@ -1,0 +1,24 @@
+<!--
+===================================================================================================
+This file is a resource file that store the definition of strings,
+including the app name and the text for the TextView.
+
+It is part of the Simple Hello Android App
+Author: Alexander Ricciardi
+Date: 02/14/2025
+
+Requirement: Kotlin
+
+Program Description:
+    This is a simple Hello Android Application written in Kotlin.
+    It displays a simple animation where a TextView ("Hello Android!") bounces around within
+    the screen's boundaries.
+    It also provides a toggle button allowing the user to stop and restart the text animation.
+==================================================================================================
+-->
+<resources>
+    <string name="app_name">Hello Andriod</string>
+    <string name="toggle_button_state1">Start Animation</string>
+    <string name="toggle_button_state2">Stop Animation</string>
+    <string name="bouncing_text">Hello Android!</string>
+</resources>

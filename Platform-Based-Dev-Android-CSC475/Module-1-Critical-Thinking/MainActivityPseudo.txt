@@ -1,0 +1,159 @@
+/*=============================================================================================
+   Program Name: Simple Hello Android App (Pseudocode)
+   Author: Alexander Ricciardi
+   Date: 02/14/2025
+   Description:
+      This program displays a "Hello Android!" TextView that bounces around the screen.
+      When the TextView hits a screen boundary, it bounces (its direction reverses) and its
+      color changes to a dark shade. A background thread performs the animation loop.
+=============================================================================================*/
+
+//------------------------------------------------------------------------------
+// Class: MainActivity
+//------------------------------------------------------------------------------
+class MainActivity extends AppCompatActivity:
+
+    // Member variables controlling the animation and its state
+    volatile Boolean isAnimating = true              // Controls whether the animation loop runs
+    Thread animationThread = null                      // Reference to the background animation thread
+
+    // Variables storing the current animation state: position, velocity, and color hue
+    Float currentX = 0                                 // Current x-coordinate of the TextView
+    Float currentY = 0                                 // Current y-coordinate of the TextView
+    Float currentVx = 5                                // Horizontal velocity (pixels per frame)
+    Float currentVy = 5                                // Vertical velocity (pixels per frame)
+    Float currentHue = 0                               // Current hue value (for color, in HSV)
+
+    //------------------------------------------------------------------------------
+    // Method: onCreate
+    // Description: Initializes the Activity, sets up UI elements and starts the animation.
+    //------------------------------------------------------------------------------
+    function onCreate(Bundle savedInstanceState):
+        call super.onCreate(savedInstanceState)
+        setContentView("activity_main.xml")
+
+        // Retrieve UI elements from the layout
+        container = findViewById("main")                // Root layout (e.g., ConstraintLayout)
+        textView = findViewById("bouncingText")           // TextView that bounces
+        toggleButton = findViewById("toggleButton")       // Button to toggle animation
+
+        // Apply window insets to avoid overlapping system UI elements
+        applyWindowInsets(container):
+            systemBars = getInsets(WindowInsetsCompat.TYPE_SYSTEM_BARS)
+            container.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+
+        // Wait until the layout is complete (dimensions available)
+        container.post:
+            currentX = textView.x                      // Initialize starting x-position
+            currentY = textView.y                      // Initialize starting y-position
+            isAnimating = true
+            call startAnimationThread()
+
+        // Set up the toggle button to start or stop the animation when clicked
+        toggleButton.onClick:
+            if isAnimating == true then:
+                isAnimating = false                     // Stop the animation loop
+                if animationThread != null then:
+                    animationThread.interrupt()         // Interrupt the background thread
+                toggleButton.text = "Start Animation"   // Update button label (from string resource)
+            else:
+                isAnimating = true                      // Resume the animation loop
+                toggleButton.text = "Stop Animation"      // Update button label
+                call startAnimationThread()             // Start a new animation thread
+
+    //------------------------------------------------------------------------------
+    // Method: startAnimationThread
+    // Description: Creates and starts a new background thread that updates the TextView's
+    //              position and color continuously as part of the animation loop.
+    //------------------------------------------------------------------------------
+    function startAnimationThread():
+        container = findViewById("main")
+        textView = findViewById("bouncingText")
+
+        // Get container and TextView dimensions
+        containerWidth = container.width
+        containerHeight = container.height
+        textViewWidth = textView.width
+        textViewHeight = textView.height
+
+        // Compute maximum allowed positions to keep the TextView fully visible
+        maxX = containerWidth - textViewWidth
+        maxY = containerHeight - textViewHeight
+
+        // Initialize local animation state from stored global state
+        x = currentX
+        y = currentY
+        vx = currentVx
+        vy = currentVy
+        hue = currentHue
+
+        // Create a new background thread for the animation loop
+        animationThread = new Thread:
+            while isAnimating == true AND thread is not interrupted do:
+                // Update TextView position based on velocity
+                x = x + vx
+                y = y + vy
+
+                bounced = false
+
+                // Check for horizontal boundaries
+                if x < 0 then:
+                    x = 0
+                    vx = -vx
+                    bounced = true
+                else if x > maxX then:
+                    x = maxX
+                    vx = -vx
+                    bounced = true
+
+                // Check for vertical boundaries
+                if y < 0 then:
+                    y = 0
+                    vy = -vy
+                    bounced = true
+                else if y > maxY then:
+                    y = maxY
+                    vy = -vy
+                    bounced = true
+
+                // On a bounce, update hue and compute a new dark color
+                newColor = null
+                if bounced == true then:
+                    hue = hue + 30
+                    if hue > 360 then:
+                        hue = hue - 360
+                    newColor = HSVToColor(hue, 1, 0.4)    // Generates a dark color
+
+                // Save updated animation state for potential resumption
+                currentX = x
+                currentY = y
+                currentVx = vx
+                currentVy = vy
+                currentHue = hue
+
+                // Post the updated position and color to the UI thread
+                runOnUiThread:
+                    textView.x = x
+                    textView.y = y
+                    if newColor != null then:
+                        textView.setTextColor(newColor)
+
+                // Pause briefly to target ~60 frames per second (approx. 16 ms delay)
+                try:
+                    sleep(16)
+                catch InterruptedException:
+                    interrupt thread   // Restore interrupted status
+                    break out of loop
+
+        // Start the animation thread
+        animationThread.start()
+
+    //------------------------------------------------------------------------------
+    // Method: onDestroy
+    // Description: Cleans up the background thread when the Activity is destroyed.
+    //------------------------------------------------------------------------------
+    function onDestroy():
+        isAnimating = false
+        if animationThread != null then:
+            animationThread.interrupt()
+        call super.onDestroy()

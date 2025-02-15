@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+===================================================================================================
+This file is a resource file that stores the definition of colors.
+
+It is part of the Simple Hello Android App
+Author: Alexander Ricciardi
+Date: 02/14/2025
+
+Requirement: Kotlin
+
+Program Description:
+    This is a simple Hello Android Application written in Kotlin.
+    It displays a simple animation where a TextView ("Hello Android!") bounces around within
+    the screen's boundaries.
+    It also provides a toggle button allowing the user to stop and restart the text animation.
+==================================================================================================
+-->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+===================================================================================================
+This file is a resource file written in XML that defines the user interface layout,
+including the TextView for the "Hello Android!" text and the ToggleButton.
+
+It is part of the Simple Hello Android App
+Author: Alexander Ricciardi
+Date: 02/14/2025
+
+Requirement: Kotlin
+
+Program Description:
+Program Description:
+    This is a simple Hello Android Application written in Kotlin.
+    It displays a simple animation where a TextView ("Hello Android!") bounces around within
+    the screen's boundaries.
+    It also provides a toggle button allowing the user to stop and restart the text animation.
+==================================================================================================
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bouncingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouncing_text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/toggleButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toggle_button_state1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
