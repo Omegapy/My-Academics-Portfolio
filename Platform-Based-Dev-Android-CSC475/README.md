@@ -49,7 +49,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [)   
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-1-Critical-Thinking)   
 Title: Critical Thinking Assignment 1:       
 
 -----------------------------------------------------------------------------------------------------------------------------
