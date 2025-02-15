@@ -57,7 +57,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Technology Ethics and Global Community ITS325
-Directory: [Technology-Ethics-and-Global-Community-ITS325]()
+Directory: [Technology-Ethics-and-Global-Community-ITS325](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
