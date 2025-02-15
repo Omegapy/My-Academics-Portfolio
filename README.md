@@ -18,8 +18,8 @@ A junior student at Colorado State University Global (CSU Global) pursuing a BS 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
-- [Python](https://www.python.org/)
-- [Jupyter Notebook](https://jupyter.org/)    
+- [Python](https://www.python.org/)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [Kotlin](https://kotlinlang.org/)</span>
+- [Jupyter Notebook](https://jupyter.org/)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [XML](https://www.w3.org/XML/)</span>    
 - [c++](https://isocpp.org/std/the-standard)
 - [Java](https://www.java.com/en/)
 - [WebGL (JavaScript)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
@@ -43,7 +43,7 @@ My Links:
 #### Project Map
 - [Programming 3 cpp Java CSC450](#programming-3-cpp-java-csc450)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Software Engineering CSC470](#software-engineering-csc470)
 - [Artificial Intelligence CSC410](#artificial-intelligence-csc410)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Introduction to Networks ITS315](#introduction-to-networks-its315)
-- [Graphics and Visualization WebGL CSC405](#graphics-and-visualization-webgl-csc405)                               
+- [Graphics and Visualization WebGL CSC405](#graphics-and-visualization-webgl-csc405)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Platform Based Development Android CSC475](#platform-based-development-android-csc475)                               
 - [Data Structures and Algorithms Java CSC 400](#data-structures-and-algorithms-java-csc400)
 - [Programming 2 CSC372 Java](#programming-2-csc372-java)  
 - [Programming 1 CSC320 Java](#programming-1-csc320-java)
@@ -53,6 +53,21 @@ My Links:
 - [Python Data Science](#python-data-science)
 - [Portfolio Projects](#portfolio-projects)
 - [My Resume](#my-resume)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Platform Based Development Android CSC475
+Directory: [Platform-Based-Dev-Android-CSC475](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of simple Andriod Apps from CSC475 – Platform Based Development Android Course
+at Colorado State University Global - CSU Global. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
