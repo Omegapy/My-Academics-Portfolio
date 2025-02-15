@@ -2,7 +2,7 @@
 # Module-8 Portfolio Project
 Name: Final Portfolio Project CSC470: Database Model
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
