@@ -307,7 +307,7 @@ Review the Critical Thinking grading rubric to see how you will be graded for th
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
-This repository is a collection of discussion posts from CSC410 CSC470 – Software Engineering Course  
+This repository is a collection of discussion posts from CSC470 – Software Engineering Course  
 Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
