@@ -41,10 +41,10 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [Programming 3 cpp Java CSC450](#programming-3-cpp-java-csc450)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Software Engineering CSC470](#software-engineering-csc470)
-- [Artificial Intelligence CSC410](#artificial-intelligence-csc410)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Introduction to Networks ITS315](#introduction-to-networks-its315)
-- [Graphics and Visualization WebGL CSC405](#graphics-and-visualization-webgl-csc405)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Platform Based Development Android CSC475](#platform-based-development-android-csc475)                               
-- [Data Structures and Algorithms Java CSC 400](#data-structures-and-algorithms-java-csc400)
+- [Programming 3 cpp Java CSC450](#programming-3-cpp-java-csc450)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Software Engineering CSC470](#software-engineering-csc470)
+- [Artificial Intelligence CSC410](#artificial-intelligence-csc410)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Introduction to Networks ITS315](#introduction-to-networks-its315)
+- [Graphics and Visualization WebGL CSC405](#graphics-and-visualization-webgl-csc405)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Platform Based Development Android CSC475](#platform-based-development-android-csc475)                               
+- [Data Structures and Algorithms Java CSC 400](#data-structures-and-algorithms-java-csc400)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Technology Ethics and Global Community ITS325](#technology-ethics-and-global-community-its325)
 - [Programming 2 CSC372 Java](#programming-2-csc372-java)  
 - [Programming 1 CSC320 Java](#programming-1-csc320-java)
 - [Basic Programming ITS320 Python](#basic-programming-its320-python)  
@@ -53,6 +53,21 @@ My Links:
 - [Python Data Science](#python-data-science)
 - [Portfolio Projects](#portfolio-projects)
 - [My Resume](#my-resume)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Technology Ethics and Global Community ITS325
+Directory: [Technology-Ethics-and-Global-Community-ITS325]()
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of essays from ITS325 – Technology, Ethics, and Global Community ITS325 Course
+at Colorado State University Global - CSU Global. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
