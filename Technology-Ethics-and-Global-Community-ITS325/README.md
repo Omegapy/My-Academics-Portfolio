@@ -13,14 +13,14 @@ This repository is a collection of This repository is a collection of essays fro
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-CSC475 – Platform-Based Development – Android Course    
+ITS325 – Platform-Based Development – Android Course    
 Professor: Dr/ Mortoza Abdullah
 Winter D (24WD) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
 Final grade:  
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 My Links:   
 
 <i><a href="https://www.alexomegapy.com" target="_blank"><img width="25" height="25" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"></i>
@@ -42,15 +42,24 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Module 1 Critical Thinking 
-Directory: [)   
-Title: Critical Thinking Assignment 1:       
+## Module 1 Critical Thinking  
+Directory: []()   
+Title: Critical Thinking Assignment 1: Technological Innovations  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Description:  
 
+Technology and Society
+In a well-written paper, choose three technological innovations and describe the effect each change had on society. Then choose one very recent technological change and predict at least two ways in which society might change as a result of this technology. Be sure to provide detail and use historical examples from the readings or from your own research to support your predictions.
+ 
+Your paper should meet the following requirements:  
+-	Your paper should be 2-3 pages in length, not including the cover page and references page.
+-	Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+-	Your claims should be supported by evidence. Include at least 3 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+-	All references must be cited in the text and listed on the references page, according to APA formatting.
+-	See the rubric below for more details about how you will be graded for this assignment.
 
 
 -------------------------------------------------------------------------------------------
@@ -60,7 +69,7 @@ Assignment Description:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
-This repository is a collection of discussion posts from CSC475 – Platform-Based Development – Android Course    
+This repository is a collection of discussion posts from ITS325 – Technology, Ethics, and Global Community     
 Directory: [Discussions]()
 
 -----------------------------------------------------------------------------------------------------------------------------
