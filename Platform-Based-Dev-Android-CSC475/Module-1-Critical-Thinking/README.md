@@ -12,9 +12,6 @@ Winter D (24WD) – 2025
 Student: Alexander (Alex) Ricciardi   
 Date: 02/16/2025   
 
-<img width="427" height="200" src="https://github.com/user-attachments/assets/3354f4fd-b43a-4bb3-bdbb-ee177fb65797"></span>
-<img width="427" height="200" src="https://github.com/user-attachments/assets/2d941907-a20a-4965-90f1-6d88031e4fbc"></span>
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 Requirements:  
@@ -33,6 +30,11 @@ Please ensure that your submission includes the following components:
 Source code file(s) containing the program implementation.
 A 1-page paper explaining the program's purpose, the obstacles faced during its development, and the skills acquired. The paper should also include screenshots showcasing the successful execution of the program.
 Compile and submit your pseudocode, source code, and screenshots of the application executing the application, the results and GIT repository in a single document.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+<img width="427" height="200" src="https://github.com/user-attachments/assets/3354f4fd-b43a-4bb3-bdbb-ee177fb65797"></span>
+<img width="427" height="200" src="https://github.com/user-attachments/assets/2d941907-a20a-4965-90f1-6d88031e4fbc"></span>
 
 Program Description:
 
