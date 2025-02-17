@@ -43,7 +43,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking  
-Directory: []()   
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325/Module-1-Critical-Thinking)   
 Title: Critical Thinking Assignment 1: Technological Innovations  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -70,7 +70,7 @@ Your paper should meet the following requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from ITS325 – Technology, Ethics, and Global Community     
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
