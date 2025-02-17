@@ -15,7 +15,7 @@ Date: 02/16/2025
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:   
-Module-2 CTA - Technological Innovations – Essay: Critical Thinking Assignment 1: Technological Innovations   
+Module-1 CTA - Technological Innovations – Essay: Critical Thinking Assignment 1: Technological Innovations   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
