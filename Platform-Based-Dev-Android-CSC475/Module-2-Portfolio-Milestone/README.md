@@ -23,17 +23,6 @@ Requirements:
 
 Assignment Directions:  
 
-
------------------------------------------------------------------------------------------------------------------------------
-
-<img width="427" height="200" src="https://github.com/user-attachments/assets/3354f4fd-b43a-4bb3-bdbb-ee177fb65797"></span>
-<img width="427" height="200" src="https://github.com/user-attachments/assets/2d941907-a20a-4965-90f1-6d88031e4fbc"></span>
-
------------------------------------------------------------------------------------------------------------------------------
-
-
-Program Description:
-
 Portfolio Milestone (125 Points)
 For your Portfolio Project you will develop an application in four stages, which will be covered in Modules 2, 4, 6, 8. The project can be of your choice, but here are some project ideas to consider:
 
@@ -44,9 +33,18 @@ Language learning app: Build an app that offers vocabulary exercises and quizzes
 Event planning app: Create an app to help users organize and manage events, including invitations and reminders.
 The project should be completed in four parts, following agile methodology:
 
-Requirements Gathering and Analysis (Module 2): Deliver a document (2 pages) that outlines the purpose and scope of the app. Identify the target audience and their needs. List the key features and functionalities of the app. Analyze any specific UI/UX requirements.
+Requirements Gathering and Analysis (Module 2):  
+Deliver a document (2 pages) that outlines the purpose and scope of the app. Identify the target audience and their needs. List the key features and functionalities of the app. Analyze any specific UI/UX requirements.
 
-⚠️Note:
+-----------------------------------------------------------------------------------------------------------------------------
+
+<img width="427" height="200" src="https://github.com/user-attachments/assets/3354f4fd-b43a-4bb3-bdbb-ee177fb65797"></span>
+<img width="427" height="200" src="https://github.com/user-attachments/assets/2d941907-a20a-4965-90f1-6d88031e4fbc"></span>
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Program Description:
 
 - This project contains a document that describes the requirements, UI/UX analysis, audience, and scope of an Android recipe app. The app's scope is to provide access to meal recipes to a user through a UI system that includes view, search, add, modify, and favorite recipe functionalities. 
 - The app will be developed using Kotlin and Jetpack Compose, with plans for future integration of a Large Language Model (LLM) chatbot and the TheMealDB API (n.d.) to access and share recipe data.
