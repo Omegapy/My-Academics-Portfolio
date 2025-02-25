@@ -38,12 +38,6 @@ Deliver a document (2 pages) that outlines the purpose and scope of the app. Ide
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-<img width="427" height="200" src="https://github.com/user-attachments/assets/3354f4fd-b43a-4bb3-bdbb-ee177fb65797"></span>
-<img width="427" height="200" src="https://github.com/user-attachments/assets/2d941907-a20a-4965-90f1-6d88031e4fbc"></span>
-
------------------------------------------------------------------------------------------------------------------------------
-
-
 Program Description:
 
 - This project contains a document that describes the requirements, UI/UX analysis, audience, and scope of an Android recipe app. The app's scope is to provide access to meal recipes to a user through a UI system that includes view, search, add, modify, and favorite recipe functionalities. 
