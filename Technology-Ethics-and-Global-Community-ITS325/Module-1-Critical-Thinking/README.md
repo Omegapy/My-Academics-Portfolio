@@ -7,7 +7,7 @@ Grade:
 -----------------------------------------------------------------------------------------------------------------------------
 
 ITS325 – Platform-Based Development – Android Course    
-Professor: Dr/ Mortoza Abdullah
+Professor: Dr. Mortoza Abdullah  
 Winter D (24WD) – 2025   
 Student: Alexander (Alex) Ricciardi  
 Date: 02/16/2025  
