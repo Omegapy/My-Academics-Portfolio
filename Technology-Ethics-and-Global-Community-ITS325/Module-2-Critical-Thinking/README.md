@@ -7,7 +7,7 @@ Grade:
 -----------------------------------------------------------------------------------------------------------------------------
 
 ITS325 – Platform-Based Development – Android Course    
-Professor: Dr. Mortoza Abdullah
+Professor: Dr. Mortoza Abdullah  
 Winter D (24WD) – 2025   
 Student: Alexander (Alex) Ricciardi  
 Date: 02/23/2025  
@@ -30,8 +30,8 @@ Use the following as a guideline for your assessment and support your work with 
 - Vulnerability: What factors contribute to the vulnerability of certain populations due to this technology? What besides humans may be made vulnerable by this technology?
 - Distribution: What structures—social, institutional or physical—would you suggest putting in place for examining the distributive consequences of this technology?
 - Learning: Describe any lessons that you think are to be learned from the current use of this technology. Are there barriers to this learning being conveyed to decision makers?
-Your paper should be well written and meet the following requirements:
 
+Your paper should be well written and meet the following requirements:  
 Your paper should be 2-3 pages in length, not including the cover page and references page.  
 Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
 Your claims should be supported by evidence. Include at least 3 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.  
