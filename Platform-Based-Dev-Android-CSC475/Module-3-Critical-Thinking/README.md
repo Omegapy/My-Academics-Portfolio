@@ -63,7 +63,7 @@ Project Map:
 The project used files from the Android Studio’s Empty View Activity template. Additionally, only the template files that were modified to accommodate the functionality of the application are listed below: 
 
 <pre>
-MainActivity.kt
+├── MainActivity.kt
 ├── model/                        # Model layer
 │   └── Task.kt                     # Core data structures
 ├── data/                         # ViewModel layer
