@@ -65,20 +65,20 @@ The project used files from the Android Studio’s Empty View Activity template.
 <pre>
 ├── MainActivity.kt
 ├── model/                        # Model layer
-│   └── Task.kt                     # Core data structures
+│   └── Task.kt                      # Core data structures
 ├── data/                         # ViewModel layer
-│   ├── TaskRepository.kt           # Data operations
-│   ├── DatabaseInitializer.kt      # Database setup
-│   └── database/                   # Database 
-│       └── TaskDatabase.kt           # SQLite operations
+│   ├── TaskRepository.kt            # Data operations
+│   ├── DatabaseInitializer.kt       # Database setup
+│   └── database/                    # Database 
+│       └── TaskDatabase.kt             # SQLite operations
 └── ui/                           # View layer
-    ├── screens/                    # Main screens
-    │   └── TodoListScreen.kt          # Main task list screen
-    ├── components/                 # UI components
-    │   ├── TaskItem.kt                # Individual task 
-    │   └── AddTaskDialog.kt           # Task creation dialog
-    └── theme/                      # UI styling
-        ├── Theme.kt                  # Material theme 
+    ├── screens/                     # Main screens
+    │   └── TodoListScreen.kt           # Main task list screen
+    ├── components/                  # UI components
+    │   ├── TaskItem.kt                 # Individual task 
+    │   └── AddTaskDialog.kt            # Task creation dialog
+    └── theme/                       # UI styling
+        ├── Theme.kt                    # Material theme 
         ├── Color.kt               
         └── Type.kt     </pre>
 
