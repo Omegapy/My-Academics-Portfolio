@@ -33,9 +33,10 @@ Compile and submit your pseudocode, source code, and screenshots of the applicat
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+<img width="200" height="400" src="https://github.com/user-attachments/assets/f3bf6bb7-3438-4d3b-af59-c53f9d9b7a0c">
+<img width="200" height="400" src="https://github.com/user-attachments/assets/198d2ae2-81f5-465f-b0df-e827a1169199">
 
 -----------------------------------------------------------------------------------------------------------------------------
-
 
 Program Description:
 
@@ -61,6 +62,7 @@ Project Map:
 
 The project used files from the Android Studio’s Empty View Activity template. Additionally, only the template files that were modified to accommodate the functionality of the application are listed below: 
 
+<pre>
 ├── model/                        # Model layer
 │   └── Task.kt                     # Core data structures
 ├── data/                         # ViewModel layer
@@ -77,7 +79,7 @@ The project used files from the Android Studio’s Empty View Activity template.
     └── theme/                      # UI styling
         ├── Theme.kt                  # Material theme 
         ├── Color.kt               
-        └── Type.kt  
+        └── Type.kt     </pre>
 
 -----------------------------------------------------------------------------------------------------------------------------
 
