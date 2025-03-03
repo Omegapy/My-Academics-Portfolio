@@ -2,7 +2,7 @@
 # Module-2 Critical Thinking 
 Essay Name: Critical Thinking Assignment 2: The PC A Tools for Social Equity  
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
