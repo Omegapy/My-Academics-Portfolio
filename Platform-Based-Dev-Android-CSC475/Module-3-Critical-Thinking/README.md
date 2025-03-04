@@ -1,5 +1,5 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Module 2 Critical Thinking 
+# Module 3 Critical Thinking 
 Program Name: To Do List App
 
 Grade: 
@@ -57,8 +57,7 @@ The program is a small Android application that allows the user to manage a to d
 
 Project Map:
 
--	CTA1 To Do List App.docx (this file, App documentation)
--	ToDoListAppPseudo.txt (app pseudocode)
+-	Module 3 Critical Thinking Assignment.docx (this file, App documentation)
 
 The project used files from the Android Studio’s Empty View Activity template. Additionally, only the template files that were modified to accommodate the functionality of the application are listed below: 
 
