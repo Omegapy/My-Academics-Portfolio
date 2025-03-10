@@ -17,7 +17,6 @@ Date: 03/09/2025
 Requirements:  
 - Kotlin
 - Jetpack Compose
--
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -38,7 +37,10 @@ Design (Module 4): Deliver a document (2 pages) that provides the design details
 Program Description:
 
 - This document provides the design details for the app including the architecture, components, and overall layout of the User Interface.
-- The app will be developed using Kotlin and Jetpack Compose, with plans for future integration of a Large Language Model (LLM) chatbot and the TheMealDB API (n.d.) to access and share recipe data.
+- The app will be developed using Kotlin and Jetpack Compose, with plans for future integration of a Large Language Model (LLM) chatbot and the TheMealDB API to access and share recipe data.
+
+-----------------------------------------------------------------------------------------------------------------------------
+<img width="400" height="420" src="https://github.com/user-attachments/assets/a54a42fc-7cdc-4ea9-9d1c-3081582fa52b">
 
 -----------------------------------------------------------------------------------------------------------------------------
 
