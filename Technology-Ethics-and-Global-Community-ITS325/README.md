@@ -45,7 +45,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Critical Thinking  
-Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325#module-3-critical-thinking)   
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325/Module-3-Critical-Thinking)   
 Title: Critical Thinking Assignment 3: The Capability Approach 
 
 -----------------------------------------------------------------------------------------------------------------------------
