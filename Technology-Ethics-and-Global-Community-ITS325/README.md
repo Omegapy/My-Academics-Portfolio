@@ -37,9 +37,38 @@ My Links:
 
 #### Project Map  
 
+- [Module 3 Critical Thinking](#module-3-critical-thinking)
 - [Module 2 Critical Thinking](#module-2-critical-thinking) 
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 3 Critical Thinking  
+Directory: [Module-3-Critical-Thinking]()   
+Title: Critical Thinking Assignment 3: The Capability Approach 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Freedom and Social Justice
+This week's Critical Thinking assignment is based on "Wellbeing, Freedom and Social Justice : The Capability Approach Re-examinedLinks to an external site.." Read the article and begin your paper by briefly describing Ingrid Robeyns' capability approach. What are some of the worries of the skeptics? Then expand on the scope and development of the capability approach.
+
+In your paper, be sure to provide detail and use examples to support your assessment of the technology's potential and a yardstick for the evaluation of prosperity and progress.
+
+Your paper should be well written and meet the following requirements:
+
+- Your paper should be 2-3 pages in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence. Include at least 3 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+- See the rubric below for more details about how you will be graded for this assignment.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
