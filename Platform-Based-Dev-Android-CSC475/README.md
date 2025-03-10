@@ -44,9 +44,128 @@ My Links:
 
 #### Project Map  
 
+- [Module 4 Portfolio Milestone](#module-4-portfolio-milestone)  
+- [Module 3 Critical Thinking](#module-3-critical-thinking)  
 - [Module 2 Portfolio Milestone](#module-2-portfolio-milestone)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 4 Portfolio Milestone 
+Directory: [Module-4-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-4-Portfolio-Milestone)   
+Title: Module-4 Portfolio Milestone: My Recipe App    
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Directions:  
+
+For your Portfolio Project you will develop an application in four stages, which will be covered in Modules 2, 4, 6, 8. The project can be of your choice, but here are some project ideas to consider:
+
+- Social media aggregator app: Create an app that collects and displays posts from multiple social media platforms.  
+- Fitness tracker app: Develop an app that tracks and analyzes users' fitness activities, including steps, calories, and distance.
+- Recipe app: Design an app that provides a collection of recipes with search and favorite features.  
+- Language learning app: Build an app that offers vocabulary exercises and quizzes for different languages.  
+- Event planning app: Create an app to help users organize and manage events, including invitations and reminders.  
+
+Design (Module 4): Deliver a document (2 pages) that provides the design details for the app. This includes the architecture, components, and overall layout of the user interface. Include wireframes or mockups to illustrate the app's design.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:
+
+- This document provides the design details for the app including the architecture, components, and overall layout of the User Interface.
+- The app will be developed using Kotlin and Jetpack Compose, with plans for future integration of a Large Language Model (LLM) chatbot and the TheMealDB API to access and share recipe data.
+
+-----------------------------------------------------------------------------------------------------------------------------
+<img width="400" height="420" src="https://github.com/user-attachments/assets/a54a42fc-7cdc-4ea9-9d1c-3081582fa52b">
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Project Map:  
+- Module-2 Milesone.pdf – Document about the requirements, UI/UX analysis, audience, and scope of an Android recipe app.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 3 Critical Thinking 
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-3-Critical-Thinking)   
+Title: Critical Thinking Assignment 3: To Do List App      
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Option #1: “To Do List”   
+Challenge: Develop a to-do list application that allows users to add, delete, and mark tasks as completed. Implement data storage using SQLite database to store and retrieve the to-do items. Focus on understanding data persistence concepts in Android.
+
+Please ensure that your submission includes the following components:
+
+Source code file(s) containing the program implementation.
+A 1-page paper explaining the program's purpose, the obstacles faced during its development, and the skills acquired. The paper should also include screenshots showcasing the successful execution of the program.
+Compile and submit your pseudocode, source code, and screenshots of the application executing the application, the results and GIT repository in a single document.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+<img width="100" height="200" src="https://github.com/user-attachments/assets/f3bf6bb7-3438-4d3b-af59-c53f9d9b7a0c">
+<img width="100" height="200" src="https://github.com/user-attachments/assets/198d2ae2-81f5-465f-b0df-e827a1169199">
+<img width="100" height="200" src="https://github.com/user-attachments/assets/2224f1b8-58f5-4b53-bfef-c9de2d5156a0">
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:
+
+The program is a small Android application that allows the user to manage a to do list.  
+- The app uses the Model-View-ViewModel (MVVM) architecture.
+- The app uses Jetpack Compose to generate its UI.
+- The user can add, delete, and complete tasks.
+- The tasks are prioritized by relevance.
+- The tasks can be displayed sorted by priority.
+- The app uses SQLite to store task data.
+
+⚠️My notes:
+
+- I added a sort functionality allowing the user to display tasks by priorities from Urgent to Low.
+- Methods to update tasks and update task priorities are added to the database backend operation, but not implemented in the front end, this needs to be implemented in the future version of the app.  
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Project Map:
+
+-	Module 3 Critical Thinking Assignment.docx (App documentation)
+
+The project used files from the Android Studio’s Empty View Activity template. Additionally, only the template files that were modified to accommodate the functionality of the application are listed below: 
+
+<pre>
+├── MainActivity.kt
+├── model/                        # Model layer
+│   └── Task.kt                      # Core data structures
+├── data/                         # ViewModel layer
+│   ├── TaskRepository.kt            # Data operations
+│   ├── DatabaseInitializer.kt       # Database setup
+│   └── database/                    # Database 
+│       └── TaskDatabase.kt             # SQLite operations
+└── ui/                           # View layer
+    ├── screens/                     # Main screens
+    │   └── TodoListScreen.kt           # Main task list screen
+    ├── components/                  # UI components
+    │   ├── TaskItem.kt                 # Individual task 
+    │   └── AddTaskDialog.kt            # Task creation dialog
+    └── theme/                       # UI styling
+        ├── Theme.kt                    # Material theme 
+        ├── Color.kt               
+        └── Type.kt     </pre>
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -94,7 +213,7 @@ Project Map:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
 Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-1-Critical-Thinking)   
-Title: Critical Thinking Assignment 1:       
+Title: Critical Thinking Assignment 1: Hello Android App   
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
