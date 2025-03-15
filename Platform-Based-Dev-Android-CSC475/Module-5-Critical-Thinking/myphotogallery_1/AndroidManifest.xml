@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*==================================================================================================
+    Program Name: To Do List App
+    Author: Alexander Ricciardi
+    Date: 03/02/2025
+
+    Requirement:
+        Kotlin 2.0.0
+        Jetpack Compose 2024.04.01
+        SQLite
+        Minimum SDK: 24
+        Target SDK: 35
+
+    Program Description:
+       The program is a small Android application that allows the user to manage a to do list
+            •	The app uses the Model-View-ViewModel (MVVM) architecture
+            •	The app uses Jetpack Compose to generate its UI
+            •	The user can add, delete, and complete tasks
+            •	The tasks are prioritized by relevance
+            •	The tasks can be displayed sorted by priority
+            •	The app uses SQLite to store task data
+==================================================================================================*/
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToDoListApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ToDoListApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
