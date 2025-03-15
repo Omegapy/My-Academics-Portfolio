@@ -1,5 +1,5 @@
 /*==================================================================================================
-    Program Name: To Do List App
+    Program Name: My Photo Gallery App
     Author: Alexander Ricciardi
     Date: 03/16/2025
 

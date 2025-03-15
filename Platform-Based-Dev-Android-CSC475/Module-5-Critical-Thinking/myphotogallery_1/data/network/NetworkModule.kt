@@ -1,5 +1,5 @@
 /*==================================================================================================
-    Program Name: To Do List App
+    Program Name: My Photo Gallery App
     Author: Alexander Ricciardi
     Date: 03/16/2025
 
@@ -52,7 +52,7 @@ object NetworkModule {
     /**
      * Pexels API key
      */
-    const val API_KEY = "Pet your Pexels API Key Here"
+    const val API_KEY = "3ig3SveXZZFVCvugK5KFGFtX2jacR9mW6LwP9gTA8SpU5e2mI9fjF7RO"
     
     /**
      * Create and configure an OkHttpClient object
