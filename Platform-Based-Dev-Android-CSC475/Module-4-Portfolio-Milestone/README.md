@@ -45,7 +45,7 @@ Program Description:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:  
-- Module-2 Milesone.pdf – Document about the requirements, UI/UX analysis, audience, and scope of an Android recipe app.
+- Module-4 Milesone.pdf – Document about the design details for the app. This includes the architecture, components, and overall layout of the user interface. Including wireframes.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
