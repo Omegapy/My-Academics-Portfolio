@@ -76,7 +76,6 @@ App Requirements:
 - Compose BOM: Bill of materials for consistent Compose dependencies
 - TheMealDB API key (themealdb.com)
 
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:  
