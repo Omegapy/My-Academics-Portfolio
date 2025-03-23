@@ -39,12 +39,21 @@ Program Description:
 
 The project contains the document (Module-6-Milestone.pdf) for my portfolio milestone module 6. It is the second step in developing my Android “My Recipe App.” The app allows a user to access meal recipes. The recipes can be stored on the user's device and fetched from TheMealDB (n.d.a) database using API calls. The UI system includes view, search, add, modify, and favorite recipe functionalities. The UI system will include view, search, add, modify, and favorite recipe functionalities. The app is being developed using Kotlin, Jetpack Compose, and the Model-View-ViewModel (MVVM) architecture. This document provides the design details for the app including the architecture, components, and overall layout of the User Interface.
 
-Note that the source code is not available in this repository, I may add link to the app repository to this README.md file when the app is finished. 
+Note that the source code is not available in this repository, I may add a link to the app repository to this README.md file when the app is finished. 
 
 -----------------------------------------------------------------------------------------------------------------------------
-<img width="200" height="400" src="">
-![image](https://github.com/user-attachments/assets/eebf0e41-5cad-4433-b1ce-a248445a76b4)
 
+<img width="200" height="400" src="https://github.com/user-attachments/assets/eebf0e41-5cad-4433-b1ce-a248445a76b4">
+<img width="200" height="400" src="https://github.com/user-attachments/assets/791f786f-328c-4fd3-b1e3-c452a2a6b5b9">
+
+<img width="200" height="400" src="https://github.com/user-attachments/assets/c21ff78d-a015-4cd1-9c75-3d84027ceb1e">
+<img width="200" height="400" src="https://github.com/user-attachments/assets/fcc7543d-36a2-4323-8551-325e6794bcd8">
+
+<img width="200" height="400" src="https://github.com/user-attachments/assets/c54a6559-e49b-460c-89ea-1fd070073059">
+<img width="200" height="400" src="https://github.com/user-attachments/assets/6e958adf-3afc-4692-8298-66b8f7a2ec12">
+
+<img width="200" height="400" src="https://github.com/user-attachments/assets/05e24bba-365d-4455-a083-3a177ad2eaba">
+<img width="200" height="400" src="https://github.com/user-attachments/assets/dee3ed30-5203-485b-9263-a2bf764d89ff">
 
 -----------------------------------------------------------------------------------------------------------------------------
 
