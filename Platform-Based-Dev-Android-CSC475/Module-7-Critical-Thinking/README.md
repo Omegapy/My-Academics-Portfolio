@@ -63,7 +63,6 @@ The application is developed using Kotlin 2.0.21 and the following:
 Project Map:
 
 - Module-7-CTA-UnitCoverterTest-App.docx (this file, App documentation)
-- index.html (Test report)
 
 The project used files from the Android Studio’s Empty View Activity template. Additionally, only the template files that were modified to accommodate the functionality of the application are listed below: 
 
