@@ -33,6 +33,9 @@ Please ensure that your submission includes the following components:
 - A 1-page paper explaining the program's purpose, the obstacles faced during its development, and the skills acquired. The paper should also include screenshots showcasing the successful execution of the program.
 - Compile and submit your pseudocode, source code, and screenshots of the application executing the application, the results and GIT repository in a single document.  
 
+The app code also provides unit tests using the Android Testing Framework to test conversion calculations accuracy.  
+The main purpose of this project is to demonstrate the implementation of unit tests within Android Studio using JUnit and Hamcrest.
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 <img width="200" height="400" src="https://github.com/user-attachments/assets/3bb73b69-c2f7-452d-94f7-3fe8da4cd6ac">
