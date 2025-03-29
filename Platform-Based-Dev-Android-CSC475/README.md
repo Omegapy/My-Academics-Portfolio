@@ -120,7 +120,7 @@ App Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:  
-- Module-5 Milesone.pdf – Document about the app.
+- Module-6 Milesone.pdf – Document about the app.
 <pre>
 ├── app
 │   ├── main
