@@ -79,7 +79,9 @@ App Requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:  
-- Module-6 Milesone.pdf – Document about the app.
+- Module-6 Milesone.pdf – Document about the app.  
+
+⚠️ The following files are not available in this repository
 <pre>
 ├── app
 │   ├── main
