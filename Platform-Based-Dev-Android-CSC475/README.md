@@ -61,8 +61,6 @@ Title: Module-6 Portfolio Milestone: My Recipe App
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------------------
-
 Assignment Directions:  
 
 For your Portfolio Project you will develop an application in four stages, which will be covered in Modules 2, 4, 6, 8. The project can be of your choice, but here are some project ideas to consider:
