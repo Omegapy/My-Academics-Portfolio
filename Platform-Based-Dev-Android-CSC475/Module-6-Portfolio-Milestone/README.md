@@ -37,7 +37,7 @@ Implementation and Source Details (Module 6): This deliverable should contain th
 
 Program Description:
 
-The project contains the document (Module-6-Milestone.pdf) for my portfolio milestone module 6. It is the second step in developing my Android “My Recipe App.” The app allows a user to access meal recipes. The recipes can be stored on the user's device and fetched from TheMealDB (n.d.a) database using API calls. The UI system includes view, search, add, modify, and favorite recipe functionalities. The UI system will include view, search, add, modify, and favorite recipe functionalities. The app is being developed using Kotlin, Jetpack Compose, and the Model-View-ViewModel (MVVM) architecture. This document provides the design details for the app including the architecture, components, and overall layout of the User Interface.
+The project contains the document (Module-6-Milestone.pdf) for my portfolio milestone module 6. It is the second step in developing my Android “My Recipe App.” The app allows a user to access meal recipes. The recipes can be stored on the user's device and fetched from TheMealDB (n.d.a) database using API calls. The UI system includes view, search, add, modify, and favorite recipe functionalities. The app is being developed using Kotlin, Jetpack Compose, and the Model-View-ViewModel (MVVM) architecture. This document provides the design details for the app including the architecture, components, and overall layout of the User Interface.
 
 Note that the source code is not available in this repository, I may add a link to the app repository to this README.md file when the app is finished. 
 
