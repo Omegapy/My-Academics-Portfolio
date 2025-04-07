@@ -20,7 +20,7 @@ Requirements:
 
 Assignment Directions:  
 
-Portfolio Project (125 Points)
+Portfolio Project 
 Review the Portfolio Project instructions in the Module 2: Portfolio Milestone. For this week's assignment, you are required to submit the Testing, Deployment, and Maintenance document. This final document should encompass the testing process, including details of any unit tests or UI tests that were conducted. Additionally, explain the deployment process of the app and address any challenges encountered during the deployment phase. Finally, discuss strategies for ongoing maintenance, bug fixes, and potential future enhancements for the app.
 
 Please ensure that your paper adheres to APA guidelines, which can be found in the CSU Global Writing Center available in the left-hand navigation panel. The paper should be 2 pages long, excluding the references section.   
@@ -174,7 +174,6 @@ Tests
 │   │           └── database/ (-- DATABASE LAYER TESTS --)  
 │   │               └── RecipeDatabaseTest.kt (Room database operations - migrations)  
 </pre>
-
 
 -----------------------------------------------------------------------------------------------------------------------------
 
