@@ -1,6 +1,6 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Module 8 Portfolio Project
-Program Name: My Recipe App
+Program Name: My Recipe App  
 Grade: 
 
 CSC475 – Platform-Based Development Android Course  
