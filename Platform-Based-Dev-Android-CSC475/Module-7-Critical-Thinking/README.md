@@ -2,7 +2,7 @@
 # Module 7 Critical Thinking 
 Program Name: Unit Converter Testing
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
