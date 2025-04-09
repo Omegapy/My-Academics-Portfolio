@@ -1,5 +1,5 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Portfolio Project
+# Portfolio Project CSC450 – Programming III – C++/Java Course  
 Program Names: 
 - Thread Counting Synchronization (C++)
 - Thread Counting Synchronization (Java)
