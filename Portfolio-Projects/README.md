@@ -275,7 +275,7 @@ Android might perform a quick security scan via Google Play Protect.
 After a few moments, the app should be installed, and its icon will appear in the user's app list.
 Important Considerations:
 
-⚠️ Trust: Only install APKs from trussted sources. Downloading APKs from random websites can install malware. The My Recipe App APK file lives in my personel Google Drive.
+⚠️ Trust: Only install APKs from trusted sources. Downloading APKs from random websites can install malware. The My Recipe App APK file lives in my personel Google Drive.
 
 4. Permissions: After installation, the app might ask for specific permissions (like access to storage, camera, etc.) the first time it's opened, just like apps from the Play Store.
 
