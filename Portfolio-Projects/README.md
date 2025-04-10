@@ -89,7 +89,11 @@ Program Description:
 The project contains the document (Module-8-Porfolio-Project.pdf) for my portfolio project module 8. It is the last step in developing my Android “My Recipe App.” This essay contains a description of the testing process, including details of unit tests and UI tests that were conducted. Additionally, it explains the deployment process of the app and addresses challenges encountered during the deployment phase. Finally, it discusses strategies for ongoing maintenance, bug fixes, and potential future enhancements for the app.
 Note that the main source code is not available in this repository. I may add a link to the app repository to this README.md file when the app is finished. 
 
+To install the app on an Android you can use the MyRecipeApp-releaseV1.apk (Android Package Kit) in this directory or you can download it from [My Recipe App - release V1 APK](https://drive.google.com/file/d/1Ih15vMtNfVQPeo-7lXaVFtEC_pbfV_Sw/view)  
+If you are not familliar how to install an ANdroid app from linl see [How to Install the App](#how-to-install-the-app)  
+⚠️ Updates: Apps installed this way won't automatically update via the Google Play Store. I will share new APK links for any updates here.
 
+Video showcasing the app: [My Recipe App](https://www.youtube.com/watch?v=H1vJahZmL_A)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
