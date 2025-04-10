@@ -182,7 +182,7 @@ Tests
 </pre>
 
 -----------------------------------------------------------------------------------------------------------------------------
-# How to Install the App
+### How to Install the App
 
 Enable Installation from Unknown Sources:
 
