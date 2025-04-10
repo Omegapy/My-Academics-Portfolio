@@ -47,7 +47,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## CSC475 Platform Based Development Android Course  
-Directory: [CSC477-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC475-CSU-Global)  
+Directory: [CSC475-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC475-CSU-Global)  
 
 Program Name: My Recipe App  
 Grade: 
@@ -91,6 +91,8 @@ Program Description:
 The project contains the document (Module-8-Porfolio-Project.pdf) for my portfolio project module 8. It is the last step in developing my Android “My Recipe App.” This essay contains a description of the testing process, including details of unit tests and UI tests that were conducted. Additionally, it explains the deployment process of the app and addresses challenges encountered during the deployment phase. Finally, it discusses strategies for ongoing maintenance, bug fixes, and potential future enhancements for the app.
 Note that the main source code is not available in this repository. I may add a link to the app repository to this README.md file when the app is finished. 
 
+
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 <img width="100" height="200" src="https://github.com/user-attachments/assets/eebf0e41-5cad-4433-b1ce-a248445a76b4">
@@ -106,7 +108,7 @@ Note that the main source code is not available in this repository. I may add a 
 <img width="100" height="200" src="https://github.com/user-attachments/assets/dee3ed30-5203-485b-9263-a2bf764d89ff">
 
 <br>
-
+<img width="300" height="200" src="https://github.com/user-attachments/assets/8313feca-793d-468d-be3f-4dc475112a20">
 <img width="175" height="200" src="https://github.com/user-attachments/assets/04212549-00a8-4c32-8b41-53fd86928fe2">
 
 
@@ -146,8 +148,8 @@ Project Map:
 - Module-2 Milesone.pdf, purpose and scope of the app.
 - Module-4-Milestone.pdf, design details for the app. 
 - Module-6-Milestone.pfd, The actual implementation of the app, along with source code details (not available here.
-- Module-8-Porfolio-Project.pdf, testing process, including any unit tests or UI tests conducted. 
-
+- Module-8-Porfolio-Project.pdf, testing process, including any unit tests or UI tests conducted.
+- MyRecipeApp-releaseV1.apk - Realease/Instalation APK file.
 
 ⚠️ The following files are not available in this repository
 <pre>
@@ -249,6 +251,37 @@ Tests
 │   │               └── RecipeDatabaseTest.kt (Room database operations - migrations)  
 </pre>
 
+-----------------------------------------------------------------------------------------------------------------------------
+### How to Install the App
+
+Enable Installation from Unknown Sources:
+
+1. Android blocks installation from sources other than the Google Play Store by default for security reasons. The user first needs to allow installation from the app they will use to download and open the APK file (usually their web browser or file manager).
+The exact steps vary slightly depending on the Android version and manufacturer, but generally involve going to Settings.
+Look for sections like Apps, Apps & Notifications, Security, or Privacy.
+Find an option like Special app access or Install unknown apps.
+Select the app they will use for the download/install (e.g., Chrome, Samsung Internet, Files by Google, or another file manager).
+Toggle the switch to "Allow from this source" or enable the permission for that specific app.
+Important: Remind the user that enabling this setting carries security risks. They should only download and install APKs from sources they completely trust. It's often recommended to disable this permission again after installing the app.
+Download the APK File:
+
+2. The user should open the link you shared in their web browser on their Android device.
+They will likely need to tap a download button or link on the webpage.
+The browser might show a warning that the file type could harm their device. If they trust the source (you), they should accept the warning and confirm the download (e.g., tap "OK" or "Download anyway").
+Open and Install the APK File:
+
+3. Once the download is complete, the user can usually tap the download notification to open the file.
+Alternatively, they can use a file manager app (like "Files by Google" or the manufacturer's default file manager) to navigate to their "Downloads" folder and tap the downloaded APK file.
+Tapping the file will bring up an installation prompt. The user should tap "Install".
+Android might perform a quick security scan via Google Play Protect.
+After a few moments, the app should be installed, and its icon will appear in the user's app list.
+Important Considerations:
+
+⚠️ Trust: Only install APKs from trussted sources. Downloading APKs from random websites can install malware. The My Recipe App APK file lives in my personel Google Drive.
+
+4. Permissions: After installation, the app might ask for specific permissions (like access to storage, camera, etc.) the first time it's opened, just like apps from the Play Store.
+
+⚠️ Updates: Apps installed this way won't automatically update via the Google Play Store. I will share new APK links for any updates here.
 
 ----------------------------------------------------------------------------------------------------------------------------- 
 
