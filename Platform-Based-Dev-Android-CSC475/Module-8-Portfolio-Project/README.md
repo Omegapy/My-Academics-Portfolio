@@ -36,7 +36,7 @@ To install the app on an Android you can use the MyRecipeApp-releaseV1.apk (Andr
 If you are not familliar how to install an ANdroid app from linl see [How to Install the App](#how-to-install-the-app)  
 ⚠️ Updates: Apps installed this way won't automatically update via the Google Play Store. I will share new APK links for any updates here.
 
-Vidoe showcasing the app: [My Recipe App](https://www.youtube.com/watch?v=H1vJahZmL_A)
+Video showcasing the app: [My Recipe App](https://www.youtube.com/watch?v=H1vJahZmL_A)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
