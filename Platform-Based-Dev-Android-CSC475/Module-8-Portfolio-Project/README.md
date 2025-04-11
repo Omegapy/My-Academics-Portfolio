@@ -1,7 +1,7 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Module 8 Portfolio Project
 Program Name: My Recipe App  
-Grade: 
+Grade: 100% A
 
 CSC475 – Platform-Based Development Android Course  
 Professor: Herbert Pensado  
