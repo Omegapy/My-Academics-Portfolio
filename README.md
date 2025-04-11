@@ -11,9 +11,8 @@ This repository is a collection of my academic work, showcasing my educational j
 and growth throughout my studies.
 
 I am a student in Computer Science with a focus on AI. 
-A high distinction honors graduate: AS in CS from Laramie County Community College (LCCC) – Dec. 2023  
-A junior student at Colorado State University Global (CSU Global) pursuing a BS in CS with a specialization in AI  
-(Expected Graduation: December 2025)
+A senior student at Colorado State University Global (CSU Global) pursuing a BS in CS (Expected to Graduation in August 2025)  
+I am also an high distinction honors graduate: AS in CS from Laramie County Community College (LCCC) – Dec. 2023  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -45,14 +44,44 @@ My Links:
 - [Artificial Intelligence CSC410](#artificial-intelligence-csc410)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Introduction to Networks ITS315](#introduction-to-networks-its315)
 - [Graphics and Visualization WebGL CSC405](#graphics-and-visualization-webgl-csc405)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Platform Based Development Android CSC475](#platform-based-development-android-csc475)                               
 - [Data Structures and Algorithms Java CSC 400](#data-structures-and-algorithms-java-csc400)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Technology Ethics and Global Community ITS325](#technology-ethics-and-global-community-its325)
-- [Programming 2 CSC372 Java](#programming-2-csc372-java)  
-- [Programming 1 CSC320 Java](#programming-1-csc320-java)
+- [Programming 2 CSC372 Java](#programming-2-csc372-java)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Information Systems Analysis and Design MIS350](#information-systems-analysis-and-design-mis350)  
+- [Programming 1 CSC320 Java](#programming-1-csc320-java)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Database Management ITS410](#database-management-its410)  
 - [Basic Programming ITS320 Python](#basic-programming-its320-python)  
 - [Operating Systems and Architecture CSC300](#operating-systems-and-architecture-csc300)  
 - [Computer Science 1 cpp](#computer-science-1-cpp)  
 - [Python Data Science](#python-data-science)
 - [Portfolio Projects](#portfolio-projects)
 - [My Resume](#my-resume)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Database Management ITS410
+Directory: [Database-Management-ITS410]()
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of assignements from ITS410 - Database Management Course
+at Colorado State University Global - CSU Global. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Information Systems Analysis and Design MIS350
+Directory: [Information-Systems-Analysis-and-Design-MIS350](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of assignements from MIS350 - Information Systems Analysis and Design Course
+at Colorado State University Global - CSU Global. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
