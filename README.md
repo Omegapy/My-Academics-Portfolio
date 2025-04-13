@@ -7,8 +7,7 @@
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
-This repository is a collection of my academic work, showcasing my educational journey, achievements,  
-and growth throughout my studies.
+This repository is a collection of my academic work at Colorado State University Global (CSU Global)
 
 I am a student in Computer Science with a focus on AI. 
 A senior student at Colorado State University Global (CSU Global) pursuing a BS in CS (Expected to Graduation in August 2025)  
