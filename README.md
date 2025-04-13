@@ -7,11 +7,12 @@
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
-This repository is a collection of my academic work at Colorado State University Global (CSU Global)
+This repository is a collection of my academic work at Colorado State University Global (CSU Global) and Laramie County Community College (LCCC).
 
 I am a student in Computer Science with a focus on AI. 
-A senior student at Colorado State University Global (CSU Global) pursuing a BS in CS (Expected to Graduation in August 2025)  
-I am also an high distinction honors graduate: AS in CS from Laramie County Community College (LCCC) – Dec. 2023  
+A senior student at CSU Global pursuing a BS in CS (Expected to Graduation in August 2025) .
+In August 2025 I have plans to pursue a Master's in AI at CSU Global.
+I am also an high distinction honors graduate: AS in CS from LCCC – Dec. 2023.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
