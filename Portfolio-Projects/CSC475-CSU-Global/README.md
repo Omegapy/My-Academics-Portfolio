@@ -170,7 +170,7 @@ Project Map:
 </pre>
 
 ⚠️ The following files are available in this repository  
-Tests
+Tests in the app/scr directory
 <pre>
 ├── app  
 │   ├── src  
