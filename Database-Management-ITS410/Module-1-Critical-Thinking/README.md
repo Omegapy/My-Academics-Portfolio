@@ -55,7 +55,7 @@ FROM products
 9. Download and open the script named product_details.sql Download product_details.sql. Note that this script contains just one SQL statement. Then, run the statement. Take a resulting screenshot.
 10. Download and open the script named product_summary.sql Download product_summary.sql. Note that this opens another SQL editor tab. Then, run the statement. Take a resulting screenshot.
 
-11 Download and open the script named product_statements.sql Download product_statements.sql. Notice that this script contains two SQL statements that end with semicolons. Then, run the statement. Take a resulting screenshot.
+11. Download and open the script named product_statements.sql Download product_statements.sql. Notice that this script contains two SQL statements that end with semicolons. Then, run the statement. Take a resulting screenshot.
 
 All the screenshots should show current date. Example of screenshot.
 
