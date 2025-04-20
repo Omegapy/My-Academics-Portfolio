@@ -6,7 +6,7 @@ Grade:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-ITS410 - Database Management
+ITS410 - Database Management  
 Professor: Dr. Murthy Rallapalli  
 Spring B Semester (25SB) – 2025  
 Student: Alexander (Alex) Ricciardi  
@@ -59,7 +59,7 @@ FROM products
 
 All the screenshots should show current date. Example of screenshot.
 
-screenshot of sample statement
+![image](https://github.com/user-attachments/assets/9320fa7f-3d63-4faf-905b-bbef5cf34c4e)
 
 Submit your labeled results screenshots in a Word file.  
 
