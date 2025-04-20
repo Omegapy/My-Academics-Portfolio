@@ -48,7 +48,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
 Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-1-Critical-Thinking)   
-Title: Critical Thinking Assignment 1:  Create MySQl Database  
+Title: Critical Thinking Assignment 1:  Create MySQL Database  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -103,7 +103,7 @@ Submit your labeled results screenshots in a Word file.
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from ITS410 - Database Management    
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
