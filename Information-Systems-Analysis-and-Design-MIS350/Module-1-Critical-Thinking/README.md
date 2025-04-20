@@ -6,8 +6,8 @@ Grade:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-MIS350 – Information Systems Analysis and Design
-Professor: Dr. Kara Coston
+MIS350 – Information Systems Analysis and Design  
+Professor: Dr. Kara Coston  
 Spring B (25SB) – 2025   
 Student: Alexander (Alex) Ricciardi  
 Date: 04/20/2025  
@@ -15,7 +15,7 @@ Date: 04/20/2025
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:   
-Moduklle-1 CTA1 Fab Flowers HRSI Proposal.docx  -– Proposal: Fab Flowers - Proposal for a New Human Resources Information System   
+Module-1 CTA1 Fab Flowers HRSI Proposal.docx  -– Proposal: Fab Flowers - Proposal for a New Human Resources Information System   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
