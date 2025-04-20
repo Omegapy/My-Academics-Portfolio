@@ -19,7 +19,7 @@ I am also an high distinction honors graduate: AS in CS from LCCC – Dec. 2023.
 Requirements:  
 - [Python](https://www.python.org/)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [Kotlin](https://kotlinlang.org/)</span>
 - [Jupyter Notebook](https://jupyter.org/)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [XML](https://www.w3.org/XML/)</span>    
-- [c++](https://isocpp.org/std/the-standard)
+- [c++](https://isocpp.org/std/the-standard)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [MySQL](https://www.mysql.com/)</span>
 - [Java](https://www.java.com/en/)
 - [WebGL (JavaScript)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 
