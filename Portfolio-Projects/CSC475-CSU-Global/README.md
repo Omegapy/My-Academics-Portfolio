@@ -230,11 +230,12 @@ Alternatively, they can use a file manager app (like "Files by Google" or the ma
 Tapping the file will bring up an installation prompt. The user should tap "Install".
 Android might perform a quick security scan via Google Play Protect.
 After a few moments, the app should be installed, and its icon will appear in the user's app list.
+
 Important Considerations:
 
 ⚠️ Trust: Only install APKs from trusted sources. Downloading APKs from random websites can install malware. The My Recipe App APK file lives in my personel Google Drive.
 
-4. Permissions: After installation, the app might ask for specific permissions (like access to storage, camera, etc.) the first time it's opened, just like apps from the Play Store.
+Permissions: After installation, the app might ask for specific permissions (like access to storage, camera, etc.) the first time it's opened, just like apps from the Play Store.
 
 ⚠️ Updates: Apps installed this way won't automatically update via the Google Play Store. I will share new APK links for any updates here.
 
