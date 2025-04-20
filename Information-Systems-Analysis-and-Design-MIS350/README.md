@@ -47,30 +47,30 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking]()   
-Title: Critical Thinking Assignment 1: 
-
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-1-Critical-Thinking)   
+Title: Critical Thinking Assignment 1: Project Proposal: Create MySQL Database
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Description:  
 
+Fab Flowers Employee System - Software Acquisition Proposal
+Historically, the management of employee information at Fab Flowers—a flower and gift delivery company—has been two-fold: employees can manage some of their own information, such as submitting vacation requests, in an employee portal, while the human resources department uses a different system to manage such things as employee benefits and vacation accrual and balances.
 
+Management has now identified the need for a new employee system that will allow both human resources and the employee to manage the relevant information in one place. After a full review, and completed requirements gathering, your manager asks you to choose how this will happen; will it be through software acquisition, in-house development, or outsourcing?
 
------------------------------------------------------------------------------------------------------------------------------
+Present the pros and cons of software acquisition, in-house development, and outsourcing and recommend the solution you think best fits the company's needs to your manager. Explain your decision.
 
-Program Description:
+Prepare a proposal, using the Proposal Template presenting your decision. Your proposal should have: 
 
+- Title Page
+- Goals and Objectives of the Project
+- Solution
+- Recommendations & Conclusions
+- References  
 
-⚠️Note:
-
-
------------------------------------------------------------------------------------------------------------------------------
-
-Project Map:
-
-
+Your proposal should be a minimum of 2 pages in length, not including title page using the Proposal Template Download Proposal Template. You should have two credible sources to support your recommended solution. The references, citations and reference page should follow APA7 format. Visit the CSU Global Writing Center for guidance on APA format: this assignment.
 
 -------------------------------------------------------------------------------------------
 
@@ -80,7 +80,7 @@ Project Map:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from MIS350 - Information Systems Analysis and Design    
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
