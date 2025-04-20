@@ -47,30 +47,53 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking]()   
-Title: Critical Thinking Assignment 1: 
-
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-1-Critical-Thinking)   
+Title: Critical Thinking Assignment 1:  Create MySQl Database  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Description:  
 
+Create MySQL Database
+You will use MySQL Workbench to create the My Guitar Shop database to review the tables in this database and to enter SQL statements and run them against this database.
 
+**Make sure the MySQL server is running**
 
------------------------------------------------------------------------------------------------------------------------------
+1. Start MySQL Workbench and open a connection for the root user.
+2. Check whether the MySQL server is running. If it isn’t, start it.
 
-Program Description:
+**Use MySQL Workbench to create the My Guitar Shop database.**
 
+3. Download and open the script file named my_guitar_shop.sql Download my_guitar_shop.sqlby clicking the Open SQL Script File button in the SQL Editor toolbar. Then, use the resulting dialog box to locate and open the file. 
+4. Execute the entire script by clicking the Execute SQL Script button in the SQL editor toolbar or by pressing Ctrl+Shift+Enter. When you do, the Output window displays messages that indicate whether the script executed successfully. Take a screenshot.
 
-⚠️Note:
+**Use MySQL Workbench to enter and run SQL statements**
 
+5. Double-click on the my_guitar_shop database to set it as the default database. When you do that, MySQL Workbench should display the database in bold.
+6. Open a SQL editor tab. Then, enter and run this SQL statement:
 
------------------------------------------------------------------------------------------------------------------------------
+SELECT product_name FROM products
 
-Project Map:
+Take a resulting screenshot.
 
+7. Delete the e at the end of product_name and run the statement again. Note the error number and the description of the error. Take a resulting screenshot.
+8. Open another SQL editor tab. Then, enter and run this statement:
 
+SELECT COUNT(*) AS number_of_products
+
+FROM products
+
+**Use MySQL Workbench to open and run scripts**
+
+9. Download and open the script named product_details.sql Download product_details.sql. Note that this script contains just one SQL statement. Then, run the statement. Take a resulting screenshot.
+10. Download and open the script named product_summary.sql Download product_summary.sql. Note that this opens another SQL editor tab. Then, run the statement. Take a resulting screenshot.
+
+11. Download and open the script named product_statements.sql Download product_statements.sql. Notice that this script contains two SQL statements that end with semicolons. Then, run the statement. Take a resulting screenshot.
+
+All the screenshots should show current date. Example of screenshot.
+
+Submit your labeled results screenshots in a Word file.  
 
 -------------------------------------------------------------------------------------------
 
