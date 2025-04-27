@@ -2,7 +2,7 @@
 # Module-1 Critical Thinking 
 Assignment Name: Critical Thinking Assignment 1: Create MySQl Database  
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
