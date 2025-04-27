@@ -2,7 +2,7 @@
 # Module-1 Critical Thinking 
 Essay Name: Project Proposal: Fab Flowers - Proposal for a New Human Resources Information System   
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
