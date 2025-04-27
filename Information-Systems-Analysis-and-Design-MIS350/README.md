@@ -41,14 +41,42 @@ My Links:
 
 #### Project Map  
 
+- [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
+## Module 2 Critical Thinking 
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-2-Critical-Thinking)   
+Title: Fab Flowers - Proposal for a New Human Resources Information System (Development Methodologies) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Development Methodologies  
+In Module #1, you started a project proposal for Fab Flowers and a new employee system. Continuing your proposal (you will need to insert more headings), you will discuss requirements and the type of methodology that you have chosen for this project. When thinking of requirements (you are crafting these based on the information provided in module #1), make sure you focus on how all departments will use the system for entry and reporting. 
+
+Add to your proposal:
+
+- Include the previous proposal with any changes provided in the feedback from Module #1 from your instructor. 
+- Requirements including the stakeholders for each requirement (You should have a minimum of six requirements)
+- Methodology selected and the pros and cons of the chosen methodology, and why you chose it over the others.
+- Conclusions/Recommendations
+
+Your proposal should be a minimum of 4 pages in length, not including title page using the Proposal Template. Incorporate feedback from the previous submission in this submission. You should have two credible sources to support your recommended solution. The references, citations and reference page should follow APA7 format. Visit the CSU Global Writing Center for guidance on APA format.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
 Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-1-Critical-Thinking)   
-Title: Critical Thinking Assignment 1: Project Proposal: Create MySQL Database
+Title: Critical Thinking Assignment 1: Proposal: Fab Flowers - Proposal for a New Human Resources Information System    
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
