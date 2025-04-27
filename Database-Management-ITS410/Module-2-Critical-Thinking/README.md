@@ -1,6 +1,6 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Module-2 Critical Thinking 
-Assignment Name: Critical Thinking Assignment 1: Guitar Shop Database
+Assignment Name: Critical Thinking Assignment 2: Guitar Shop Database
 
 Grade: 
 
@@ -15,7 +15,7 @@ Date: 04/27/2025
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:   
-CAT2 : Guitar Shop Database – Critical Thinking Assignment 2: Guitar Shop Database 
+CAT2 Guitar Shop Database – Critical Thinking Assignment 2: Guitar Shop Database 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
