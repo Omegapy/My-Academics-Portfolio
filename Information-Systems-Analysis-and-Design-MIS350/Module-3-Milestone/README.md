@@ -15,7 +15,7 @@ Date: 04/27/2025
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:   
-Module-3 Milestone.docx -– Proposal: Fab Flowers - Project Proposal: Hullabaloo Party Supplies Customer Order System.    
+Module-3 Milestone.pdf -– Project Proposal: Hullabaloo Party Supplies Customer Order System.   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
