@@ -41,9 +41,43 @@ My Links:
 
 #### Project Map  
 
+- [Module 3 Milestone](#module-3-milestone)
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 3 Mileston
+Directory: [Module-3-milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-3-Milestone)   
+Title: Project Proposal: Hullabaloo Party Supplies Customer Order System 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Option #1: HPS Order System  
+See the Portfolio Project in Module 8 for an overview of the entire project.
+
+Hullabaloo Party Supplies (HPS) has hired you, a Systems Analyst, to help them design an online customer ordering system.
+
+The system will need to:
+
+- Allow the customer to order online; the customer must be able to order multiple different items, as well as choose different quantities
+- Obtain complete customer information
+- Allow the customer to create an account
+- Calculate order cost including tax
+- Offer payment via credit card or PayPal
+- Debit the ordered items from inventory
+- Offer multiple choices for shipping
+Using the Project Proposal Template Download Project Proposal Templatefor the Portfolio Project provide an overview of the purpose of the project, the problem statement, goals and objectives, key assumptions, project stakeholders, high-level WBS for requirements gathering and potential risks.  
+
+Your proposal should be a minimum of 2 pages in length, not including title page. Should you use citations and references, they should adhere to APA7 format, including the references page.  Visit the Writing Center for guidance on APA format. The Writing Center link can be found in the left side navigation panel of Canvas.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
