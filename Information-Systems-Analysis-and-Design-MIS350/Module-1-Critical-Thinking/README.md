@@ -15,7 +15,7 @@ Date: 04/20/2025
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:   
-Module-1 CTA Fab Flowers HRSI Proposal.docx  -– Proposal: Fab Flowers - Proposal for a New Human Resources Information System   
+Module-1 CTA Fab Flowers HRSI Proposal.pdf  -– Proposal: Fab Flowers - Proposal for a New Human Resources Information System   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
