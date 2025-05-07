@@ -2,7 +2,7 @@
 # Module-2 Critical Thinking 
 Essay Name: Module 2 Project Proposal: Fab Flowers - Proposal for a New Human Resources Information System (Development Methodologies).    
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -15,7 +15,7 @@ Date: 04/27/2025
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:   
-Module-2 CTA Fab Flowers HRSI Proposal.docx  -– Proposal: Fab Flowers - Proposal for a New Human Resources Information System (Development Methodologies).   
+Module-2 CTA Fab Flowers HRSI Proposal.pdf  -– Proposal: Fab Flowers - Proposal for a New Human Resources Information System (Development Methodologies).   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
