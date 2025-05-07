@@ -41,9 +41,40 @@ My Links:
 
 #### Project Map  
 
+- [Module 3 Critical Thinking](#module-3-critical-thinking) 
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 3 Critical Thinking 
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-3-Critical-Thinking)   
+Title: Critical Thinking Assignment 3: Using Joins
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Using Joins  
+Using the My Guitar Shop database you installed in Module 1, develop the following queries.
+
+1. Write a SELECT statement that joins the Categories table to the Products table and returns these columns: category_name, product_name, list_price.
+Sort the result set by the category_name column and then by the product_name column in ascending sequence. Execute the query and take a screenshot of the query and the results.
+2. Write a SELECT statement that joins the Customers table to the Addresses table and returns these columns: first_name, last_name, line1, city, state, zip_code.
+Return one row for each address for the customer with an email address of allan.sherwood@yahoo.com. Execute the query and take a screenshot of the query and the results.
+3. Write a SELECT statement that joins the Customers table to the Addresses table and returns these columns: first_name, last_name, line1, city, state, zip_code.
+Return one row for each customer, but only return addresses that are the shipping address for a customer. Execute the query and take a screenshot of the query and the results.
+4. Write a SELECT statement that joins the Customers, Orders, Order_Items, and Products tables. This statement should return these columns: last_name, first_name, order_date, product_name, item_price, discount_amount, and quantity.
+
+All the screenshots should show current date. Example of screenshot.
+
+Submit your labeled results screenshots in a Word file.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -80,6 +111,7 @@ Submit your labeled results screenshots in a Word file.
 -------------------------------------------------------------------------------------------
 
 [Go back to the Project Map](#project-map)  
+
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
