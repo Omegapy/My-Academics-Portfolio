@@ -38,10 +38,10 @@ In this section of the proposal, you will provide the following:
 
 For the feasibility analysis:
 
- Assuming monetary benefits of customer ordering at $185,000 per year, one-time costs of $275,000, recurring costs of $85,000 per year, a discount rate of 12 percent, and a five-year time horizon. Use the provided Economic Feasibility Template Download Economic Feasibility Templateto complete the calculations.
+Assuming monetary benefits of customer ordering at $185,000 per year, one-time costs of $275,000, recurring costs of $85,000 per year, a discount rate of 12 percent, and a five-year time horizon. Use the provided Economic Feasibility Template Download Economic Feasibility Templateto complete the calculations.
 Using the Project Proposal Template for the Portfolio Project, continue working on your project proposal.
 
- This section of the proposal should be a minimum of 4 pages in length, not including title page. The previous sections should incorporate instructor feedback for Phase I. Should you use citations and references, they should adhere to APA7 format, including the references page.  All figures and tables should be formatted according to APA7. Visit the CSU Global Writing Center for guidance on APA format.
+This section of the proposal should be a minimum of 4 pages in length, not including title page. The previous sections should incorporate instructor feedback for Phase I. Should you use citations and references, they should adhere to APA7 format, including the references page.  All figures and tables should be formatted according to APA7. Visit the CSU Global Writing Center for guidance on APA format.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
