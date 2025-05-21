@@ -21,10 +21,6 @@ Student: Alexander (Alex) Ricciardi
 Final grade:  
 
 -----------------------------------------------------------------------------------------------------------------------------
-
-Requirements:  
-
------------------------------------------------------------------------------------------------------------------------------
 My Links:   
 
 <i><a href="https://www.alexomegapy.com" target="_blank"><img width="25" height="25" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"></i>
@@ -41,6 +37,7 @@ My Links:
 
 #### Project Map  
 
+- [Module 5 Milestone](#module-5-milestone)
 - [Module 3 Milestone](#module-3-milestone)
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
@@ -48,7 +45,45 @@ My Links:
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-## Module 3 Mileston
+## Module 5 Milestone
+Directory: [Module-5-milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-5-Milestone)   
+Title: Project Proposal: Hullabaloo Party Supplies Customer Order System 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+The Assignment Direction:    
+
+Option #1: Requirements, Feasibility and Project Methodology for HPS Order System  
+Phase II 
+
+In this section of the proposal, you will provide the following:
+
+- Detailed requirements list (The requirements list should recognize all processes, reporting and stakeholders)
+- Data Flow Diagram
+- Feasibility analysis (Refer to Figure 5.6)
+- Calculate the NPV
+- Calculate the return on investment.
+- Calculate the breakeven point.
+- Include a line chart to support your break even results (Figure 5-7)
+- Development methodology
+
+For the feasibility analysis:
+
+Assuming monetary benefits of customer ordering at $185,000 per year, one-time costs of $275,000, recurring costs of $85,000 per year, a discount rate of 12 percent, and a five-year time horizon. Use the provided Economic Feasibility Template Download Economic Feasibility Templateto complete the calculations.
+Using the Project Proposal Template for the Portfolio Project, continue working on your project proposal.
+
+This section of the proposal should be a minimum of 4 pages in length, not including title page. The previous sections should incorporate instructor feedback for Phase I. Should you use citations and references, they should adhere to APA7 format, including the references page.  All figures and tables should be formatted according to APA7. Visit the CSU Global Writing Center for guidance on APA format.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 3 Milestone
 Directory: [Module-3-milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-3-Milestone)   
 Title: Project Proposal: Hullabaloo Party Supplies Customer Order System 
 
