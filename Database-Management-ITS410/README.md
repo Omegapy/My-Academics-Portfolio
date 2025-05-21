@@ -41,11 +41,68 @@ My Links:
 
 #### Project Map  
 
+- [Module 5 Critical Thinking](#module-4-critical-thinking)
 - [Module 4 Critical Thinking](#module-4-critical-thinking) 
 - [Module 3 Critical Thinking](#module-3-critical-thinking) 
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 5 Critical Thinking 
+Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-5-Critical-Thinking)   
+Title: Critical Thinking Assignment 4: Modifying Tables
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:    
+
+The Assignment Direction:    
+
+Writing Queries
+
+Using the My Guitar Shop database you installed in Module 1, develop the following queries.
+
+1. Write a SELECT statement that returns these columns:  
+The count of the number of orders in the Orders table  
+he sum of the tax_amount columns in the Orders table  
+Execute the query and take a screenshot of the query and the results.  
+
+2. Write a SELECT statement that returns one row for each category that has products with these
+columns:  
+The category_name column from the Categories table  
+The count of the products in the Products table  
+The list price of the most expensive product in the Products table.  
+Sort the result set so the category with the most products appears first.  
+Execute the query, and take a screenshot of the query and the results.  
+
+3. Write a SELECT statement that returns one row for each customer that has orders with these
+columns:  
+The email_address column from the Customers table  
+The sum of the item price in the Order_Items table multiplied by the quantity in the Order_Items table  
+The sum of the discount amount column in the Order_Items table multiplied by the quantity in the Order_Items table  
+Sort the result set in descending sequence by the item price total for each customer.  
+Execute the query and take a screenshot of the query and the results.  
+
+4. Write a SELECT statement that returns one row for each customer that has orders with these
+columns:  
+The email_address column from the Customers table  
+A count of the number of orders  
+The total amount for each order (Hint: First, subtract the discount amount from the price. Then, multiply by the quantity.)  
+Return only those rows where the customer has more than one order.  
+Sort the result set in descending sequence by the sum of the line item amounts.  
+Execute the query and take a screenshot of the query and the results  
+
+
+All the screenshots should show current date. Example of screenshot.
+
+Submit your labeled results screenshots in a Word file.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
