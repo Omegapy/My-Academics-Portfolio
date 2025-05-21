@@ -2,7 +2,7 @@
 # Module-4 Critical Thinking 
 Assignment Name: Critical Thinking Assignment 4: Modifying Tables
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
