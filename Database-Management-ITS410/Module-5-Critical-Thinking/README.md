@@ -2,7 +2,7 @@
 # Module-5 Critical Thinking 
 Assignment Name: Critical Thinking Assignment 5: Writing Queries
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
