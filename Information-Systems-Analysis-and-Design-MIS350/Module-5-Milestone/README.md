@@ -2,7 +2,7 @@
 # Module-5 Milestone 
 Essay Name: Module 5 Milestone Project Proposal: Hullabaloo Party Supplies Customer Order System.    
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
