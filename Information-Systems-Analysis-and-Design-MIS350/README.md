@@ -37,11 +37,33 @@ My Links:
 
 #### Project Map  
 
+- [Module 6 Critical Thinking](#module-6-critical-thinking) 
 - [Module 5 Milestone](#module-5-milestone)
 - [Module 3 Milestone](#module-3-milestone)
 - [Module 2 Critical Thinking](#module-2-critical-thinking)  
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Module 6 Critical Thinking 
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-6-Critical-Thinking)   
+Title: Module 6 HRS Presentation: Dialogue Diagram for a Hotel Customer Registration System 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Using Figure 11-19, build a dialogue diagram for a hotel registration system. Use any drawing program you prefer, you can also use Word to draw the dialogue diagram. Discuss the relevant users and tasks to support your drawing. 
+
+Create a presentation where you present the flow and discuss the relevant tasks and users in the speaker notes. Remember, a presentation should follow good rules (Visit the Writing Center for Creating Visual PresentationsLinks to an external site.). Use APA7 for citations and references. Your presentation should be a minimum of 5 slides in length for the drawing and discussion, not including the title and conclusion slide. 
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
