@@ -21,7 +21,7 @@ CAT6 Stored Procedures.pdf – Critical Thinking Assignment 6: Stored Procedures
 
 The Assignment Direction:    
 
-Stored Procedures
+Stored Procedures  
 Using the My Guitar Shop database you installed in Module 1, develop the following queries.
 1. Write a script that creates and calls a stored procedure named insert_category.
 2. First, code a statement that creates a procedure that adds a new row to the Categories table. 
