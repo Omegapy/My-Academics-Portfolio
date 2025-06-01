@@ -37,10 +37,37 @@ My Links:
 
 #### Project Map  
 
+- [Module 6 Critical Thinking](#module-6-critical-thinking)
 - [Module 3 Critical Thinking](#module-3-critical-thinking)
 - [Module 2 Critical Thinking](#module-2-critical-thinking) 
 - [Module 1 Critical Thinking](#module-1-critical-thinking)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 6 Critical Thinking  
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325/Module-6-Critical-Thinking)   
+Title: Critical Thinking Assignment 6: BIPA, GDPR's Right to Be Forgotten, and COPPA 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+
+Internet Rulings, Laws, and Regulations  
+From this module's Global Internet Law in a Nutshell readings choose three rulings, laws, or regulations that relate in some way to your use of the internet. In a well-written paper, briefly summarize each case, law or regulation and describe the effect it has or could have on your internet use. How thorough is the privacy protection offered by each ruling, law or regulation? What, if any, suggestions would you have for changing each ruling, law, or regulation to strengthen privacy rights?
+
+Your paper should be well written and meet the following requirements:
+
+- Your paper should be 2-3 pages in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence. Include at least 3 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+- See the rubric below for more details about how you will be graded for this assignment.  
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
