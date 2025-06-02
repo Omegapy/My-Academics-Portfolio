@@ -7,9 +7,9 @@
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
-This repository is a collection of coursework and projects for the Bachelor of Science in Computer Science program at Colorado State University Global (CSU Global. 
+This repository is a collection of coursework and projects for the Bachelor of Science in Computer Science program at Colorado State University Global (CSU Global). 
 
-I am a senior student at CSU Global pursuing a BS in CS (Expected Graduation August 2025) .
+I am a senior student at CSU Global pursuing a BS in CS (Expected Graduation August 2025).
 In August 2025 I have plans to pursue a Master's in AI at CSU Global.
 I am also an high distinction honors graduate: AS in CS from LCCC – Dec. 2023.
 
@@ -17,8 +17,8 @@ I am also an high distinction honors graduate: AS in CS from LCCC – Dec. 2023.
 
 Requirements:  
 - [Python](https://www.python.org/)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [Kotlin](https://kotlinlang.org/)</span>
-- [Jupyter Notebook](https://jupyter.org/)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [XML](https://www.w3.org/XML/)</span>    
-- [c++](https://isocpp.org/std/the-standard)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [MySQL](https://www.mysql.com/)</span>
+- [XML](https://www.w3.org/XML/)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•  [MySQL](https://www.mysql.com/)</span>
+- [c++](https://isocpp.org/std/the-standard)
 - [Java](https://www.java.com/en/)
 - [WebGL (JavaScript)](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 
