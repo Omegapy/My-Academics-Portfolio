@@ -57,7 +57,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 8 Portfolio Project 
-Directory: [Module-8-Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-8-Portfolio-Project)   
+Directory: [Module-8-Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Module-8-Portfolio-Project)   
 Title: Module-8 Portfolio Project: My Recipe App    
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -274,7 +274,7 @@ Important Considerations:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 7 Critical Thinking 
-Directory: [Module-7-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-7-Critical-Thinking)   
+Directory: [Module-7-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Module-7-Critical-Thinking)   
 Title: Critical Thinking Assignment 7: My Unit Converter Testing     
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -361,7 +361,7 @@ The project used files from the Android Studio’s Empty View Activity template.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 6 Portfolio Milestone 
-Directory: [Module-6-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-6-Portfolio-Milestone)   
+Directory: [Module-6-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Module-6-Portfolio-Milestone)   
 Title: Module-6 Portfolio Milestone: My Recipe App    
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -502,7 +502,7 @@ Project Map:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 5 Critical Thinking 
-Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-5-Critical-Thinking)   
+Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Module-5-Critical-Thinking)   
 Title: Critical Thinking Assignment 5: My Photo Gallery App      
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -624,7 +624,7 @@ The project used files from the Android Studio’s Empty View Activity template.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 4 Portfolio Milestone 
-Directory: [Module-4-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-4-Portfolio-Milestone)   
+Directory: [Module-4-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Module-4-Portfolio-Milestone)   
 Title: Module-4 Portfolio Milestone: My Recipe App    
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -664,7 +664,7 @@ Project Map:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Critical Thinking 
-Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-3-Critical-Thinking)   
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Module-3-Critical-Thinking)   
 Title: Critical Thinking Assignment 3: To Do List App      
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -739,7 +739,7 @@ The project used files from the Android Studio’s Empty View Activity template.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Portfolio Milestone 
-Directory: [Module-2-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-2-Portfolio-Milestone)   
+Directory: [Module-2-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Module-2-Portfolio-Milestone)   
 Title: Module-2 Portfolio Milestone: Recipe App    
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -781,7 +781,7 @@ Project Map:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Module-1-Critical-Thinking)   
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Module-1-Critical-Thinking)   
 Title: Critical Thinking Assignment 1: Hello Android App   
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -850,7 +850,7 @@ The following files have been overridden or modified to accommodate my icon. If 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC475 – Platform-Based Development – Android Course    
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

@@ -52,7 +52,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 8 Portfolio Project
-Directory: [Module-8-Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-8-Portfolio-Project)   
+Directory: [Module-8-Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Module-8-Portfolio-Project)   
 Title: Final Portfolio Project CSC470: Database Model  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -100,7 +100,7 @@ Your paper must be formatted according to the APA guidelines in the CSU Global W
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 7 Portfolio Milestone 
-Directory: [Module-7-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-7-Portfolio-Milestone)   
+Directory: [Module-7-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Module-7-Portfolio-Milestone)   
 Title: Portfolio Milestone Assignment: Database Model Draft   
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -133,7 +133,7 @@ Create a database model according to the following steps:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 6 Critical Thinking 
-Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-6-Critical-Thinking)   
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Module-6-Critical-Thinking)   
 Title: Critical Thinking Assignment 6: UML Sequence Diagram    
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -162,7 +162,7 @@ Review the Critical Thinking grading rubric to see how you will be graded for th
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 5 Critical Thinking 
-Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-5-Critical-Thinking)   
+Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Module-5-Critical-Thinking)   
 Title: Critical Thinking Assignment 5: Polymorphism - Using UML Class Diagrams and Pseudocode    
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -203,7 +203,7 @@ Review the Critical Thinking grading rubric to see how you will be graded for th
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 4 Critical Thinking 
-Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-4-Critical-Thinking)   
+Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Module-4-Critical-Thinking)   
 Title: Critical Thinking Assignment 4: UML Activity Diagram      
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -225,7 +225,7 @@ Review the Critical Thinking grading rubric to see how you will be graded for th
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Critical Thinking 
-Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-3-Critical-Thinking)   
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Module-3-Critical-Thinking)   
 Title: Critical Thinking Assignment 3: Online Shopping System Use Case Diagram      
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -247,7 +247,7 @@ Utilize the assigned readings from the course to complete your assignment. Pleas
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-2-Critical-Thinking)   
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Module-2-Critical-Thinking)   
 Title: Critical Thinking Assignment 2: Agile Methodology in Software Development      
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -274,7 +274,7 @@ Your paper should be 4-6 pages in length and conform to APA guidelines in the CS
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-1-Critical-Thinking)   
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Module-1-Critical-Thinking)   
 Title: Critical Thinking Assignment 1: Restaurant Customer Service System      
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -308,7 +308,7 @@ Review the Critical Thinking grading rubric to see how you will be graded for th
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC470 – Software Engineering Course  
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

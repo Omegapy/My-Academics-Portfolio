@@ -47,7 +47,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Portfolio Project
-Directory: [Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Portfolio-Project)  
+Directory: [Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Data-Structures-and-Algorithms-CSC400/Portfolio-Project)  
 Program Name: Custom Queue ADT and Quicksort  
 
 -------------------------------------------------------------------------------------------
@@ -93,7 +93,7 @@ Quicksort algorithm notes:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 5
-Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-5)  
+Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-5)  
 Program Name: MSD RadixSort
 
 -------------------------------------------------------------------------------------------
@@ -108,7 +108,7 @@ MSD RadixSort is an implementation of a Most Significant Digit (MSD) radix sort 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 4
-Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-4)  
+Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-4)  
 Program Name: Infix Calculator
 
 -------------------------------------------------------------------------------------------
@@ -127,7 +127,7 @@ Program Description:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 3
-Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-3)  
+Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-3)  
 Name: Asymptotic Analysis Exercises
 
 -------------------------------------------------------------------------------------------
@@ -142,7 +142,7 @@ This documentation is part of the Critical Thinking 3 Assignment from CSC400: Da
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 2
-Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-2)  
+Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-2)  
 Program Name: RPG Bag
 
 -------------------------------------------------------------------------------------------
@@ -161,7 +161,7 @@ The Bag ADT is implemented as a generic class that can store any item object typ
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 1
-Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-1)  
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Data-Structures-and-Algorithms-CSC400/Critical-Thinking-1)  
 Program Name: RPG Bag
 
 -------------------------------------------------------------------------------------------
@@ -180,7 +180,7 @@ The Bag ADT is implemented as a generic class that can store any item object typ
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC400 - Data Structures and Algorithms    
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Data-Structures-and-Algorithms-CSC400/Discussions)
+Directory: [Discussionshttps://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Data-Structures-and-Algorithms-CSC400/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

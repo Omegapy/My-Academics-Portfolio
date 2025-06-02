@@ -49,7 +49,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## Portfolio Project
-Directory: [Portfolio Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Portfolio%20Project)  
+Directory: [Portfolio Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-1-CSC320/Portfolio%20Project)  
 Program Name: Home Inventory Manager  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -68,7 +68,7 @@ The program interacts with the user through a menu-driven interface and stores t
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## Portfolio Milestone
-Directory: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Portfolio-Project)  
+Directory: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-1-CSC320/Portfolio-Project)  
 Program Name: Home Inventory Manager  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -87,7 +87,7 @@ The program interacts with the user through a menu-driven interface and stores t
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 4
-Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-4)  
+Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-1-CSC320/Critical-Thinking-4)  
 Program Name: Get Monthly Temperatures
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -103,7 +103,7 @@ This program displays monthly average temperatures and allows the user to view i
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 3
-Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-3)  
+Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-1-CSC320/Critical-Thinking-3)  
 Program Name: Capture Grade Statistics Using For-loop
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -120,7 +120,7 @@ It allows input until the user decides to stop.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 2
-Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-2)  
+Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-1-CSC320/Critical-Thinking-2)  
 Program Name: Calculate Average Withholding
 
 -------------------------------------------------------------------------------------------
@@ -138,7 +138,7 @@ A simple java application that calculates the taxes and displays the results bas
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 1
-Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Critical-Thinking-1)  
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-1-CSC320/Critical-Thinking-1)  
 Program Name: Name and Address Information
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -160,7 +160,7 @@ A simple Java application that will print a fictional person's information on in
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC320 - Programming 1  
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-1-CSC320/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-1-CSC320/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

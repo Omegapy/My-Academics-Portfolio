@@ -46,7 +46,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Protfolio Part 2  
-Directory: [Portfolio-Part-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Portfolio-Part-2)  
+Directory: [Portfolio-Part-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-3-CSC450/Portfolio-Part-2)  
 
 Programs Names: Thread Counting Synchronization  (Java)   
 
@@ -80,7 +80,7 @@ Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Protfolio Part 1  
-Directory: [Portfolio-Part-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Portfolio-Part-1)  
+Directory: [Portfolio-Part-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-3-CSC450/Portfolio-Part-1)  
 
 Programs Names: Thread Counting Synchronization  (C++)   
 
@@ -115,7 +115,7 @@ Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 5  
-Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Critical-Thinking-5)  
+Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-3-CSC450/Critical-Thinking-5)  
 
 Programs Names: User Input to File in Reverse   
 
@@ -148,7 +148,7 @@ It then reverses each line of "CSC450_CT5_mod5.txt" by reversing the characters 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 3  
-Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Critical-Thinking-3)  
+Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-3-CSC450/Critical-Thinking-3)  
 
 Programs Names: Integer Pointers   
 
@@ -187,7 +187,7 @@ validates the input values as integers and stores the values using raw pointers.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 2  
-Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Critical-Thinking-2)  
+Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-3-CSC450/Critical-Thinking-2)  
 
 Programs Names: Two String Input Concatenated  
 
@@ -211,7 +211,7 @@ to test if varying string lengths are handled securely.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 1  
-Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Critical-Thinking-1)  
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-3-CSC450/Critical-Thinking-1)  
 
 Programs Names:     
    Secure Person Management System – CT1-Person.cpp  
@@ -250,7 +250,7 @@ This programm showcases the correct code syntaxes for the given C++ program, CSC
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC450 – Programming-3   
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450/Discussions)  
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-3-CSC450/Discussions)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

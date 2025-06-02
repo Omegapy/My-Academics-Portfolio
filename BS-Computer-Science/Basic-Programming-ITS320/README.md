@@ -488,7 +488,7 @@ Program Outputs:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from IT320 - Basic Programming Python Course  
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Basic-Programming-ITS320/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Basic-Programming-ITS320/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

@@ -48,7 +48,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## Module 6 Critical Thinking 
-Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-6-Critical-Thinking)   
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Information-Systems-Analysis-and-Design-MIS350/Module-6-Critical-Thinking)   
 Title: Module 6 HRS Presentation: Dialogue Diagram for a Hotel Customer Registration System 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -68,7 +68,7 @@ Create a presentation where you present the flow and discuss the relevant tasks 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 5 Milestone
-Directory: [Module-5-milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-5-Milestone)   
+Directory: [Module-5-milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Information-Systems-Analysis-and-Design-MIS350/Module-5-Milestone)   
 Title: Project Proposal: Hullabaloo Party Supplies Customer Order System 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -106,7 +106,7 @@ This section of the proposal should be a minimum of 4 pages in length, not inclu
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Milestone
-Directory: [Module-3-milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-3-Milestone)   
+Directory: [Module-3-milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Information-Systems-Analysis-and-Design-MIS350/Module-3-Milestone)   
 Title: Project Proposal: Hullabaloo Party Supplies Customer Order System 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -139,7 +139,7 @@ Your proposal should be a minimum of 2 pages in length, not including title page
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-2-Critical-Thinking)   
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Information-Systems-Analysis-and-Design-MIS350/Module-2-Critical-Thinking)   
 Title: Fab Flowers - Proposal for a New Human Resources Information System (Development Methodologies) 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -166,7 +166,7 @@ Your proposal should be a minimum of 4 pages in length, not including title page
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Module-1-Critical-Thinking)   
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Information-Systems-Analysis-and-Design-MIS350/Module-1-Critical-Thinking)   
 Title: Critical Thinking Assignment 1: Proposal: Fab Flowers - Proposal for a New Human Resources Information System    
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -199,7 +199,7 @@ Your proposal should be a minimum of 2 pages in length, not including title page
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from MIS350 - Information Systems Analysis and Design    
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Information-Systems-Analysis-and-Design-MIS350/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

@@ -52,7 +52,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 6 Critical Thinking 
-Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-6-Critical-Thinking)   
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Database-Management-ITS410/Module-6-Critical-Thinking)   
 Title: Critical Thinking Assignment 5: Stored Procedures 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -88,7 +88,7 @@ Submit your labeled results screenshots in a Word file.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 5 Critical Thinking 
-Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-5-Critical-Thinking)   
+Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Database-Management-ITS410/Module-5-Critical-Thinking)   
 Title: Critical Thinking Assignment 4: Modifying Tables
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -144,7 +144,7 @@ Submit your labeled results screenshots in a Word file.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 4 Critical Thinking 
-Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-4-Critical-Thinking)   
+Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Database-Management-ITS410/Module-4-Critical-Thinking)   
 Title: Critical Thinking Assignment 4: Modifying Tables
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -182,7 +182,7 @@ Submit your labeled results screenshots in a Word file.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Critical Thinking 
-Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-3-Critical-Thinking)   
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Database-Management-ITS410/Module-3-Critical-Thinking)   
 Title: Critical Thinking Assignment 3: Using Joins
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -212,7 +212,7 @@ Submit your labeled results screenshots in a Word file.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-2-Critical-Thinking)   
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Database-Management-ITS410/Module-2-Critical-Thinking)   
 Title: Critical Thinking Assignment 2: Guitar Shop Database  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -248,7 +248,7 @@ Submit your labeled results screenshots in a Word file.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Module-1-Critical-Thinking)   
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Database-Management-ITS410/Module-1-Critical-Thinking)   
 Title: Critical Thinking Assignment 1:  Create MySQL Database  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -304,7 +304,7 @@ Submit your labeled results screenshots in a Word file.
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from ITS410 - Database Management    
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Database-Management-ITS410/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

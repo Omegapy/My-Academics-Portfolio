@@ -46,7 +46,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 6 Critical Thinking  
-Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325/Module-6-Critical-Thinking)   
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Technology-Ethics-and-Global-Community-ITS325/Module-6-Critical-Thinking)   
 Title: Critical Thinking Assignment 6: BIPA, GDPR's Right to Be Forgotten, and COPPA 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -72,7 +72,7 @@ Your paper should be well written and meet the following requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Critical Thinking  
-Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325/Module-3-Critical-Thinking)   
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Technology-Ethics-and-Global-Community-ITS325/Module-3-Critical-Thinking)   
 Title: Critical Thinking Assignment 3: The Capability Approach 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -100,7 +100,7 @@ Your paper should be well written and meet the following requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking  
-Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325/Module-2-Critical-Thinking)   
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Technology-Ethics-and-Global-Community-ITS325/Module-2-Critical-Thinking)   
 Title: Critical Thinking Assignment 2: The PC A Tools for Social Equity  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -132,7 +132,7 @@ See the rubric below for more details about how you will be graded for this assi
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking  
-Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325/Module-1-Critical-Thinking)   
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Technology-Ethics-and-Global-Community-ITS325/Module-1-Critical-Thinking)   
 Title: Critical Thinking Assignment 1: Technological Innovations  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -159,7 +159,7 @@ Your paper should meet the following requirements:
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from ITS325 – Technology, Ethics, and Global Community     
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Technology-Ethics-and-Global-Community-ITS325)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

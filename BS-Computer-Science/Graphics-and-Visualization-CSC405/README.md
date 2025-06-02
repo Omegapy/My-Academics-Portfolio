@@ -46,7 +46,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Portfolio Project
-Directory: [Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project)  
+Directory: [Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Portfolio-Project)  
 Program Name: Projection Lighting and Painter's Algorithm of a 3D Rotating Cube - WebGL
 
 <p align="left">
@@ -61,14 +61,14 @@ The following video demonstrates the functionality of the program: [Projection L
 Program Description:  
 
 Program Version-1:  
-[Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+[Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
 This program displays a 3D rotating cube in WebGL and implements an interactive viewer with orthographic projection.  
 Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and reset all parameters using buttons.  
 Additionally, the users can resize the cube using a slider.  
 Furthermore, the users can control the interactive viewer depth, radius, theta angle, and phi angle with sliders.  
 
-Program Version-2: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
-This program is version 2 of the [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+Program Version-2: [Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
+This program is version 2 of the [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
 It displays a 3D rotating cube in WebGL.  
 It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
 It also implements an interactive Blinn-Phong lighting that can be toggled between on and off state.     
@@ -77,8 +77,8 @@ and reset all parameters using buttons. Additionally, users can resize the cube 
 
 Program Final Version-3 - Rotating Cube:  
 This program is version 3 of  
-- [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
-- and [Portfolio Milestone version 2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
+- [Module-5 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+- and [Portfolio Milestone version 2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Portfolio-Project/Portfolio-Milestone)   
 
 This program displays a 3D rotating cube in WebGL.  
 It implements an interactive viewer that can be toggled between orthographic and perspective projections.  
@@ -96,7 +96,7 @@ The Painter's Algorithm manually sorts the cube’s faces to simulate depth with
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 6 Critical Thinking 
-Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-6-Critical-Thinking)  
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Module-6-Critical-Thinking)  
 Program Name: Interactive Recursively Approximated Sphere  
 
 <p align="left">
@@ -125,7 +125,7 @@ The model view with the light components are the one experiencing the rotation, 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 5 Portfolio Milestone 
-Directory: [Module-5-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
+Directory: [Module-5-Portfolio-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Module-5-Portfolio-Milestone)  
 Program Name: Orthographic Projection of a 3D Rotating Cube  
 
 <p align="left">
@@ -149,7 +149,7 @@ Furthermore, the users can control the interactive viewer depth, radius, theta a
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 4 Critical Thinking 
-Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-4-Critical-Thinking)  
+Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Module-4-Critical-Thinking)  
 Program Name:  Rotating 3D Cube
 
 <p align="left">
@@ -176,7 +176,7 @@ This program visits the concepts of transformation in computer graphics, more sp
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Module-2-Critical-Thinking)  
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Module-2-Critical-Thinking)  
 Program Name:  Sierpinski Gasket Vertex 2D
 
 <p align="left">
@@ -198,7 +198,7 @@ The program is a very simple WebGL application that generates and displays a 2D 
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC405 - Graphics and Visualization    
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/BS-Computer-Science/Graphics-and-Visualization-CSC405/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

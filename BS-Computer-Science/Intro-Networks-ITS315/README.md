@@ -51,7 +51,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 7 Critical Thinking 
-Directory: [Module-7-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-7-Critical-Thinking)  
+Directory: [Module-7-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315/Module-7-Critical-Thinking)  
 Title: Critical Thinking Assignment 7: Labs Lessons 12
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -79,7 +79,7 @@ After completing the task, click Submit >> Evaluate >> Record my answer to recor
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 6 Critical Thinking 
-Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-6-Critical-Thinking)  
+Directory: [Module-6-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315/Module-6-Critical-Thinking)  
 Title: Critical Thinking Assignment 6: Labs Lessons 7 and 13
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -107,7 +107,7 @@ After completing the task, click Submit >> Evaluate >> Record my answer to recor
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 5 Critical Thinking 
-Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-5-Critical-Thinking)  
+Directory: [Module-5-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315/Module-5-Critical-Thinking)  
 Title: Critical Thinking Assignment 5: Labs Lessons 8
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -135,7 +135,7 @@ After completing the task, click Submit >> Evaluate >> Record my answer to recor
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 4 Critical Thinking 
-Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-4-Critical-Thinking)  
+Directory: [Module-4-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315/Module-4-Critical-Thinking)  
 Title: Critical Thinking Assignment 4: Labs Lessons 10 and 14       
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -163,7 +163,7 @@ After completing the task, click Submit >> Evaluate >> Record my answer to recor
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Critical Thinking 
-Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-3-Critical-Thinking)  
+Directory: [Module-3-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315/Module-3-Critical-Thinking)  
 Title: Critical Thinking Assignment 3: Labs Lessons 5 and 6       
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -191,7 +191,7 @@ After completing the task, click Submit >> Evaluate >> Record my answer to recor
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-2-Critical-Thinking)  
+Directory: [Module-2-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315/Module-2-Critical-Thinking)  
 Title: Critical Thinking Assignment 2: Labs Lessons 3 and 4       
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -223,7 +223,7 @@ After completing the task, click Submit >> Evaluate >> Record my answer to recor
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Module-1-Critical-Thinking)  
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315/Module-1-Critical-Thinking)  
 Title: Critical Thinking Assignment 1: Labs Lesson 1 and 2     
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -256,7 +256,7 @@ After completing the task, click Submit >> Evaluate >> Record my answer to recor
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC410 CSC470 – Software Engineering Course  
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

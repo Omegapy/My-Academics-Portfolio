@@ -53,7 +53,7 @@ Related links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Portfolio Project  
-Directory: [Portfolio Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Portfolio-Project)  
+Directory: [Portfolio Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Portfolio-Project)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ The Students Manager is a small Java application that utilizes JavaFX GUI allowi
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 7 Portfolio Milestone
-Directory: [Module 7 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Module-7%20Portfolio%20Milestone)  
+Directory: [Module 7 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Module-7%20Portfolio%20Milestone)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
@@ -88,7 +88,7 @@ The Module 7: Portfolio Milestone asks for corrections to assignments from Weeks
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 6
-Directory: [Critical-Thinking-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-6)   
+Directory: [Critical-Thinking-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Critical-Thinking-6)   
 Program Name: Sort Students      
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -105,7 +105,7 @@ The program uses selection sort to sort the students.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 5
-Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-5)   
+Directory: [Critical-Thinking-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Critical-Thinking-5)   
 Program Name: Grocery Price Calculator    
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -122,7 +122,7 @@ It calculates the total cost using recursion.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 4 Portfolio Milestone
-Directory: [Module 4 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Module-4%20Portfolio%20Milestone)  
+Directory: [Module 4 Portfolio Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Module-4%20Portfolio%20Milestone)  
 Program Name: Bank Application 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -141,7 +141,7 @@ Thus, I selected my assignment from week 2, Critical Thinking 2 – Bank Account
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 4
-Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-4)  
+Directory: [Critical-Thinking-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Critical-Thinking-4)  
 Program Name: Abstract Class Shape  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -158,7 +158,7 @@ It uses JavaFX to create a simple GUI that displays the surface area and volume 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 3
-Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-3)  
+Directory: [Critical-Thinking-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Critical-Thinking-3)  
 Program Name: User Interface
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -177,7 +177,7 @@ attaching checking accounts, depositing and withdrawing funds, and viewing accou
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 2
-Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-2)  
+Directory: [Critical-Thinking-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Critical-Thinking-2)  
 Program Name: Bank Account GUI
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -197,7 +197,7 @@ The program is a small Java JavaFX application that provides a text area for use
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Critical Thinking 1
-Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Critical-Thinking-1)  
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Critical-Thinking-1)  
 Program Name: Bank Account
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -215,7 +215,7 @@ It includes a BankAccount class and a CheckingAccount class that extends the Ban
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC320 - Programming 2  
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
