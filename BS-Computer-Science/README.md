@@ -47,7 +47,6 @@ My Links:
 - [Programming 1 CSC320 Java](#programming-1-csc320-java)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Database Management ITS410](#database-management-its410)  
 - [Basic Programming ITS320 Python](#basic-programming-its320-python)  
 - [Operating Systems and Architecture CSC300](#operating-systems-and-architecture-csc300)   
-- [Portfolio Projects](#portfolio-projects)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
