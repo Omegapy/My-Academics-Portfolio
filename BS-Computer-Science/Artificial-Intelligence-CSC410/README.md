@@ -42,7 +42,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Portfolio Project
-Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Artificial-Intelligence-CSC410/Critical-Thinkings)  
 Title: Portfolio - AI implementation in Insurance
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -66,7 +66,7 @@ Your paper should be 4-6 pages in length (excluding the cover page and reference
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 6 Critical Thinking 
-Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Artificial-Intelligence-CSC410/Critical-Thinkings)  
 Title: Module-6 CTA Probability
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ Your paper should be 2-3 pages in length (excluding the cover page and reference
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 5 Critical Thinking 
-Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Artificial-Intelligence-CSC410/Critical-Thinkings)  
 Title: Module 5 – Portfolio Firts Draft
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -120,7 +120,7 @@ You may need to make some assumptions regarding cost and leadership roles, but m
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 4 Critical Thinking 
-Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Artificial-Intelligence-CSC410/Critical-Thinkings)  
 Title: Module 4 – Taxonomy
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -142,7 +142,7 @@ Be sure to include all of the following:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 3 Critical Thinking 
-Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Artificial-Intelligence-CSC410/Critical-Thinkings)  
 Title: Module 3 – Portfolio Outline
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -171,7 +171,7 @@ Your paper should be 4-6 pages in length (excluding the cover page and reference
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 2 Critical Thinking 
-Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Critical-Thinkings)  
+Directory: [Critical-Thinkings](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Artificial-Intelligence-CSC410/Critical-Thinkings)  
 Title: Module 2 - Critical Thinking Assignment: Truth Tables   
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -192,7 +192,7 @@ Your paper should be 2-3 pages in length (excluding the cover page and reference
 -----------------------------------------------------------------------------------------------------------------------------
 ## Discussions 
 This repository is a collection of discussion posts from CSC410 – Artificial Intelligence       
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Artificial-Intelligence-CSC410/Discussions)
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

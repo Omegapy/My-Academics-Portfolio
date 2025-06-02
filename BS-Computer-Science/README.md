@@ -55,7 +55,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Database Management ITS410
-Directory: [Database-Management-ITS410](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Database-Management-ITS410)
+Directory: [Database-Management-ITS410](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Database-Management-ITS410)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -70,7 +70,7 @@ at Colorado State University Global - CSU Global.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Information Systems Analysis and Design MIS350
-Directory: [Information-Systems-Analysis-and-Design-MIS350](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Information-Systems-Analysis-and-Design-MIS350)
+Directory: [Information-Systems-Analysis-and-Design-MIS350](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Information-Systems-Analysis-and-Design-MIS350)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ at Colorado State University Global - CSU Global.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Technology Ethics and Global Community ITS325
-Directory: [Technology-Ethics-and-Global-Community-ITS325](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Technology-Ethics-and-Global-Community-ITS325)
+Directory: [Technology-Ethics-and-Global-Community-ITS325](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Technology-Ethics-and-Global-Community-ITS325)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -100,7 +100,7 @@ at Colorado State University Global - CSU Global.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Platform Based Development Android CSC475
-Directory: [Platform-Based-Dev-Android-CSC475](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Platform-Based-Dev-Android-CSC475)
+Directory: [Platform-Based-Dev-Android-CSC475](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Platform-Based-Dev-Android-CSC475)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -115,7 +115,7 @@ at Colorado State University Global - CSU Global.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Software Engineering CSC470
-Directory: [Software-Engineering-CSC470](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470)
+Directory: [Software-Engineering-CSC470](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Software-Engineering-CSC470)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -130,7 +130,7 @@ at Colorado State University Global - CSU Global.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Introduction to Networks ITS315
-Directory: [Intro-Networks-ITS315](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Intro-Networks-ITS315)
+Directory: [Intro-Networks-ITS315](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Intro-Networks-ITS315)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -145,7 +145,7 @@ at Colorado State University Global - CSU Global.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Programming 3 cpp Java CSC450
-Directory: [Programming-3-CSC450](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-3-CSC450)
+Directory: [Programming-3-CSC450](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-3-CSC450)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -160,7 +160,7 @@ Fall D (24FD) – 2024
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Artificial Intelligence CSC410
-Directory: [Artificial-Intelligence-CSC410](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Artificial-Intelligence-CSC410)
+Directory: [Artificial-Intelligence-CSC410](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Artificial-Intelligence-CSC410)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -175,7 +175,7 @@ Fall D (24FD) – 2024
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Graphics and Visualization WebGL CSC405
-Directory: [Graphics-and-Visualization-CSC405](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Graphics-and-Visualization-CSC405)
+Directory: [Graphics-and-Visualization-CSC405](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Graphics-and-Visualization-CSC405)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -205,7 +205,7 @@ Fall B (24FB) – 2024
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Programming 2 CSC372 Java
-Directory: [Programming-2-CSC372](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Programming-2-CSC372)
+Directory: [Programming-2-CSC372](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-2-CSC372)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -221,7 +221,7 @@ Spring B Semester (24SD) - 2024
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Programming 1 CSC320 Java
-Directory: [Programming-1-CSC320](https://github.com/Omegapy/My-Academics-Portfolio/blob/main/Programming-1-CSC320)
+Directory: [Programming-1-CSC320](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Programming-1-CSC320)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -237,7 +237,7 @@ Spring B Semester (24SB) - 2024
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Basic Programming ITS320 Python 
-Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Basic-Programming-ITS320)
+Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Basic-Programming-ITS320)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -253,7 +253,7 @@ Winter Semester (24WD) - 2024
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Operating Systems and Architecture CSC300
-Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/OS-and-Architecture)  
+Directory: [OS-and-Architecture](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/OS-and-Architecture)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -261,66 +261,6 @@ Projects Description:
 This repository is a collection of essay assignments from CSC300 - Operating Systems and Architecture Course.  
 at Colorado State University Global- CSU Global  
 Spring Semester (23SD) – 2023
-
------------------------------------------------------------------------------------------------------------------------------
-
-[Go back to the Project Map](#project-map)
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-## Computer Science 1 cpp
-Directory: [cpp_cos-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/cpp_cos-1)  
-
------------------------------------------------------------------------------------------------------------------------------
-
-Projects Description:   
-This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class   
-at Laramie County Community College(LCCC)  
-Fall Semester – 2022
-
------------------------------------------------------------------------------------------------------------------------------
-
-[Go back to the Project Map](#project-map)
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-## [Python Data Science](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/python_datascience)    
-Directory: [python_datascience](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/python_datascience)  
-
------------------------------------------------------------------------------------------------------------------------------
-
-Projects Description:   
-Codecademy Data Science Course Python (2021)  
-This is a collection of assignments from Codecademy Machine Learning, Data Scientist Path  
-
------------------------------------------------------------------------------------------------------------------------------
-
-[Go back to the Project Map](#project-map)
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-## Portfolio Projects
-Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects)
-
------------------------------------------------------------------------------------------------------------------------------
-
-Projects Description:   
-This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
-and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
-
------------------------------------------------------------------------------------------------------------------------------
-
-[Go back to the Project Map](#project-map)
-
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
-## My Resume
-Directory: [Resume](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Resume) 
-
------------------------------------------------------------------------------------------------------------------------------
-
-Description:   
-Contains my Resume.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
