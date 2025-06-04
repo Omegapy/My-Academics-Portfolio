@@ -119,7 +119,7 @@ Directory: [Technology-Ethics-and-Global-Community-ITS325](https://github.com/Om
 
 Projects Description:
 This repository is a collection of essays from ITS325 – Technology, Ethics, and Global Community ITS325 Course
-at Colorado State University Global - CSU Global. 
+at Colorado State University Global - CSU Global.  
 Winter Semester (24WD) - 2025
 
 -----------------------------------------------------------------------------------------------------------------------------
