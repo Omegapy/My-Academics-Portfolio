@@ -45,8 +45,36 @@ My Links:
 - [Data Structures and Algorithms Java CSC400](#data-structures-and-algorithms-java-csc400)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Technology Ethics and Global Community ITS325](#technology-ethics-and-global-community-its325)
 - [Programming 2 CSC372 Java](#programming-2-csc372-java)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Information Systems Analysis and Design MIS350](#information-systems-analysis-and-design-mis350)  
 - [Programming 1 CSC320 Java](#programming-1-csc320-java)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Database Management ITS410](#database-management-its410)  
-- [Basic Programming ITS320 Python](#basic-programming-its320-python)  
-- [Operating Systems and Architecture CSC300](#operating-systems-and-architecture-csc300)   
+- [Basic Programming ITS320 Python](#basic-programming-its320-python)<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Principles of Cyber Security ITS415](#principles-of-cyber-security-its415)   
+- [Operating Systems and Architecture CSC300](#operating-systems-and-architecture-csc300) <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>•  [Computer Science Capstone CSC480](#computer-science-capstone-csc480)   
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Computer Science Capstone CSC480
+Directory: [Computer-Science-Capstone-CSC480](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Computer-Science-Capstone-CSC480)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of assignments from CSC480 – Computer Science Capstone Course at Colorado State University Global - CSU Global.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Principles of Cyber Security ITS415
+Directory: [Principles-of-Cyber-Security-ITS415](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Principles-of-Cyber-Security-ITS415)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Projects Description:
+This repository is a collection of assignments from ITS415 – Principles of Cyber Security Course at Colorado State University Global - CSU Global.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
