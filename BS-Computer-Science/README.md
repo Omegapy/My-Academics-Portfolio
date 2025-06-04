@@ -56,7 +56,8 @@ Directory: [Computer-Science-Capstone-CSC480](https://github.com/Omegapy/My-Acad
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:
-This repository is a collection of assignments from CSC480 – Computer Science Capstone Course at Colorado State University Global - CSU Global.
+This repository is a collection of assignments from CSC480 – Computer Science Capstone Course at Colorado State University Global - CSU Global.  
+Spring Semester (25SD) - 2025
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -70,7 +71,8 @@ Directory: [Principles-of-Cyber-Security-ITS415](https://github.com/Omegapy/My-A
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:
-This repository is a collection of assignments from ITS415 – Principles of Cyber Security Course at Colorado State University Global - CSU Global.
+This repository is a collection of assignments from ITS415 – Principles of Cyber Security Course at Colorado State University Global - CSU Global.  
+Spring Semester (25SD) - 2025
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -85,7 +87,8 @@ Directory: [Database-Management-ITS410](https://github.com/Omegapy/My-Academics-
 
 Projects Description:
 This repository is a collection of assignements from ITS410 - Database Management Course
-at Colorado State University Global - CSU Global. 
+at Colorado State University Global - CSU Global.  
+Spring Semester (25SB) - 2025
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -101,6 +104,7 @@ Directory: [Information-Systems-Analysis-and-Design-MIS350](https://github.com/O
 Projects Description:
 This repository is a collection of assignements from MIS350 - Information Systems Analysis and Design Course
 at Colorado State University Global - CSU Global. 
+Spring Semester (25SB) - 2025
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -116,6 +120,7 @@ Directory: [Technology-Ethics-and-Global-Community-ITS325](https://github.com/Om
 Projects Description:
 This repository is a collection of essays from ITS325 – Technology, Ethics, and Global Community ITS325 Course
 at Colorado State University Global - CSU Global. 
+Winter Semester (24WD) - 2025
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -130,7 +135,8 @@ Directory: [Platform-Based-Dev-Android-CSC475](https://github.com/Omegapy/My-Aca
 
 Projects Description:
 This repository is a collection of simple Andriod Apps from CSC475 – Platform Based Development Android Course
-at Colorado State University Global - CSU Global. 
+at Colorado State University Global - CSU Global.  
+Winter Semester (24WD) - 2025
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -145,7 +151,8 @@ Directory: [Software-Engineering-CSC470](https://github.com/Omegapy/My-Academics
 
 Projects Description:
 This repository is a collection of Software Engineering assignments from CSC470 – Software Engineering Course
-at Colorado State University Global - CSU Global. 
+at Colorado State University Global - CSU Global.  
+Winter Semester (24WB) - 2024
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -160,7 +167,8 @@ Directory: [Intro-Networks-ITS315](https://github.com/Omegapy/My-Academics-Portf
 
 Projects Description:
 This repository is a collection of Software Engineering assignments from ITS315 – Introduction to Networks
-at Colorado State University Global - CSU Global.
+at Colorado State University Global - CSU Global.  
+Winter Semester (24WB) - 2024
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -204,7 +212,7 @@ Directory: [Graphics-and-Visualization-CSC405](https://github.com/Omegapy/My-Aca
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:
-This repository is a collection of Graphics and Visualization programs with WebGL (JavaScript) and assignments from CSC405 – Graphics and Visualization Course at Colorado State University Global - CSU Global.  
+This repository is a collection of Graphics and Visualization programs with WebGL (JavaScript) and assignments from CSC405 – Graphics and Visualization Course at Colorado State University Global - CSU Global.   
 Fall B (24FB) – 2024  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -219,7 +227,7 @@ Directory: [Data-Structures-and-Algorithms-CSC400](https://github.com/Omegapy/My
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:
-This repository is a collection of Java programs and assignments from CSC400 – Data Structures and Algorithms Course at Colorado State University Global - CSU Global.  
+This repository is a collection of Java programs and assignments from CSC400 – Data Structures and Algorithms Course at Colorado State University Global - CSU Global.   
 Fall B (24FB) – 2024  
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -235,7 +243,7 @@ Directory: [Programming-2-CSC372](https://github.com/Omegapy/My-Academics-Portfo
 
 Projects Description:
 This repository is a collection of Java programs from CSC372 – Programming-2 Java Course
-at Colorado State University Global- CSU Global.
+at Colorado State University Global- CSU Global.  
 Spring B Semester (24SD) - 2024 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -251,7 +259,7 @@ Directory: [Programming-1-CSC320](https://github.com/Omegapy/My-Academics-Portfo
 
 Projects Description:   
 This repository is a collection of Java programs from CSC320 – Programming-1 Java Course
-at Colorado State University Global- CSU Global.
+at Colorado State University Global- CSU Global.  
 Spring B Semester (24SB) - 2024 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -268,7 +276,7 @@ Directory: [Basic-Programming-ITS320](https://github.com/Omegapy/My-Academics-Po
 Projects Description:  
 This repository is a collection of Python scripts from IT320 - Basic Programming Python Course  
 at Colorado State University Global- CSU Global.  
-Winter Semester (24WD) - 2024  
+Winter Semester (23WD) - 2023  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
