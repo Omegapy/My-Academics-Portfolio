@@ -40,7 +40,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 
 #### Project Map
-- [BS in Computer Science](bs-in-computer-science)
+- [BS in Computer Science](#bs-in-computer-science)
 - [Computer Science 1 cpp](#computer-science-1-cpp)  
 - [Python Data Science](#python-data-science)
 - [Portfolio Projects](#portfolio-projects)
