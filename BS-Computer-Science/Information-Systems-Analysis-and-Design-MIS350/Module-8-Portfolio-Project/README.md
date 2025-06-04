@@ -57,11 +57,11 @@ In this section of the proposal, you will provide the following:
 
 - Detailed requirements list
 - Data Flow Diagram
-o Feasibility analysis
-o Calculate the NPV
-o Calculate the return on investment.
-o Calculate the breakeven point.
-o Include a line chart to support your breakeven results (Figure 5-7)
+    - Feasibility analysis
+    - Calculate the NPV
+    - Calculate the return on investment.
+    - Calculate the breakeven point.
+    - Include a line chart to support your breakeven results (Figure 5-7)
 - Development methodology
 
 For the feasibility analysis: 
