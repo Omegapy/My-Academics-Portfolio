@@ -18,7 +18,7 @@ Professor: Joe Rangitsch
 Spring - 2023
 Student: Alejandro (Alex) Ricciardi
 
-Final grade: A+ 100%
+Final grade: 4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
