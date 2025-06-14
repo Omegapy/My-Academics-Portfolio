@@ -18,7 +18,7 @@ Professor: Kara Coston
 Spring B (25SB) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade:  
+Final grade:  100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 My Links:   
