@@ -18,7 +18,7 @@ Professor: Dr. Mortoza Abdullah
 Winter D (24WD) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade:  A
+Final grade: 4.0 A
 
 ----------------------------------------------------------------------------------------------------------------------------
 My Links:   
