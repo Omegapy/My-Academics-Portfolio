@@ -18,7 +18,7 @@ Professor: Herbert Pensado
 Winter D (24WD) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade:  100% A
+Final grade: 4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
