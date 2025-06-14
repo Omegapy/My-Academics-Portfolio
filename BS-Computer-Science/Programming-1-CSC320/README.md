@@ -19,7 +19,7 @@ Professor: Herbert Pensado
 Spring B Semester (24SB) – 2024   
 Student: Alejandro (Alex) Ricciardi   
 
-Final grade: 
+Final grade: 4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
