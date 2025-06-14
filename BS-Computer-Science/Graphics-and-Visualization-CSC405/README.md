@@ -19,7 +19,7 @@ Professor: Jennifer Marquez
 Fall B (24FB) – 2024   
 Student: Alejandro (Alex) Ricciardi   
 
-Final grade:  A
+Final grade: 4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
