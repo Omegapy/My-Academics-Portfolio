@@ -2,7 +2,7 @@
 # Module-8 Portfolio Project  
 Portfolio Project: Hullabaloo Party Supplies Customer Order System 
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
