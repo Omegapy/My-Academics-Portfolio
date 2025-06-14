@@ -51,7 +51,7 @@ My Links:
 Directory: [MIS350-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/MIS350-CSU-Global)  
 
 Title: Hullabaloo Party Supplies Customer Order System  
-Grade: 
+Grade: 100% A
  
 MIS350 – Information Systems Analysis and Design  
 Professor: Dr. Kara Coston  
