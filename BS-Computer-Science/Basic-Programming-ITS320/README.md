@@ -20,7 +20,7 @@ Professor: Dr. Reinaldo Fernandez
 Winter Semester (24WD) – 2023  
 Student: Alejandro (Alex) Ricciardi  
 
-Final grade: A+ 100%
+Final grade: 4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
