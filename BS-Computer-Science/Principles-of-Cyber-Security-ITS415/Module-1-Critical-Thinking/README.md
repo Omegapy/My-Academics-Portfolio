@@ -19,8 +19,8 @@ Assignment Directions:
 uCertify Lab from Lesson 2  
 Log into uCertify. Click Labs, find the following lab, and complete the tasks within the lab.  
 - 2.1.1 Encrypting files with EFS  
-After completing the task, click Submit >> Evaluate >> Record my answer to record your answer.
 
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer.  
 Take a screenshot that shows the current date and time of the completion page and upload the image to Canvas.
 
 -----------------------------------------------------------------------------------------------------------------------------
