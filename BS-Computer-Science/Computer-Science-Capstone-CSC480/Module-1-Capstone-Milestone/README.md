@@ -55,8 +55,7 @@ Instead of these topics, you may wish to select a problem in your work environme
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Program Description:
-
+Program Description:  
 The MRCA is an AI-powered conversational agent that retrieves information and answers questions about Mine Safety and Health Administration (MSHA) regulations, as outlined in Title 30 of the Code of Federal Regulations (CFR). It allows users to quickly and easily access information and ask questions about MSHA regulations using a Large Language Model (LLM) combined with a GraphRAG hybrid search. 
 
 -----------------------------------------------------------------------------------------------------------------------------
