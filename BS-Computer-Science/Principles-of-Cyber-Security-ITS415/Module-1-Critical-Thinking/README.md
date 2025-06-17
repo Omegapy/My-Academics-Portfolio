@@ -23,9 +23,6 @@ After completing the task, click Submit >> Evaluate >> Record my answer to recor
 
 Take a screenshot that shows the current date and time of the completion page and upload the image to Canvas.
 
-
-
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 Project Map:  
