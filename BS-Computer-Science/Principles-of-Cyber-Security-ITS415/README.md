@@ -14,7 +14,7 @@ This repository is a collection of assignments from ITS415 – Principles of Cyb
 -----------------------------------------------------------------------------------------------------------------------------
 
 ITS415 – Principles of Cyber Security  
-Professor: Dr. Paul Stamas
+Professor: Dr. Paul Stamas  
 Spring D (25SD) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
