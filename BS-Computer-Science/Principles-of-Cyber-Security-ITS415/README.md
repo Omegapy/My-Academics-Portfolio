@@ -48,20 +48,19 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking]()   
-Title: Critical Thinking Assignment 1: 
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Principles-of-Cyber-Security-ITS415/Module-1-Critical-Thinking)   
+Title: Critical Thinking 1: Labs Lesson 2  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Description:  
+Certify Lab from Lesson 2  
+Log into uCertify. Click Labs, find the following lab, and complete the tasks within the lab.  
+- 2.1.1 Encrypting files with EFS  
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer.
 
-
------------------------------------------------------------------------------------------------------------------------------
-
-
-Program Description:
-
+Take a screenshot that shows the current date and time of the completion page and upload the image to Canvas.
 
 -------------------------------------------------------------------------------------------
 
