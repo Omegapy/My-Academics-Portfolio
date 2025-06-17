@@ -1,8 +1,8 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # Critical Thinking 1
-Program Name: 
+Program Name: Labs Lesson 2
 
-Grade: 
+Grade:100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -10,26 +10,26 @@ ITS415 – Principles of Cyber Security
 Professor: Dr. Paul Stamas
 Spring D (25SD) – 2025   
 Student: Alexander (Alex) Ricciardi   
-Date: 
-
------------------------------------------------------------------------------------------------------------------------------
-
-Requirements:  
+Date:6/15/2025
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Directions:  
 
+uCertify Lab from Lesson 2  
+Log into uCertify. Click Labs, find the following lab, and complete the tasks within the lab.  
+- 2.1.1 Encrypting files with EFS  
+After completing the task, click Submit >> Evaluate >> Record my answer to record your answer.
+
+Take a screenshot that shows the current date and time of the completion page and upload the image to Canvas.
+
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Program Description:
-
-
------------------------------------------------------------------------------------------------------------------------------
-
-Project Map:
-
+Project Map:  
+CTA1 - Labs Lesson 2.pdf – Critical Thinking 1: Labs Lesson 2
 
 -----------------------------------------------------------------------------------------------------------------------------
 
