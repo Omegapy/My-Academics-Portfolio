@@ -16,8 +16,7 @@ Date: 06/22/2025
 
 Assignment Directions:  
 
-Software Project Plan
-
+Software Project Plan  
 Research a realistic software project that can be used in a business, identify a business problem that can be solved with a new software solution, and justify the implementation of the new system based on your research.
 
 You will develop your project throughout the course through the following Capstone Milestone submissions:  
