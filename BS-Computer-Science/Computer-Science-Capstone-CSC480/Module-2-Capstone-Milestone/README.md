@@ -30,8 +30,6 @@ You will develop your project throughout the course through the following Capsto
 - Packaging the Solution (due in Module 7)
 - Final Capstone Project (due in Module 8)
 
-While each milestone will be worth points, the final submission due in Module 8 will be a compilation of the submissions from Modules 1-7 and will constitute a significant percentage of the course point total. (See the syllabus for details.) The final submission must integrate feedback provided by the instructor in previous modules.
-
 Module 2: Capstone Milestone  
 Software Project Plan
 Write a paper that summarizes the purpose of your Capstone Project. In your paper, include the following topics:
@@ -53,7 +51,7 @@ The MRCA is an AI-powered conversational agent that retrieves information and an
 
 Project Map:
 
-- Module 1 Capstone Milestone Topic Approval.pdf - MSHA Regulatory Conversational Agent – Topic Approval
+- Module 2 Capstone Milestone Project Proposal.pdf - MSHA Regulatory Conversational Agent – Project Proposal
 
 -----------------------------------------------------------------------------------------------------------------------------
 
