@@ -16,9 +16,7 @@ Date: 06/15/2025
 
 Assignment Directions:  
 
-Module 1: Capstone Milestone  
-Software Project Plan
-
+Software Project Plan  
 Research a realistic software project that can be used in a business, identify a business problem that can be solved with a new software solution, and justify the implementation of the new system based on your research.
 
 You will develop your project throughout the course through the following Capstone Milestone submissions:  
@@ -33,7 +31,8 @@ You will develop your project throughout the course through the following Capsto
 
 While each milestone will be worth points, the final submission due in Module 8 will be a compilation of the submissions from Modules 1-7 and will constitute a significant percentage of the course point total. (See the syllabus for details.) The final submission must integrate feedback provided by the instructor in previous modules.
 
-Module 1 Capstone Milestone
+Module 1 Capstone Milestone  
+Topic Proposal
 
 For your first milestone, carefully examine the capstone project requirements for the Module 8 Capstone Project. Then select a topic and write two to four paragraphs that describe the selection and what the final capstone project will entail. Your instructor will provide feedback on and approval of your topic.
 
