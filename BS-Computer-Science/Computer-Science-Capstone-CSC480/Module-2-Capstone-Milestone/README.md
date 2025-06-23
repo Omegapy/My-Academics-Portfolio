@@ -30,8 +30,7 @@ You will develop your project throughout the course through the following Capsto
 - Final Capstone Project (due in Module 8)
 
 Module 2: Capstone Milestone  
-Software Project Plan
-Write a paper that summarizes the purpose of your Capstone Project. In your paper, include the following topics:
+Project Proposal
 
 An introduction to your topic (refined from Module 1 based on instructor feedback)
 A description of the information system that is going to solve or enhance the business problem you identified
