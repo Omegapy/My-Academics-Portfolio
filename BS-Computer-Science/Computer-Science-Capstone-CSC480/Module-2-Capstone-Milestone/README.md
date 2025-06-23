@@ -1,5 +1,5 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Module-1 Capstone Milestone
+# Module-2 Capstone Milestone
 Program Name: MSHA Regulatory Conversational Agent – Project Proposal
 
 Grade: 
