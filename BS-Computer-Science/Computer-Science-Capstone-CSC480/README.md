@@ -62,7 +62,7 @@ My Links:
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Module 6 Capstone Milestone
-Directory: [Module-5-Capstone-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Computer-Science-Capstone-CSC480/Module-6-Capstone-Milestone)   
+Directory: [Module-6-Capstone-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Computer-Science-Capstone-CSC480/Module-6-Capstone-Milestone)   
 Title: Module 6 Capstone Milestone: Testing Plan
 
 -----------------------------------------------------------------------------------------------------------------------------
