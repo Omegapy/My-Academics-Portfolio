@@ -95,7 +95,7 @@ This is a collection of assignments from Codecademy Machine Learning, Data Scien
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 ## Portfolio Projects
-Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio%20Projects)
+Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects)
 
 -----------------------------------------------------------------------------------------------------------------------------
 

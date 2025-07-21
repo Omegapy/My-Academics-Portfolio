@@ -3,7 +3,7 @@
 # Portfolio Project – MIS350 – Information Systems Analysis and Design Course  
 
 Title: Hullabaloo Party Supplies Customer Order System  
-Grade: 
+Grade: 100% A
 
 MIS350 – Information Systems Analysis and Design  
 Professor: Dr. Kara Coston  
