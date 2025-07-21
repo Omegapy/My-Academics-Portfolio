@@ -23,7 +23,12 @@ Final grade:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-The MRCA is an AI-powered conversational agent that retrieves information and answers questions about Mine Safety and Health Administration (MSHA) regulations, as outlined in Title 30 of the Code of Federal Regulations (CFR). It allows users to quickly and easily access information and ask questions about MSHA regulations using a Large Language Model (LLM) combined with a GraphRAG hybrid search. 
+The Mining Regulatory Compliance Assistant (MRCA), is an AI-powered web application that will provide a quick, reliable, and easy way to query Mine Safety and Health Administration (MSHA) regulations using natural language. MRCA combines Large Language Models (LLMs) with an a novel RAG tecnique, Advanced Parallel HybridRAG (APH), to minimize LLM hallucinations.
+
+Note that Advanced Parallel HybridRAG (APH) is a novel RAG technique developed by Alexander Samuel Ricciardi (me) that uses intelligence fusion to combine results from two processes performed in parallel: a semantic search across vector embeddings and a traversal search over a knowledge graph.
+
+© 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
+License: Apache-2.0 | Technology: Advanced Parallel Hybrid RAG System
 
 -----------------------------------------------------------------------------------------------------------------------------
 Requirements:  
@@ -46,9 +51,112 @@ My Links:
 
 #### Project Map  
 
+- [Module 6 Capstone Milestone](#module-6-capstone-milestone)
+- [Module 5 Capstone Milestone](#module-5-capstone-milestone)
+- [Module 4 Capstone Milestone](#module-4-capstone-milestone)
+- [Module 3 Capstone Milestone](#module-3-capstone-milestone)
 - [Module 2 Capstone Milestone](#module-2-capstone-milestone)
 - [Module 1 Capstone Milestone](#module-1-capstone-milestone)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 6 Capstone Milestone
+Directory: [Module-5-Capstone-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Computer-Science-Capstone-CSC480/Module-6-Capstone-Milestone)   
+Title: Module 6 Capstone Milestone: Testing Plan
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Software Project Plan  
+For this milestone, you will draft a document that specifies how to test your Capstone Project. Investigate different types of software testing methodologies. Describe the following:
+
+- At least five use cases that your capstone project must respond to
+- A set of inputs that can be used to drive your project and the corresponding results from your system
+- Performance expectations
+
+A set of inputs and/or user interactions that can cause your program to fail
+Your paper should be approximately 3 pages in length and conform to APA guidelines in the CSU Global Writing Center (link available in the left navigation panel). Organize your testing plan with headings for each of the required test cases. Justify your testing methods with at least three credible references in addition to the course textbooks. The CSU Global Library (link available in the left navigation panel) is a good place to find these references.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 5 Capstone Milestone
+Directory: [Module-5-Capstone-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Computer-Science-Capstone-CSC480/Module-5-Capstone-Milestone)   
+Title: Module 5 Capstone Milestone: Testing
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Fault-tolerant Software  
+"Fault-tolerant" software is software that contains controls that keep your system from crashing or aborting. An example of fault-tolerant software would be a program that does not abort when a user enters improper data.
+
+Investigate some of the ways in which software implementation can incorporate fault-tolerance. Next, describe ways in which your Capstone Project incorporates principles of fault-tolerance.
+Your paper should be approximately two pages in length (not including the title and reference pages) and conform to APA guidelines in the CSU Global Writing Center (link available in the left navigation panel). Include at least two credible references in addition to the course textbook. The CSU Global Library (link available in the left navigation panel) is a good place to find these references. Format your paper to include a title page, section headers, an introduction, a conclusion, and a reference page. 
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 4 Capstone Milestone
+Directory: [Module-4-Capstone-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Computer-Science-Capstone-CSC480/Module-4-Capstone-Milestone)   
+Title: Module 4 Capstone Milestone:  Architecture 
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Software Project Plan  
+For this milestone you will submit a draft of the architectural details of your Capstone Project using UML diagrams. Your report should include the following detailed design documents:
+
+- A class diagram showing system classes and their relationships and
+- A state machine diagram that provides a detailed, technical model of changes to the states of system objects.
+
+Cross-reference the contents of your UML schematics with the contents from the technical report you completed for the capstone milestone assignment in Module 3.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 3 Capstone Milestone
+Directory: [Module-3-Capstone-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Computer-Science-Capstone-CSC480/Module-3-Capstone-Milestone)   
+Title: Module 3 Capstone Milestone:  Architecture Proposal
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+For this assignment, finalize a detailed design for the new software system that was approved for your Capstone Project.
+
+Provide an in-depth explanation of the components of the project. The submission, at minimum, must include a sufficient description of the architecture of your system, such as the following:
+
+- Abstract interfaces used by your system
+- Inheritance hierarchies present in your solution
+- The different states of the system during its run-time
+- Data structures used by your components
+- System inputs and outputs
+- A user interface description
+
+Your written submission should be clear, well written, concise, and logical, using excellent grammar and style. You will be graded in part on the quality of your writing. If you need assistance with your writing style or want to review writing tools, resources, and templates, visit the CSU Global Writing Center (link available in the left navigation panel).
+
+Your paper should be approximately two pages in length (not including the title and reference pages) and conform to APA guidelines in the CSU Global Writing Center (link available in the left navigation panel). Include at least two credible references in addition to the course textbooks. The CSU Global Library (link available in the left navigation panel)is a good place to find these references. Format your paper to include a title page, section headers, an introduction, a conclusion, and a reference page.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
