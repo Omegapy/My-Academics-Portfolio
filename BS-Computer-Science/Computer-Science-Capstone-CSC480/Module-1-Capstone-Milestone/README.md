@@ -55,7 +55,12 @@ Instead of these topics, you may wish to select a problem in your work environme
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-The MRCA is an AI-powered conversational agent that retrieves information and answers questions about Mine Safety and Health Administration (MSHA) regulations, as outlined in Title 30 of the Code of Federal Regulations (CFR). It allows users to quickly and easily access information and ask questions about MSHA regulations using a Large Language Model (LLM) combined with a GraphRAG hybrid search. 
+The Mining Regulatory Compliance Assistant (MRCA), is an AI-powered web application that will provide a quick, reliable, and easy way to query Mine Safety and Health Administration (MSHA) regulations using natural language. MRCA combines Large Language Models (LLMs) with an a novel RAG tecnique, Advanced Parallel HybridRAG (APH), to minimize LLM hallucinations.
+
+Note that Advanced Parallel HybridRAG (APH) is a novel RAG technique developed by Alexander Samuel Ricciardi (me) that uses intelligence fusion to combine results from two processes performed in parallel: a semantic search across vector embeddings and a traversal search over a knowledge graph.
+
+© 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
+License: Apache-2.0 | Technology: Advanced Parallel Hybrid RAG System. 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
