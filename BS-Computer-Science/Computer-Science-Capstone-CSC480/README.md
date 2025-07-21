@@ -2,7 +2,7 @@
 # Computer Science Capstone – CSC480  
 -----------------------------------------------------------------------------------------------------------------------------
 
-<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi (Omegapy)      
+<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi (Omega.py)      
 
 Created date: 06/09/2025  
 
