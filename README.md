@@ -2,17 +2,25 @@
 # My Academics Portfolio 
 -----------------------------------------------------------------------------------------------------------------------------
 
-<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi (Omega-py) 
+<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi (Omega.py) 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:  
 This repository is a collection of my academic work at Colorado State University Global (CSU Global) and Laramie County Community College (LCCC).
 
-I am a student in Computer Science with a focus on AI. 
-A senior student at CSU Global pursuing a BS in CS (Expected Graduation August 2025) .
-In August 2025 I have plans to pursue a Master's in AI at CSU Global.
-I am also an high distinction honors graduate: AS in CS from LCCC – Dec. 2023.
+**Software Engineer – Focus on AI**  
+
+Bachelor of Science (BS) in Computer Science (CS)  
+Colorado State University Global (CSU Global) - August 3, 2025   
+4.0 GPA Summa Cum Laude graduate  
+
+Associate of Science (AS) in Computer Science (CS)   
+Laramie County Community College (LCCC) - Dec. 2023  
+4.0 GPA High Distinction Honors graduate  
+
+Pursuing a Master of Science in Artificial Intelligence (AI) and Machine Learning (LM)   
+At CSU Global, starting date Sep. 2025 – Estimated graduation date Aug. 2027
 
 -----------------------------------------------------------------------------------------------------------------------------
 
