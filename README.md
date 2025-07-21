@@ -54,8 +54,7 @@ Directory: [BS-Computer-Science](https://github.com/Omegapy/My-Academics-Portfol
 -----------------------------------------------------------------------------------------------------------------------------
 
 Projects Description:   
-This repository is a collection of coursework and projects for my Bachelor of Science in Computer Science program at Colorado State University Global (CSU Global).  
-I am a senior student at CSU Global pursuing a BS in CS (Expected Graduation August 2025).
+This repository is a collection of coursework and projects for my Bachelor of Science in Computer Science program at Colorado State University Global (CSU Global). Graduated August 3, 2025.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
