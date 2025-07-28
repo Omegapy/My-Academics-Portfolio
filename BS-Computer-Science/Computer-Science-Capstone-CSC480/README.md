@@ -23,15 +23,64 @@ Final grade:
 -----------------------------------------------------------------------------------------------------------------------------
 
 Program Description:  
-The Mining Regulatory Compliance Assistant (MRCA), is an AI-powered web application that will provide a quick, reliable, and easy way to query Mine Safety and Health Administration (MSHA) regulations using natural language. MRCA combines Large Language Models (LLMs) with an a novel RAG tecnique, Advanced Parallel HybridRAG (APH), to minimize LLM hallucinations.
+MRCA - Mining Regulatory Compliance Assistant - Advanced Parallel Hybrid - Intelligent Fusion (APH-IF) Technology
 
-Note that Advanced Parallel HybridRAG (APH) is a novel RAG technique developed by Alexander Samuel Ricciardi (me) that uses intelligence fusion to combine results from two processes performed in parallel: a semantic search across vector embeddings and a traversal search over a knowledge graph.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white)](https://neo4j.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
-© 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
-License: Apache-2.0 | Technology: Advanced Parallel Hybrid RAG System
+**An AI-powered regulatory compliance assistant providing mining safety guidance. 
+The system uses a novel RAG system - Advanced Parallel HybridRAG - Intelligent Fusion.**
 
------------------------------------------------------------------------------------------------------------------------------
-Requirements:  
+---
+
+MRCA Website: https://mrca-frontend.onrender.com/  
+
+⚠️ This project has limited funds (I am a student). Once the monthly LLM usage fund limit is reached, the application will stop providing responses and will display an error message.  
+Please contact me (a.omegapy@gmail.com) if this happend and you still want to try the application.
+
+The ptoject codesourse is available at on GitHub Apache 2.0 license here: [MRCA-Advanced-Parallel-HybridRAG-Intelligent-Fusion
+](https://github.com/Omegapy/MRCA-Advanced-Parallel-HybridRAG-Intelligent-Fusion/tree/main)
+
+---
+
+© 2025 Alexander Samuel Ricciardi - MRCA Frontend Module  
+License: Apache-2.0 | Technology: Advanced Parallel HybridRAG - Intelligent Fusion (APH-IF) System 
+
+---
+
+## **What is MRCA?**
+
+MRCA (Mining Regulatory Compliance Assistant) is a web application that uses an AI system to provide quick, reliable, 
+and easy access to MSHA (Mine Safety and Health Administration) regulations using natural language queries. 
+Built on novel **Advanced Parallel HybridRAG - Intelligent Fusion (APH-IF)** technology.
+
+### **Core Innovation: Advanced Parallel HybridRAG - Intelligent Fusion (APH-IF)**
+
+Unlike traditional (basic) RAG (Retrieval Augmented Generation) systems that use *sequential* processing, 
+MRCA implements **Advanced Parallel HybridRAG (APH)** that performs **concurrent VectorRAG (semantic search) 
+and GraphRAG (traversal search) queries** 
+and fuses the queries results using **Intelligent Context Fusion (IF)** using a LLM or a LRM:
+
+- **Traditional RAG**: `if condition: vector_search() else: graph_search()`
+- **MRCA's Innovation**: `asyncio.gather(vector_task, graph_task)` - parallelism - `intelligent_context_fusion`
+
+This approach combines:
+- **VectorRAG**: Semantic similarity search using 768-dimensional Gemini embeddings
+- **GraphRAG**: Knowledge graph traversal with automated Cypher generation
+- **Context Fusion**: Intelligent combination using 4 research-based fusion strategies
+- **Hybrid Templates**: 5 specialized response templates for different use cases
+
+---
+
+Preview:
+
+| | |
+|---|---|
+| <img width="350" src="https://github.com/user-attachments/assets/2ebfeed2-ba58-4cef-a6e1-9288ff76eaf2"> | <img width="350" src="https://github.com/user-attachments/assets/9c59f5c4-b661-4048-af6e-02669a501dc9">
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -51,6 +100,7 @@ My Links:
 
 #### Project Map  
 
+- [Module 7 Capstone Milestone](#module-7-capstone-milestone)
 - [Module 6 Capstone Milestone](#module-6-capstone-milestone)
 - [Module 5 Capstone Milestone](#module-5-capstone-milestone)
 - [Module 4 Capstone Milestone](#module-4-capstone-milestone)
@@ -58,6 +108,54 @@ My Links:
 - [Module 2 Capstone Milestone](#module-2-capstone-milestone)
 - [Module 1 Capstone Milestone](#module-1-capstone-milestone)   
 - [Discussions](#discussions)
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+## Module 7 Capstone Milestone
+Directory: [Module-7-Capstone-Milestone](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/BS-Computer-Science/Computer-Science-Capstone-CSC480/Module-7-Capstone-Milestone)   
+Title: Module 7 Capstone Milestone: Software Configuration Management
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Assignment Description:  
+  
+Situations may arise during technical implementation of a project where tracking software changes is necessary. For example, it may be necessary to revert to an earlier version of code or implement additional or removed functionality.
+
+Your capstone project demands a meticulously crafted document, spanning 3-4 pages, outlining your bespoke Software Configuration Management (SCM) process adhering to APA format as per CSU Global Writing Center guidelines. This document will be your compass for navigating software changes, ensuring stability, and fostering seamless project evolution.
+
+Delving into the SCM Process:
+- Detailed Methodology: Define a clear roadmap for managing changes, encompassing meticulous procedures for tracking modifications, minimizing errors, and safeguarding against pitfalls.
+- Seamless Evolution: Clearly articulate the steps involved in your SCM process, demonstrating how it enables uninterrupted project development while maintaining robust stability.
+
+Unveiling the Power of your SCM Solution:
+- Functionalities and Benefits: Elucidate the functionalities and advantages of your chosen SCM solution, specifically highlighting its prowess in monitoring, tracing, and reverting code alterations.
+- Risk Mitigation and Success: Showcase how your SCM solution underpins project success by mitigating potential risks and ensuring smooth progression.
+
+Polishing the Document:
+- APA Adherence: Ensure your paper meets APA formatting, citation, and referencing standards as specified by the CSU Global Writing Center.
+- Logical Structure: Organize your document for intuitive navigation and comprehension. Utilize clear headings and subheadings to guide readers through your SCM process.
+
+Testing Plan Organization:
+- Dedicated Sections: Structure your testing plan with distinct sections for each essential test case, making it an easily digestible roadmap for quality assurance.
+- Justification: Provide compelling justifications for your chosen testing methodologies, referencing at least three credible sources beyond course textbooks. Leverage the CSU Global Library to access relevant resources.
+
+Harnessing Available Resources:
+- Navigation Panel: Utilize the course navigation panel to access vital resources like the CSU Global Writing Center and Library, empowering you to craft a robust document.
+- References: Back up your testing methodologies and SCM process descriptions with credible citations from reputable sources to lend credibility and depth.
+
+By meticulously fulfilling these requirements and documenting your comprehensive SCM process, you'll not only deliver a robust and informative document but also demonstrate your mastery of managing software changes and ensuring project stability through effective SCM practices. This document will stand as a testament to your commitment to quality and your ability to navigate the complexities of software development.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Program Description:  
+The Mining Regulatory Compliance Assistant (MRCA), is an AI-powered web application that will provide a quick, reliable, and easy way to query Mine Safety and Health Administration (MSHA) regulations using natural language. MRCA combines Large Language Models (LLMs) with an a novel RAG tecnique, Advanced Parallel HybridRAG - Inteligent Fusion  (APH-IF), to minimize LLM hallucinations.
+
+Note that Advanced Parallel HybridRAG - Inteligent Fusion (APH-IF) is a novel RAG technique developed by Alexander Samuel Ricciardi (me) that uses intelligence fusion to combine results from two processes performed in parallel: a semantic search across vector embeddings and a traversal search over a knowledge graph.
+
+-------------------------------------------------------------------------------------------
+
+[Go back to the Project Map](#project-map)  
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
