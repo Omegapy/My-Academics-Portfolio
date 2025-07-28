@@ -12,6 +12,9 @@ Spring D (25SD) – 2025
 Student: Alexander (Alex) Ricciardi   
 Date: 07/27/2025   
 
+© 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
+License: Apache-2.0 | Technology: Advanced Parallel Hybrid RAG System
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 Assignment Directions:  
@@ -49,8 +52,6 @@ The Mining Regulatory Compliance Assistant (MRCA), is an AI-powered web applicat
 
 Note that Advanced Parallel HybridRAG - Inteligent Fusion (APH-IF) is a novel RAG technique developed by Alexander Samuel Ricciardi (me) that uses intelligence fusion to combine results from two processes performed in parallel: a semantic search across vector embeddings and a traversal search over a knowledge graph.
 
-© 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
-License: Apache-2.0 | Technology: Advanced Parallel Hybrid RAG System
 
 -----------------------------------------------------------------------------------------------------------------------------
 
