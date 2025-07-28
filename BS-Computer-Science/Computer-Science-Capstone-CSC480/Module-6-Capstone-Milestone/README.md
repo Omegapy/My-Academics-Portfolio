@@ -2,7 +2,7 @@
 # Module-6 Capstone Milestone
 Program Name: Mining Regulatory Compliance Assistant (MRCA) – Testing Plan
 
-Grade: 
+Grade: 100% A
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -10,7 +10,7 @@ CSC480 – Computer Science Capstone
 Professor: Dr. Shaher Daoud
 Spring D (25SD) – 2025   
 Student: Alexander (Alex) Ricciardi   
-Date: 07//2025   
+Date: 07/20/2025   
 
 -----------------------------------------------------------------------------------------------------------------------------
 
