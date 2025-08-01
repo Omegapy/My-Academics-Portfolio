@@ -42,7 +42,7 @@ MRCA Website: https://mrca-frontend.onrender.com/
 ⚠️ This project has limited funds (I am a student). Once the monthly LLM usage fund limit is reached, the application will stop providing responses and will display an error message.  
 Please contact me (a.omegapy@gmail.com) if this happend and you still want to try the application.
 
-The ptoject codesourse is available at on GitHub Apache 2.0 license here: [MRCA-Advanced-Parallel-HybridRAG-Intelligent-Fusion
+The project codesourse is available on GitHub with an Apache 2.0 license here: [MRCA-Advanced-Parallel-HybridRAG-Intelligent-Fusion
 ](https://github.com/Omegapy/MRCA-Advanced-Parallel-HybridRAG-Intelligent-Fusion/tree/main)
 
 ---
