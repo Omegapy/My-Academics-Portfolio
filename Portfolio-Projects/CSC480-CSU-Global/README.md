@@ -1,8 +1,7 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
 # CS480 Computer Sciense Capstone Project
 
-Program Name: Mining Regulatory Compliance Assistant (MRCA) - Advanced Parallel HybridRAG - Intelligent Fusion (APH-IF)
-
+Program Name: Mining Regulatory Compliance Assistant (MRCA) - Advanced Parallel HybridRAG - Intelligent Fusion (APH-IF)  
 Grade: 
 
 -----------------------------------------------------------------------------------------------------------------------------
