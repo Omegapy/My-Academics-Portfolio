@@ -1,0 +1,53 @@
+services:
+  - type: web
+    name: mrca-backend
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: backend/Dockerfile.backend
+    healthCheckPath: /health
+    envVars:
+      - key: MRCA_DEBUG
+        value: "false"
+      - key: MRCA_LOG_LEVEL
+        value: "WARNING"
+      - key: MRCA_AGENT_TIMEOUT
+        value: "90"
+      - key: MRCA_REQUEST_TIMEOUT
+        value: "120"
+      - key: MRCA_SERVER_TIMEOUT_KEEP_ALIVE
+        value: "3600"
+      - key: MRCA_SESSION_TIMEOUT
+        value: "86400"
+      - key: MRCA_HEALTH_CHECK_TIMEOUT
+        value: "60"
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: "gpt-4o"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: NEO4J_URI
+        sync: false
+      - key: NEO4J_USERNAME
+        value: "neo4j"
+      - key: NEO4J_PASSWORD
+        sync: false
+      - key: PYTHONPATH
+        value: "/app"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+
+  - type: web
+    name: mrca-frontend
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: frontend/Dockerfile.frontend
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: BACKEND_HOST
+        fromService:
+          name: mrca-backend
+          type: web
+          property: host
+      - key: PYTHONUNBUFFERED
+        value: "1" 

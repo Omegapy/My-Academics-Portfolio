@@ -1,0 +1,7 @@
+# Streamlit and UI dependencies
+streamlit==1.35.0
+
+# HTTP client for backend communication
+requests==2.32.4
+
+# Note: uuid is part of Python standard library, no external dependency needed 

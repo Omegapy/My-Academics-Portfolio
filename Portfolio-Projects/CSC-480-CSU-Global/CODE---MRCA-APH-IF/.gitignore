@@ -1,0 +1,11 @@
+__pycache__
+# Secrets files - never commit these!
+.streamlit/secrets.toml
+frontend/.streamlit/secrets.toml
+**/secrets.toml
+.env
+.venv
+.DS_Store
+.idea
+.pytest_cache
+

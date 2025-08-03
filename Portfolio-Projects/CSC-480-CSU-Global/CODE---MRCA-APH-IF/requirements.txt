@@ -1,0 +1,38 @@
+# MRCA - Mining Regulatory Compliance Assistant
+# Combined requirements for dev container setup
+
+# FastAPI and web framework dependencies
+fastapi>=0.104.1,<1.0.0
+uvicorn[standard]>=0.24.0,<1.0.0
+pydantic>=2.7.4,<3.0.0
+pydantic-settings>=2.4.0,<3.0.0
+
+# HTTP client and server dependencies
+httpx==0.25.2
+python-multipart==0.0.6
+
+# Configuration and environment management
+python-dotenv==1.0.0
+toml==0.10.2
+
+# Retry and resilience dependencies
+tenacity==8.5.0
+
+# LLM and AI dependencies
+langchain==0.3.9
+openai==1.56.0
+langchain-openai==0.2.10
+neo4j==5.27.0
+langchainhub==0.1.21
+langchain-neo4j==0.1.1
+requests==2.32.4
+PyPDF2==3.0.1
+langchain-google-genai==2.0.6
+langchain-experimental==0.3.3
+langchain-community==0.3.9
+
+# Streamlit and UI dependencies
+streamlit==1.35.0
+
+# Additional system dependencies
+psutil>=5.9.0 

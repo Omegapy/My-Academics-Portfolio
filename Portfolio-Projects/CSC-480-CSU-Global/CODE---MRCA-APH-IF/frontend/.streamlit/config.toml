@@ -1,0 +1,36 @@
+[theme]
+# Base theme - use dark mode as foundation
+base = "dark"
+
+# Primary color for interactive elements (blue accent)
+primaryColor = "#4a90e2"
+
+# Main background color (dark navy)
+backgroundColor = "#0e1117"
+
+# Secondary background for sidebar and widgets (slightly lighter)
+secondaryBackgroundColor = "#262730"
+
+# Text color (light gray for good contrast)
+textColor = "#fafafa"
+
+# Font family
+font = "sans serif"
+
+[server]
+# Server configuration for production deployment
+port = 8501
+enableXsrfProtection = true
+maxUploadSize = 50
+
+[browser]
+# Browser behavior
+gatherUsageStats = false
+
+[client]
+# Client-side configuration
+toolbarMode = "viewer"
+
+[logger]
+# Logging configuration
+level = "info" 

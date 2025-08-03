@@ -1,0 +1,208 @@
+# -------------------------------------------------------------------------
+# Dockerfile: Dockerfile.frontend
+# Project: MRCA - Mining Regulatory Compliance Assistant
+#          Advanced Parallel HybridRAG - Intelligent Fusion System
+# Author: Alexander Ricciardi
+# Last Modified: 2025-07-25
+# File Path: frontend/Dockerfile.frontend
+# ------------------------------------------------------------------------
+
+# --- Image Objective ---
+# This image provides a production-ready Streamlit web application frontend for
+# the MRCA (Mining Regulatory Compliance Assistant) system. It delivers an
+# interactive user interface for the Advanced Parallel Hybrid search system,
+# enabling users to query MSHA regulatory information through natural language
+# processing. The container integrates with the FastAPI backend service to
+# provide seamless access to VectorRAG, GraphRAG, and general chat capabilities
+# for mining regulatory compliance assistance.
+# -------------------------------------------------------------------------
+
+# --- Image Contents Overview ---
+# - Base OS: Debian-based Python 3.12 slim image
+# - Runtime: Python 3.12 with Streamlit web framework
+# - Application: MRCA Frontend UI with Advanced Parallel Hybrid interface
+# - Dependencies: Streamlit, requests, pandas, plotly for data visualization
+# - Services: Streamlit web server on port 8501 with health monitoring
+# - Tools: curl for health checks and backend communication
+# -------------------------------------------------------------------------
+
+# --- Dependencies / Base Images ---
+# - Base Image: python:3.12-slim - Debian-based minimal Python runtime
+#   * Chosen for consistency with backend, security, and official support
+#   * Includes pip, setuptools, and essential Python libraries
+# - Package Managers: apt-get for system packages, pip for Python packages
+# - External Resources: Python packages from PyPI via requirements.txt
+# -------------------------------------------------------------------------
+
+# --- Usage / Integration ---
+# Build Command: docker build -t mrca-frontend -f frontend/Dockerfile.frontend .
+# Run Command: docker run -p 8501:8501 mrca-frontend
+# Docker Compose: Part of docker-compose.yml as service 'frontend'
+# Deployment: Microservices architecture connecting to backend API
+# Environment: Development, staging, and production with backend service
+# -------------------------------------------------------------------------
+
+# --- Build Arguments & Environment Variables ---
+# Build Arguments (ARG): None currently defined
+# Environment Variables (ENV):
+#   - PYTHONUNBUFFERED: 1 (Enable immediate stdout/stderr output)
+#   - BACKEND_URL: http://backend:8000 (Backend API service endpoint)
+# Runtime Configuration:
+#   - BACKEND_URL: Backend service URL (configurable via Docker Compose)
+# -------------------------------------------------------------------------
+
+# --- Ports & Volumes ---
+# Exposed Ports:
+#   - 8501/tcp: Streamlit web application server
+# Volumes:
+#   - /app: Application code directory (for development mounting)
+# Health Check: HTTP GET on port 8501 endpoint /_stcore/health every 30 seconds
+# -------------------------------------------------------------------------
+
+# --- Security Considerations ---
+# - User: Runs as root (container isolation provides security boundary)
+# - Permissions: Application files owned by root, standard container practices
+# - Secrets: No sensitive data stored, communicates with backend via HTTP
+# - Network: Exposed only on port 8501, connects to backend via internal network
+# - Vulnerabilities: Debian slim base with minimal attack surface
+# -------------------------------------------------------------------------
+
+# --- Apache-2.0 ---
+# © 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
+# License: Apache-2.0 | Technology: Advanced Parallel HybridRAG - Intelligent Fusion System
+# -------------------------------------------------------------------------
+
+# =========================================================================
+# Base Image Selection
+# =========================================================================
+# python:3.12-slim chosen for:
+# - Consistency with backend service Python version
+# - Official Python support and security updates
+# - Minimal Debian base with reduced attack surface
+# - Smaller image size compared to full Python image
+FROM python:3.12-slim
+
+# =========================================================================
+# Working Directory Setup
+# =========================================================================
+# Set working directory for all subsequent operations
+# /app chosen as standard application directory
+WORKDIR /app
+
+# =========================================================================
+# System Package Installation
+# =========================================================================
+# Install system-level dependencies required for MRCA frontend operation
+
+# Update package manager and install essential packages
+# curl: Required for health checks and backend API communication
+RUN apt-get update && apt-get install -y \
+        curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# =========================================================================
+# Python Dependencies Installation
+# =========================================================================
+# Install Python packages with optimized layer caching
+
+# Copy requirements file first for better Docker layer caching
+# This allows dependency installation to be cached when only source code changes
+COPY frontend/requirements.txt .
+
+# Install Python dependencies with pip optimization
+# --no-cache-dir: Reduces image size by not caching pip downloads
+# --upgrade pip: Ensures latest pip version for security and features
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# =========================================================================
+# Application Code Setup
+# =========================================================================
+# Copy MRCA frontend source code and configure application environment
+
+# Copy frontend source code to working directory
+# Assumes build context is project root directory
+COPY frontend/ .
+
+# =========================================================================
+# Environment Variables
+# =========================================================================
+# Set environment variables for Python and application configuration
+
+# PYTHONUNBUFFERED - Enables immediate stdout/stderr output for logging
+ENV PYTHONUNBUFFERED=1
+
+# Note: BACKEND_HOST will be injected by Render via environment variables
+# Frontend code dynamically constructs the URL from BACKEND_HOST or BACKEND_URL
+
+# =========================================================================
+# Runtime Configuration
+# =========================================================================
+# Configure container for production runtime execution
+
+# Expose Streamlit web server port
+# 8501 - HTTP web server for MRCA frontend user interface
+EXPOSE 8501
+
+# =========================================================================
+# Health Check Configuration
+# =========================================================================
+# Configure container health monitoring for orchestration systems
+
+# Health check ensures the Streamlit server is responding correctly
+# --interval=30s: Check every 30 seconds
+# --timeout=30s: Wait up to 30 seconds for response
+# --start-period=5s: Wait 5 seconds before first check (application startup)
+# --retries=3: Mark unhealthy after 3 consecutive failures
+# /_stcore/health: Streamlit's built-in health check endpoint
+HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:8501/_stcore/health || exit 1
+
+# =========================================================================
+# Startup Configuration
+# =========================================================================
+# Configure how the container starts and runs the MRCA frontend service
+
+# Start Streamlit web application server
+# streamlit run: Start Streamlit application
+# bot.py: Main application file for MRCA frontend
+# --server.port=8501: Listen on port 8501 (matches EXPOSE directive)
+# --server.address=0.0.0.0: Listen on all network interfaces (required for containers)
+# --server.headless=true: Run in headless mode for production
+# --server.enableCORS=false: Disable CORS for internal service communication
+# --server.enableXsrfProtection=false: Disable XSRF for internal service communication
+CMD ["streamlit", "run", "bot.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.headless=true", "--server.enableCORS=false", "--server.enableXsrfProtection=false"]
+
+# =========================================================================
+# Build Instructions / Usage Examples
+# =========================================================================
+# 
+# Build Commands:
+#   Development: docker build -t mrca-frontend:dev -f frontend/Dockerfile.frontend .
+#   Production:  docker build -t mrca-frontend:prod -f frontend/Dockerfile.frontend .
+#
+# Run Commands:
+#   Basic:       docker run -p 8501:8501 mrca-frontend
+#   With env:    docker run -p 8501:8501 -e BACKEND_URL=http://localhost:8000 mrca-frontend
+#   With volume: docker run -p 8501:8501 -v $(pwd)/frontend:/app mrca-frontend
+#
+# Docker Compose:
+#   services:
+#     frontend:
+#       build:
+#         context: .
+#         dockerfile: frontend/Dockerfile.frontend
+#       ports:
+#         - "8501:8501"
+#       environment:
+#         - BACKEND_URL=http://backend:8000
+#       depends_on:
+#         - backend
+#
+# Health Check:
+#   curl http://localhost:8501/_stcore/health
+#   Open browser: http://localhost:8501
+#
+# =========================================================================
+# End of Dockerfile
+# ========================================================================= 
