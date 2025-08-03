@@ -1,5 +1,5 @@
 ﻿-----------------------------------------------------------------------------------------------------------------------------
-# Module-6 Capstone Milestone
+# Module-7 Capstone Milestone
 Program Name: Mining Regulatory Compliance Assistant (MRCA) –  Software Configuration Management
 
 Grade: 100% A
