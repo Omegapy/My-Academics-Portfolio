@@ -1,0 +1,226 @@
+# =========================================================================
+# Docker Ignore: .dockerignore
+# Project: MRCA - Mining Regulatory Compliance Assistant
+#          Advanced Parallel HybridRAG - Intelligent Fusion System
+# Author: Alexander Ricciardi
+# Last Modified: 2025-07-25
+# File Path: .dockerignore
+# =========================================================================
+
+# --- Objective ---
+# This file excludes unnecessary files and directories from Docker build context
+# to reduce build time, image size, and improve security for production deployment
+# on Render cloud platform. It prevents sensitive development files, test data,
+# and documentation from being included in production containers.
+# -------------------------------------------------------------------------
+
+# --- Apache-2.0 ---
+# © 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
+# License: Apache-2.0 | Technology: Advanced Parallel HybridRAG - Intelligent Fusion System
+# -----------------------------------------------------------------------
+
+# =========================================================================
+# Version Control and Git Files
+# =========================================================================
+.git
+.gitignore
+.gitattributes
+.gitkeep
+
+# =========================================================================
+# Documentation and Markdown Files
+# =========================================================================
+*.md
+README*
+CHANGELOG*
+LICENSE*
+SETUP*
+Documents/
+docs/
+
+# =========================================================================
+# Test Files and Testing Infrastructure
+# =========================================================================
+tests/
+test_*
+*_test.py
+*_tests.py
+pytest.ini
+.pytest_cache/
+test-reports/
+coverage/
+.coverage
+.coveragerc
+htmlcov/
+.tox/
+requirements-test.txt
+verify_testing_setup.py
+
+# =========================================================================
+# Development and Configuration Files
+# =========================================================================
+.vscode/
+.idea/
+.devcontainer/
+*.code-workspace
+.env
+.env.*
+.envrc
+
+# Development launchers and scripts
+launch_app.py
+launch_devcontainer.py
+start_services.py
+stop_services.py
+launch.sh
+launch_docker.sh
+
+# Docker development files
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile.dev
+DOCKER_SETUP_COMPLETE.md
+
+# =========================================================================
+# Python Development Files
+# =========================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.pytype/
+.pyre/
+.dmypy.json
+dmypy.json
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# =========================================================================
+# IDE and Editor Files
+# =========================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =========================================================================
+# Archive and Data Files
+# =========================================================================
+archive/
+data/
+temp/
+tmp/
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.bz2
+*.7z
+
+# Build data and knowledge graph files (exclude from production)
+build_data/
+knowledge_graphs/
+*.neo4j
+*.db
+
+# =========================================================================
+# Secrets and Configuration (Security)
+# =========================================================================
+secrets.toml
+.streamlit/secrets.toml
+config.local.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# =========================================================================
+# Logs and Temporary Files
+# =========================================================================
+*.log
+logs/
+log/
+*.tmp
+*.temp
+.cache/
+.tmp/
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =========================================================================
+# Node.js (if any frontend tooling is added)
+# =========================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/
+
+# =========================================================================
+# Render and Deployment Files (exclude from container)
+# =========================================================================
+render.yaml
+.renderignore
+
+# =========================================================================
+# Files Starting with "i-" (per project instructions)
+# =========================================================================
+i-*
+
+# =========================================================================
+# Large Files and Media (if any)
+# =========================================================================
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+
+# =========================================================================
+# Backup Files
+# =========================================================================
+*.bak
+*.backup
+*.old
+*~
+
+# =========================================================================
+# End of Docker Ignore Configuration
+# ========================================================================= 

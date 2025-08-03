@@ -1,0 +1,221 @@
+# -------------------------------------------------------------------------
+# Dockerfile: Dockerfile.backend
+## Project: MRCA - Mining Regulatory Compliance Assistant
+#          Advanced Parallel HybridRAG - Intelligent Fusion System
+# Author: Alexander Ricciardi
+# Last Modified: 2025-07-25
+# File Path: backend/Dockerfile.backend
+# ------------------------------------------------------------------------
+
+# --- Image Objective ---
+# This image provides a production-ready FastAPI backend service for the MRCA
+# (Mining Regulatory Compliance Assistant) system. It implements the Advanced
+# Parallel Hybrid search capabilities including VectorRAG, GraphRAG, and general
+# chat functionality for MSHA regulatory compliance assistance. The container
+# is optimized for microservices deployment with health monitoring, comprehensive
+# logging, and integration with Neo4j Aura cloud database for regulatory
+# knowledge graph operations.
+# -------------------------------------------------------------------------
+
+# --- Image Contents Overview ---
+# - Base OS: Debian-based Python 3.12 slim image
+# - Runtime: Python 3.12 with FastAPI framework
+# - Application: MRCA Backend API server with Advanced Parallel Hybrid system
+# - Dependencies: FastAPI, LangChain, OpenAI, Gemini, Neo4j drivers
+# - Services: REST API server on port 8000 with health monitoring
+# - Tools: curl for health checks, build-essential for Python compilation
+# -------------------------------------------------------------------------
+
+# --- Dependencies / Base Images ---
+# - Base Image: python:3.12-slim - Debian-based minimal Python runtime
+#   * Chosen for security, smaller attack surface, and official Python support
+#   * Includes pip, setuptools, and essential Python libraries
+# - Package Managers: apt-get for system packages, pip for Python packages
+# - External Resources: Python packages from PyPI via requirements.txt
+# -------------------------------------------------------------------------
+
+# --- Usage / Integration ---
+# Build Command: docker build -t mrca-backend -f backend/Dockerfile.backend .
+# Run Command: docker run -p 8000:8000 mrca-backend
+# Docker Compose: Part of docker-compose.yml as service 'backend'
+# Deployment: Microservices architecture with frontend and Neo4j Aura
+# Environment: Development, staging, and production with cloud database
+# -------------------------------------------------------------------------
+
+# --- Build Arguments & Environment Variables ---
+# Build Arguments (ARG): None currently defined
+# Environment Variables (ENV):
+#   - PYTHONPATH: /app (Python module search path)
+#   - PYTHONUNBUFFERED: 1 (Enable immediate stdout/stderr output)
+#   - MRCA_DEBUG: true (Enable debug mode for development)
+#   - MRCA_LOG_LEVEL: INFO (Set logging level)
+#   - NEO4J_URI: Neo4j Aura cloud connection string (required at runtime)
+#   - NEO4J_USERNAME: Neo4j database username (required at runtime)
+#   - NEO4J_PASSWORD: Neo4j database password (required at runtime)
+#   - OPENAI_API_KEY: OpenAI API key for LLM operations (required at runtime)
+#   - GEMINI_API_KEY: Google Gemini API key for LLM operations (required at runtime)
+# -------------------------------------------------------------------------
+
+# --- Ports & Volumes ---
+# Exposed Ports:
+#   - 8000/tcp: FastAPI HTTP server for REST API endpoints
+# Volumes:
+#   - /app: Application code directory (for development mounting)
+#   - /app/../.streamlit: Configuration directory for secrets compatibility
+# Health Check: HTTP GET on port 8000 endpoint /health every 30 seconds
+# -------------------------------------------------------------------------
+
+# --- Security Considerations ---
+# - User: Runs as root (container isolation provides security boundary)
+# - Permissions: Application files owned by root, standard container practices
+# - Secrets: API keys and database credentials via environment variables
+# - Network: Exposed only on port 8000, communicates with Neo4j via TLS
+# - Vulnerabilities: Debian slim base with minimal attack surface
+# -------------------------------------------------------------------------
+
+# --- Apache-2.0 ---
+# © 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
+# License: Apache-2.0 | Technology: Advanced Parallel HybridRAG - Intelligent Fusion System
+# -------------------------------------------------------------------------
+
+# =========================================================================
+# Base Image Selection
+# =========================================================================
+# python:3.12-slim chosen for:
+# - Official Python support and security updates
+# - Minimal Debian base with reduced attack surface
+# - Smaller image size compared to full Python image
+# - Includes pip and essential Python tools
+FROM python:3.12-slim
+
+# =========================================================================
+# Working Directory Setup
+# =========================================================================
+# Set working directory for all subsequent operations
+# /app chosen as standard application directory
+WORKDIR /app
+
+# =========================================================================
+# System Package Installation
+# =========================================================================
+# Install system-level dependencies required for MRCA backend operation
+
+# Update package manager and install essential packages
+# build-essential: Required for compiling Python packages with C extensions
+# curl: Required for health checks and external API communication
+RUN apt-get update && apt-get install -y \
+        build-essential \
+        curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# =========================================================================
+# Python Dependencies Installation
+# =========================================================================
+# Install Python packages with optimized layer caching
+
+# Copy requirements file first for better Docker layer caching
+# This allows dependency installation to be cached when only source code changes
+COPY backend/requirements.txt .
+
+# Install Python dependencies with pip optimization
+# --no-cache-dir: Reduces image size by not caching pip downloads
+# --upgrade pip: Ensures latest pip version for security and features
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# =========================================================================
+# Application Code Setup
+# =========================================================================
+# Copy MRCA backend source code and configure application environment
+
+# Copy backend as a package to preserve import structure
+# This maintains the backend package structure required by imports
+COPY backend/ ./backend/
+
+# Copy .streamlit directory for secrets compatibility
+# This maintains backward compatibility with existing configuration system
+COPY .streamlit/ ./.streamlit/
+
+# =========================================================================
+# Environment Variables
+# =========================================================================
+# Set environment variables for Python and application configuration
+
+# PYTHONPATH - Ensures Python can find application modules
+ENV PYTHONPATH=/app
+
+# PYTHONUNBUFFERED - Enables immediate stdout/stderr output for logging
+ENV PYTHONUNBUFFERED=1
+
+# =========================================================================
+# Runtime Configuration
+# =========================================================================
+# Configure container for production runtime execution
+
+# Expose FastAPI server port
+# 8000 - HTTP API server for MRCA backend REST endpoints
+EXPOSE 8000
+
+# =========================================================================
+# Health Check Configuration
+# =========================================================================
+# Configure container health monitoring for orchestration systems
+
+# Health check ensures the FastAPI server is responding correctly
+# --interval=30s: Check every 30 seconds
+# --timeout=60s: Wait up to 60 seconds for response (increased for Advanced Parallel Hybrid operations)
+# --start-period=10s: Wait 10 seconds before first check (application startup + config loading)
+# --retries=3: Mark unhealthy after 3 consecutive failures
+HEALTHCHECK --interval=30s --timeout=60s --start-period=10s --retries=3 \
+    CMD curl -f http://localhost:8000/health || exit 1
+
+# =========================================================================
+# Startup Configuration
+# =========================================================================
+# Configure how the container starts and runs the MRCA backend service
+
+# Start FastAPI server with uvicorn ASGI server
+# uvicorn: High-performance ASGI server for async Python web applications
+# backend.main:app: Import app object from backend.main module
+# --host 0.0.0.0: Listen on all network interfaces (required for containers)
+# --port 8000: Listen on port 8000 (matches EXPOSE directive)
+# --workers 2: Multiple workers for better performance on Render
+# --timeout-keep-alive 120: Keep connections alive for 120 seconds (Advanced Parallel Hybrid support)
+# --timeout-graceful-shutdown 30: Allow 30 seconds for graceful shutdown
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2", "--timeout-keep-alive", "120", "--timeout-graceful-shutdown", "30"]
+
+# =========================================================================
+# Build Instructions / Usage Examples
+# =========================================================================
+# 
+# Build Commands:
+#   Development: docker build -t mrca-backend:dev -f backend/Dockerfile.backend .
+#   Production:  docker build -t mrca-backend:prod -f backend/Dockerfile.backend .
+#
+# Run Commands:
+#   Basic:       docker run -p 8000:8000 mrca-backend
+#   With env:    docker run -p 8000:8000 -e NEO4J_URI=<uri> -e NEO4J_USERNAME=<user> -e NEO4J_PASSWORD=<pass> mrca-backend
+#   With volume: docker run -p 8000:8000 -v $(pwd)/backend:/app mrca-backend
+#
+# Docker Compose:
+#   services:
+#     backend:
+#       build:
+#         context: .
+#         dockerfile: backend/Dockerfile.backend
+#       ports:
+#         - "8000:8000"
+#       environment:
+#         - NEO4J_URI=neo4j+s://your-aura-instance.databases.neo4j.io
+#         - NEO4J_USERNAME=neo4j
+#         - NEO4J_PASSWORD=your-password
+#         - OPENAI_API_KEY=your-openai-key
+#         - GEMINI_API_KEY=your-gemini-key
+#
+# Health Check:
+#   curl http://localhost:8000/health
+#   curl http://localhost:8000/docs  # Swagger UI
+#
+# =========================================================================
+# End of Dockerfile
+# ========================================================================= 

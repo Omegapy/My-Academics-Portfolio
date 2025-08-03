@@ -1,0 +1,57 @@
+# -------------------------------------------------------------------------
+# MRCA Testing Dependencies
+# Testing framework dependencies for Mining Regulatory Compliance Assistant
+# -------------------------------------------------------------------------
+
+# Core testing framework
+pytest>=7.4.0
+pytest-asyncio>=0.21.0        # Async test support
+pytest-mock>=3.11.0           # Enhanced mocking capabilities
+pytest-cov>=4.1.0             # Coverage reporting
+pytest-timeout>=2.1.0         # Test timeout management
+pytest-xdist>=3.3.0           # Parallel test execution
+
+# HTTP testing and API mocking
+httpx>=0.25.0                 # HTTP client for API testing
+responses>=0.23.0             # HTTP response mocking
+requests-mock>=1.11.0         # Additional HTTP mocking
+
+# Test data generation and factories
+factory-boy>=3.3.0            # Test data factories
+faker>=19.0.0                 # Fake data generation
+
+# Time-based testing
+freezegun>=1.2.0              # Time mocking and freezing
+
+# Performance testing
+pytest-benchmark>=4.0.0       # Performance benchmarking
+locust>=2.16.0                # Load testing (for reliability tests)
+
+# Test reporting and analysis
+pytest-html>=3.2.0            # HTML test reports
+pytest-json-report>=1.5.0     # JSON test reports
+allure-pytest>=2.13.0         # Advanced test reporting
+
+# Database testing utilities
+pytest-postgresql>=5.0.0      # PostgreSQL testing utilities (if needed)
+
+# Additional development dependencies
+ipdb>=0.13.0                  # Debugging in tests
+pytest-clarity>=1.0.0         # Better assertion output
+pytest-sugar>=0.9.0           # Better test output formatting
+
+# Dependencies for mocking external services
+aioresponses>=0.7.0           # Async HTTP mocking
+deepdiff>=6.0.0               # Deep comparison utilities
+
+# Security testing
+bandit>=1.7.0                 # Security linting
+safety>=2.3.0                 # Dependency vulnerability checking
+
+# Code quality for tests
+flake8>=6.0.0                 # Linting
+black>=23.0.0                 # Code formatting
+isort>=5.12.0                 # Import sorting
+
+# Note: Core application dependencies should be installed separately
+# via backend/requirements.txt and frontend/requirements.txt 

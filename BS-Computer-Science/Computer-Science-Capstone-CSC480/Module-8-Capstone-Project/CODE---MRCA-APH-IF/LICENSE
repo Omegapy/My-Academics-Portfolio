@@ -1,0 +1,96 @@
+MRCA - Mining Regulatory Compliance Assistant
+Advanced Parallel HybridRAG - Intelligent Fusion System
+
+Copyright 2025 Alexander Samuel Ricciardi
+Also known by first name and coder name: Alejandro, Alex, Omega.py, Omega-py, Omegapy
+
+=======================================================================
+PROJECT OVERVIEW
+=======================================================================
+
+MRCA (Mining Regulatory Compliance Assistant) is an AI-powered web application 
+that provides mining safety guidance through novel Advanced Parallel HybridRAG 
+technology. The system implements simultaneous VectorRAG and GraphRAG execution 
+with intelligent context fusion for enhanced regulatory compliance assistance.
+
+Technology: Advanced Parallel HybridRAG - Intelligent Fusion System
+Domain: Mining Safety and Regulatory Compliance
+Framework: FastAPI + Streamlit + Neo4j + OpenAI/Gemini
+
+=======================================================================
+LICENSING STRUCTURE
+=======================================================================
+
+This project uses dual licensing:
+
+• CODE (Python, Docker, Configuration):        Apache License 2.0
+• DOCUMENTATION (Markdown, Essays, Guides):    Creative Commons Attribution 4.0
+
+For detailed license terms:
+• Code License:          see LICENSE-CODE file
+• Documentation License: see LICENSE-DOCS file
+
+=======================================================================
+CODE LICENSE - APACHE 2.0
+=======================================================================
+
+Copyright 2025 Alexander Samuel Ricciardi
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+This applies to all source code, configuration files, Docker containers,
+build scripts, and technical implementation files in the MRCA project.
+
+=======================================================================
+DOCUMENTATION LICENSE - CREATIVE COMMONS ATTRIBUTION 4.0
+=======================================================================
+
+Copyright 2025 Alexander Samuel Ricciardi
+
+The documentation, guides, essays, and educational materials in this 
+project are licensed under Creative Commons Attribution 4.0 International.
+
+You are free to:
+• Share — copy and redistribute the material in any medium or format
+• Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+• Attribution — You must give appropriate credit, provide a link to the 
+  license, and indicate if changes were made.
+
+This applies to all Markdown files, documentation, user guides, research
+materials, and educational content in the MRCA project.
+
+=======================================================================
+DISCLAIMER
+=======================================================================
+
+MRCA provides informational guidance based on MSHA regulations and should
+not be considered as legal advice. Users should consult with qualified
+legal professionals for compliance matters.
+The Advanced Parallel HybridRAG - Intelligent Fusion
+technology is provided for research and educational purposes.
+
+=======================================================================
+CONTACT & ATTRIBUTION
+=======================================================================
+
+Project: MRCA - Mining Regulatory Compliance Assistant
+Author: Alexander Samuel Ricciardi
+Institution: Colorado State University Global
+Course: CSC480 - Capstone Computer Science
+Note the University was not involve in the design of the
+Advanced Parallel HybridRAG - Intelligent Fusion System
+
+Technology: Advanced Parallel HybridRAG - Intelligent Fusion System
+For licensing questions or commercial use inquiries, please contact the author.

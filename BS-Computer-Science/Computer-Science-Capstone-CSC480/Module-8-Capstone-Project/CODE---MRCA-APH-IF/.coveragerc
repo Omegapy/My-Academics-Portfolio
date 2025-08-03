@@ -1,0 +1,130 @@
+# -------------------------------------------------------------------------
+# File: .coveragerc
+# Project: MRCA - Coverage Configuration
+# Author: Testing Team
+# Date: 2025-01-19 (Creation Date)
+# Last Modified: 2025-01-19
+# File Path: .coveragerc
+# -------------------------------------------------------------------------
+
+# --- Configuration Objective ---
+# Coverage configuration for MRCA Advanced Parallel Hybrid system testing
+# This configuration optimizes coverage reporting for the comprehensive test suite,
+# excluding test files themselves and focusing on backend code coverage.
+# -------------------------------------------------------------------------
+
+# --- Apache-2.0 ---
+# Copyright 2025 Alexander Samuel Ricciardi
+# SPDX-License-Identifier: Apache-2.0
+# -------------------------------------------------------------------------
+
+[run]
+# Source directories to measure coverage for
+source = backend/
+
+# Include patterns
+include = 
+    backend/*
+    backend/**/*
+
+# Exclude patterns
+omit =
+    */tests/*
+    tests/*
+    */test_*
+    test_*
+    */__pycache__/*
+    */venv/*
+    */env/*
+    */.venv/*
+    */.env/*
+    */site-packages/*
+    */migrations/*
+    */.git/*
+    */node_modules/*
+    */build/*
+    */dist/*
+    setup.py
+    conftest.py
+
+# Coverage data file
+data_file = .coverage
+
+# Enable branch coverage
+branch = True
+
+# Run coverage in parallel mode
+parallel = True
+
+[report]
+# Exclude lines from coverage reporting
+exclude_lines =
+    # Have to re-enable the standard pragma
+    pragma: no cover
+    
+    # Don't complain about missing debug-only code
+    def __repr__
+    if self\.debug
+    
+    # Don't complain if tests don't hit defensive assertion code
+    raise AssertionError
+    raise NotImplementedError
+    
+    # Don't complain if non-runnable code isn't run
+    if 0:
+    if False:
+    if __name__ == .__main__.:
+    
+    # Don't complain about abstract methods
+    @(abc\.)?abstractmethod
+    
+    # Don't complain about type checking imports
+    if TYPE_CHECKING:
+    
+    # Don't complain about testing utility functions
+    def test_
+    class Test
+
+# Show missing lines in report
+show_missing = True
+
+# Precision for coverage percentages
+precision = 2
+
+# Sort the report
+sort = Cover
+
+# Skip empty files
+skip_empty = True
+
+# Skip covered files in detailed report
+skip_covered = False
+
+[html]
+# Directory for HTML coverage reports
+directory = htmlcov
+
+# HTML report title
+title = MRCA Advanced Parallel Hybrid Coverage Report
+
+[xml]
+# XML output file
+output = coverage.xml
+
+[json]
+# JSON output file  
+output = coverage.json
+
+# Pretty print JSON
+pretty_print = True
+
+[paths]
+# Path mapping for different environments
+source =
+    backend/
+    */site-packages/backend/
+    */.tox/*/lib/python*/site-packages/backend/
+
+# =========================================================================
+# End of File
+# ========================================================================= 

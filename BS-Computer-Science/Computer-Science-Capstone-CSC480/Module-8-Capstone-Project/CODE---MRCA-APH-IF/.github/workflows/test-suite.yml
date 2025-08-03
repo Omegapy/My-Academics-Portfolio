@@ -1,0 +1,414 @@
+# -------------------------------------------------------------------------
+# File: test-suite.yml  
+# Project: MRCA - CI/CD Pipeline
+# Author: Testing Team
+# Date: 2025-01-19 (Creation Date)
+# Last Modified: 2025-01-19
+# File Path: .github/workflows/test-suite.yml
+# -------------------------------------------------------------------------
+
+# --- Workflow Objective ---
+# Comprehensive CI/CD pipeline for MRCA Advanced Parallel Hybrid testing suite
+# This workflow executes different test categories based on trigger events,
+# provides comprehensive coverage reporting, and ensures code quality across
+# all components of the MRCA system including unit tests, integration tests,
+# reliability tests, and end-to-end workflows.
+# -------------------------------------------------------------------------
+
+# --- Apache-2.0 ---
+# Copyright 2025 Alexander Samuel Ricciardi
+# SPDX-License-Identifier: Apache-2.0
+# -------------------------------------------------------------------------
+
+
+#--- Paused Automatic Test Suite as it costs me money due to LLM calls ----
+
+
+name: MRCA Test Suite
+
+on:
+ # Run on all pushes to main branch
+  # push:
+  #   branches: [ main, develop, dev ]
+
+  # Run on all pull requests
+  # pull_request:
+  #   branches: [ main, develop, dev ]
+  
+  # Allow manual workflow dispatch
+  workflow_dispatch:
+    inputs:
+      test_level:
+        description: 'Test level to run'
+        required: true
+        default: 'fast'
+        type: choice
+        options:
+        - fast
+        - comprehensive
+        - full
+      
+  # Scheduled runs (daily at 2 AM UTC)
+  # schedule:
+  #  - cron: '0 2 * * *'
+
+env:
+  PYTHON_VERSION: '3.12'
+  NODE_VERSION: '18'
+
+jobs:
+  # =========================================================================
+  # Job 1: Fast Test Suite (Unit + Basic Integration)
+  # =========================================================================
+  fast-tests:
+    name: Fast Test Suite
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' || (github.event_name == 'workflow_dispatch' && github.event.inputs.test_level == 'fast')
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: 'pip'
+    
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+    
+    - name: Run Code Quality Checks
+      run: |
+        # Run basic linting (if you have flake8/black configured)
+        echo "Running code quality checks..."
+        python -m py_compile backend/*.py
+        python -m py_compile tests/**/*.py
+    
+    - name: Run Unit Tests
+      run: |
+        python -m pytest tests/unit/ -v \
+          --tb=short \
+          --cov=backend \
+          --cov-report=xml \
+          --cov-report=term-missing \
+          --junit-xml=test-results-unit.xml
+    
+    - name: Run Basic Integration Tests
+      run: |
+        python -m pytest tests/integration/ -v \
+          -m "not slow" \
+          --tb=short \
+          --junit-xml=test-results-integration.xml
+    
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: fast-test-results
+        path: |
+          test-results-*.xml
+          coverage.xml
+
+    - name: Upload Coverage to Codecov
+      uses: codecov/codecov-action@v4
+      if: always()
+      with:
+        file: ./coverage.xml
+        flags: fast-tests
+        name: fast-test-coverage
+
+  # =========================================================================
+  # Job 2: Comprehensive Test Suite (All except E2E and Load)
+  # =========================================================================
+  comprehensive-tests:
+    name: Comprehensive Test Suite
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && github.event.inputs.test_level == 'comprehensive')
+    
+    services:
+      # Neo4j service for integration tests
+      neo4j:
+        image: neo4j:5.15-community
+        env:
+          NEO4J_AUTH: neo4j/test-password
+          NEO4J_PLUGINS: '["apoc"]'
+        ports:
+          - 7687:7687
+          - 7474:7474
+        options: >-
+          --health-cmd "cypher-shell -u neo4j -p test-password 'RETURN 1'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: 'pip'
+    
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+    
+    - name: Wait for Neo4j
+      run: |
+        timeout 60 bash -c 'until printf "" 2>>/dev/null >>/dev/tcp/$0/$1; do sleep 1; done' localhost 7687
+    
+    - name: Setup Test Environment
+      run: |
+        # Create test configuration
+        mkdir -p .streamlit
+        cat > .streamlit/secrets.toml << EOF
+        # Test configuration for CI/CD
+        OPENAI_API_KEY = "sk-test-key-for-ci"
+        GEMINI_API_KEY = "test-gemini-key"
+        NEO4J_URI = "bolt://localhost:7687"
+        NEO4J_USERNAME = "neo4j"
+        NEO4J_PASSWORD = "test-password"
+        EOF
+    
+    - name: Run All Unit Tests
+      run: |
+        python -m pytest tests/unit/ -v \
+          --tb=short \
+          --cov=backend \
+          --cov-append \
+          --junit-xml=test-results-unit-comprehensive.xml
+    
+    - name: Run All Integration Tests
+      run: |
+        python -m pytest tests/integration/ -v \
+          --tb=short \
+          --cov=backend \
+          --cov-append \
+          --junit-xml=test-results-integration-comprehensive.xml
+    
+    - name: Run Architecture Tests
+      run: |
+        python -m pytest tests/architecture/ -v \
+          --tb=short \
+          --junit-xml=test-results-architecture.xml
+    
+    - name: Run Basic Reliability Tests
+      run: |
+        python -m pytest tests/reliability/ -v \
+          -m "not slow" \
+          --tb=short \
+          --junit-xml=test-results-reliability.xml
+    
+    - name: Generate Coverage Report
+      run: |
+        python -m pytest --cov=backend --cov-report=xml --cov-report=html tests/unit/ tests/integration/ tests/architecture/
+    
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: comprehensive-test-results
+        path: |
+          test-results-*.xml
+          coverage.xml
+          htmlcov/
+
+    - name: Upload Coverage to Codecov
+      uses: codecov/codecov-action@v4
+      if: always()
+      with:
+        file: ./coverage.xml
+        flags: comprehensive-tests
+        name: comprehensive-test-coverage
+
+  # =========================================================================
+  # Job 3: Full Test Suite (Including E2E and Load Tests)
+  # =========================================================================
+  full-tests:
+    name: Full Test Suite with E2E
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.test_level == 'full')
+    
+    services:
+      neo4j:
+        image: neo4j:5.15-community
+        env:
+          NEO4J_AUTH: neo4j/test-password
+          NEO4J_PLUGINS: '["apoc"]'
+        ports:
+          - 7687:7687
+          - 7474:7474
+        options: >-
+          --health-cmd "cypher-shell -u neo4j -p test-password 'RETURN 1'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: 'pip'
+    
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+    
+    - name: Setup Full Test Environment
+      run: |
+        # Setup test configuration with actual test keys if available
+        mkdir -p .streamlit
+        cat > .streamlit/secrets.toml << EOF
+        # Full test configuration for CI/CD
+        OPENAI_API_KEY = "${{ secrets.OPENAI_API_KEY || 'sk-test-key-for-ci' }}"
+        GEMINI_API_KEY = "${{ secrets.GEMINI_API_KEY || 'test-gemini-key' }}"
+        NEO4J_URI = "bolt://localhost:7687"
+        NEO4J_USERNAME = "neo4j"
+        NEO4J_PASSWORD = "test-password"
+        EOF
+    
+    - name: Start MRCA Application
+      run: |
+        # Start the application in background for E2E tests
+        python3 launch_devcontainer.py &
+        sleep 45  # Give more time for services to start and load
+
+        # Verify services are running with retries
+        echo "Checking backend health..."
+        for i in {1..10}; do
+          if curl -f http://localhost:8000/health; then
+            echo "Backend is healthy"
+            break
+          else
+            echo "Backend not ready, attempt $i/10"
+            sleep 5
+          fi
+        done
+
+        echo "Checking frontend health..."
+        for i in {1..10}; do
+          if curl -f http://localhost:8501/_stcore/health; then
+            echo "Frontend is healthy"
+            break
+          else
+            echo "Frontend not ready, attempt $i/10"
+            sleep 5
+          fi
+        done
+
+        # Test the new endpoints
+        echo "Testing metrics endpoint..."
+        curl -f http://localhost:8000/metrics || echo "Metrics endpoint not available"
+
+        echo "Testing parallel hybrid health..."
+        curl -f http://localhost:8000/parallel_hybrid/health || echo "Parallel hybrid health not available"
+    
+    - name: Run All Test Categories
+      run: |
+        # Run comprehensive test suite
+        python -m pytest tests/ -v \
+          --tb=short \
+          --cov=backend \
+          --cov-report=xml \
+          --cov-report=html \
+          --junit-xml=test-results-full.xml \
+          --maxfail=10
+    
+    - name: Run Load Tests (Limited)
+      run: |
+        # Run load tests with reduced load for CI
+        python -m pytest tests/reliability/test_load_testing_fault_injection.py -v \
+          --tb=short \
+          --junit-xml=test-results-load.xml
+    
+    - name: Run E2E Tests
+      run: |
+        # Run end-to-end tests
+        python -m pytest tests/e2e/ -v \
+          --tb=short \
+          --junit-xml=test-results-e2e.xml
+    
+    - name: Upload Full Test Results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: full-test-results
+        path: |
+          test-results-*.xml
+          coverage.xml
+          htmlcov/
+
+    - name: Upload Coverage to Codecov
+      uses: codecov/codecov-action@v4
+      if: always()
+      with:
+        file: ./coverage.xml
+        flags: full-tests
+        name: full-test-coverage
+
+  # =========================================================================
+  # Job 4: Test Results Summary
+  # =========================================================================
+  test-summary:
+    name: Test Results Summary
+    runs-on: ubuntu-latest
+    needs: [fast-tests, comprehensive-tests, full-tests]
+    if: always()
+    
+    steps:
+    - name: Download Test Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        pattern: '*-test-results'
+        path: test-artifacts
+        merge-multiple: true
+    
+    - name: Generate Test Summary
+      run: |
+        echo "# MRCA Test Suite Results" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        # Check which jobs ran and their status
+        if [ "${{ needs.fast-tests.result }}" != "skipped" ]; then
+          echo "## 🏃 Fast Tests: ${{ needs.fast-tests.result }}" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ "${{ needs.comprehensive-tests.result }}" != "skipped" ]; then
+          echo "## 🔍 Comprehensive Tests: ${{ needs.comprehensive-tests.result }}" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        if [ "${{ needs.full-tests.result }}" != "skipped" ]; then
+          echo "## 🎯 Full Test Suite: ${{ needs.full-tests.result }}" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Test Categories Available:" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Unit Tests (Circuit Breaker, Configuration, etc.)" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Integration Tests (Module 6 Test Cases 1-5)" >> $GITHUB_STEP_SUMMARY  
+        echo "- ✅ Reliability Tests (Fault Injection, Load Testing)" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Architecture Tests (Confidence, Hallucination Prevention)" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ End-to-End Tests (Complete User Workflows)" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Advanced Parallel Hybrid Coverage:" >> $GITHUB_STEP_SUMMARY
+        echo "- VectorRAG + GraphRAG Integration" >> $GITHUB_STEP_SUMMARY
+        echo "- 4 Fusion Strategies Tested" >> $GITHUB_STEP_SUMMARY  
+        echo "- 5 Template Types Validated" >> $GITHUB_STEP_SUMMARY
+        echo "- Circuit Breaker Resilience Verified" >> $GITHUB_STEP_SUMMARY
+
+# =========================================================================
+# End of File
+# ========================================================================= 

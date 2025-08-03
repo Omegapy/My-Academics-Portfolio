@@ -1,0 +1,265 @@
+# =========================================================================
+# Docker Compose: docker-compose.yml
+# Project: MRCA - Mining Regulatory Compliance Assistant
+#          Advanced Parallel HybridRAG - Intelligent Fusion System
+# Author: Alexander Ricciardi
+# Last Modified: 2025-07-25
+# File Path: docker-compose.yml
+# =========================================================================
+
+# --- Compose Objective ---
+# This Docker Compose configuration orchestrates the MRCA (Mining Regulatory
+# Compliance Assistant) microservices architecture. It defines and manages
+# the complete Advanced Parallel Hybrid system including the FastAPI backend
+# service and Streamlit frontend service. The composition enables seamless
+# deployment of the MSHA regulatory compliance assistance platform with
+# proper service communication, health monitoring, and development support.
+# -------------------------------------------------------------------------
+
+# --- Architecture Overview ---
+# - Services: 2 active services (backend, frontend)
+# - Database: Neo4j Aura Cloud (external, no local container)
+# - Network: Custom bridge network for service communication
+# - Secrets: Streamlit secrets file mounting for API key management
+# - Volumes: Development volume mounts for live code reloading
+# - Health Checks: Comprehensive health monitoring for all services
+# -------------------------------------------------------------------------
+
+# --- Service Dependencies ---
+# - backend: FastAPI service (port 8000) with Advanced Parallel Hybrid system
+# - frontend: Streamlit UI service (port 8501) depending on backend
+# - Neo4j Database: External Neo4j Aura cloud service (no container)
+# - Secrets: .streamlit/secrets.toml for API keys and database credentials
+# -------------------------------------------------------------------------
+
+# --- Network Configuration ---
+# - mrca-network: Custom bridge network for inter-service communication
+# - Backend accessible at: http://backend:8000 (internal network)
+# - Frontend accessible at: http://frontend:8501 (internal network)
+# - External access: localhost:8000 (backend), localhost:8501 (frontend)
+# -------------------------------------------------------------------------
+
+# --- Environment Configuration ---
+# Development Mode:
+#   - Volume mounting for live code reloading
+#   - Debug logging enabled
+#   - Hot reload for both frontend and backend
+# Production Mode:
+#   - Remove volume mounts
+#   - Set production environment variables
+#   - Disable debug features
+# -------------------------------------------------------------------------
+
+# --- Security Considerations ---
+# - API keys managed via secrets mounting
+# - Neo4j Aura provides TLS encryption for database connections
+# - Services communicate via internal Docker network
+# - No sensitive data in environment variables (uses secrets)
+# - Health checks ensure service availability
+# -------------------------------------------------------------------------
+
+# --- Apache-2.0 ---
+# © 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
+# License: Apache-2.0 | Technology: Advanced Parallel HybridRAG - Intelligent Fusion System
+# -------------------------------------------------------------------------
+
+# Docker Compose version - uses 3.8 for secrets support and advanced features
+version: '3.8'
+
+# =========================================================================
+# Service Definitions
+# =========================================================================
+services:
+  
+  # =======================================================================
+  # Neo4j Database Service (DISABLED - Using Neo4j Aura Cloud)
+  # =======================================================================
+  # Local Neo4j container disabled in favor of Neo4j Aura cloud service
+  # This provides better reliability, automatic backups, and managed updates
+  # Uncomment this section if local Neo4j development is needed
+  # 
+  # database:
+  #   image: neo4j:5                              # Official Neo4j 5.x image
+  #   container_name: mrca_neo4j_db              # Container name for easy reference
+  #   environment:
+  #     - NEO4J_AUTH=neo4j/YourStrongPassword    # Database authentication
+  #   ports:
+  #     - "7474:7474"  # Neo4j Browser interface
+  #     - "7687:7687"  # Bolt driver port for applications
+  #   volumes:
+  #     - neo4j_data:/data                       # Persistent data storage
+  #   networks:
+  #     - mrca-network                           # Internal network connection
+  #   healthcheck:
+  #     test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "YourStrongPassword", "MATCH () RETURN count(*)"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 5
+
+  # =======================================================================
+  # Backend Service - FastAPI Advanced Parallel Hybrid System
+  # =======================================================================
+  backend:
+    # Build configuration
+    build:
+      context: .                                 # Build context is project root
+      dockerfile: backend/Dockerfile.backend    # Specific Dockerfile for backend
+    
+    # Container configuration
+    container_name: mrca_backend                 # Fixed container name for networking
+    
+    # Port mapping: host_port:container_port
+    ports:
+      - "8000:8000"                             # FastAPI HTTP API server
+    
+    # Environment variables for backend configuration
+    environment:
+      # Development and debugging configuration
+      - MRCA_DEBUG=true                         # Enable debug mode for development
+      - MRCA_LOG_LEVEL=INFO                     # Set logging level for monitoring
+      
+      # Session Configuration - Persistent connections for active frontend sessions
+      - MRCA_AGENT_TIMEOUT=90                   # Agent response timeout (30-45s + buffer)
+      - MRCA_REQUEST_TIMEOUT=120                # HTTP request timeout for complex queries
+      - MRCA_SERVER_TIMEOUT_KEEP_ALIVE=3600     # Uvicorn keep-alive timeout - 1 hour for persistent sessions
+      - MRCA_SESSION_TIMEOUT=86400              # Session timeout - 24 hours for long-running sessions
+      - MRCA_HEALTH_CHECK_TIMEOUT=60            # Health check timeout for complex operations
+      
+      # Secrets Configuration - All sensitive credentials loaded from .streamlit/secrets.toml
+      # Neo4j Aura Cloud database configuration (loaded from secrets file)
+      # OpenAI API configuration (loaded from secrets file)
+      # Google Gemini API configuration (loaded from secrets file)
+      # Backend automatically loads these via update_from_secrets() during initialization
+    
+    # Service dependencies (disabled - using cloud database)
+    # depends_on:
+    #   database:
+    #     condition: service_healthy             # Wait for local database to be ready
+    
+    # Network configuration
+    networks:
+      - mrca-network                             # Connect to internal network
+    
+    # Volume mounts for development
+    volumes:
+      - ./backend:/app                           # Live code reloading for development
+      - ./.streamlit:/app/../.streamlit         # Secrets directory mounting
+    
+    # Secrets mounting for API key management
+    secrets:
+      - source: streamlit_secrets                # Reference to secrets definition
+        target: /app/../.streamlit/secrets.toml  # Mount location in container
+    
+    # Health check configuration
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]  # Health check command
+      interval: 30s                             # Check every 30 seconds
+      timeout: 10s                              # Wait 10 seconds for response
+      retries: 5                                # Mark unhealthy after 5 failures
+    
+    # Restart policy for production reliability
+    restart: unless-stopped                     # Restart unless explicitly stopped
+
+  # =======================================================================
+  # Frontend Service - Streamlit Advanced Parallel Hybrid UI
+  # =======================================================================
+  frontend:
+    # Build configuration
+    build:
+      context: .                                 # Build context is project root
+      dockerfile: frontend/Dockerfile.frontend  # Specific Dockerfile for frontend
+    
+    # Container configuration
+    container_name: mrca_frontend               # Fixed container name for networking
+    
+    # Port mapping: host_port:container_port
+    ports:
+      - "8501:8501"                             # Streamlit web application server
+    
+    # Environment variables for frontend configuration
+    environment:
+      - BACKEND_URL=http://backend:8000         # Backend API endpoint for service communication
+    
+    # Service dependencies
+    depends_on:
+      - backend                                 # Wait for backend service to start
+    
+    # Network configuration
+    networks:
+      - mrca-network                            # Connect to internal network
+    
+    # Volume mounts for development
+    volumes:
+      - ./frontend:/app                         # Live code reloading for development
+    
+    # Health check configuration
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]  # Streamlit health endpoint
+      interval: 30s                            # Check every 30 seconds
+      timeout: 10s                             # Wait 10 seconds for response
+      retries: 5                               # Mark unhealthy after 5 failures
+    
+    # Restart policy for production reliability
+    restart: unless-stopped                    # Restart unless explicitly stopped
+
+# =========================================================================
+# Volume Definitions (DISABLED - Using Neo4j Aura Cloud)
+# =========================================================================
+# Named volumes for persistent data storage
+# Disabled because we're using Neo4j Aura cloud service instead of local database
+#
+# volumes:
+#   neo4j_data:                                # Persistent storage for Neo4j data
+#     driver: local                            # Local volume driver
+
+# =========================================================================
+# Network Definitions
+# =========================================================================
+networks:
+  mrca-network:                                # Custom network for service communication
+    driver: bridge                             # Bridge driver for container networking
+
+# =========================================================================
+# Secrets Definitions
+# =========================================================================
+secrets:
+  streamlit_secrets:                           # Secrets for API keys and configuration
+    file: ./.streamlit/secrets.toml            # Source file containing secrets
+
+# =========================================================================
+# Usage Instructions
+# =========================================================================
+#
+# Development Commands:
+#   Start services:     docker-compose up --build
+#   Start in background: docker-compose up --build -d
+#   View logs:          docker-compose logs -f
+#   Stop services:      docker-compose down
+#   Rebuild:            docker-compose build --no-cache
+#
+# Production Commands:
+#   Production build:   docker-compose -f docker-compose.prod.yml up -d
+#   Scale services:     docker-compose up --scale backend=2
+#   Health check:       docker-compose ps
+#
+# Service Access:
+#   Frontend UI:        http://localhost:8501
+#   Backend API:        http://localhost:8000
+#   API Documentation:  http://localhost:8000/docs
+#   Health Endpoints:
+#     - Backend:        http://localhost:8000/health
+#     - Frontend:       http://localhost:8501/_stcore/health
+#
+# Database Configuration:
+#   Neo4j Aura:        Configured via .streamlit/secrets.toml (secure secrets mounting)
+#   Local Database:    Uncomment database service section if needed
+#
+# Troubleshooting:
+#   Check logs:        docker-compose logs [service_name]
+#   Restart service:   docker-compose restart [service_name]
+#   Remove volumes:    docker-compose down -v
+#   Clean rebuild:     docker-compose down && docker-compose build --no-cache && docker-compose up
+#
+# =========================================================================
+# End of Docker Compose Configuration
+# ========================================================================= 
