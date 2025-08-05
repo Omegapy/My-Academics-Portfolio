@@ -12,9 +12,9 @@ This repository is a collection of coursework and projects for the Bachelor of S
 
 **Software Engineer – Focus on AI**
 
-Bachelor of Science (BS) in Computer Science (CS)  
+**Bachelor of Science (BS) in Computer Science (CS)  
 Colorado State University Global (CSU Global) - August 3, 2025   
-4.0 GPA Summa Cum Laude graduate
+4.0 GPA Summa Cum Laude graduate**
 
 Associate of Science (AS) in Computer Science (CS) 
 Laramie County Community College (LCCC) - Dec. 2023  
