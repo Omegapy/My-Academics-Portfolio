@@ -18,7 +18,7 @@ Professor: Dr. Paul Stamas
 Spring D (25SD) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade:  
+Final grade:  4.0 A
 
 -----------------------------------------------------------------------------------------------------------------------------
 My Links:   
