@@ -24,7 +24,7 @@ At CSU Global, starting date Sep. 2025 – Estimated graduation date Aug. 2027
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Stack:
+Stack:  
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white)](https://neo4j.com/)
