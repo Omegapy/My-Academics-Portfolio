@@ -71,7 +71,7 @@ My Links:
 ---
 
 ## MS in AI and Machine Learning
-Directory: [MS-in-AI-and-Machine-Learning]()  
+Directory: [MS-in-AI-and-Machine-Learning](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning)  
 
 ---
 
