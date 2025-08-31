@@ -50,11 +50,10 @@ My Links:
 - [CSC500 Principles of Programming](#csc500-principles-of-programming)
 
 ---
-
 ---
 
 ## CSC500 Principles of Programming
-Directory: [CSC500-Principles-of-Programming]()
+Directory: [CSC500-Principles-of-Programming](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC500-Principles-of-Programming)
 
 ---
 
