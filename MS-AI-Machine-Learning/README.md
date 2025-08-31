@@ -1,4 +1,3 @@
-﻿
 # Master of Science in AI and ML
 
 ---
