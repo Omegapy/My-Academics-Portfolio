@@ -50,7 +50,7 @@ My Links:
 ----
 
 ## Module 1 Critical Thinking 
-Directory: [Module-1-Critical-Thinking]()   
+Directory: [Module-1-Critical-Thinking](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC500-Principles-of-Programming/Module-1-Critical-Thinking)   
 Title:  
 
 ---
