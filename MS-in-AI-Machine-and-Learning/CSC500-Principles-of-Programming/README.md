@@ -49,46 +49,39 @@ My Links:
 ----
 ----
 
-## Module 1 Critical Thinking 
+## Critical Thinking 1
 Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC500-Principles-of-Programming/Critical-Thinking-1)   
-Title:  
+Title:  Critical Thinking Assignment 1 – Basic Calculator
 
 ---
 ---
 
 Assignment Description:  
 
-Option #1: "Hello Android" 
-Create a simple Android application that displays a "Hello, Android!" message on the screen when launched. Familiarize yourself with the basic structure of an Android app and practice using Kotlin syntax.
+Creating Python Programs  
+Part 1:  
+Write a Python program to find the addition and subtraction of two numbers.
 
-Please ensure that your submission includes the following components:
+Ask the user to input two numbers (num1 and num2). Given those two numbers, add them together to find the output. Also, subtract the two numbers to find the output.
 
-Source code file(s) containing the program implementation.
-A 1-page paper explaining the program's purpose, the obstacles faced during its development, and the skills acquired. The paper should also include screenshots showcasing the successful execution of the program.
-Compile and submit your pseudocode, source code, and screenshots of the application executing the application, the results and GIT repository in a single document.
+Part 2:  
+Write a Python program to find the multiplication and division of two numbers.
+
+Ask the user to input two numbers (num1 and num2). Given those two numbers, multiply them together to find the output. Also, divide num1/num2 to find the output.
+
+Compile and submit your pseudocode, source code, and screenshots of the application executing the code from parts 1 and 2, the results and GIT repository in a single document (Word is preferred).
+
+Note: Refer to the Module 1 Overview for resources and help using GIT
 
 ---
 
 Program Description:
 
-....
-
-⚠️Note:
-
-....
+The program is a simple calculator consisting of two parts.  
+Part 1 (addition/subtraction) and Part 2 (multiplication/division).  
+It uses basic input validation, formats console output using box-drawing characters, and implements a menu.
 
 ---
-
-Project Map:
-
-```
-├── app
-│   ├── main
-
-```
-
-
--------------------------------------------------------------------------------------------
 
 [Go back to the Project Map](#project-map)  
 
