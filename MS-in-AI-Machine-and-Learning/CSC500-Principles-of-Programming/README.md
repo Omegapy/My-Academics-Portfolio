@@ -43,7 +43,7 @@ My Links:
 
 #### Project Map  
 
-- [Module 1 Critical Thinking](#module-1-critical-thinking)   
+- [Critical Thinking 1](#critical-thinking-1)   
 - [Discussions](#discussions)
 
 ----
