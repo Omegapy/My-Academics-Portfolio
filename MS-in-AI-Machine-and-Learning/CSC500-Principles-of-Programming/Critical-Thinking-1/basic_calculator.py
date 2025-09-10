@@ -151,10 +151,10 @@ def addition_subtraction() -> None:
     """Part 1: Compute and display results of the addition and subtraction operations
 
     Workflow:
-      1) Displays section header
-      2) Captures two numbers using `get_two_numbers()`
-      3) Computes addition and subtraction
-      4) Displays results
+      1. Displays section header
+      2. Captures two numbers using `get_two_numbers()`
+      3. Computes addition and subtraction
+      4. Displays results
       
     Args:
         None
@@ -196,10 +196,10 @@ def multiplication_division() -> None:
     Division by zero is handled by showing an 'error' descriptive message.
 
     Workflow:
-      1) Displays section header
-      2) Captures two numbers using `get_two_numbers()`
-      3) Computes multiplication and division operations
-      4) Displays results with a formatted results header
+      1. Displays section header
+      2. Captures two numbers using `get_two_numbers()`
+      3. Computes multiplication and division operations
+      4. Displays results with a formatted results header
       
     Args:
         None
@@ -247,9 +247,9 @@ def main() -> None:
     """Entry point for the calculator's menu.
 
     Presents a looped menu with three choices:
-      1) Part 1: Addition and Subtraction
-      2) Part 2: Multiplication and Division
-      3) Exit
+      1. Part 1: Addition and Subtraction
+      2. Part 2: Multiplication and Division
+      3. Exit
 
     Args:
         None
