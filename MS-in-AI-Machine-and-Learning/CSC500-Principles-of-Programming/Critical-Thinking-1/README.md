@@ -15,9 +15,9 @@ Student: Alexander (Alex) Ricciardi
 
 **Program Description:**
 
-The program is a simple calculator consisting of two parts.  
-Part 1 (addition/subtraction) and Part 2 (multiplication/division).  
-It uses basic input validation, formats console output using box-drawing characters, and implements a menu.
+The program is a calculator for addition/subtraction, multiplication/division basic calculator.  
+Part 1 addition/subtraction 
+Part 2 multiplication/division. 
 
 ---
 

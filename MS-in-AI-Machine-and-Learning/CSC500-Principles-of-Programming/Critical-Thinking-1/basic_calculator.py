@@ -27,10 +27,9 @@
 # ------------------------------------------------------------------------
 
 # --- Module Functionality---
-# The program is a simple calculator consisting of two parts.  
-# Part 1 (addition/subtraction) and Part 2 (multiplication/division).  
-# It uses basic input validation, formats console output using box-drawing characters, 
-# and implements a menu.
+# The program is an addition/subtraction - multiplication/division calculator.  
+# Part 1 addition/subtraction 
+# Part 2 multiplication/division. 
 # -------------------------------------------------------------------------
 
 # --- Module Contents Overview ---
