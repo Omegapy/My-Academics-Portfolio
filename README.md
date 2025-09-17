@@ -1,9 +1,11 @@
 # My Academics Portfolio 
 ---
+![Omegapy-w](https://github.com/user-attachments/assets/2536b258-f05b-45f8-b2e0-03bd4c69fb10)
 
-<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi (Omega.py) 
+<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi 
 
 ---
+
 
 Projects Description:  
 This repository is a collection of my academic work at Colorado State University Global (CSU Global) and Laramie County Community College (LCCC).
