@@ -90,7 +90,7 @@ Part 2 multiplication/division.
 
 ## Discussions 
 This repository is a collection of discussion posts from CSC475 – Platform-Based Development – Android Course    
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC500-Principles-of-Programming/Discussions)
 
 ---
 
