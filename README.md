@@ -1,6 +1,7 @@
 # My Academics Portfolio 
 ---
-![Omegapy-w](https://github.com/user-attachments/assets/2536b258-f05b-45f8-b2e0-03bd4c69fb10)
+
+<img width="2048" height="512" alt="omagapycc (3)" src="https://github.com/user-attachments/assets/dd6e628e-5210-474a-8033-678851bb0d67" />
 
 <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi 
 
