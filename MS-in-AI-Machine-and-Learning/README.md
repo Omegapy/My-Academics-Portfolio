@@ -21,14 +21,14 @@ Laramie County Community College (LCCC) - Dec. 2023
 
 ---
 
-Projects Description:  
+Project Description:  
 
 This repository is a collection of coursework and projects for my Master of Science in Artificial Intelligence (AI) and Machine Learning (ML) program at Colorado State University Global (CSU Global). 
 
 ---
 
 Requirements:  
-[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
@@ -57,7 +57,7 @@ Directory: [CSC500-Principles-of-Programming](https://github.com/Omegapy/My-Acad
 
 ---
 
-Projects Description:
+Project Description:
 
 
 ---
