@@ -28,7 +28,7 @@ This repository is a collection of coursework and projects for my Master of Scie
 ---
 
 Requirements:  
-[![Python 3.11+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
