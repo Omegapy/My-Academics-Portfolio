@@ -45,7 +45,7 @@ Compile and submit your pseudocode, source code, and screenshots of the applicat
 
 **Project Map:**
 
-- Project Report.docx - Contains the source code, the program outputs, and Git repository  screenshots
+- Project Report.pdf - Contains the source code, the program outputs, and Git repository  screenshots
 - meal_total_and_alarm_clock.py - Contains the source code
 
 ---
