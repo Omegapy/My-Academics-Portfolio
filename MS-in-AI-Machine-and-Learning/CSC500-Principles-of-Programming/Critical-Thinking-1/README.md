@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Assignment 1 – Basic Calculator
 
 Data:  09/14/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
@@ -15,9 +15,9 @@ Student: Alexander (Alex) Ricciardi
 
 **Program Description:**
 
-The program is a calculator for addition/subtraction, multiplication/division basic calculator.  
-Part 1 addition/subtraction 
-Part 2 multiplication/division. 
+The program is a basic calculator for addition/subtraction, multiplication/division.  
+Part 1: addition/subtraction 
+Part 2: multiplication/division. 
 
 ---
 
