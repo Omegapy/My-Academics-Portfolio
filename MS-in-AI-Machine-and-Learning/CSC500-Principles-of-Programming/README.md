@@ -8,7 +8,7 @@ created date: 09/08/2025
 
 ---
 
-Projects Description:    
+Project Description:    
 This repository is a collection of Python programs from CSC500 – Principles of Programming at Colorado State University Global - CSU Global.  
 
 ---
@@ -23,7 +23,7 @@ Final grade:
 ---
 
 Requirements:  
- [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+ [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
@@ -43,15 +43,50 @@ My Links:
 
 #### Project Map  
 
-- [Critical Thinking 1](#critical-thinking-1)   
+- [Critical Thinking 1](#critical-thinking-1)
+- [Critical Thinking Module 3](#critical-thinking-module-3)  
 - [Discussions](#discussions)
+
+----
+----
+
+## Critical Thinking Module 3
+Directory: [Critical-Thinking-Module 3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC500-Principles-of-Programming/Critical-Thinking-Module-3)   
+Title: Critical Thinking Assignment Module 3 – Meal Bill Calculator & Alarm Clock
+
+---
+---
+
+Assignment Description:  
+
+Creating Python Programs   
+Part 1:  
+Write a program that calculates the total amount of a meal purchased at a restaurant. The program should ask the user to enter the charge for the food and then calculate the amounts with an 18 percent tip and 7 percent sales tax. Display each of these amounts and the total price.
+
+Part 2:  
+Many people keep time using a 24-hour clock (11 is 11am and 23 is 11pm, 0 is midnight). If it is currently 13 and you set your alarm to go off in 50 hours, it will be 15 (3pm). Write a Python program to solve the general version of the above problem. Ask the user for the time now (in hours) and then ask for the number of hours to wait for the alarm. Your program should output what the time will be on a 24-hour clock when the alarm goes off.
+
+Submission:  
+Compile and submit your pseudocode, source code, and screenshots of the application executing the code from Parts 1 and 2, the results and GIT repository in a single document (Word is preferred).
+---
+
+Program Description:
+
+The program is a small terminal app. that has two parts:
+- Part 1 (Restaurant Bill): Total meal calculator based on food charges/tips/taxes
+- Part 2 (24-Hour Alarm): Alarm time calculator based on military time (24hours)  and (added functionality) labels the day the alarm will go off (Today, Tomorrow, or In N days).  
+It also includes input validation.
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ----
 ----
 
 ## Critical Thinking 1
 Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC500-Principles-of-Programming/Critical-Thinking-1)   
-Title:  Critical Thinking Assignment 1 – Basic Calculator
+Title: Critical Thinking Assignment 1 – Basic Calculator
 
 ---
 ---
@@ -77,9 +112,9 @@ Note: Refer to the Module 1 Overview for resources and help using GIT
 
 Program Description:
 
-The program is a calculator for addition/subtraction, multiplication/division basic calculator.  
-Part 1 addition/subtraction 
-Part 2 multiplication/division. 
+The program is a basic calculator for addition/subtraction, multiplication/division.  
+Part 1: addition/subtraction 
+Part 2: multiplication/division. 
 
 ---
 
