@@ -47,7 +47,7 @@ Note: Refer to the Module 1 Overview for resources and help using GIT
 
 **Project Map:**
 
-- Project Report.docx - Contains the source code, the program outputs, and Git repository  screenshots
+- Project Report.pdf - Contains the source code, the program outputs, and Git repository  screenshots
 - basic_calculator.py - Contains the source code
 
 ---
