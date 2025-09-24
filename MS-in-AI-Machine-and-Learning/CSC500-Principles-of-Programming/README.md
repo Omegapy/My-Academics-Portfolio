@@ -68,6 +68,7 @@ Many people keep time using a 24-hour clock (11 is 11am and 23 is 11pm, 0 is mid
 
 Submission:  
 Compile and submit your pseudocode, source code, and screenshots of the application executing the code from Parts 1 and 2, the results and GIT repository in a single document (Word is preferred).
+
 ---
 
 Program Description:
