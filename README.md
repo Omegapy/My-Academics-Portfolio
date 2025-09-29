@@ -8,7 +8,7 @@
 ---
 
 
-Projects Description:  
+Project Description:  
 This repository is a collection of my academic work at Colorado State University Global (CSU Global) and Laramie County Community College (LCCC).
 
 **Software Engineer – Focus on AI**  
@@ -78,7 +78,7 @@ Directory: [MS-in-AI-and-Machine-Learning](https://github.com/Omegapy/My-Academi
 
 ---
 
-Projects Description:   
+Project Description:   
 This repository is a collection of coursework and projects for my Master of Science in Artificial Intelligence (AI) and Machine Learning (ML) program at Colorado State University Global (CSU Global).
 
 ---
@@ -93,7 +93,7 @@ Directory: [BS-Computer-Science](https://github.com/Omegapy/My-Academics-Portfol
 
 ---
 
-Projects Description:   
+Project Description:   
 This repository is a collection of coursework and projects for my Bachelor of Science in Computer Science program at Colorado State University Global (CSU Global). Graduated August 3, 2025.
 
 ---
@@ -108,8 +108,8 @@ Directory: [cpp_cos-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/ma
 
 ---
 
-Projects Description:   
-This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class   
+Project Description:   
+This repository is a collection of C++ program assignments from COSC 1030 - Computer Science-1 class   
 at Laramie County Community College(LCCC)  
 Fall Semester – 2022
 
@@ -125,7 +125,7 @@ Directory: [python_datascience](https://github.com/Omegapy/My-Academics-Portfoli
 
 ---
 
-Projects Description:   
+Project Description:   
 Codecademy Data Science Course Python (2021)  
 This is a collection of assignments from Codecademy Machine Learning, Data Scientist Path  
 
@@ -139,11 +139,11 @@ This is a collection of assignments from Codecademy Machine Learning, Data Scien
 ## Portfolio Projects
 Directory: [Portfolio Projects](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects)
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
-Projects Description:   
+Project Description:   
 This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
-and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
+and Laramie County Community College (LCCC), showcasing my educational journey and achievements.
 
 ---
 
