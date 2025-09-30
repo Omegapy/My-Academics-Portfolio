@@ -35,6 +35,7 @@ Step 1: Build the ItemToPurchase class with the following specifications:
 - item_price (float)
 - item_quantity (int)
 - Default constructor
+
 Initializes item's name = "none", item's price = 0, item's quantity = 0  
 Method  
 print_item_cost()  
