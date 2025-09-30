@@ -87,8 +87,7 @@
 """
 Online shopping cart implementation
 
-The program is a small terminal app. 
-it is an implementation of an online shopping cart implementation
+The program is a small terminal app. It is an implementation of an online shopping cart.
 The program renders banners and a menu, 
 and it calculates the total cost of items based on each item's price and quantity. 
 Only two items are asked to be entered in this implementation.
