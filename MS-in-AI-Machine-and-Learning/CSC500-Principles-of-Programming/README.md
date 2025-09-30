@@ -23,7 +23,7 @@ Final grade:
 ---
 
 Requirements:  
- [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+ [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
@@ -44,8 +44,73 @@ My Links:
 #### Project Map  
 
 - [Critical Thinking 1](#critical-thinking-1)
-- [Critical Thinking Module 3](#critical-thinking-module-3)  
+- [Critical Thinking Module 3](#critical-thinking-module-3)
+- [Portfolio Milestone Module 4](portfolio-milestone-module-4)  
 - [Discussions](#discussions)
+
+----
+----
+
+## Portfolio Milestone Module 4
+Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC500-Principles-of-Programming/Portfolio-Milestone-Module-4)   
+Title: Portfolio Milestone Module 4 – Online Shopping Cart
+
+---
+---
+
+Assignment Description:  
+
+Online Shopping Cart  
+Step 1: Build the ItemToPurchase class with the following specifications:  
+- Attributes
+- item_name (string)
+- item_price (float)
+- item_quantity (int)
+- Default constructor
+
+Initializes item's name = "none", item's price = 0, item's quantity = 0  
+Method  
+print_item_cost()  
+Example of print_item_cost() output:  
+Bottled Water 10 @ $1 = $10  
+
+Step 2: In the main section of your code, prompt the user for two items and create two objects of the ItemToPurchase class.  
+Example:  
+Item 1  
+Enter the item name:  
+Chocolate Chips  
+Enter the item price:  
+3  
+Enter the item quantity:  
+1  
+Item 2  
+Enter the item name:  
+Bottled Water  
+Enter the item price:  
+1  
+Enter the item quantity:  
+10  
+
+Step 3: Add the costs of the two items together and output the total cost.  
+Example:  
+TOTAL COST  
+Chocolate Chips 1 @ $3 = $3  
+Bottled Water 10 @ $1 = $10  
+Total: $13  
+
+Your program submission materials must include your source code and screenshots of the application executing the code and the results. Please refer to the video as a recourse and reference: Python Classes and Objects (With Examples)..
+
+---
+
+Program Description:
+
+The program is a small terminal app. It is an implementation of an online shopping cart.  
+The program renders banners and a menu, and it calculates the total cost of items based on each item's price and quantity.  
+Only two items are asked to be entered in this implementation.
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ----
 ----
