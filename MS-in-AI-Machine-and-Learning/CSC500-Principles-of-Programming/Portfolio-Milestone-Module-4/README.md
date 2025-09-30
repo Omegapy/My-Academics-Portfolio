@@ -15,9 +15,9 @@ Student: Alexander (Alex) Ricciardi
 
 **Program Description:**
 
-The program is a small terminal app. it is an implementation of an online shopping cart implementation
-The program renders banners and a menu, and it calculates the total cost of items 
-based on each item's price and quantity. Only two items are asked to be entered in this implementation.
+The program is a small terminal app. It is an implementation of an online shopping cart.  
+The program renders banners and a menu, and it calculates the total cost of items based on each item's price and quantity.   
+Only two items are asked to be entered in this implementation.
 
 ---
 
@@ -66,7 +66,7 @@ Chocolate Chips 1 @ $3 = $3
 Bottled Water 10 @ $1 = $10  
 Total: $13  
 
-Your program submission materials must include your source code and screenshots of the application executing the code and the results. Please refer to the video as a recourse and reference: Python Classes and Objects (With Examples) .
+Your program submission materials must include your source code and screenshots of the application executing the code and the results. Please refer to the video as a recourse and reference: Python Classes and Objects (With Examples).
 
 ---
 
