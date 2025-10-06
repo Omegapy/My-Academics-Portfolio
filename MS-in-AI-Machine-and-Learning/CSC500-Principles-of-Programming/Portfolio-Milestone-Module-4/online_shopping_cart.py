@@ -85,11 +85,10 @@
 # -------------------------------------------------------------------------
 
 """
-The console online shopping cart program countained in trhis file
-implements the functionality of an online shoppinp cat,
-it displays simple banners and a numeric menu, ask the user to
-enter two items, and then prints each line-item cost and thier combined total.
-
+The console online shopping cart program contained in this file
+implements the functionality of an online shopping cart,
+it displays simple banners and a numeric menu, asks the user to
+Enter two items, and then print each line-item cost and their combined total.
 """
 
 # For annotations (type hints/docstrings)
