@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Assignment Module 3 – Meal Bill Calculator & Alarm Clock
 
 Data:  09/28/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
