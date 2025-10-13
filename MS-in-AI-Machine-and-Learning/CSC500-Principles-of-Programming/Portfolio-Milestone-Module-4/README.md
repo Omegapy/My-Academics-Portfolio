@@ -2,7 +2,7 @@
 Program Name: Portfolio Milestone Module 4 – Online Shopping Cart
 
 Data:  08/05/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
