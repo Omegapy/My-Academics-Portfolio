@@ -45,7 +45,7 @@ My Links:
 
 - [Critical Thinking 1](#critical-thinking-1)
 - [Critical Thinking Module 3](#critical-thinking-module-3)
-- [Portfolio Milestone Module 4](portfolio-milestone-module-4)  
+- [Portfolio Milestone Module 4](#portfolio-milestone-module-4)  
 - [Discussions](#discussions)
 
 ----
