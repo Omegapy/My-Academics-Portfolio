@@ -1,5 +1,5 @@
-﻿# Portfolio Milestone Module 4 
-Program Name: Portfolio Milestone Module 4 – Online Shopping Cart
+﻿# Critical Thinking Module 5
+Program Name: Critical Thinking Module 5 – Rainfall Average Calculator and Bookstore Points
 
 Data:  08/12/2025  
 Grade: 
@@ -18,7 +18,6 @@ Student: Alexander (Alex) Ricciardi
 The program is a small console-based program consisting of 2 parts.
 
 -	Part 1 - Rainfall Average Calculator captures rainfall data from user inputs and calculates the rainfall average from the inputted per-month rainfall for the inputted number of years. Then display the results in the console.
-
 -	Part 2 - Bookstore Points calculates the Bookstore club points based on a tier system from the user inputted number of books purchased and displays the results.
 
 ---
@@ -52,7 +51,7 @@ Compile and submit your pseudocode, source code, and screenshots of the applicat
 **Project Map:**
 
 - Project Report.pdf - Contains the source code, the program outputs, and Git repository  screenshots.
-- average_rain_and_csu_book.py - Contains the main function and the program logic for the assignement.
+- average_rain_and_csu_book.py - Contains the main function and the program logic for the assignment.
 - validation_utilities.py - Contains user input prompt and validation functions.
 - menu_banner_utilities.py - Contains ASCII banner and menu UI classes.
 
