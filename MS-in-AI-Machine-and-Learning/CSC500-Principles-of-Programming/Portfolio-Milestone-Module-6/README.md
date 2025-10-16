@@ -1,5 +1,5 @@
-﻿# Portfolio Milestone Module 4 
-Program Name: Portfolio Milestone Module 4 – Online Shopping Cart
+﻿# Portfolio Milestone Module 6 
+Program Name: Portfolio Milestone Module 6 – Online Shopping Cart V2
 
 Data:  08/19/2025  
 Grade: 
@@ -102,7 +102,6 @@ Chocolate Chips: Semi-sweet
 Powerbeats 2 Headphones: Bluetooth headphones  
 
 Your program submission materials must include your source code and screenshots of the application executing the code and the results.
-
 
 ---
 
