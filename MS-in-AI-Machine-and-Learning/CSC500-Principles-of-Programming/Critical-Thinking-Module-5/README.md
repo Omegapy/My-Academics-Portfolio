@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Module 5 – Rainfall Average Calculator and Bookstore Points
 
 Data:  08/12/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
