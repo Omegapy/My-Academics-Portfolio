@@ -340,7 +340,7 @@ class ItemToPurchase:
 class ShoppingCart:
     """Manage customer shopping cart items (ItemToPurchase instances).
 
-    This calss simulates an online shopping cart functionality
+    This class simulates an online shopping cart functionality
 
     Attributes:
         customer_name: Name of the customer that owns the cart.
@@ -402,7 +402,7 @@ class ShoppingCart:
             Used by menu option a - Add item to cart
 
         Returns:
-            Total cost of all the iteam in the cart
+            Total cost of all the items in the cart
 
         Examples:
             >>> cart = ShoppingCart("User", "February 1, 2020")
@@ -451,7 +451,7 @@ class ShoppingCart:
         Returns:
             None. Updates occur in place so the API routers and CLI menu share the same state.
 
-        Notes:
+        Notes: --- Meets the assignment Requirement about the modify_item() method --- 
             Default values to check:
                 item_description: "none"
                 item_price: 0.0
@@ -466,16 +466,20 @@ class ShoppingCart:
         # Loops through all the items present in the cart 
         # to find an item with a name matching the function parameter name value
         # if match is found, modify the item's values from the parameter item object 
+        # --- Meets the assignment Requirement about the modify_item() method --- 
         for cart_item in self.cart_items:
             # Compare names if names match, modify values
             if cart_item.item_name == item.item_name:
-                # update description in cart item if the given item description is NOT None
+                # update description in cart item if the given item description 
+                # is NOT None - default value
                 if item.item_description != "none":
                     cart_item.item_description = item.item_description
-                # update price in cart item if the given item price is NOT equal to 0
+                # update price in cart item if the given item price 
+                # is NOT equal to 0 - default value
                 if item.item_price != 0.0:
                     cart_item.item_price = item.item_price
-                # update quantity in cart item if the given item quantity is NOT equal to 0
+                # update quantity in cart item if the given item quantity 
+                # is NOT equal to 0 - default value
                 # to remove item from cart use the ShoppingCart.remove_item()
                 if item.item_quantity != 0:
                     # Replace old quantity with new one
@@ -827,7 +831,8 @@ def print_menu(cart: ShoppingCart) -> None:
                     # Prompt user for the name of the item to change quantity
                     name = validate_prompt_string("\nEnter the item name:\n").lower()
                     new_qty = validate_prompt_nonezero_positive_int("Enter the new quantity: ")
-                    # Create item with only name and quantity set (others default)
+                    # --- Meets the assignment Requirement about the modify_item() method --- 
+                    # Create item with only name and quantity set --(others default)--
                     temp_item = ItemToPurchase(item_name=name, item_quantity=new_qty)
                     # Modify item
                     cart.modify_item(temp_item)
