@@ -858,15 +858,9 @@ def print_menu(cart: ShoppingCart) -> None:
                 print()
                 print(cart_output_banner_display)
 
-                # # Check if cart is empty
-                # if not cart.cart_items:
-                    #  # Format customer name and date into a colorized string
-                    # print(Fore.LIGHTYELLOW_EX + f"\n{cart.customer_name.title()}'s Shopping Cart - {self.current_date}")
-                #     print(Fore.YELLOW + "\nSHOPPING CART IS EMPTY")
-                # else:
-
-                # Built-in check for empty cart
-                # Display the formated cart info and total
+                # --- Assignment requirement ---
+                # Built-in check for empty cart 
+                # Display the formatted cart info and total
                 cart.print_total() 
                 
                 wait_for_enter()
