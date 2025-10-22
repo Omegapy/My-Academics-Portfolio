@@ -2,7 +2,7 @@
 Program Name: Portfolio Milestone Module 6 – Online Shopping Cart V2
 
 Data:  08/19/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
