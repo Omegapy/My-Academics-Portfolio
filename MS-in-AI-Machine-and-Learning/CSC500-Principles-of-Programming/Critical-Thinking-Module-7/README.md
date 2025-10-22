@@ -1,4 +1,4 @@
-﻿# Critical Thinking Module 5
+﻿# Critical Thinking Module 7
 Program Name: Critical Thinking Module 5 – Rainfall Average Calculator and Bookstore Points
 
 Data:  10/26/2025  
