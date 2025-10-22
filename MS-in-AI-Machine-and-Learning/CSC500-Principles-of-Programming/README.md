@@ -47,8 +47,84 @@ My Links:
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Portfolio Milestone Module 4](#portfolio-milestone-module-4)
 - [Critical Thinking Module 5](#critical-thinking-module-5)
-- [Portfolio Milestone Module 6](#portfolio-milestone-module-6) 
+- [Portfolio Milestone Module 6](#portfolio-milestone-module-6)
+- [Critical Thinking Module 7](#critical-thinking-module-7)
 - [Discussions](#discussions)
+
+---
+---
+
+## Critical Thinking Module 7
+Directory: [Critical-Thinking-Module 7](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC500-Principles-of-Programming/Critical-Thinking-Module-7)   
+Title: Critical Thinking Module 7 – Course Information
+
+---
+---
+
+Assignment Description:  
+
+Creating Python Programs
+
+Write a program that creates a dictionary containing course numbers and the room numbers of the rooms where the courses meet. The dictionary should have the following key–value pairs:
+
+Key–Value Pairs: Room Number
+
+| Course Number (key) | Room Number (value) |
+|---|---|
+| CSC101 | 3004 |
+| CSC102 | 4501 |
+| CSC103 | 6755 |
+| NET110 | 1244 |
+| COM241 | 1411 |
+
+The program should also create a dictionary containing course numbers and the names of the instructors that teach each course. The dictionary should have the following key–value pairs:
+
+Key–Value Pairs: Instructors
+
+| Course Number (key) | Instructor (value) |
+|---|---|
+| CSC101 | Haynes |
+| CSC102 | Alvarado |
+| CSC103 | Rich |
+| NET110 | Burke |
+| COM241 | Lee |
+
+The program should also create a dictionary containing course numbers and the meeting times of each course. The dictionary should have the following key–value pairs:
+
+Key–Value Pairs: Meeting Time
+
+| Course Number (key) | Meeting Time (value) |
+|---|---|
+| CSC101 | 8:00 a.m. |
+| CSC102 | 9:00 a.m. |
+| CSC103 | 10:00 a.m. |
+| NET110 | 11:00 a.m. |
+| COM241 | 1:00 p.m. |
+
+Program Behavior: 
+The program should let the user enter a course number and then display the course’s room number, instructor, and meeting time.
+
+Submission:
+
+Compile and submit a single document containing all of the following:
+- Source code
+- Screenshots of the application executing the code and the results
+- Link to your Git repository
+
+---
+
+Program Description:
+
+The program is a small terminal app that allows a user to view 
+an ‘university’ course(s) information (course number, room, instructor, and time) 
+by entering a course number. 
+The course information (data) is stored in three dictionaries, 
+and the course numbers are used as keys within the dictionaries.
+
+---
+
+[Go back to the Project Map](#project-map)  
+
 
 ---
 ---
