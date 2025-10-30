@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Module 7 – Course Information
 
 Data:  10/26/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
