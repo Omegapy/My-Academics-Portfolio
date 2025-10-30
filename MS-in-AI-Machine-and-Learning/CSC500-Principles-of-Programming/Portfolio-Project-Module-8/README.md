@@ -220,7 +220,6 @@ Enter the new quantity:
 
 Compile and submit your pseudocode, source code, screenshots of the application executing the code, the results and GIT repository in a single document (Word is preferred).
 
-
 ---
 
 **Project Map:**
