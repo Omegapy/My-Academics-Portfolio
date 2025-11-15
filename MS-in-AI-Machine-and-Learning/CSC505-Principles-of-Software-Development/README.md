@@ -13,7 +13,7 @@ This repository is a collection of assignments from CSC505 – Principles of Sof
 
 ---
 
-Principles of Software Developmen CSC505  
+Principles of Software Development CSC505  
 Professor: Joseph Issa  
 Winter A (25WA) – 2025   
 Student: Alexander (Alex) Ricciardi   
