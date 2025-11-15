@@ -37,7 +37,7 @@ Submit a brief paragraph describing your selection.
 
 **Project Map:**
 
-- Portfolio-Milestone-Moduel-1.pdf - contains the System Selection: Poroject Codebase
+- Portfolio-Milestone-Module-1.pdf - contains the System Selection: Project Codebase
 
 ---
 
