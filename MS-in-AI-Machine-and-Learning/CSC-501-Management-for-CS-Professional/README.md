@@ -14,7 +14,7 @@ This repository is a collection of Python programs from CSC501 – 	Management f
 ---
 
 Management for the Computer Science Professional CSC501  
-Professor: dr. Brian Holbert  
+Professor: Dr. Brian Holbert  
 Winter A (25WA) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
@@ -38,21 +38,35 @@ My Links:
 
 #### Project Map  
 
-- [Critical Thinking Module 1](#critical-thinking-module-1)
+- [Portfolio Milestone Module 1](#portfolio-milestone-module-1)
 - [Discussions](#discussions)
 
 ----
 ----
 
-## Critical Thinking 1
-Directory: [Critical-Thinking-Module-1]()   
-Title: 
+##Portfolio Milestone Module 1
+Directory: [Portfolio-Milestone-Module-1]()   
+Title: Module 1 Portfolio Milestone: System Selection
 
 ---
 ---
 
 Assignment Description:  
+Module 1: Portfolio Milestone
 
+System Selection - Paper  
+For your Portfolio Project in this course, you will discuss the creation of a fictitious system and create a mock plan and process for this system. You will be submitting milestones for this project each week, and these milestones will be compiled and finalized in the final Portfolio Project.
+
+For this first milestone, you must decide on the system and submit the system you have selected to your instructor. Remember, it is not necessary to choose one of these topics, but these are good options if you are having trouble coming up with an idea.
+
+- An In-depth Analysis of Metropolitan Area Network planning in ABC (Case Study with MAN networks in ABC)
+- Analyzing the financial recordkeeping and purchasing of SMEs within tech departments in ABC (A Comparison of SMEs that both do and don't utilize financials records from ABC)  
+- Design and Implementation of a Software Life Expectancy Model for a Software Program
+- Design and Implementation of a Project Management API using Python and Blockchain Technology
+- A Review of the Software Project Abandonment in ABC (A case study of ABC)
+- An In-depth Analysis of the Effects of Poor or Non-standard Naming Conventions and storage on SAN and NAS systems in ABC (A case study of DHL ABC)
+- Analyzing the relevance of Soft Skills in Technical Employees in Businesses in ABC (A case study of ABC Company)
+- Analyzing the role of project management soft skills to increase project success rates - Review of statistically meaningful and documented evidence in ABC Company
 
 ---
 
@@ -62,7 +76,7 @@ Assignment Description:
 ----
 
 ## Discussions 
-This repository is a collection of discussion posts from CSC501 – 	Management for the Computer Science Professional   
+This repository is a collection of discussion posts from CSC501 – Management for the Computer Science Professional   
 Directory: [Discussions]()
 
 ---
