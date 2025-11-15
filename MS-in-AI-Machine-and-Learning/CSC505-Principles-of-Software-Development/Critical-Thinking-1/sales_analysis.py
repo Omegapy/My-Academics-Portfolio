@@ -5,7 +5,7 @@
 # Date: 2025-11-16
 # CTA-Module-1/sales_analysis.py
 # ------------------------------------------------------------------------
-# Course: CSS-505 Principal of Software Development
+# Course: CSC-505 Principal of Software Development
 # Professor: Dr. Joseph Issa
 # Winter A term - 25WA
 # Nov.-Jan. 2025
