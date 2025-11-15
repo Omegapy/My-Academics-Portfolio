@@ -1,5 +1,4 @@
 ﻿# Module 1 Portfolio Milestone: System Selection
-Program Name: Critical Thinking Assignment 1 – Basic Calculator
 
 Data:  11/16/2025  
 Grade: 
