@@ -6,8 +6,8 @@ Grade:
 
 ---
 
-Principles of Programming CSC500 – Python Programming   
-Professor: Brian Holbert  
+CSC505 Principal of Software Development – Python Programming   
+Professor: Dr. Joseph Issa  
 Winter A (25WA) – 2025   
 Student: Alexander (Alex) Ricciardi
 

@@ -6,8 +6,8 @@
 # CTA-Module-1/sales_analysis.py
 # ------------------------------------------------------------------------
 # Course: CSS-505 Principal of Software Development
-# Professor: Dr. Brian Holbert
-# Winter W-2025
+# Professor: Dr. Joseph Issa
+# Winter A term - 25WA
 # Nov.-Jan. 2025
 # ------------------------------------------------------------------------
 # Assignement:
@@ -78,7 +78,7 @@
 # License: Apache-2.0 | Code
 # -------------------------------------------------------------------------
 
-"""Sales analysis console application load hat loads Omega.py sales CSV data, 
+"""Sales analysis console-based tool that loads Omega.py sales CSV data, 
 computes metrics, and computes sales analytics
 """
 
@@ -133,7 +133,7 @@ MAIN_MENU: Final[Menu] = Menu(
     "MENU",
     (
         "Load sales CSV",
-        "Show basic summary",
+        "Show basic metrics",
         "Show revenue by product",
         "Show revenue by category",
         "Show revenue by date",
@@ -337,7 +337,7 @@ def display_metric(sales: pd.DataFrame) -> None:
     print(f"Total orders : {int(metrics['num_orders'])}")
     print(f"Total items sold  : {int(metrics['total_items_sold'])}")
     print(f"Total revenue: {format_currency(metrics['total_revenue'])}")
-    print("--- Order value statistics ---")
+    print("--- Order statistics ---")
     print(f"Minimum: {format_currency(metrics['min_order_total'])}")
     print(f"Maximum: {format_currency(metrics['max_order_total'])}")
     print(f"Mean   : {format_currency(metrics['mean_order_total'])}")
@@ -553,7 +553,7 @@ def run_app() -> None:
         ║              MENU              ║
         ╠════════════════════════════════╣
         ║ l - Load sales CSV             ║
-        ║ s - Show basic summary         ║
+        ║ s - Show basic metrics         ║
         ║ p - Show revenue by product    ║
         ║ c - Show revenue by category   ║
         ║ d - Show revenue by date       ║
