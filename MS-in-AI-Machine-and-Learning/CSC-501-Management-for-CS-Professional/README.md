@@ -45,7 +45,7 @@ My Links:
 ----
 
 ##Portfolio Milestone Module 1
-Directory: [Portfolio-Milestone-Module-1]()   
+Directory: [Portfolio-Milestone-Module-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-1)   
 Title: Module 1 Portfolio Milestone: System Selection
 
 ---
@@ -70,6 +70,11 @@ For this first milestone, you must decide on the system and submit the system yo
 
 ---
 
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+---
+
 [Go back to the Project Map](#project-map)  
 
 ----
@@ -77,7 +82,7 @@ For this first milestone, you must decide on the system and submit the system yo
 
 ## Discussions 
 This repository is a collection of discussion posts from CSC501 – Management for the Computer Science Professional   
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Discussions)
 
 ---
 
