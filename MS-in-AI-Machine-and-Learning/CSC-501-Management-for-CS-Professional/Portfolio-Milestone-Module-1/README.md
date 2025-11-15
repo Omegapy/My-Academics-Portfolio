@@ -35,6 +35,11 @@ Submit a brief paragraph describing your selection.
 
 ---
 
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+---
+
 **Project Map:**
 
 - Portfolio-Milestone-Module-1.pdf - contains the System Selection: Project Codebase
