@@ -21,8 +21,7 @@ Laramie County Community College (LCCC) - Dec. 2023
 
 ---
 
-Project Description:  
-
+Project Description:   
 This repository is a collection of coursework and projects for my Master of Science in Artificial Intelligence (AI) and Machine Learning (ML) program at Colorado State University Global (CSU Global). 
 
 ---
@@ -47,7 +46,53 @@ My Links:
 ---
 
 #### Project Map
+- [CSC505 Principles of Software Development](#csc505-principles-of-software-development)
+- [CSC501 Management for the Computer Science Professional](#csc501-management-for-the-computer-science-professional)
 - [CSC500 Principles of Programming](#csc500-principles-of-programming)
+
+---
+---
+
+## CSC505 Principles of Software Development
+Directory: [CSC505-Principles-of-Software-Development](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC505-Principles-of-Software-Development)
+
+---
+
+Project Description:  
+This repository is a collection of assignments from CSC505 – Principles of Software Development at Colorado State University Global - CSU Global.
+
+Principles of Software Development CSC505  
+Professor: Joseph Issa  
+Winter A (25WA) – 2025  
+Student: Alexander (Alex) Ricciardi  
+
+Final grade: 
+
+---
+
+[Go back to the Project Map](#project-map) 
+
+---
+---
+
+## CSC501 Management for the Computer Science Professional
+Directory: [CSC501-Management-for-CS-Professional](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional)
+
+---
+
+Project Description:
+This repository is a collection of assignments from CSC501 – Management for the Computer Science Professional at Colorado State University Global - CSU Global.
+
+Management for the Computer Science Professional CSC501  
+Professor: Dr. Brian Holbert  
+Winter A (25WA) – 2025  
+Student: Alexander (Alex) Ricciardi  
+
+Final grade:
+
+---
+
+[Go back to the Project Map](#project-map) 
 
 ---
 ---
@@ -58,7 +103,14 @@ Directory: [CSC500-Principles-of-Programming](https://github.com/Omegapy/My-Acad
 ---
 
 Project Description:
+This repository is a collection of Python programs from CSC500 – Principles of Programming at Colorado State University Global - CSU Global.
 
+Principles of Programming CSC500 – Python Programming  
+Professor: Dr. Brian Holbert  
+Fall C (25FC) – 2025  
+Student: Alexander (Alex) Ricciardi  
+
+Final grade: 100% A
 
 ---
 
