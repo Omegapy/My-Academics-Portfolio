@@ -9,7 +9,7 @@ created date: 11/10/2025
 ---
 
 Project Description:    
-This repository is a collection of assignments from CSC505 – Principles of Software Developmen at Colorado State University Global - CSU Global.  
+This repository is a collection of assignments from CSC505 – Principles of Software Development at Colorado State University Global - CSU Global.  
 
 ---
 
