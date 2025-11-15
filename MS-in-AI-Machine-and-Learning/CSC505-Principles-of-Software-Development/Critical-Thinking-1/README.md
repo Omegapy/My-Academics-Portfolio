@@ -1,5 +1,5 @@
 ﻿# Critical Thinking 1
-Program Name: Critical Thinking Assignment 1 – Basic Calculator
+Program Name: Critical Thinking Assignment 1 – Sales Analysis
 
 Data:  11/16/2025  
 Grade: 
@@ -65,10 +65,10 @@ Your completed developer report (.txt, .md, or .pdf).
 **Project Map:**
 
 - Project Report CTA Module 1.pdf - contains Part 2: Developer Report facing questions  
-- Screetshoots Module 1.pdf - contain screenshot of your program running successfully
+- Screenchots Module 1.pdf - contains a screenshot of your program running successfully
 - sales_analysis.py - contains the source code
 - data/omega_sales_october.csv - contains sales data
-- utilities/ - utlitis module containing utlities files
+- utilities/ - utilities module containing utilities files
 
 ---
 
