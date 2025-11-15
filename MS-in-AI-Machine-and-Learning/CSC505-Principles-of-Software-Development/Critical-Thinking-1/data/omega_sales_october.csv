@@ -1,0 +1,51 @@
+order_id,order_date,product_name,category,unit_price,quantity,order_total,payment_method
+1004,2025-10-01,"Omega Laptop 15""",Laptops,1199.99,2,2399.98,Debit Card
+1012,2025-10-03,"Omega 27"" Monitor",Monitors,249.99,3,749.97,Debit Card
+1027,2025-10-03,"Omega Laptop 13""",Laptops,899.99,1,899.99,Debit Card
+1046,2025-10-03,"Omega Laptop 13""",Laptops,899.99,2,1799.98,Credit Card
+1009,2025-10-04,"Omega Laptop 15""",Laptops,1199.99,4,4799.96,Credit Card
+1024,2025-10-05,"Omega 27"" Monitor",Monitors,249.99,2,499.98,Debit Card
+1023,2025-10-07,Omega External SSD 1TB,Storage,129.99,4,519.96,Gift Card
+1049,2025-10-07,Omega Wireless Mouse,Accessories,24.99,4,99.96,Debit Card
+1002,2025-10-08,Omega Mechanical Keyboard,Accessories,79.99,2,159.98,Credit Card
+1006,2025-10-08,Omega External SSD 1TB,Storage,129.99,3,389.97,Credit Card
+1038,2025-10-08,"Omega Laptop 15""",Laptops,1199.99,1,1199.99,Gift Card
+1044,2025-10-08,"Omega Laptop 15""",Laptops,1199.99,3,3599.97,Credit Card
+1008,2025-10-09,Omega Wireless Mouse,Accessories,24.99,2,49.98,PayPal
+1022,2025-10-09,"Omega Laptop 15""",Laptops,1199.99,2,2399.98,PayPal
+1010,2025-10-12,Omega USB-C Hub,Accessories,39.99,3,119.97,Credit Card
+1017,2025-10-12,Omega Mechanical Keyboard,Accessories,79.99,3,239.97,Credit Card
+1026,2025-10-12,Omega Mechanical Keyboard,Accessories,79.99,2,159.98,Gift Card
+1035,2025-10-12,Omega Wireless Mouse,Accessories,24.99,1,24.99,PayPal
+1029,2025-10-13,Omega Noise-Cancelling Headphones,Audio,149.99,4,599.96,PayPal
+1032,2025-10-14,Omega Wireless Mouse,Accessories,24.99,4,99.96,Credit Card
+1016,2025-10-15,Omega USB-C Hub,Accessories,39.99,2,79.98,PayPal
+1019,2025-10-15,Omega Noise-Cancelling Headphones,Audio,149.99,3,449.97,Debit Card
+1043,2025-10-15,Omega External SSD 1TB,Storage,129.99,1,129.99,Debit Card
+1036,2025-10-16,"Omega Laptop 13""",Laptops,899.99,1,899.99,PayPal
+1005,2025-10-17,"Omega Laptop 13""",Laptops,899.99,2,1799.98,Gift Card
+1041,2025-10-17,Omega Noise-Cancelling Headphones,Audio,149.99,2,299.98,Debit Card
+1048,2025-10-17,Omega Mechanical Keyboard,Accessories,79.99,3,239.97,Gift Card
+1030,2025-10-18,"Omega Laptop 13""",Laptops,899.99,1,899.99,PayPal
+1045,2025-10-19,Omega Mechanical Keyboard,Accessories,79.99,2,159.98,Credit Card
+1018,2025-10-20,Omega Wireless Mouse,Accessories,24.99,2,49.98,Debit Card
+1001,2025-10-21,"Omega Laptop 15""",Laptops,1199.99,1,1199.99,PayPal
+1028,2025-10-21,Omega Wireless Mouse,Accessories,24.99,4,99.96,Credit Card
+1003,2025-10-22,"Omega Laptop 15""",Laptops,1199.99,4,4799.96,Credit Card
+1020,2025-10-22,Omega USB-C Hub,Accessories,39.99,1,39.99,Debit Card
+1040,2025-10-22,Omega External SSD 1TB,Storage,129.99,2,259.98,PayPal
+1013,2025-10-23,"Omega Laptop 15""",Laptops,1199.99,1,1199.99,Debit Card
+1042,2025-10-23,"Omega 27"" Monitor",Monitors,249.99,4,999.96,PayPal
+1011,2025-10-24,Omega External SSD 1TB,Storage,129.99,1,129.99,Gift Card
+1025,2025-10-24,"Omega 27"" Monitor",Monitors,249.99,4,999.96,Gift Card
+1007,2025-10-25,Omega Wireless Mouse,Accessories,24.99,4,99.96,PayPal
+1014,2025-10-25,"Omega 27"" Monitor",Monitors,249.99,1,249.99,Debit Card
+1031,2025-10-25,Omega USB-C Hub,Accessories,39.99,1,39.99,PayPal
+1050,2025-10-26,Omega External SSD 1TB,Storage,129.99,4,519.96,Debit Card
+1021,2025-10-27,"Omega Laptop 13""",Laptops,899.99,3,2699.97,Gift Card
+1039,2025-10-27,"Omega Laptop 15""",Laptops,1199.99,2,2399.98,Debit Card
+1015,2025-10-28,"Omega Laptop 15""",Laptops,1199.99,4,4799.96,PayPal
+1034,2025-10-28,"Omega 27"" Monitor",Monitors,249.99,2,499.98,Debit Card
+1037,2025-10-29,"Omega 27"" Monitor",Monitors,249.99,2,499.98,Credit Card
+1047,2025-10-29,"Omega Laptop 13""",Laptops,899.99,3,2699.97,Credit Card
+1033,2025-10-31,"Omega 27"" Monitor",Monitors,249.99,2,499.98,Credit Card
