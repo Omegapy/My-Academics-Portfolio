@@ -36,6 +36,11 @@ My Links:
    
 ---
 
+Requirements:  
+[![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
+
+---
+
 #### Project Map  
 
 - [Critical Thinking 1](#critical-thinking-1)
@@ -45,14 +50,52 @@ My Links:
 ---
 
 ## Critical Thinking 1
-Directory: [Critical-Thinking-1]()   
-Title: 
+Directory: [Critical-Thinking-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC505-Principles-of-Software-Development/Critical-Thinking-1)   
+Title: Critical Thinking Assignment 1 – Sales Analysis
 
 ---
 ---
 
 Assignment Description:  
 
+For this assignment, you will write a simple Python prototype and then create a short developer report, simulating the kind of deliverable expected by a technical team lead or project manager in a modern software development environment. Whether you’re working independently or as part of a team, understanding the challenges of software development and communicating technical work clearly are essential skills for success.  
+
+To get familiar with Python programming and integrated development tools used in the field, begin by writing a Python script with a practical, real-world purpose. Then, create a brief developer-facing report reflecting on key aspects of your experience and how they relate to broader software development challenges.  
+
+
+Part 1: Python Script Development  
+Write a Python script that performs a useful or realistic task. You may choose one of the following or propose your own idea:  
+
+A command-line tip calculator.  
+A script that reads and analyzes a CSV file (e.g., grades, sales).  
+A simple to-do list or task tracker.  
+A basic simulation (e.g., mock CPU/memory monitor using random values).  
+A log parser that searches for keywords in a sample file.  
+Use any modern IDE of your choice (e.g., VS Code, PyCharm, Replit).  
+
+
+Part 2: Developer Report (Professional Documentation)  
+After completing your script, prepare a developer report answering the following   stakeholder-facing questions based on your experience:  
+
+What was the purpose or intended use case of your script?  
+What tools or libraries did you use, and why?  
+What challenges did you encounter during development?  
+How would you expand or improve this prototype in future iterations?  
+What lessons did you learn that apply to broader software development work?  
+Keep your responses brief and professional (1–3 sentences per question). This report simulates what you might send as part of an internal project handoff or sprint demo.   
+
+
+Part 3: Submission Requirements  
+Submit the following in a zipped folder:  
+
+Your Python source file (.py).  
+A screenshot of your program running successfully.  
+Your completed developer report (.txt, .md, or .pdf).  
+
+---
+
+Program Description:  
+Console-based application that loads Omega.py sales CSV data, computes metrics, and computes sales analytics.
 
 ---
 
@@ -63,7 +106,7 @@ Assignment Description:
 
 ## Discussions 
 This repository is a collection of discussion posts from CSC505 – Principles of Software Development   
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC505-Principles-of-Software-Development/Discussions)
 
 ---
 
