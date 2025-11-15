@@ -18,7 +18,7 @@ Professor: Brian Holbert
 Fall C (25FC) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade: 
+Final grade: 100% A
 
 ---
 
