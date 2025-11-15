@@ -18,7 +18,7 @@ Professor: Brian Holbert
 Winter A (25WA) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade: 
+Final grade: 100% A
 
 ---
 
