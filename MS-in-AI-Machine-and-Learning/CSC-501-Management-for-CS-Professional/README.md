@@ -38,13 +38,50 @@ My Links:
 
 #### Project Map  
 
+- [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Portfolio Milestone Module 1](#portfolio-milestone-module-1)
 - [Discussions](#discussions)
 
 ----
 ----
 
-##Portfolio Milestone Module 1
+## Portfolio Milestone Module 2  
+Directory: [Portfolio-Milestone-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-2)   
+Title: Module 2 Portfolio Milestone: Stakeholder Engagement Assessment
+
+---
+---
+
+Assignment Description:   
+Module 2: Portfolio Milestone
+
+Engagement Level Diagram  
+Utilize Lucidchart (Links to an external site.) to draw out an engagement level diagram for the core stakeholders in your chosen company from Portfolio Milestone 1. You should create a Stakeholder Engagement Assessment Matrix (Page 45 of uCertify textbook) and then draw up a quick use case study on each of the five engagement levels and why a particular person is in that engagement level.
+
+Review the Get Started with Lucidchart article for information on how to access and use this tool.
+
+Download your chart from Lucidchart as a PDF or a JPEG as explained in the guide and submit it by the posted due date. 
+
+---
+
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+
+Stakeholder Engagement Assessment Matrix for the Project Codebase within Omega.py, along with a quick use case study detailing engagement levels and explaining why each stakeholder is currently at that level.
+
+<img width="1228" height="734" alt="Stakeholder Engagement Assessment Matrix" src="https://github.com/user-attachments/assets/8b03ba1e-a692-44ce-b5d8-cbba178846c5" />
+
+---
+
+[Go back to the Project Map](#project-map)  
+
+----
+----
+
+## Portfolio Milestone Module 1  
 Directory: [Portfolio-Milestone-Module-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-1)   
 Title: Module 1 Portfolio Milestone: System Selection
 
@@ -72,6 +109,13 @@ For this first milestone, you must decide on the system and submit the system yo
 
 My project:  
 For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+
+Stakeholder Engagement Assessment Matrix for the Project Codebase within Omega.py, along with a quick use case study detailing engagement levels and explaining why each stakeholder is currently at that level.
+
+<img width="1228" height="734" alt="Stakeholder Engagement Assessment Matrix" src="https://github.com/user-attachments/assets/8b03ba1e-a692-44ce-b5d8-cbba178846c5" />
 
 ---
 
