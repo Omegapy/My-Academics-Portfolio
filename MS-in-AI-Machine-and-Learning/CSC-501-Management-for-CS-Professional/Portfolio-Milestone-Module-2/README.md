@@ -33,7 +33,8 @@ A key component of a project's success is stakeholder engagement. The Stakeholde
 
 Stakeholder Engagement Assessment Matrix for the Project Codebase within Omega.py, along with a quick use case study detailing engagement levels and explaining why each stakeholder is currently at that level.
 
-![alt text](image.png)
+<img width="1228" height="734" alt="Stakeholder Engagement Assessment Matrix" src="https://github.com/user-attachments/assets/8b03ba1e-a692-44ce-b5d8-cbba178846c5" />
+
 
 ---
 
