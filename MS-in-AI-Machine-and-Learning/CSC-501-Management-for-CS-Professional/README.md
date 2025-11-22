@@ -14,9 +14,9 @@ This repository is a collection of Python programs from CSC501 – 	Management f
 ---
 
 Management for the Computer Science Professional CSC501  
-Professor: Dr. Brian Holbert  
-Winter A (25WA) – 2025   
-Student: Alexander (Alex) Ricciardi   
+Professor: Dr. Brian Holbert    
+Winter A (25WA) – 2025     
+Student: Alexander (Alex) Ricciardi    
 
 Final grade: 
 
