@@ -59,9 +59,9 @@ Title: Critical Thinking Assignment 2 – Development and Design Model
 
 Assignment Description:  
 
-Consider the traditional Waterfall Model, which includes sequential stages: communication, planning, modeling, construction, and deployment (Adapted from Pressman, 2020, p. 26). While foundational, this model has limitations in today's fast-changing software environments.
-![alt text](image.png)  
-The Waterfall Model includes: Communication (project initiation, requirement gathering), planning (estimating, scheduling, tracking), modeling (analysis, design), construction (code, test, peer validation), and deployment (delivery, support, feedback, TAM).
+Consider the traditional Waterfall Model, which includes sequential stages: communication, planning, modeling, construction, and deployment (Adapted from Pressman, 2020, p. 26). While foundational, this model has limitations in today's fast-changing software environments.  
+<img width="850" height="229" alt="image" src="https://github.com/user-attachments/assets/37c00a7e-06bc-4fb9-95d8-b38e9ce41b61" />  
+The Waterfall Model includes: Communication (project initiation, requirement gathering), planning (estimating, scheduling, tracking), modeling (analysis, design), construction (code, test, peer validation), and deployment (delivery, support, feedback, TAM).  
 (Adapted from Pressman, 2020, p. 26)
 
 
