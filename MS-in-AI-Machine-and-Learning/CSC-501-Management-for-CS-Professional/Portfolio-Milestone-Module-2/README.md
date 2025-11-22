@@ -14,8 +14,7 @@ Student: Alexander (Alex) Ricciardi
 
 **Assignment Directions:**  
 
-Module 2: Portfolio Milestone
-
+Module 2: Portfolio Milestone  
 Engagement Level Diagram  
 Utilize Lucidchart (Links to an external site.) to draw out an engagement level diagram for the core stakeholders in your chosen company from Portfolio Milestone 1. You should create a Stakeholder Engagement Assessment Matrix (Page 45 of uCertify textbook) and then draw up a quick use case study on each of the five engagement levels and why a particular person is in that engagement level.
 
@@ -34,7 +33,6 @@ A key component of a project's success is stakeholder engagement. The Stakeholde
 Stakeholder Engagement Assessment Matrix for the Project Codebase within Omega.py, along with a quick use case study detailing engagement levels and explaining why each stakeholder is currently at that level.
 
 <img width="1228" height="734" alt="Stakeholder Engagement Assessment Matrix" src="https://github.com/user-attachments/assets/8b03ba1e-a692-44ce-b5d8-cbba178846c5" />
-
 
 ---
 
