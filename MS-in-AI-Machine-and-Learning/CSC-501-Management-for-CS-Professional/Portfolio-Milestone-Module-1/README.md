@@ -5,9 +5,9 @@ Grade:
 
 ---
 
-CSC501 Management for the Computer Science Professional
-Professor: Dr. Brian Holbert 
-Winter A (25WA) – 2025   
+CSC501 Management for the Computer Science Professional  
+Professor: Dr. Brian Holbert   
+Winter A (25WA) – 2025    
 Student: Alexander (Alex) Ricciardi
 
 ---
