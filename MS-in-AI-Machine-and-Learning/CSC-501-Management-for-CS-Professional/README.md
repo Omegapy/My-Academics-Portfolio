@@ -38,9 +38,34 @@ My Links:
 
 #### Project Map  
 
+- [Critical Thinking Module 2](#critical-thinking-module-2)
 - [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Portfolio Milestone Module 1](#portfolio-milestone-module-1)
 - [Discussions](#discussions)
+
+----
+----
+
+## Critical Thinking Module 2  
+Directory: [Critical-Thinking-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Critical-Thinking-Module-2)   
+Title: Critical Thinking Module 2: A Project Management Plan for Refreshing Network and Laptop Equipment
+
+---
+---
+
+Assignment Description:   
+The Unhappy Stakeholder  
+You have recently been placed in charge of refreshing the network and laptop equipment for your organization. The organization consists of 150 different employees who are located in each of the 48 states inside the continental United States. Some states have multiple facilities, and most states are along the northern and southern borders of the United States. You are responsible for upgrading a fleet of laptop systems as well as a router and 2-3 switches per site.
+
+The object of this exercise is not for you to have a definitive understanding of what all these pieces of hardware deal with. The objective is for you to showcase a project management plan as well as research reasons why you might utilize one hardware over another.
+
+Think about costs, phases, and interdependencies between tasks. While this is not expected to be a complete development plan with a Gantt chart, it should discuss some of the processes that would be associated with implementation of the plan and showcase a sample of the phases of carrying out the plan. Discuss what will be delivered and how it will be delivered. This should include possible risks associated with the delivery in the field and on-site smart hands.
+
+Your paper should be 1-2 pages in length and conform to the CSU Global Writing Center (which can be accessed by selecting the button in the left-hand Canvas navigation panel). Include at least two credible references in addition to the course textbook. The CSU Global Library (which can be accessed by selecting the button in the left-hand Canvas navigation panel) is a good place to find these references.
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ----
 ----
