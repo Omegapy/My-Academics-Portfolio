@@ -1,7 +1,7 @@
 ﻿# Module 1 Portfolio Milestone: System Selection
 
 Data:  11/16/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
