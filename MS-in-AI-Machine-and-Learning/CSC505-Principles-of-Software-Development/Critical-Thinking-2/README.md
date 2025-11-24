@@ -85,6 +85,7 @@ Incremental Development and Release
 - ricciardi_model.py - the python script  
 - Screenchots Module 2.pdf - contains a screenshot of your program running successfully
 - Ricciardi Adaptive Iteration Model.png - countains the Ricciardi Adaptive Iteration Model diagram
+- Project Report CTA Module 2.pdf - countains the Evaluation of the Waterfall Model
 - utilities/ - utilities module containing utilities files
 
 ---
