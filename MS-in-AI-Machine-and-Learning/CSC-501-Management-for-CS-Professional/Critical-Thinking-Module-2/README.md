@@ -1,8 +1,8 @@
 ﻿# Critical Thinking Module 2
-Project:Critical Thinking Module 2: A Project Management Plan for Refreshing Network and Laptop Equipment
+Project: Critical Thinking Module 2: A Project Management Plan for Refreshing Network and Laptop Equipment
 
 Data:  11/23/2025  
-Grade: 
+Grade: 86/90 A
 
 ---
 
