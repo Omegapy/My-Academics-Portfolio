@@ -38,10 +38,36 @@ My Links:
 
 #### Project Map  
 
+- [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Critical Thinking Module 2](#critical-thinking-module-2)
 - [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Portfolio Milestone Module 1](#portfolio-milestone-module-1)
 - [Discussions](#discussions)
+
+
+----
+----
+
+## Critical Thinking Module 3  
+Directory: [Critical-Thinking-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Critical-Thinking-Module-3)   
+Title: Critical Thinking Module 3: Scope Management - Webpage Development
+
+---
+---
+
+Assignment Description:   
+
+Scope Management - Webpage Development  
+You have recently been hired to the project management team for a 3D printer company. They're deploying a new customer-facing webpage showcasing their different 3D printing products as well as filaments and spools. 
+
+In this assignment, you must:
+- Discuss the plan scope management process for deploying this webpage.
+- Explain the inputs, tools, techniques, and outputs that will be part of this deployment.
+- Discuss a project lifecycle plan, development approach, and some of the tools and techniques that may be utilized in the deployment of this process.
+
+Think about discussing possible security issues with the site, hardware, and configuration as well. 
+
+Your paper should be 1-2 pages in length and conform to the CSU Global Writing Center (which can be accessed by selecting the button in the left-hand Canvas navigation panel). Include at least two credible references in addition to the course textbook. The CSU Global Library(which can be accessed by selecting the button in the left-hand Canvas navigation panel) is a good place to find these references.
 
 ----
 ----
