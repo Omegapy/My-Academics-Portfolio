@@ -40,10 +40,48 @@ My Links:
 
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Critical Thinking Module 2](#critical-thinking-module-2)
+- [Portfolio Milestone Module 3](#portfolio-milestone-module-3)
 - [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Portfolio Milestone Module 1](#portfolio-milestone-module-1)
 - [Discussions](#discussions)
 
+----
+----
+
+## Portfolio Milestone Module 3  
+Directory: [Portfolio-Milestone-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-3)   
+Title: Module 3 Portfolio Milestone: Initial Project Codebase PMP
+
+---
+---
+
+Assignment Description:   
+Module 3: Portfolio Milestone - Initial Project Codebase PMP
+
+Project Plan: Environment Variables, Scope Processes, and Organizational Systems - Paper Build a project management plan for your Portfolio Project. This will be iterative and you will add to this throughout the rest of the course.
+
+For this first part begin to integrate environment variables, scope processes, and organizational systems into as a project plan. You can use Excel or Lucid Chart for your initial project plan design.
+
+If you use Lucid Chart please refer to Get Started with Lucid chartLinks to an external site. for instructions on how to use the tool and how to download the diagram.
+
+Submit your project plan along with a one-page paper discussing the initial WBS for your project and how that will work in your overall process
+
+---
+
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+---
+
+Diagram Initial Project Codebase PMP
+
+<img width="3087" height="2274" alt="image" src="https://github.com/user-attachments/assets/23926404-226b-42f9-ba8d-0162891a00ce" />
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ----
 ----
@@ -120,6 +158,7 @@ For my CSC501 portfolio project, I chose a project management approach to develo
 
 A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
 
+---
 
 Stakeholder Engagement Assessment Matrix for the Project Codebase within Omega.py, along with a quick use case study detailing engagement levels and explaining why each stakeholder is currently at that level.
 
