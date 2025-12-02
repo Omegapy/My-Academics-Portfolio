@@ -28,14 +28,9 @@ Your paper should be 1-2 pages in length and conform to the CSU Global Writing C
 
 ---
 
-My project:  
-
----
-
 **Project Map:**
 
-- CTA Module 3.pdf.pdf - contains the Webpage Development Essay
-
+- CTA Module 3.pdf - contains the Webpage Development Essay
 
 ---
 
