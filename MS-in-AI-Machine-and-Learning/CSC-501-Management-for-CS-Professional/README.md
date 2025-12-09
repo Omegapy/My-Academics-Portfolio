@@ -38,12 +38,65 @@ My Links:
 
 #### Project Map  
 
+- [Critical Thinking Module 4](#critical-thinking-module-4)
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Critical Thinking Module 2](#critical-thinking-module-2)
+- [Portfolio Milestone Module 4](#portfolio-milestone-module-4)
 - [Portfolio Milestone Module 3](#portfolio-milestone-module-3)
 - [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Portfolio Milestone Module 1](#portfolio-milestone-module-1)
 - [Discussions](#discussions)
+
+----
+----
+
+## Portfolio Milestone Module 4  
+Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-4)   
+Title: Module 3 Portfolio Milestone: Project Design and Outline
+
+---
+---
+
+Assignment Description:   
+Module 4: Portfolio Milestone
+Project Design and Outline Submit your project plan with budget, resources, and stakeholder analysis. By now, you should have a viable project plan for your portfolio project. You can include diagrams, charts, and a rough outline for your project, including the project scope and timeline estimates for inception, delivery, and maintenance. You should also discuss possible change requests and goal alignments.
+
+---
+
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+---
+
+[Go back to the Project Map](#project-map)  
+
+----
+----
+
+## Critical Thinking Module 4  
+Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Critical-Thinking-Module-4)   
+Title: Critical Thinking Module 4: Discovering Common Ground
+
+---
+---
+
+Assignment Description:   
+
+Discovering Common Ground  
+Project Management provides a unique perspective on designing systems and discusses developing your own understanding of the client's mission and wants or needs regarding the project. This includes the resources and team provided to accomplish the task. There is a lot of data on how to use resources, budget, stakeholders, and users together in a project so that the project is successful. For the Critical Thinking Assignment this week research methods on overcoming challenges in a project from resources, budget, goals, stakeholder support, and people involved in the team. 
+
+- Create a dialogue scenario that discusses a conflict between departments and possible ways of solving them. 
+- Discuss the methods of negotiation that will be utilized to try and find a common ground between the stakeholders.
+- Showcase expert commentary along with industry-standard research and discussion from the text for how you would appropriately resolve the conflict to keep the project moving forward.
+ 
+
+Your paper should be 1-2 pages in length and conform to the CSU Global Writing Center (which can be accessed by selecting the button in the left-hand Canvas navigation panel). Include at least two credible references in addition to the course textbook. The CSU Global Library (which can be accessed by selecting the button in the left-hand Canvas navigation panel) is a good place to find these references.
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ----
 ----
@@ -106,6 +159,10 @@ In this assignment, you must:
 Think about discussing possible security issues with the site, hardware, and configuration as well. 
 
 Your paper should be 1-2 pages in length and conform to the CSU Global Writing Center (which can be accessed by selecting the button in the left-hand Canvas navigation panel). Include at least two credible references in addition to the course textbook. The CSU Global Library(which can be accessed by selecting the button in the left-hand Canvas navigation panel) is a good place to find these references.
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ----
 ----
