@@ -52,7 +52,7 @@ My Links:
 
 ## Portfolio Milestone Module 4  
 Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-4)   
-Title: Module 3 Portfolio Milestone: Project Design and Outline
+Title: Module 4 Portfolio Milestone: Project Design and Outline
 
 ---
 ---
