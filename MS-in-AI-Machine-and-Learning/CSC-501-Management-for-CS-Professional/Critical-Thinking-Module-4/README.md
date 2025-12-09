@@ -14,7 +14,7 @@ Student: Alexander (Alex) Ricciardi
 
 **Assignment Directions:**  
  
-Discovering Common Ground
+Discovering Common Ground  
 Project Management provides a unique perspective on designing systems and discusses developing your own understanding of the client's mission and wants or needs regarding the project. This includes the resources and team provided to accomplish the task. There is a lot of data on how to use resources, budget, stakeholders, and users together in a project so that the project is successful. For the Critical Thinking Assignment this week research methods on overcoming challenges in a project from resources, budget, goals, stakeholder support, and people involved in the team. 
 
 - Create a dialogue scenario that discusses a conflict between departments and possible ways of solving them. 
@@ -29,7 +29,6 @@ Your paper should be 1-2 pages in length and conform to the CSU Global Writing C
 **Project Map:**
 
 - CTA Module 4.pdf - contains Discovering Common Ground document
-
 
 ---
 
