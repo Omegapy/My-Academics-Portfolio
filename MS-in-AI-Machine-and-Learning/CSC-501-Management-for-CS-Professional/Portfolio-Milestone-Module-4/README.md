@@ -14,8 +14,7 @@ Student: Alexander (Alex) Ricciardi
 
 **Assignment Directions:**  
 
-Module 4: Portfolio Milestone  
-Project Design and Outline
+Module 4: Portfolio Milestone - Project Design and Outline  
 Submit your project plan with budget, resources, and stakeholder analysis. By now, you should have a viable project plan for your portfolio project. You can include diagrams, charts, and a rough outline for your project, including the project scope and timeline estimates for inception, delivery, and maintenance. You should also discuss possible change requests and goal alignments. 
 
 ---
