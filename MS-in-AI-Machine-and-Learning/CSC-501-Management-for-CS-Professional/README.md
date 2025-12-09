@@ -49,7 +49,7 @@ My Links:
 ----
 
 ## Portfolio Milestone Module 3  
-Directory: [Portfolio-Milestone-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-3)   
+Directory: [Portfolio-Milestone-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-3)   
 Title: Module 3 Portfolio Milestone: Initial Project Codebase PMP
 
 ---
