@@ -82,18 +82,23 @@ Submission Requirements
     - Your UML diagram in .png or .pdf format
     - (Optional) A brief README.txt outlining your design assumptions
 - Reference Requirements
-Include at least two credible references in addition to the course textbook. Use the CSU Global Library (available in the left hand navigation menu) or professional sources on software design, UML, and civic technology systems. Format references in APA 7 according to the CSU Global Writing Center.  
+Include at least two credible references in addition to the course textbook. Use the CSU Global Library (available in the left hand navigation menu) or professional sources on software design, UML, and civic technology systems. Format references in APA 7 according to the CSU Global Writing Center.
+---
+
+PHTRS - Use Case Diagram
+<img width="2183" height="2809" alt="PHTRS - Use Case Diagram" src="https://github.com/user-attachments/assets/22edd637-4dbb-4476-97b2-5d16d9efa4c0" />
+
  
 ---
 
 **Articles and tutorials used**
  
-- IBM’s *Use-case diagrams* documentation (IBM, 2023) was used to learn the use-case diagram notation such as how actors connect to use cases, and when to use the <<include>> and <<extend>> relationships.
+- IBM’s *Use-case diagrams* documentation (IBM, 2023) was used to learn the use-case diagram notation, such as how actors connect to use cases, and when to use the <<include>> and <<extend>> relationships.
 - The OMG *UML specification (Version 2.5.1)* (OMG, 2017) was used to learn about UML relationships (association, generalization, include/extend).
-- The PlantUML *Use case diagram* guide (PlantUML, n.d.) was used to laern about the diagram syntax (actors, system boundary, stereotypes, and relationships) and to verify correct rendering of the use-case model.
+- The PlantUML *Use case diagram* guide (PlantUML, n.d.) was used to learn about the diagram syntax (actors, system boundary, stereotypes, and relationships) and to verify correct rendering of the use-case model.
 - The course textbook (Pressman & Maxim, 2020) was used to support requirements-level modeling decisions—keeping the diagram at the “what the system must do” level (actors/goals/interactions).
-- Ricciardi’s (2025) prior UML use-case analysis article was used as a template for actors/use cases, explaining relationship choices, and it was used to to populate the phtrs_summary.py summary output (tables + brief structure summary).
-- The UML Diagrams *Component diagrams* tutorial (UML Diagrams, n.d.) was used as a UML reference to valitated notation (naming, relationship functionalities).
+- Ricciardi’s (2025) prior UML use-case analysis article was used as a template for actors/use cases, explaining relationship choices, and it was used to populate the phtrs_summary.py summary output (tables + brief structure summary).
+- The UML Diagrams *Component diagrams* tutorial (UML Diagrams, n.d.) was used as a UML reference to validate notation (naming, relationship functionalities).
 
 ---
 
