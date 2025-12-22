@@ -1,4 +1,4 @@
-# Critical Thinking 6
+## Critical Thinking 6
 Program Name: Critical Thinking Assignment 6 – Root Solver
 
 Data:  12/21/2025  
@@ -75,7 +75,62 @@ All references should be APA 7 format according to the CSU Global Writing Center
 UML Activity Diagram
 
 <img width="1591" height="2560" alt="Root Solver Activity Diagram" src="https://github.com/user-attachments/assets/ae495c6a-343f-4cd0-b5c4-852cc1a55124" />
- 
+
+---
+
+#### Program Description:
+
+Part of Assignment Step 3: Write Your Python Implementation
+  - Translate your lowest-level refined design into working Python code.
+    - Use functions or classes to reflect the structure of your stepwise breakdown.
+    - Keep your code modular and clearly commented.
+    - The final script should demonstrate correct functionality for your selected problem.
+
+Root Solver is a small python script that solves for the roots of a transcendental equation (e.g., using Newton-Raphson or bisection method for equations like cos(x) - x = 0).
+
+---
+
+#### Stepwise Refinement (Top-Down Design) For Root Solver
+
+I used stepwise refinement to decompose the Root Solver program into three levels: Level 1 (high-level goal) → Level 2 (major modules) → Level 3 (implementation-ready steps).   
+The UML activity diagram visually maps the 3 levels using color (Top / Mid / Low).  
+
+Level 1 — High-level (Goal):  
+Prompt the user for a transcendental equation in terms of `x`, validate it, and select a method to solve the root (bisection or Newton-Raphson), then it prompts the user for solver parameters based on the method selected.
+
+Level 2 — Mid-level refinement (Major modules/logic blocks):  
+- Program control flow
+  - `main()` renders the banner, shows the main menu, and loops until the user exits.
+  - `solve_once()` orchestrates a single solve cycle (equation → method → parameters → solve → report).
+- Equation input + validation
+  - `prompt_equation()` prompt for equation and store the equation text and calls `build_function()` to create `f(x)` (equation in Python).
+  - `normalize_expression()` cleans/normalizes user input (whitespace + caret exponent handling).
+  - `SafeExpressionValidator` checks for safe AST whitelist function inputs; `ALLOWED_NAMES` limits math functions.
+  - `build_function()` compiles a safe, callable `f(x)` and evaluates for sanity.
+- Method selection + configuration
+  - `prompt_method()` stores method choice; `show_method_intro()` explains required inputs for the selected method.
+  - Common configuration: `prompt_tolerance()`, `prompt_max_iterations()`.
+  - Bisection-specific: `prompt_bisection_interval()` enforces `a < b` and sign-change bracket.
+  - Newton-specific: `prompt_newton_config()` captures `x0` and derivative step `h`.
+- Solve + report
+  - Dispatch: `bisection_solve()` or `newton_solve()` based on selected method.
+  - `report_result()` prints root estimate, residual, iteration count, and convergence status.
+- Console UI utilities
+  - `render_menu()` formats menu display and validates choices.
+  - `print_banner()` prints section banners; `show_equation_help()` provides equation syntax help.
+
+Level 3 — Low-level refinement (Implementation-ready steps)
+- Safe expression evaluation (restricted evaluator)
+  - Normalize input → parse AST → validate node whitelist (no attributes/imports) → compile → evaluate
+    with `__builtins__` removed and only `ALLOWED_NAMES` + `x` allowed.
+- Bisection method
+  - Validate bracket (`f(a) * f(b) < 0`) → iterate midpoint evaluation → shrink bracket by sign
+    change → stop when `|f(m)| <= tol` or interval width `<= tol` → return status/result.
+- Newton-Raphson method
+  - Start with `x0` → compute `f(x)` and numeric derivative via `_numeric_derivative()` →
+    update `x_next = x - f(x)/f'(x)` → stop when residual or step size is within tolerance →
+    fail safely when derivative is too small or values become non-finite.
+
 ---
 
 #### Articles and tutorials used
@@ -142,7 +197,7 @@ Wirth, N. (1971). Program Development by Stepwise Refinement. Communications of 
 - root_solver.py - Main Root Solver console Python script 
 - Screeshoots Module 6.pdf - Console output screenshots showing the program running successfully
 - Root Solver Activity Diagram.png - UML Activity Diagram for the Root Solver program
-- README.md - This document -> program overview, references, assumptions
+- README.md - This document -> - README.md - Contains -> program overview, Stepwise Refinement approach, references, assumptions  
 - utilities/ - Utilities module -> utility banner/menu functions and user input validation functions
 
 ---
