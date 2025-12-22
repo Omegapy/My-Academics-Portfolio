@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Assignment 4 – Developer Traits
 
 Data:  12/7/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
@@ -70,7 +70,7 @@ Your UML diagram (as .png or .pdf)
 ---
 
 Builder Design Pattern - Developer Builder 
-![alt text](<Builder Design Pattern - Developer Builder.png>)
+<img width="2260" height="1853" alt="Builder Design Pattern - Developer Builder" src="https://github.com/user-attachments/assets/d81c8c39-e6f3-488c-a39a-ad06d1c8237a" />
 
 ---
 
