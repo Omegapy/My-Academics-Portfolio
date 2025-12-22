@@ -38,14 +38,106 @@ My Links:
 
 #### Project Map  
 
+- [Critical Thinking Module 5](#critical-thinking-module-5)
 - [Critical Thinking Module 4](#critical-thinking-module-4)
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Critical Thinking Module 2](#critical-thinking-module-2)
+- [Portfolio Milestone Module 6](#portfolio-milestone-module-6)
+- [Portfolio Milestone Module 5](#portfolio-milestone-module-5)
 - [Portfolio Milestone Module 4](#portfolio-milestone-module-4)
 - [Portfolio Milestone Module 3](#portfolio-milestone-module-3)
 - [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Portfolio Milestone Module 1](#portfolio-milestone-module-1)
 - [Discussions](#discussions)
+
+----
+----
+
+## Portfolio Milestone Module 6  
+Directory: [Portfolio-Milestone-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-6)   
+Title: Module 6 Portfolio Milestone: Design Methodology Report
+
+---
+---
+
+Assignment Description:   
+Design Methodology   
+Create a Gantt chart using Lucid chart Links to an external site. Or Excel for your Portfolio Project. Refer to Get Started with Lucid chart Links to an external site. for instructions on how to use the tool and how to download the diagram.  
+
+Begin to outline the processes required for design methodology in a 2- to 3-page paper and include your Gantt chart as a JPEG image in this paper, or attach your Excel spread sheet to your submission.>
+
+---
+
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+---
+
+[Go back to the Project Map](#project-map)  
+
+
+----
+----
+
+## Portfolio Milestone Module 5  
+Directory: [Portfolio-Milestone-Module-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-5)   
+Title: Module 5 Portfolio Milestone: Design Methodology Report
+
+---
+---
+
+Assignment Description:   
+Design Methodology
+Create a Gantt chart using Lucid chart. Or Excel for your Portfolio Project. Refer to Get Started with Lucid chart. for instructions on how to use the tool and how to download the diagram.
+
+Begin to outline the processes required for design methodology in a 2- to 3-page paper and include your Gantt chart as a JPEG image in this paper, or attach your Excel spread sheet to your submission.
+
+---
+Project Codebase Gantt Chart
+<img width="1248" height="336" alt="Project Codebase Gantt Chart" src="https://github.com/user-attachments/assets/e507f6ec-91d0-48bd-8927-0deb5a0bf532" />
+
+---
+
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+---
+
+[Go back to the Project Map](#project-map)  
+
+----
+----
+
+## Critical Thinking Module 5  
+Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Critical-Thinking-Module-5)   
+Title: Critical Thinking Module 5: Project Portfolio Evaluation
+
+---
+---
+
+Assignment Description:   
+
+Discovering Common Ground  
+Making a Choice   
+You have just been made project manager for top-flight Project Management, Inc. For your first task, you've been handed three separate portfolios for potential projects. The prospectuses are listed as follows:
+
+Build a MAN network for the city. The project requires an investment of $10 million of capital. The city has recently passed legislation to allow your firm to install the MAN network. Based on the estimates for traffic passing over the MAN network, the monthlies would be around $500,000 a month after the second year. The city will be collecting all of the dues for the first year and half for the second.
+Set up computers and networks for the County school district. This project requires the investment of $1 million for the network and computer systems as well as a few servers and an NAS. The city has passed legislation that would allow you to recover the costs of assembly with standard rates as well as a service contract to keep things running after deployment. This amounts to approximately $50,000 a month after the first year.   
+Build a housing network. This project requires the investment of $10 million up front in building costs, including zoning and a city planning commission. This project will feature 12 single-family residences that will be put up for sale at around $450,000 per residence. Additionally, the project includes a multifamily unit complex featuring 110 units that will bring in a monthly income of $70,000 after the second year, given one year to build and an estimated year to sell and fill the new multifamily structure. Since the firm does not have $10 million in liquidity, the project would require either bringing in a partner or borrowing the funds at an interest rate of 10% per annum.   
+ 
+
+Given the above choices, which option has the shortest payback period? Which has the longest? Given your knowledge of costs, make your selection for which project you think should be pursued and why. Discuss in detail your evaluation of the project and the reasons for your selection. Discuss any Pro’s and Con’s for your choices. 
+
+ 
+Your paper should be 1-2 pages in length and conform to the CSU Global Writing Center (which can be accessed by selecting the button in the left-hand Canvas navigation panel). Include at least two credible references in addition to the course textbook. The CSU Global Library (which can be accessed by selecting the button in the left-hand Canvas navigation panel) is a good place to find these references.
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ----
 ----
