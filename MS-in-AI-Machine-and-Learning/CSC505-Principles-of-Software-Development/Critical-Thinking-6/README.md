@@ -13,9 +13,9 @@ Student: Alexander (Alex) Ricciardi
 
 ---
 
-**Program Description:**
+#### Program Description:
 
-Part of Assignement Step 3: Write Your Python Implementation
+Part of Assignment Step 3: Write Your Python Implementation
   - Translate your lowest-level refined design into working Python code.
     - Use functions or classes to reflect the structure of your stepwise breakdown.
     - Keep your code modular and clearly commented.
@@ -30,7 +30,7 @@ Requirements:
 
 ---
 
-**Assignment Directions:**  
+#### Assignment Directions: 
 
 In modern software engineering, stepwise refinement (also known as top-down design) is a key strategy for breaking down complex problems into manageable parts. In this assignment, you will apply this approach to one of three program options and demonstrate your ability to define and refine procedural abstractions across multiple levels.
 
@@ -78,7 +78,7 @@ UML Activity Diagram
  
 ---
 
-**Articles and tutorials used**
+#### Articles and tutorials used
  
 - Encyclopaedia Britannica’s entry on Transcendental function was used to learn/support the written definition/background for transcendental equations in the program documentation (EncyclopaediaBritannica, 2025).
 - MIT OpenCourseWare’s Nonlinear equations notes were used to leran/support the numerical method.descriptions and stopping conditions for bisection and Newton-Raphson in the design narrative (MIT OpenCourseWare, 2012).
@@ -94,7 +94,7 @@ UML Activity Diagram
 
 ---
 
-**References**: 
+#### References: 
 
 Encyclopaedia Britannica. (2025, December 12). *Transcendental function*. Encyclopaedia Britannica. https://www.britannica.com/science/transcendental-function
 
@@ -126,7 +126,7 @@ Wirth, N. (1971). Program Development by Stepwise Refinement. Communications of 
 
 ---
 
-**Assumptions**
+#### Assumptions
 
 - The user inputs an equation as a single expression in terms of `x` (for example, `cos(x)-x`).
 - The equation uses only the supported operators and math functions/constants  within a  program’s safe-expression whitelist (e.g., `+ - * / **`, `sin`, `cos`, `exp`, `log`, `sqrt`, `abs`, `pi`, `e`, `pow`).
@@ -137,7 +137,7 @@ Wirth, N. (1971). Program Development by Stepwise Refinement. Communications of 
 
 ---
 
-**Project Map:**
+#### Project Map:
 
 - root_solver.py - Main Root Solver console Python script 
 - Screeshoots Module 6.pdf - Console output screenshots showing the program running successfully
