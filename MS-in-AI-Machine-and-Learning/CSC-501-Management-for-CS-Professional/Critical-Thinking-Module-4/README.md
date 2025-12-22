@@ -1,7 +1,7 @@
-﻿# Critical Thinking Module 4
+﻿# Critical Thinking Module 4 - Discovering Common Ground
 
 Data:  12/7/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
