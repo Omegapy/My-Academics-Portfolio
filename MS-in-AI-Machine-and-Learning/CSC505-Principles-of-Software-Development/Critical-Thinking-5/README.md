@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Assignment 5 – PHTRS
 
 Data:  12/14/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
@@ -13,7 +13,7 @@ Student: Alexander (Alex) Ricciardi
 
 ---
 
-**Program Description:**
+#### Program Description:
 
 Part of Write a Python Summary Script that:  
 Defines the actors and use cases shown in your diagram
@@ -27,7 +27,7 @@ Requirements:
 
 ---
 
-**Assignment Directions:**  
+#### Assignment Directions  
 
 The department of public works for a large city has decided to develop a web-based pothole tracking and repair system (PHTRS). A description follows:
 
@@ -88,10 +88,9 @@ Include at least two credible references in addition to the course textbook. Use
 PHTRS - Use Case Diagram
 <img width="2183" height="2809" alt="PHTRS - Use Case Diagram" src="https://github.com/user-attachments/assets/22edd637-4dbb-4476-97b2-5d16d9efa4c0" />
 
- 
 ---
 
-**Articles and tutorials used**
+#### Articles and tutorials used
  
 - IBM’s *Use-case diagrams* documentation (IBM, 2023) was used to learn the use-case diagram notation, such as how actors connect to use cases, and when to use the <<include>> and <<extend>> relationships.
 - The OMG *UML specification (Version 2.5.1)* (OMG, 2017) was used to learn about UML relationships (association, generalization, include/extend).
@@ -102,7 +101,7 @@ PHTRS - Use Case Diagram
 
 ---
 
-**References**: 
+#### References: 
 
 IBM. (2023, September 21). *Use-case diagrams*. IBM Documentation.
 https://www.ibm.com/docs/en/rational-soft-arch/9.7.0?topic=diagrams-use-case
@@ -119,7 +118,7 @@ Ricciardi, A. S. (2025, January 5). *A UML use-case analysis of an online shoppi
 UML Diagrams. (n.d.). *UML component diagrams*. UML Diagrams. https://www.uml-diagrams.org/component-diagrams.html
 
 ---
-**Assumptions**
+#### Assumptions
 
 System boundary  
 PHTRS is a web-based system used by citizens to report the location of potholes, it also used by city empployes to fetch those reports (manage citizen damage claims) to prioritize, track, and close pothole repairs claims.
@@ -165,7 +164,7 @@ Naming / Numbering Conventions
 
 ---
 
-**Project Map:**
+#### Project Map:
 
 - phtrs_summary.py - This file contains the PHTRS summarizer Python program 
 - Screetshoots Module 5.pdf - This file contains the PHTRS summarizer Python program console outputs
