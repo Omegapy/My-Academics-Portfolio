@@ -74,7 +74,7 @@ All references should be APA 7 format according to the CSU Global Writing Center
 
 UML Activity Diagram
 
-
+<img width="1591" height="2560" alt="Root Solver Activity Diagram" src="https://github.com/user-attachments/assets/ae495c6a-343f-4cd0-b5c4-852cc1a55124" />
  
 ---
 
@@ -139,8 +139,8 @@ Wirth, N. (1971). Program Development by Stepwise Refinement. Communications of 
 
 **Project Map:**
 
-- root_solver.py - Main Root Solver console pYthon script 
-- Screetshoots Module 6.pdf - Console output screenshots showing the program running successfully
+- root_solver.py - Main Root Solver console Python script 
+- Screeshoots Module 6.pdf - Console output screenshots showing the program running successfully
 - Root Solver Activity Diagram.png - UML Activity Diagram for the Root Solver program
 - README.md - This document -> program overview, references, assumptions
 - utilities/ - Utilities module -> utility banner/menu functions and user input validation functions
