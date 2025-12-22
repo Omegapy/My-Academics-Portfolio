@@ -1,4 +1,4 @@
-# Critical Thinking Module 5
+# Critical Thinking Module 5 -  Project Portfolio Evaluation
 
 Data:  12/14/2025  
 Grade: 100% A
@@ -14,7 +14,7 @@ Student: Alexander (Alex) Ricciardi
 
 **Assignment Directions:**  
  
-Making a Choiceb   
+Making a Choice   
 You have just been made project manager for top-flight Project Management, Inc. For your first task, you've been handed three separate portfolios for potential projects. The prospectuses are listed as follows:
 
 Build a MAN network for the city. The project requires an investment of $10 million of capital. The city has recently passed legislation to allow your firm to install the MAN network. Based on the estimates for traffic passing over the MAN network, the monthlies would be around $500,000 a month after the second year. The city will be collecting all of the dues for the first year and half for the second.
