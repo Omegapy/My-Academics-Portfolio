@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Assignment 2 – Development and Design Model
 
 Data:  11/23/2025  
-Grade: 
+Grade: 1000% A
 
 ---
 
