@@ -20,7 +20,6 @@ The program is a small terminal app. that has two parts:
 - Part 2 (24-Hour Alarm): Alarm time calculator based on military time (24hours)  and (added functionality) labels the day the alarm will go off (Today, Tomorrow, or In N days).  
 It also includes input validation.
 
-
 ---
 
 Requirements:  
