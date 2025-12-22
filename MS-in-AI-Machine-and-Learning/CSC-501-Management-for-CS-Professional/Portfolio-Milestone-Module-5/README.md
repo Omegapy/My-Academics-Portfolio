@@ -1,4 +1,4 @@
-﻿# Module 5 Portfolio Milestone: Design Methodology Report
+﻿# Module 5 Portfolio Milestone - Design Methodology Report
 
 Data:  12/07/2025  
 Grade: 100% A
@@ -21,6 +21,7 @@ Begin to outline the processes required for design methodology in a 2- to 3-page
 
 ---
 Project Codebase Gantt Chart
+<img width="1248" height="336" alt="Project Codebase Gantt Chart" src="https://github.com/user-attachments/assets/e507f6ec-91d0-48bd-8927-0deb5a0bf532" />
 
 ---
 
