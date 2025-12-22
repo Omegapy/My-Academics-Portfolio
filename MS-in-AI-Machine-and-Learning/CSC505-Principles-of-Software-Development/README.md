@@ -118,15 +118,19 @@ Submission Requirements
 Include at least two credible references in addition to the course textbook. Use the CSU Global Library (available in the left hand navigation menu) or professional sources on software design, UML, and civic technology systems. Format references in APA 7 according to the CSU Global Writing Center.
 ---
 
-PHTRS - Use Case Diagram
-<img width="2183" height="2809" alt="PHTRS - Use Case Diagram" src="https://github.com/user-attachments/assets/22edd637-4dbb-4476-97b2-5d16d9efa4c0" />
+UML Activity Diagram  
+<img width="1591" height="2560" alt="Root Solver Activity Diagram" src="https://github.com/user-attachments/assets/ae495c6a-343f-4cd0-b5c4-852cc1a55124" />
 
 ---
 
 #### Program Description:  
-Write a Python Script: developer_builder.py    
-The program is a small python script that runs in the console program.  
-It creates Developer objects listing desire developer personality traits (Resilience, Awareness Pragmatism).   
+Part of Assignment Step 3: Write Your Python Implementation
+  - Translate your lowest-level refined design into working Python code.
+    - Use functions or classes to reflect the structure of your stepwise breakdown.
+    - Keep your code modular and clearly commented.
+    - The final script should demonstrate correct functionality for your selected problem.
+
+Root Solver is a small Python script that solves for the roots of a transcendental equation (e.g., using Newton-Raphson or bisection method for equations like cos(x) - x = 0).  
 
 ---
 
@@ -184,9 +188,8 @@ All references should be APA 7 format according to the CSU Global Writing Center
  
 ---
 
-UML Activity Diagram
-
-<img width="1591" height="2560" alt="Root Solver Activity Diagram" src="https://github.com/user-attachments/assets/ae495c6a-343f-4cd0-b5c4-852cc1a55124" />
+PHTRS - Use Case Diagram
+<img width="2183" height="2809" alt="PHTRS - Use Case Diagram" src="https://github.com/user-attachments/assets/22edd637-4dbb-4476-97b2-5d16d9efa4c0" />
 
 ---
 
