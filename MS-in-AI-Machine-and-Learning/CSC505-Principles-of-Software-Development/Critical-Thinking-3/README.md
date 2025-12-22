@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Assignment 3 – Mobile App Prototype
 
 Data:  11/30/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
@@ -111,12 +111,14 @@ Mobile design tool documentation (e.g., Figma, Google Material Design)
 ---
 
 The Mobile App component diagram:  
-![alt text](<Mobile App component diagram.png>)
+<img width="2465" height="1399" alt="Mobile App component diagram" src="https://github.com/user-attachments/assets/c848578a-ad2b-4564-b7cf-c8ec82e2cdeb" />
+
 
 ---
 
 The Mobile Shopping APP UI Prototype:  
-![alt text](<Mobile Shopping APP UI Prototype.png>)
+<img width="3100" height="2940" alt="Mobile Shopping APP UI Prototype" src="https://github.com/user-attachments/assets/a102dc34-edae-429b-b566-7fc878d8eef4" />
+
 
 ---
 
