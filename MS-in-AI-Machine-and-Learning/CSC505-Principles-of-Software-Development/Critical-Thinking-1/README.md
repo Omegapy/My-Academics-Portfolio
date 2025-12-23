@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Assignment 1 – Sales Analysis
 
 Data:  11/16/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
