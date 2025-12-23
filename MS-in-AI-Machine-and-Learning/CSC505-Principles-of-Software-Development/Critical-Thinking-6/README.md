@@ -21,7 +21,7 @@ Part of Assignment Step 3: Write Your Python Implementation
     - Keep your code modular and clearly commented.
     - The final script should demonstrate correct functionality for your selected problem.
 
-Root Solver is a small python script that solves for the roots of a transcendental equation (e.g., using Newton-Raphson or bisection method for equations like cos(x) - x = 0).
+Root Solver is a small Python script that solves for the roots of a transcendental equation (e.g., using Newton-Raphson or bisection method for equations like cos(x) - x = 0).
 
 ---
 
