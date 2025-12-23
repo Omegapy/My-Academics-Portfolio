@@ -1,7 +1,7 @@
 ﻿# Critical Thinking Module 3
 
 Data:  11/30/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
