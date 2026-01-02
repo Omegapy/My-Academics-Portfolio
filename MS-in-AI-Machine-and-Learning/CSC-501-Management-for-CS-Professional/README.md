@@ -42,6 +42,7 @@ My Links:
 - [Critical Thinking Module 4](#critical-thinking-module-4)
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Critical Thinking Module 2](#critical-thinking-module-2)
+- [Portfolio Project Module 7](#portfolio-project-module-7)
 - [Portfolio Milestone Module 6](#portfolio-milestone-module-6)
 - [Portfolio Milestone Module 5](#portfolio-milestone-module-5)
 - [Portfolio Milestone Module 4](#portfolio-milestone-module-4)
@@ -52,6 +53,47 @@ My Links:
 
 ----
 ----
+
+----
+----
+
+## Portfolio Project Module 7 
+Directory: [Portfolio-Project-Module-7](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Project-Module-7)   
+Title: Module 7 Portfolio Project: Project Codebase
+
+---
+---
+
+Assignment Description:   
+Module 7: Portfolio Project  
+System Planning and Process    
+For your Portfolio Project in this course, you will discuss the creation of a fictitious system and create a mock plan and process for this system. You will be submitting milestones for this project each week, and these milestones will be compiled and finalized in the final Portfolio Project.
+
+Module 1 - System Selection   
+Module 2 - Engagement Level Diagram   
+Module 3 - The Project Plan  
+Module 4 - The Project Design and Outline   
+Module 5 - Design Methodology   
+Module 6 - The Risk Matrix   
+
+Make sure to tie them together well, include all the references, and formalize the paper as you go through the instructor feedback for all your assignments. 
+
+---
+
+Tornado Diagram Sensitivity by Risk   
+<img width="725" height="578" alt="Tornado Diagram EMV Sensitivity by Risk" src="https://github.com/user-attachments/assets/0dc6d807-4600-4594-b502-23ed72e48630" />
+
+---
+
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+---
+
+[Go back to the Project Map](#project-map)  
+
 
 ## Portfolio Milestone Module 6  
 Directory: [Portfolio-Milestone-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-6)   
@@ -76,7 +118,6 @@ A key component of a project's success is stakeholder engagement. The Stakeholde
 ---
 
 [Go back to the Project Map](#project-map)  
-
 
 ----
 ----
