@@ -1,7 +1,7 @@
 ﻿# Module 6 Portfolio Milestone: Design Methodology
 
 Data:  12/21/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
