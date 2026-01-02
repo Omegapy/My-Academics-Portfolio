@@ -28,6 +28,24 @@ Module 6 - The Risk Matrix
 Make sure to tie them together well, include all the references, and formalize the paper as you go through the instructor feedback for all your assignments. 
 
 ---
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+---
+
+<img width="614" height="367" alt="Stakeholder Engagement Assessment Matrix" src="https://github.com/user-attachments/assets/8b03ba1e-a692-44ce-b5d8-cbba178846c5" />
+
+Diagram Initial Project Codebase PMP
+<img width="774" height="568" alt="image" src="https://github.com/user-attachments/assets/23926404-226b-42f9-ba8d-0162891a00ce" />
+
+Project Codebase Gantt Chart  
+<img width="624" height="163" alt="Project Codebase Gantt Chart" src="https://github.com/user-attachments/assets/e507f6ec-91d0-48bd-8927-0deb5a0bf532">
+
+<img width="725" height="578" alt="Tornado Diagram EMV Sensitivity by Risk" src="https://github.com/user-attachments/assets/0dc6d807-4600-4594-b502-23ed72e48630" />
+
+---
 
 #### Project Map:  
 
