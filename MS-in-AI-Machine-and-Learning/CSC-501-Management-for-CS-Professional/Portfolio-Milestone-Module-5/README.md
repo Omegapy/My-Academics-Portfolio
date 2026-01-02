@@ -20,6 +20,12 @@ Create a Gantt chart using Lucid chart. Or Excel for your Portfolio Project. Ref
 Begin to outline the processes required for design methodology in a 2- to 3-page paper and include your Gantt chart as a JPEG image in this paper, or attach your Excel spread sheet to your submission.
 
 ---
+My project:  
+For my CSC501 portfolio project, I chose a project management approach to develop and implement a software system called Project Codebase, a personal project. However, to meet the CSC501 portfolio project requirements, I have reframed the Project Codebase project as a fictional internal system being developed by a company called Omega.py (I own the omegapy.com domain). The goal of the project is to manage the development and implementation of an intelligent platform/AI agent that would assist Omega.py software engineers and AI coding agents in understanding existing and being developed software codebases and architectures.
+
+A key component of a project's success is stakeholder engagement. The Stakeholder Engagement Assessment report provides a Stakeholder Engagement Assessment Matrix for the Omega.py Project Codebase, along with a quick use case study detailing current and desired engagement levels, and strategies to transition stakeholders to their desired engagement level.
+
+---
 Project Codebase Gantt Chart
 <img width="1248" height="336" alt="Project Codebase Gantt Chart" src="https://github.com/user-attachments/assets/e507f6ec-91d0-48bd-8927-0deb5a0bf532" />
 
