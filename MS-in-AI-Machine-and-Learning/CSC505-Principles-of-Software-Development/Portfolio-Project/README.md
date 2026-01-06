@@ -15,7 +15,7 @@ Student: Alexander (Alex) Ricciardi
 
 #### Program Description:
 
-The Python script is a small console application that print all the steps in sequence 
+The Python script is a small console application that prints all the steps in sequence 
 for all the operations at an automated teller machine (ATM) shown in 
 the "ATM State Machine UML Diagram.png" diagram.
 
@@ -52,11 +52,10 @@ following:
 - If the counter exceeds a limit, then the customer is rejected.
 - If the account balance is zero, then the account is closed.
 
-Annotate your state box in one of two ways. For internal state transitions, use the following state box:
+Annotate your state box in one of two ways. For internal state transitions, use the following state box:  
+<img width="200" height="58" alt="image" src="https://github.com/user-attachments/assets/f22194d7-3d75-4050-bca2-d392124f0062" />
 
-![alt text]
-
-State box for internal state transitions with state above event/action.
+State box for internal state transitions with the state above event/action.
 
 If a state transitions to itself, use the following notation in the state box:
 - entry/Action
@@ -64,7 +63,8 @@ If a state transitions to itself, use the following notation in the state box:
 
 A transition from one state to another is a link arrow connecting the two states and is labeled with event, guard, or action. The "event" is the action that causes a state to transition to another; e.g., "CheckPin." The "guard" is a possible outcome of an event; e.g., "correct PIN" or "incorrect PIN". The "action" is the result of the outcome of an event; e.g., if the guard is "incorrect PIN" then the "action" may be something like "increment error counter." Format your transition labels as follows:
 
-- Event [guard] / action
+- Event [guard] / action  
+<img width="275" height="116" alt="image" src="https://github.com/user-attachments/assets/7e49cd5d-b985-41c0-a7e0-187ee051d36c" />
 
 Diagram showing a transition from one state to another labeled with event, guard, and action.
 
@@ -80,13 +80,13 @@ Include at least two credible references in addition to the course textbook. The
 ---
 
 UML Activity Diagram
-
+<img width="5792" height="4155" alt="ATM State Machine UML Diagram" src="https://github.com/user-attachments/assets/178b8e73-b8fb-4673-81f2-8dc112a339a4" />
 
 ---
 
 #### Program Description:
 
-The Python script in a small console application that print all the steps in sequence 
+The Python script is a small console application that prints all the steps in sequence 
 for all the operations at an automated teller machine (ATM) shown in 
 the "ATM State Machine UML Diagram.png" diagram. 
 
@@ -94,20 +94,20 @@ the "ATM State Machine UML Diagram.png" diagram.
 
 #### Articles and tutorials used
 
-- Dwivedi’s LinkedIn Learning lesson on state machine diagrams (Dwivedi, 2019) was used to learn about for what a state machine diagram represents (states + event-driven transitions) confirming that the ATM diagram needs to be a behavioral state machine diagram.
-- FastBitLab’s “UML state machine types of transitions” lesson (FastBitLab, 2022) was used to learn about diffence between external and internal/self transitions. I used to define what is an external behaviors (arrows)and what is an internal behaviors (entry/, do/, and exit/).
+- Dwivedi’s LinkedIn Learning lesson on state machine diagrams (Dwivedi, 2019) was used to learn about what a state machine diagram represents (states + event-driven transitions), confirming that the ATM diagram needs to be a behavioral state machine diagram.
+- FastBitLab’s “UML state machine types of transitions” lesson (FastBitLab, 2022) was used to learn about the difference between external and internal/self transitions. I used to define what an external behavior (arrows) is and what an internal behavior (entry/, do/, and exit/).
 - GeeksforGeeks’ UML state diagram article (GeeksforGeeks, 2025) was used as a reference for notation (initial/final nodes, state boxes, guards/actions).
 - IBM’s “Creating transitions between states” documentation (IBM, 2023) was used to learn about transition terminology (trigger/event, guard condition, and effect/action) and required transition label format: Event [guard] / action.
 - Pressman & Maxim (2020) was used to support software-design decisions—using UML as a communication artifact, keeping the model focused on required behavior (authentication → withdrawal) rather than low-level implementation details.
-- Ricciardi’s “UML State machine diagrams: Modeling dynamic system behavior” article (Ricciardi, 2025) was used to check if the digram was missing guards, ambiguous transitions notations.
-- Ricciardi’s “A Guide to UML sequence diagrams: notation, strengths, and limitations” (Ricciardi, 2025) was used to help translate the state-machine diagram flow into a step-by-step sequences for integration into the Python script.
+- Ricciardi’s “UML State machine diagrams: Modeling dynamic system behavior” article (Ricciardi, 2025) was used to check if the diagram was missing guards, ambiguous transition notations.
+- Ricciardi’s “A Guide to UML sequence diagrams: notation, strengths, and limitations” (Ricciardi, 2025) was used to help translate the state-machine diagram flow into a step-by-step sequence for integration into the Python script.
 
 ---
 
 #### References: 
 
 
-Dwivedi, N. (2019, September 9.). Software design: Modeling with UML. *State machine diagram. Modeling with the Unified Modeling Language (UML)*. LinkedIn Learning. https://www.linkedin.com/learning/software-design-modeling-with-uml/state-machine-diagram?u=2245842
+Dwivedi, N. (2019, September 9). Software design: Modeling with UML. *State machine diagram. Modeling with the Unified Modeling Language (UML)*. LinkedIn Learning. https://www.linkedin.com/learning/software-design-modeling-with-uml/state-machine-diagram?u=2245842
 
 
 FastBitLab (2022, January 20). *FSM Lecture 11- UML state machine types of transitions.* FasBitLab. https://fastbitlab.com/fsm-lecture-11-uml-state-machine-types-of-transitions/
@@ -120,7 +120,7 @@ IBM (2023, September 2018). *Creating transitions between states*. IBM DevOps Mo
 
 Pressman, R. S., & Maxim, B. R. (2020). Software engineering: A practitioner's approach (9th ed.). McGraw-Hill Education. 
 
-Ricciardi, A. (2025, February 8). *UML State machine diagrams: Modeling dynamic system sehavior*. Code Chronicles - Omega.py. https://www.alexomegapy.com/post/uml-state-machine-diagrams-modeling-dynamic-system-behavior
+Ricciardi, A. (2025, February 8). *UML State machine diagrams: Modeling dynamic system behavior*. Code Chronicles - Omega.py. https://www.alexomegapy.com/post/uml-state-machine-diagrams-modeling-dynamic-system-behavior
 
 Ricciardi, A. (2025, January 27). *A Guide to UML sequence diagrams: notation, strengths, and Limitations*. Code Chronicles - Omega.py. https://www.alexomegapy.com/post/a-guide-to-uml-sequence-diagrams-notation-strengths-and-limitations
 
@@ -129,10 +129,10 @@ Ricciardi, A. (2025, January 27). *A Guide to UML sequence diagrams: notation, s
 #### Assumptions
 
 **ATM session scope**
--  The customer session begins when the ATM is ready (Idle) an the  customer introduces a card then the flow go to -> authentication -> withdrawal. The session ends when the customer removes the card or when the card is rejected as invalid card or after too many failed PIN attempts.
+-  The customer session begins when the ATM is ready (Idle) and the  customer introduces a card, then the flow go to -> authentication -> withdrawal. The session ends when the customer removes the card or when the card is rejected as invalid card or after too many failed PIN attempts.
 
 **Card validation**
-- Card validation is Boolean -> validCard=false (invalid card) or validCard=true (valid card). Invalid cards are rejected and the session ends.
+- Card validation is Boolean -> validCard=false (invalid card) or validCard=true (valid card). Invalid cards are rejected, and the session ends.
 
 **PIN attempts and lockout**
 - The attempt counter starts at 0 and is incremented before the authentication decision.
@@ -145,20 +145,29 @@ Ricciardi, A. (2025, January 27). *A Guide to UML sequence diagrams: notation, s
 **Balance check and account closure**
 - After dispensing cash, the account balance becomes the computed amount.
 - If the new balance is 0, the account is closed (assignment requirement).
-- If the new balance is greater than 0, the new balance is displayed and the session ends when the customer removes the card.
+- If the new balance is greater than 0, the new balance is displayed, and the session ends when the customer removes the card.
 
 ---
 
 #### Project Map:
-- atm_operations.py - This file contains the Python script that print all the steps in sequence 
-for all the operations at an automated teller machine (ATM) shown in the "ATM State Machine UML Diagram.png" diagram.  
-- Screetshoots Portfolio Module 8.pdf - This file contains the program console outputs
-- ATM State Machine UML Diagram.png - This file contains ATM State diagram 
-- CSC505 Lessons Learned Reflection Plan.docx - This file contains Lessons Learned Reflection, a summary that outlines the lessons I have learned in the course 
+
+- atm_operations.py - This file contains the Python script that prints all the steps in sequence 
+for all the operations at an automated teller machine (ATM) shown in the "ATM State Machine UML Diagram.png" diagram.
+
+- Screenshots Portfolio Module 8.pdf - This file contains the program console outputs
+  
+- ATM State Machine UML Diagram.png - This file contains ATM State diagram
+  
+- CSC505 Lessons Learned Reflection Plan.pdf - This file contains Lessons Learned Reflection, a summary that outlines the lessons I have learned in the course
+  
 - README.md - this document contains notes and references
+  
 - utilities/ - utilities module containing utilities files (banner)
+  
 - Portfolio-Milestone-Module-4 - Directory containing the files of the Module 4 Milestone
+  
 - Portfolio-Milestone-Module-7 - Directory containing the files of the Module 7 Milestone
+  
 ---
 
 My Links:   
