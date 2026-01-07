@@ -22,7 +22,7 @@ Laramie County Community College (LCCC) - Dec. 2023
 ---
 
 Project Description:   
-This repository is a collection of coursework and projects for my Master of Science in Artificial Intelligence (AI) and Machine Learning (ML) program at Colorado State University Global (CSU Global). 
+This repository contains coursework and projects from my Master of Science in Artificial Intelligence (AI) and Machine Learning (ML) program at Colorado State University Global (CSU Global). 
 
 ---
 
@@ -46,9 +46,32 @@ My Links:
 ---
 
 #### Project Map
+- [CSC502 Ethical Leadership in Software Development](#csc502-ethical-leadership-in-software-development)
 - [CSC505 Principles of Software Development](#csc505-principles-of-software-development)
 - [CSC501 Management for the Computer Science Professional](#csc501-management-for-the-computer-science-professional)
 - [CSC500 Principles of Programming](#csc500-principles-of-programming)
+
+---
+---
+
+## CSC502 Ethical Leadership in Software Development
+Directory: [CSC502-Ethical-Leadership-in-Software-Development](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development)
+
+---
+
+Project Description:  
+This repository contains a collection of assignments from CSC502: Ethical Leadership in Software Development, offered at Colorado State University Global (CSU Global).
+
+Principles of Software Development CSC505
+Professor: Steven Evans
+Winter C (25WC) – 2026
+Student: Alexander (Alex) Ricciardi
+
+Final grade:
+
+---
+
+[Go back to the Project Map](#project-map) 
 
 ---
 ---
@@ -59,7 +82,7 @@ Directory: [CSC505-Principles-of-Software-Development](https://github.com/Omegap
 ---
 
 Project Description:  
-This repository is a collection of assignments from CSC505 – Principles of Software Development at Colorado State University Global - CSU Global.
+This repository contains a collection of assignments from CSC505: Principles of Software Development, offered at Colorado State University Global (CSU Global).
 
 Principles of Software Development CSC505  
 Professor: Joseph Issa  
@@ -81,7 +104,7 @@ Directory: [CSC501-Management-for-CS-Professional](https://github.com/Omegapy/My
 ---
 
 Project Description:
-This repository is a collection of assignments from CSC501 – Management for the Computer Science Professional at Colorado State University Global - CSU Global.
+This repository contains a collection of assignments from CSC501: Management for the Computer Science Professional, offered at Colorado State University Global (CSU Global).
 
 Management for the Computer Science Professional CSC501  
 Professor: Dr. Brian Holbert  
