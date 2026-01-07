@@ -76,7 +76,7 @@ Final grade:
 ---
 
 ## CSC501 Management for the Computer Science Professional
-Directory: [CSC501-Management-for-CS-Professional](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional)
+Directory: [CSC501-Management-for-CS-Professional](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional)
 
 ---
 
