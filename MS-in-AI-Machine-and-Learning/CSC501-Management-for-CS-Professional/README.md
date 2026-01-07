@@ -56,8 +56,8 @@ My Links:
 ----
 
 ## Portfolio Project
-Directory: [Portfolio-Project-Module-7](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Project)   
-Title: Module 7 Portfolio Project: Project Codebase
+Directory: [Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Project)   
+Title: Portfolio Project Module 7: Project Codebase
 
 ---
 ---
