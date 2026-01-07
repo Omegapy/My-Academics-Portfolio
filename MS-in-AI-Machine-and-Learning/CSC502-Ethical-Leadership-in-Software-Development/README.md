@@ -64,8 +64,9 @@ Title: Critical Thinking Assignment 1
 ----
 
 ## Discussions 
+[Discussions]()  
 This repository is a collection of discussion posts from CSC502 – Ethical Leadership in Software Development 
-Directory: [Discussions]()
+Directory
 
 ---
 
