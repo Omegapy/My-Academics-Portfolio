@@ -43,6 +43,7 @@ Requirements:
 
 #### Project Map  
 
+- [Portfolio Project](#portfolio-project)
 - [Critical Thinking 6](#critical-thinking-6)
 - [Critical Thinking 5](#critical-thinking-5)
 - [Critical Thinking 4](#critical-thinking-4)
@@ -50,6 +51,83 @@ Requirements:
 - [Critical Thinking 2](#critical-thinking-2)
 - [Critical Thinking 1](#critical-thinking-1)
 - [Discussions](#discussions)
+
+---
+---
+
+## Portfolio Project
+Directory: [Portfolio-Project](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC505-Principles-of-Software-Development/Portfolio-Project)   
+Title: Portfolio Project Module-8 – ATM Operations
+
+---
+---
+
+#### Assignment Description:  
+
+##### **Portfolio Project**  
+
+Your Own UML Diagram   
+Your Portfolio Project for CSC505 consists of the following:   
+- Module 4 Milestone (due in Module 4)
+- Module 7 Milestone (due in Module 7)
+- Lessons Learned Reflection Modules
+
+###### Final Project  
+In Week 8, the components left to complete for your Portfolio Project are the Lessons Learned Reflection and the Final Project. Carefully review the requirements below:
+
+###### Lessons Learned Reflection  
+Write a two to three-page summary that outlines the lessons you have learned in this course.   Reflect on how these lessons can be applied to real-world problems or to a specific real-world application. How have they affected your life?
+
+###### Final Project  
+For your final project, you are going to create a UML diagram of your choice (e.g., Sequence, Class, Activity, etc.) for an automated teller machine (ATM). Your diagram should include the 
+following:
+- The customer must pass authentication before withdrawing money.
+- Authentication is performed by checking a PIN.
+- The PIN can be correct or not.
+- Unsuccessful attempts are counted.
+- If the counter exceeds a limit, then the customer is rejected.
+- If the account balance is zero, then the account is closed.
+
+Annotate your state box in one of two ways. For internal state transitions, use the following state box:  
+<img width="200" height="58" alt="image" src="https://github.com/user-attachments/assets/f22194d7-3d75-4050-bca2-d392124f0062" />
+
+State box for internal state transitions with the state above event/action.
+
+If a state transitions to itself, use the following notation in the state box:
+- entry/Action
+- exit/Action. 
+
+A transition from one state to another is a link arrow connecting the two states and is labeled with event, guard, or action. The "event" is the action that causes a state to transition to another; e.g., "CheckPin." The "guard" is a possible outcome of an event; e.g., "correct PIN" or "incorrect PIN". The "action" is the result of the outcome of an event; e.g., if the guard is "incorrect PIN" then the "action" may be something like "increment error counter." Format your transition labels as follows:
+
+- Event [guard] / action  
+<img width="275" height="116" alt="image" src="https://github.com/user-attachments/assets/7e49cd5d-b985-41c0-a7e0-187ee051d36c" />
+
+Diagram showing a transition from one state to another labeled with event, guard, and action.
+
+Use one of the following UML tools to create your diagrams for the Final Project:
+- UMLet Links 
+- Gliffy Links 
+- Microsoft VisioLinks (No purchase required, though you can use it if you already have access to the tool.)
+
+Write a Python Script that will the steps in sequence the operations at the teller machine as shown in your diagram(s). Submit the source file (.py), the screenshots of a successful execution of your progra related diagrams, and the Lesson Learned document in a zipped folder.
+
+Include at least two credible references in addition to the course textbook. The CSU Global Library or the Internet are good places to find these references. The CSU Global Library and Writing Center links can be found in the course navigation panel. Format your document according to the CSU Global Writing Center requirements.
+ 
+---
+
+UML Activity Diagram
+<img width="5792" height="4155" alt="ATM State Machine UML Diagram" src="https://github.com/user-attachments/assets/178b8e73-b8fb-4673-81f2-8dc112a339a4" />
+
+---
+
+#### Program Description:  
+The Python script is a small console application that prints all the steps in sequence 
+for all the operations at an automated teller machine (ATM) shown in 
+the "ATM State Machine UML Diagram.png" diagram.  
+
+---
+
+[Go back to the Project Map](#project-map)
 
 ---
 ---
