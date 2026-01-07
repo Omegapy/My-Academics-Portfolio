@@ -56,7 +56,7 @@ My Links:
 ----
 
 ## Portfolio Project Module 7 
-Directory: [Portfolio-Project-Module-7](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Project-Module-7)   
+Directory: [Portfolio-Project-Module-7](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Project-Module-7)   
 Title: Module 7 Portfolio Project: Project Codebase
 
 ---
@@ -94,7 +94,7 @@ A key component of a project's success is stakeholder engagement. The Stakeholde
 
 
 ## Portfolio Milestone Module 6  
-Directory: [Portfolio-Milestone-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-6)   
+Directory: [Portfolio-Milestone-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Milestone-Module-6)   
 Title: Module 6 Portfolio Milestone: Design Methodology Report
 
 ---
@@ -121,7 +121,7 @@ A key component of a project's success is stakeholder engagement. The Stakeholde
 ----
 
 ## Portfolio Milestone Module 5  
-Directory: [Portfolio-Milestone-Module-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-5)   
+Directory: [Portfolio-Milestone-Module-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Milestone-Module-5)   
 Title: Module 5 Portfolio Milestone: Design Methodology Report
 
 ---
@@ -152,7 +152,7 @@ A key component of a project's success is stakeholder engagement. The Stakeholde
 ----
 
 ## Critical Thinking Module 5  
-Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Critical-Thinking-Module-5)   
+Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Critical-Thinking-Module-5)   
 Title: Critical Thinking Module 5: Project Portfolio Evaluation
 
 ---
@@ -182,7 +182,7 @@ Your paper should be 1-2 pages in length and conform to the CSU Global Writing C
 ----
 
 ## Portfolio Milestone Module 4  
-Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-4)   
+Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Milestone-Module-4)   
 Title: Module 4 Portfolio Milestone: Project Design and Outline
 
 ---
@@ -207,7 +207,7 @@ A key component of a project's success is stakeholder engagement. The Stakeholde
 ----
 
 ## Critical Thinking Module 4  
-Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Critical-Thinking-Module-4)   
+Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Critical-Thinking-Module-4)   
 Title: Critical Thinking Module 4: Discovering Common Ground
 
 ---
@@ -233,7 +233,7 @@ Your paper should be 1-2 pages in length and conform to the CSU Global Writing C
 ----
 
 ## Portfolio Milestone Module 3  
-Directory: [Portfolio-Milestone-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-3)   
+Directory: [Portfolio-Milestone-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Milestone-Module-3)   
 Title: Module 3 Portfolio Milestone: Initial Project Codebase PMP
 
 ---
@@ -271,7 +271,7 @@ Diagram Initial Project Codebase PMP
 ----
 
 ## Critical Thinking Module 3  
-Directory: [Critical-Thinking-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Critical-Thinking-Module-3)   
+Directory: [Critical-Thinking-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Critical-Thinking-Module-3)   
 Title: Critical Thinking Module 3: Scope Management - Webpage Development
 
 ---
@@ -299,7 +299,7 @@ Your paper should be 1-2 pages in length and conform to the CSU Global Writing C
 ----
 
 ## Critical Thinking Module 2  
-Directory: [Critical-Thinking-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Critical-Thinking-Module-2)   
+Directory: [Critical-Thinking-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Critical-Thinking-Module-2)   
 Title: Critical Thinking Module 2: A Project Management Plan for Refreshing Network and Laptop Equipment
 
 ---
@@ -323,7 +323,7 @@ Your paper should be 1-2 pages in length and conform to the CSU Global Writing C
 ----
 
 ## Portfolio Milestone Module 2  
-Directory: [Portfolio-Milestone-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-2)   
+Directory: [Portfolio-Milestone-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Milestone-Module-2)   
 Title: Module 2 Portfolio Milestone: Stakeholder Engagement Assessment
 
 ---
@@ -360,7 +360,7 @@ Stakeholder Engagement Assessment Matrix for the Project Codebase within Omega.p
 ----
 
 ## Portfolio Milestone Module 1  
-Directory: [Portfolio-Milestone-Module-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Portfolio-Milestone-Module-1)   
+Directory: [Portfolio-Milestone-Module-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Portfolio-Milestone-Module-1)   
 Title: Module 1 Portfolio Milestone: System Selection
 
 ---
@@ -397,7 +397,7 @@ For my CSC501 portfolio project, I chose a project management approach to develo
 
 ## Discussions 
 This repository is a collection of discussion posts from CSC501 – Management for the Computer Science Professional   
-Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-501-Management-for-CS-Professional/Discussions)
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC501-Management-for-CS-Professional/Discussions)
 
 ---
 
