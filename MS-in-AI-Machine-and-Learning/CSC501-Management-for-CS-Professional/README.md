@@ -1,6 +1,4 @@
-﻿# 	Management for the Computer Science Professional – CSC501 
-
----
+﻿# Management for the Computer Science Professional – CSC501 
 
 <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi (Omega.py)      
 
@@ -8,8 +6,20 @@ created date: 11/10/2025
 
 ---
 
-Project Description:    
-This repository is a collection of Python programs from CSC501 – 	Management for the Computer Science Professional at Colorado State University Global - CSU Global.  
+**Project Description:**    
+This repository is a collection of Python programs from CSC501 – Management for the Computer Science Professional at Colorado State University Global - CSU Global.  
+
+**CSC501 - Management for the Computer Science Professional**  
+In this course, students will be prepared to analyze organizational issues surrounding programming, networking, and software development and propose the necessary solutions to address business needs. Students gain a detailed understanding of how to manage, oversee, plan, and maintain technical personnel and resources.  
+Students will also learn how to effectively relay technical information to all stakeholders in an organization. Topics include management principles for programmers and development specialists, technical communications, organizational leadership, risk management, project management, and systems maintenance. Students will prepare for cross-functional positions in team and industry settings in this course. 
+
+Course Learning Outcomes:  
+1. Apply management principles in supervision and oversight of programmers and other professionals.  
+2. Develop an organizational strategy and a leadership style.   
+3. Construct communication plans to deliver technical information using a variety of modalities.  
+4. Evaluate organizational technology needs and requirements.  
+5. Analyze existing personnel and systems for improvement and enhancement.   
+6. Discuss the value of technology in improving organizational efficiency and workflow.  
 
 ---
 

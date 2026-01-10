@@ -1,15 +1,23 @@
 ﻿# Principles of Programming – CSC500 
 
----
-
 <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi (Omega.py)      
 
 created date: 09/08/2025  
 
 ---
 
-Project Description:    
+**Project Description:**    
 This repository is a collection of Python programs from CSC500 – Principles of Programming at Colorado State University Global - CSU Global.  
+
+**CSC500 - Principles of Programming**  
+In this graduate course, students are provided with a detailed overview of fundamental programming, design, and testing concepts. Students are introduced to programming constructs and learn how to plan and create basic programming applications. Students will develop applications using common programming structures, which include conditional statements, switches, loops, iteration control structures, and arrays.
+
+Course Learning Outcomes:
+1. Explain the terminology used in programming and the tasks performed by a programmer.
+2. Develop applications using variables, constants, selection structures, and repetition structures.
+3. Implement a solution that uses arrays.
+4. Identify constructs for reading and writing of text files in programming.
+5. Develop an application using function procedures and string manipulation.
 
 ---
 

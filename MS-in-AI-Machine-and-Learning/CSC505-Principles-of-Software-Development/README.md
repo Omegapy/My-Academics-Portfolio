@@ -11,6 +11,16 @@ created date: 11/10/2025
 Project Description:    
 This repository is a collection of assignments from CSC505 – Principles of Software Development at Colorado State University Global - CSU Global.  
 
+**CSC505- Principles of Software Development**
+This course provides students with an integrated and detailed approach to programming and software development principles. Students will gain an understanding of object-oriented software programming and pertinent software development principles. Topics included in this course focus on core programming concepts, data structures, methods, classes, and software models.
+
+**Course Learning Outcomes:**  
+1. Using a software model, create an algorithm to solve a specific software problem.
+2. Using basic data types in a software application, identify conditional and repetitive data structures in programming.
+3. Implement an application using appropriate data structures to solve a given programming problem.
+4. Compare software development models.
+5. Select an appropriate software development model to solve a specific software problem.
+
 ---
 
 Principles of Software Development CSC505  

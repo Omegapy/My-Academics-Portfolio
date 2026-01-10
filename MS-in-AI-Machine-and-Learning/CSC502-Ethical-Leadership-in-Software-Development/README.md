@@ -8,8 +8,18 @@ created date: 01/12/2026
 
 ---
 
-Project Description:    
-This repository is a collection of assignments from CSC502 – 	Ethical Leadership in Software Development at Colorado State University Global - CSU Global.  
+**Project Description:**      
+This repository is a collection of assignments from CSC502 – Ethical Leadership in Software Development at Colorado State University Global - CSU Global.  
+
+**CSC502 - Ethical-Leadership-in-Software-Development** 
+This course emphasizes ethical practices behind software engineering as an applied professional practice. To that end, the course is structured as a series of readings, case studies, questions and discussion prompts that provoke the practice of ethical reflection, questioning, and decision making. Theoretical foundations of ethics are briefly presented in each of the modules how to define the range of ethical perspectives that can be useful to employ in professional life. For further expansion of the existing literature in software engineering /computer ethics, or in the area of philosophical ethics more generally, students will find helpful suggestions for additional research in the recommended readings.
+
+Course Learning Outcomes:
+1. Examine legal, ethical, and societal implications surrounding software development and data management.
+2. Analyze ethical situations in programming and software development.
+3. Evaluate solutions for sample ethical cases.
+4. Determine solutions for ethical questions.
+5. Create ethical organizational policies for specific issues.
 
 ---
 
