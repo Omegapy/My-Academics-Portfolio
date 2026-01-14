@@ -89,7 +89,7 @@ Professor: Joseph Issa
 Winter A (25WA) – 2025  
 Student: Alexander (Alex) Ricciardi  
 
-Final grade: 
+Final grade:  4.0 | A
 
 ---
 
@@ -111,7 +111,7 @@ Professor: Dr. Brian Holbert
 Winter A (25WA) – 2025  
 Student: Alexander (Alex) Ricciardi  
 
-Final grade: 100% A
+Final grade:  4.0 | A
 
 ---
 
@@ -133,7 +133,7 @@ Professor: Dr. Brian Holbert
 Fall C (25FC) – 2025  
 Student: Alexander (Alex) Ricciardi  
 
-Final grade: 100% A
+Final grade:  4.0 | A
 
 ---
 
