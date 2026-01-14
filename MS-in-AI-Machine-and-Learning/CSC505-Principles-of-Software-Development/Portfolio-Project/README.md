@@ -2,7 +2,7 @@
 Program Name: ATM Operations
 
 Data:  01/11/2025  
-Grade: 
+Grade: 1005 | A
 
 ---
 
