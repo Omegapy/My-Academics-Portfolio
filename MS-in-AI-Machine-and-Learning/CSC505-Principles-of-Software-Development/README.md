@@ -28,7 +28,7 @@ Professor: Joseph Issa
 Winter A (25WA) – 2025   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade: 4.0 A
+Final grade: 4.0 | A
 
 ---
 
