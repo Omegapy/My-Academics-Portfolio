@@ -26,7 +26,7 @@ What are some of the fundamental ethical questions that need to be considered wh
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
  - The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
 
-   ---
+---
 
 ### My Submission 
 
