@@ -31,13 +31,14 @@ What are some of the fundamental ethical questions that need to be considered wh
 ### My Submission 
 
 Ethical Responsibility in Data Processing
+
 The essay challenges the reductive view of data processing as a neutral technical task, arguing instead that it is a curatorial process where every decision carries significant ethical implications. To prevent the encoding of harmful biases, it proposes an ethical framework rooted in four human rights principles: Dignity, Autonomy, Necessity, and the Common Good. Real-world ethical failures, such as the OkCupid data release and Amazon's biased recruiting tool, demonstrate the necessity of interrogating the rationale behind technical choices to ensure they serve the public interest.
 
 ---
 
 ### Project Map:
 
-- CSC502_Module1_Ricciardi_Alexander.pdf - Countains the "Ethical Responsibility in Data Processing" essay.
+- CSC502_Module1_Ricciardi_Alexander.pdf - Contains the "Ethical Responsibility in Data Processing" essay.
 
 ---
 
