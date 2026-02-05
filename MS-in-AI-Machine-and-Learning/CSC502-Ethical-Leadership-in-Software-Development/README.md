@@ -60,7 +60,7 @@ My Links:
 
 ### Critical Thinking Module 3: 
 Directory: [Critical-Thinking-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Critical-Thinking-Module-3)   
-Title: Critical Thinking Assignment 3: Ethical Debt in Software Engineering
+Title: Critical Thinking Assignment 3: Ethical Frameworks in Software Engineering
 
 ---
 
