@@ -45,14 +45,79 @@ My Links:
 <i><a href="https://www.threads.net/@alexomegapy?hl=en" target="_blank"><img width="53" height="20" src="https://github.com/user-attachments/assets/58c9e833-4501-42e4-b4fe-39ffafba99b2"></i>
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/AlexOmegapy)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UC4rMaQ7sqywMZkfS1xGh2AA)  
-   
 
 ---
 
 #### Project Map  
 
 - [Critical Thinking Module 1](#critical-thinking-module-1)
+- [Critical Thinking Module 2](#critical-thinking-module-2)
+- [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Discussions](#discussions)
+
+---
+---
+
+### Critical Thinking Module 3: 
+Directory: [Critical-Thinking-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Critical-Thinking-Module-3)   
+Title: Critical Thinking Assignment 3: Ethical Debt in Software Engineering
+
+---
+
+#### Assignment Description:  
+
+Ethical Frameworks     
+Research the concept of ethical frameworks. Review and critically analyze the US Government’s [Data Ethics Framewor](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf), published in December 2020 as part of the Federal Data Strategy (United States Government OMB, 2020). Draft a five page paper and use relevant examples from software engineering to illustrate and evaluate the framework’s principles and their practical implications.
+
+Submission Instructions:  
+- Your paper must be five pages long, not including the required cover and references pages.
+- Submit your Word document using the file name: CSC502_Module3_LastName_FirstName.docx.
+- Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
+- The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
+
+---
+
+#### My Submission  
+
+Ethical Frameworks in Software Engineering
+
+This essay argues that because software and AI engineering are becoming synonymous, ethics must be treated as a core software quality attribute rather than an optional constraint to prevent the accumulation of "ethical debt". The author evaluates the Federal Data Strategy’s Data Ethics Framework, illustrating how its seven tenets—such as upholding statutes, respecting privacy, and promoting transparency—can be translated into actionable engineering requirements like "compliance-by-design," privacy-impact assessments, and automated security scanning. Ultimately, it recommends embedding these ethical controls directly into the Software Development Lifecycle (SDLC) and MLOps stages to ensure that AI-driven systems remain accountable, socially responsible, and free from biases that cause public harm.
+
+---
+
+[Go back to the Project Map](#project-map)
+
+---
+---
+
+### Critical Thinking Module 2: 
+Directory: [Critical-Thinking-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Critical-Thinking-Module-2)   
+Title: Critical Thinking Assignment 2: Ethical Debt in Software Engineering
+
+---
+
+#### Assignment Description:  
+
+Ethical Debt     
+Research the concept of ethical frameworks. Review and critically analyze the US Government’s [Data Ethics Framewor](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf)., published in December 2020 as part of the Federal Data Strategy (United States Government OMB, 2020). Draft a five page paper and use relevant examples from software engineering to illustrate and evaluate the framework’s principles and their practical implications.
+
+Submission Instructions:  
+- Your paper must be five pages long, not including the required cover and references pages.
+- Submit your Word document using the file name: CSC502_Module2_LastName_FirstName.docx.
+- Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
+- The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
+
+---
+
+#### My Submission  
+
+Ethical Responsibility in Data Processing
+
+The provided essay explores the concept of ethical debt, defining it as the accumulation of future costs and social harms resulting from ethical shortcuts taken during software development. While technical debt typically impacts developers through higher maintenance costs, the author uses case studies like Clearview AI and the Dutch childcare benefits scandal to demonstrate that ethical debt is often "paid" by society through privacy loss, discrimination, and human rights violations. Ultimately, the paper argues that developers have an ethical obligation to embed formal ethical frameworks into their processes to prevent these catastrophic consequences and preserve public trust.
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ---
 ---
@@ -72,7 +137,7 @@ Submission Instructions:
 - Your paper must be five pages long, not including the required cover and references pages.
 - Submit your Word document using the file name: CSC502_Module1_LastName_FirstName.docx.
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
- - The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
+- The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
 
 ---
 
