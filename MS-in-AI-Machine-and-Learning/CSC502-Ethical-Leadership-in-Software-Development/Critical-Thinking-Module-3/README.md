@@ -1,7 +1,7 @@
-﻿# Critical Thinking Module 2
-Project: Critical Thinking Module 2: Ethical Debt in Software Engineering
+﻿# Critical Thinking Module 3
+Project: Critical Thinking Module 3: Ethical Frameworks in Software Engineering
 
-Data:  01/25/2026  
+Data:  02/01/2026  
 Grade: 100% A
 
 ---
@@ -17,7 +17,7 @@ Student: Alexander (Alex) Ricciardi
 
 **Data Preprocessing**  
 
-Research the concept of ethical debt. Prepare a five-page paper that outlines at least two examples of ethical debt and explores the potential consequences of failing to consider how the misuse of a tool could infringe on the rights and freedoms of others.  Draft a five-page paper to include at least two examples from the field of software engineering to illustrate ethical debt and its implications.
+Research the concept of ethical frameworks. Review and critically analyze the US Government’s [Data Ethics Framewor](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf)., published in December 2020 as part of the Federal Data Strategy (United States Government OMB, 2020). Draft a five page paper and use relevant examples from software engineering to illustrate and evaluate the framework’s principles and their practical implications.
 
 **Submission Instructions:**
 
@@ -30,15 +30,15 @@ Research the concept of ethical debt. Prepare a five-page paper that outlines at
 
 ### My Submission 
 
-Ethical Responsibility in Data Processing
+Ethical Frameworks in Software Engineering
 
-The provided essay explores the concept of ethical debt, defining it as the accumulation of future costs and social harms resulting from ethical shortcuts taken during software development. While technical debt typically impacts developers through higher maintenance costs, the author uses case studies like Clearview AI and the Dutch childcare benefits scandal to demonstrate that ethical debt is often "paid" by society through privacy loss, discrimination, and human rights violations. Ultimately, the paper argues that developers have an ethical obligation to embed formal ethical frameworks into their processes to prevent these catastrophic consequences and preserve public trust.
+This essay argues that because software and AI engineering are becoming synonymous, ethics must be treated as a core software quality attribute rather than an optional constraint to prevent the accumulation of "ethical debt". The author evaluates the Federal Data Strategy’s Data Ethics Framework, illustrating how its seven tenets—such as upholding statutes, respecting privacy, and promoting transparency—can be translated into actionable engineering requirements like "compliance-by-design," privacy-impact assessments, and automated security scanning. Ultimately, it recommends embedding these ethical controls directly into the Software Development Lifecycle (SDLC) and MLOps stages to ensure that AI-driven systems remain accountable, socially responsible, and free from biases that cause public harm.
 
 ---
 
 ### Project Map:
 
-- CSC502_Module2_Ricciardi_Alexander.pdf - Contains the "Ethical Responsibility in Data Processing" essay.
+- CSC502_Module3_Ricciardi_Alexander.pdf - Contains the "Ethical Frameworks in Software Engineering" essay.
 
 ---
 
