@@ -15,16 +15,16 @@ Student: Alexander (Alex) Ricciardi
 
 ### Assignment Directions:  
 
-**Data Preprocessing**  
+**Ethical Frameworks**  
 
-Research the concept of ethical frameworks. Review and critically analyze the US Government’s [Data Ethics Framewor](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf)., published in December 2020 as part of the Federal Data Strategy (United States Government OMB, 2020). Draft a five page paper and use relevant examples from software engineering to illustrate and evaluate the framework’s principles and their practical implications.
+Research the concept of ethical frameworks. Review and critically analyze the US Government’s [Data Ethics Framewor](https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf), published in December 2020 as part of the Federal Data Strategy (United States Government OMB, 2020). Draft a five page paper and use relevant examples from software engineering to illustrate and evaluate the framework’s principles and their practical implications.
 
 **Submission Instructions:**
 
 - Your paper must be five pages long, not including the required cover and references pages.
 - Submit your Word document using the file name: CSC502_Module2_LastName_FirstName.docx.
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
- - The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
+- The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
 
 ---
 
