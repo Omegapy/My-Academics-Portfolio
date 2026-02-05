@@ -15,7 +15,7 @@ Student: Alexander (Alex) Ricciardi
 
 ### Assignment Directions:  
 
-**Data Preprocessing**  
+**Ethical Debt**  
 
 Research the concept of ethical debt. Prepare a five-page paper that outlines at least two examples of ethical debt and explores the potential consequences of failing to consider how the misuse of a tool could infringe on the rights and freedoms of others.  Draft a five-page paper to include at least two examples from the field of software engineering to illustrate ethical debt and its implications.
 
