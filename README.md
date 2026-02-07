@@ -1,7 +1,7 @@
 # My Academics Portfolio 
 ---
 
-<img width="2048" height="512" alt="omagapycc (3)" src="https://github.com/user-attachments/assets/dd6e628e-5210-474a-8033-678851bb0d67" />
+<img width="2048" height="512" alt="omagapycc (3)" src="https://github.com/user-attachments/assets/aa28593b-e3c2-4cae-aef8-db2efc2aa774" />
 
 <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi 
 
