@@ -1,7 +1,7 @@
-﻿# Critical Thinking Module 5
-Project: Critical Thinking Module 5: Data Governance in Software Engineering and AI
+﻿# Critical Thinking Module 6
+Project: Critical Thinking Module 6: The Ethics of Behavioral Analytics and Political Microtargeting
 
-Data:  02/15/2026  
+Data:  02/21/2026  
 Grade: 100% A
 
 ---
@@ -15,13 +15,14 @@ Student: Alexander (Alex) Ricciardi
 
 ### Assignment Directions:  
 
-Data Governance. 
-Research the concept of data governance and explain how it can enhance the value of an organization’s data. Support your discussion with examples from the field of software engineering to illustrate the benefits and practical applications of effective data governance, in a five-page paper.
+Ethics of "Behavioral Analytics"  
+Research what ethical considerations must be made in the use of behavioral science by big data analytics entities in helping political candidates tailor their campaign messages to different voting precincts.
+Draft a five-page paper detailing at least two examples of relationships between "behavioral analytics" and software engineering ethics. In your paper, include your opinion of using "behavioral analytics" to run political campaigns.
 
 **Submission Instructions:**
 
 - Your paper must be five pages long, not including the required cover and references pages.
-- Submit your Word document using the file name: CSC502_Module5_LastName_FirstName.docx.
+- Submit your Word document using the file name: CSC502_Module6_LastName_FirstName.docx.
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
 - The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
 
@@ -29,15 +30,15 @@ Research the concept of data governance and explain how it can enhance the value
 
 ### My Submission 
 
-Data Governance in Software Engineering and AI
+The Ethics of Behavioral Analytics and Political Microtargeting
 
-This paper argues that data governance is essential in software engineering and AI because technical controls alone (like pipelines, validation checks, and access controls) do not define decision rights, accountability, or organizational rules for how data should be used. It explains that strong data governance improves data quality, usability, stewardship, and reusability while reducing operational complexity and helping teams manage privacy, security, and compliance risks. The paper concludes that data governance is the bridge between technical controls and organizational decision-making, making AI and software systems more trustworthy, auditable, and responsible across their full life cycles.  
+This paper argues that behavioral analytics and political microtargeting can improve campaign outreach and voter engagement, but they also create serious ethical risks, including privacy violations, weak consent, psychological manipulation, and potential voter suppression. It maintains that software engineers are not neutral bystanders in this process and must build ethical safeguards—such as data minimization, fairness, transparency, explainability, and accountability—directly into political analytics systems. The paper concludes that protecting democratic integrity requires both campaigns and developers to prioritize voter autonomy and public transparency over pure performance metrics.
 
 ---
 
 ### Project Map:
 
-- CSC502_Module5_Ricciardi_Alexander.pdf - Contains the "Data Governance in Software Engineering and AI" essay.
+- CSC502_Module6_Ricciardi_Alexander.pdf - Contains the "The Ethics of Behavioral Analytics and Political Microtargeting" essay.
 
 ---
 
