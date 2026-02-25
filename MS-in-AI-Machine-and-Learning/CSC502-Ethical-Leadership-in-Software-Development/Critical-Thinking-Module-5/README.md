@@ -1,5 +1,5 @@
-﻿# Critical Thinking Module 4
-Project: Critical Thinking Module 4: Answer-First Analytics (DBEM) as an Ethical Failure in Software Engineering and AI
+﻿# Critical Thinking Module 5
+Project: Critical Thinking Module 5: Data Governance in Software Engineering and AI
 
 Data:  02/08/2026  
 Grade: 100% A
@@ -15,15 +15,13 @@ Student: Alexander (Alex) Ricciardi
 
 ### Assignment Directions:  
 
-**Ethical Frameworks**  
-
-Analytics Processes. 
-What are the ethical issues that arise when an organization decides to ensure its analytics processes always give the desired answer. Discuss in a five page paper, with examples, in the context of software engineering or AI.
+Data Governance. 
+Research the concept of data governance and explain how it can enhance the value of an organization’s data. Support your discussion with examples from the field of software engineering to illustrate the benefits and practical applications of effective data governance, in a five-page paper.
 
 **Submission Instructions:**
 
 - Your paper must be five pages long, not including the required cover and references pages.
-- Submit your Word document using the file name: CSC502_Module4_LastName_FirstName.docx.
+- Submit your Word document using the file name: CSC502_Module5_LastName_FirstName.docx.
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
 - The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
 
@@ -31,15 +29,15 @@ What are the ethical issues that arise when an organization decides to ensure it
 
 ### My Submission 
 
-Answer-First Analytics (DBEM) as an Ethical Failure in Software Engineering and AI
+Data Governance in Software Engineering and AI
 
-This paper argues that Decision-Based Evidence Making (DBEM) becomes an ethical failure in software engineering and AI when organizations start with a desired conclusion and then shape analytics to justify it, rather than using evidence to discover truth, risks, and tradeoffs. The author explains that this answer-first approach undermines honesty, transparency, accountability, fairness, and privacy, and can lead to harmful outcomes disguised as “objective” analysis, including what the paper calls governance theater. The Volkswagen emissions scandal is used as a concrete example of DBEM in practice, showing how software was designed to simulate compliance instead of achieving real compliance, resulting in public harm and major financial and reputational consequences.  
+This paper argues that data governance is essential in software engineering and AI because technical controls alone (like pipelines, validation checks, and access controls) do not define decision rights, accountability, or organizational rules for how data should be used. It explains that strong data governance improves data quality, usability, stewardship, and reusability while reducing operational complexity and helping teams manage privacy, security, and compliance risks. The paper concludes that data governance is the bridge between technical controls and organizational decision-making, making AI and software systems more trustworthy, auditable, and responsible across their full life cycles.  
 
 ---
 
 ### Project Map:
 
-- CSC502_Module4_Ricciardi_Alexander.pdf - Contains the "Answer-First Analytics (DBEM) as an Ethical Failure in Software Engineering and AI" essay.
+- CSC502_Module5_Ricciardi_Alexander.pdf - Contains the "Data Governance in Software Engineering and AI" essay.
 
 ---
 
