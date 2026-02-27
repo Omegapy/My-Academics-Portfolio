@@ -19,8 +19,7 @@ Ethics of "Behavioral Analytics"
 Research what ethical considerations must be made in the use of behavioral science by big data analytics entities in helping political candidates tailor their campaign messages to different voting precincts.
 Draft a five-page paper detailing at least two examples of relationships between "behavioral analytics" and software engineering ethics. In your paper, include your opinion of using "behavioral analytics" to run political campaigns.
 
-**Submission Instructions:**
-
+Submission Instructions:  
 - Your paper must be five pages long, not including the required cover and references pages.
 - Submit your Word document using the file name: CSC502_Module6_LastName_FirstName.docx.
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
