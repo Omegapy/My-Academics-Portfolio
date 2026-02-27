@@ -1,4 +1,4 @@
-﻿# Critical Thinking Module 4
+﻿# Miterm Module 4
 Project: Drone GIS Ethics: Privacy, Safety, Security, and Equity in GIS Technologies
 
 Data:  02/08/2026  
@@ -15,14 +15,10 @@ Student: Alexander (Alex) Ricciardi
 
 ### Assignment Directions:  
 
-**Ethical Frameworks**  
-
-Option #1: Drones and GIS
+Option #1: Drones and GIS  
 There are ethical issues that can arise when using drone technologies. In this assignment, you are to utilize at least four sources to identify potential ethical issues that relate to the use of drone technologies.
 
-
-**Submission Instructions:**
-
+Submission Instructions:  
 - Provide an in-depth analysis of the four main areas and summarize your analysis using a slide presentation. You may use PowerPoint or another presentation tool such as Prezi.
 Your slide presentation should consist of a minimum of six to seven slides, not including the required cover and references slides.
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
