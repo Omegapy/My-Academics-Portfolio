@@ -54,7 +54,41 @@ My Links:
 - [Critical Thinking Module 2](#critical-thinking-module-2)
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Critical Thinking Module 4](#critical-thinking-module-4)
+- [Midterm Module 4](#midterm-module-4)
 - [Discussions](#discussions)
+
+---
+---
+
+### Midterm Module 4: 
+Directory: [Midterm-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Midterm-Module-4)   
+Title: Midterm 4: Drone GIS Ethics: Privacy, Safety, Security, and Equity in GIS Technologies
+
+---
+
+#### Assignment Description:  
+
+Option #1: Drones and GIS  
+There are ethical issues that can arise when using drone technologies. In this assignment, you are to utilize at least four sources to identify potential ethical issues that relate to the use of drone technologies.
+
+Submission Instructions:  
+- Provide an in-depth analysis of the four main areas and summarize your analysis using a slide presentation. You may use PowerPoint or another presentation tool such as Prezi.
+Your slide presentation should consist of a minimum of six to seven slides, not including the required cover and references slides.
+- Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
+- Format your entire presentation according to the CSU Global Writing Center. (Links to an external site.) The Writing Center can be accessed by clicking on the tab in the course navigation menu. Also, check out the Library's guide to Creating a Visual Presentation (Links to an external site.).
+- Submit your presentation using the file name: CSC502_MidtermPortfolio_Option1_LastName_FirstName.pptx.
+
+---
+
+#### My Submission  
+
+Drone GIS Ethics: Privacy, Safety, Security, and Equity in GIS Technologies
+
+The presentation argues that drone-enabled GIS can create major public benefits (planning, monitoring, decision support) while also introducing serious ethical risks involving privacy, surveillance, safety, cybersecurity, and data misuse. It emphasizes governance controls such as data minimization, retention limits, pilot training, FAA-style operational discipline, encryption, access controls, audit logs, and bias review for AI-supported geospatial analysis. Its central recommendation is a practical ethics framework with checklists and tiered access to publicly funded geospatial data, balancing transparency and public value against privacy, security, and equity harms. 
+
+---
+
+[Go back to the Project Map](#project-map)
 
 ---
 ---
@@ -66,7 +100,6 @@ Title: Critical Thinking Assignment 4: Answer-First Analytics (DBEM) as an Ethic
 ---
 
 #### Assignment Description:  
-
 
 Analytics Processes   
 What are the ethical issues that arise when an organization decides to ensure its analytics processes always give the desired answer. Discuss in a five page paper, with examples, in the context of software engineering or AI.
