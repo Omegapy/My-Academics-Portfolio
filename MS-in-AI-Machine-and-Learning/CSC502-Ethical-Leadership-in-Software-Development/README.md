@@ -55,7 +55,40 @@ My Links:
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Critical Thinking Module 4](#critical-thinking-module-4)
 - [Midterm Module 4](#midterm-module-4)
+- [Critical Thinking Module 5](#critical-thinking-module-5)
 - [Discussions](#discussions)
+
+---
+---
+
+### Critical Thinking Module 5: 
+Directory: [Critical-Thinking-Module-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Critical-Thinking-Module-5)   
+Title: Critical Thinking Module 5: Data Governance in Software Engineering and AI
+
+---
+
+#### Assignment Description:  
+
+Data Governance.  
+Research the concept of data governance and explain how it can enhance the value of an organization’s data. Support your discussion with examples from the field of software engineering to illustrate the benefits and practical applications of effective data governance, in a five-page paper.
+
+Submission Instructions:  
+- Your paper must be five pages long, not including the required cover and references pages.
+- Submit your Word document using the file name: CSC502_Module5_LastName_FirstName.docx.
+- Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
+- The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
+
+---
+
+#### My Submission  
+
+Data Governance in Software Engineering and AI
+
+This paper argues that data governance is essential in software engineering and AI because technical controls alone (like pipelines, validation checks, and access controls) do not define decision rights, accountability, or organizational rules for how data should be used. It explains that strong data governance improves data quality, usability, stewardship, and reusability while reducing operational complexity and helping teams manage privacy, security, and compliance risks. The paper concludes that data governance is the bridge between technical controls and organizational decision-making, making AI and software systems more trustworthy, auditable, and responsible across their full life cycles.  
+
+---
+
+[Go back to the Project Map](#project-map)
 
 ---
 ---
