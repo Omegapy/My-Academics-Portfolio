@@ -40,7 +40,7 @@ Instructions and Questions for Portfolio Paper:
 
 Software Development Ethical Considerations - 23andMe Case Study
 
-The essay argues that the 23andMe data breach illustrates why ethics must be treated as a core responsibility in software development, especially when systems handle highly sensitive data such as genetic information. It shows how weak security practices, unclear data governance, and delayed incident response created large-scale privacy risks for millions of users. Ultimately, the paper concludes that developers must integrate ethical frameworks—such as the ACM Code of Ethics and the NIST Privacy Framework—into the entire software development lifecycle to reduce harm, strengthen accountability, and maintain public trust in data-driven technologies.
+The essay argues that the 23andMe data breach illustrates why ethics must be treated as a core responsibility in software development, especially when systems handle highly sensitive data such as genetic information. It shows how weak security practices, unclear data governance, and delayed incident response created large-scale privacy risks for millions of users. Ultimately, the paper concludes that developers must integrate ethical frameworks, such as the ACM Code of Ethics and the NIST Privacy Framework, into the entire software development lifecycle to reduce harm, strengthen accountability, and maintain public trust in data-driven technologies.
 
 ---
 
