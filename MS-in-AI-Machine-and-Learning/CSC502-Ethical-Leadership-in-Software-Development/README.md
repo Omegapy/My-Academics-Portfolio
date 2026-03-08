@@ -53,7 +53,109 @@ My Links:
 - [Critical Thinking Module 1](#critical-thinking-module-1)
 - [Critical Thinking Module 2](#critical-thinking-module-2)
 - [Critical Thinking Module 3](#critical-thinking-module-3)
+- [Critical Thinking Module 4](#critical-thinking-module-4)
+- [Midterm Module 4](#midterm-module-4)
+- [Critical Thinking Module 5](#critical-thinking-module-5)
+- [Critical Thinking Module 6](#critical-thinking-module-6)
 - [Discussions](#discussions)
+
+---
+---
+
+### Critical Thinking Module 6: 
+Directory: [Critical-Thinking-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Critical-Thinking-Module-6)   
+Title: Critical Thinking Module 6: The Ethics of Behavioral Analytics and Political Microtargeting
+
+---
+
+#### Assignment Description:  
+
+Ethics of "Behavioral Analytics"  
+Research what ethical considerations must be made in the use of behavioral science by big data analytics entities in helping political candidates tailor their campaign messages to different voting precincts.
+Draft a five-page paper detailing at least two examples of relationships between "behavioral analytics" and software engineering ethics. In your paper, include your opinion of using "behavioral analytics" to run political campaigns.
+
+Submission Instructions:  
+- Your paper must be five pages long, not including the required cover and references pages.
+- Submit your Word document using the file name: CSC502_Module6_LastName_FirstName.docx.
+- Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
+- The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
+
+---
+
+#### My Submission  
+
+The Ethics of Behavioral Analytics and Political Microtargeting
+
+This paper argues that behavioral analytics and political microtargeting can improve campaign outreach and voter engagement, but they also create serious ethical risks, including privacy violations, weak consent, psychological manipulation, and potential voter suppression. It maintains that software engineers are not neutral bystanders in this process and must build ethical safeguards—such as data minimization, fairness, transparency, explainability, and accountability—directly into political analytics systems. The paper concludes that protecting democratic integrity requires both campaigns and developers to prioritize voter autonomy and public transparency over pure performance metrics.  
+
+---
+
+[Go back to the Project Map](#project-map)
+
+---
+---
+
+### Midterm Module 4: 
+Directory: [Midterm-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Midterm-Module-4)   
+Title: Midterm 4: Drone GIS Ethics: Privacy, Safety, Security, and Equity in GIS Technologies
+
+---
+
+#### Assignment Description:  
+
+Option #1: Drones and GIS  
+There are ethical issues that can arise when using drone technologies. In this assignment, you are to utilize at least four sources to identify potential ethical issues that relate to the use of drone technologies.
+
+Submission Instructions:  
+- Provide an in-depth analysis of the four main areas and summarize your analysis using a slide presentation. You may use PowerPoint or another presentation tool such as Prezi.
+Your slide presentation should consist of a minimum of six to seven slides, not including the required cover and references slides.
+- Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
+- Format your entire presentation according to the CSU Global Writing Center. (Links to an external site.) The Writing Center can be accessed by clicking on the tab in the course navigation menu. Also, check out the Library's guide to Creating a Visual Presentation (Links to an external site.).
+- Submit your presentation using the file name: CSC502_MidtermPortfolio_Option1_LastName_FirstName.pptx.
+
+---
+
+#### My Submission  
+
+Drone GIS Ethics: Privacy, Safety, Security, and Equity in GIS Technologies
+
+The presentation argues that drone-enabled GIS can create major public benefits (planning, monitoring, decision support) while also introducing serious ethical risks involving privacy, surveillance, safety, cybersecurity, and data misuse. It emphasizes governance controls such as data minimization, retention limits, pilot training, FAA-style operational discipline, encryption, access controls, audit logs, and bias review for AI-supported geospatial analysis. Its central recommendation is a practical ethics framework with checklists and tiered access to publicly funded geospatial data, balancing transparency and public value against privacy, security, and equity harms. 
+
+---
+
+[Go back to the Project Map](#project-map)
+
+---
+---
+
+### Critical Thinking Module 4: 
+Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Critical-Thinking-Module-4)   
+Title: Critical Thinking Assignment 4: Answer-First Analytics (DBEM) as an Ethical Failure in Software Engineering and AI
+
+---
+
+#### Assignment Description:  
+
+Analytics Processes   
+What are the ethical issues that arise when an organization decides to ensure its analytics processes always give the desired answer. Discuss in a five page paper, with examples, in the context of software engineering or AI.
+
+Submission Instructions:  
+- Your paper must be five pages long, not including the required cover and references pages.
+- Submit your Word document using the file name: CSC502_Module4_LastName_FirstName.docx.
+- Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
+- The paper should be formatting according to APA, resources on APA can be found in the CSU Global Writing Center (link in left navigation panel).
+
+---
+
+#### My Submission  
+
+Answer-First Analytics (DBEM) as an Ethical Failure in Software Engineering and AI
+
+This paper argues that Decision-Based Evidence Making (DBEM) becomes an ethical failure in software engineering and AI when organizations start with a desired conclusion and then shape analytics to justify it, rather than using evidence to discover truth, risks, and tradeoffs. The author explains that this answer-first approach undermines honesty, transparency, accountability, fairness, and privacy, and can lead to harmful outcomes disguised as “objective” analysis, including what the paper calls governance theater. The Volkswagen emissions scandal is used as a concrete example of DBEM in practice, showing how software was designed to simulate compliance instead of achieving real compliance, resulting in public harm and major financial and reputational consequences.
+
+---
+
+[Go back to the Project Map](#project-map)
 
 ---
 ---

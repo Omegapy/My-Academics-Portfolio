@@ -15,13 +15,10 @@ Student: Alexander (Alex) Ricciardi
 
 ### Assignment Directions:  
 
-**Ethical Frameworks**  
-
-Analytics Processes. 
+Analytics Processes   
 What are the ethical issues that arise when an organization decides to ensure its analytics processes always give the desired answer. Discuss in a five page paper, with examples, in the context of software engineering or AI.
 
-**Submission Instructions:**
-
+Submission Instructions:  
 - Your paper must be five pages long, not including the required cover and references pages.
 - Submit your Word document using the file name: CSC502_Module4_LastName_FirstName.docx.
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.

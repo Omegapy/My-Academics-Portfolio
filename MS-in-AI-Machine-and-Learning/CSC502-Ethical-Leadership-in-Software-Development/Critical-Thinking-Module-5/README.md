@@ -18,8 +18,7 @@ Student: Alexander (Alex) Ricciardi
 Data Governance. 
 Research the concept of data governance and explain how it can enhance the value of an organization’s data. Support your discussion with examples from the field of software engineering to illustrate the benefits and practical applications of effective data governance, in a five-page paper.
 
-**Submission Instructions:**
-
+Submission Instructions:  
 - Your paper must be five pages long, not including the required cover and references pages.
 - Submit your Word document using the file name: CSC502_Module5_LastName_FirstName.docx.
 - Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
