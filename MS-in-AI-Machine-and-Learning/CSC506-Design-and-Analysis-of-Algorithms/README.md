@@ -11,10 +11,10 @@ created date: 03/12/2026
 Project Description:    
 This repository is a collection of assignments from CSC506 – Design and Analysis of Algorithms at Colorado State University Global - CSU Global.  
 
-**CSC506- Design and Analysis of Algorithms**. 
+**CSC506- Design and Analysis of Algorithms**.   
 This graduate course provides students with a foundational knowledge in the design and analysis of algorithms. Students will make use of appropriate data structures. Complexity and analysis of algorithms will be completed focusing on worst case and average case, lower bounds, NP-completeness, and recurrences. Students will explore the complexity of appropriate searching, sorting, and graphing algorithms.
 
-**Course Learning Outcomes:**   
+**Course Learning Outcomes:**     
 Identify factors that can affect the lower bound of a solution.
 Discuss the use of abstract data types in software development.
 Create an application that demonstrates optimal performance.
