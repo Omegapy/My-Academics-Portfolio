@@ -2,7 +2,7 @@
 Program Name: Critical Thinking Assignment 6 – Root Solver
 
 Data:  12/21/2025  
-Grade: 
+Grade: 100% A
 
 ---
 
