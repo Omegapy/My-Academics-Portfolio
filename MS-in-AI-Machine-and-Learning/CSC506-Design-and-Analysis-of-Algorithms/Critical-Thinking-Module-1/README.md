@@ -7,7 +7,7 @@ Grade:
 ---
 
 Design and Analysis of Algorithms CSC506  
-Professor: Dr. Jonathan Vanover
+Professor: Dr. Jonathan Vanover  
 Spring A (26SA) – 2026   
 Student: Alexander (Alex) Ricciardi   
 
