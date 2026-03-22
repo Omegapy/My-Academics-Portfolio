@@ -48,7 +48,7 @@ My Links:
 ---
 
 Requirements:  
-[![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
@@ -67,10 +67,10 @@ Title: Critical Thinking Module 1 - Data Structures & Complexity
 ---
 ---
 
-**Program Description:**
+**Project Description:**
 
-The program is a Python 3.12+ terminal UI application that demonstrates the functionality of three data structures: stack, queue, and linked list.   
-It also includes a complexity anazlyer, that predicts the time complexity of common operations for each data structure. Finally, it includes a performance comparison report that compares the predicted vs. actual operation times. The analysis is performed using a Jupyter notebook and the results are presented in a HTML report.
+The project includes a Python 3.12+ terminal UI application that demonstrates the functionality of three data structures: stack, queue, and linked list.   
+It also includes a complexity analyzer that predicts the time complexity of common operations for each data structure. Finally, it includes a performance comparison report comparing predicted and actual operation times. The analysis is performed using a Jupyter notebook, and the results are presented in an HTML report.
 
 ---
 
