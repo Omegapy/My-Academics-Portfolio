@@ -46,10 +46,46 @@ My Links:
 ---
 
 #### Project Map
+- [CSC506 Design and Analysis of Algorithms](#csc506-design-and-analysis-of-algorithms)
 - [CSC502 Ethical Leadership in Software Development](#csc502-ethical-leadership-in-software-development)
 - [CSC505 Principles of Software Development](#csc505-principles-of-software-development)
 - [CSC501 Management for the Computer Science Professional](#csc501-management-for-the-computer-science-professional)
 - [CSC500 Principles of Programming](#csc500-principles-of-programming)
+
+---
+---
+
+## CSC506 Design and Analysis of Algorithms
+Directory: [CSC506-Design-and-Analysis-of-Algorithms](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC506-Design-and-Analysis-of-Algorithms)
+
+---
+
+Project Description:  
+This repository contains a collection of assignments from CSC506: Design and Analysis of Algorithms, offered at Colorado State University Global (CSU Global).
+
+Design and Analysis of Algorithms CSC506  
+Professor: Dr. Jonathan Vanover  
+Spring A (26SA) – 2026   
+Student: Alexander (Alex) Ricciardi   
+
+Final grade:
+
+---
+
+**CSC506- Design and Analysis of Algorithms**.   
+This graduate course provides students with a foundational knowledge in the design and analysis of algorithms. Students will make use of appropriate data structures. Complexity and analysis of algorithms will be completed focusing on worst case and average case, lower bounds, NP-completeness, and recurrences. Students will explore the complexity of appropriate searching, sorting, and graphing algorithms.
+
+**Course Learning Outcomes:**     
+Identify factors that can affect the lower bound of a solution.
+Discuss the use of abstract data types in software development.
+Create an application that demonstrates optimal performance.
+Implement a recursive solution to solve a specific problem.
+Develop an application that makes use of appropriate data structures.
+Evaluate the Big-O runtime of an algorithm.
+
+---
+
+[Go back to the Project Map](#project-map) 
 
 ---
 ---
@@ -67,7 +103,7 @@ Professor: Steven Evans
 Winter C (25WC) – 2026
 Student: Alexander (Alex) Ricciardi
 
-Final grade:
+Final grade: 4.0 | A
 
 ---
 
@@ -89,7 +125,7 @@ Professor: Joseph Issa
 Winter A (25WA) – 2025  
 Student: Alexander (Alex) Ricciardi  
 
-Final grade:  4.0 | A
+Final grade: 4.0 | A
 
 ---
 
@@ -111,7 +147,7 @@ Professor: Dr. Brian Holbert
 Winter A (25WA) – 2025  
 Student: Alexander (Alex) Ricciardi  
 
-Final grade:  4.0 | A
+Final grade: 4.0 | A
 
 ---
 
@@ -133,7 +169,7 @@ Professor: Dr. Brian Holbert
 Fall C (25FC) – 2025  
 Student: Alexander (Alex) Ricciardi  
 
-Final grade:  4.0 | A
+Final grade: 4.0 | A
 
 ---
 
