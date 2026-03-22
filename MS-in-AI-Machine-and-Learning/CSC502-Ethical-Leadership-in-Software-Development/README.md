@@ -57,7 +57,48 @@ My Links:
 - [Midterm Module 4](#midterm-module-4)
 - [Critical Thinking Module 5](#critical-thinking-module-5)
 - [Critical Thinking Module 6](#critical-thinking-module-6)
+- [Portfolio Project Module 8](#portfolio-project-module-8)
 - [Discussions](#discussions)
+
+---
+---
+
+### Portfolio Project Module 8: 
+Directory: [Portfolio-Project-Module-8](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC502-Ethical-Leadership-in-Software-Development/Portfolio-Project-Module-8)   
+Title: Portfolio Project: Software Development Ethical Considerations - 23andMe Case Study
+
+---
+
+#### Assignment Description:  
+
+There are numerous examples of software systems that have had unforeseen lapses in ethics controls. These software systems include online genetic testing services, dating sites, online job boards, and municipal taxing entities. In this discussion, you will research one of those software systems, or another of your choice, and analyze potential ethical lapses in the software solution. Identify the issues and devise remedies for ethical lapses. Are such remedies doable or feasible? Address the following questions in your analysis. Utilize the following questions to help you formulate your portfolio project submission:
+
+Instructions and Questions for Portfolio Paper:
+
+- What makes ethics important for software developers?  
+- Give examples of ethical considerations that a developer might face.  
+- What can developers do to incorporate ethical considerations into their work?  
+- What type of questions should developers be asking?  
+- What can the software community do to support coping with ethical issues?  
+- Should there be consequences of unethical software? Why, or why not?  
+
+Submission Instructions:  
+- Provide in-depth analysis for each of the questions in essay form
+- Support your analysis using at least three authoritative literary sources, which are cited using correct APA styling.
+- Format your entire presentation according to the CSU Global Writing Center. (Links to an external site.) The Writing Center can be accessed by clicking on the tab in the course navigation menu. Also, check out the Library's guide to Creating a Visual Presentation (Links to an external site.).
+- Submit your presentation using the file name: CSC502_FinalPortfolio_LastName_FirstName.docx
+
+---
+
+#### My Submission  
+
+Software Development Ethical Considerations - 23andMe Case Study
+
+The essay argues that the 23andMe data breach illustrates why ethics must be treated as a core responsibility in software development, especially when systems handle highly sensitive data such as genetic information. It shows how weak security practices, unclear data governance, and delayed incident response created large-scale privacy risks for millions of users. Ultimately, the paper concludes that developers must integrate ethical frameworks, such as the ACM Code of Ethics and the NIST Privacy Framework, into the entire software development lifecycle to reduce harm, strengthen accountability, and maintain public trust in data-driven technologies. 
+
+---
+
+[Go back to the Project Map](#project-map)
 
 ---
 ---
