@@ -61,7 +61,7 @@ Requirements:
 ---
 
 ## Critical Thinking Module 1
-Directory: [Critical-Thinking-Module-1]()   
+Directory: [Critical-Thinking-Module-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC506-Design-and-Analysis-of-Algorithms/Critical-Thinking-Module-1)   
 Title: Critical Thinking Module 1 - Data Structures & Complexity
 
 ---
