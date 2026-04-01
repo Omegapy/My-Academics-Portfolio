@@ -54,8 +54,54 @@ Requirements:
 
 #### Project Map  
 
+- [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Critical Thinking Module 1](#critical-thinking-module-1)
 - [Discussions](#discussions)
+
+---
+---
+
+## Portfolio Milestone Module 2
+Directory: [Portfolio-Milestone-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC506-Design-and-Analysis-of-Algorithms/Portfolio-Milestone-Module-2)   
+Title: Portfolio Milestone Module 2 - Algorithm Comparison Tool Linear and Binary Search
+
+---
+---
+
+**Project Description:**
+
+The Algorithm Comparison Tool is a web-app that compares linear search O(n) vs. binary search O(log n) algorithms using integer datasets. The tool provides a browser UI that allows the user to build datasets, run searches with step traces, compare both algorithms side by side, and benchmark at scale with timing charts. It also provides a Big-O analysis and recommendation guide.
+
+---
+
+**Assignment:**
+
+**Main Project Goal:**
+Build the foundation of your portfolio project with comprehensive search and sorting algorithm implementations.
+
+**Selected Option:** Algorithm Comparison Tool
+
+**This Portfolio Milestone:**
+
+Deliverables:
+- Source code file with linear search implementation
+- Source code file with binary search implementation
+- Performance testing results showing execution times for different array sizes
+- Written analysis (1-2 pages) explaining Big O notation for both algorithms
+- Screenshots showing the tool finding items in different sized datasets
+- Recommendation guide explaining when to choose each algorithm
+
+Success Criteria:
+- Linear search works correctly on any array
+- Binary search works correctly on sorted arrays only
+- Timing results clearly show performance differences
+- Analysis correctly explains O(n) vs O(log n) complexity
+- Tool demonstrates real-world application of search algorithms
+
+---
+
+[Go back to the Project Map](#project-map)  
+
 
 ---
 ---
