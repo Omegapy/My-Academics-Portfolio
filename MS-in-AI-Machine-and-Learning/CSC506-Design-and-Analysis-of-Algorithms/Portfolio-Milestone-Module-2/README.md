@@ -1,4 +1,4 @@
-# Portfolio Milestone Module 2 — Algorithm Comparison Tool
+# Portfolio Milestone Module 2 — Algorithm Comparison Tool Linear and Binary Search
 Program Name: Algorithm Comparison Tool
 
 Date: 03/29/2026. 
@@ -15,7 +15,7 @@ Student: Alexander (Alex) Ricciardi.
 
 ## Program Description:
 
-The Algorithm Comparison Tool is a web-app that compares linear search O(n) vs. binary search O(log n) algorithms using integer datasets. The tool provides a browser UI that allows the user to build datasets, run searches with step traces, compare both algorithms side by side, benchmark at scale with timing charts. It also provides a Big-O analysis and recommendation guide.
+The Algorithm Comparison Tool is a web-app that compares linear search O(n) vs. binary search O(log n) algorithms using integer datasets. The tool provides a browser UI that allows the user to build datasets, run searches with step traces, compare both algorithms side by side, and benchmark at scale with timing charts. It also provides a Big-O analysis and recommendation guide.
 
 ---
 
@@ -42,9 +42,6 @@ Success Criteria:
 - Timing results clearly show performance differences
 - Analysis correctly explains O(n) vs O(log n) complexity
 - Tool demonstrates real-world application of search algorithms
-
-**Note:**   
-I got permission from the professor to use a video recording to showcase the app functionality instead of screenshots. See `video_demo.mp4` for the video demo.
 
 ---
 
