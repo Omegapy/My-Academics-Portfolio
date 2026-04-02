@@ -146,7 +146,7 @@ Deliverables.
 
 ## Discussions 
 This repository is a collection of discussion posts from CSC506 – Design and Analysis of Algorithms  
-Directory: [Discussions]()
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC506-Design-and-Analysis-of-Algorithms/Discussions)
 
 ---
 
