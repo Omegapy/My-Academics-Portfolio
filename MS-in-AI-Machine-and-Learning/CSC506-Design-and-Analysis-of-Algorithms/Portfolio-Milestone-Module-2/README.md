@@ -1,7 +1,7 @@
 # Portfolio Milestone Module 2 — Algorithm Comparison Tool Linear and Binary Search
 Program Name: Algorithm Comparison Tool
 
-Date: 03/29/2026. 
+Date: 03/29/2026  
 Grade:  
 
 ---
