@@ -48,6 +48,12 @@ The program compares these algorithms across different dataset types and sizes. 
 - Tool demonstrates real-world application for large data processing
 
 ---
+Benchmark Lab App Feature:
+
+<img width="378" height="648" alt="image" src="https://github.com/user-attachments/assets/72c8c461-a15a-4aed-80ae-c333bc955a5c" />
+<img width="370" height="268" alt="image" src="https://github.com/user-attachments/assets/2c158b6a-60c8-4d94-8855-dd530e748e3e" />
+
+---
 
 ## Program Requirements:
 - Python 3.12+
