@@ -54,9 +54,56 @@ Requirements:
 
 #### Project Map  
 
+- [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Critical Thinking Module 1](#critical-thinking-module-1)
 - [Discussions](#discussions)
+
+---
+---
+
+## Critical Thinking Module 3
+Directory: [Critical-Thinking-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC506-Design-and-Analysis-of-Algorithms/Critical-Thinking-Module-3)   
+Title: Critical Thinking Module 3 - Sorting Algorithm Performance Comparison Tool
+
+---
+---
+
+**Project Description:**
+
+The program is a Sorting Algorithm Performance Comparison Tool web-app that compares 4 sorting algorithms: bubble sort O(n^2), selection sort O(n^2), insertion sort O(n^2), and merge sort O(n log n) 
+The program compares these algorithms across different dataset types and sizes. The web-app allows the user to build datasets (random, sorted, reverse sorted, partially sorted), to run individual sorts with step traces, to compare all four algorithms side by side, to benchmark at scale with timing charts, and to review a written analysis and recommendation guide.
+
+---
+
+**Assignment:**
+
+Requirements. 
+- Implement four different sorting algorithms: bubble sort, selection sort, insertion sort, and merge sort.
+- Create a data generator that produces different types of datasets (random, already sorted, reverse sorted, partially sorted).
+- Build a timing system that measures execution time for datasets of different sizes (1000, 5000, 10000, 50000 elements).
+- Test each algorithm on all dataset types and sizes.
+- Create a report generator that shows which algorithm performs best for each scenario.
+  
+Deliverables. 
+- Source code files for all four sorting algorithms with clear documentation
+- Data generator that creates the four types of test datasets
+- Performance testing results in a table showing execution times for all combinations
+- Written analysis (2-3 pages) explaining when to use each sorting algorithm
+- Charts or graphs visualizing the performance differences between algorithms
+- Recommendation guide for choosing sorting algorithms based on data characteristics
+
+Success Criteria: 
+- All four sorting algorithms correctly sort arrays of any size
+- Performance testing shows clear timing differences between algorithms
+- Analysis correctly explains the trade-offs between different sorting methods
+- Recommendations provide practical guidance for algorithm selection
+- Tool demonstrates real-world application for large data processing
+
+---
+
+[Go back to the Project Map](#project-map)  
+
 
 ---
 ---
