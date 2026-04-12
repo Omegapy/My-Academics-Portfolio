@@ -69,7 +69,13 @@ streamlit run Portfolio-Milestone-Module-2/streamlit_app.py
 The app opens in your default browser at `http://localhost:8501`.
 
 ---
-video
+
+Algorithm Comparison Tool - Benchmark Lab Feature
+
+<img width="351" height="617" alt="image" src="https://github.com/user-attachments/assets/a205970d-5fbc-42a2-856d-3429e66b85e4" />
+
+---
+
 **Project Map:**
 
 ```
