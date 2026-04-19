@@ -32,17 +32,16 @@ CANONICAL_BLOCK = """My Links:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alex-ricciardi)
 
 <a href="https://www.threads.net/@alexomegapy?hl=en" target="_blank"><img width="53" height="20" align="left" src="https://github.com/user-attachments/assets/58c9e833-4501-42e4-b4fe-39ffafba99b2"></a>
-<a href="https://dev.to/alex_ricciardi" target="_blank"><img width="53" height="20" align="left" src="https://github.com/user-attachments/assets/3dee9933-d8c9-4a38-b32e-b7a3c55e7e97"></a>
+<a href="https://dev.to/alex_ricciardi" target="_blank"><img width="53" height="20" align="left" src="https://github.com/user-attachments/assets/3dee9933-d8c9-4a38-b32e-b7a3c55e7e97"></a><br>
 """
 
-# Match from the "My Links:" header line through the line containing the
-# YouTube channel URL. The YouTube URL is identical in every README, so it is
-# a reliable anchor for the end of the block, whether the block spans many
-# lines (multi-line layout) or just two (single-line layout).
+# Match from the "My Links:" header line through the dev.to anchor line.
+# The dev.to attachment id (3dee9933-...) is the final element in the canonical
+# block, so anchoring on it ensures the regex captures the entire block.
 BLOCK_PATTERN = re.compile(
     r"My Links:[^\n]*\n"
     r"(?:[^\n]*\n)*?"
-    r"[^\n]*UC4rMaQ7sqywMZkfS1xGh2AA[^\n]*\n"
+    r"[^\n]*3dee9933-d8c9-4a38-b32e-b7a3c55e7e97[^\n]*\n"
 )
 
 
