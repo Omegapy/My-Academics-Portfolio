@@ -2,7 +2,7 @@
 Program Name: Algorithm Comparison Tool
 
 Date: 03/29/2026  
-Grade:  
+Grade: 100% A
 
 ---
 
