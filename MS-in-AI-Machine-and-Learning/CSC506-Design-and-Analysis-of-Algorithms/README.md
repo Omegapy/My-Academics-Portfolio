@@ -56,10 +56,74 @@ Requirements:
 
 #### Project Map  
 
+- [Portfolio Milestone Module 4](#portfolio-milestone-module-4)
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
 - [Critical Thinking Module 1](#critical-thinking-module-1)
 - [Discussions](#discussions)
+
+---
+---
+
+## Portfolio Milestone Module 4
+Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC506-Design-and-Analysis-of-Algorithms/Portfolio-Milestone-Module-4)   
+Title: Portfolio Milestone Module 4 - Algorithm Comparison Tool Linear and Binary Search
+
+---
+---
+
+**Project Description:**
+
+The Algorithm and Data Structure Comparison Tool is a Streamlit web application that
+implements, demonstrates, and benchmarks the four linear datastructures: 
+a list-backed `Stack`, a list-backed `Queue`, a list-backed `Deque`, and a custom doubly-linked `LinkedList`. 
+The tool lets the user generate datasets, use operations in an
+playground, run reproducible benchmarks at choosen sizes
+`[1_000, 5_000, 10_000, 50_000]`, save results to CSV, render charts, and read
+the written analysis and recommendation guide alongside live benchmark output.
+
+---
+
+**Assignment:**
+
+**Portfolio Assignment Context:**
+
+This module is part of the portfolio project for CSC506. The portfolio goal is to build a system demonstrating mastery of the course concepts (sets, sorting, searching, data structures). Module 4 contributes the **data-structure foundation** of that portfolio.
+
+**Implemented Modules:**
+- Portfolio Milestone Module 2 — see [`Portfolio-Milestone-Module-2/README.md`](../Portfolio-Milestone-Module-2/README.md). Compares linear search O(n) vs. binary search O(log n).
+- Portfolio Milestone Module 4 — *this module* — custom doubly linkedList and the Stack / Queue / Deque using Python list.
+
+**Portfolio Project:**
+I choose to create a web application that allows users to interact with and compare different data structures and algorithms. I chose to create a web app using Streamlit, called Algorithm Comparison Tool
+
+**This Portfolio Milestone:**
+
+Requirements 
+- Implement a `Stack` class with `push`, `pop`, `peek`, and `isEmpty`.
+- Implement a `Queue` class with `enqueue`, `dequeue`, `front`, and `isEmpty`.
+- Implement a `Deque` class with `addFront`, `addRear`, `removeFront`, `removeRear`, and `isEmpty`.
+- Implement a `LinkedList` class with `insert`, `delete`, `search`, and `display`.
+- Build test programs that demonstrate when each data structure is most appropriate.
+- Develop algorithms that use each data structure to solve a specific problem.
+
+Deliverables  
+- Source files for `Stack`, `Queue`, `Deque`, and (doubly) `LinkedList`.
+- Test programs demonstrating each structure with sample data.
+- Problem-solving examples for each structure.
+- Written analysis (~2 pages) contrasting the four structures and explaining when to use each.
+- Performance comparison showing operation efficiency for each implementation.
+
+Success Criteria  
+- All structures correctly implement their required operations.
+- Test programs successfully demonstrate each structure's functionality.
+- Problem-solving examples clearly show appropriate use cases.
+- Analysis accurately contrasts the strengths and weaknesses of each structure.
+- Implementations follow Python coding standards and the project documentation guide.
+
+---
+
+[Go back to the Project Map](#project-map)  
 
 ---
 ---
@@ -150,7 +214,6 @@ Success Criteria:
 ---
 
 [Go back to the Project Map](#project-map)  
-
 
 ---
 ---
