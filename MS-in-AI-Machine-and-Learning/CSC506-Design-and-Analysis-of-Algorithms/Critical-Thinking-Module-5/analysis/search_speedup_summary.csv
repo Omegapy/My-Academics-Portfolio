@@ -1,0 +1,16 @@
+dataset_size,query_mode,hash_time_ms,linear_time_ms,speedup,notes
+100,hits,0.243844,0.425406,1.7446,Hash table search is 1.74x faster than linear search for hits queries at n=100.
+100,misses,0.37476,0.737135,1.967,Hash table search is 1.97x faster than linear search for misses queries at n=100.
+100,mixed,0.299608,0.604051,2.0161,Hash table search is 2.02x faster than linear search for mixed queries at n=100.
+500,hits,0.234401,2.033375,8.6748,Hash table search is 8.67x faster than linear search for hits queries at n=500.
+500,misses,0.368476,3.676649,9.978,Hash table search is 9.98x faster than linear search for misses queries at n=500.
+500,mixed,0.302927,2.786773,9.1995,Hash table search is 9.20x faster than linear search for mixed queries at n=500.
+1000,hits,0.237715,3.928558,16.5263,"Hash table search is 16.53x faster than linear search for hits queries at n=1,000."
+1000,misses,0.364807,7.137997,19.5665,"Hash table search is 19.57x faster than linear search for misses queries at n=1,000."
+1000,mixed,0.306245,5.671568,18.5197,"Hash table search is 18.52x faster than linear search for mixed queries at n=1,000."
+5000,hits,0.259482,18.285398,70.4688,"Hash table search is 70.47x faster than linear search for hits queries at n=5,000."
+5000,misses,0.360359,35.821637,99.4054,"Hash table search is 99.41x faster than linear search for misses queries at n=5,000."
+5000,mixed,0.31522,27.744204,88.0154,"Hash table search is 88.02x faster than linear search for mixed queries at n=5,000."
+10000,hits,0.263154,37.0716,140.8742,"Hash table search is 140.87x faster than linear search for hits queries at n=10,000."
+10000,misses,0.361206,70.87,196.2038,"Hash table search is 196.20x faster than linear search for misses queries at n=10,000."
+10000,mixed,0.320786,55.307767,172.4133,"Hash table search is 172.41x faster than linear search for mixed queries at n=10,000."
