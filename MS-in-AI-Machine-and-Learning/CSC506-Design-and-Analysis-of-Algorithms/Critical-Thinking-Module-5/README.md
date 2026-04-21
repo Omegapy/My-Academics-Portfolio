@@ -57,6 +57,16 @@ and a binary heap priority queue. The tool has 7 tabs, which are:
 
 ---
 
+## Benchmark App Feature:
+
+<img width="439" height="616" alt="image" src="https://github.com/user-attachments/assets/7615579f-3c83-4837-a37a-a5fc4b35608d" />
+<img width="468" height="646" alt="image" src="https://github.com/user-attachments/assets/3a46cf5d-b3be-458e-9648-3ad721aa291d" />
+<img width="391" height="648" alt="image" src="https://github.com/user-attachments/assets/a269ddb1-5c8b-4b57-9a0a-560fdf27e125" />
+<img width="342" height="648" alt="image" src="https://github.com/user-attachments/assets/6dba7a8a-6f34-4a35-9a56-c5eb9c37ae7e" />
+<img width="383" height="648" alt="image" src="https://github.com/user-attachments/assets/3537e574-eb75-481a-83f2-851ff02a8a84" />
+
+---
+
 ## Program Requirements:
 - Python 3.12+
 - `streamlit` (install via `pip install streamlit`)
