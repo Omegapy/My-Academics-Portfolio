@@ -9,7 +9,8 @@ created date: 03/12/2026
 ---
 
 Project Description:    
-This repository is a collection of assignments from CSC506 – Design and Analysis of Algorithms at Colorado State University Global - CSU Global.  
+This repository is a collection of assignments from CSC506 – Design and Analysis of Algorithms  
+at Colorado State University Global - CSU Global.  
 
 **CSC506- Design and Analysis of Algorithms**.   
 This graduate course provides students with a foundational knowledge in the design and analysis of algorithms. Students will make use of appropriate data structures. Complexity and analysis of algorithms will be completed focusing on worst case and average case, lower bounds, NP-completeness, and recurrences. Students will explore the complexity of appropriate searching, sorting, and graphing algorithms.
@@ -56,6 +57,7 @@ Requirements:
 
 #### Project Map  
 
+- [Critical Thinking Module 5](#critical-thinking-module-5)
 - [Portfolio Milestone Module 4](#portfolio-milestone-module-4)
 - [Critical Thinking Module 3](#critical-thinking-module-3)
 - [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
@@ -65,9 +67,65 @@ Requirements:
 ---
 ---
 
+## Critical Thinking Module 5
+Directory: [Critical-Thinking-Module-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC506-Design-and-Analysis-of-Algorithms/Critical-Thinking-Module-5)   
+Title: Critical Thinking Module 5 - Hash Table & Priority Queue Tool
+
+---
+---
+
+**Project Description:**
+
+The program is a small streamlit application that implements a hash table, separate chaining collision resolution, 
+and a binary heap priority queue. The tool has 7 tabs, which are: 
+1. Hash Table
+2. Priority Queue
+3. Benchmark
+4. Lab Validation
+5. Written Analysis
+6. Recommendation Guide
+7. Charts
+
+
+---
+
+**Assignment:**
+
+Requirements. 
+- Create a hash table class that uses a simple hash function to store key-value pairs.
+- Implement collision handling using either chaining or linear probing.
+- Build a priority queue class using a binary heap data structure.
+- Create functions to insert, delete, and search in both the hash table and priority queue.
+- Test your implementations with at least 100 data items.
+- Compare hash table search performance vs. linear search on the same dataset.
+  
+Deliverables. 
+- Source code file with hash table implementation including hash function and collision handling
+- Source code file with priority queue implementation using binary heap
+- Streamlit demonstration that inserts, searches, and deletes items from both data structures
+- Performance comparison results showing hash table vs. linear search execution times
+- Written explanation (2 pages) describing your hash function choice and collision resolution method
+- Documentation explaining the difference between perfect and non-perfect hashing with examples
+- Demo showing priority queue operations (insert, extract-max/min, peek)
+
+Success Criteria:  
+- Hash table correctly stores and retrieves key-value pairs
+- Collision handling works properly when hash function produces duplicate values
+- Priority queue maintains heap property and correctly prioritizes items
+- Performance testing shows hash table provides faster search than linear search
+- Analysis clearly explains hashing concepts and implementation decisions
+- Code includes proper error handling and user-friendly output
+
+---
+
+[Go back to the Project Map](#project-map)  
+
+---
+---
+
 ## Portfolio Milestone Module 4
 Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC506-Design-and-Analysis-of-Algorithms/Portfolio-Milestone-Module-4)   
-Title: Portfolio Milestone Module 4 - Algorithm Comparison Tool Linear and Binary Search
+Title: Portfolio Milestone Module 4 - Algorithm and Data Structure Comparison Tool
 
 ---
 ---
@@ -169,7 +227,6 @@ Success Criteria:
 ---
 
 [Go back to the Project Map](#project-map)  
-
 
 ---
 ---
