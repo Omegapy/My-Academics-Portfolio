@@ -54,6 +54,12 @@ Requirements:
 
 ---
 
+## Examples:
+
+<img width="970" height="1218" alt="13 - Linked Structures-Written Analysis-img5" src="https://github.com/user-attachments/assets/c164a6c2-0ed0-41de-ae29-ffe9ece24543" />
+
+---
+
 #### Project Map  
 
 - [Portfolio Module 8](#portfolio-module-8)
