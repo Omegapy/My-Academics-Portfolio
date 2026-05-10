@@ -1,17 +1,17 @@
 
------------------------------------------------------------------------------------------------------------------------------
+---
 # Portfolio Projects 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander (Alex) Ricciardi (Omega.py)   
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Projects Description:  
 This repository is a collection of Portfolio Projects from Colorado State University Global (CSU Global)  
 and Laramie County Community College (LCCC), showcasing my educational journey, and achievements.
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Requirements:  
 - [Python](https://www.python.org/)
@@ -21,7 +21,7 @@ Requirements:
 - [WebGL](https://get.webgl.org/)
 - [Kotlin](https://kotlinlang.org/)
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 My Links:
 
@@ -37,9 +37,11 @@ My Links:
 <a href="https://www.threads.net/@alexomegapy?hl=en" target="_blank"><img width="53" height="20" align="left" src="https://github.com/user-attachments/assets/58c9e833-4501-42e4-b4fe-39ffafba99b2"></a>
 <a href="https://dev.to/alex_ricciardi" target="_blank"><img width="53" height="20" align="left" src="https://github.com/user-attachments/assets/3dee9933-d8c9-4a38-b32e-b7a3c55e7e97"></a><br>
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 #### Project Map
+
+- [CSC506 Design and Analysis of Algorithms Course](#csc506-design-and-analysis-of-algorithms-course)
 - [CSC480 Computer Science Capstone](#csc480-computer-science-capstone)
 - [MIS350 Information Systems Analysis and Design Course](#mis350-information-systems-analysis-and-design-course) 
 - [CSC475 Platform Based Development Android Course](#csc475-platform-based-development-android-course) 
@@ -57,13 +59,250 @@ My Links:
 - [HUM101 Critical Reasoning](#hum101-critical-reasoning)
 
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
+## CSC506 Design and Analysis of Algorithms Course
+Directory: [CSC506-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC506-CSU-Global)  
+
+Title: Algorithm and Data Structure Comparison Tool  
+Grade: 100% | A
+ 
+Design and Analysis of Algorithms CSC506  
+Professor: Dr. Jonathan Vanover  
+Spring A (26SA) - 2026  
+Student: Alexander (Alex) Ricciardi
+License: Apache-2.0 
+
+---
+---
+## Program Description
+
+This Algorithm and Data Structure Comparison Tool combines the following structures and behaviors:
+
+- **Search Comparison** - linear search and binary search workflows that show
+  how ordered data changes search efficiency.
+- **Linked Structures** - stack, queue, deque, and linked-list behaviors that
+  compare list-backed and node-based structure design.
+- **Tree Map** - Binary Search Tree, TreeMap, and ListMap workflows that
+  compare ordered tree navigation against a linear baseline.
+- **Hash Priority** - hash-table and priority-queue operations that compare
+  direct key access, heap behavior, and linear-search benchmarking.
+- **Graph Algorithms** - graph representations, traversal algorithms, and
+  shortest-path workflows that compare structural trade-offs across workloads.
+- **Bubble Quickselect Sets** - Bubble Sort, Quickselect, and CourseSet
+  demonstrations that connect ordering, selection, and set behavior.
+
+Use the tabs above to build deterministic datasets, compare algorithm and data
+structure behavior, run guided operations, benchmark different workloads, and
+read the written analysis and recommendation materials from the integrated
+portfolio modules.
+
+---
+
+## Labs Example:
+
+<img width="970" height="1218" alt="13 - Linked Structures-Written Analysis-img5" src="https://github.com/user-attachments/assets/c164a6c2-0ed0-41de-ae29-ffe9ece24543" />
+
+---
+
+## Implemented portfolio modules:  
+
+- Portfolio Milestone Module 2 — see [The search comparison module](search_comparison_module/README.md)
+  for the linear search vs. binary search comparison tool
+- Portfolio Milestone Module 4 — see [The linked structures module](linked_structures_module/README.md)
+  for the stack, queue, deque, and doubly linked list tool
+- Portfolio Milestone Module 6 - see [The tree map module](tree_map_module/README.md)
+- Portfolio Project Module 8 - this project
+ Integrating all previous modules and adding Bubble Sort and Quickselect [The Bubble Quickselect Sets module](bubble_quickselect_module/README.md),  
+ CTA-5 Hash Table and Priority Queue [the hash priority module](hash_priority_module/README.md), and the CTA-7 graph algorithms and representations [the graph algorithms module](graph_algorithms_module/README.md)
+
+
+---
+
+## Assignment:
+
+Create a complete portfolio system that demonstrates mastery of all course concepts including sets, sorting algorithms, and data structures from previous modules.
+
+**Requirements:**
+- Implement bubble sort algorithm for sorting lists of integers with step-by-step visualization.
+- Create quickselect algorithm implementation that finds the kth smallest element in a list.
+- Build a comprehensive Set class that supports union, intersection, difference, and symmetric difference operations.
+- Integrate all data structures from previous modules (stacks, queues, trees, graphs, hash tables) into one unified system.
+- Create a user interface that allows testing and comparison of all implemented algorithms and data structures.
+- Develop performance analysis tools that compare different algorithms and data structures across multiple metrics.
+
+
+**Deliverables:**
+- Source code file with bubble sort implementation including visualization of sorting steps
+- Source code file with quickselect algorithm that efficiently finds kth smallest elements
+- Complete Set class implementation with all set operations and documentation
+- Integrated portfolio system containing all course algorithms and data structures
+- User interface allowing interactive testing of all implementations
+- Comprehensive performance analysis report (5+ pages) comparing all algorithms and data structures
+- Final portfolio presentation (video or slides) demonstrating system capabilities and course learning
+- Complete project documentation with usage instructions and design decisions
+
+**Success Criteria:**
+- Bubble sort correctly sorts integer lists and shows step-by-step process
+- Quickselect algorithm efficiently finds kth smallest element in any list
+- Set operations work correctly and demonstrate understanding of static vs. dynamic operations
+- Portfolio system successfully integrates and demonstrates all course concepts
+- Performance analysis provides meaningful insights into algorithm and data structure trade-offs
+- Final presentation clearly communicates technical achievements and learning outcomes
+
+---
+
+## How to Run
+
+Run the root portfolio app from the repository root:
+
+```bash
+# If using a Python virtual environment, first activate the virtual environment
+source venv/bin/activate
+
+# Run the app
+streamlit run streamlit_app.py
+```
+
+Run the focused Bubble Quickselect Sets checks:
+
+```bash
+source venv/bin/activate
+python -m pytest \
+  Portfolio-Module-8/tests/test_bubble_sort.py \
+  Portfolio-Module-8/tests/test_quickselect.py \
+  Portfolio-Module-8/tests/test_course_set.py \
+  Portfolio-Module-8/tests/test_benchmark_bubble_quickselect.py \
+  Portfolio-Module-8/tests/test_bubble_quickselect_streamlit.py
+```
+
+---
+## Root App Tabs
+
+| Tab                     | Purpose                                                         |
+|-------------------------|-----------------------------------------------------------------|
+| Overview                | Summarizes the integrated portfolio and key algorithm concepts. |
+| Search Comparison       | Compares linear search and binary search workflows.             |
+| Linked Structures       | Demonstrates stack, queue, deque, and linked-list behavior.     |
+| Tree Map                | Compares BST, TreeMap, and ListMap behavior.                    |
+| Hash Priority           | Demonstrates hash table and priority queue behavior.            |
+| Graph Algorithms        | Compares graph representations, traversal, and shortest paths.  |
+| Bubble Quickselect Sets | Runs Bubble Sort, Quickselect, and CourseSet labs.              |
+| Comprehensive Analysis  | Renders the cross-module performance analysis artifact.         |
+
+---
+
+## Module Sources
+
+| Module 8 package            | Source                          |
+|-----------------------------|---------------------------------|
+| `search_comparison_module/` | `Portfolio-Milestone-Module-2/` |
+| `linked_structures_module/` | `Portfolio-Milestone-Module-4/` |
+| `tree_map_module/`          | `Portfolio-Milestone-Module-6/` |
+| `hash_priority_module/`     | `CTA-5/`                        |
+| `graph_algorithms_module/`  | `CTA-7/`                        |
+| `bubble_quickselect_module/`| This module, Module 8           |
+
+---
+
+## Bubble Quickselect Sets Module
+
+The `bubble_quickselect_module` is the Module 8-native feature area. It
+contains:
+
+- `Bubble Sort`: adjacent comparison sort with early exit, operation counts,
+  timing, and optional trace output.
+- `Quickselect`: deterministic right-pivot kth-smallest selection with
+  partition traces and correctness checking.
+- `CourseSet`: hash-backed Set ADT preserving first-seen display order.
+- `SetOperationResult`: before/after operation metadata for manual and
+  automatic set demos.
+- `BenchmarkRecord`: CSV-ready benchmark row model for algorithm comparisons.
+- Streamlit labs for set operations, Bubble Sort, Quickselect, benchmarks, and
+  written analysis.
+
+The target Python files in `bubble_quickselect_module/` and the root
+`streamlit_app.py` have been documented using the local
+`Step-by-step-Comments/` Phase 1 through Phase 5 templates. The `__init__.py`
+files are intentionally left minimal.
+
+---
+## Package Integration
+
+Portfolio Module 8 uses copied, package-qualified modules to prevent collisions
+between repeated generic package names such as `algorithms`, `data`, `models`,
+`analysis`, and `ui`.
+
+Examples:
+
+- `search_comparison_module.algorithms`
+- `linked_structures_module.data_structures`
+- `tree_map_module.data_structures`
+- `hash_priority_module.algorithms`
+- `graph_algorithms_module.algorithms`
+- `bubble_quickselect_module.algorithms`
+
+Module UI files expose root-callable functions instead of separate app launch
+files:
+
+- `render_search_comparison_page()`
+- `render_linked_structures_page()`
+- `render_tree_map_page()`
+- `render_hash_priority_page()`
+- `render_graph_algorithms_page()`
+- `render_bubble_quickselect_sets_page()`
+
+Graph Algorithms visualizations use DOT strings rendered through Streamlit's
+`st.graphviz_chart`; this app does not require the separate Python `graphviz`
+package.
+
+---
+
+## Analysis 
+
+| Artifact                                 | Location                                                         |
+|------------------------------------------|------------------------------------------------------------------|
+| Comprehensive performance analysis       | `analysis/comprehensive_performance_analysis.md`                 |
+| Search Big-O analysis                    | `search_comparison_module/analysis/big_o_analysis.md`            |
+| Search recommendation guide              | `search_comparison_module/analysis/recommendation_guide.md`      |
+| Search benchmark CSV                     | `search_comparison_module/analysis/benchmark_results.csv`        |
+| Linked Structures written analysis       | `linked_structures_module/analysis/written_analysis.md`          |
+| Linked Structures recommendation guide   | `linked_structures_module/analysis/recommendation_guide.md`      |
+| Linked Structures benchmark CSV          | `linked_structures_module/analysis/benchmark_results.csv`        |
+| Linked Structures operation winners CSV  | `linked_structures_module/analysis/operation_winners.csv`        |
+| Linked Structures benchmark charts       | `linked_structures_module/analysis/charts/`                      |
+| Tree Map written analysis                | `tree_map_module/analysis/written_analysis.md`                   |
+| Tree Map recommendation guide            | `tree_map_module/analysis/recommendation_guide.md`               |
+| Tree Map benchmark CSV                   | `tree_map_module/analysis/benchmark_results.csv`                 |
+| Tree Map benchmark charts                | `tree_map_module/analysis/charts/`                               |
+| Hash Priority written analysis           | `hash_priority_module/analysis/written_analysis.md`              |
+| Hash Priority recommendation guide       | `hash_priority_module/analysis/recommendation_guide.md`          |
+| Hash Priority benchmark CSV              | `hash_priority_module/analysis/benchmark_results.csv`            |
+| Hash Priority speedup summary CSV        | `hash_priority_module/analysis/search_speedup_summary.csv`       |
+| Hash Priority operation scaling CSV      | `hash_priority_module/analysis/operation_scaling_summary.csv`    |
+| Hash Priority benchmark charts           | `hash_priority_module/analysis/charts/`                          |
+| Graph Algorithms written analysis        | `graph_algorithms_module/analysis/written_analysis.md`           |
+| Graph Algorithms recommendation guide    | `graph_algorithms_module/analysis/recommendation_guide.md`       |
+| Graph Algorithms benchmark CSV           | `graph_algorithms_module/analysis/benchmark_results.csv`         |
+| Graph Algorithms operation winners CSV   | `graph_algorithms_module/analysis/operation_winners.csv`         |
+| Graph Algorithms operation scaling CSV   | `graph_algorithms_module/analysis/operation_scaling_summary.csv` |
+| Graph Algorithms benchmark charts        | `graph_algorithms_module/analysis/charts/`                       |
+| Bubble Quickselect Sets analysis         | `bubble_quickselect_module/analysis/written_analysis.md`         |
+| Bubble Quickselect Sets benchmark CSV    | `bubble_quickselect_module/analysis/benchmark_results.csv`       |
+
+---
+
+[Go back to the Project Map](#project-map)
+
+---
+---
+
 ## CSC480 Computer Science Capstone 
 Directory: [CSC480-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC480-CSU-Global)  
 
 Title: Mining Regulatory Compliance Assistant (MRCA) - Advanced Parallel HybridRAG - Intelligent Fusion (APH-IF)  
-Grade: 
+Grade: 100% | A
  
 CSC480 – Computer Science Capstone  
 Professor: Dr. Shaher Daoud
@@ -74,8 +313,8 @@ Date: 08/03/2025
 © 2025 Alexander Samuel Ricciardi - Mining Regulatory Compliance Assistant  
 License: Apache-2.0 | Technology: Advanced Parallel Hybrid RAG System
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+--- 
 
 Assignment Directions:  
 
@@ -100,7 +339,7 @@ Include subheadings for each section as appropriate. Be sure to include an intro
 
 Be sure to carefully review the submission requirements for each milestone in the module in which it is assigned. While each milestone is worth points, the final submission due in Module 8 is a compilation of all the submissions from Modules 1-7 and will constitute a significant percentage of the course point total. (See the syllabus for details.)
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Program Description:  
 MRCA - Mining Regulatory Compliance Assistant - Advanced Parallel Hybrid - Intelligent Fusion (APH-IF) Technology
@@ -163,7 +402,7 @@ Preview:
 | <img width="350" src="https://github.com/user-attachments/assets/2ebfeed2-ba58-4cef-a6e1-9288ff76eaf2"> | <img width="350" src="https://github.com/user-attachments/assets/9c59f5c4-b661-4048-af6e-02669a501dc9">
 
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Project Map:
 
@@ -171,12 +410,13 @@ Project Map:
 - screenshots 
 - CODE---MRCA-APH-IF -- The project codebase
 
------------------------------------------------------------------------------------------------------------------------------ 
+---
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## MIS350 Information Systems Analysis and Design Course  
 Directory: [MIS350-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/MIS350-CSU-Global)  
 
@@ -189,8 +429,8 @@ Spring B (25SB) – 2025
 Student: Alexander (Alex) Ricciardi   
 Date: 06/08/2025    
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Assignment Directions:  
 
@@ -254,12 +494,13 @@ Final Deliverable: Complete Portfolio Project, including Phase 1, 2 and 3, submi
 
 Your complete Portfolio Project, including Phases 1, 2 and 3, should be a minimum of 8 pages in length, not including the title and reference pages, and must fully address the assignment requirements. Include at least three credible references in addition to the course textbook.  The project should follow the Portfolio Project template format, single-spaced paragraphs with double-spacing between paragraphs. Any figures, tables, citations and references should adhere to APA7 format.  First person should not be used in this project, since you are presenting facts and information to support this project for the executive leadership team. 
 
------------------------------------------------------------------------------------------------------------------------------ 
+---
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC475 Platform Based Development Android Course  
 Directory: [CSC475-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC475-CSU-Global)  
 
@@ -271,15 +512,15 @@ Winter D (24WD) – 2025
 Student: Alexander (Alex) Ricciardi   
 Date: 04/06/2025   
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Requirements:  
 - Kotlin
 - Android Environment 
 - TheMealDB API key (themealdb.com)
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Assignment Directions:  
 
@@ -296,7 +537,7 @@ The project should be completed in four parts, following agile methodology:
 - Module 6 (Module-6-Milestone.pdf)Implementation and Source Details: The actual implementation of the app, along with source code details (not available here), including screenshots to showcase the app's functionality and appearance. Explains the challenges faced during implementation and how they were overcome.
 - Module 8 (Module-8-Portfolio-Project.pdf and the app directory) Testing, Deployment, and Maintenance: The final document covers the testing process, including any unit tests or UI tests conducted. Explains the deployment process and any challenges encountered during app deployment. Discusses strategies for ongoing maintenance, bug fixes, and future enhancements.
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Program Description:
 
@@ -309,7 +550,7 @@ If you are not familliar how to install an ANdroid app from linl see [How to Ins
 
 Video showcasing the app: [My Recipe App](https://www.youtube.com/watch?v=H1vJahZmL_A)
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 <img width="100" height="200" src="https://github.com/user-attachments/assets/eebf0e41-5cad-4433-b1ce-a248445a76b4">
 <img width="100" height="200" src="https://github.com/user-attachments/assets/791f786f-328c-4fd3-b1e3-c452a2a6b5b9">
@@ -327,9 +568,7 @@ Video showcasing the app: [My Recipe App](https://www.youtube.com/watch?v=H1vJah
 <img width="300" height="200" src="https://github.com/user-attachments/assets/8313feca-793d-468d-be3f-4dc475112a20">
 <img width="175" height="200" src="https://github.com/user-attachments/assets/04212549-00a8-4c32-8b41-53fd86928fe2">
 
-
-
------------------------------------------------------------------------------------------------------------------------------
+---
 
 App Requirements:
 
@@ -357,7 +596,7 @@ Testing
 - UIAutomated
 - Firebase
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Project Map:  
 - My Recipe App: Development Journey Summary.pdf, a summary of the app’s development process.
@@ -467,7 +706,8 @@ Tests
 │   │               └── RecipeDatabaseTest.kt (Room database operations - migrations)  
 </pre>
 
------------------------------------------------------------------------------------------------------------------------------
+---
+
 ### How to Install the App
 
 Enable Installation from Unknown Sources:
@@ -499,12 +739,13 @@ Important Considerations:
 
 ⚠️ Updates: Apps installed this way won't automatically update via the Google Play Store. I will share new APK links for any updates here.
 
------------------------------------------------------------------------------------------------------------------------------ 
+--- 
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC470 Software Engineering  
 Directory: [CSC470-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Software-Engineering-CSC470/Module-8-Portfolio-Project)  
 Title: Final Portfolio Project CSC470: Database Model  
@@ -515,8 +756,8 @@ Date: 02/09/2025
 
 Grade: 100% A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 The Assignment Direction:    
 
@@ -553,7 +794,7 @@ Compile all your work (Parts 1-3) into a single document and submit as a Word or
 
 Your paper must be formatted according to the APA guidelines in the CSU Global Writing Center. The CSU Global Library and Writing Center links can be found in the course navigation panel. Review the Portfolio Project grading rubric for specific grading criteria.
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Project Map:   
 - Part-1 Object-Relational Mapping.pdf – An essay exploring database modeling
@@ -562,12 +803,13 @@ Project Map:
 - Part-3 Reflection Reflection Lessons Learned (CSC470).pdf – A Reflection essay about what I learned in the Software Engineering course
 - Portfolio Project Combined Documents.pdf – All the Portfolio documents combined into one
 
------------------------------------------------------------------------------------------------------------------------------ 
+---
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC450 Programming III Cpp Java Course
 Directory: [CSC450 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC450-CSU-Global)   
 Title: Portfolio - Thread Counting Synchronization (C++/Java)
@@ -578,20 +820,20 @@ Date: 12/01/2024
 
 Grade:  100% A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Requirements:  
 - Java JDK-21  
 - C++  
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 The Assignment Directions:  
 
 The assignment has two parts:
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Part-1:  
 
@@ -635,7 +877,7 @@ Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 
 	- STR51-CPP. Do not attempt to create a std::string from a null pointer
 	- STR52-CPP. Use valid references, pointers, and iterators t reference elements of a basic_string  
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Part-2:
 
@@ -660,12 +902,7 @@ To receive full credit for the packaging requirements for your Module 8 Portfoli
 4) Include a separate 3-4 page APA Edition 7 paper comparing the performance and security differences between C++ and Java multi-threaded programs. Here's the link to the school's Writing Center for APA Edition 7 requirements -> https://csuglobal.libguides.com/writingcenterLinks to an external site.  
 5) Put all 4 of the above files into a single .zip file, and submit ONLY that .zip file for grading. Do not submit any additional separate files.  
  
- -----------------------------------------------------------------------------------------------------------------------------
-
-Programs Descriptions:  
-
-This program demonstrates the use of threads and how to synchronize them using ReentrantLocks and Conditions.  
-Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 1 completes, and then counts down from the maximum count to 0.    
+---
 
 ⚠️ My notes:  
 - The simple Java console application is in the file ThreadCountingSynchronization.java
@@ -688,12 +925,13 @@ Thread 1 counts up from 0 to a maximum count, while Thread 2 waits until Thread 
 - Portfolio-Part-1 – Directory for Thread Counting Synchronization (C++)  
 - Portfolio-Part-2 – Directory for Thread Counting Synchronization (Java)
 
------------------------------------------------------------------------------------------------------------------------------ 
+---
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC410 Artificial Intelligence
 Directory: [CSC410 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC410-CSU-Global)   
 Title: Portfolio - AI implementation in Insurance  
@@ -704,8 +942,7 @@ Date: 12/01/2024
 
 Grade:  100% A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Assignment Description:  
 
@@ -718,12 +955,13 @@ You may need to make some assumptions regarding cost and leadership roles, but m
 
 Your paper should be 4-6 pages in length (excluding the cover page and references) and conform to the CSU Global Writing Center. Include at least five scholarly references in addition to the course textbook. The CSU Global Library is a good place to find these references. The CSU Global Library and Writing Center links can be found in the course navigation panel. 
 
--------------------------------------------------------------------------------------------
+---
 
 [Go back to the Project Map](#project-map) 
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC400 Data Structures and Algorithms Java
 Directory: [CSC400 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC400-CSU-Global)   
 Portfolio Assignment Option 1: Person Class 
@@ -734,8 +972,8 @@ Date: 10/06/2024
    
 Grade:  100% A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Program Description:  
 This program implements in Java a generic Linked-list queue and sorts the queue using a quicksort algorithm.  
@@ -747,8 +985,7 @@ Quicksort algorithm notes:
 -	Additionally, a queue ADT sort is expected to be stable, preserving the relative (entry) order of elements with equal values.  
 -	To partition a linked-list, the element needs to be traversed element by element. Dividing the list into three parts (left, equal, and right) helps simplify the recursion of traversing the list element by element and preserving elements with equal values in order of entry. This also avoids moving elements around in memory, as is required in array-based implementations of quicksort.  
 
-       
--------------------------------------------------------------------------------------------
+---
 
 Assignment Directions:  
 Option #1: Person Class
@@ -780,12 +1017,13 @@ Assemble your Lessons Learned Reflection, your source code, and screenshots of t
 -	Screenshots for the final program can be found in the Screenshots folder.  
 -	I used the generic data type in my implementations of the queue and Quick Sort in my final program.
   
------------------------------------------------------------------------------------------------------------------------------ 
+---
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC405 Graphics and Visualization WebGL
 Directory: [CSC405 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC405-CSU-Global)   
 Portfolio Assignment 
@@ -796,8 +1034,8 @@ Date: 10/06/2024
    
 Grade:  A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 <p align="left">
 <img  src="https://github.com/user-attachments/assets/6baed473-9a62-4fd4-8cd8-703249e82ae2">
@@ -834,7 +1072,7 @@ Users can rotate the cube along the X, Y, and Z axes, stop the rotation, and res
 The program also implements the Painter's Algorithm for Hidden Surface Removal (HSR).   
 The Painter's Algorithm manually sorts the cube’s faces to simulate depth without relying on the WebGL z-buffer to remove hidden surfaces.
        
--------------------------------------------------------------------------------------------
+---
 
 Assignment Directions:  Portfolio Project  
 There are three parts to the portfolio project.  
@@ -862,12 +1100,13 @@ Project Map:
 - Lessons Learned Reflection.doc – Essay about the lessons in CSC405 – Graphics and Visualization - WebGL Course    
 - README.md – Markdown file, program information  
 
------------------------------------------------------------------------------------------------------------------------------ 
+---
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC372 Computer Programming 2 Java
 Directory: [CSC372 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC372-CSU-Global)   
 Portfolio Assignment Option 1 
@@ -878,8 +1117,9 @@ Date: 08/04/2024
    
 Grade:  100% A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+
+---
 
 Program Description:  
 The Students Manager is a small Java application that utilizes JavaFX GUI  allowing the user to add, view, search, and sort students' data:    
@@ -889,7 +1129,7 @@ The Students Manager is a small Java application that utilizes JavaFX GUI  allow
         - Search functionality     
         - Basic data validation      
        
--------------------------------------------------------------------------------------------
+---
 
 Assignment Directions:  
 student data. Student data are private fields in a student class including:  
@@ -920,12 +1160,13 @@ Project Map:
 -	Milestone-2: Directory containing the Portfolio Milestone assignment from Module 7.  
 -	Application: A folder containing the source code, Java code files for the Students Manager program.  
 
------------------------------------------------------------------------------------------------------------------------------ 
+---
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC320 Programming 1 Java
 Directory: [CSC320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC320-CSU-Global)   
 Portfolio Assignment Option 2 
@@ -934,17 +1175,17 @@ Spring B Semester (24SB) – 2024
 Student: Alejandro (Alex) Ricciardi  
 Date: 06/09/2024
    
-Grade:  100% A
+Grade: 100% A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Program Description:  
 The program manages a home inventory.  
 It provides functionality for adding, removing, updating, and displaying home data.  
 The program interacts with the user through a menu-driven interface and stores the home data in a file.   
 
--------------------------------------------------------------------------------------------
+---
 
 Assignment Directions:  
 Portfolio Project – Home Inventory Manager Option2  
@@ -998,12 +1239,13 @@ Compile your Module 1-6 programs with corrections, lessons learned reflection, a
 -	The program handles exceptions by passing them from the Home class to the HomeInventory class, and then to the Main class, where the exceptions and errors are displayed to the user.  
 -	For the source code please see Main.java, InputValidation. Java, Home.java, and HomeInventory.java files. 
 
------------------------------------------------------------------------------------------------------------------------------ 
+---
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## ITS320 Basic Programming Python
 Directory: [IT320 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/IT320-CSU-Global)   
 Portfolio Assignment Option 2  
@@ -1013,13 +1255,13 @@ Date: 04/07/2024
 
 Grade:  300/300 A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Program Objective:  
 To manage a home inventory system with functionality to add, update, remove, and display homes data.
 
--------------------------------------------------------------------------------------------
+---
 
 Assignment Directions:  
 Option #2: Program Corrections, Lessons Learned, and Home Inventory Program  
@@ -1042,7 +1284,7 @@ Your program should have appropriate methods such as:
 - update home attributes  
 At the end of your program, be sure that it allows the user to output all home inventory to a text file.
 
--------------------------------------------------------------------------------------------
+---
 
 Pseudocode:
 1. Import necessary modules (os) to manipulate file  
@@ -1065,22 +1307,26 @@ Pseudocode:
     - Create a HomeInventory object  
     - Display class HomeInventory information  
     - Start the user interface menu  
--------------------------------------------------------------------------------------------
+
+---
 
 Program Inputs:
     - User input for adding, updating, and removing homes  
     - User input for displaying home information  
     - User input for navigating the menu options  
     
--------------------------------------------------------------------------------------------
+---
 
 Program Inputs: User input for home details, menu choices, and file name.  
 Program Outputs: Display of home inventory, updated inventory file, and user prompts. 
 
+---
+
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## CSC300 Operating Systems and Architecture
 Directory: [CSC300 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC300-CSU-Global)  
 File: Solutions for a Business Enterprise-Wide Upgrade.pdf  
@@ -1089,8 +1335,8 @@ Date: 04/07/2024
 
 Grade: 350/350 A+
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Assignment Directions:  
 Portfolio Project (350 Points)
@@ -1135,7 +1381,7 @@ You can cite the course material and at least one additional credible or scholar
 The CSU Global LibraryLinks to an external site. is a good place to find your sources.  
 Follow APA guidelines in the CSU Global Writing Center.	
 
--------------------------------------------------------------------------------------------
+---
 
 Essay Summary:  
 
@@ -1151,10 +1397,13 @@ and prevention systems, patch management, penetration testing, security awarenes
 The essay concludes that implementing these suggestions could significantly improve the company's efficiency, security, and competitiveness,   
 as well as create opportunities for exploring new business ventures.
 
+---
+
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## COSC1030 Computer Science 1
 Directory: [COSC 1030 LCCC](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/COSC-01030-LCCC)   
 Portfolio Assignment  
@@ -1163,13 +1412,13 @@ Date: 04/07/2024
 
 Final grade: 100% A
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Program Objective:  
 create an interactive, text-based Choose Your Own Adventure style game in c++.  
 
--------------------------------------------------------------------------------------------
+---
 
 Class Final Project Prerequisites:
 Your final project is to create an interactive, text-based Choose Your Own Adventure style game based on a movie, 
@@ -1179,7 +1428,7 @@ book or game of your choice. You may use your own idea if you don't want to base
 
 Note: This project goes substantially beyond the Class Final Project Prerequisites; the project is a small c++ window desktop application.
 
------------------------------------------------------------------------------------------------------------------------------
+---
 
 Project description:  
 Ethers Quest is a small story-based D&D game based on the Innistrad universe. 
@@ -1197,10 +1446,13 @@ where he will encounter many dangers. Provided that he survives the journey;
 at Skirsdag high temple, he will have to battle  
 and defeat both lord Salt and the demon Iretrat to save Clarabella and complete his quest.
 
+---
+
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## ENG102 Composition 2
 Folder: [Eng 1020 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC300-CSU-Global)  
 File: Navigating the AI Revolution.pdf  
@@ -1209,8 +1461,8 @@ Date: 04/07/2024
 
 Grade: 329/354 B+
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Assignment Directions:  
 Portfolio Project (350 Points)
@@ -1239,7 +1491,8 @@ The sources should be from roughly the last five to seven years.
 Voice: Third-person. APA format does allow for limited use of first-person pronouns when describing your work,   
 but it is unlikely you will need to use the first person in this project.  	
 
--------------------------------------------------------------------------------------------
+---
+
 
 Essay Summary:  
 
@@ -1268,8 +1521,9 @@ and establishing appropriate government regulations and agencies, society can re
 
 [Go back to the Project Map](#project-map)
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
+
 ## HUM101 Critical Reasoning
 Folder: [HUM101 CSU Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/HUM101-CSU-Global)  
 File: Aristotle's Ethical Deliberation and Virtue: Principles for Ethical AI.pdf  
@@ -1278,8 +1532,8 @@ Date: 08/04/2024
 
 Grade: 94% B
 
------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------
+---
+---
 
 Assignment Directions:  
 Option #1: Applying Philosophy to a Modern-Day Issue  
@@ -1306,7 +1560,7 @@ Your paper must be two to three pages, 12-point font, double-spaced. That means 
 
 Include at least two references - one from a philosopher and at least one from a credible outside source. The CSU Global Library is a good place to find these references. To quickly access the Library, click on the tabs in the Course Navigation Panel.  	
 
--------------------------------------------------------------------------------------------
+---
 
 Essay Summary:  
 
@@ -1327,5 +1581,7 @@ It discusses Aristotle's idea of ethical virtue as a mean between extremes and h
 The paper acknowledges difficulties in implementing these concepts in AI, such as translating abstract ethical principles into machine-processable forms.  
 6. Conclusion:  
 It argues for the relevance of Aristotelian ethics in developing ethical AI systems, emphasizing the need to embed these principles into AI design.  
+
+---
 
 [Go back to the Project Map](#project-map)
