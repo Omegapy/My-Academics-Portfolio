@@ -42,6 +42,12 @@ portfolio modules.
 
 ---
 
+## Labs Example:
+
+<img width="970" height="1218" alt="13 - Linked Structures-Written Analysis-img5" src="https://github.com/user-attachments/assets/c164a6c2-0ed0-41de-ae29-ffe9ece24543" />
+
+---
+
 ## Implemented portfolio modules:  
 
 - Portfolio Milestone Module 2 — see [The search comparison module](search_comparison_module/README.md)
