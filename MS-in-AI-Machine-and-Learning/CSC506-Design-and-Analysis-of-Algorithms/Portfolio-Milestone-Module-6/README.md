@@ -25,6 +25,12 @@ TreeMap search performance against a linear-search list-based map.
 
 ---
 
+## Benchmark App Feature:
+
+<img width="484" height="607" alt="image" src="https://github.com/user-attachments/assets/bbbada5e-307e-40a8-a3c7-c548af3f8612" />
+
+---
+
 ## Portfolio Assignment Context
 
 This module is part of the CSC506 portfolio project. The overall project goal
