@@ -3,6 +3,7 @@ Program Name: Graph Representation & Algorithm Tool
 
 Date: 05/03/2026  
 Grade: 100% A
+
 ---
 
 Design and Analysis of Algorithms CSC506  
@@ -20,6 +21,12 @@ It supports weighted directed or undirected graphs, graph manipulation, BFS and 
 traversal traces, Dijkstra and Bellman-Ford shortest paths, benchmark
 comparisons, visual graph rendering through Streamlit's Graphviz chart support, and written
 analysis and recommendations guide.
+
+---
+
+## Benchmark Lab:
+
+<img width="418" height="614" alt="image" src="https://github.com/user-attachments/assets/a7c72035-3f93-4595-8624-6ffa82acf155" />
 
 ---
 
