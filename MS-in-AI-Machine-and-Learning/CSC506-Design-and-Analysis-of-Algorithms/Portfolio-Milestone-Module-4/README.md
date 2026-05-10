@@ -65,6 +65,12 @@ I choose to create a web application that allows users to interact with and comp
 
 ---
 
+## Benchmark Lab App Feature:
+<img width="423" height="612" alt="image" src="https://github.com/user-attachments/assets/fed47566-db06-4e9a-b2bb-451b4843370d" />
+<img width="514" height="568" alt="image" src="https://github.com/user-attachments/assets/468741d9-7bb2-428b-a1b2-c8fff2f5cac9" />
+
+---
+
 ## Program Requirements:
 - Python 3.12+
 - `streamlit` (install via `pip install streamlit`)
