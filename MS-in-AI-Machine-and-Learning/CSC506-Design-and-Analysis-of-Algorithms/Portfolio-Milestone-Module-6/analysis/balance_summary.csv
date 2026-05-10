@@ -1,0 +1,7 @@
+scenario,size,height,is_balanced
+random_insertion,50,7.0,False
+random_insertion,100,12.0,False
+random_insertion,500,19.0,False
+sorted_insertion,50,49.0,False
+sorted_insertion,100,99.0,False
+sorted_insertion,500,499.0,False

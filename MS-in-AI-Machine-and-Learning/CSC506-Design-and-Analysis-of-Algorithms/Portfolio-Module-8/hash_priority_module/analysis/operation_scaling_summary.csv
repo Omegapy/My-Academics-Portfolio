@@ -1,0 +1,26 @@
+operation_group,structure,operation,scenario,smallest_size,largest_size,smallest_time_ms,largest_time_ms,growth_factor,notes
+hash_collision,Hash Table,collision_delete_sample,forced_collision,100,500,0.081917,0.207792,2.5366,Hash Table.collision_delete_sample (forced_collision) grew 2.54x from n=100 to n=500.
+hash_collision,Hash Table,collision_insert_bulk,forced_collision,100,500,0.117667,0.845,7.1813,Hash Table.collision_insert_bulk (forced_collision) grew 7.18x from n=100 to n=500.
+hash_collision,Hash Table,collision_search_hits,forced_collision,100,500,0.417965,0.720894,1.7248,Hash Table.collision_search_hits (forced_collision) grew 1.72x from n=100 to n=500.
+hash_core,Hash Table,delete_sample,normal,100,500,0.065959,0.149416,2.2653,Hash Table.delete_sample (normal) grew 2.27x from n=100 to n=500.
+hash_core,Hash Table,insert_bulk,normal,100,500,0.159708,0.89475,5.6024,Hash Table.insert_bulk (normal) grew 5.60x from n=100 to n=500.
+hash_core,Hash Table,search_hits,normal,100,500,0.227294,0.23855,1.0495,Hash Table.search_hits (normal) grew 1.05x from n=100 to n=500.
+hash_core,Hash Table,search_misses,normal,100,500,0.364467,0.358029,0.9823,Hash Table.search_misses (normal) grew 0.98x from n=100 to n=500.
+priority_queue_core,Priority Queue,delete_sample,max,100,500,0.132125,1.231166,9.3182,Priority Queue.delete_sample (max) grew 9.32x from n=100 to n=500.
+priority_queue_core,Priority Queue,extract_top_drain,max,100,500,0.147333,1.092834,7.4174,Priority Queue.extract_top_drain (max) grew 7.42x from n=100 to n=500.
+priority_queue_core,Priority Queue,insert_bulk,max,100,500,0.042875,0.216334,5.0457,Priority Queue.insert_bulk (max) grew 5.05x from n=100 to n=500.
+priority_queue_core,Priority Queue,peek,max,100,500,3.4e-05,3.4e-05,1.0,Priority Queue.peek (max) grew 1.00x from n=100 to n=500.
+priority_queue_core,Priority Queue,search_hits,max,100,500,0.409168,1.878923,4.5921,Priority Queue.search_hits (max) grew 4.59x from n=100 to n=500.
+priority_queue_core,Priority Queue,search_misses,max,100,500,0.734234,3.555993,4.8431,Priority Queue.search_misses (max) grew 4.84x from n=100 to n=500.
+priority_queue_core,Priority Queue,delete_sample,min,100,500,0.125959,1.241875,9.8594,Priority Queue.delete_sample (min) grew 9.86x from n=100 to n=500.
+priority_queue_core,Priority Queue,extract_top_drain,min,100,500,0.149958,1.152417,7.6849,Priority Queue.extract_top_drain (min) grew 7.68x from n=100 to n=500.
+priority_queue_core,Priority Queue,insert_bulk,min,100,500,0.038375,0.210167,5.4767,Priority Queue.insert_bulk (min) grew 5.48x from n=100 to n=500.
+priority_queue_core,Priority Queue,peek,min,100,500,3.4e-05,3.4e-05,1.0,Priority Queue.peek (min) grew 1.00x from n=100 to n=500.
+priority_queue_core,Priority Queue,search_hits,min,100,500,0.407615,1.915788,4.7,Priority Queue.search_hits (min) grew 4.70x from n=100 to n=500.
+priority_queue_core,Priority Queue,search_misses,min,100,500,0.736733,3.551775,4.821,Priority Queue.search_misses (min) grew 4.82x from n=100 to n=500.
+search_comparison,Hash Table,search,hits,100,500,0.223933,0.241981,1.0806,Hash Table.search (hits) grew 1.08x from n=100 to n=500.
+search_comparison,Linear Search,search,hits,100,500,0.418788,1.951166,4.6591,Linear Search.search (hits) grew 4.66x from n=100 to n=500.
+search_comparison,Hash Table,search,misses,100,500,0.352144,0.367019,1.0422,Hash Table.search (misses) grew 1.04x from n=100 to n=500.
+search_comparison,Linear Search,search,misses,100,500,0.728962,3.481334,4.7757,Linear Search.search (misses) grew 4.78x from n=100 to n=500.
+search_comparison,Hash Table,search,mixed,100,500,0.293488,0.302797,1.0317,Hash Table.search (mixed) grew 1.03x from n=100 to n=500.
+search_comparison,Linear Search,search,mixed,100,500,0.595468,2.73381,4.591,Linear Search.search (mixed) grew 4.59x from n=100 to n=500.

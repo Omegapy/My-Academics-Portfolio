@@ -1,0 +1,97 @@
+structure,operation,operation_group,graph_kind,size,edge_count,workload_count,time_ms,avg_time_us,complexity,is_correct,density,notes
+Adjacency List,build,construction,sparse,25,30,55,0.018709,0.340166,O(V + E),True,0.1,Built sparse graph with 25 vertices.
+Adjacency List,adjacency_check,adjacency_queries,sparse,25,30,55,0.009459,0.171981,O(deg(V)),True,0.1,Checked 55 source-target pairs.
+Adjacency List,neighbor_scan,neighbor_scan,sparse,25,30,25,0.006375,0.254996,O(V + E),True,0.1,Scanned all adjacency rows.
+Adjacency List,bfs,traversal,sparse,25,30,25,0.061209,2.448354,O(V + E),True,0.1,Visited 25 reachable vertices with BFS.
+Adjacency List,dfs,traversal,sparse,25,30,25,0.048334,1.93336,O(V + E),True,0.1,Visited 25 reachable vertices with DFS.
+Adjacency List,dijkstra,shortest_path,sparse,25,30,55,0.068833,1.251511,O((V + E) log V),True,0.1,Shortest path from V001 to V025 has distance 110.
+Adjacency List,bellman_ford,shortest_path,sparse,25,30,750,0.164166,0.218888,O(VE),True,0.1,Bellman-Ford path from V001 to V025 has distance 110.
+Adjacency List,remove_edges,mutation,sparse,25,30,30,0.030708,1.023601,O(1) average,True,0.1,Removed 30 sampled edges from a rebuilt graph.
+Adjacency Matrix,build,construction,sparse,25,30,55,0.033125,0.602274,O(V^2 + E),True,0.1,Built sparse graph with 25 vertices.
+Adjacency Matrix,adjacency_check,adjacency_queries,sparse,25,30,55,0.011167,0.203037,O(1),True,0.1,Checked 55 source-target pairs.
+Adjacency Matrix,neighbor_scan,neighbor_scan,sparse,25,30,25,0.017625,0.705002,O(V^2),True,0.1,Scanned all adjacency rows.
+Adjacency Matrix,bfs,traversal,sparse,25,30,25,0.074209,2.968358,O(V^2),True,0.1,Visited 25 reachable vertices with BFS.
+Adjacency Matrix,dfs,traversal,sparse,25,30,25,0.061625,2.465006,O(V^2),True,0.1,Visited 25 reachable vertices with DFS.
+Adjacency Matrix,dijkstra,shortest_path,sparse,25,30,55,0.084542,1.537127,O(V^2 log V),True,0.1,Shortest path from V001 to V025 has distance 110.
+Adjacency Matrix,bellman_ford,shortest_path,sparse,25,30,750,0.122708,0.163611,O(VE),True,0.1,Bellman-Ford path from V001 to V025 has distance 110.
+Adjacency Matrix,remove_edges,mutation,sparse,25,30,30,0.036209,1.206971,O(1),True,0.1,Removed 30 sampled edges from a rebuilt graph.
+Adjacency List,build,construction,dense,25,180,205,0.0875,0.42683,O(V + E),True,0.6,Built dense graph with 25 vertices.
+Adjacency List,adjacency_check,adjacency_queries,dense,25,180,123,0.021125,0.171748,O(deg(V)),True,0.6,Checked 123 source-target pairs.
+Adjacency List,neighbor_scan,neighbor_scan,dense,25,180,25,0.010083,0.403319,O(V + E),True,0.6,Scanned all adjacency rows.
+Adjacency List,bfs,traversal,dense,25,180,25,0.092625,3.704997,O(V + E),True,0.6,Visited 25 reachable vertices with BFS.
+Adjacency List,dfs,traversal,dense,25,180,25,0.083292,3.331685,O(V + E),True,0.6,Visited 25 reachable vertices with DFS.
+Adjacency List,dijkstra,shortest_path,dense,25,180,205,0.651333,3.177234,O((V + E) log V),True,0.6,Shortest path from V001 to V025 has distance 7.
+Adjacency List,bellman_ford,shortest_path,dense,25,180,4500,0.317541,0.070565,O(VE),True,0.6,Bellman-Ford path from V001 to V025 has distance 7.
+Adjacency List,remove_edges,mutation,dense,25,180,50,0.099416,1.988322,O(1) average,True,0.6,Removed 50 sampled edges from a rebuilt graph.
+Adjacency Matrix,build,construction,dense,25,180,205,0.093709,0.457118,O(V^2 + E),True,0.6,Built dense graph with 25 vertices.
+Adjacency Matrix,adjacency_check,adjacency_queries,dense,25,180,123,0.024834,0.201902,O(1),True,0.6,Checked 123 source-target pairs.
+Adjacency Matrix,neighbor_scan,neighbor_scan,dense,25,180,25,0.0275,1.100004,O(V^2),True,0.6,Scanned all adjacency rows.
+Adjacency Matrix,bfs,traversal,dense,25,180,25,0.0945,3.779996,O(V^2),True,0.6,Visited 25 reachable vertices with BFS.
+Adjacency Matrix,dfs,traversal,dense,25,180,25,0.084917,3.396682,O(V^2),True,0.6,Visited 25 reachable vertices with DFS.
+Adjacency Matrix,dijkstra,shortest_path,dense,25,180,205,0.621792,3.033131,O(V^2 log V),True,0.6,Shortest path from V001 to V025 has distance 7.
+Adjacency Matrix,bellman_ford,shortest_path,dense,25,180,4500,0.313541,0.069676,O(VE),True,0.6,Bellman-Ford path from V001 to V025 has distance 7.
+Adjacency Matrix,remove_edges,mutation,dense,25,180,50,0.10325,2.065003,O(1),True,0.6,Removed 50 sampled edges from a rebuilt graph.
+Adjacency List,build,construction,sparse,50,61,111,0.045,0.405406,O(V + E),True,0.049796,Built sparse graph with 50 vertices.
+Adjacency List,adjacency_check,adjacency_queries,sparse,50,61,108,0.018958,0.175537,O(deg(V)),True,0.049796,Checked 108 source-target pairs.
+Adjacency List,neighbor_scan,neighbor_scan,sparse,50,61,50,0.011709,0.234181,O(V + E),True,0.049796,Scanned all adjacency rows.
+Adjacency List,bfs,traversal,sparse,50,61,50,0.153459,3.069183,O(V + E),True,0.049796,Visited 50 reachable vertices with BFS.
+Adjacency List,dfs,traversal,sparse,50,61,50,0.124334,2.486678,O(V + E),True,0.049796,Visited 50 reachable vertices with DFS.
+Adjacency List,dijkstra,shortest_path,sparse,50,61,111,0.261625,2.356982,O((V + E) log V),True,0.049796,Shortest path from V001 to V050 has distance 132.
+Adjacency List,bellman_ford,shortest_path,sparse,50,61,3050,0.169875,0.055697,O(VE),True,0.049796,Bellman-Ford path from V001 to V050 has distance 132.
+Adjacency List,remove_edges,mutation,sparse,50,61,50,0.047834,0.956682,O(1) average,True,0.049796,Removed 50 sampled edges from a rebuilt graph.
+Adjacency Matrix,build,construction,sparse,50,61,111,0.076292,0.687314,O(V^2 + E),True,0.049796,Built sparse graph with 50 vertices.
+Adjacency Matrix,adjacency_check,adjacency_queries,sparse,50,61,108,0.025125,0.232639,O(1),True,0.049796,Checked 108 source-target pairs.
+Adjacency Matrix,neighbor_scan,neighbor_scan,sparse,50,61,50,0.051042,1.020841,O(V^2),True,0.049796,Scanned all adjacency rows.
+Adjacency Matrix,bfs,traversal,sparse,50,61,50,0.196375,3.927504,O(V^2),True,0.049796,Visited 50 reachable vertices with BFS.
+Adjacency Matrix,dfs,traversal,sparse,50,61,50,0.164333,3.286656,O(V^2),True,0.049796,Visited 50 reachable vertices with DFS.
+Adjacency Matrix,dijkstra,shortest_path,sparse,50,61,111,0.49325,4.443694,O(V^2 log V),True,0.049796,Shortest path from V001 to V050 has distance 132.
+Adjacency Matrix,bellman_ford,shortest_path,sparse,50,61,3050,0.201167,0.065956,O(VE),True,0.049796,Bellman-Ford path from V001 to V050 has distance 132.
+Adjacency Matrix,remove_edges,mutation,sparse,50,61,50,0.082792,1.65584,O(1),True,0.049796,Removed 50 sampled edges from a rebuilt graph.
+Adjacency List,build,construction,dense,50,735,785,0.356042,0.453556,O(V + E),True,0.6,Built dense graph with 50 vertices.
+Adjacency List,adjacency_check,adjacency_queries,dense,50,735,149,0.024458,0.164147,O(deg(V)),True,0.6,Checked 149 source-target pairs.
+Adjacency List,neighbor_scan,neighbor_scan,dense,50,735,50,0.025792,0.515841,O(V + E),True,0.6,Scanned all adjacency rows.
+Adjacency List,bfs,traversal,dense,50,735,50,0.291708,5.834163,O(V + E),True,0.6,Visited 50 reachable vertices with BFS.
+Adjacency List,dfs,traversal,dense,50,735,50,0.2555,5.109999,O(V + E),True,0.6,Visited 50 reachable vertices with DFS.
+Adjacency List,dijkstra,shortest_path,dense,50,735,785,0.898167,1.144162,O((V + E) log V),True,0.6,Shortest path from V001 to V050 has distance 1.
+Adjacency List,bellman_ford,shortest_path,dense,50,735,36750,1.495,0.04068,O(VE),True,0.6,Bellman-Ford path from V001 to V050 has distance 1.
+Adjacency List,remove_edges,mutation,dense,50,735,50,0.358958,7.179161,O(1) average,True,0.6,Removed 50 sampled edges from a rebuilt graph.
+Adjacency Matrix,build,construction,dense,50,735,785,0.365292,0.46534,O(V^2 + E),True,0.6,Built dense graph with 50 vertices.
+Adjacency Matrix,adjacency_check,adjacency_queries,dense,50,735,149,0.029042,0.194914,O(1),True,0.6,Checked 149 source-target pairs.
+Adjacency Matrix,neighbor_scan,neighbor_scan,dense,50,735,50,0.102125,2.042498,O(V^2),True,0.6,Scanned all adjacency rows.
+Adjacency Matrix,bfs,traversal,dense,50,735,50,0.3285,6.569996,O(V^2),True,0.6,Visited 50 reachable vertices with BFS.
+Adjacency Matrix,dfs,traversal,dense,50,735,50,0.300208,6.004162,O(V^2),True,0.6,Visited 50 reachable vertices with DFS.
+Adjacency Matrix,dijkstra,shortest_path,dense,50,735,785,0.565708,0.720647,O(V^2 log V),True,0.6,Shortest path from V001 to V050 has distance 1.
+Adjacency Matrix,bellman_ford,shortest_path,dense,50,735,36750,1.449416,0.03944,O(VE),True,0.6,Bellman-Ford path from V001 to V050 has distance 1.
+Adjacency Matrix,remove_edges,mutation,dense,50,735,50,0.491041,9.82082,O(1),True,0.6,Removed 50 sampled edges from a rebuilt graph.
+Adjacency List,build,construction,sparse,100,124,224,0.084833,0.378719,O(V + E),True,0.025051,Built sparse graph with 100 vertices.
+Adjacency List,adjacency_check,adjacency_queries,sparse,100,124,200,0.032208,0.16104,O(deg(V)),True,0.025051,Checked 200 source-target pairs.
+Adjacency List,neighbor_scan,neighbor_scan,sparse,100,124,100,0.024167,0.241669,O(V + E),True,0.025051,Scanned all adjacency rows.
+Adjacency List,bfs,traversal,sparse,100,124,100,0.461459,4.614589,O(V + E),True,0.025051,Visited 100 reachable vertices with BFS.
+Adjacency List,dfs,traversal,sparse,100,124,100,0.388458,3.884579,O(V + E),True,0.025051,Visited 100 reachable vertices with DFS.
+Adjacency List,dijkstra,shortest_path,sparse,100,124,224,0.717584,3.203499,O((V + E) log V),True,0.025051,Shortest path from V001 to V100 has distance 173.
+Adjacency List,bellman_ford,shortest_path,sparse,100,124,12400,0.420208,0.033888,O(VE),True,0.025051,Bellman-Ford path from V001 to V100 has distance 173.
+Adjacency List,remove_edges,mutation,sparse,100,124,50,0.078208,1.564161,O(1) average,True,0.025051,Removed 50 sampled edges from a rebuilt graph.
+Adjacency Matrix,build,construction,sparse,100,124,224,0.234458,1.046687,O(V^2 + E),True,0.025051,Built sparse graph with 100 vertices.
+Adjacency Matrix,adjacency_check,adjacency_queries,sparse,100,124,200,0.038333,0.191665,O(1),True,0.025051,Checked 200 source-target pairs.
+Adjacency Matrix,neighbor_scan,neighbor_scan,sparse,100,124,100,0.179917,1.799171,O(V^2),True,0.025051,Scanned all adjacency rows.
+Adjacency Matrix,bfs,traversal,sparse,100,124,100,0.588834,5.888341,O(V^2),True,0.025051,Visited 100 reachable vertices with BFS.
+Adjacency Matrix,dfs,traversal,sparse,100,124,100,0.674333,6.743332,O(V^2),True,0.025051,Visited 100 reachable vertices with DFS.
+Adjacency Matrix,dijkstra,shortest_path,sparse,100,124,224,1.138958,5.084634,O(V^2 log V),True,0.025051,Shortest path from V001 to V100 has distance 173.
+Adjacency Matrix,bellman_ford,shortest_path,sparse,100,124,12400,0.534417,0.043098,O(VE),True,0.025051,Bellman-Ford path from V001 to V100 has distance 173.
+Adjacency Matrix,remove_edges,mutation,sparse,100,124,50,0.22025,4.404997,O(1),True,0.025051,Removed 50 sampled edges from a rebuilt graph.
+Adjacency List,build,construction,dense,100,2970,3070,1.356875,0.441979,O(V + E),True,0.6,Built dense graph with 100 vertices.
+Adjacency List,adjacency_check,adjacency_queries,dense,100,2970,200,0.034709,0.173545,O(deg(V)),True,0.6,Checked 200 source-target pairs.
+Adjacency List,neighbor_scan,neighbor_scan,dense,100,2970,100,0.079916,0.799159,O(V + E),True,0.6,Scanned all adjacency rows.
+Adjacency List,bfs,traversal,dense,100,2970,100,1.308459,13.084591,O(V + E),True,0.6,Visited 100 reachable vertices with BFS.
+Adjacency List,dfs,traversal,dense,100,2970,100,1.290625,12.90625,O(V + E),True,0.6,Visited 100 reachable vertices with DFS.
+Adjacency List,dijkstra,shortest_path,dense,100,2970,3070,17.38775,5.663762,O((V + E) log V),True,0.6,Shortest path from V001 to V100 has distance 2.
+Adjacency List,bellman_ford,shortest_path,dense,100,2970,297000,26.574583,0.089477,O(VE),True,0.6,Bellman-Ford path from V001 to V100 has distance 2.
+Adjacency List,remove_edges,mutation,dense,100,2970,50,1.458,29.160003,O(1) average,True,0.6,Removed 50 sampled edges from a rebuilt graph.
+Adjacency Matrix,build,construction,dense,100,2970,3070,1.407083,0.458333,O(V^2 + E),True,0.6,Built dense graph with 100 vertices.
+Adjacency Matrix,adjacency_check,adjacency_queries,dense,100,2970,200,0.038917,0.194586,O(1),True,0.6,Checked 200 source-target pairs.
+Adjacency Matrix,neighbor_scan,neighbor_scan,dense,100,2970,100,0.348042,3.48042,O(V^2),True,0.6,Scanned all adjacency rows.
+Adjacency Matrix,bfs,traversal,dense,100,2970,100,1.295625,12.95625,O(V^2),True,0.6,Visited 100 reachable vertices with BFS.
+Adjacency Matrix,dfs,traversal,dense,100,2970,100,1.479542,14.795419,O(V^2),True,0.6,Visited 100 reachable vertices with DFS.
+Adjacency Matrix,dijkstra,shortest_path,dense,100,2970,3070,16.636916,5.419191,O(V^2 log V),True,0.6,Shortest path from V001 to V100 has distance 2.
+Adjacency Matrix,bellman_ford,shortest_path,dense,100,2970,297000,6.433625,0.021662,O(VE),True,0.6,Bellman-Ford path from V001 to V100 has distance 2.
+Adjacency Matrix,remove_edges,mutation,dense,100,2970,50,1.4515,29.03,O(1),True,0.6,Removed 50 sampled edges from a rebuilt graph.

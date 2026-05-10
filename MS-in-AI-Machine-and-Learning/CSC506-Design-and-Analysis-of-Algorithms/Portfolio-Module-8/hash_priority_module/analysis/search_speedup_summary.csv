@@ -1,0 +1,7 @@
+dataset_size,query_mode,hash_time_ms,linear_time_ms,speedup,notes
+100,hits,0.223933,0.418788,1.8701,Hash table search is 1.87x faster than linear search for hits queries at n=100.
+100,misses,0.352144,0.728962,2.0701,Hash table search is 2.07x faster than linear search for misses queries at n=100.
+100,mixed,0.293488,0.595468,2.0289,Hash table search is 2.03x faster than linear search for mixed queries at n=100.
+500,hits,0.241981,1.951166,8.0633,Hash table search is 8.06x faster than linear search for hits queries at n=500.
+500,misses,0.367019,3.481334,9.4854,Hash table search is 9.49x faster than linear search for misses queries at n=500.
+500,mixed,0.302797,2.73381,9.0285,Hash table search is 9.03x faster than linear search for mixed queries at n=500.

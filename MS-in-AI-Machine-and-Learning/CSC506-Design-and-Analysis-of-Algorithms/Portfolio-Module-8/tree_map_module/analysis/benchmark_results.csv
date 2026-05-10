@@ -1,0 +1,25 @@
+method,scenario,query_mode,size,time_ms,repeat_count,height,is_balanced,notes,speedup_vs_list
+TreeMap,random_insertion,hits,50,0.04812504630535841,5,7.0,False,integers dataset,1.041558718017567
+ListMap,random_insertion,hits,50,0.05012506153434515,5,,,integers dataset,
+TreeMap,random_insertion,hits,100,0.1261249417439103,5,12.0,False,integers dataset,1.5328764404816297
+ListMap,random_insertion,hits,100,0.19333395175635815,5,,,integers dataset,
+TreeMap,random_insertion,hits,500,0.6877919659018517,5,19.0,False,integers dataset,5.6635351403025815
+ListMap,random_insertion,hits,500,3.895333968102932,5,,,integers dataset,
+TreeMap,random_insertion,misses,50,0.03254192415624857,5,7.0,False,integers dataset,1.5287962423041286
+ListMap,random_insertion,misses,50,0.049749971367418766,5,,,integers dataset,
+TreeMap,random_insertion,misses,100,0.06524997297674417,5,12.0,False,integers dataset,2.8263154044742755
+ListMap,random_insertion,misses,100,0.18441700376570225,5,,,integers dataset,
+TreeMap,random_insertion,misses,500,0.23508293088525534,5,19.0,False,integers dataset,21.737184347217195
+ListMap,random_insertion,misses,500,5.110041005536914,5,,,integers dataset,
+TreeMap,sorted_insertion,hits,50,0.09491597302258015,5,49.0,False,integers dataset,0.23968567020146642
+ListMap,sorted_insertion,hits,50,0.02274999860674143,5,,,integers dataset,
+TreeMap,sorted_insertion,hits,100,0.3491670358926058,5,99.0,False,integers dataset,0.23639709240955123
+ListMap,sorted_insertion,hits,100,0.08254207205027342,5,,,integers dataset,
+TreeMap,sorted_insertion,hits,500,8.230583043769002,5,499.0,False,integers dataset,0.22004819790390887
+ListMap,sorted_insertion,hits,500,1.811124966479838,5,,,integers dataset,
+TreeMap,sorted_insertion,misses,50,0.14824990648776293,5,49.0,False,integers dataset,0.23496121188230149
+ListMap,sorted_insertion,misses,50,0.03483297768980265,5,,,integers dataset,
+TreeMap,sorted_insertion,misses,100,0.5911249900236726,5,99.0,False,integers dataset,0.2284491578413561
+ListMap,sorted_insertion,misses,100,0.13504200614988804,5,,,integers dataset,
+TreeMap,sorted_insertion,misses,500,16.025624936446548,5,499.0,False,integers dataset,0.21853019928145673
+ListMap,sorted_insertion,misses,500,3.502083010971546,5,,,integers dataset,
