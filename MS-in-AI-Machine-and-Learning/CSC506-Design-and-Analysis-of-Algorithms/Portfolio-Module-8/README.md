@@ -87,23 +87,6 @@ Create a complete portfolio system that demonstrates mastery of all course conce
 - Performance analysis provides meaningful insights into algorithm and data structure trade-offs
 - Final presentation clearly communicates technical achievements and learning outcomes
 
-
----
-
-## Program Description
-
-This Streamlit web app wihch is an algoritms and data structures comparison tool.
-
-It integrates:
-
-- Search Comparison from Portfolio Milestone Module 2.
-- Linked Structures from Portfolio Milestone Module 4.
-- Tree Map and map comparison work from Portfolio Milestone Module 6.
-- Hash Table and Priority Queue workflows from CTA-5.
-- Graph representation and graph algorithm workflows from CTA-7.
-- Bubble Sort, Quickselect, and CourseSet operations from the Module 8-native
-  `bubble_quickselect_module`.
-
 ---
 
 ## How to Run
