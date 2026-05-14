@@ -13,9 +13,6 @@ Spring A (26SA) - 2026
 Student: Alexander (Alex) Ricciardi
 License: Apache-2.0
 
-Date: 05/10/2026  
-Grade: 100% | A
-
 ---
 
 ## Program Description
