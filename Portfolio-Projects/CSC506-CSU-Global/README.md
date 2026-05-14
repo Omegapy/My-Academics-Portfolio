@@ -14,7 +14,7 @@ Student: Alexander (Alex) Ricciardi
 License: Apache-2.0
 
 Date: 05/10/2026  
-Grade: 
+Grade: 100% | A
 
 ---
 
