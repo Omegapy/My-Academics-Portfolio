@@ -50,7 +50,9 @@ My Links:
 ---
 
 Requirements:  
-Linux OS - Ubuntu Desktop 24.04.1 LTS  
+- Linux OS - Ubuntu Desktop 24.04.1 LTS
+- Windows 11
+- Python
 
 ---
 
@@ -63,21 +65,31 @@ Linux OS - Ubuntu Desktop 24.04.1 LTS
 ---
 
 ## Critical Thinking Module 1
-Directory: [Critical-Thinking-Module-1]()   
-Title: Critical Thinking Module 1 - [...]
+Directory: [Critical-Thinking-Module-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-507-Foundation-of-Operating-Systems/Critical-Thinking-Module-1)   
+Title: Critical Thinking Module 1 - Linux Shell Commands
 
 ---
----
-
-**Project Description:**
-
-[...]
-
 ---
 
 **Assignment:**
 
-[...]
+Perform Shell Commands to Understand Elements of Computers
+In your Linux computer, use shell commands to determine the specifications of the four main structural components of your computer. The four components to investigate are the following:
+
+- Processor
+- Main memory
+- I/O modules
+- Storage devices (e.g., hard drives, solid-state drives)
+
+Explain the commands you use and provide descriptions of the results. Additionally, include screenshots of the results in your paper.
+
+Note: To complete this assignment, you need to set up a Linux OS on your computer. To do this, follow the instructions in Module 1: Portfolio Reminder.
+
+**Grading Criteria**  
+- Your paper should be 2-3 pages in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence.  Include at least 3 credible references. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
 
 ---
 
