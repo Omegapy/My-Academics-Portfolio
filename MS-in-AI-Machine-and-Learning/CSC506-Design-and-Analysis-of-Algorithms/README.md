@@ -29,7 +29,7 @@ Professor: Dr. Jonathan Vanover
 Spring A (26SA) – 2026   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade: 
+Final grade: 4.0 | A
 
 ---
 

@@ -10,11 +10,8 @@ Grade: In Progress
 Design and Analysis of Algorithms CSC506  
 Professor: Dr. Jonathan Vanover  
 Spring A (26SA) - 2026  
-Student: Alexander (Alex) Ricciardi
+Student: Alexander (Alex) Ricciardi  
 License: Apache-2.0
-
-Date: 05/10/2026  
-Grade: 
 
 ---
 
