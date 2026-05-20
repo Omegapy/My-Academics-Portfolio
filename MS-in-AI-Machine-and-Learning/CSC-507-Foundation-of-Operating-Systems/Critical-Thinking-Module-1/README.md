@@ -1,4 +1,4 @@
-﻿# Critical Thinking Module 1  
+﻿# Critical Thinking Module 1 - Linux Shell Commands
 Project: CTA1 - Linux Shell Commands
 
 Data:  05/10/2026  
