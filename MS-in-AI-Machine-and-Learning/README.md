@@ -49,11 +49,47 @@ My Links:
 ---
 
 #### Project Map
+- [CSC507 Foundation of Operating Systems](#csc507-foundation-of-operating-systems)
 - [CSC506 Design and Analysis of Algorithms](#csc506-design-and-analysis-of-algorithms)
 - [CSC502 Ethical Leadership in Software Development](#csc502-ethical-leadership-in-software-development)
 - [CSC505 Principles of Software Development](#csc505-principles-of-software-development)
 - [CSC501 Management for the Computer Science Professional](#csc501-management-for-the-computer-science-professional)
 - [CSC500 Principles of Programming](#csc500-principles-of-programming)
+
+---
+---
+
+## CSC507 Foundation of Operating Systems
+Directory: [CSC507-Foundation-of-Operating-Systems](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-507-Foundation-of-Operating-Systems)
+
+---
+
+Project Description:  
+This repository contains a collection of assignments from CSC507: Foundation of Operating Systems, offered at Colorado State University Global (CSU Global).
+
+Foundation of Operating Systems CSC507   
+Professor: Dr. Joseph Issa  
+Spring C (26SC) – 2026   
+Student: Alexander (Alex) Ricciardi  
+
+Final grade: 
+
+---
+
+**CSC507 - Foundation of Operating Systems**.   
+This course will introduce you to the ins and outs of Computer Operating Systems. You will learn how and why operating systems evolved from the simple batch systems in the early days, to the advanced and varied systems we use today. You will understand the essential elements of operating systems, including processors, memory, and file management. This course will use both theory and practical application of the information learned.
+
+**Course Learning Outcomes:**     
+1. Identify factors that can affect the lower bound of a solution.
+2. Discuss the use of abstract data types in software development.
+3. Create an application that demonstrates optimal performance.
+4. Implement a recursive solution to solve a specific problem.
+5. Develop an application that makes use of appropriate data structures.
+6. Evaluate the Big-O runtime of an algorithm.
+
+---
+
+[Go back to the Project Map](#project-map) 
 
 ---
 ---
@@ -71,7 +107,7 @@ Professor: Dr. Jonathan Vanover
 Spring A (26SA) – 2026   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade:
+Final grade: 4.0 |A
 
 ---
 
