@@ -24,8 +24,8 @@ This course will introduce you to the ins and outs of Computer Operating Systems
 
 ---
 
-Foundation of Operating Systems CSC507  
-Professor: Dr. Joseph Issa 
+Foundation of Operating Systems CSC507   
+Professor: Dr. Joseph Issa  
 Spring C (26SC) – 2026   
 Student: Alexander (Alex) Ricciardi   
 
