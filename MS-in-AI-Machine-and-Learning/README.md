@@ -67,8 +67,8 @@ Directory: [CSC507-Foundation-of-Operating-Systems](https://github.com/Omegapy/M
 Project Description:  
 This repository contains a collection of assignments from CSC507: Foundation of Operating Systems, offered at Colorado State University Global (CSU Global).
 
-Foundation of Operating Systems CSC507  
-Professor: Dr. Joseph Issa 
+Foundation of Operating Systems CSC507   
+Professor: Dr. Joseph Issa  
 Spring C (26SC) – 2026   
 Student: Alexander (Alex) Ricciardi  
 
