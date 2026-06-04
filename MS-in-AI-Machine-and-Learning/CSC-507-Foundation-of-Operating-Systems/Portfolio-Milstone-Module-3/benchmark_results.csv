@@ -1,0 +1,5 @@
+method,line_count,chunk_size,workers,elapsed_seconds,elapsed_hms,verified_lines,file_size_bytes,platform_name,platform_release,python_version,cpu_count
+sequential,1000000,50000,1,0.291220,00:00:00,1000000,5661515,Linux,6.17.0-20-generic,3.12.3,32
+buffered,1000000,50000,1,0.282278,00:00:00,1000000,5661446,Linux,6.17.0-20-generic,3.12.3,32
+threaded,1000000,50000,32,0.374363,00:00:00,1000000,5660804,Linux,6.17.0-20-generic,3.12.3,32
+multiprocessing,1000000,50000,32,0.052204,00:00:00,1000000,5660827,Linux,6.17.0-20-generic,3.12.3,32

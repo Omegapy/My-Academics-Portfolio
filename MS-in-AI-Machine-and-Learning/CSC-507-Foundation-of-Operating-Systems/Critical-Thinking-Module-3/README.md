@@ -2,7 +2,7 @@
 Project: CTA3 - Large Files Case Study
 
 Data:  05/31/2026  
-Grade: 
+Grade: 100% | A
 
 ---
 

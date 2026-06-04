@@ -1,6 +1,6 @@
 ﻿# Portfolio Milestone Module 2 
 
-Data: 05/24/2026  
+Date: 05/24/2026  
 Grade: 100% | A
 
 ---
@@ -23,7 +23,7 @@ Program Requirements:
 Run these commands from the repository root:
 
 ```bash
-cd CTAs/Portfolio-Milstone-Module-2
+cd Portfolio-Milstone-Module-2
 chmod +x numbers.sh
 ./numbers.sh
 python3 create_file2.py
