@@ -6,7 +6,7 @@ Grade: 100% | A
 ---
 
 Foundation of Operating Systems CSC507  
-Professor: Dr. Joseph Issa 
+Professor: Dr. Joseph Issa  
 Spring C (26SC) – 2026   
 Student: Alexander (Alex) Ricciardi 
 
@@ -70,7 +70,7 @@ No screenshot-generation code is included in this folder; `terminal.png` is a ma
 ## Assignment
 
 
-**This assignment is a Portfolio Milestone for Module 2.**
+**This assignment is a Portfolio Milestone for Module 2**
 
 Portfolio Milestone Project: Bash and Python Scripting
 
@@ -175,7 +175,6 @@ done
 Run this script, then verify that you now have 2 files with one billion lines each:
 
 wc -l hugefile*txt
-
 
 ---
 

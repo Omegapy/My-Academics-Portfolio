@@ -37,7 +37,7 @@ Perform at least five tasks on each OS using these two process management utilit
 
 **Project Map:**
 
-- CTA1 - Linux Shell Commands.pdf  contains the APA essay and screenshots of the terminal commands with results.
+- CTA2-Process Management.pdf  contains the APA essay
 
 ---
 
