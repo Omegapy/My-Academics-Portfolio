@@ -70,7 +70,7 @@ No screenshot-generation code is included in this folder; `terminal.png` is a ma
 ## Assignment
 
 
-**This assignment is a Portfolio Milestone for Module 2.**
+**This assignment is a Portfolio Milestone for Module 2**
 
 Portfolio Milestone Project: Bash and Python Scripting
 
