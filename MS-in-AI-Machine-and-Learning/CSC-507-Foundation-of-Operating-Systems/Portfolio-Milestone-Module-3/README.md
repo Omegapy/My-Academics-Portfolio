@@ -120,14 +120,6 @@ Write down the summary of the results, with the following information:
 3. Did each of these methods perform as you expected them to, or were there any surprises? Describe your findings in detail.
 4. If your system had double its current processing power (CPU power), how much of an improvement would you expect for this process? Explain the reasons for that estimate, and provide references to support your opinion.
 
-
-### Course Context
-
-- [Module 1](../../Module-1/) introduces operating-system foundations.
-- [Module 2](../../Module-2/) introduces processes and threads.
-- [Module 3](../../Module-3/) introduces concurrency, synchronization, and scheduling.
-- [Portfolio Milestone Module 2](../Portfolio-Milstone-Module-2/) provides the earlier 1,000-line Bash and Python template.
-
 ---
 
 My Links:
