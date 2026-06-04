@@ -90,7 +90,7 @@ Capture the Ubuntu terminal after running the Bash script, Python benchmark, and
 | `README.md`                       | This file and file map.                                                                                                                               |
 | `bash_random_file1_benchmark.sh`  | Bash benchmark file. It deletes the old `file1.txt`, creates one million random-number lines with `$RANDOM`, and reports elapsed time with `SECONDS`. |
 | `create_file2.py`                 | Python benchmark file. It creates `file2.txt` and compares sequential, buffered, threaded, and multiprocessing methods.                               |
-| `results_summary.docx`            | Results summary from benchmarks                                                                                                                       |
+| `results_summary.pdf`            | Results summary from benchmarks                                                                                                                       |
 | `benchmark_results.csv`           | Created by `create_file2.py`; Python runtime results after the Ubuntu run.                                                                            |
 | `file1.txt`                       | Created by `bash_random_file1_benchmark.sh`; contains 1,000,000 random-number lines after the Ubuntu run.                                             |
 | `file2.txt`                       | Created by `create_file2.py`; contains 1,000,000 random-number lines after the Ubuntu run.                                                            |
