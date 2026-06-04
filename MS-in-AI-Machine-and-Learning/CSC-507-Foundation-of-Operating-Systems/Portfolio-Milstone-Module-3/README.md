@@ -102,16 +102,24 @@ Capture the Ubuntu terminal after running the Bash script, Python benchmark, and
 
 **This assignment is a Portfolio Milestone for Module 3.**
 
-In a Linux installation, use Bash or a Linux shell to:
+In your Linux installation, modify the numbers.sh script, to do the following:
 
-1. Display the system time before and after the process, and use Bash `SECONDS` to report elapsed runtime.
-2. Modify the `for` loop to repeat one million times.
-3. Delete the prior `file1.txt`.
-4. Run the script and verify the new `file1.txt`.
+1. Add to the script commands to display the system time, before and after the process. Optional: store the system time in variables, to display just the difference at the end of the process, i.e. how many hours/minutes/seconds it took to run this script. Hint: use the built-in SECONDS variableLinks to an external site. to do most of the work.
+2. Modify the “for” loop to repeat one million (1,000,000) times.
+3. Save the script and delete file1.txt that was created from the previous exercise.
+4. Run the script.
 
-Then create a Python program to generate `file2.txt`, compare execution times, and test at least two additional methods for improving execution time. This implementation compares sequential writing, buffered writing, threaded chunk generation, and multiprocessing chunk generation.
+You should now have a file called file1.txt containing one million lines, with each line being a random number. You should also have information indicating how long this process took to run.
 
-The written findings are in [`module3_results_summary.md`](module3_results_summary.md).
+Create a Python program to perform this task, to create file2.txt, and compare execution times. Can you use what you've learned in the last 2 modules, like multithreading or synchronization, to make this process run faster? How would you do that? Use at least 2 other methods to try to improve execution time.
+
+Write down the summary of the results, with the following information:
+
+1. Describe the different methods you used to perform this task, with the times each one took.
+2. Explain why you chose each of those methods.
+3. Did each of these methods perform as you expected them to, or were there any surprises? Describe your findings in detail.
+4. If your system had double its current processing power (CPU power), how much of an improvement would you expect for this process? Explain the reasons for that estimate, and provide references to support your opinion.
+
 
 ### Course Context
 
