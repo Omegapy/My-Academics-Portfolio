@@ -6,7 +6,7 @@ Grade: 100% | A
 ---
 
 Foundation of Operating Systems CSC507  
-Professor: Dr. Joseph Issa 
+Professor: Dr. Joseph Issa  
 Spring C (26SC) – 2026   
 Student: Alexander (Alex) Ricciardi 
 
