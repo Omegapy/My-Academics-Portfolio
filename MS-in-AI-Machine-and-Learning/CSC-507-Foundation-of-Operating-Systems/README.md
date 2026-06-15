@@ -58,12 +58,12 @@ Requirements:
 
 #### Project Map  
 
-- [Portfolio Milestone Module 3](#portfolio-milestone-module-3)
-- [Critical Thinking Module 3](#critical-thinking-module-3)
-- [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
-- [Critical Thinking Module 2](#critical-thinking-module-2)
-- [Critical Thinking Module 1](#critical-thinking-module-1)
-- [Discussions](#discussions)
+- Portfolio Milestone Module 3
+- Critical Thinking Module 3
+- Portfolio Milestone Module 2
+- Critical Thinking Module 2
+- Critical Thinking Module 1
+- Discussions
 
 ---
 ---

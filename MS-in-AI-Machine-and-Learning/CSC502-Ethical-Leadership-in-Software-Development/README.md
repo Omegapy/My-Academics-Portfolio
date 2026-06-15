@@ -52,15 +52,15 @@ My Links:
 
 #### Project Map  
 
-- [Critical Thinking Module 1](#critical-thinking-module-1)
-- [Critical Thinking Module 2](#critical-thinking-module-2)
-- [Critical Thinking Module 3](#critical-thinking-module-3)
-- [Critical Thinking Module 4](#critical-thinking-module-4)
-- [Midterm Module 4](#midterm-module-4)
-- [Critical Thinking Module 5](#critical-thinking-module-5)
-- [Critical Thinking Module 6](#critical-thinking-module-6)
-- [Portfolio Project Module 8](#portfolio-project-module-8)
-- [Discussions](#discussions)
+- Critical Thinking Module 1
+- Critical Thinking Module 2
+- Critical Thinking Module 3
+- Critical Thinking Module 4
+- Midterm Module 4
+- Critical Thinking Module 5
+- Critical Thinking Module 6
+- Portfolio Project Module 8
+- Discussions
 
 ---
 ---

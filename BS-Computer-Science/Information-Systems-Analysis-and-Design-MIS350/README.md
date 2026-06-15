@@ -39,13 +39,13 @@ My Links:
 
 #### Project Map  
 
-- [Module 8 Portfolio Project](#module-8-portfolio-project)
-- [Module 6 Critical Thinking](#module-6-critical-thinking) 
-- [Module 5 Milestone](#module-5-milestone)
-- [Module 3 Milestone](#module-3-milestone)
-- [Module 2 Critical Thinking](#module-2-critical-thinking)  
-- [Module 1 Critical Thinking](#module-1-critical-thinking)   
-- [Discussions](#discussions)
+- Module 8 Portfolio Project
+- Module 6 Critical Thinking
+- Module 5 Milestone
+- Module 3 Milestone
+- Module 2 Critical Thinking
+- Module 1 Critical Thinking
+- Discussions
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------

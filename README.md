@@ -65,12 +65,12 @@ My Links:
 ---
 
 #### Project Map
-- [MS in AI and Machine Learning](#ms-in-ai-and-machine-learning)
-- [BS in Computer Science](#bs-in-computer-science)
-- [Computer Science 1 cpp](#computer-science-1-cpp)  
-- [Python Data Science](#python-data-science)
-- [Portfolio Projects](#portfolio-projects)
-- [My Resume](#my-resume)
+- MS in AI and Machine Learning
+- BS in Computer Science
+- Computer Science 1 cpp
+- Python Data Science
+- Portfolio Projects
+- My Resume
 
 ---
 ---

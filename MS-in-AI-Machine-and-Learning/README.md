@@ -49,12 +49,12 @@ My Links:
 ---
 
 #### Project Map
-- [CSC507 Foundation of Operating Systems](#csc507-foundation-of-operating-systems)
-- [CSC506 Design and Analysis of Algorithms](#csc506-design-and-analysis-of-algorithms)
-- [CSC502 Ethical Leadership in Software Development](#csc502-ethical-leadership-in-software-development)
-- [CSC505 Principles of Software Development](#csc505-principles-of-software-development)
-- [CSC501 Management for the Computer Science Professional](#csc501-management-for-the-computer-science-professional)
-- [CSC500 Principles of Programming](#csc500-principles-of-programming)
+- CSC507 Foundation of Operating Systems
+- CSC506 Design and Analysis of Algorithms
+- CSC502 Ethical Leadership in Software Development
+- CSC505 Principles of Software Development
+- CSC501 Management for the Computer Science Professional
+- CSC500 Principles of Programming
 
 ---
 ---

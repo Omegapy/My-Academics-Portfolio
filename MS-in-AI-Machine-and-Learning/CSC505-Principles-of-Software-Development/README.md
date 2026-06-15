@@ -55,14 +55,14 @@ Requirements:
 
 #### Project Map  
 
-- [Portfolio Project](#portfolio-project)
-- [Critical Thinking 6](#critical-thinking-6)
-- [Critical Thinking 5](#critical-thinking-5)
-- [Critical Thinking 4](#critical-thinking-4)
-- [Critical Thinking 3](#critical-thinking-3)
-- [Critical Thinking 2](#critical-thinking-2)
-- [Critical Thinking 1](#critical-thinking-1)
-- [Discussions](#discussions)
+- Portfolio Project
+- Critical Thinking 6
+- Critical Thinking 5
+- Critical Thinking 4
+- Critical Thinking 3
+- Critical Thinking 2
+- Critical Thinking 1
+- Discussions
 
 ---
 ---

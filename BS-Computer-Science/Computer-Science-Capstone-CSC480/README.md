@@ -102,15 +102,15 @@ My Links:
 
 #### Project Map  
 
-- [Module 8 Capstone Project](#module-8-capstone-project)
-- [Module 7 Capstone Milestone](#module-7-capstone-milestone)
-- [Module 6 Capstone Milestone](#module-6-capstone-milestone)
-- [Module 5 Capstone Milestone](#module-5-capstone-milestone)
-- [Module 4 Capstone Milestone](#module-4-capstone-milestone)
-- [Module 3 Capstone Milestone](#module-3-capstone-milestone)
-- [Module 2 Capstone Milestone](#module-2-capstone-milestone)
-- [Module 1 Capstone Milestone](#module-1-capstone-milestone)   
-- [Discussions](#discussions)
+- Module 8 Capstone Project
+- Module 7 Capstone Milestone
+- Module 6 Capstone Milestone
+- Module 5 Capstone Milestone
+- Module 4 Capstone Milestone
+- Module 3 Capstone Milestone
+- Module 2 Capstone Milestone
+- Module 1 Capstone Milestone
+- Discussions
 
 
 -----------------------------------------------------------------------------------------------------------------------------

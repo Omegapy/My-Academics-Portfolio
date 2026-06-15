@@ -62,15 +62,15 @@ Requirements:
 
 #### Project Map  
 
-- [Portfolio Module 8](#portfolio-module-8)
-- [Critical Thinking Module 7](#critical-thinking-module-7)
-- [Portfolio Milestone Module 6](#portfolio-milestone-module-6)
-- [Critical Thinking Module 5](#critical-thinking-module-5)
-- [Portfolio Milestone Module 4](#portfolio-milestone-module-4)
-- [Critical Thinking Module 3](#critical-thinking-module-3)
-- [Portfolio Milestone Module 2](#portfolio-milestone-module-2)
-- [Critical Thinking Module 1](#critical-thinking-module-1)
-- [Discussions](#discussions)
+- Portfolio Module 8
+- Critical Thinking Module 7
+- Portfolio Milestone Module 6
+- Critical Thinking Module 5
+- Portfolio Milestone Module 4
+- Critical Thinking Module 3
+- Portfolio Milestone Module 2
+- Critical Thinking Module 1
+- Discussions
 
 ---
 ---

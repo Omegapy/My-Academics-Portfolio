@@ -45,13 +45,13 @@ My Links:
 
 #### Project Map  
 
-- [Protfolio Part 2](#protfolio-part-2)
-- [Protfolio Part 1](#protfolio-part-1)
-- [Critical Thinking 5](#critical-thinking-5)
-- [Critical Thinking 3](#critical-thinking-3) 
-- [Critical Thinking 2](#critical-thinking-2) 
-- [Critical Thinking 1](#critical-thinking-1)   
-- [Discussions](#discussions)
+- Protfolio Part 2
+- Protfolio Part 1
+- Critical Thinking 5
+- Critical Thinking 3
+- Critical Thinking 2
+- Critical Thinking 1
+- Discussions
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
