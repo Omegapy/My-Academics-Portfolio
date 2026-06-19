@@ -1,0 +1,2 @@
+method,input_file,output_file,line_count,elapsed_seconds,elapsed_hms,verified_lines,verified_correct,file_size_bytes,platform_name,platform_release,python_version,cpu_count,notes
+bash_line_by_line,/home/rowan/CSU/CSC-507/Portfolio-Milstone-Module-4/file1.txt,/home/rowan/CSU/CSC-507/Portfolio-Milstone-Module-4/newfile1.txt,1000000,8.000000,00:00:08,1000000,true,5830325,Linux,6.17.0-20-generic,n/a,32,Bash SECONDS integer timing

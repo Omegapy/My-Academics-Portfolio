@@ -1,0 +1,7 @@
+scenario,strategy,allocated,failed,fragmentation_failures,total_free_memory,largest_hole,remaining_hole_count,total_hole_inspections,block_sizes,process_sizes,remaining_hole_sizes
+Balanced mixed-size requests,First-Fit,3,1,1,959,300,5,14,"100,500,200,300,600","212,417,112,426","100,176,200,300,183"
+Balanced mixed-size requests,Best-Fit,4,0,0,533,174,5,20,"100,500,200,300,600","212,417,112,426","100,83,88,88,174"
+Clustered small and medium requests,First-Fit,6,0,0,550,275,5,15,"150,350,120,500,275","115,90,130,260,50,200","35,80,120,40,275"
+Clustered small and medium requests,Best-Fit,6,0,0,550,300,5,30,"150,350,120,500,275","115,90,130,260,50,200","10,90,5,300,145"
+High fragmentation pressure,First-Fit,7,0,0,300,190,5,18,"400,180,220,260,300","175,205,90,240,60,180,110","20,30,40,20,190"
+High fragmentation pressure,Best-Fit,7,0,0,300,220,4,33,"400,180,220,260,300","175,205,90,240,60,180,110","220,5,15,60"

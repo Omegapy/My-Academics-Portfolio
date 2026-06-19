@@ -1,0 +1,93 @@
+Scenario: Balanced mixed-size requests
+Memory blocks: [100, 500, 200, 300, 600]
+Process sizes: [212, 417, 112, 426]
+
+Strategy: First-Fit
+Process  Size  Result                                Inspected
+-------  ----  ------------------------------------ ---------
+P1        212  addr 100, hole 500, left 288                 2
+P2        417  addr 1100, hole 600, left 183                5
+P3        112  addr 312, hole 288, left 176                 2
+P4        426  not allocated (external fragmentation)         5
+Summary: allocated 3/4, failed 1, free memory 959, largest hole 300, remaining holes 5, inspections 14, fragmentation failures 1
+Remaining holes: (start=0, size=100), (start=424, size=176), (start=600, size=200), (start=800, size=300), (start=1517, size=183)
+
+Strategy: Best-Fit
+Process  Size  Result                                Inspected
+-------  ----  ------------------------------------ ---------
+P1        212  addr 800, hole 300, left 88                  5
+P2        417  addr 100, hole 500, left 83                  5
+P3        112  addr 600, hole 200, left 88                  5
+P4        426  addr 1100, hole 600, left 174                5
+Summary: allocated 4/4, failed 0, free memory 533, largest hole 174, remaining holes 5, inspections 20, fragmentation failures 0
+Remaining holes: (start=0, size=100), (start=517, size=83), (start=712, size=88), (start=1012, size=88), (start=1526, size=174)
+
+Scenario: Clustered small and medium requests
+Memory blocks: [150, 350, 120, 500, 275]
+Process sizes: [115, 90, 130, 260, 50, 200]
+
+Strategy: First-Fit
+Process  Size  Result                                Inspected
+-------  ----  ------------------------------------ ---------
+P1        115  addr 0, hole 150, left 35                    1
+P2         90  addr 150, hole 350, left 260                 2
+P3        130  addr 240, hole 260, left 130                 2
+P4        260  addr 620, hole 500, left 240                 4
+P5         50  addr 370, hole 130, left 80                  2
+P6        200  addr 880, hole 240, left 40                  4
+Summary: allocated 6/6, failed 0, free memory 550, largest hole 275, remaining holes 5, inspections 15, fragmentation failures 0
+Remaining holes: (start=115, size=35), (start=420, size=80), (start=500, size=120), (start=1080, size=40), (start=1120, size=275)
+
+Strategy: Best-Fit
+Process  Size  Result                                Inspected
+-------  ----  ------------------------------------ ---------
+P1        115  addr 500, hole 120, left 5                   5
+P2         90  addr 0, hole 150, left 60                    5
+P3        130  addr 1120, hole 275, left 145                5
+P4        260  addr 150, hole 350, left 90                  5
+P5         50  addr 90, hole 60, left 10                    5
+P6        200  addr 620, hole 500, left 300                 5
+Summary: allocated 6/6, failed 0, free memory 550, largest hole 300, remaining holes 5, inspections 30, fragmentation failures 0
+Remaining holes: (start=140, size=10), (start=410, size=90), (start=615, size=5), (start=820, size=300), (start=1250, size=145)
+
+Scenario: High fragmentation pressure
+Memory blocks: [400, 180, 220, 260, 300]
+Process sizes: [175, 205, 90, 240, 60, 180, 110]
+
+Strategy: First-Fit
+Process  Size  Result                                Inspected
+-------  ----  ------------------------------------ ---------
+P1        175  addr 0, hole 400, left 225                   1
+P2        205  addr 175, hole 225, left 20                  1
+P3         90  addr 400, hole 180, left 90                  2
+P4        240  addr 800, hole 260, left 20                  4
+P5         60  addr 490, hole 90, left 30                   2
+P6        180  addr 580, hole 220, left 40                  3
+P7        110  addr 1060, hole 300, left 190                5
+Summary: allocated 7/7, failed 0, free memory 300, largest hole 190, remaining holes 5, inspections 18, fragmentation failures 0
+Remaining holes: (start=380, size=20), (start=550, size=30), (start=760, size=40), (start=1040, size=20), (start=1170, size=190)
+
+Strategy: Best-Fit
+Process  Size  Result                                Inspected
+-------  ----  ------------------------------------ ---------
+P1        175  addr 400, hole 180, left 5                   5
+P2        205  addr 580, hole 220, left 15                  5
+P3         90  addr 800, hole 260, left 170                 5
+P4        240  addr 1060, hole 300, left 60                 5
+P5         60  addr 1300, hole 60, left 0                   5
+P6        180  addr 0, hole 400, left 220                   4
+P7        110  addr 890, hole 170, left 60                  4
+Summary: allocated 7/7, failed 0, free memory 300, largest hole 220, remaining holes 4, inspections 33, fragmentation failures 0
+Remaining holes: (start=180, size=220), (start=575, size=5), (start=785, size=15), (start=1000, size=60)
+
+Comparison Summary
+Scenario                                Strategy   Alloc  Fail  Free  Largest  Inspections
+--------------------------------------  ---------  -----  ----  ----  -------  -----------
+Balanced mixed-size requests           First-Fit     3    1  959     300          14
+Balanced mixed-size requests           Best-Fit      4    0  533     174          20
+Clustered small and medium requests    First-Fit     6    0  550     275          15
+Clustered small and medium requests    Best-Fit      6    0  550     300          30
+High fragmentation pressure            First-Fit     7    0  300     190          18
+High fragmentation pressure            Best-Fit      7    0  300     220          33
+
+CSV summary written to: CTAs/CAT-4/first_fit_results.csv
