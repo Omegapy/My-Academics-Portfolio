@@ -58,12 +58,169 @@ Requirements:
 
 #### Project Map  
 
+- Critical Thinking Module 6
+- Critical Thinking Module 5
+- Portfolio Milestone Module 4
+- Critical Thinking Module 4
 - Portfolio Milestone Module 3
 - Critical Thinking Module 3
 - Portfolio Milestone Module 2
 - Critical Thinking Module 2
 - Critical Thinking Module 1
 - Discussions
+
+---
+---
+
+## Critical Thinking Module 6
+Directory: [Critical-Thinking-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-507-Foundation-of-Operating-Systems/Critical-Thinking-Module-6)   
+Title: Critical Thinking Module 6 - Real-Time Process Scheduling
+
+---
+---
+
+**Assignment:**
+
+Evaluate Real-Time Process Scheduling
+
+In an earlier module, you created programs that read the contents of a large file and process it, writing the results into another large file. What if the files were 10x bigger, i.e. instead of a million rows, they were 10 million rows? Which of the following methods would have the fastest processing time:
+
+1. Run the process as it is, with the larger files.
+2. Break the input file up into 10 files and schedule the process on each one to run in real-time, then combine the resulting files into a single output file. 
+3. Break the input file up into 2 files and schedule the process on each one to run in real-time, then combine the resulting files into a single output file. 
+4. Break the input file up into 5 files and schedule the process on each one to run in real-time, then combine the resulting files into a single output file. 
+5. Break the input file up into 20 files and schedule the process on each one to run in real-time, then combine the resulting files into a single output file.
+
+Can you think of other ways to increase efficiency and reduce processing time? Describe in detail or provide a script to do so, with expected results for each method. Feel free to create such scripts and run them, to have actual results instead of theoretical results.AM.
+
+**Grading Criteria**  
+- Your paper should be 2-3 pages in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence.  Include at least 3 credible references. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+  
+---
+
+[Go back to the Project Map](#project-map)
+
+---
+---
+
+## Critical Thinking Module 5
+Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-507-Foundation-of-Operating-Systems/Critical-Thinking-Module-5)   
+Title: Critical Thinking Module 5 - Virtual Memory Settings on macOS
+
+---
+---
+
+**Assignment:**
+
+Evaluate and Experiment with Virtual Memory Settings on a Computer
+
+In your computer's OS, locate the settings for virtual memory. Are they set to the optimal setting? What happens when you increase the size to be double that of the current setting? What happens when you turn off virtual memory? How does the size of your RAM affect the recommendations for optimal virtual memory settings?
+
+Describe how it affects the performance of your computer, to use different virtual memory sizes, or to not use it at all. Which resource-intensive applications are affected, and which ones are not? Be sure to include the identifying information about your OS, such as the hardware it is running on, OS name & version, processor, system type, and the size of the RAM.
+
+**Grading Criteria**  
+- Your paper should be 2-3 pages in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence.  Include at least 3 credible references. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+  
+---
+
+[Go back to the Project Map](#project-map)
+
+---
+---
+
+## Portfolio Milestone Module 4
+Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-507-Foundation-of-Operating-Systems/Portfolio-Milestone-Module-4)   
+
+---
+---
+
+**Assignment:**
+
+**This assignment is a Portfolio Milestone for Module 4.**
+
+From the previous exercises, you have 2 files in your Linux installation: file1.txt and file2.txt, both with one million rows of random numbers. Create a new script, double_numbers.sh, to read each line of file1.txt, storing the number from each line into a variable, then write a value that is double the original number into another file called newfile1.txt. Once this is done for the entire contents of file1.txt, display the time it took to run. Your script might look as follows:
+
+#!/bin/bash
+
+SECONDS=0
+
+while read -r number
+
+do
+
+  let "number *= 2"
+
+  echo $number >> newfile1.txt
+
+done < file1.txt
+
+duration=$SECONDS
+
+echo $duration
+
+You may want to create a smaller file to work with until the process is working correctly. You can use the "head" command to grab the first 10 rows of file1.txt into another file, and use that file in your script:
+
+head file1.txt > tempfile.txt
+
+For proper syntax of reading files into variables, read this: How to read file line by line in Bash scriptLinks to an external site..
+
+You can also use the "head" command to quickly verify that newfile1.txt contains numbers that are double the value of the corresponding rows of file1.txt:
+
+head file1.txt newfile1.txt
+
+Once you have the script working to your satisfaction, delete newfile1.txt and run double_numbers.sh. You should now have a file called newfile1.txt containing one million lines. You should also have information indicating how long this process took to run.
+
+Using Python, create a program to perform this task, with 3 methods of doing this:
+
+1. Read the entire contents of file1.txt into memory, then process each row.
+2. Read one row of file1.txt at a time and process it.
+3. Split file1.txt into 2 parts and read each part into memory separately.
+
+Be sure to capture execution times for each method. How do they compare to each other, and to that of the double_numbers.sh script? Were there any surprises for you, or did the results match your expectations? Describe your findings in detail.
+   
+---
+
+[Go back to the Project Map](#project-map)
+
+---
+---
+
+## Critical Thinking Module 4
+Directory: [Critical-Thinking-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-507-Foundation-of-Operating-Systems/Critical-Thinking-Module-4)   
+Title: Critical Thinking Module 4 - First-Fit Memory Allocation
+
+---
+---
+
+**Assignment:**
+
+Case Studies of Large Data Files 
+
+Memory Management
+
+In memory management, the First-Fit Algorithm allocates the first available memory block that can accommodate a process. Your task is to create a program that simulates the First-Fit Algorithm for memory allocation in an operating system using a programming language of your choice. Test your algorithm with varying memory block sizes and process sizes.
+
+In your summary paper:
+
+- Explain how the First-Fit Algorithm works and compare it with the Best-Fit Algorithm.
+    - Include screenshots of the source code in your paper for reference.
+- Can you think of situations where the Best-Fit Algorithm is preferable to the First-Fit Algorithm? Explain your reasons for that opinion.
+
+**Grading Criteria**  
+- Your paper should be 2-3 pages in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence.  Include at least 3 credible references. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+  
+---
+
+[Go back to the Project Map](#project-map)
 
 ---
 ---
