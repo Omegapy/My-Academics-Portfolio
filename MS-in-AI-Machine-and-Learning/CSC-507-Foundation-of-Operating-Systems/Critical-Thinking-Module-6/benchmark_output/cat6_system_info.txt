@@ -1,0 +1,66 @@
+CAT-6 Ubuntu Benchmark System Information
+Captured: 2026-06-15 17:20:18 MDT
+
+===== uname -a =====
+Linux ai01 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+===== lsb_release -a =====
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.4 LTS
+Release:	24.04
+Codename:	noble
+
+===== lscpu summary =====
+Architecture:                            x86_64
+CPU(s):                                  32
+On-line CPU(s) list:                     0-31
+Model name:                              13th Gen Intel(R) Core(TM) i9-13900KS
+Thread(s) per core:                      2
+Core(s) per socket:                      24
+Socket(s):                               1
+CPU(s) scaling MHz:                      18%
+CPU max MHz:                             6000.0000
+CPU min MHz:                             800.0000
+NUMA node0 CPU(s):                       0-31
+
+===== memory =====
+               total        used        free      shared  buff/cache   available
+Mem:           125Gi       7.4Gi       114Gi       1.8Gi       6.3Gi       118Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+===== storage =====
+NAME          SIZE TYPE FSTYPE   MOUNTPOINTS                         MODEL
+loop0       428.5M loop squashfs /snap/code/244                      
+loop1           4K loop squashfs /snap/bare/5                        
+loop2       428.6M loop squashfs /snap/code/246                      
+loop3          74M loop squashfs /snap/core22/2411                   
+loop4        63.8M loop squashfs /snap/core20/2866                   
+loop5       248.5M loop squashfs /snap/firefox/8387                  
+loop6       248.6M loop squashfs /snap/firefox/8417                  
+loop7        91.7M loop squashfs /snap/gtk-common-themes/1535        
+loop8       606.1M loop squashfs /snap/gnome-46-2404/153             
+loop9        16.4M loop squashfs /snap/firmware-updater/224          
+loop10       66.8M loop squashfs /snap/core24/1643                   
+loop11         74M loop squashfs /snap/core22/2339                   
+loop12       48.4M loop squashfs /snap/snapd/26382                   
+loop13       66.8M loop squashfs /snap/core24/1587                   
+loop14        395M loop squashfs /snap/mesa-2404/1165                
+loop15      531.4M loop squashfs /snap/gnome-42-2204/247             
+loop16       15.5M loop squashfs /snap/snap-store/1310               
+loop17       16.5M loop squashfs /snap/firmware-updater/226          
+loop18      228.5M loop squashfs /snap/thunderbird/1138              
+loop19        580K loop squashfs /snap/snapd-desktop-integration/361 
+loop20       15.7M loop squashfs /snap/snap-store/1367               
+loop21       49.3M loop squashfs /snap/snapd/26865                   
+loop22      227.7M loop squashfs /snap/thunderbird/1117              
+loop23        576K loop squashfs /snap/snapd-desktop-integration/343 
+nvme0n1       3.6T disk                                              Samsung SSD 990 PRO 4TB
+├─nvme0n1p1     1G part vfat     /boot/efi                           
+└─nvme0n1p2   3.6T part ext4     /                                   
+nvme1n1       1.8T disk                                              WD_BLACK SN770 2TB
+└─nvme1n1p1   1.8T part ext4                                         
+
+===== scheduler tools =====
+/usr/bin/chrt
+ulimit -r: 0
+current user: rowan
