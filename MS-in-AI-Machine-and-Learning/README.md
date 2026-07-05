@@ -72,7 +72,7 @@ Professor: Dr. Joseph Issa
 Spring C (26SC) – 2026   
 Student: Alexander (Alex) Ricciardi  
 
-Final grade: 
+Final grade:  4.0 | A
 
 ---
 
@@ -107,7 +107,7 @@ Professor: Dr. Jonathan Vanover
 Spring A (26SA) – 2026   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade: 4.0 |A
+Final grade: 4.0 | A
 
 ---
 

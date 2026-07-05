@@ -1,0 +1,54 @@
+Module 8 Input and Environment Verification
+Timestamp UTC: 2026-06-22T20:39:49Z
+Working directory: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8
+Allow small inputs: false
+
+CPU count: 32
+
+Disk space for project directory:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  3.6T   51G  3.4T   2% /
+
+Kernel information:
+Linux ai01 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+Operating-system release information:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.4 LTS
+Release:	24.04
+Codename:	noble
+
+Memory information:
+               total        used        free      shared  buff/cache   available
+Mem:           125Gi       6.9Gi       103Gi       1.8Gi        18Gi       118Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+File: file1.txt
+Path: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file1.txt
+Status: present
+Line count: 1000000
+Byte count: 5661015
+Long listing: -rw-rw-r-- 1 rowan rowan 5.4M Jun 22 07:47 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file1.txt
+
+File: file2.txt
+Path: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file2.txt
+Status: present
+Line count: 1000000
+Byte count: 5660827
+Long listing: -rw-rw-r-- 1 rowan rowan 5.4M Jun 22 07:47 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file2.txt
+
+File: hugefile1.txt
+Path: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+Status: present
+Line count: 1000000000
+Byte count: 5661015000
+Long listing: -rw-rw-r-- 1 rowan rowan 5.3G Jun 22 14:39 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+
+File: hugefile2.txt
+Path: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+Status: present
+Line count: 1000000000
+Byte count: 5660827000
+Long listing: -rw-rw-r-- 1 rowan rowan 5.3G Jun 22 14:39 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+
+Conclusion: all required Module 8 input files are present.

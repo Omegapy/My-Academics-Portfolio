@@ -1,0 +1,358 @@
+rowan@ai01:~/CSU/CSC-507/Portfolio-Project-Module-8$ chmod +x *.sh
+./build_hugefiles.sh --build
+./run_all_benchmarks.sh
+Module 8 huge-file helper started: 2026-06-22T20:39:41Z
+Build mode: true
+Force mode: false
+Repeat count: 1000
+Seed input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file1.txt
+Seed input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file2.txt
+Huge output A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+Huge output B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+Building huge files inside the Module 8 directory.
+This follows the assignment pattern: append file1.txt and file2.txt 1000 times by default.
+Completed append iteration 50 of 1000
+Completed append iteration 100 of 1000
+Completed append iteration 150 of 1000
+Completed append iteration 200 of 1000
+Completed append iteration 250 of 1000
+Completed append iteration 300 of 1000
+Completed append iteration 350 of 1000
+Completed append iteration 400 of 1000
+Completed append iteration 450 of 1000
+Completed append iteration 500 of 1000
+Completed append iteration 550 of 1000
+Completed append iteration 600 of 1000
+Completed append iteration 650 of 1000
+Completed append iteration 700 of 1000
+Completed append iteration 750 of 1000
+Completed append iteration 800 of 1000
+Completed append iteration 850 of 1000
+Completed append iteration 900 of 1000
+Completed append iteration 950 of 1000
+Completed append iteration 1000 of 1000
+Build elapsed seconds: 7.345259
+Huge-file line counts:
+ 1000000000 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+ 1000000000 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+ 2000000000 total
+
+Huge-file byte counts:
+ 5661015000 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+ 5660827000 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+11321842000 total
+Module 8 huge-file helper ended: 2026-06-22T20:39:49Z
+Module 8 full benchmark run started: 2026-06-22T20:39:49Z
+Run full validation after final method: true
+Reset result CSV files first: true
+Module 8 Input and Environment Verification
+Timestamp UTC: 2026-06-22T20:39:49Z
+Working directory: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8
+Allow small inputs: false
+
+CPU count: 32
+
+Disk space for project directory:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  3.6T   51G  3.4T   2% /
+
+Kernel information:
+Linux ai01 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+Operating-system release information:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.4 LTS
+Release:	24.04
+Codename:	noble
+
+Memory information:
+               total        used        free      shared  buff/cache   available
+Mem:           125Gi       6.9Gi       103Gi       1.8Gi        18Gi       118Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+File: file1.txt
+Path: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file1.txt
+Status: present
+Line count: 1000000
+Byte count: 5661015
+Long listing: -rw-rw-r-- 1 rowan rowan 5.4M Jun 22 07:47 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file1.txt
+
+File: file2.txt
+Path: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file2.txt
+Status: present
+Line count: 1000000
+Byte count: 5660827
+Long listing: -rw-rw-r-- 1 rowan rowan 5.4M Jun 22 07:47 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/file2.txt
+
+File: hugefile1.txt
+Path: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+Status: present
+Line count: 1000000000
+Byte count: 5661015000
+Long listing: -rw-rw-r-- 1 rowan rowan 5.3G Jun 22 14:39 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+
+File: hugefile2.txt
+Path: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+Status: present
+Line count: 1000000000
+Byte count: 5660827000
+Long listing: -rw-rw-r-- 1 rowan rowan 5.3G Jun 22 14:39 /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+
+Conclusion: all required Module 8 input files are present.
+
+=== Baseline single-process run ===
+Module 8 baseline started: 2026-06-22T20:39:50Z
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/totalfile.txt
+Method: baseline_single_process
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/totalfile.txt
+Processed lines: 1000000000
+Elapsed seconds: 336.593907
+Elapsed HH:MM:SS: 00:05:37
+Output bytes: 5952944000
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+
+Line-count verification passed: 1000000000 lines
+
+First five rows from input A:
+30106
+21507
+29865
+7056
+9623
+
+First five rows from input B:
+17860
+2234
+32630
+29530
+19357
+
+First five rows from output:
+47966
+23741
+62495
+36586
+28980
+
+Module 8 baseline ended: 2026-06-22T20:45:28Z
+Validation label: baseline_single_process
+Validation mode: fast
+Overall status: passed
+Elapsed seconds: 99.990144
+Validation CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/validation_results.csv
+Verification report updated: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/verification_report.txt
+
+=== Two-program half-parallel run ===
+Module 8 half-parallel benchmark started: 2026-06-22T20:47:08Z
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/totalfile.txt
+Half split line count: 500000000
+
+Creating line-preserving half inputs.
+Half chunk 00 line count: 500000000
+Half chunk 01 line count: 500000000
+
+Launching both half workers through the operating system.
+Method: half_parallel_part_01
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/half/file1_part_01.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/half/file2_part_01.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/half/total_part_01.txt
+Processed lines: 500000000
+Elapsed seconds: 174.104195
+Elapsed HH:MM:SS: 00:02:54
+Output bytes: 2976472000
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: half_parallel_part_00
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/half/file1_part_00.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/half/file2_part_00.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/half/total_part_00.txt
+Processed lines: 500000000
+Elapsed seconds: 177.205168
+Elapsed HH:MM:SS: 00:02:57
+Output bytes: 2976472000
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+
+Concatenating half outputs in numeric order.
+
+Line-count verification passed: 1000000000 lines
+Split seconds: 8.877534
+Processing-only seconds: 177.237473
+Concatenation seconds: 1.050331
+End-to-end seconds: 188.202937
+Module 8 half-parallel benchmark ended: 2026-06-22T20:50:18Z
+Validation label: half_parallel_end_to_end
+Validation mode: fast
+Overall status: passed
+Elapsed seconds: 101.608398
+Validation CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/validation_results.csv
+Verification report updated: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/verification_report.txt
+
+=== Ten-way split and parallel run ===
+Module 8 ten-way split started: 2026-06-22T20:51:59Z
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+Chunk lines: 100000000
+Expected chunks: 10
+Chunk 00 line count: 100000000
+Chunk 01 line count: 100000000
+Chunk 02 line count: 100000000
+Chunk 03 line count: 100000000
+Chunk 04 line count: 100000000
+Chunk 05 line count: 100000000
+Chunk 06 line count: 100000000
+Chunk 07 line count: 100000000
+Chunk 08 line count: 100000000
+Chunk 09 line count: 100000000
+Ten-way split seconds: 8.998992
+Module 8 ten-way split ended: 2026-06-22T20:52:09Z
+Module 8 ten-way parallel benchmark started: 2026-06-22T20:52:09Z
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile1.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/hugefile2.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/totalfile.txt
+Expected chunks: 10
+
+Verifying input chunks before worker launch.
+
+Launching ten chunk workers through the operating system.
+Method: ten_way_chunk_09
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_09.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_09.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_09.txt
+Processed lines: 100000000
+Elapsed seconds: 36.782221
+Elapsed HH:MM:SS: 00:00:37
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_08
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_08.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_08.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_08.txt
+Processed lines: 100000000
+Elapsed seconds: 36.816769
+Elapsed HH:MM:SS: 00:00:37
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_05
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_05.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_05.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_05.txt
+Processed lines: 100000000
+Elapsed seconds: 36.865811
+Elapsed HH:MM:SS: 00:00:37
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_07
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_07.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_07.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_07.txt
+Processed lines: 100000000
+Elapsed seconds: 36.925332
+Elapsed HH:MM:SS: 00:00:37
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_04
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_04.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_04.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_04.txt
+Processed lines: 100000000
+Elapsed seconds: 36.933162
+Elapsed HH:MM:SS: 00:00:37
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_01
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_01.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_01.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_01.txt
+Processed lines: 100000000
+Elapsed seconds: 37.042646
+Elapsed HH:MM:SS: 00:00:37
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_06
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_06.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_06.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_06.txt
+Processed lines: 100000000
+Elapsed seconds: 38.234628
+Elapsed HH:MM:SS: 00:00:38
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_02
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_02.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_02.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_02.txt
+Processed lines: 100000000
+Elapsed seconds: 39.067151
+Elapsed HH:MM:SS: 00:00:39
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_03
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_03.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_03.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_03.txt
+Processed lines: 100000000
+Elapsed seconds: 45.280524
+Elapsed HH:MM:SS: 00:00:45
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+Method: ten_way_chunk_00
+Input A: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file1_part_00.txt
+Input B: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/file2_part_00.txt
+Output: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/generated/chunks/total_part_00.txt
+Processed lines: 100000000
+Elapsed seconds: 49.567052
+Elapsed HH:MM:SS: 00:00:50
+Output bytes: 595294400
+Verification status: passed
+CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/benchmark_results.csv
+
+Concatenating chunk outputs in numeric order.
+
+Line-count verification passed: 1000000000 lines
+Processing-only seconds: 49.612316
+Concatenation seconds: 1.266706
+End-to-end seconds after pre-splitting: 50.926359
+Module 8 ten-way parallel benchmark ended: 2026-06-22T20:53:01Z
+Validation label: ten_way_end_to_end
+Validation mode: fast
+Overall status: passed
+Elapsed seconds: 102.912194
+Validation CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/validation_results.csv
+Verification report updated: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/verification_report.txt
+
+=== Final full validation ===
+Validation label: ten_way_final_full_validation
+Validation mode: full
+Overall status: passed
+Elapsed seconds: 353.578932
+Validation CSV row appended: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/validation_results.csv
+Verification report updated: /home/rowan/CSU/CSC-507/Portfolio-Project-Module-8/verification_report.txt
+
+Module 8 full benchmark run ended: 2026-06-22T21:00:38Z
+
+Command summary for evidence collection:
+wc -l hugefile1.txt hugefile2.txt totalfile.txt
+head -5 hugefile1.txt hugefile2.txt totalfile.txt
+tail -5 hugefile1.txt hugefile2.txt totalfile.txt
+cat benchmark_results.csv
+cat validation_results.csv
+cat system_info.txt
+cat verification_report.txt
+rowan@ai01:~/CSU/CSC-507/Portfolio-Project-Module-8$ 
