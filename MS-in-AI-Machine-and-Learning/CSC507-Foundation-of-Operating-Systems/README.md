@@ -29,7 +29,7 @@ Professor: Dr. Joseph Issa
 Spring C (26SC) – 2026   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade: 
+Final grade: 100% | A
 
 ---
 
