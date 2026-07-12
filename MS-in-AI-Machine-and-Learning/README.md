@@ -60,7 +60,7 @@ My Links:
 ---
 
 ## CSC507 Foundation of Operating Systems
-Directory: [CSC507-Foundation-of-Operating-Systems](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC-507-Foundation-of-Operating-Systems)
+Directory: [CSC507-Foundation-of-Operating-Systems](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC507-Foundation-of-Operating-Systems)
 
 ---
 
