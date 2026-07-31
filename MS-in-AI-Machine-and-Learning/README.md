@@ -14,7 +14,7 @@ At CSU Global, starting date Sep. 2025 – Estimated graduation date Aug. 2027
 
 Bachelor of Science (BS) in Computer Science (CS)  
 Colorado State University Global (CSU Global) - August 3, 2025   
-4.0 GPA Summa Cum Laude graduate
+4.0 GPA, Summa Cum Laude graduate
 
 Associate of Science (AS) in Computer Science (CS) 
 Laramie County Community College (LCCC) - Dec. 2023  
@@ -28,7 +28,14 @@ This repository contains coursework and projects from my Master of Science in Ar
 ---
 
 Requirements:  
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat\&logo=python\&logoColor=white)](https://www.python.org/downloads/)
+[![TensorFlow 2.21.0](https://img.shields.io/badge/TensorFlow-2.21.0-FF6F00?style=flat\&logo=tensorflow\&logoColor=white)](https://www.tensorflow.org/)
+[![PyTorch 2.13.0](https://img.shields.io/badge/PyTorch-2.13.0-EE4C2C?style=flat\&logo=pytorch\&logoColor=white)](https://pytorch.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat\&logo=numpy\&logoColor=white)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat\&logo=pandas\&logoColor=white)](https://pandas.pydata.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=flat\&logo=jupyter\&logoColor=white)](https://jupyter.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=flat\&logo=python\&logoColor=black)](https://matplotlib.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat\&logo=plotly\&logoColor=white)](https://plotly.com/)
 
 ---
 
