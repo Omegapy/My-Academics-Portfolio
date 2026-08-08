@@ -56,12 +56,49 @@ My Links:
 ---
 
 #### Project Map
+- CSC510 Foundations of Artificial Intelligence
 - CSC507 Foundation of Operating Systems
 - CSC506 Design and Analysis of Algorithms
 - CSC502 Ethical Leadership in Software Development
 - CSC505 Principles of Software Development
 - CSC501 Management for the Computer Science Professional
 - CSC500 Principles of Programming
+
+---
+---
+
+## CSC510 Foundations of Artificial Intelligence
+Directory: [CSC510-Foundations-of-Artificial-Intelligence](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC510-Foundations-of-Artificial-Intelligence)
+
+---
+
+Project Description:  
+This repository contains a collection of assignments from CSC510: Foundations of Artificial Intelligence, offered at Colorado State University Global (CSU Global).
+
+Foundations of Artificial Intelligence CSC510   
+Professor: Dr. Isaac Gang  
+Fall A (26FA) – 2026   
+Student: Alexander (Alex) Ricciardi 
+
+Final grade:  
+
+---
+
+**CSC510 - Foundations of Artificial Intelligence**    
+In this graduate course, students will apply the principles associated with Artificial Intelligence (AI). Students will determine how to utilize structures to represent graphs associated with data exploration. Students will gain an understanding of how to effectively apply knowledge representation and techniques associated with AI reasoning. Topics that students will explore include techniques used to efficiently apply game theory, integer programming, continuous optimization, and probability analysis.
+
+**Course Learning Outcomes:**     
+1. Identify intelligent search methods for a specific Artificial Intelligence problem.
+2. Create an effective solution to solve a search problem using computational theories.
+3. Explain the effects of intelligent decision-making in knowledge representation.
+4. Implement solutions that utilize propositional logic and first-order logic.
+5. Demonstrate how to use Bayesian probability to represent uncertainty in Artificial Intelligence.
+6. Implement a solution that utilizes symbolic planning.
+7. Explain the concepts associated with machine learning
+
+---
+
+[Go back to the Project Map](#project-map) 
 
 ---
 ---
