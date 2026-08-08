@@ -1,8 +1,8 @@
-﻿# Portfolio Milestone Module 2 
-Project: Use-Case Scenario Proposal
+﻿# Portfolio Milestone Module 3 
+Project: Neural Networks for CubeSat Telemetry Anomaly Detection
 
-Data:  06/27/2026  
-Grade: 100% A
+Data:  08/09/2026  
+Grade: 
 
 ---
 
@@ -15,19 +15,9 @@ Student: Alexander (Alex) Ricciardi
 
 ## Assignment Directions
 
-**Choosing a Use-Case Scenario**
+**Project Update**
 
-Your final Portfolio Project will be a fully-functioning AI program built to solve a real-world problem of your choosing, utilizing the tools and techniques outlined in this course. Your program will interact with human beings to support decision-making processes by delivering relevant information about the problem.
-
-For your first milestone, it will be necessary to choose a use-case scenario for which to deploy your project.
-
-Write at least one paragraph outlining your chosen use-case scenario. Include a general description of the problem, the function your solution will perform, and a generalized strategy of how your solution might solve the problem. While writing, assume your ideas will change before we reach the end of this course. For your benefit, here are some resources regarding the current uses of AI in the field:
-
-- Everson, K. (2019). Five keys to intelligently deploy AI and automation.Links to an external site. Policy & Practice (19426828), 77(4), 24–35. 
-- Dovey Fishman, T., & Eggers, W. D. (2017). AI-augmented human services.Links to an external site. Policy & Practice (19426828), 75(6), 26–39.
-- Heller, C.H. (2019). Near-term applications of artificial intelligence: Implementation opportunities from modern business practices.Links to an external site. Naval War College Review, 72(4).
-- Dillon, J. D. (2020). The path to AI.Links to an external site. TD: Talent Development, 74(1), 24-29.
-- Newcombe, T. (2018). Practically speaking: Everyday uses of artificial intelligence that can talk, listen and see are coming. Is government ready?Links to an external site. Government Technology, 31(5), 24–28.
+Neural networks can be leveraged for many "fuzzy" tasks and are extremely useful for classifying data. Conduct research on the use-case scenario you have chosen. Using what you have learned, write at least a paragraph expressing your thoughts on if and how your chosen use-case scenario uses neural networks.
 
 **Grading Criteria:** 
 
@@ -51,12 +41,17 @@ In addition to your program, your submission should include a 2-4 page essay des
 - Aspects of your program that utilize expert system concepts,
 - How your program represent knowledge,
 - How symbolic planning is used in your program (remember, symbolic planning is not limited to robot navigation).
+
+**Prior Milestone Submissions**
+
+see Portfolio_milestone-Module-2.pdf
+
  
 ---
 
 **Project Map:**
 
-- Portfolio_milestone-Module-2.pdf
+- Portfolio_milestone-Module-3.pdf
 
 ---
 
