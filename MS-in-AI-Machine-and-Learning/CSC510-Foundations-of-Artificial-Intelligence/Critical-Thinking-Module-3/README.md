@@ -1,9 +1,9 @@
 # Critical Thinking Module 3
 
-**Program:** Shallow Neural Network (2-layer) predicting store delivery duration in minutes to a customer's place
+Program: Shallow Neural Network (2-layer) predicting store delivery duration in minutes to a customer's place
 
-**Date:** 08/02/2026  
-**Grade:**
+Date: 08/09/2026  
+Grade: 100% - A
 
 ---
 
