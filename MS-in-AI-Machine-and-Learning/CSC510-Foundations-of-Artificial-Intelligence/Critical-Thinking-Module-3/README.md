@@ -7,10 +7,10 @@ Grade: 100% - A
 
 ---
 
-**Course:** CSC510 - Foundations of Artificial Intelligence  
-**Professor:** Dr. Isaac Gang  
-**Term:** Fall A (26FA) - 2026  
-**Student:** Alexander (Alex) Ricciardi
+Course: CSC510 - Foundations of Artificial Intelligence  
+Professor: Dr. Isaac Gang  
+Term: Fall A (26FA) - 2026  
+Student: Alexander (Alex) Ricciardi
 
 ---
 
