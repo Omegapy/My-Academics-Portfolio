@@ -2,7 +2,7 @@
 Project: Neural Networks for CubeSat Telemetry Anomaly Detection
 
 Data:  08/09/2026  
-Grade: 
+Grade: 100% - A
 
 ---
 
