@@ -393,9 +393,6 @@ absolute difference `|Y_hat - Y|`, and the same error in seconds so the result i
 └── README.md
 ```
 
-The `.py` file is the required assignment submission. The README and requirements file support
-execution and explanation.
-
 ---
 
 My Links:
