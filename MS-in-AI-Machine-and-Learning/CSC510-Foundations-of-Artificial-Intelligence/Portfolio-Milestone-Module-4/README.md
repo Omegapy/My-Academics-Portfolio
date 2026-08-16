@@ -1,6 +1,6 @@
 ﻿# Portfolio Milestone Module 4 
 
-Project: Neural Networks for CubeSat Telemetry Anomaly Detection
+Project: Neural Networks for CubeSat Telemetry Anomaly Detection - A* Search
 
 Data:  08/16/2026  
 Grade: 
