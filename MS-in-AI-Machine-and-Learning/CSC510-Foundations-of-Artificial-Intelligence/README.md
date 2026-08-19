@@ -277,7 +277,7 @@ The cost belongs to the destination cell. For example, moving from a normal corr
 ---
 
 ## Portfolio Milestone Module 4
-Directory: [Portfolio-Milestone-Module-3](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC510-Foundations-of-Artificial-Intelligence/Portfolio-Milestone-Module-4)   
+Directory: [Portfolio-Milestone-Module-4](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC510-Foundations-of-Artificial-Intelligence/Portfolio-Milestone-Module-4)   
 Title: Portfolio Milestone Module 4: Neural Networks for CubeSat Telemetry Anomaly Detection - A* Search
 
 ---
