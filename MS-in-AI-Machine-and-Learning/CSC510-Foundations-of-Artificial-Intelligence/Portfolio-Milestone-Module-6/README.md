@@ -1,8 +1,7 @@
-﻿# Portfolio Milestone Module 4 
+﻿# Portfolio Milestone Module 6 
+Project: First-Order Logic for CubeSat Telemetry Anomaly Detection
 
-Project: Neural Networks for CubeSat Telemetry Anomaly Detection - A* Search
-
-Data:  08/16/2026  
+Data:  08/30/2026  
 Grade: 100% A
 
 ---
@@ -16,9 +15,10 @@ Student: Alexander (Alex) Ricciardi
 
 ## This Assignment Directions
 
-**Portfolio Milestone Module 4**
+**Portfolio Milestone Module 6**
 
-Write at least one paragraph describing how you might use intelligent search methods in your chosen use-case scenario. Which search methods might you choose to use? To what task will these search methods be applied?
+First-Order Logic. 
+Write at least one paragraph discussing ways you might leverage first-order logic to deliver results in your program.
 
 **Grading Criteria:** 
 
@@ -26,6 +26,7 @@ Write at least one paragraph describing how you might use intelligent search met
 - Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
 - Your claims should be supported by evidence. Include at least 1 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
 - All references must be cited in the text and listed on the references page, according to APA formatting.
+
 
 ---
 
@@ -50,12 +51,14 @@ In addition to your program, your submission should include a 2-4 page essay des
 see:
 - Portfolio_milestone-Module-2.pdf
 - Portfolio_milestone-Module-3.pdf
+- Portfolio_milestone-Module-4.pdf
+- Portfolio_milestone-Module-5.pdf
 
 ---
 
 **Project Map:**
 
-- Portfolio_milestone-Module-4.pdf
+- Portfolio_milestone-Module-6.pdf
 
 ---
 
