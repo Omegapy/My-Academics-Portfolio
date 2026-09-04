@@ -2,8 +2,7 @@
 
 ---
 
-
-<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi (Omega.py) 
+ <img width="30" height="30" src="https://github.com/user-attachments/assets/9ba69bc9-073d-448e-b263-22fe6b854f8b"> Alexander Ricciardi (Omega.py)
 
 ---
 
