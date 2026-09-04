@@ -3,7 +3,7 @@
 
 <img width="2048" height="512" alt="omagapycc (3)" src="https://github.com/user-attachments/assets/aa28593b-e3c2-4cae-aef8-db2efc2aa774" />
 
-<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/a8e0ea66-5d8f-43b3-8fff-2c3d74d57f53"> Alexander Ricciardi 
+<img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/9ba69bc9-073d-448e-b263-22fe6b854f8b"> Alexander Ricciardi 
 
 ---
 
