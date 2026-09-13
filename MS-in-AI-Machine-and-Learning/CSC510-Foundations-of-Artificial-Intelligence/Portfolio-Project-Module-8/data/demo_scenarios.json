@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source_status": "simulated deterministic educational fixture",
+  "scenarios": {
+    "normal": {
+      "segment_id": "demo-041",
+      "purpose": "Exercise the normal and routine-monitoring route."
+    },
+    "anomalous": {
+      "segment_id": "demo-046",
+      "purpose": "Exercise anomaly facts, simulated fault reasoning, and A-star planning."
+    },
+    "uncertain": {
+      "segment_id": "demo-045",
+      "purpose": "Exercise a near-boundary model result when the fitted probability permits it."
+    },
+    "conflicting": {
+      "segment_id": "demo-050",
+      "purpose": "Exercise a classifier and class-aware historical-evidence disagreement."
+    },
+    "invalid": {
+      "segment_id": "demo-does-not-exist",
+      "purpose": "Exercise controlled non-interactive selection failure."
+    }
+  }
+}
+
