@@ -63,12 +63,295 @@ Requirements:
 
 #### Project Map  
 
+- Portfolio Project Module 8
+- Critical Thinking Module 6
+- Portfolio Milestone Module 6
+- Portfolio Milestone Module 5
 - Critical Thinking Module 4
 - Portfolio Milestone Module 4
 - Critical Thinking Module 3
 - Portfolio Milestone Module 3
 - Portfolio Milestone Module 2
 - Discussions
+
+---
+---
+
+## Portfolio Project Module 8
+Directory: [Portfolio-Project-Module-8](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC510-Foundations-of-Artificial-Intelligence/Portfolio-Project-Module-8)   
+Title: CubeSat Telemetry Anomaly-Detection and Diagnostic-Planning Assistant
+
+---
+---
+
+**Assignment:**
+
+**Portfolio Project Module 8**
+
+AI Use - Case Problem With Solution
+Your final Portfolio Project will be a fully-functioning AI program built to solve a real-world problem of your choosing, utilizing the tools and techniques outlined in this course. Your program will interact with human beings to support decision-making processes by delivering relevant information about the problem.
+
+Your final project submission should include a self-executable Python program. The program should be complete and straightforward to test. The program should leverage methods learned from at least 2 of the modules from this course. The submission must function and be a reasonable attempt at a solution for your chosen problem. The solution does not have to be correct or useful in the real world, but the solution MUST provide reasonable answers without error.
+
+In addition to your program, your submission should include a 2-4 page essay describing the final version of your AI program, the use-case it intends to solve, and the methods you used toward that goal. In your paper, please address the following details:
+
+The tools, libraries, and APIs utilized,
+Search methods used and how they contributed toward the program goal,
+Inclusion of any deep learning models,
+Aspects of your program that utilize expert system concepts,
+How your program represent knowledge,
+How symbolic planning is used in your program (remember, symbolic planning is not limited to robot navigation).
+ 
+Grading Criteria:
+- Your program should be functional, clear, and demonstrate appropriate use of course concepts.
+- Your paper should be 2-4 pages in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence. Include at least 3 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+- See the rubric below for more details about how you will be graded for this assignment.
+
+---
+
+**My Program**
+
+This program helps a user review unusual satellite telemetry. A telemetry segment is a group of
+recorded readings summarized as one row of numerical features. For a selected segment, the program
+estimates an anomaly probability, finds similar reviewed cases, applies logic rules, and uses A*
+search to suggest an ordered set of simulated diagnostic checks.
+
+The included OPS-SAT Anomaly Detection (OPS-SAT-AD) feature table supports authentic-data analysis
+without a separate download. Small simulated examples are also included so a reader can see normal,
+anomalous, uncertain, and conflicting-evidence cases. Both interfaces use the same analysis code.
+The model is fitted locally when a session starts; no API key or paid service is needed.
+
+App Home Page:     
+<img width="588" height="918" alt="image" src="https://github.com/user-attachments/assets/389ed300-e529-423f-ac9b-f4ec23511c5d" />
+
+---
+
+**Prior Milestone Submissions**
+
+see:
+- Portfolio_milestone-Module-6.pdf
+- Portfolio_milestone-Module-5.pdf
+- Portfolio_milestone-Module-4.pdf
+- Portfolio_milestone-Module-2.pdf
+- Portfolio_milestone-Module-3.pdf
+
+---
+
+[Go back to the Project Map](#project-map) 
+
+---
+---
+
+## Critical Thinking Module 6
+Directory: [Critical-Thinking-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC510-Foundations-of-Artificial-Intelligence/Critical-Thinking-Module-6)   
+Title: Critical Thinking Module 6: UCI SMS Spam Multinomial Naive Bayes Classifier
+
+---
+---
+
+**Assignment:**
+
+**Naive Bayes Classifier**
+
+Naive Bayes classifiers are quick and easy to code in Python and are very efficient. 
+
+Naive Bayes classifiers are based on Bayes' Theorem and assume independence among predictors (hence the "Naive" terminology). Not only are Naive Bayes classifiers handy and straightforward in a pinch, but they also outperform many other methods without the need for advanced feature engineering of the data.
+
+Read the following article for further information on Naive Bayes classification: 
+
+https://www.ibm.com/think/topics/naive-bayes
+
+Using scikit-learn, write a Naive Bayes classifier in Python. It can be single or multiple features. Submit the classifier in the form of an executable Python script alongside basic instructions for testing.
+
+Your Naive Bayes classification script should allow you to do the following:
+
+Calculate the posterior probability by converting the dataset into a frequency table.
+Create a "Likelihood" table by finding relevant probabilities.
+Calculate the posterior probability for each class.
+Correct Zero Probability errors using Laplacian correction.
+Your classifier may use a Gaussian, Multinomial, or Bernoulli model, depending on your chosen function. Your classifier must properly display its probability prediction based on its input data.
+
+Check out scikit-learn and its documentation at the following website:
+https://scikit-learn.org/stable/
+
+ **My Program**
+
+The programm is a Multinomial Naive Bayes classifier for UCI SMS messages program.
+
+The program classifies an inputted SMS message as HAM or SPAM. 
+It uses CountVectorizer that learns a vocabulary from the UCI SMS dataset 
+and converts each SMS message into vectorized word counts. 
+Note that the dataset has 5,574 SMS messages, 4,825 HAM (non-spam) and 
+747 SPAM.
+
+Then a Multinomial Naive Bayes model, MultinomialNB(alpha=1.0), is trained 
+using the vectorized word counts to categorize the SMS messages as HAM or SPAM.
+This training allows the model to learn the class priors HAM and SPAM. The 
+Laplace-smoothed method is used to calculate the word likelihoods, 
+preventing a word with a zero count in one class from making that class's 
+probability zero. 
+
+A new message entered by a user or by the demo feature of the program is converted 
+into vectorized word counts based on the vocabulary learned from the training dataset. 
+Then, the program calculates the posterior probabilities that the new message is 
+HAM or SPAM step by step using both its own functions and scikit-learn's 
+predict_proba() method. The two probability results are compared to verify that they match.
+Then, the class with the highest posterior probability is returned as the final prediction.
+
+Finally, it displays the results with an explanation of the probability calculation.
+
+---
+
+[Go back to the Project Map](#project-map)  
+
+---
+---
+
+## Portfolio Milestone Module 6
+Directory: [Portfolio-Milestone-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC510-Foundations-of-Artificial-Intelligence/Portfolio-Milestone-Module-6)   
+Title: First-Order Logic for CubeSat Telemetry Anomaly Detection
+
+---
+---
+
+**Assignment:**
+
+**Portfolio Milestone Module 6**
+
+First-Order Logic. 
+Write at least one paragraph discussing ways you might leverage first-order logic to deliver results in your program.
+
+**Grading Criteria:** 
+
+- Your paper should be 1 paragraph in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence. Include at least 1 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+
+---
+
+**Portfolio Project**
+
+AI Use - Case Problem With Solution
+Your final Portfolio Project will be a fully-functioning AI program built to solve a real-world problem of your choosing, utilizing the tools and techniques outlined in this course. Your program will interact with human beings to support decision-making processes by delivering relevant information about the problem.
+
+Your final project submission should include a self-executable Python program. The program should be complete and straightforward to test. The program should leverage methods learned from at least 2 of the modules from this course. The submission must function and be a reasonable attempt at a solution for your chosen problem. The solution does not have to be correct or useful in the real world, but the solution MUST provide reasonable answers without error.
+
+In addition to your program, your submission should include a 2-4 page essay describing the final version of your AI program, the use-case it intends to solve, and the methods you used toward that goal. In your paper, please address the following details:
+
+- The tools, libraries, and APIs utilized,
+- Search methods used and how they contributed toward the program goal,
+- Inclusion of any deep learning models,
+- Aspects of your program that utilize expert system concepts,
+- How your program represent knowledge,
+- How symbolic planning is used in your program (remember, symbolic planning is not limited to robot navigation).
+
+**Prior Milestone Submissions**
+
+see:
+- Portfolio_milestone-Module-5.pdf
+- Portfolio_milestone-Module-4.pdf
+- Portfolio_milestone-Module-2.pdf
+- Portfolio_milestone-Module-3.pdf
+
+---
+
+[Go back to the Project Map](#project-map) 
+
+---
+---
+
+**Assignment:**
+
+**Portfolio Milestone Module 4**
+
+Write at least one paragraph describing how you might use intelligent search methods in your chosen use-case scenario. Which search methods might you choose to use? To what task will these search methods be applied?
+
+**Grading Criteria:** 
+
+- Your paper should be 1 paragraph in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence. Include at least 1 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+
+---
+
+**Portfolio Project**
+
+Write at least one paragraph discussing ways you might leverage classification of any kind to deliver results in your program.
+
+**Grading Criteria:** 
+
+- Your paper should be 1 paragraph in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence. Include at least 1 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+
+**Prior Milestone Submissions**
+
+see:
+- Portfolio_milestone-Module-2.pdf
+- Portfolio_milestone-Module-3.pdf
+- Portfolio_milestone-Module-4.pdf
+
+---
+
+[Go back to the Project Map](#project-map) 
+
+---
+---
+
+## Portfolio Milestone Module 5
+Directory: [Portfolio-Milestone-Module-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC510-Foundations-of-Artificial-Intelligence/Portfolio-Milestone-Module-5)   
+Title: First-Order Logic for CubeSat Telemetry Anomaly Detection
+
+---
+---
+
+**Assignment:**
+
+**Portfolio Milestone Module 5**
+
+Write at least one paragraph discussing ways you might leverage classification of any kind to deliver results in your program.
+
+**Grading Criteria:** 
+
+- Your paper should be 1 paragraph in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence. Include at least 1 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+
+---
+
+**Portfolio Project**
+
+AI Use - Case Problem With Solution
+Your final Portfolio Project will be a fully-functioning AI program built to solve a real-world problem of your choosing, utilizing the tools and techniques outlined in this course. Your program will interact with human beings to support decision-making processes by delivering relevant information about the problem.
+
+Your final project submission should include a self-executable Python program. The program should be complete and straightforward to test. The program should leverage methods learned from at least 2 of the modules from this course. The submission must function and be a reasonable attempt at a solution for your chosen problem. The solution does not have to be correct or useful in the real world, but the solution MUST provide reasonable answers without error.
+
+In addition to your program, your submission should include a 2-4 page essay describing the final version of your AI program, the use-case it intends to solve, and the methods you used toward that goal. In your paper, please address the following details:
+
+- The tools, libraries, and APIs utilized,
+- Search methods used and how they contributed toward the program goal,
+- Inclusion of any deep learning models,
+- Aspects of your program that utilize expert system concepts,
+- How your program represent knowledge,
+- How symbolic planning is used in your program (remember, symbolic planning is not limited to robot navigation).
+
+**Prior Milestone Submissions**
+
+see:
+- Portfolio_milestone-Module-4.pdf
+- Portfolio_milestone-Module-2.pdf
+- Portfolio_milestone-Module-3.pdf
+
+---
+
+[Go back to the Project Map](#project-map) 
 
 ---
 ---
