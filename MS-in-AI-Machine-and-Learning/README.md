@@ -55,6 +55,7 @@ My Links:
 ---
 
 #### Project Map
+- CSC515 Foundations of Computer Vision
 - CSC510 Foundations of Artificial Intelligence
 - CSC507 Foundation of Operating Systems
 - CSC506 Design and Analysis of Algorithms
@@ -62,6 +63,42 @@ My Links:
 - CSC505 Principles of Software Development
 - CSC501 Management for the Computer Science Professional
 - CSC500 Principles of Programming
+
+---
+---
+
+## CSC515 Foundations of Computer Vision
+Directory: [CSC515-Foundations-of-Computer-Vision](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision)
+
+---
+
+Project Description:  
+This repository contains a collection of assignments from CSC515: Foundations of Computer Vision, offered at Colorado State University Global (CSU Global).
+
+Foundations of Computer Vision CSC515   
+Professor: Dr. Binbong Li 
+Fall C (26FC) – 2026   
+Student: Alexander (Alex) Ricciardi
+
+Final grade: 
+
+---
+
+**CSC515 - Foundations of Computer Vision**     
+In this Graduate course, students will apply digital image construction and processing. Students will explore topics associated with image formation, image acquisition, and image geometry. Students will be exposed to the techniques required to efficiently analyze images for representation in applicable context scenarios. Students will also apply image processing techniques for filtering and edge detection for image deconstruction
+
+**Course Learning Outcomes:**     
+
+1. Using an image processing model, create an algorithm to solve a specific computer vision problem.
+2. Describe and recognize 2D and 3D Shapes, understand transformations.
+3. Manage image sizes, convert color images to grayscale images, augment and transform images.
+4. Implement an application using appropriate image filters.
+5. Compare various image segmentation techniques and understand morphology.
+6. Select an appropriate edge detection method to identify edges and corners in an image.
+
+---
+
+[Go back to the Project Map](#project-map) 
 
 ---
 ---
@@ -79,7 +116,7 @@ Professor: Dr. Isaac Gang
 Fall A (26FA) – 2026   
 Student: Alexander (Alex) Ricciardi 
 
-Final grade:  
+Final grade: 4.0 | A 
 
 ---
 

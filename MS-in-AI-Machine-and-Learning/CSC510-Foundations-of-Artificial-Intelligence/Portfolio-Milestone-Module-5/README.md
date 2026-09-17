@@ -26,8 +26,6 @@ Write at least one paragraph discussing ways you might leverage classification o
 - Your claims should be supported by evidence. Include at least 1 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
 - All references must be cited in the text and listed on the references page, according to APA formatting.
 
-
-
 ---
 
 **Portfolio Project**

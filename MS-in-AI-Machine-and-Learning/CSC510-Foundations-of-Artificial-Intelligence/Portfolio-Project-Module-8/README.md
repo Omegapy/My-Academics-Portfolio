@@ -65,6 +65,11 @@ or [Run the Streamlit app](#run-the-streamlit-app).
 
 The accompanying written essay is [Portfolio-Project-Module-8-Essay.docx](./Portfolio-Project-Module-8-Essay.docx), which addresses the theoretical concepts, methodology, and APA requirements. An application overview with visual walkthrough screenshots is provided in [app-screenshots.pdf](./app-screenshots.pdf).
 
+
+App Home Page:     
+<img width="588" height="918" alt="image" src="https://github.com/user-attachments/assets/389ed300-e529-423f-ac9b-f4ec23511c5d" />
+
+
 ---
 
 ## Setup
