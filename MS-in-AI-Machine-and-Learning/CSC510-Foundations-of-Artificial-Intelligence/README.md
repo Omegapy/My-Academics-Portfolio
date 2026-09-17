@@ -31,7 +31,7 @@ Professor: Dr. Isaac Gang
 Fall A (26FA) – 2026   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade: 
+Final grade: 100% | A
 
 ---
 
