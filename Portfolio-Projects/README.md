@@ -41,6 +41,7 @@ My Links:
 
 #### Project Map
 
+- [CSC510 Foundations of Artificial Intelligence] (csc510-foundations-of-artificial-intelligence)
 - [CSC506 Design and Analysis of Algorithms Course](#csc506-design-and-analysis-of-algorithms-course)
 - [CSC480 Computer Science Capstone](#csc480-computer-science-capstone)
 - [MIS350 Information Systems Analysis and Design Course](#mis350-information-systems-analysis-and-design-course) 
@@ -58,6 +59,63 @@ My Links:
 - [ENG102 Composition 2](#eng102-composition-2)
 - [HUM101 Critical Reasoning](#hum101-critical-reasoning)
 
+---
+---
+
+## CSC510 Foundations of Artificial Intelligence
+Directory: [CSC510-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC510-CSU-Global)  
+
+Title: CubeSat Telemetry Anomaly-Detection and Diagnostic-Planning Assistant
+
+---
+---
+
+**Assignment:**
+
+**Portfolio Project Module 8**
+
+AI Use - Case Problem With Solution
+Your final Portfolio Project will be a fully-functioning AI program built to solve a real-world problem of your choosing, utilizing the tools and techniques outlined in this course. Your program will interact with human beings to support decision-making processes by delivering relevant information about the problem.
+
+Your final project submission should include a self-executable Python program. The program should be complete and straightforward to test. The program should leverage methods learned from at least 2 of the modules from this course. The submission must function and be a reasonable attempt at a solution for your chosen problem. The solution does not have to be correct or useful in the real world, but the solution MUST provide reasonable answers without error.
+
+In addition to your program, your submission should include a 2-4 page essay describing the final version of your AI program, the use-case it intends to solve, and the methods you used toward that goal. In your paper, please address the following details:
+
+The tools, libraries, and APIs utilized,
+Search methods used and how they contributed toward the program goal,
+Inclusion of any deep learning models,
+Aspects of your program that utilize expert system concepts,
+How your program represent knowledge,
+How symbolic planning is used in your program (remember, symbolic planning is not limited to robot navigation).
+ 
+Grading Criteria:
+- Your program should be functional, clear, and demonstrate appropriate use of course concepts.
+- Your paper should be 2-4 pages in length, not including the cover page and references page.
+- Your paper must be formatted according to APA guidelines in the CSU Global Writing Center (available in the left-hand navigation panel).
+- Your claims should be supported by evidence. Include at least 3 credible references in addition to the course textbook. The CSU Global Library (available in the left-hand navigation panel) is a good place to find these references.
+- All references must be cited in the text and listed on the references page, according to APA formatting.
+- See the rubric below for more details about how you will be graded for this assignment.
+
+---
+
+**My Program**
+
+This program helps a user review unusual satellite telemetry. A telemetry segment is a group of
+recorded readings summarized as one row of numerical features. For a selected segment, the program
+estimates an anomaly probability, finds similar reviewed cases, applies logic rules, and uses A*
+search to suggest an ordered set of simulated diagnostic checks.
+
+The included OPS-SAT Anomaly Detection (OPS-SAT-AD) feature table supports authentic-data analysis
+without a separate download. Small simulated examples are also included so a reader can see normal,
+anomalous, uncertain, and conflicting-evidence cases. Both interfaces use the same analysis code.
+The model is fitted locally when a session starts; no API key or paid service is needed.
+
+App Home Page:     
+<img width="588" height="918" alt="image" src="https://github.com/user-attachments/assets/389ed300-e529-423f-ac9b-f4ec23511c5d" />
+
+---
+
+[Go back to the Project Map](#project-map) 
 
 ---
 ---
