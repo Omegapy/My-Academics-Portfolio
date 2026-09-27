@@ -41,7 +41,7 @@ My Links:
 
 #### Project Map
 
-- [CSC510 Foundations of Artificial Intelligence] (csc510-foundations-of-artificial-intelligence)
+- [CSC510 Foundations of Artificial Intelligence](#csc510-foundations-of-artificial-intelligence)
 - [CSC506 Design and Analysis of Algorithms Course](#csc506-design-and-analysis-of-algorithms-course)
 - [CSC480 Computer Science Capstone](#csc480-computer-science-capstone)
 - [MIS350 Information Systems Analysis and Design Course](#mis350-information-systems-analysis-and-design-course) 
