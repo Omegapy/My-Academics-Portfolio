@@ -7,9 +7,9 @@ Grade: 100% | A
 ---
 
 Foundations of Computer Vision CSC515   
-Professor: Dr. Binbong Li 
-Fall C (26FC) – 2026   
-Student: Alexander (Alex) Ricciardi  
+Professor: Dr. Binbong Li   
+Fall C (26FC) – 2026     
+Student: Alexander (Alex) Ricciardi    
 
 ---
 
