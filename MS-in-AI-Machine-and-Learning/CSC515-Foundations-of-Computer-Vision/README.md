@@ -63,28 +63,46 @@ Requirements:
 
 #### Project Map  
 
-- Critical Thinking Module 3
+- Critical Thinking Module 2
 - Portfolio Milestone Module 3
 - Discussions
 
 ---
 ---
 
-## Critical Thinking Module 3
-Directory: [Critical-Thinking-Module-3]()   
-Title: [...]
+## Critical Thinking Module 2
+Directory: [Critical-Thinking-Module-2](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Critical-Thinking-Module-2)   
+Title: Color channel extraction, reconstruction, and red/green swapping
 
 ---
 ---
 
 **Assignment:**
 
-[...] 
+After completing the Required Reading, you should have a good idea of how to use OpenCV for multi-scale representation of images by pixels matrices. Select and take a look at one of the following images:
 
-**Program Overview**
+Image of a Puppy: puppy.jpg
+Image of a kitten: kitty.jpg
 
-[...]
+As both are colored images, each image has three channels, corresponding to the primary colors of red, green, and blue.
 
+Import your selected image (using the link) into OpenCV and write code to extract each of these channels separately to create 2D images. This means that from the n x n x 3 shaped image, you will get 3 matrices of the shape n x n.
+Now, write code to merge all these images back into a colored 3D image.
+What will the image look like if you exchange the reds with the greens? Write code to merge the 2D images created in step 1 back together, this time swapping out the red channel with the green channel (GRB).
+Be sure to display the resulting images for each step. Your submission should be one executable Python file.
+
+---
+
+**My Program Overview**
+
+The program uses the puppy org_images/puppy.jpg to perform color transformation using OPenCV
+The program separates Blue, Green, and Red (BGR) color values of the image and creates
+another image by swapping the red and green values. 
+- Blue → stays Blue
+- Green → moves into the Red position
+- Red → moves into the Green position
+
+<img width="771" height="203" alt="image" src="https://github.com/user-attachments/assets/e15e3124-ba6c-4185-b440-ca8834a80d8c" />
 
 ---
 
@@ -93,24 +111,67 @@ Title: [...]
 ---
 ---
 
-## Portfolio Milestone Module 3
-Directory: [Portfolio-Milestone-Module-3]()   
-Title: [...]
+## Portfolio Milestone Module 1
+Directory: [Portfolio-Milestone-Module-1](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Portfolio-Milestone-Module-1)   
+Title: Face Detection and Privacy - OpenCV image loading, display, and saving
 
 ---
 ---
 
 **Assignment:**
 
-[...]
+This assignment is the first milestone of a broader portfolio project.  
 
-**Grading Criteria:** 
+The broader portfolio project that I chose to do is:  
 
-[...]
+Option #2: Face Detection and Privacy. 
+To address privacy concerns you may want to use data anonymization.  On images, this can be achieved by hiding features that could lead to a person or personal data identification, such as the person’s facial features or a license plate number.
 
-**Portfolio Project**
+The goal of this project is to write algorithms for face detection and feature blurring.  Select three color images from the web that meet the following requirements:
 
-[...]
+1. Two images containing human subjects facing primarily to the front and one image with a non-human subject.
+2. At least one image of a human subject should contain that person’s entire body.
+3. At least one image should contain multiple human subjects.
+4. At least one image should display a person’s face far away.
+5. All images should vary in light illumination and color intensity. 
+
+
+First, using the appropriate trained [cascade classifier](https://github.com/opencv/opencv/tree/4.x/data/haarcascades), write one algorithm to detect the human faces in the gray scaled versions of the original images.  Put a red boundary box around the detected face in the image in order to see what region the classifier deemed as a human face. If expected results are not achieved on the unprocessed images, apply processing steps before implementing the classifier for optimal results.
+
+After the faces have been successfully detected, you will want to process only the extracted faces before detecting and applying blurring to hide the eyes. Although the [eye classifier](https://github.com/opencv/opencv/tree/4.x/data/haarcascades) is fairly accurate, it is important that all faces are centered, rotated, and scaled so that the eyes are perfectly aligned. If expected results are not achieved, implement more image processing for optimal eye recognition. Now, apply a blurring method to blur the eyes out in the extracted image.
+
+Inspect your results and write a summary describing the techniques you used to detect and blur the eyes out of human faces in images. Reflect on the challenges you faced and how you overcame these challenges.  Furthermore, discuss in your summary, the accuracy of your results for all three images and techniques you used to improve the accuracy after each repeated experiment.
+
+---
+
+**This Portfolio Milestone assignment:**
+
+It is time to begin thinking about your Portfolio Project.  In order to complete the Portfolio Project, OpenCV will need to be installed and working properly on your desktop. 
+
+OpenCV (Open-Source Computer Vision Library) is an open-source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in commercial products.
+
+For this milestone assignment, install OpenCV based on your specific operating system.  Then, use OpenCV to complete the following:
+
+1. Write Python code to import one of the following images:
+        - brain image
+        - numbers image
+
+2. Write Python code to display the image.  
+
+3. Write Python code to write a copy of the image to any directory on your desktop.
+
+---
+
+**My Program**
+
+The program loads org_images/brain_image.jpg, displays it, and saves mod_images/brain_image.png using OpenCV.
+
+OpenCV loads/decodes the JPG into a 3D NumPy array of shape (height, width, 3).
+The 3 values correspond to each pixel color's value in BGR (blue, green, red).
+The image matrix can be indexed as image[row, column] = [BLUE, GREEN, RED].
+[0] = blue, [1] = green, [2] = red
+The red, green, and blue color values are stored as unsigned 8-bit integers (uint8), 
+which correspond to RGB color values from 0 to 255.
 
 
 ---
@@ -122,7 +183,7 @@ Title: [...]
 
 ## Discussions 
 This repository is a collection of discussion posts from CSC506 – Design and Analysis of Algorithms  
-Directory: [Discussions]([...])
+Directory: [Discussions](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Discussions)
 
 ---
 
