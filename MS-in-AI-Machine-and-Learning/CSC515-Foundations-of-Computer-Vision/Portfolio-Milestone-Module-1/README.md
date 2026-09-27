@@ -1,13 +1,13 @@
 ﻿# Portfolio Milestone Module 1 - Option #2: Face Detection and Privacy
 Project: Face Detection and Privacy - OpenCV image loading, display, and saving
 
-Data:  09/20/2026  
+Date:  09/20/2026  
 Grade: 100% | A
 
 ---
 
 Foundations of Computer Vision CSC515   
-Professor: Dr. Binbong Li   
+Professor: Dr. Binbong Li    
 Fall C (26FC) – 2026     
 Student: Alexander (Alex) Ricciardi    
 
@@ -17,10 +17,10 @@ Student: Alexander (Alex) Ricciardi
 
 This assignment is the first milestone of a broader portfolio project.  
 
-The broader portfolio project tha i choose to do is:  
+The broader portfolio project that I chose to do is:  
 
 Option #2: Face Detection and Privacy. 
-To address privacy concerns you may want to use data anonymization.  On images, this can be achieved by hiding features that could lead to a person or personal data identification, such as the person’s facial features or a license plate number.
+To address privacy concerns, you may want to use data anonymization.  On images, this can be achieved by hiding features that could lead to a person or personal data identification, such as the person’s facial features or a license plate number.
 
 The goal of this project is to write algorithms for face detection and feature blurring.  Select three color images from the web that meet the following requirements:
 
@@ -39,7 +39,7 @@ Inspect your results and write a summary describing the techniques you used to d
 
 ---
 
-### This Portfolio Milestone asignment:
+### This Portfolio Milestone assignment:
 
 It is time to begin thinking about your Portfolio Project.  In order to complete the Portfolio Project, OpenCV will need to be installed and working properly on your desktop. 
 
@@ -84,7 +84,7 @@ The 3 values correspond to each pixel color's value in BGR (blue, green, red).
 The image matrix can be indexed as image[row, column] = [BLUE, GREEN, RED].
 [0] = blue, [1] = green, [2] = red
 The red, green, and blue color values are stored as unsigned 8-bit integers (uint8), 
-which corresponds to RGB color values from 0 to 255.
+which correspond to RGB color values from 0 to 255.
 
 Example:
 ```python
