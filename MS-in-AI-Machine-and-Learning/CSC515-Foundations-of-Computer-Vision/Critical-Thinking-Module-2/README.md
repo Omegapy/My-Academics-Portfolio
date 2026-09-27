@@ -53,12 +53,14 @@ On Mac OS, Antigravity IDE's terminal is recommended to view the PNG image corre
 
 ## The Program
 
-The programm uses the [puppy image](org_images/puppy.jpg) to perform color transformation using OPenCV
-The program separates Blue, Green and Red (BGR) color values of the image and creates
+The program uses the [puppy image](org_images/puppy.jpg) to perform color transformation using OPenCV
+The program separates Blue, Green, and Red (BGR) color values of the image and creates
 another image by swapping the red and green values. 
 - Blue → stays Blue
 - Green → moves into the Red position
 - Red → moves into the Green position
+
+<img width="771" height="203" alt="image" src="https://github.com/user-attachments/assets/e15e3124-ba6c-4185-b440-ca8834a80d8c" />
 
 ### How to run the program
 
