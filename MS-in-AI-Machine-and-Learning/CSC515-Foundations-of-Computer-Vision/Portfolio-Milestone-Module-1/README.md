@@ -2,7 +2,7 @@
 Project: Face Detection and Privacy - OpenCV image loading, display, and saving
 
 Data:  09/20/2026  
-Grade: 
+Grade: 100% | A
 
 ---
 

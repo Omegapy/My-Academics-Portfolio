@@ -1,0 +1,19 @@
+[theme]
+base = "light"
+primaryColor = "#1D4ED8"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#E8EEF7"
+textColor = "#172033"
+linkColor = "#1746B5"
+borderColor = "#7A8699"
+showWidgetBorder = true
+baseRadius = "8px"
+buttonRadius = "8px"
+chartCategoricalColors = ["#B93815", "#6D3FC0", "#1D4ED8", "#13715B", "#6B7280"]
+
+[browser]
+gatherUsageStats = false
+
+[client]
+disableDataExport = true
+toolbarMode = "minimal"
