@@ -1,0 +1,5 @@
+# Python 3.12 runtime requirements for Module2_CTA.py.
+opencv-contrib-python==4.13.0.92
+numpy==2.5.3
+term-image==0.7.2
+pillow==10.4.0
