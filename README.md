@@ -1,7 +1,8 @@
-# My Academics Portfolio 
+# My Academic Portfolio 
 ---
 
-<img width="2048" height="512" alt="omagapycc (3)" src="https://github.com/user-attachments/assets/aa28593b-e3c2-4cae-aef8-db2efc2aa774" />
+<!-- <img width="2048" height="512" alt="omagapycc (3)" src="https://github.com/user-attachments/assets/aa28593b-e3c2-4cae-aef8-db2efc2aa774" /> -->
+<img width="1672" height="941" alt="Omegapy-space-banner" src="https://github.com/user-attachments/assets/771fc579-5edf-44ba-9d22-dee12fa66170" />
 
 <img width="30" height="30" align="center" src="https://github.com/user-attachments/assets/9ba69bc9-073d-448e-b263-22fe6b854f8b"> Alexander Ricciardi 
 
@@ -14,7 +15,7 @@ This repository is a collection of my academic work at Colorado State University
 **Software Engineer – Focus on AI**  
 
 Pursuing a Master of Science in Artificial Intelligence (AI) and Machine Learning (LM)   
-At CSU Global, starting date Sep. 2025 – Estimated graduation date Aug. 2027
+At CSU Global, starting date Sep. 2025 – Estimated graduation date March 2027
 
 Bachelor of Science (BS) in Computer Science (CS)  
 Colorado State University Global (CSU Global) - August 3, 2025   
