@@ -31,9 +31,6 @@ The goal of this project is to write algorithms for face detection and feature b
 
 First, using the appropriate trained [cascade classifier](https://github.com/opencv/opencv/tree/4.x/data/haarcascades), write one algorithm to detect the human faces in the gray scaled versions of the original images.  Put a red boundary box around the detected face in the image in order to see what region the classifier deemed as a human face. If expected results are not achieved on the unprocessed images, apply processing steps before implementing the classifier for optimal results.
 
-Image Results:  
-<img width="368" height="247" alt="image" src="https://github.com/user-attachments/assets/fb476f29-bd91-46e4-bb3d-575b023bd422" />
-
 After the faces have been successfully detected, you will want to process only the extracted faces before detecting and applying blurring to hide the eyes. Although the [eye classifier](https://github.com/opencv/opencv/tree/4.x/data/haarcascades) is fairly accurate, it is important that all faces are centered, rotated, and scaled so that the eyes are perfectly aligned. If expected results are not achieved, implement more image processing for optimal eye recognition. Now, apply a blurring method to blur the eyes out in the extracted image.
 
 Inspect your results and write a summary describing the techniques you used to detect and blur the eyes out of human faces in images. Reflect on the challenges you faced and how you overcame these challenges.  Furthermore, discuss in your summary, the accuracy of your results for all three images and techniques you used to improve the accuracy after each repeated experiment.
@@ -88,6 +85,9 @@ with their existing filenames and dimensions. No model download is needed.
 `org_images/the_rock.png`. It completes the two-image blending milestone described
 above. The three-image face-detection and eye-blurring work belongs to the later
 portfolio project.
+
+Image Results:  
+<img width="368" height="247" alt="image" src="https://github.com/user-attachments/assets/fb476f29-bd91-46e4-bb3d-575b023bd422" />
 
 All program code stays in this one Python script. The processing sections crop and
 align the face, prepare masks, match skin colors, and compare the two blending
