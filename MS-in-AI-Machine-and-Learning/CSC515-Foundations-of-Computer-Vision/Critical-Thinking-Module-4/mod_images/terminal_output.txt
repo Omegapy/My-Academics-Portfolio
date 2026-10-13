@@ -1,0 +1,201 @@
+STEP 1/5: Load the photograph and identify the filtering input
+==============================================================
+This assignment compares Gaussian smoothing, Laplacian filtering, and both filters together. The goal is to see how the window size and smoothing affect the outlines and small details in the photograph.
+
+Input image: org_images/Mod4CT2.jpg
+
+The Laplacian responds to changes in brightness around image features. Small background fluctuations can also produce a response. The program compares the three methods using the same input so their effects can be examined side by side.
+
+OpenCV first reads the color photograph in BGR order (blue, green, red). It then converts those three values into one grayscale intensity per pixel. float64 keeps decimal values from smoothing and positive or negative Laplacian results. The original image size and 0-255 intensity scale remain.
+
+Code in load_image():
+
+    image_bgr = cv2.imread(str(path), cv2.IMREAD_COLOR)
+    gray_image = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY).astype(np.float64)
+
+Image representations:
+
+    image_bgr  -> (166, 250, 3), uint8, channels B G R
+    gray_image -> (166, 250), float64, intensity 0..255
+    image_bgr[y, x] -> one BGR pixel -> gray_image[y, x]
+
+Example: At row 83, column 125, the color pixel contains BGR [188, 197, 201]. Its grayscale intensity is 197.0. Both values come from the image used in this run.
+
+Reading the pictures:
+
+The left panel shows the original photograph. Its BGR values are displayed in RGB order because Matplotlib expects red, green, and blue. The right panel shows the grayscale image that all filters will use. Compare the background texture with the larger outlines in the picture.
+
+The original photograph is not replaced. The program saves the filtered results as separate files.
+
+STEP 2/5: Gaussian filtering and the meaning of sigma
+=====================================================
+Gaussian smoothing calculates a new pixel intensity from a weighted average of nearby intensities. It can reduce small changes caused by noise, but it can also soften details and boundaries.
+
+This run uses sigma = 1, measured in pixels, in both directions. The same sigma is used for the 3 x 3, 5 x 5, and 7 x 7 windows, as required by the assignment. Kernel size selects how many neighboring pixels enter the calculation. Sigma controls how much their influence decreases with distance from the center. All the weights add up to one.
+
+Code in apply_gaussian():
+
+    return cv2.GaussianBlur(
+        gray_image, (kernel_size, kernel_size), sigmaX=sigma, sigmaY=sigma,
+        borderType=BORDER_TYPE,
+    )
+
+BORDER_TYPE is cv2.BORDER_REFLECT_101. When a filter window reaches the edge of the photograph, OpenCV reflects nearby pixels to complete that neighborhood. This avoids adding a black border during filtering. All three methods use the same setting.
+
+Gaussian weight matrices for the three window sizes:
+
+Each number is the weight assigned to one position in the window. The center receives more weight than distant pixels. Very small values may appear in scientific notation; for example, 2e-05 means 0.00002.
+
+    3 x 3; weight sum = 1.000000
+    [[0.0751 0.1238 0.0751]
+     [0.1238 0.2042 0.1238]
+     [0.0751 0.1238 0.0751]]
+
+    5 x 5; weight sum = 1.000000
+    [[0.003  0.0133 0.0219 0.0133 0.003 ]
+     [0.0133 0.0596 0.0983 0.0596 0.0133]
+     [0.0219 0.0983 0.1621 0.0983 0.0219]
+     [0.0133 0.0596 0.0983 0.0596 0.0133]
+     [0.003  0.0133 0.0219 0.0133 0.003 ]]
+
+    7 x 7; weight sum = 1.000000
+    [[1.9652e-05 2.3941e-04 1.0730e-03 1.7690e-03 1.0730e-03 2.3941e-04
+      1.9652e-05]
+     [2.3941e-04 2.9166e-03 1.3071e-02 2.1551e-02 1.3071e-02 2.9166e-03
+      2.3941e-04]
+     [1.0730e-03 1.3071e-02 5.8582e-02 9.6585e-02 5.8582e-02 1.3071e-02
+      1.0730e-03]
+     [1.7690e-03 2.1551e-02 9.6585e-02 1.5924e-01 9.6585e-02 2.1551e-02
+      1.7690e-03]
+     [1.0730e-03 1.3071e-02 5.8582e-02 9.6585e-02 5.8582e-02 1.3071e-02
+      1.0730e-03]
+     [2.3941e-04 2.9166e-03 1.3071e-02 2.1551e-02 1.3071e-02 2.9166e-03
+      2.3941e-04]
+     [1.9652e-05 2.3941e-04 1.0730e-03 1.7690e-03 1.0730e-03 2.3941e-04
+      1.9652e-05]]
+
+Actual 3 x 3 neighborhood centered at [row=83, column=125]:
+
+    [[205. 191. 167.]
+     [231. 197. 175.]
+     [196. 182. 185.]]
+
+Multiply each of these nine pixel intensities by the Gaussian weight at the same position:
+
+    [[15.398 23.654 12.544]
+     [28.607 40.223 21.672]
+     [14.722 22.539 13.896]]
+
+Example: Adding the nine products gives 193.256451. This is the new center-pixel intensity. GaussianBlur() gives 193.256451 at the same location.
+
+Reading the pictures:
+
+From left to right, the panels show smoothing with 3 x 3, 5 x 5, and 7 x 7 windows. Compare how much background texture becomes less noticeable and whether small features also become softer. With sigma held constant, the 5 x 5 and 7 x 7 results may look very similar because the additional outer weights contribute only a small amount.
+
+All three panels show grayscale intensities on the same 0-255 scale: 0 is black and 255 is white. Gaussian smoothing does not calculate a Laplacian response; that is examined in the next step.
+
+STEP 3/5: Use the Laplacian to examine possible boundaries
+==========================================================
+The direct Laplacian examines brightness changes without Gaussian smoothing first. It makes many boundaries stand out, but it also responds to small changes in texture and noise.
+
+A first derivative describes how brightness changes between nearby positions. A second derivative describes how that rate of change changes across the image. The Laplacian adds the horizontal and vertical second derivatives. Nearly uniform areas give values close to zero. Strong changes can give positive or negative responses, depending on the local brightness pattern.
+
+Code in apply_laplacian():
+
+    return cv2.Laplacian(
+        gray_image, ddepth=cv2.CV_64F, ksize=kernel_size,
+        scale=laplacian_scale(kernel_size), delta=0, borderType=BORDER_TYPE,
+    )
+
+OpenCV calculates the Laplacian using second-derivative coefficients. The scale setting adjusts their numerical gain for each window size: 1/4 for 3 x 3, 1/64 for 5 x 5, and 1/1024 for 7 x 7. A larger window still examines a different neighborhood. CV_64F keeps negative values instead of losing them in an 8-bit image; delta=0 adds no offset.
+
+Direct Laplacian results before converting them for display:
+
+    Aperture     Scale          Signed minimum     Signed maximum
+    3 x 3      0.250000000       -203.5000           226.5000
+    5 x 5      0.015625000        -77.5000            79.0938
+    7 x 7      0.000976562        -55.8867            52.8457
+
+The 3 x 3 Laplacian weight matrix used in this calculation:
+
+    [[ 0.5  0.   0.5]
+     [ 0.  -2.   0. ]
+     [ 0.5  0.   0.5]]
+
+The center has a negative weight and the diagonal neighbors have positive weights. These coefficients add up to zero. If every pixel in the neighborhood has the same brightness, their weighted sum is approximately zero. Different surrounding intensities can produce a signed response.
+
+Laplacian calculation at [row=83, column=125]:
+
+    [[ 102.5    0.    83.5]
+     [   0.  -394.     0. ]
+     [  98.     0.    92.5]]
+
+The program uses the same nine pixels from Step 2, but multiplies them by the Laplacian coefficients instead of Gaussian weights. The products sum to -17.500000; cv2.Laplacian() returns -17.500000. The result keeps its positive or negative sign.
+
+Reading the pictures:
+
+From left to right, these are the direct 3 x 3, 5 x 5, and 7 x 7 Laplacian results. Bright areas represent a stronger response, whether the original value was positive or negative. Compare the main outlines with the smaller bright marks in the background. Some of those marks may come from image noise rather than a useful feature.
+
+The six Laplacian panels in Steps 3 and 4 use the same display scale, based on maximum absolute response 226.500000. The full signed values remain available in the saved numerical arrays.
+
+STEP 4/5: Smooth first, then apply the Laplacian
+================================================
+This method applies Gaussian smoothing first, then calculates the Laplacian from that smoothed image. The purpose is to reduce small brightness fluctuations before examining possible boundaries.
+
+The program starts each kernel size with the original grayscale image. For the combined result, it passes the Gaussian output directly to the Laplacian. Both operations use that row's 3 x 3, 5 x 5, or 7 x 7 window, and every Gaussian uses the same sigma.
+
+Code in create_results():
+
+    gaussian_image = apply_gaussian(gray_image, kernel_size, sigma)
+    results[kernel_size] = {
+        "gaussian": gaussian_image,
+        "laplacian": apply_laplacian(gray_image, kernel_size),
+        "gaussian_laplacian": apply_laplacian(gaussian_image, kernel_size),
+    }
+
+How the two filtering operations are connected:
+
+    gray_image -> Gaussian(k, sigma) -> Laplacian(k) -> signed response
+    k = 3            3 x 3                3 x 3       support 5 x 5
+    k = 5            5 x 5                5 x 5       support 9 x 9
+    k = 7            7 x 7                7 x 7       support 13 x 13
+
+In create_results(), the direct Laplacian uses gray_image, while the combined result uses gaussian_image. This is the difference being tested. For an interior pixel, the support sizes above show the total original-image neighborhood that can affect the final result after both operations. They do not mean that a separate 9 x 9 or 13 x 13 Laplacian was applied.
+
+Reading the pictures:
+
+Each column uses one window size. The upper image shows the Gaussian result, and the lower image shows the Laplacian calculated from it. Compare the lower images with the direct Laplacian pictures in Step 3. Look for less background clutter while checking whether the main outlines and smaller details remain visible.
+
+The upper images show grayscale brightness. The lower images show the strength of the Laplacian response, so a bright area has a different meaning in each row.
+
+STEP 5/5: Compare the results and check what was saved
+======================================================
+The final 3 x 3 figure contains the nine filtering results required by the assignment. It brings the three methods and three window sizes together for a direct visual comparison.
+
+Each row uses one window size: 3 x 3, 5 x 5, or 7 x 7. Each column shows Gaussian, direct Laplacian, or Gaussian followed by Laplacian. Read across to compare the methods, then down to compare window sizes while the Gaussian sigma stays fixed.
+
+How the Laplacian responses are displayed in grayscale:
+
+    display = (abs(response) / shared_maximum) ** 0.5
+
+The six Laplacian views share a maximum absolute response of 226.500000. abs() lets positive and negative responses appear as brightness; the square root makes weaker responses easier to see. The same response strength therefore looks equally bright in every Laplacian panel. This changes the display only. Gaussian panels still use the regular 0-255 grayscale intensity scale.
+
+Example: The average absolute pixel difference between the 5 x 5 and 7 x 7 Gaussian results is 0.134188 intensity levels. A smaller number means the two smoothed images are more alike at corresponding pixel positions.
+
+For the supplied photograph, the program measures a small area in the right background, using rows 20:140 and columns 195:235. RMS (root mean square) summarizes the strength of the Laplacian values: square them, average them, and take the square root. Compare the direct and combined columns to see how smoothing changes the response in that area. The selected area contains shading as well as noise.
+
+Background response measurements:
+
+    Aperture      Laplacian RMS      Gaussian + Laplacian RMS
+    3 x 3             38.5412                       7.5658
+    5 x 5              8.5802                       2.9419
+    7 x 7              4.3050                       1.9716
+
+Reading the pictures:
+
+For the supplied photograph, I prefer Gaussian followed by Laplacian using a 5 x 5 window and sigma 1.0. The direct 3 x 3 result contains more small background responses. Smoothing first reduces some of those responses while keeping the hair outline, shirt collar, and crossed arms recognizable. The 7 x 7 result can soften narrower details, including parts of the hair and face. Those features matter because they help describe the subject's shape.
+
+Gaussian smoothing reduces small intensity variations but also softens details. The direct Laplacian makes changes stand out, including noise. For a noisy photograph, Gaussian followed by Laplacian can give a useful balance: fewer background responses while keeping the larger outlines visible. The amount of smoothing still affects fine detail.
+
+Output folder: mod_images
+The program saves the original/grayscale reference, the labeled 3 x 3 comparison, and nine individual filtered PNGs. filter_arrays.npz holds the original signed filter values, and terminal_output.txt contains a copy of these five explanations.
