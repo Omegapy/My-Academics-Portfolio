@@ -3,7 +3,7 @@
 **Program:** [Module2_CTA.py](Module2_CTA.py) - Color channel extraction, reconstruction, and red/green swapping
 
 **Date:** 09/27/2026  
-**Grade:**
+**Grade:** 100% | A
 
 ---
 
