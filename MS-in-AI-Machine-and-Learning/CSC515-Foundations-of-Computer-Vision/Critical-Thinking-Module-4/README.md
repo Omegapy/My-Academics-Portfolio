@@ -52,10 +52,6 @@ Next, write a 2-3 page summary of your output results. Include in your summary, 
 
 2. A single Python code file.
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 4aa25cca7bad1138efd94399c92f459f429e9866
 ---
 
 ## Program Requirements
