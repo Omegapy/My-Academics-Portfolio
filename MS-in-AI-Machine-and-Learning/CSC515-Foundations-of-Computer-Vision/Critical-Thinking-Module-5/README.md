@@ -63,6 +63,9 @@ The `cv2` import is provided by `opencv-contrib-python`, which includes OpenCV's
 
 The supplied scan contains a yellow handwritten service note on top of a printed form. The program uses the four visible note corners to separate and straighten the note. A 12-pixel border is trimmed, producing a 769 x 772-pixel image. These coordinates are specific to `org_images/sticky_note.png`; this is not an automatic document detector.
 
+Images - Original and Outputs:  
+<img width="599" height="484" alt="image" src="https://github.com/user-attachments/assets/32c404aa-5975-4b3c-8778-b630961319f2" />
+
 Grayscale conversion gives each pixel one brightness value. Inverse Otsu thresholding then separates dark writing from the lighter paper. The selected threshold is 162. The array used for morphology contains white handwriting, with a value of 255, on black background, with a value of 0. The original scan is not changed, and no artificial noise is added.
 
 Dilation, erosion, opening, and closing all start from this same binary image. Each operation uses a 3 x 3 elliptical structuring element and one iteration. At this size, OpenCV's ellipse contains five active positions:
