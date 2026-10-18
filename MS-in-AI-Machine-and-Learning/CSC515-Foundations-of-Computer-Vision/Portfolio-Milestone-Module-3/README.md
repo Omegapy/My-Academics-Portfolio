@@ -43,14 +43,6 @@ It is time to think more about your upcoming Portfolio Project. In face and obje
 
 Use a camera to take a picture of yourself facing the frontal. Using an image from the web, create a deepfake by replacing someone else’s likeness with yourself.
 
-### CSC515_M03_PM
-
-| Criteria | Meets Expectation | Approaches Expectation | Below Expectation | Limited Evidence | Pts |
-|---|---|---|---|---|---:|
-| **Requirements** | **75 to >60.0 pts**  **Meets Expectation**  Includes all of the required components, as specified in the assignment. | **60 to >45.0 pts**  **Approaches Expectation**  Includes most of the required components, as specified in the assignment. | **45 to >30.0 pts**  **Below Expectation**  Includes some of the required components, as specified in the assignment. | **30 to >0 pts**  **Limited Evidence**  Includes few of the required components, as specified in the assignment. | **75 pts** |
-| **Content** | **50 to >40.0 pts**  **Meets Expectation**  Demonstrates strong or adequate knowledge of the materials; correctly represents knowledge from the readings and sources. | **40 to >30.0 pts**  **Approaches Expectation**  Some significant but not major errors or omissions in demonstration of knowledge. | **30 to >20.0 pts**  **Below Expectation**  Major errors or omissions in demonstration of knowledge. | **20 to >0 pts**  **Limited Evidence**  Fails to demonstrate knowledge of the materials. | **50 pts** |
-
-**Total Points: 125**
 
 ---
 
