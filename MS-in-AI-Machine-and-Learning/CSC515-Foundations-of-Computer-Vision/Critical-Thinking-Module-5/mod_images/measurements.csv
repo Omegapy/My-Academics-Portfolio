@@ -1,0 +1,6 @@
+operation,foreground_pixels,added_pixels,removed_pixels,change_percent,connected_regions
+binary,35968,0,0,0.0,87
+dilation,48006,12038,0,33.468638790035584,82
+erosion,24162,0,11806,-32.82362099644128,83
+opening,35672,0,296,-0.8229537366548043,81
+closing,36250,282,0,0.7840302491103203,86

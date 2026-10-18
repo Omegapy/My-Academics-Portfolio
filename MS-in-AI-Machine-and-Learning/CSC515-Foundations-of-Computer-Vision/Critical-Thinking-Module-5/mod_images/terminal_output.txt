@@ -1,0 +1,130 @@
+CSC515 Module 5 - Morphology Operations for Handwritten Text Enhancement
+
+========================================================================================
+STEP 1/6: Prepare the handwritten note
+========================================================================================
+
+The program loads the 996 x 974-pixel scan. It shows a tilted yellow sticky note
+attached to a printed form. In extract_note(), four selected corners are used to
+straighten the note. A 12-pixel border is then removed. The resulting image is 769 x 772
+pixels.
+
+In prepare_binary(), grayscale conversion gives each pixel one brightness value instead
+of three color values. Otsu's method selects a threshold of 162 on the 0-255 scale.
+Pixels at or below this value become white foreground (255); brighter pixels become
+black background (0). The saved and displayed binary images use these same values.
+
+Morphology uses a structuring element, also called a kernel, to select the neighboring
+pixels examined around each position. The 3 x 3 elliptical element has five active
+positions (1). Positions marked 0 are ignored:
+    0 1 0
+    1 1 1
+    0 1 0
+
+The binary image contains 35,968 white foreground pixels. All four operations use this
+same input. No noise is added, and no Gaussian smoothing or opening is performed before
+the comparison.
+
+Saved teaching view: figures/01_preparation.png
+
+========================================================================================
+STEP 2/6: Dilation: expand the foreground
+========================================================================================
+
+Dilation expands the white foreground, making the handwriting thicker. For each
+position, it uses the largest value under the five active kernel positions. One white
+neighboring pixel can make the output white.
+
+Dilation adds 12,038 foreground pixels, an increase of 33.47%. This can help when a
+stroke is weak or disconnected. However, the small white marks in the background also
+become larger.
+
+For example, a small gap separates S and e in the word Set in the binary input, but
+dilation joins the two letters. This could make character separation more difficult. It
+does not mean that a damaged stroke has been repaired.
+
+Saved teaching view: figures/02_dilation.png
+
+========================================================================================
+STEP 3/6: Erosion: reduce the foreground
+========================================================================================
+
+Erosion removes pixels around the white foreground boundaries, making the strokes
+thinner. A pixel remains white only when every active kernel position fits inside the
+white handwriting.
+
+Erosion removes 11,806 foreground pixels, or 32.82% of the input foreground. Some small
+background specks disappear, but thin portions of letters can also be removed.
+
+In the model label, a thin curved stroke becomes broken near the following i. The
+background may look cleaner in some areas, but part of the handwriting has been lost.
+See figures/07_stroke_detail.png to compare the stroke before and after erosion.
+
+Saved teaching view: figures/03_erosion.png
+
+========================================================================================
+STEP 4/6: Opening: remove small foreground marks
+========================================================================================
+
+Opening applies erosion followed by dilation. Erosion removes small foreground
+structures, and dilation expands the parts that remain. However, dilation cannot restore
+a mark removed completely by erosion.
+
+Opening removes 296 foreground pixels (0.82%) without adding white pixels. Three small
+isolated marks near the upper-right background disappear. Most of the handwriting
+remains close to its original stroke width.
+
+The curved stroke in the model label stays connected after opening, unlike direct
+erosion. Some other small fragments and boundary details are removed. A detached mark
+could belong to a letter, so its removal does not automatically mean the writing has
+been improved.
+
+Saved teaching view: figures/04_opening.png
+
+========================================================================================
+STEP 5/6: Closing: fill small gaps
+========================================================================================
+
+Closing applies dilation followed by erosion. Dilation can fill a small hole or gap,
+while erosion reduces the expanded outer boundary. A connection made during dilation may
+still remain afterward.
+
+Closing adds 282 foreground pixels (0.78%) without removing foreground. The handwriting
+changes very little overall, but the small isolated marks in the upper-right background
+remain.
+
+The S and e in Set become connected. This reduces the number of connected regions from
+87 to 86. The program cannot determine whether this space was a damaged stroke or a
+separation between letters. See figures/08_gap_detail.png to compare the gap.
+
+Saved teaching view: figures/05_closing.png
+
+========================================================================================
+STEP 6/6: Compare the four operations
+========================================================================================
+
+The final comparison shows the straightened color note, its binary input, and the four
+morphological results. All four start with the same binary image; they are not a
+sequence of processing steps.
+
+    Operation   Foreground     Added   Removed   Change %   Regions
+    binary         35,968         0         0       0.00        87
+    dilation       48,006    12,038         0      33.47        82
+    erosion        24,162         0    11,806     -32.82        83
+    opening        35,672         0       296      -0.82        81
+    closing        36,250       282         0       0.78        86
+
+The foreground counts show how many white pixels were added or removed. A connected
+region can contain several letters or only one small mark. These measurements do not
+count characters or indicate whether an OCR system can recognize the handwriting
+accurately.
+
+For this note, the 3 x 3 opening removes several background marks without the thicker
+strokes of dilation or the broken curve seen with erosion. Closing changes fewer
+foreground pixels, but it joins the space between S and e in Set. Much of the
+improvement in paper contrast comes from Otsu thresholding before morphology. These
+results do not mean opening will be best for every handwritten note.
+
+Saved teaching view: figures/06_morphology_comparison.png
+
+Additional views: figures/07_stroke_detail.png and figures/08_gap_detail.png

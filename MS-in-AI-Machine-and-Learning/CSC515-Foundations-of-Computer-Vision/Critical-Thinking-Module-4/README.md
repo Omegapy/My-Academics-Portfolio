@@ -3,7 +3,7 @@
 **Program:** [Module4_CTA_Option2.py](Module4_CTA_Option2.py)
 
 **Date:** 10/06/2026  
-**Grade:**
+**Grade:** 100% | A  
 
 ---
 
@@ -28,9 +28,11 @@ This [image](org_images/Mod4CT2.jpg). In OpenCV, write algorithms for this image
 
 Next, write a 2-3 page summary of your output results. Include in your summary, the following:
 
-Which filter type (Gaussian, Laplacian, or Gaussian with Laplacian) is preferred for better edge detection and why? Provide two references of support for your answer and cite them in your summary using correct APA styling.
-Which filter (include kernel size and sigma, if applicable) performed the best visually? Include details like whether there were image features better preserved and/or better enhanced. Are these preservations and enhancements of image features important for edge detection? Why or why not?
-Are your results in line with the preferred method? Discuss why or why not?
+- Which filter type (Gaussian, Laplacian, or Gaussian with Laplacian) is preferred for better edge detection and why
+- Provide two references of support for your answer and cite them in your summary using correct APA styling.
+- Which filter (include kernel size and sigma, if applicable) performed the best visually? Include details like
+- whether there were image features better preserved and/or better enhanced. Are these preservations and enhancements of image features important for edge detection? Why or why not?
+- Are your results in line with the preferred method? Discuss why or why not?
 
 **Submission Guidelines**
 
@@ -50,20 +52,6 @@ Are your results in line with the preferred method? Discuss why or why not?
 
 2. A single Python code file.
 
-**Rubric:**
-
-CSC515_M04_CT Rubric
-
-| Criteria | Meets Expectations | Approaches Expectations | Below Expectations | Limited Evidence | Pts |
-|---|---|---|---|---|---:|
-| **Filter Implementation** | **15 to >12.0 pts** — Correctly implements all required filters using the specified kernel sizes and appropriate parameters, including sigma values for Gaussian filtering where required. | **12 to >9.0 pts** — Implements most required filters using mostly appropriate kernel sizes and parameters, with minor coding or parameter errors that do not substantially affect the results. | **9 to >6.0 pts** — Attempts filter implementation, but one or more filters, kernel sizes, or sigma values are missing, incorrect, or applied in a way that substantially affects the results. | **6 to >0 pts** — Provides minimal or no implementation of the required filters. | **15** |
-| **Image Processing Results** | **15 to >12.0 pts** — Generates all required filtered images with accurate, complete, and visually meaningful results that support the required comparisons. | **12 to >9.0 pts** — Generates most required filtered images with minor inaccuracies, omissions, or display issues, but results are generally interpretable. | **9 to >6.0 pts** — Generates some filtered images, but several outputs are missing, incorrect, incomplete, mislabeled, or difficult to interpret. | **6 to >0 pts** — Provides minimal or no filtered image outputs. | **15** |
-| **Analysis of Filter Performance** | **15 to >12.0 pts** — Provides a thorough and accurate analysis of filter performance, including meaningful discussion of noise reduction, edge detection, feature preservation, smoothing, sharpening, and image enhancement as applicable. | **12 to >9.0 pts** — Provides a mostly accurate analysis of filter performance with adequate discussion of results and visible image features, though some details may be underdeveloped. | **9 to >6.0 pts** — Provides a limited or partially accurate analysis with minimal discussion of how the filters affected the images or why the results occurred. | **6 to >0 pts** — Provides little to no meaningful analysis of filter performance. | **15** |
-| **Comparison to Preferred Methods** | **20 to >16.0 pts** — Clearly compares the experimental results to preferred filtering methods and explains which methods are most appropriate for specific image-processing goals, supported by logical reasoning and evidence from the outputs. | **16 to >12.0 pts** — Compares the experimental results to preferred filtering methods with mostly clear reasoning, though some connections to the outputs or image-processing goals may be limited. | **12 to >9.0 pts** — Provides a limited comparison of filtering methods, but the explanation is unclear, weakly supported, or not consistently connected to the experimental results. | **9 to >0 pts** — Provides little to no comparison between experimental results and preferred filtering methods. | **20** |
-| **Sources/Examples** | **5 to >4.0 pts** — Uses appropriate sources, examples, or course concepts to support the explanation of filtering methods, image-processing results, and preferred techniques. | **4 to >3.0 pts** — Uses sources, examples, or course concepts that are generally relevant, but support may be limited, underdeveloped, or only loosely connected to the analysis. | **3 to >2.0 pts** — Uses sources, examples, or course concepts minimally or inaccurately, with weak connection to the filtering methods or results. | **2 to >0 pts** — Provides little to no use of sources, examples, or course concepts to support the submission. | **5** |
-| **Writing Quality, Mechanics, & APA Formatting** | **5 to >4.0 pts** — Writing is clear, organized, and professional, with minimal grammar, spelling, or punctuation errors. APA formatting, in-text citations, and the reference list are accurate. | **4 to >3.0 pts** — Writing is generally clear and organized, with minor grammar, spelling, punctuation, or APA formatting errors that do not significantly interfere with readability. | **3 to >2.0 pts** — Writing is uneven or difficult to follow in places, with noticeable grammar, spelling, punctuation, citation, or APA errors that affect readability or academic presentation. | **2 to >0 pts** — Writing lacks clarity or organization, contains frequent errors, or provides little to no adherence to APA formatting and citation expectations. | **5** |
-
-**Total Points: 75**
 
 ---
 

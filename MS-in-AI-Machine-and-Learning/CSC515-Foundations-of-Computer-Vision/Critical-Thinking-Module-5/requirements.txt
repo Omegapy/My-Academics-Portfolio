@@ -1,0 +1,5 @@
+# Verified with Python 3.12.13. Python 3.12 or later is required.
+# Install one OpenCV distribution; opencv-contrib-python provides cv2.
+opencv-contrib-python==4.13.0.92
+numpy==2.5.3
+matplotlib==3.11.2
