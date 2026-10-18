@@ -86,6 +86,9 @@ with their existing filenames and dimensions. No model download is needed.
 above. The three-image face-detection and eye-blurring work belongs to the later
 portfolio project.
 
+Image Results:  
+<img width="368" height="247" alt="image" src="https://github.com/user-attachments/assets/fb476f29-bd91-46e4-bb3d-575b023bd422" />
+
 All program code stays in this one Python script. The processing sections crop and
 align the face, prepare masks, match skin colors, and compare the two blending
 methods. `create_alex_on_the_rock_results()` collects these results once. The

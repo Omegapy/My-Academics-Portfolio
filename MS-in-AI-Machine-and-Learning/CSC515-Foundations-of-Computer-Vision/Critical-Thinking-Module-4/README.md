@@ -52,7 +52,10 @@ Next, write a 2-3 page summary of your output results. Include in your summary, 
 
 2. A single Python code file.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4aa25cca7bad1138efd94399c92f459f429e9866
 ---
 
 ## Program Requirements
@@ -71,6 +74,9 @@ Next, write a 2-3 page summary of your output results. Include in your summary, 
 Laplacian filtering, and Gaussian followed by Laplacian on the supplied noisy
 portrait. Each method runs with 3 × 3, 5 × 5, and 7 × 7 windows. All three rows
 start from the same grayscale image and use Gaussian sigma **1.0 pixel**.
+
+Image Results:  
+<img width="314" height="253" alt="image" src="https://github.com/user-attachments/assets/109d9722-565f-48ec-a169-98521ebdf16c" />
 
 I use the Laplacian to examine rapid changes in brightness that may mark object
 boundaries. Noise can produce strong responses too. The comparison shows whether
