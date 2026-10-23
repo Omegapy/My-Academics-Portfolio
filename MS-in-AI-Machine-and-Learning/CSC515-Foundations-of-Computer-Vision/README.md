@@ -53,7 +53,10 @@ My Links:
 
 Requirements:  
 
-[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat\&logo=python\&logoColor=white)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat\&logo=python\&logoColor=white)](https://www.python.org/downloads/) 
+[![OpenCV 4.13.0](https://img.shields.io/badge/OpenCV-4.13.0-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
+[![NumPy 2.5.3](https://img.shields.io/badge/NumPy-2.5.3-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib 3.11.2](https://img.shields.io/badge/Matplotlib-3.11.2-11557C?style=flat&logo=python&logoColor=white)](https://matplotlib.org/)
 
 
 ---
