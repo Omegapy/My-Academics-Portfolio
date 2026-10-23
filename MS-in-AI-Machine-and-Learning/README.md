@@ -35,6 +35,8 @@ Requirements:
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=flat\&logo=jupyter\&logoColor=white)](https://jupyter.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=flat\&logo=python\&logoColor=black)](https://matplotlib.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat\&logo=plotly\&logoColor=white)](https://plotly.com/)
+[![OpenCV 4.13.0](https://img.shields.io/badge/OpenCV-4.13.0-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
+
 
 ---
 
