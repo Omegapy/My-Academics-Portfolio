@@ -31,6 +31,7 @@ Stack:
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat\&logo=python\&logoColor=white)](https://www.python.org/downloads/)
 [![TensorFlow 2.21.0](https://img.shields.io/badge/TensorFlow-2.21.0-FF6F00?style=flat\&logo=tensorflow\&logoColor=white)](https://www.tensorflow.org/)
 [![PyTorch 2.13.0](https://img.shields.io/badge/PyTorch-2.13.0-EE4C2C?style=flat\&logo=pytorch\&logoColor=white)](https://pytorch.org/)
+[![OpenCV 4.13.0](https://img.shields.io/badge/OpenCV-4.13.0-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat\&logo=numpy\&logoColor=white)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat\&logo=pandas\&logoColor=white)](https://pandas.pydata.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626?style=flat\&logo=jupyter\&logoColor=white)](https://jupyter.org/)
@@ -48,6 +49,7 @@ Stack:
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat\&logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat\&logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat\&logo=markdown\&logoColor=white)](https://www.markdownguide.org/)
+
 
 ---
 
