@@ -1,0 +1,168 @@
+CSC515 Module 6 - Adaptive Thresholding Under Changing Illumination
+
+========================================================================================
+STEP 1/5: Prepare the two full scenes
+========================================================================================
+
+This assignment examines two mugs under different lighting conditions. One mug is glossy
+black, and the other is light-colored with raised flowers. Both sit on a light tabletop
+in front of a dark background. The first photograph is lit from the white mug's side. In
+the second, the light comes from the black mug's side. The goal is to see whether the
+same adaptive thresholding settings still work after that change.
+
+Light from the white mug's side: original 2134 x 1765 pixels; processed 1000 x 827
+pixels.
+
+Light from the black mug's side: original 2222 x 1543 pixels; processed 1000 x 694
+pixels.
+
+In load_and_prepare(), cv2.resize() reduces both photographs to 1,000 pixels wide while
+keeping their original proportions. Neither image is cropped, so the mugs, tabletop,
+background, and shadows all remain. The first view shows the original photographs beside
+their grayscale versions.
+
+OpenCV reads color in BGR order, meaning blue, green, and red. Then cv2.cvtColor() gives
+each pixel one brightness value instead of three color values. The grayscale image uses
+uint8 values from 0, black, to 255, white. A 5 x 5 Gaussian blur reduces small
+brightness variations before thresholding. With sigmaX=0, OpenCV calculates sigma from
+the kernel size. Both adaptive calculations use this same blurred grayscale input for
+each photograph.
+
+The blur does not remove the larger shadows or the reflections on the black mug. Look at
+its bright patches and the flowers on the white mug. These are details in the scene, and
+they also change the brightness values. Treating all of them as random noise would miss
+part of the problem.
+
+This run uses Python 3.12.13; OpenCV 4.13.0; NumPy 2.5.3; Matplotlib 3.11.2.
+
+Saved teaching view: figures/01_preparation.png
+
+========================================================================================
+STEP 2/5: Threshold the scene lit from the white mug's side
+========================================================================================
+
+Start with the photograph lit from the white mug's side. The left panel shows the
+blurred grayscale input, and the right panel shows the initial adaptive image. Look at
+the rims, handles, and raised flowers to see which details remain visible.
+
+Adaptive thresholding calculates a separate cutoff for each pixel using the brightness
+of its neighbors. Here, ADAPTIVE_THRESH_GAUSSIAN_C calculates a weighted local average
+and subtracts C. The initial settings are blockSize=31 and C=5, so the program examines
+a 31 x 31 window and subtracts 5 from that average. THRESH_BINARY_INV makes pixels at or
+below their threshold white (255), while brighter pixels become black (0).
+
+A white pixel does not necessarily belong to a mug. It only means that the pixel met its
+local threshold. For example, a shadow on the tabletop can be selected along with a dark
+part of a handle. The table counts those selected pixels and their connected regions.
+
+    Mask                  White pixels    Image %    Regions
+    initial_adaptive            66,762     8.0728        380
+
+Some of the mug boundaries are visible, although several areas remain thin or
+disconnected. The black mug's bright reflections interrupt parts of its outline. The
+white mug has a different problem: parts of its boundary are close in brightness to the
+tabletop.
+
+Saved teaching view: figures/02_white_side_thresholding.png
+
+========================================================================================
+STEP 3/5: Use the same scheme with light from the black mug's side
+========================================================================================
+
+Now look at the photograph lit from the black mug's side. The program uses the same
+preparation and initial thresholding settings as in Step 2. Compare the right panel with
+the previous result, particularly around the black mug's reflections and the tabletop
+shadows.
+
+The settings remain ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY_INV, blockSize=31, and
+C=5. Each pixel is still compared with its weighted local average minus 5. Values at or
+below that cutoff become white (255); brighter values become black (0).
+
+The black mug can still contain bright reflections, while the tabletop contains dark
+shadows. This is why changing the light does not make every selected region part of a
+mug. The table describes the pixels selected in this second photograph.
+
+    Mask                  White pixels    Image %    Regions
+    initial_adaptive            66,728     9.6150        301
+
+Changing the light affects which parts of the mugs appear in the binary image. The same
+settings still pick up some boundaries, but they do not separate both mugs completely
+from their surroundings. The next step revises the settings and checks both photographs
+again.
+
+Saved teaching view: figures/03_black_side_thresholding.png
+
+========================================================================================
+STEP 4/5: Revise the adaptive settings for both photographs
+========================================================================================
+
+The initial results leave several boundaries thin or disconnected. For the revision, the
+window increases to 101 x 101 and C changes to 10. Both photographs use these new
+settings. The program starts again from each blurred grayscale image, so the revised
+result is calculated independently of the initial binary image.
+
+The larger window includes a wider area when calculating the local average. Increasing C
+lowers the threshold, which selects fewer white pixels if that average stays the same.
+However, the window also changes here, so its average can change too. This comparison
+shows their combined effect; it cannot tell us how much each setting contributed.
+
+Light from the white mug's side.
+    Mask                  White pixels    Image %    Regions
+    initial_adaptive            66,762     8.0728        380
+    revised_adaptive            96,910    11.7183        150
+
+Light from the black mug's side.
+    Mask                  White pixels    Image %    Regions
+    initial_adaptive            66,728     9.6150        301
+    revised_adaptive            93,428    13.4622        149
+
+Read across each row of the figure to compare the original photograph, initial result,
+and revised result. Several white regions become wider and more continuous, making parts
+of the rims and handles easier to follow. At the same time, more of the shadows and the
+dark backdrop are selected. The improvement is not the same throughout the images.
+
+The tables show more white pixels and fewer connected regions in both revised images.
+Some smaller regions may have disappeared, while others may have joined together. Those
+changes also occur in the background, so the numbers alone do not show whether the mugs
+were separated more accurately.
+
+Saved teaching view: figures/04_adaptive_revision.png
+
+========================================================================================
+STEP 5/5: Examine the results and their limits
+========================================================================================
+
+The final comparison brings both lighting directions together. Each row shows the color
+photograph, the revised adaptive image, and a cyan overlay. The revised adaptive image
+is the final result. The overlay simply marks those same selected pixels on the
+photograph.
+
+Look at where the cyan areas fall. Some follow the mugs' rims and handles, but others
+include shadows on the tabletop and bands near the dark backdrop. The boundaries are
+easier to follow in some areas, although neither photograph gives a complete separation
+of both mugs.
+
+The black mug remains difficult because its glossy surface reflects light and objects
+around it. Those bright patches still belong to the mug. Meanwhile, parts of the white
+mug have brightness values close to the tabletop. Even the space inside a handle
+contains background that can look similar to the handle itself. The raised flowers
+create additional brightness changes. A local threshold cannot tell what produced all of
+these differences.
+
+In measure_masks(), np.count_nonzero() counts the white pixels. Image % shows how much
+of the full processed image they cover. Connected regions are groups of white pixels
+that touch horizontally, vertically, or diagonally. These measurements help describe the
+result, but they cannot tell whether the selected pixels actually belong to either mug.
+Without manually labeled reference masks, segmentation accuracy cannot be calculated.
+
+Another consideration is that the photographs have different dimensions and framing.
+Resizing them to the same width does not make the scenes identical, so differences
+between their measurements cannot be attributed to illumination alone. Both photographs
+were also examined when choosing the revision. This shows how the settings work on these
+two images; it does not establish how they will work on a new photograph.
+
+For these photographs, the revised settings make several boundaries more continuous, but
+they also include more background. That is the remaining problem with separating the
+mugs using brightness alone.
+
+Saved teaching view: figures/05_final_comparison.png

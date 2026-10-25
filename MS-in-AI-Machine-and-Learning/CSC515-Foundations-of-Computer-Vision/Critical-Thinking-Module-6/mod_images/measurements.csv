@@ -1,0 +1,5 @@
+scene,mask,width,height,block_size,constant_c,white_pixels,percent_image_white,connected_regions
+light_white_mug_side,initial_adaptive,1000,827,31,5,66762,8.07279322853688,380
+light_white_mug_side,revised_adaptive,1000,827,101,10,96910,11.718258766626361,150
+light_black_mug_side,initial_adaptive,1000,694,31,5,66728,9.614985590778097,301
+light_black_mug_side,revised_adaptive,1000,694,101,10,93428,13.462247838616715,149
