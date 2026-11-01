@@ -4,7 +4,7 @@
 **Explanation:** [Word document](Module6_CTA_Option2_Explanation.docx)
 
 **Date:** 10/24/2026
-**Grade:** Pending
+**Grade:** 100% | A
 
 ---
 
@@ -59,6 +59,10 @@ The initial settings are `blockSize=31` and `C=5`. The revision uses `blockSize=
 The revised adaptive mask is the final result. The cyan overlay marks its selected pixels on a copy of the color photograph without changing the mask.
 
 The black mug's glossy surface reflects objects around it like a curved mirror. Its bright and dark reflected patterns create local threshold changes inside the same physical mug. The white mug's embossed flowers also create real image structure. These details should not all be described as random noise. Local brightness alone does not identify which regions belong to a mug, a reflection, or the background.
+
+Program Image outputs:  
+<img width="426" height="462" alt="image" src="https://github.com/user-attachments/assets/70ec363d-6c24-42aa-958d-a64ba69d76b2" />
+
 
 ### Observed measurements
 
