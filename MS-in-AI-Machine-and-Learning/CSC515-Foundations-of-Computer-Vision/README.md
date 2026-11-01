@@ -111,8 +111,8 @@ Next, write a 2-3 page (it can be more than 3 pages if needed) summary of your o
 
 2. A single Python code file.
 
-* Original Image 1: [light_white_mug_side.jpeg](org_images/light_white_mug_side.jpeg)
-* Original Image 2: [light_black_mug_side.jpeg](org_images/light_black_mug_side.jpeg)
+* Original Image 1: light_white_mug_side.jpeg
+* Original Image 2: light_black_mug_side.jpeg
 
 
 ---
