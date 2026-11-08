@@ -1,10 +1,10 @@
 # Critical Thinking Module 6 - Option 2: Adaptive Thresholding Scheme Accounting for Changes in Illumination
 
 **Program:** [Module6_CTA_Option2.py](Module6_CTA_Option2.py)  
-**Explanation:** [Word document](Module6_CTA_Option2_Explanation.docx)
+**Explanation:** [PDF Explanation](Module6_CTA_Option2_Explanation.pdf)
 
 **Date:** 10/24/2026
-**Grade:** Pending
+**Grade:** 100% | A
 
 ---
 

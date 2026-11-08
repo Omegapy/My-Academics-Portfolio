@@ -53,6 +53,13 @@ Next, write a 2-3 page (it can be more than 3 pages if needed) summary of your o
 
 ## Program Requirements
 
+---
+
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![OpenCV 4.13.0](https://img.shields.io/badge/OpenCV-4.13.0-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
+[![NumPy 2.5.3](https://img.shields.io/badge/NumPy-2.5.3-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib 3.11.2](https://img.shields.io/badge/Matplotlib-3.11.2-11557C?style=flat&logo=python&logoColor=white)](https://matplotlib.org/)
+
 Python 3.12 or later, OpenCV, NumPy, and Matplotlib. The program was checked with Python 3.12.13, OpenCV 4.13.0 (`opencv-contrib-python==4.13.0.92`), NumPy 2.5.3, and Matplotlib 3.11.2. The included [requirements.txt](requirements.txt) pins these three packages. The script also uses the Python standard library and does not need an OCR engine.
 
 The `cv2` import is provided by `opencv-contrib-python`, which includes OpenCV's main modules. Install only one OpenCV distribution in the selected Python environment. A desktop display and working Matplotlib GUI backend are needed for interactive windows; `--no-show` saves results without opening windows.
