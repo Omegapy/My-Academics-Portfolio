@@ -3,7 +3,7 @@
 **Program:** [Module8_Portfolio_Option2.py](Module8_Portfolio_Option2.py)  
 **Analysis:** [PDF Analysis](Module8_Portfolio_Option2_Analysis.pdf)
 
-**Date:** 11/08/2026. 
+**Date:** 11/08/2026  
 **Grade:** Pending
 
 ---
