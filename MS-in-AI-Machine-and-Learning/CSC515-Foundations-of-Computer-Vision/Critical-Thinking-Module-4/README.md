@@ -8,7 +8,7 @@
 ---
 
 Foundations of Computer Vision CSC515   
-Professor: Dr. Bingdong Li 
+Professor: Dr. Bingdong Li   
 Fall C (26FC) – 2026   
 Student: Alexander (Alex) Ricciardi  
 
