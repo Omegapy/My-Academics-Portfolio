@@ -54,8 +54,9 @@ My Links:
 
 ---
 
-#### Project Map
+#### Project Course Portfolio Project
 
+- [CSC515-Foundations-of-Computer-Vision](#csc515-foundations-of-computer-vision)
 - [CSC510 Foundations of Artificial Intelligence](#csc510-foundations-of-artificial-intelligence)
 - [CSC506 Design and Analysis of Algorithms Course](#csc506-design-and-analysis-of-algorithms-course)
 - [CSC480 Computer Science Capstone](#csc480-computer-science-capstone)
@@ -78,9 +79,84 @@ My Links:
 ---
 
 ## CSC510 Foundations of Artificial Intelligence
+
+Directory: [CSC515-Foundations-of-Computer-Vision](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Portfolio-Project-Module-8)   
+Title: Face Detection and Privcy  
+Grade: 
+
+---
+---
+
+## Overview
+
+The goal of this project is to write algorithms for face detection and feature blurring. Select three color images from the web that meet the following requirements:
+
+1. Two images containing human subjects facing primarily to the front and one image with a non-human subject.
+2. At least one image of a human subject should contain that person's entire body.
+3. At least one image should contain multiple human subjects.
+4. At least one image should display a person's face far away.
+5. All images should vary in light illumination and color intensity.
+
+---
+
+## Assignment 
+
+### Portfolio Project - Option #2: Face Detection and Privacy
+
+To address privacy concerns you may want to use data anonymization. On images, this can be achieved by hiding features that could lead to a person or personal data identification, such as the person's facial features or a license plate number.
+
+The goal of this project is to write algorithms for face detection and feature blurring. Select three color images from the web that meet the following requirements:
+
+1. Two images containing human subjects facing primarily to the front and one image with a non-human subject.
+2. At least one image of a human subject should contain that person's entire body.
+3. At least one image should contain multiple human subjects.
+4. At least one image should display a person's face far away.
+5. All images should vary in light illumination and color intensity.
+
+First, using the appropriate trained [cascade classifier](https://github.com/opencv/opencv/tree/4.x/data/haarcascades), write one algorithm to detect the human faces in the gray scaled versions of the original images. Put a red boundary box around the detected face in the image in order to see what region the classifier deemed as a human face. If expected results are not achieved on the unprocessed images, apply processing steps before implementing the classifier for optimal results.
+
+After the faces have been successfully detected, you will want to process only the extracted faces before detecting and applying blurring to hide the eyes. Although the [eye classifier](https://github.com/opencv/opencv/tree/4.x/data/haarcascades) is fairly accurate, it is important that all faces are centered, rotated, and scaled so that the eyes are perfectly aligned. If expected results are not achieved, implement more image processing for optimal eye recognition. Now, apply a blurring method to blur the eyes out in the extracted image.
+
+Inspect your results and write a summary describing the techniques you used to detect and blur the eyes out of human faces in images. Reflect on the challenges you faced and how you overcame these challenges. Furthermore, discuss in your summary, the accuracy of your results for all three images and techniques you used to improve the accuracy after each repeated experiment.
+
+### Submission guidelines
+
+- Your submission should be one executable Python script and one summary of 2-3 pages in length; note that it can be longer up to 5 pages.
+- Your paper must be formatted according to APA 7 guidelines.
+
+---
+
+## What the script does
+
+The first experiment detects face candidates on the original-resolution grayscale images without enhancement. The script retains six common experiments across all three images: the default face cascade, the alternate cascade at native resolution, the alternate cascade on an aspect-preserving 1,000-pixel maximum-edge input, global equalization, CLAHE, and a stricter grouping parameter. Returned face candidates are shown with red boxes, including incorrect candidates.
+
+The selected configuration is `03_alt_scaled`. Boxes are mapped back to the original photographs, and clean face crops are extracted there. A provisional eye pair supplies a rotation angle, uniform scale, and translation. The face is transformed onto a 320 x 320 canvas with target eye centers at (96, 121.6) and (224, 121.6). The eye classifier runs again on that aligned face. Unsuccessful eye attempts remain in the output record.
+
+The first eye search uses `haarcascade_eye.xml`. When a plausible pair is not found, the program tries equalization, `haarcascade_eye_tree_eyeglasses.xml`, and bounded split-region searches. The split searches also change search-scale spacing and grouping support; their effect is not attributed to the region alone. No missing eye is replaced with a manually supplied coordinate.
+
+A Gaussian blur is applied within padded eye regions. The initial comparison uses a 35% margin and sigma equal to 10% of eye-box size. The final version uses a 60% margin and sigma equal to 45% of eye-box size, with a two-pixel minimum sigma. Both padding and strength change, so the comparison is not an isolated blur-strength experiment. The stronger treatment intentionally removes considerable detail inside the padded region.
+
+An inverse transformation returns the treated pixels and their mask to the original scene. Pixels outside the mask are checked for exact equality with the original. The cat enters the same human-face detector. There is no condition that identifies its filename and forces zero detections or skips its results.
+
+### Original Processed and Final Output Images
+
+<p><img width="550" height="202" alt="image" src="https://github.com/user-attachments/assets/b04a7b99-b08f-4539-8860-7c10a47fd5a0" /></p>
+<p><img width="578" height="212" alt="image" src="https://github.com/user-attachments/assets/9d050bca-b76a-4c4e-ae7d-ddb71ee334a1" /></p>
+<p><img width="928" height="338" alt="image" src="https://github.com/user-attachments/assets/a1dd7136-aee4-47b1-986e-6f0cdb7d4299" /></p>
+<p><img width="574" height="594" alt="image" src="https://github.com/user-attachments/assets/765af173-b359-46d8-8a19-6411f0780f6a" /></p>
+
+---
+
+[Go back to the Project Map](#project-map) 
+
+---
+---
+
+## CSC510 Foundations of Artificial Intelligence
 Directory: [CSC510-CSU-Global](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/Portfolio-Projects/CSC510-CSU-Global)  
 
-Title: CubeSat Telemetry Anomaly-Detection and Diagnostic-Planning Assistant
+Title: CubeSat Telemetry Anomaly-Detection and Diagnostic-Planning Assistant  
+Grade: 100% | A
 
 ---
 ---

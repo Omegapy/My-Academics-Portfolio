@@ -1,0 +1,4 @@
+scene,reference_faces,selected_face_candidates,tp,fp,fn,precision,recall,f1,faces_with_eye_treatment,unresolved_face_candidates,selected_eye_centers,correct_eye_centers,incorrect_eye_centers,unmatched_reference_eye_centers,pairs_with_both_centers_correct,initial_fully_covered_reference_eyes,fully_covered_reference_eyes,reference_faces_with_both_eye_regions_covered,changed_pixels,treatment_pixels,outside_mask_unchanged
+eileen_collins,1,1,1,0,0,1.0,1.0,1.0,1,0,2,2,0,0,1,2,2,1,125130,125137,True
+sts133_arrival,6,6,6,0,0,1.0,1.0,1.0,6,0,12,4,8,8,1,10,12,6,23920,23923,True
+chelsea,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,True
