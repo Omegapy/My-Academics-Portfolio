@@ -21,6 +21,9 @@ The program applies an initial and revised adaptive thresholding scheme to both 
 
 The revised masks contain recognizable local regions around the mugs, reflections, embossed flowers, and shadows. Complete separation of both mugs from the background remains unresolved. The glossy black mug reflects surrounding objects, so some of its internal brightness changes come from reflections as well as shadows.
 
+Program Image outputs:  
+<img width="426" height="462" alt="image" src="https://github.com/user-attachments/assets/70ec363d-6c24-42aa-958d-a64ba69d76b2" />
+
 ---
 
 ## Assignment:

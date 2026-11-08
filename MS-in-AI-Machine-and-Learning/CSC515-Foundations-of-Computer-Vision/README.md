@@ -63,12 +63,95 @@ Requirements:
 
 #### Project Map  
 
+- Critical Thinking Module 6
 - Critical Thinking Module 5
 - Critical Thinking Module 4
 - Portfolio Milestone Module 3
 - Critical Thinking Module 2
 - Portfolio Milestone Module 1
 - Discussions
+
+---
+---
+
+## Critical Thinking Module 6
+Directory: [Critical-Thinking-Module-6](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Critical-Thinking-Module-6)   
+Title: Adaptive Thresholding Scheme Accounting for Changes in Illumination
+
+---
+---
+
+## Overview
+
+The program applies an initial and revised adaptive thresholding scheme to both supplied mug photographs. It saves the calculated results and provides a five-step terminal walkthrough. The Word explanation describes the same settings and measurements. It also explains a separate comparison of the intermediate adaptive settings used to assess the revision. The Appendix is reserved for terminal and figure screenshots and is currently empty.
+
+The revised masks contain recognizable local regions around the mugs, reflections, embossed flowers, and shadows. Complete separation of both mugs from the background remains unresolved. The glossy black mug reflects surrounding objects, so some of its internal brightness changes come from reflections as well as shadows.
+
+Program Image outputs:  
+<img width="426" height="462" alt="image" src="https://github.com/user-attachments/assets/70ec363d-6c24-42aa-958d-a64ba69d76b2" />
+
+---
+
+**Assignment:**
+
+Option #2: Adaptive Thresholding Scheme Accounting for Changes in Illumination. 
+Select two objects, one light and one dark. Put both objects on a flat surface. Illuminate the scene so that light comes from the direction of the light object. Take a picture of the scene.  Develop a suitable adaptive thresholding scheme to segment the image as best as you can. Now, change the direction of illumination by moving your light source so that the illumination is from the direction of the dark object. Again, take a picture of the scene.  Using this image, see whether your algorithm still works. If not, revise the algorithm to make it work.
+
+Next, write a 2-3 page (it can be more than 3 pages if needed) summary of your observed results. Include in your summary, the following:
+
+**Critical Thinking Assignment Deliverables**
+
+1. A single Word document
+
+* Identify your assignment choice in the title page
+    * Screenshots of resulting images and terminal output belong in the Appendix. The current document reserves this section for those captures.
+    * 2-3 pages in length (the paper can be more than 3 pages if necessary) to explain your Python program in a single Word document Note you can embed or attach images or/and diagrams if any were produced by your program, the Appendix will only hold the terminal output sections, including all images output by the matplotlib library
+    * Include at least two scholarly references in addition to the course textbook
+    * APA 7 format
+
+2. A single Python code file.
+
+* Original Image 1: light_white_mug_side.jpeg
+* Original Image 2: light_black_mug_side.jpeg
+
+
+---
+
+**The program**
+
+`Module6_CTA_Option2.py` reads both photographs from `org_images/`. Processing uses each full scene. The original photographs are preserved.
+
+Gaussian adaptive thresholding calculates a local threshold from a weighted neighborhood average minus C. With inverse thresholding, values at or below that threshold become white, or 255. The remaining pixels become black, or 0. The adaptive mask therefore selects locally dark regions, including some background and shadow regions (OpenCV, n.d.).
+
+The initial settings are `blockSize=31` and `C=5`. The revision uses `blockSize=101` and `C=10`. Both photographs receive the same revision, calculated from the same blurred grayscale input used by the initial scheme. The wider neighborhood produces more continuous regions around some boundaries, while the larger C requires a stronger local darkness difference for a fixed neighborhood average. Changing both parameters together shows the behavior of the revised scheme, but does not measure each parameter's effect separately.
+
+The revised adaptive mask is the final result. The cyan overlay marks its selected pixels on a copy of the color photograph without changing the mask.
+
+The black mug's glossy surface reflects objects around it like a curved mirror. Its bright and dark reflected patterns create local threshold changes inside the same physical mug. The white mug's embossed flowers also create real image structure. These details should not all be described as random noise. Local brightness alone does not identify which regions belong to a mug, a reflection, or the background.
+
+**Observed measurements**
+
+The program calculates white-pixel counts with `np.count_nonzero()` and connected-region counts with `cv2.connectedComponents(..., connectivity=8)`. Eight-connectivity treats white pixels sharing an edge or a corner as connected. The saved measurements describe the masks; they do not measure segmentation accuracy.
+
+| Measurement | Light from the white mug's side | Light from the black mug's side |
+| --- | ---: | ---: |
+| Original image, width × height | 2,134 × 1,765 | 2,222 × 1,543 |
+| Processed image, width × height | 1,000 × 827 | 1,000 × 694 |
+| Initial adaptive white pixels | 66,762 | 66,728 |
+| Revised adaptive white pixels | 96,910 | 93,428 |
+| Initial adaptive image coverage | 8.0728% | 9.6150% |
+| Revised adaptive image coverage | 11.7183% | 13.4622% |
+| Initial adaptive connected regions | 380 | 301 |
+| Revised adaptive connected regions | 150 | 149 |
+
+The revision produces fewer connected regions, while some boundaries become wider and some regions join. A smaller region count does not establish better segmentation. The photographs also differ in framing and image height, so their count differences cannot be attributed only to illumination. Both photographs were examined during development; neither is a held-out test image.
+
+---
+
+[Go back to the Project Map](#project-map)
+
+---
+---
 
 ## Critical Thinking Module 5
 Directory: [Critical-Thinking-Module-5](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Critical-Thinking-Module-5)   
@@ -108,7 +191,7 @@ Next, write a 2-3 page (it can be more than 3 pages if needed) summary of your o
     * Include at least two scholarly references in addition to the course textbook
     * APA 7 format
 
-2. A single Python code file.e.
+2. A single Python code file.
 
 ---
 
