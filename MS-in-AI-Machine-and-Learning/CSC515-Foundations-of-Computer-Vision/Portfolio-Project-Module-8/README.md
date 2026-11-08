@@ -54,6 +54,8 @@ Inspect your results and write a summary describing the techniques you used to d
 
 ---
 
+## Program Requirements
+
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![OpenCV 4.13.0](https://img.shields.io/badge/OpenCV-4.13.0-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
 [![NumPy 2.5.3](https://img.shields.io/badge/NumPy-2.5.3-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
@@ -100,7 +102,7 @@ A Gaussian blur is applied within padded eye regions. The initial comparison use
 
 An inverse transformation returns the treated pixels and their mask to the original scene. Pixels outside the mask are checked for exact equality with the original. The cat enters the same human-face detector. There is no condition that identifies its filename and forces zero detections or skips its results.
 
-### Original Process and Final Output Images
+### Original Processed and Final Output Images
 
 <p><img width="550" height="202" alt="image" src="https://github.com/user-attachments/assets/b04a7b99-b08f-4539-8860-7c10a47fd5a0" /></p>
 <p><img width="578" height="212" alt="image" src="https://github.com/user-attachments/assets/9d050bca-b76a-4c4e-ae7d-ddb71ee334a1" /></p>
