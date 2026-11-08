@@ -80,19 +80,20 @@ The program calculates white-pixel counts with `np.count_nonzero()` and connecte
 
 The revision produces fewer connected regions, while some boundaries become wider and some regions join. A smaller region count does not establish better segmentation. The photographs also differ in framing and image height, so their count differences cannot be attributed only to illumination. Both photographs were examined during development; neither is a held-out test image.
 
-## Program requirements
+---
+
+## Program Requirements
+
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![OpenCV 4.13.0](https://img.shields.io/badge/OpenCV-4.13.0-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
+[![NumPy 2.5.3](https://img.shields.io/badge/NumPy-2.5.3-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib 3.11.2](https://img.shields.io/badge/Matplotlib-3.11.2-11557C?style=flat&logo=python&logoColor=white)](https://matplotlib.org/)
 
 Use Python 3.12 with OpenCV, NumPy, and Matplotlib. The included `requirements.txt` pins the reference versions below. Only these three third-party libraries are needed; the remaining imports are part of Python's standard library.
 
-| Component | Reference version |
-| --- | --- |
-| Python | 3.12.13 |
-| OpenCV | 4.13.0 |
-| OpenCV package | `opencv-contrib-python==4.13.0.92` |
-| NumPy | 2.5.3 |
-| Matplotlib | 3.11.2 |
-
 The `opencv-contrib-python` package supplies the `cv2` import. Install only one OpenCV distribution in your environment. A working Matplotlib desktop backend is needed for the interactive windows; `--no-show` saves all results without a graphical display. The script prints the actual installed versions whenever it runs.
+
+---
 
 ## How to run the program
 
@@ -137,6 +138,8 @@ python Module6_CTA_Option2.py --no-show --output-dir ./my_results
 
 The default output folder is `mod_images/` beside the script. Running the program again replaces its matching generated output files in the selected destination. The original JPEGs in `org_images/` are preserved. Each run saves twelve processed images, five teaching figures, a four-row measurement CSV, and the complete five-step transcript.
 
+---
+
 ## Files map
 
 The map uses the original assignment folder name. All files shown are included; `mod_images/` contains saved example results that can be regenerated.
@@ -144,7 +147,7 @@ The map uses the original assignment folder name. All files shown are included; 
 ```text
 CTA_Module-6/
 ├── Module6_CTA_Option2.py
-├── Module6_CTA_Option2_Explanation.docx
+├── Module6_CTA_Option2_Explanation.pdf
 ├── README.md
 ├── requirements.txt
 ├── mod_images/
@@ -199,6 +202,8 @@ Each scene folder contains `resized_color.png`, `grayscale.png`, `blurred.png`, 
 | 3 | [03_black_side_thresholding.png](mod_images/figures/03_black_side_thresholding.png) | The same comparison for black-side illumination. |
 | 4 | [04_adaptive_revision.png](mod_images/figures/04_adaptive_revision.png) | Color scenes, initial adaptive masks, and revised adaptive masks for both photographs. |
 | 5 | [05_final_comparison.png](mod_images/figures/05_final_comparison.png) | Color scenes, revised adaptive masks, and cyan overlays. |
+
+---
 
 ## References
 
