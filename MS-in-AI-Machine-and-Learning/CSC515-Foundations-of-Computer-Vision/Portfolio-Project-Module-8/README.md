@@ -3,7 +3,7 @@
 **Program:** [Module8_Portfolio_Option2.py](Module8_Portfolio_Option2.py)  
 **Analysis:** [PDF Analysis](Module8_Portfolio_Option2_Analysis.pdf)
 
-**Date:** 11/08/2026
+**Date:** 11/08/2026. 
 **Grade:** Pending
 
 ---
@@ -21,7 +21,7 @@ The goal of this project is to write algorithms for face detection and feature b
 ---
 
 Foundations of Computer Vision CSC515   
-Professor: Dr. Bingdong Li 
+Professor: Dr. Bingdong Li   
 Fall C (26FC) – 2026   
 Student: Alexander (Alex) Ricciardi  
 
@@ -99,6 +99,13 @@ The first eye search uses `haarcascade_eye.xml`. When a plausible pair is not fo
 A Gaussian blur is applied within padded eye regions. The initial comparison uses a 35% margin and sigma equal to 10% of eye-box size. The final version uses a 60% margin and sigma equal to 45% of eye-box size, with a two-pixel minimum sigma. Both padding and strength change, so the comparison is not an isolated blur-strength experiment. The stronger treatment intentionally removes considerable detail inside the padded region.
 
 An inverse transformation returns the treated pixels and their mask to the original scene. Pixels outside the mask are checked for exact equality with the original. The cat enters the same human-face detector. There is no condition that identifies its filename and forces zero detections or skips its results.
+
+### Original Process and Final Output Images
+
+<p><img width="550" height="202" alt="image" src="https://github.com/user-attachments/assets/b04a7b99-b08f-4539-8860-7c10a47fd5a0" /></p>
+<p><img width="578" height="212" alt="image" src="https://github.com/user-attachments/assets/9d050bca-b76a-4c4e-ae7d-ddb71ee334a1" /></p>
+<p><img width="928" height="338" alt="image" src="https://github.com/user-attachments/assets/a1dd7136-aee4-47b1-986e-6f0cdb7d4299" /></p>
+<p><img width="574" height="594" alt="image" src="https://github.com/user-attachments/assets/765af173-b359-46d8-8a19-6411f0780f6a" /></p>
 
 ---
 
