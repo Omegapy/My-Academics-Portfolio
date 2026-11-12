@@ -76,7 +76,7 @@ Requirements:
 ---
 
 ## Critical Portfolio Module 8
-Directory: [Critical-Thinking-Module-8](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Portfolio-Project-Module-8)   
+Directory: [Portfolio-Project-Module-8](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Portfolio-Project-Module-8)   
 Title: Face Detection and Privacy
 
 ---
