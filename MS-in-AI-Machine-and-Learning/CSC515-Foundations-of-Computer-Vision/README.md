@@ -31,7 +31,7 @@ Professor: Dr. Binbong Li
 Fall C (26FC) – 2026   
 Student: Alexander (Alex) Ricciardi   
 
-Final grade: 
+Final grade: 100% | A
 
 ---
 
