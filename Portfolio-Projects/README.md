@@ -56,7 +56,7 @@ My Links:
 
 #### Project Course Portfolio Project
 
-- [CSC515-Foundations-of-Computer-Vision](#csc515-foundations-of-computer-vision)
+- [CSC515 Foundations of Computer Vision](#csc515-foundations-of-computer-vision)
 - [CSC510 Foundations of Artificial Intelligence](#csc510-foundations-of-artificial-intelligence)
 - [CSC506 Design and Analysis of Algorithms Course](#csc506-design-and-analysis-of-algorithms-course)
 - [CSC480 Computer Science Capstone](#csc480-computer-science-capstone)
@@ -78,11 +78,11 @@ My Links:
 ---
 ---
 
-## CSC510 Foundations of Artificial Intelligence
+## CSC515 Foundations of Computer Vision
 
 Directory: [CSC515-Foundations-of-Computer-Vision](https://github.com/Omegapy/My-Academics-Portfolio/tree/main/MS-in-AI-Machine-and-Learning/CSC515-Foundations-of-Computer-Vision/Portfolio-Project-Module-8)   
-Title: Face Detection and Privcy  
-Grade: 
+Title: Face Detection and Privacy  
+Grade: 100% | A
 
 ---
 ---
