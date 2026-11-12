@@ -4,7 +4,7 @@
 **Analysis:** [PDF Analysis](Module8_Portfolio_Option2_Analysis.pdf)
 
 **Date:** 11/08/2026  
-**Grade:** Pending
+**Grade:** 100% | A
 
 ---
 
